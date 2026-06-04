@@ -429,7 +429,11 @@ function scrollDeckTo(idx) {
     void el.feed.offsetWidth; // force reflow so the seek sticks
     el.feed.style.scrollSnapType = prevSnap;
   };
+  // Retry across a few frames/delays: iOS settles layout late (address-bar
+  // collapse, font swap) and would otherwise drop the seek back to card 0.
   requestAnimationFrame(() => requestAnimationFrame(seek));
+  setTimeout(seek, 120);
+  setTimeout(seek, 400);
 }
 
 function renderItems(items) {
@@ -464,28 +468,32 @@ function updateDeckIndicator(i) {
     el.deckDots.querySelectorAll(".dot").forEach((d, n) => d.classList.toggle("active", n === i));
   }
 }
-function setupDeck() {
+// preserve=true keeps the current card (e.g. on resize / address-bar collapse)
+// instead of snapping back to the first one.
+function setupDeck(preserve = false) {
   // Reading mode (swipe deck) for every story list on mobile — not link cards.
   const isDeck = !["link", "leaderboard"].includes(activeFeed().kind) && deckMQL.matches;
   el.feed.classList.toggle("deck", isDeck);
-  deckIndex = 0;
+  if (!preserve) deckIndex = 0;
   const cards = isDeck ? el.feed.querySelectorAll(".card") : [];
   if (!isDeck || cards.length < 2) {
+    deckIndex = 0;
     el.deckDots.innerHTML = "";
     el.deckDots.style.display = "none";
     return;
   }
+  deckIndex = Math.max(0, Math.min(deckIndex, cards.length - 1));
   el.deckDots.style.display = "flex";
   if (cards.length > DECK_DOTS_MAX) {
     el.deckDots.dataset.mode = "counter";
-    el.deckDots.innerHTML = `<span class="deck-counter">1 / ${cards.length}</span>`;
+    el.deckDots.innerHTML = `<span class="deck-counter">${deckIndex + 1} / ${cards.length}</span>`;
   } else {
     el.deckDots.dataset.mode = "dots";
     el.deckDots.innerHTML = Array.from(cards)
-      .map((_, i) => `<button type="button" class="dot${i === 0 ? " active" : ""}" data-i="${i}" aria-label="Card ${i + 1}"></button>`)
+      .map((_, i) => `<button type="button" class="dot${i === deckIndex ? " active" : ""}" data-i="${i}" aria-label="Card ${i + 1}"></button>`)
       .join("");
   }
-  el.feed.scrollLeft = 0;
+  if (deckIndex > 0) scrollDeckTo(deckIndex); else el.feed.scrollLeft = 0;
 }
 
 const LEADERBOARD_LINKS = [
@@ -737,9 +745,9 @@ el.deckDots.addEventListener("click", (e) => {
   const dot = e.target.closest(".dot");
   if (dot) el.feed.scrollTo({ left: Number(dot.dataset.i) * deckStep(), behavior: "smooth" });
 });
-deckMQL.addEventListener("change", setupDeck);
+deckMQL.addEventListener("change", () => setupDeck(true));
 let resizeT;
-window.addEventListener("resize", () => { clearTimeout(resizeT); resizeT = setTimeout(setupDeck, 150); });
+window.addEventListener("resize", () => { clearTimeout(resizeT); resizeT = setTimeout(() => setupDeck(true), 150); });
 
 // Reading font size
 el.fsUp.addEventListener("click", () => nudgeFontScale(0.1));

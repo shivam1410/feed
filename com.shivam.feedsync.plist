@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.shivam.feedsync</string>
+
+    <key>ProgramArguments</key>
+    <array>
+        <string>/usr/bin/python3</string>
+        <string>/Users/shivamhl/Shivam/Feed/sync.py</string>
+        <string>--push</string>
+    </array>
+
+    <key>WorkingDirectory</key>
+    <string>/Users/shivamhl/Shivam/Feed</string>
+
+    <!-- Run once daily at 19:00 (7 PM) local time. -->
+    <key>StartCalendarInterval</key>
+    <dict>
+        <key>Hour</key>
+        <integer>19</integer>
+        <key>Minute</key>
+        <integer>0</integer>
+    </dict>
+
+    <!-- Ensure the claude CLI and its deps are resolvable under launchd. -->
+    <key>EnvironmentVariables</key>
+    <dict>
+        <key>PATH</key>
+        <string>/Users/shivamhl/.local/bin:/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin</string>
+    </dict>
+
+    <key>StandardOutPath</key>
+    <string>/Users/shivamhl/Shivam/Feed/data/sync.log</string>
+    <key>StandardErrorPath</key>
+    <string>/Users/shivamhl/Shivam/Feed/data/sync.log</string>
+
+    <key>RunAtLoad</key>
+    <false/>
+</dict>
+</plist>

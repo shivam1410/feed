@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>AI &amp; Science — Live Feed</title>
+<link rel="stylesheet" href="styles.css?v=3" />
+</head>
+<body>
+  <div class="app">
+    <div class="scrim" id="scrim"></div>
+
+    <aside class="sidebar" id="sidebar">
+      <div class="brand">
+        <h1>AI &amp; Science</h1>
+        <span class="brand-sub">Live research feed</span>
+      </div>
+
+      <nav class="nav" id="nav" aria-label="Sources"></nav>
+
+      <section class="following">
+        <div class="following-head">
+          <h2>Following</h2>
+          <button id="catAll" type="button" class="linkbtn">All</button>
+        </div>
+        <p class="profile-hint">Pick categories to show on Home.</p>
+        <div id="categoryChips" class="chips"></div>
+
+        <details class="ai-settings">
+          <summary>Notion sync</summary>
+          <div class="ai-settings-body">
+            <input id="pNotionUrl" class="profile-input" type="url" placeholder="https://…workers.dev" />
+            <p class="hint">Your Notion key stays in the worker, never here. Leave blank to just star saves locally.</p>
+          </div>
+        </details>
+      </section>
+
+      <button id="refreshBtn" class="refresh" type="button">↻ Refresh now</button>
+    </aside>
+
+    <main class="content">
+      <header class="content-head">
+        <button class="menu-btn" id="menuBtn" type="button" aria-label="Open menu">☰</button>
+        <h2 id="sectionTitle">Home</h2>
+        <span id="meta" class="meta" aria-live="polite"></span>
+      </header>
+      <div id="feed" class="feed" aria-live="polite"></div>
+    </main>
+  </div>
+
+  <script src="feed.js?v=3"></script>
+</body>
+</html>

@@ -1,0 +1,18 @@
+# Secrets — never commit these
+.env
+.env.local
+*.local
+
+# Personal profile (interests/hobbies/goals) — keep local, not in a public repo
+sync.config.json
+
+# Python
+__pycache__/
+*.pyc
+
+# Logs / runtime
+data/sync.log
+.DS_Store
+
+# Note: data/latest.json, data/digest-*.json and stories/ ARE committed —
+# they are the content GitHub Pages publishes.

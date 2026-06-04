@@ -40,6 +40,7 @@ const S2_LIMIT = 40;
 const HOME_LIMIT = 20; // Home shows only the top-N most relevant (by score)
 
 const SEEN_KEY = (id) => `feed_seen_${id}_v1`;
+const POS_KEY = (id) => `feed_pos_${id}_v1`;
 const NOTION_URL_KEY = "feed_notion_url_v1";
 const SAVED_KEY = "feed_saved_v1";
 const CATS_KEY = "feed_cats_v1";
@@ -164,6 +165,18 @@ function loadSeen(id) {
 }
 function saveSeen(id) {
   try { localStorage.setItem(SEEN_KEY(id), JSON.stringify([...seen].slice(-500))); } catch { /* ignore */ }
+}
+
+/* ---------- reading position (resume the last story on reload) ---------- */
+function savePos(guid) {
+  if (!guid) return;
+  try { localStorage.setItem(POS_KEY(activeId), guid); } catch { /* ignore */ }
+}
+function loadPos(id) {
+  try { return localStorage.getItem(POS_KEY(id)) || ""; } catch { return ""; }
+}
+function headerOffset() {
+  return (document.querySelector(".content-head")?.offsetHeight || 64) + 8;
 }
 
 /* ---------- RSS / JSON parsing (for source tabs) ---------- */
@@ -372,15 +385,36 @@ function markSeenGuid(guid) {
   if (guid && !seen.has(guid)) { seen.add(guid); saveSeen(activeId); }
 }
 
-// In the swipe deck, jump to the first card you haven't seen yet (resume).
-function jumpToFirstUnseen(items) {
+// Resume where you left off: scroll back to the last story you were on
+// (saved per feed). Works for both the swipe deck and the desktop list.
+function restorePosition(items) {
   const cards = el.feed.querySelectorAll(".card");
   if (!cards.length) return;
-  let idx = items.findIndex((it) => it.guid && !seen.has(it.guid));
-  if (idx < 0) idx = 0; // all seen → start at the top
-  deckIndex = idx;
-  updateDeckIndicator(idx);
-  if (idx > 0) scrollDeckTo(idx);
+  const savedGuid = loadPos(activeId);
+  let idx = savedGuid ? items.findIndex((it) => it.guid === savedGuid) : -1;
+
+  if (el.feed.classList.contains("deck")) {
+    // Fall back to the first unseen card if there's no saved position.
+    if (idx < 0) idx = items.findIndex((it) => it.guid && !seen.has(it.guid));
+    if (idx < 0) idx = 0;
+    deckIndex = idx;
+    updateDeckIndicator(idx);
+    if (idx > 0) scrollDeckTo(idx);
+    return;
+  }
+
+  // List view: scroll the window to the saved card. No saved card → stay at top.
+  if (idx <= 0) return;
+  const targetGuid = items[idx].guid;
+  const seek = () => {
+    if (el.feed.classList.contains("deck")) return;
+    const card = [...el.feed.querySelectorAll(".card")]
+      .find((c) => c.getAttribute("data-guid") === targetGuid);
+    if (!card) return;
+    const top = card.getBoundingClientRect().top + window.scrollY - headerOffset();
+    window.scrollTo(0, Math.max(0, top));
+  };
+  requestAnimationFrame(() => requestAnimationFrame(seek));
 }
 
 // Restore deck scroll position reliably. iOS Safari resets a programmatic
@@ -404,16 +438,14 @@ function renderItems(items) {
   el.meta.textContent = "";
   firstLoad[activeId] = false;
   setupDeck();
-  if (el.feed.classList.contains("deck")) {
-    // Deck: mark seen as you swipe past cards (handled in the scroll listener);
-    // resume at the first unseen card.
-    jumpToFirstUnseen(items);
-  } else {
+  if (!el.feed.classList.contains("deck")) {
     // List view: treat everything shown as seen (baseline for NEW).
     let changed = false;
     items.forEach((it) => { if (it.guid && !seen.has(it.guid)) { seen.add(it.guid); changed = true; } });
     if (changed) saveSeen(activeId);
   }
+  // Deck marks seen as you swipe past cards (handled in the scroll listener).
+  restorePosition(items);
 }
 
 /* ---------- mobile swipe deck (Home) ---------- */
@@ -681,7 +713,25 @@ el.feed.addEventListener("scroll", () => {
     markSeenGuid(leaving && leaving.getAttribute("data-guid"));
     deckIndex = i;
     updateDeckIndicator(i);
+    const current = el.feed.querySelectorAll(".card")[i];
+    savePos(current && current.getAttribute("data-guid"));
   }
+}, { passive: true });
+
+// List view: remember the story currently at the top of the viewport.
+let posT;
+window.addEventListener("scroll", () => {
+  if (el.feed.classList.contains("deck")) return;
+  clearTimeout(posT);
+  posT = setTimeout(() => {
+    if (el.feed.classList.contains("deck")) return;
+    const line = headerOffset();
+    let current = null;
+    for (const c of el.feed.querySelectorAll(".card")) {
+      if (c.getBoundingClientRect().top - line <= 1) current = c; else break;
+    }
+    if (current) savePos(current.getAttribute("data-guid"));
+  }, 200);
 }, { passive: true });
 el.deckDots.addEventListener("click", (e) => {
   const dot = e.target.closest(".dot");

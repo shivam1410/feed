@@ -59,7 +59,7 @@ const el = {
 
 // Mobile Home shows cards as a horizontal swipe deck (one per screen + dots).
 const deckMQL = window.matchMedia("(max-width: 560px)");
-const DECK_GAP = 12;
+const DECK_GAP = 10;
 
 let isFetching = false;
 let activeId = localStorage.getItem("feed_active") || "home";

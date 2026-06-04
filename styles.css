@@ -131,7 +131,7 @@ a:hover { text-decoration: underline; }
   padding: 1px 9px;
 }
 
-button#saveProfile, .refresh {
+button#saveProfile {
   font: inherit;
   font-size: 13px;
   color: var(--text);
@@ -142,8 +142,7 @@ button#saveProfile, .refresh {
   cursor: pointer;
   margin-top: 6px;
 }
-button#saveProfile:hover, .refresh:hover { border-color: var(--accent); }
-.refresh { margin-top: auto; }
+button#saveProfile:hover { border-color: var(--accent); }
 
 /* ---------- content ---------- */
 

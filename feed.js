@@ -51,7 +51,6 @@ const el = {
   nav: document.getElementById("nav"),
   sectionTitle: document.getElementById("sectionTitle"),
   meta: document.getElementById("meta"),
-  refreshBtn: document.getElementById("refreshBtn"),
   menuBtn: document.getElementById("menuBtn"),
   navToggle: document.getElementById("navToggle"),
   scrim: document.getElementById("scrim"),
@@ -719,7 +718,6 @@ el.categoryChips.addEventListener("click", (e) => {
   if (chip) toggleCategory(chip.dataset.cat);
 });
 el.catAll.addEventListener("click", selectAllCategories);
-el.refreshBtn.addEventListener("click", load);
 el.menuBtn.addEventListener("click", openNav);
 el.navToggle.addEventListener("click", () => switchSource(el.navToggle.dataset.target || "home"));
 el.scrim.addEventListener("click", closeNav);

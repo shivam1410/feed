@@ -450,6 +450,34 @@ function renderItems(items) {
   restorePosition(items);
 }
 
+// A feed is "headline-only" when almost none of its items carry a summary
+// (e.g. a source whose article text is unavailable). Such feeds are tedious as
+// a one-card-per-screen carousel, so we show a scannable title-link list instead.
+function isHeadlineOnly(items) {
+  if (!items || !items.length) return false;
+  const withSummary = items.filter((it) => (it.summary || "").trim()).length;
+  return withSummary / items.length < 0.3;
+}
+
+function renderTitleList(items) {
+  renderedById = {};
+  el.feed.classList.remove("deck"); // not a carousel — a plain scannable list
+  el.deckDots.style.display = "none";
+  el.deckDots.innerHTML = "";
+  el.feed.innerHTML = `<div class="title-list">` + items.map((it) => {
+    const isNew = it.guid && !seen.has(it.guid);
+    return `<a class="title-row${isNew ? " is-new" : ""}" href="${safe(it.link)}" target="_blank" rel="noopener">
+      <span class="title-row-title">${lightMarkup(it.title)}</span>
+      <span class="title-row-meta">${it.date ? safe(fmtDate(it.date)) : ""}</span>
+    </a>`;
+  }).join("") + `</div>`;
+  el.meta.textContent = `${items.length} headlines`;
+  firstLoad[activeId] = false;
+  let changed = false; // everything shown counts as seen
+  items.forEach((it) => { if (it.guid && !seen.has(it.guid)) { seen.add(it.guid); changed = true; } });
+  if (changed) saveSeen(activeId);
+}
+
 /* ---------- mobile swipe deck (Home) ---------- */
 
 function deckStep() {
@@ -613,7 +641,8 @@ async function load() {
       renderItems(homeShown());
     } else {
       lastItems = await loadSourceItems(feed);
-      renderItems(lastItems);
+      if (isHeadlineOnly(lastItems)) renderTitleList(lastItems);
+      else renderItems(lastItems);
     }
   } catch (err) {
     if (!el.feed.querySelector(".card")) {

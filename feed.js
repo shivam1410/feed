@@ -356,7 +356,7 @@ function cardHTML(item, isNew) {
     ? `<img class="thumb" src="/img?url=${encodeURIComponent(item.image)}" data-orig="${safe(item.image)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="if(!this.dataset.fbk){this.dataset.fbk=1;this.src=this.dataset.orig}else{this.remove()}">`
     : "";
   return `
-    <article class="card${isNew ? " is-new" : ""}${(!body && !item.why) ? " no-body" : ""}" data-guid="${safe(item.guid)}">
+    <article class="card${isNew ? " is-new" : ""}" data-guid="${safe(item.guid)}">
       ${imgTag}
       <div class="card-body">
         <div class="card-head">

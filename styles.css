@@ -449,6 +449,15 @@ button#saveProfile:hover { border-color: var(--accent); }
     display: flex;
     flex-direction: column;
   }
+  /* Headline-only cards (no summary, e.g. DeepMind feed): don't stretch to a
+     full-height split — keep the content compact at the top of the card. */
+  .feed.deck > .card.no-body {
+    height: auto;
+    align-self: flex-start;
+    overflow-y: visible;
+  }
+  .feed.deck > .card.no-body > .card-body { flex: 0 0 auto; }
+  .feed.deck > .card.no-body .card-foot { margin-top: 14px; }
   .feed.deck .card-foot {
     margin-top: auto;
     padding-top: 12px;

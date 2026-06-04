@@ -42,8 +42,9 @@ CATEGORIES = [
     "Science & Society",
     "Chemistry & Materials",
 ]
-CATEGORIZE_CHUNK = 60  # items per LLM categorization call
-BRIEF_PER_CATEGORY = 4  # how many top stories per category get a full briefing
+CATEGORIZE_CHUNK = 60   # items per LLM categorization call
+BRIEF_PER_CATEGORY = 3  # top stories per category that get a full briefing
+BRIEF_GLOBAL_TOP = 22   # also brief the overall top-N by score (covers Home's top 20)
 BRIEF_BATCH = 12        # items per LLM briefing call
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -91,10 +92,11 @@ def html_to_text(raw: str) -> str:
 
 
 def parse_rss(data: bytes, source: str) -> list[dict]:
+    """Parse RSS 1.0/2.0 (<item>) and Atom (<entry>) feeds."""
     root = ET.fromstring(data)
     items: list[dict] = []
     for el in root.iter():
-        if _local(el.tag) != "item":
+        if _local(el.tag) not in ("item", "entry"):
             continue
         title = link = date = summary = guid = doi = image = ""
         authors: list[str] = []
@@ -102,27 +104,42 @@ def parse_rss(data: bytes, source: str) -> list[dict]:
             name, txt = _local(ch.tag), (ch.text or "").strip()
             if name == "title" and not title:
                 title = txt
-            elif name == "link" and txt:
-                link = txt
+            elif name == "link":
+                href = ch.get("href")  # Atom: <link href=... rel=...>
+                if href and ch.get("rel", "alternate") == "alternate":
+                    link = href
+                elif txt and not link:
+                    link = txt
             elif name == "creator":
                 authors.append(txt)
-            elif name in ("date", "pubDate") and not date:
+            elif name == "author":  # Atom: <author><name>…</name></author>
+                nm = next((( c.text or "").strip() for c in ch if _local(c.tag) == "name"), txt)
+                if nm:
+                    authors.append(nm)
+            elif name in ("date", "pubDate", "published", "updated") and not date:
                 date = txt
             elif name == "encoded":
                 summary = html_to_text(txt) or summary
-            elif name == "description" and not summary:
+            elif name in ("description", "summary") and not summary:
                 summary = html_to_text(txt)
-            elif name == "guid" and not guid:
+            elif name == "content":
+                if ch.get("url") and not image:  # media:content image
+                    image = ch.get("url")
+                elif not summary:  # Atom content (text/html)
+                    inner = txt or "".join(ET.tostring(c, encoding="unicode") for c in ch)
+                    summary = html_to_text(inner)
+            elif name == "thumbnail" and not image and ch.get("url"):
+                image = ch.get("url")
+            elif name in ("guid", "id") and not guid:
                 guid = txt
             elif name == "doi" and not doi:
                 doi = txt
-            elif name in ("thumbnail", "content") and not image and ch.get("url"):
-                image = ch.get("url")
         if not link:
             link = el.get("{http://www.w3.org/1999/02/22-rdf-syntax-ns#}about") or guid
         items.append({
             "guid": doi or guid or link, "title": title or "(untitled)", "link": link,
-            "authors": authors, "date": date, "summary": summary, "image": image, "source": source,
+            "authors": [a for a in authors if a], "date": date, "summary": summary,
+            "image": image, "source": source,
         })
     return items
 
@@ -157,8 +174,15 @@ def parse_s2(data: bytes, source: str) -> list[dict]:
     return out
 
 
-PARSERS = {"nature": parse_rss, "deepmind": parse_rss, "huggingface": parse_hf, "semanticscholar": parse_s2}
-SOURCE_NAMES = {"nature": "Nature", "deepmind": "DeepMind", "huggingface": "HF Trending Papers", "semanticscholar": "Semantic Scholar"}
+PARSERS = {
+    "nature": parse_rss, "deepmind": parse_rss, "huggingface": parse_hf, "semanticscholar": parse_s2,
+    "arxiv": parse_rss, "latentspace": parse_rss, "simonw": parse_rss,
+}
+SOURCE_NAMES = {
+    "nature": "Nature", "deepmind": "DeepMind", "huggingface": "HF Trending Papers",
+    "semanticscholar": "Semantic Scholar", "arxiv": "arXiv (cs.LG)",
+    "latentspace": "Latent Space", "simonw": "Simon Willison",
+}
 
 
 def gather_by_source() -> dict[str, list[dict]]:
@@ -267,10 +291,12 @@ def brief_top(items: list[dict], cfg: dict) -> list[dict]:
     by_cat: dict[str, list[int]] = {}
     for idx, it in enumerate(items):
         by_cat.setdefault(it.get("category", "Other"), []).append(idx)
-    to_brief: list[int] = []
-    for idxs in by_cat.values():
-        ranked = sorted(idxs, key=lambda i: items[i].get("score") or 0, reverse=True)
-        to_brief.extend(ranked[:BRIEF_PER_CATEGORY])
+    chosen: set[int] = set()
+    for idxs in by_cat.values():  # top per category (for category filtering)
+        chosen.update(sorted(idxs, key=lambda i: items[i].get("score") or 0, reverse=True)[:BRIEF_PER_CATEGORY])
+    # global top by score (so Home's top-N are all briefed)
+    chosen.update(sorted(range(len(items)), key=lambda i: items[i].get("score") or 0, reverse=True)[:BRIEF_GLOBAL_TOP])
+    to_brief: list[int] = sorted(chosen)
 
     for start in range(0, len(to_brief), BRIEF_BATCH):
         batch = to_brief[start:start + BRIEF_BATCH]

@@ -37,6 +37,9 @@ FEEDS = {
         "?query=artificial+intelligence&sort=publicationDate:desc"
         "&fields=title,abstract,url,authors,publicationDate,venue"
     ),
+    "arxiv": "https://rss.arxiv.org/rss/cs.LG",
+    "latentspace": "https://www.latent.space/feed",
+    "simonw": "https://simonwillison.net/atom/everything/",
 }
 
 # Claude CLI model tier -> alias accepted by `claude --model`.
@@ -46,7 +49,13 @@ MODEL_TIERS = {"haiku": "haiku", "sonnet": "sonnet", "opus": "opus"}
 IMAGE_HOSTS = ("googleusercontent.com", "huggingface.co", "nature.com", "springernature.com")
 MAX_IMAGE_BYTES = 8 * 1024 * 1024
 
-PORT = int(sys.argv[1]) if len(sys.argv) > 1 else 4173
+def resolve_port() -> int:
+    # Parsed only when run as a server; importing this module (e.g. from sync.py
+    # invoked with flags like --push) must NOT try to int() those args.
+    try:
+        return int(sys.argv[1])
+    except (IndexError, ValueError):
+        return 4173
 
 
 def find_claude() -> str | None:
@@ -269,6 +278,7 @@ class Handler(SimpleHTTPRequestHandler):
 
 
 if __name__ == "__main__":
+    PORT = resolve_port()
     print(f"Live feed running at http://localhost:{PORT}")
     print("Sources:", ", ".join(FEEDS))
     print("Curation CLI:", find_claude() or "NOT FOUND (Smart picks disabled)")

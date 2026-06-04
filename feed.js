@@ -19,6 +19,9 @@ const FEEDS = [
     note: "Papers With Code was discontinued — the domain now redirects to Hugging Face Papers, so it has no independent feed. Use HF Trending Papers for the same content.",
   },
   { id: "semanticscholar", name: "Semantic Scholar", kind: "s2", link: "https://www.semanticscholar.org/" },
+  { id: "arxiv", name: "arXiv (cs.LG)", kind: "rss" },
+  { id: "latentspace", name: "Latent Space", kind: "rss" },
+  { id: "simonw", name: "Simon Willison", kind: "rss" },
   {
     id: "connectedpapers", name: "Connected Papers", kind: "link",
     link: "https://www.connectedpapers.com/",
@@ -33,7 +36,7 @@ const DEFAULT_CATEGORIES = [
   "Robotics & Engineering", "Science & Society", "Chemistry & Materials",
 ];
 const S2_LIMIT = 40;
-const HOME_LIMIT = 15; // Home shows only the top-N most relevant (by score)
+const HOME_LIMIT = 20; // Home shows only the top-N most relevant (by score)
 
 const SEEN_KEY = (id) => `feed_seen_${id}_v1`;
 const NOTION_URL_KEY = "feed_notion_url_v1";
@@ -243,6 +246,9 @@ function upstreamUrl(feed) {
     case "huggingface": return "https://huggingface.co/api/daily_papers";
     case "semanticscholar":
       return "https://api.semanticscholar.org/graph/v1/paper/search/bulk?query=artificial+intelligence&sort=publicationDate:desc&fields=title,abstract,url,authors,publicationDate,venue";
+    case "arxiv": return "https://rss.arxiv.org/rss/cs.LG";
+    case "latentspace": return "https://www.latent.space/feed";
+    case "simonw": return "https://simonwillison.net/atom/everything/";
     default: return feed.link || "";
   }
 }

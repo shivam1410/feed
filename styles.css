@@ -342,6 +342,23 @@ button#saveProfile:hover, .refresh:hover { border-color: var(--accent); }
 
 .link-card .summary { -webkit-line-clamp: unset; }
 
+/* leaderboard */
+.lb-table { display: flex; flex-direction: column; gap: 8px; margin-bottom: 18px; }
+.lb-row {
+  display: flex; align-items: center; gap: 10px;
+  padding: 10px 12px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  color: var(--text);
+}
+.lb-row:hover { border-color: var(--accent); text-decoration: none; }
+.lb-rank { width: 22px; flex-shrink: 0; text-align: center; font-weight: 700; color: var(--text-dim); }
+.lb-model { flex: 1; min-width: 0; font-weight: 600; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.lb-task { display: block; font-size: 11px; font-weight: 400; color: var(--text-dim); }
+.lb-stat { flex-shrink: 0; font-size: 12px; color: var(--text-dim); white-space: nowrap; }
+.lb-heading { margin: 4px 0 10px; font-size: 14px; color: var(--text-dim); font-weight: 600; }
+
 /* ---------- banners / states ---------- */
 
 .curate-banner {

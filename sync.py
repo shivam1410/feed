@@ -52,6 +52,7 @@ DATA_DIR = os.path.join(HERE, "data")
 STORIES_DIR = os.path.join(HERE, "stories")
 CONFIG_PATH = os.path.join(HERE, "sync.config.json")
 SOURCE_FEED_CAP = 50  # how many items per source to publish for its tab
+LEADERBOARD_URL = "https://huggingface.co/api/models?sort=trendingScore&direction=-1&limit=10"
 
 
 def log(msg: str) -> None:
@@ -411,6 +412,30 @@ def write_outputs(items: list[dict], by_source: dict, cfg: dict) -> None:
     log(f"wrote feed.json ({len(items)} items), {len(by_source)} source files, {len(md_paths)} story MD, metadata.json, feed.db")
 
 
+def write_leaderboard() -> None:
+    """Write the top-10 trending Hugging Face models for the Leaderboard tab."""
+    try:
+        rows = json.loads(fetch(LEADERBOARD_URL))
+    except Exception as err:  # leaderboard is optional — never sink the run
+        log(f"leaderboard: fetch failed ({err})")
+        return
+    models = [
+        {
+            "id": r.get("id"), "task": r.get("pipeline_tag"),
+            "likes": r.get("likes"), "downloads": r.get("downloads"),
+            "url": f"https://huggingface.co/{r.get('id')}",
+        }
+        for r in (rows if isinstance(rows, list) else [])[:10]
+        if r.get("id")
+    ]
+    os.makedirs(DATA_DIR, exist_ok=True)
+    write_json(os.path.join(DATA_DIR, "leaderboard.json"), {
+        "generatedAt": datetime.datetime.now().astimezone().isoformat(timespec="seconds"),
+        "source": "Hugging Face — trending models", "models": models,
+    })
+    log(f"wrote leaderboard.json ({len(models)} models)")
+
+
 def git_publish() -> int:
     """Commit and push generated content. Used by the scheduled job with --push."""
     if not os.path.isdir(os.path.join(HERE, ".git")):
@@ -487,6 +512,7 @@ def main() -> int:
     log(f"briefed {sum(1 for it in categorized if it.get('briefed'))} top stories")
 
     write_outputs(categorized, by_source, cfg)
+    write_leaderboard()
     stamp_today()  # mark today's run complete (for --catchup)
 
     if args.push:

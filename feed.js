@@ -10,6 +10,7 @@
 const FEEDS = [
   { id: "home", name: "Home", kind: "home" },
   { id: "saved", name: "★ Saved", kind: "saved" },
+  { id: "leaderboard", name: "🏆 Leaderboard", kind: "leaderboard" },
   { id: "nature", name: "Nature", kind: "rss" },
   { id: "deepmind", name: "DeepMind", kind: "rss" },
   { id: "huggingface", name: "HF Trending Papers", kind: "hf" },
@@ -414,7 +415,7 @@ function updateDeckIndicator(i) {
 }
 function setupDeck() {
   // Reading mode (swipe deck) for every story list on mobile — not link cards.
-  const isDeck = activeFeed().kind !== "link" && deckMQL.matches;
+  const isDeck = !["link", "leaderboard"].includes(activeFeed().kind) && deckMQL.matches;
   el.feed.classList.toggle("deck", isDeck);
   deckIndex = 0;
   const cards = isDeck ? el.feed.querySelectorAll(".card") : [];
@@ -434,6 +435,57 @@ function setupDeck() {
       .join("");
   }
   el.feed.scrollLeft = 0;
+}
+
+const LEADERBOARD_LINKS = [
+  { name: "LMArena (Chatbot Arena)", url: "https://lmarena.ai/leaderboard", note: "Human-vote Elo rankings across chat models." },
+  { name: "Artificial Analysis", url: "https://artificialanalysis.ai/", note: "Quality vs cost vs speed — the practical engineering view." },
+  { name: "HF Open LLM Leaderboard", url: "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard", note: "Open models on standard academic benchmarks." },
+  { name: "Aider LLM Leaderboard", url: "https://aider.chat/docs/leaderboards/", note: "Real-world code-editing ability." },
+  { name: "SWE-bench", url: "https://www.swebench.com/", note: "Resolving real GitHub issues — agentic coding." },
+];
+
+function fmtNum(n) {
+  if (typeof n !== "number") return "—";
+  if (n >= 1e6) return (n / 1e6).toFixed(n >= 1e7 ? 0 : 1) + "M";
+  if (n >= 1e3) return (n / 1e3).toFixed(n >= 1e4 ? 0 : 1) + "k";
+  return String(n);
+}
+
+async function renderLeaderboard() {
+  el.sectionTitle.textContent = "Leaderboard";
+  el.meta.textContent = "";
+  let data = null;
+  try {
+    const res = await fetchWithTimeout("data/leaderboard.json", 5000);
+    if (res.ok) data = await res.json();
+  } catch { /* show links only */ }
+
+  let html = "";
+  if (data && Array.isArray(data.models) && data.models.length) {
+    const when = data.generatedAt ? new Date(data.generatedAt).toLocaleString() : "";
+    html += `<div class="curate-banner">🏆 Top trending models on Hugging Face${when ? " · " + safe(when) : ""}</div>`;
+    html += '<div class="lb-table">' + data.models.map((m, i) => `
+      <a class="lb-row" href="${safe(m.url)}" target="_blank" rel="noopener">
+        <span class="lb-rank">${i + 1}</span>
+        <span class="lb-model">${safe(m.id)}${m.task ? `<span class="lb-task">${safe(m.task)}</span>` : ""}</span>
+        <span class="lb-stat" title="likes">❤ ${fmtNum(m.likes)}</span>
+        <span class="lb-stat" title="downloads">⬇ ${fmtNum(m.downloads)}</span>
+      </a>`).join("") + "</div>";
+  } else {
+    html += `<div class="curate-banner warn">Live model data isn't generated yet (runs with the daily job). The leaderboards below are always live.</div>`;
+  }
+  html += `<h3 class="lb-heading">Compare on the canonical leaderboards</h3>`;
+  html += LEADERBOARD_LINKS.map((l) => `
+    <article class="card link-card">
+      <div class="card-body">
+        <div class="card-head"><h3>${safe(l.name)}</h3></div>
+        <p class="summary">${safe(l.note)}</p>
+        <div class="card-foot"><a class="source-link" href="${safe(l.url)}" target="_blank" rel="noopener">Open ↗</a></div>
+      </div>
+    </article>`).join("");
+  el.feed.innerHTML = html;
+  setupDeck(); // leaderboard is not a deck — this clears any deck state
 }
 
 function renderLinkCard(feed) {
@@ -456,6 +508,7 @@ async function load() {
   el.sectionTitle.textContent = feed.name;
 
   if (feed.kind === "link") return renderLinkCard(feed);
+  if (feed.kind === "leaderboard") return renderLeaderboard();
 
   if (feed.kind === "saved") {
     const items = loadSaved();
@@ -519,8 +572,9 @@ function switchSource(id) {
 function renderNav() {
   const item = (f) =>
     `<button type="button" class="nav-item${f.id === activeId ? " active" : ""}" data-id="${f.id}">${safe(f.name)}</button>`;
-  const top = FEEDS.filter((f) => f.kind === "home" || f.kind === "saved").map(item).join("");
-  const rest = FEEDS.filter((f) => f.kind !== "home" && f.kind !== "saved").map(item).join("");
+  const isTop = (f) => ["home", "saved", "leaderboard"].includes(f.kind);
+  const top = FEEDS.filter(isTop).map(item).join("");
+  const rest = FEEDS.filter((f) => !isTop(f)).map(item).join("");
   el.nav.innerHTML = top + '<div class="nav-sep">Sources</div>' + rest;
 }
 

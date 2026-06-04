@@ -96,7 +96,7 @@ async function toggleSave(item, btn) {
   if (idx >= 0) {
     saved.splice(idx, 1);
     localStorage.setItem(SAVED_KEY, JSON.stringify(saved));
-    btn.textContent = "☆ Save";
+    btn.textContent = "☆ Save to Notion";
     btn.classList.remove("saved");
     return;
   }
@@ -107,19 +107,33 @@ async function toggleSave(item, btn) {
   };
   saved.unshift(record);
   localStorage.setItem(SAVED_KEY, JSON.stringify(saved.slice(0, 1000)));
-  btn.textContent = "★ Saved";
   btn.classList.add("saved");
+
   const url = notionUrl();
-  if (url) {
-    btn.textContent = "★ Saving…";
-    try {
-      const res = await fetchWithTimeout(url, 15000, {
-        method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify(record),
-      });
-      btn.textContent = res.ok ? "★ In Notion" : "★ Saved (Notion failed)";
-    } catch {
-      btn.textContent = "★ Saved (offline)";
-    }
+  if (!url) { btn.textContent = "★ Saved"; return; }
+
+  btn.textContent = "Saving…";
+  // Shape the payload the Apps Script / Notion endpoint expects.
+  const payload = {
+    title: item.title,
+    tags: [item.category].filter(Boolean),
+    source: [item.source, item.link].filter(Boolean).join(" · "),
+    content: item.summary || "",
+  };
+  if (item.authors && item.authors.length) payload.writer = item.authors;
+  try {
+    // Apps Script can't return CORS headers, so this is a fire-and-forget
+    // "simple" request (text/plain → no preflight); response is opaque, so we
+    // mark saved optimistically.
+    await fetch(url, {
+      method: "POST",
+      mode: "no-cors",
+      headers: { "Content-Type": "text/plain;charset=utf-8" },
+      body: JSON.stringify(payload),
+    });
+    btn.textContent = "✓ Saved to Notion";
+  } catch {
+    btn.textContent = "★ Saved (send failed)";
   }
 }
 
@@ -297,6 +311,7 @@ function cardHTML(item, isNew) {
   const showOrig = briefed && orig && orig !== body;
   const hasMore = briefed ? showOrig : body.length > 220;
   const saved = isSaved(item.guid);
+  const canSave = !!notionUrl(); // show Save only when a Notion endpoint is configured
   const imgTag = item.image
     ? `<img class="thumb" src="/img?url=${encodeURIComponent(item.image)}" data-orig="${safe(item.image)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="if(!this.dataset.fbk){this.dataset.fbk=1;this.src=this.dataset.orig}else{this.remove()}">`
     : "";
@@ -318,7 +333,7 @@ function cardHTML(item, isNew) {
         ${hasMore ? `<button type="button" class="readmore" data-more="${briefed ? "Source abstract ▾" : "Read more ▾"}" data-less="Show less ▴">${briefed ? "Source abstract ▾" : "Read more ▾"}</button>` : ""}
         <div class="card-foot">
           ${foot.map((f) => `<span class="authors">${safe(f)}</span>`).join("")}
-          <button type="button" class="save-btn${saved ? " saved" : ""}">${saved ? "★ Saved" : "☆ Save"}</button>
+          ${canSave ? `<button type="button" class="save-btn${saved ? " saved" : ""}">${saved ? "✓ Saved to Notion" : "☆ Save to Notion"}</button>` : ""}
           <a class="source-link" href="${safe(item.link)}" target="_blank" rel="noopener">Open ↗</a>
         </div>
       </div>

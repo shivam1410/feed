@@ -489,6 +489,7 @@ el.menuBtn.addEventListener("click", openNav);
 el.scrim.addEventListener("click", closeNav);
 el.pNotionUrl.addEventListener("change", () => {
   try { localStorage.setItem(NOTION_URL_KEY, el.pNotionUrl.value.trim()); } catch { /* ignore */ }
+  load(); // re-render so Save buttons appear/disappear immediately
 });
 
 document.body.addEventListener("click", (e) => {

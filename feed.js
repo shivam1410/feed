@@ -423,14 +423,20 @@ function restorePosition(items) {
 function scrollDeckTo(idx) {
   const seek = () => {
     if (!el.feed.classList.contains("deck")) return;
+    const cards = el.feed.querySelectorAll(".card");
+    const target = cards[idx];
+    if (!target || !cards[0]) return;
+    // Exact pixel offset of the card — robust against gap/padding rounding,
+    // unlike index × step which can drift and let snap land back on card 0.
+    const left = target.offsetLeft - cards[0].offsetLeft;
     const prevSnap = el.feed.style.scrollSnapType;
     el.feed.style.scrollSnapType = "none";
-    el.feed.scrollLeft = idx * deckStep();
+    el.feed.scrollLeft = left;
     void el.feed.offsetWidth; // force reflow so the seek sticks
     el.feed.style.scrollSnapType = prevSnap;
   };
-  // Retry across a few frames/delays: iOS settles layout late (address-bar
-  // collapse, font swap) and would otherwise drop the seek back to card 0.
+  // Retry across a few frames/delays: mobile browsers settle layout late
+  // (address-bar collapse, font swap) and would otherwise drop the seek.
   requestAnimationFrame(() => requestAnimationFrame(seek));
   setTimeout(seek, 120);
   setTimeout(seek, 400);

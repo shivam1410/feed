@@ -5,10 +5,10 @@ source: "Simon Willison"
 url: "https://simonwillison.net/2026/May/26/the-pressure/#atom-everything"
 authors: []
 date: "2026-05-26T23:48:45+00:00"
-score: 55
+score: 65
 guid: "https://simonwillison.net/2026/May/26/the-pressure/#atom-everything"
 image: ""
-generated: "2026-06-04T19:29:25+05:30"
+generated: "2026-06-05T02:55:12+05:30"
 ---
 
 The pressure Daniel Stenberg on the unprecedented level of pressure the curl team are facing right now thanks to the deluge of (credible) AI-assisted security issues being reported. The rate of incoming security reports is 4-5 times higher than it was in 2024 and double the speed of 2025 -- meaning that on average we now get more than one report per day . The quality is way higher than ever before. The reports are typically very detailed and long. [...] For the first time in my life, my wife voiced concerns about my work hours and my imbalanced work/life situation. I work more than I’ve done before, but the flood keeps coming. [...] This is a never-before seen or experienced pressure on the curl project and its security team members. An avalanche of high priority work that trumps all other things in the project that is primarily mental because we certainly could ignore them all if we wanted, but we feel a responsibility, we have a conscience and we are proud about our work. The good news is that curl is a very solid piece of software, so the vulnerabilities people are finding tend not to be of high severity: What is also a good trend: almost no one finds terrible vulnerabilities. All vulnerabilities found the last few years in curl have all been deemed severity LOW or MEDIUM. I'm not saying there won't be any more HIGH ever, but at least they are rare. The most recent severity high curl CVE was published in October 2023. Via Lobste.rs Tags: curl , security , ai , generative-ai , llms , daniel-stenberg , ai-ethics , ai-security-research

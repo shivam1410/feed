@@ -5,10 +5,10 @@ source: "arXiv (cs.LG)"
 url: "https://arxiv.org/abs/2606.04028"
 authors: ["Andrew Fitzgibbon, Christoph M. Wintersteiger, Jeffrey Sarnoff"]
 date: "Thu, 04 Jun 2026 00:00:00 -0400"
-score: 60
+score: 45
 guid: "oai:arXiv.org:2606.04028v1"
 image: ""
-generated: "2026-06-04T19:29:25+05:30"
+generated: "2026-06-05T02:55:12+05:30"
 ---
 
 arXiv:2606.04028v1 Announce Type: new Abstract: The IEEE P3109 draft standard defines a parameterized family of binary floating-point formats and associated operations, with a focus on facilitating machine learning. These formats allow efficient and consistent representation of values in a small number of bits. The defined formats are parameterized over width and precision in bits, signedness, and the presence of infinities. Operations are defined by decoding floating-point values to the set of closed extended reals: the reals augmented with positive and negative infinity and NaN (Not a Number). Explicit treatment of NaN and infinite operands ensures that only real arithmetic is invoked in operation definitions. Extensive rounding and saturation modes are defined; stochastic rounding is included. Operations are exception-free, accelerating throughput, with exceptional situations communicated through return values, e.g., NaN. Operations on blocks of values sharing a common scale factor are defined in terms of the underlying operations in a uniform manner. System vendors may describe approximate implementations via a novel scale-invariant measure, akin to units in the last place, called kappa-approximation. Standard function definitions and various other properties are mechanically verified and generated using formal specifications.

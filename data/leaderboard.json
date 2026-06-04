@@ -1,106 +1,106 @@
 {
-  "generatedAt": "2026-06-04T22:39:27+05:30",
+  "generatedAt": "2026-06-05T02:55:44+05:30",
   "source": "Hugging Face — trending models",
   "models": [
     {
       "id": "nvidia/LocateAnything-3B",
       "task": "image-text-to-text",
-      "likes": 1246,
+      "likes": 1268,
       "downloads": 91834,
       "library": "transformers",
       "createdAt": "2026-03-02T20:05:49.000Z",
       "url": "https://huggingface.co/nvidia/LocateAnything-3B",
-      "summary": "Vision-language model for fast, high-quality visual grounding and object localization using parallel box decoding."
+      "summary": "Vision-language grounding model that localizes and detects objects in images using parallel box decoding for efficiency."
     },
     {
       "id": "LiquidAI/LFM2.5-8B-A1B",
       "task": "text-generation",
-      "likes": 497,
+      "likes": 506,
       "downloads": 72114,
       "library": "transformers",
       "createdAt": "2026-05-28T09:43:54.000Z",
       "url": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B",
-      "summary": "Efficient on-device text model (8.3B params, 1.5B active) for agent tool-calling and instruction following with fast inference."
+      "summary": "Hybrid MoE text model with 8.3B total / 1.5B active parameters optimized for on-device and edge deployment."
     },
     {
       "id": "google/gemma-4-12B-it",
       "task": "any-to-any",
-      "likes": 361,
+      "likes": 391,
       "downloads": 14866,
       "library": "transformers",
       "createdAt": "2026-05-23T01:17:15.000Z",
       "url": "https://huggingface.co/google/gemma-4-12B-it",
-      "summary": "Multimodal encoder-free model handling text, audio, image, and video with 256K context for coding and reasoning."
+      "summary": "Multimodal instruction-tuned model supporting text, image, audio, and video with 256K context across 140+ languages."
     },
     {
       "id": "HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
       "task": "image-text-to-text",
-      "likes": 1386,
+      "likes": 1396,
       "downloads": 2646756,
       "library": null,
       "createdAt": "2026-04-17T00:15:26.000Z",
       "url": "https://huggingface.co/HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
-      "summary": "Uncensored multimodal Qwen3.6 model (35B MoE) without safety refusals for aggressive, fully-unlocked operation."
-    },
-    {
-      "id": "openbmb/MiniCPM5-1B",
-      "task": "text-generation",
-      "likes": 764,
-      "downloads": 79427,
-      "library": "transformers",
-      "createdAt": "2026-05-21T07:27:59.000Z",
-      "url": "https://huggingface.co/openbmb/MiniCPM5-1B",
-      "summary": "1B-parameter dense model for on-device deployment with hybrid reasoning, tool-calling, and agentic task capabilities."
-    },
-    {
-      "id": "stepfun-ai/Step-3.7-Flash",
-      "task": "image-text-to-text",
-      "likes": 247,
-      "downloads": 22715,
-      "library": "transformers",
-      "createdAt": "2026-05-23T02:13:46.000Z",
-      "url": "https://huggingface.co/stepfun-ai/Step-3.7-Flash",
-      "summary": "Sparse 198B multimodal MoE model with 11B active parameters, 256K context, and selectable reasoning levels for agent workflows."
-    },
-    {
-      "id": "google/gemma-4-12B",
-      "task": "any-to-any",
-      "likes": 239,
-      "downloads": 1978,
-      "library": "transformers",
-      "createdAt": "2026-05-23T02:43:54.000Z",
-      "url": "https://huggingface.co/google/gemma-4-12B",
-      "summary": "Multimodal encoder-free base model handling text, audio, image, and video with 256K context across 140+ languages."
+      "summary": "Uncensored MoE vision-language model based on Qwen3.6-35B with no refusals for text and image understanding."
     },
     {
       "id": "unsloth/gemma-4-12b-it-GGUF",
       "task": "image-text-to-text",
-      "likes": 240,
+      "likes": 268,
       "downloads": 62850,
       "library": null,
       "createdAt": "2026-05-29T11:25:59.000Z",
       "url": "https://huggingface.co/unsloth/gemma-4-12b-it-GGUF",
-      "summary": "Quantized GGUF version of Gemma 4 12B for local inference with multimodal (text, audio, image, video) capabilities."
+      "summary": "GGUF-quantized Gemma 4 12B multimodal model for efficient local deployment with text and image understanding."
+    },
+    {
+      "id": "google/gemma-4-12B",
+      "task": "any-to-any",
+      "likes": 259,
+      "downloads": 1978,
+      "library": "transformers",
+      "createdAt": "2026-05-23T02:43:54.000Z",
+      "url": "https://huggingface.co/google/gemma-4-12B",
+      "summary": "Pre-trained multimodal model supporting text, image, audio, and video inputs with 256K context and 12B parameters."
+    },
+    {
+      "id": "openbmb/MiniCPM5-1B",
+      "task": "text-generation",
+      "likes": 766,
+      "downloads": 79427,
+      "library": "transformers",
+      "createdAt": "2026-05-21T07:27:59.000Z",
+      "url": "https://huggingface.co/openbmb/MiniCPM5-1B",
+      "summary": "1B dense language model optimized for on-device deployment with tool-calling, reasoning, and code generation capabilities."
+    },
+    {
+      "id": "stepfun-ai/Step-3.7-Flash",
+      "task": "image-text-to-text",
+      "likes": 249,
+      "downloads": 22715,
+      "library": "transformers",
+      "createdAt": "2026-05-23T02:13:46.000Z",
+      "url": "https://huggingface.co/stepfun-ai/Step-3.7-Flash",
+      "summary": "Sparse 198B MoE vision-language model with 256K context, 11B active parameters, and variable reasoning levels."
     },
     {
       "id": "sapientinc/HRM-Text-1B",
       "task": "text-generation",
-      "likes": 593,
+      "likes": 607,
       "downloads": 157457,
       "library": "transformers",
       "createdAt": "2026-05-17T15:13:02.000Z",
       "url": "https://huggingface.co/sapientinc/HRM-Text-1B",
-      "summary": "1B-parameter pre-alignment model using hierarchical dual-timescale reasoning; requires fine-tuning for chat or assistant use."
+      "summary": "1B pre-trained language model using hierarchical reasoning architecture with dual-timescale computation, not instruction-tuned."
     },
     {
       "id": "JetBrains/Mellum2-12B-A2.5B-Thinking",
       "task": "text-generation",
-      "likes": 196,
+      "likes": 199,
       "downloads": 12157,
       "library": "transformers",
       "createdAt": "2026-05-26T09:12:25.000Z",
       "url": "https://huggingface.co/JetBrains/Mellum2-12B-A2.5B-Thinking",
-      "summary": "Reasoning-augmented 12B MoE model with explicit chain-of-thought blocks for complex multi-step planning, math, and debugging."
+      "summary": "MoE reasoning model with 12B total / 2.5B active parameters that emits explicit chain-of-thought before answers."
     }
   ]
 }

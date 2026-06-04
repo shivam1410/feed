@@ -8,7 +8,7 @@ date: "Sun, 17 May 2026 19:43:45 +0000"
 score: 5
 guid: "https://deepmind.google/blog/introducing-google-antigravity-2-0/"
 image: ""
-generated: "2026-06-04T19:29:25+05:30"
+generated: "2026-06-05T02:55:12+05:30"
 ---
 
 

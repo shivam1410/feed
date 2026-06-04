@@ -8,7 +8,7 @@ date: "2026-06-03"
 score: 75
 guid: "10.1038/s41586-026-10589-2"
 image: ""
-generated: "2026-06-04T19:29:25+05:30"
+generated: "2026-06-05T02:55:12+05:30"
 ---
 
-Scientists developed improved fractionation strategies to identify antibiotics with novel mechanisms and scaffolds. Manikomycin, isolated from Streptomyces rimosus, exemplifies this success by binding to the E-site of the bacterial ribosome's large subunit—a previously unexploited target. This discovery matters because antibiotic resistance is a growing global crisis, and novel mechanisms offer new pathways to overcome resistant pathogens. Traditional antibiotics target well-characterized sites to which bacteria readily develop resistance. By identifying antibiotics targeting different ribosomal regions, researchers expand the therapeutic toolkit. The improved fractionation method suggests other untapped antibiotic scaffolds await discovery in microorganism libraries.
+Novel antibiotic discovered with unprecedented mechanism of action. Manikomycin, isolated from the bacterium Streptomyces rimosus, represents a significant breakthrough in antibiotic discovery. It works by binding to and targeting the E-site of the bacterial large ribosomal subunit—a previously unseen site that opens entirely new therapeutic possibilities. The discovery was made possible by improved fractionation strategies that enable systematic, targeted identification of antibiotics with novel chemical scaffolds and never-before-seen mechanisms of action, rather than variations on existing drug classes. Why it matters: As antibiotic resistance accelerates globally, discovering drugs with fundamentally new mechanisms is critical for maintaining effective therapeutic options and staying ahead of multi-resistant bacterial pathogens.

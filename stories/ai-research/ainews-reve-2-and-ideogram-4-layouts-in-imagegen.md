@@ -5,10 +5,10 @@ source: "Latent Space"
 url: "https://www.latent.space/p/ainews-reve-2-and-ideogram-4-layouts"
 authors: []
 date: "Thu, 04 Jun 2026 03:24:07 GMT"
-score: 80
+score: 75
 guid: "https://www.latent.space/p/ainews-reve-2-and-ideogram-4-layouts"
 image: ""
-generated: "2026-06-04T19:29:25+05:30"
+generated: "2026-06-05T02:55:12+05:30"
 ---
 
-Image composition — precisely controlling layout and spatial arrangement — was previously considered partially AGI-hard. Both Reve and Ideogram recently launched image generation models emphasizing advances in layout control through strong labeling and code-based composition. Ideogram 4.0 emerges as the best open image model available, though GPT-Image-2 still leads overall rankings. The simultaneous breakthroughs from multiple teams suggest the gate on this capability has fallen, advancing open image generation toward competitive capability with closed-source systems.
+Image composition—a problem debated as partially AGI-hard four years ago—achieved breakthroughs this month. Both Reve 2 and Ideogram 4 launched with advances in layout control through strong labeling and code-generation approaches. Ideogram 4.0 ranks as the best open image model. Despite these achievements, GPT-Image-2 maintains Arena ranking lead, illustrating rapid progress in controllable image generation alongside persistent frontier gaps.

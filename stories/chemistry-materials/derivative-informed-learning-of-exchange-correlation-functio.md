@@ -5,10 +5,10 @@ source: "arXiv (cs.LG)"
 url: "https://arxiv.org/abs/2606.04279"
 authors: ["Eike S. Eberhard, Luca A. Thiede, Abdul Aldossary, Andreas Burger, Nicholas Gao, Vignesh Bhethanabotla, Al\\'an Aspuru-Guzik, Stephan G\\\"unnemann"]
 date: "Thu, 04 Jun 2026 00:00:00 -0400"
-score: 75
+score: 70
 guid: "oai:arXiv.org:2606.04279v1"
 image: ""
-generated: "2026-06-04T19:29:25+05:30"
+generated: "2026-06-05T02:55:12+05:30"
 ---
 
-Machine-learned exchange-correlation functionals aim to replace traditional density functional approximations but often underperform. Researchers introduce Derivative Informed XC-Loss (DI-Loss) that incorporates first and second derivatives of reference functionals during training. Rather than only matching energy at self-consistent fixed points, DI-Loss aligns local response behavior. Across four architectures, DI-Loss achieves 66% relative reduction in total-energy mean absolute error, improves density-sensitive metric from 1.2 to 0.8 mEh, and reduces downstream SCF iterations by up to 50%, enhancing convergence in TDDFT calculations.
+Derivative Informed XC-Loss (DI-Loss) supervises first and second derivatives of energy on density matrices alongside targets from B3LYP/def2-SVP. Total-energy mean absolute error decreases 66% relative to energy-only supervision. The density-sensitive metric E_ρ improves from 1.2 to 0.8 mEh on average. Distilled functionals reduce hybrid-functional SCF iterations by up to 50%. Hessian supervision further improves excited-state TDDFT predictions, advancing learned exchange-correlation functionals.

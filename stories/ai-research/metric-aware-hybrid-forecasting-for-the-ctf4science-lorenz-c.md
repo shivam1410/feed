@@ -8,7 +8,7 @@ date: "Thu, 04 Jun 2026 00:00:00 -0400"
 score: 55
 guid: "oai:arXiv.org:2606.04191v1"
 image: ""
-generated: "2026-06-04T19:29:25+05:30"
+generated: "2026-06-05T02:55:12+05:30"
 ---
 
 arXiv:2606.04191v1 Announce Type: new Abstract: We describe our approach to the CTF4Science Lorenz challenge, a benchmark that mixes short-horizon forecasting, long-time distribution matching, and trajectory reconstruction across nine task pairs. The key discovery is that no single model family dominated all metrics. Instead, we built a metric-aware hybrid system that assigned a different predictor to each metric family: (1) synthetic-pretrained denoisers for full-trajectory reconstruction, (2) Lorenz ODE fitting and trajectory shooting for the first 20 forecast steps, and (3) histogram-tail substitution using synthetic Lorenz libraries for long-time evaluation. A representative mature submission from this system family scored 83.83551 on the public leaderboard, and a small follow-up stack of the same ideas reached 83.85529. We focus on the cleaner intermediate system because it captures the full method while remaining simple enough to reproduce and analyze, while the final submission can be understood as a conservative extension of the same backbone.

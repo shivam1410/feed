@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/d41586-026-01761-9"
 authors: ["Edward Chen"]
 date: "2026-06-03"
-score: 78
+score: 75
 guid: "10.1038/d41586-026-01761-9"
 image: ""
-generated: "2026-06-04T19:29:25+05:30"
+generated: "2026-06-05T02:55:12+05:30"
 ---
 
-Three kidney transplant recipients with highly sensitized immune systems—patients whose bodies typically attack and reject any foreign tissue—successfully received transplants using CAR-T cell therapy. These patients had virtually no transplant options due to incompatible immune profiles. CAR-T therapy uses genetically engineered immune cells to tolerate the donor kidney. This breakthrough addresses a previously unsolvable clinical problem. Success opens possibilities for many others with similarly sensitized immune systems, potentially expanding organ transplant access to thousands currently deemed untransplantable and offering life-saving options.
+CAR-T cell therapy—a groundbreaking immunotherapy that reprograms immune cells—enabled three previously untransplantable patients to successfully receive and accept kidney transplants. These patients possessed highly sensitized immune systems with extensive antibody responses against foreign organs, making them extremely difficult to match for transplant and leaving them with very limited survival options. CAR-T therapy specifically modified their immune response to allow successful transplant acceptance and function. Why it matters: This advance represents a transformative medical breakthrough for the minority of patients with highly sensitized immune systems who face repeated organ transplant rejection, dramatically expanding life-saving options for this previously difficult-to-treat population facing life-threatening kidney failure and end-stage renal disease.

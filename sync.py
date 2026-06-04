@@ -418,7 +418,8 @@ def write_outputs(items: list[dict], by_source: dict, cfg: dict) -> None:
     generated = datetime.datetime.now().astimezone().isoformat(timespec="seconds")
 
     # Order by significance score (highest first; unscored last).
-    items = sorted(items, key=lambda it: (it.get("score") is not None, it.get("score") or 0), reverse=True)
+    by_score = lambda it: (it.get("score") is not None, it.get("score") or 0)
+    items = sorted(items, key=by_score, reverse=True)
 
     # The categorized feed the app reads. `categories` is the canonical list the
     # UI renders as chips. No personal profile is published.
@@ -427,8 +428,10 @@ def write_outputs(items: list[dict], by_source: dict, cfg: dict) -> None:
     write_json(os.path.join(DATA_DIR, "latest.json"), feed)  # back-compat
 
     # Per-source snapshots so the source tabs work on a static host.
+    # Sorted by the same significance score as Home (unscored items keep feed order at the end).
     for src, src_items in by_source.items():
-        write_json(os.path.join(DATA_DIR, f"source-{src}.json"), {"generatedAt": generated, "items": src_items})
+        ranked = sorted(src_items, key=by_score, reverse=True)
+        write_json(os.path.join(DATA_DIR, f"source-{src}.json"), {"generatedAt": generated, "items": ranked})
 
     # Per-story Markdown (archive / safekeeping), grouped by category.
     md_paths = [write_story_md(it, generated) for it in items]

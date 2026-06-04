@@ -486,8 +486,9 @@ function updateDeckIndicator(i) {
 // preserve=true keeps the current card (e.g. on resize / address-bar collapse)
 // instead of snapping back to the first one.
 function setupDeck(preserve = false) {
-  // Reading mode (swipe deck) for every story list on mobile — not link cards.
-  const isDeck = !["link", "leaderboard"].includes(activeFeed().kind) && deckMQL.matches;
+  // Swipe-deck reading mode is for the curated Home + Saved collections only.
+  // Source feeds (Nature, DeepMind, arXiv, …) render as a scrollable card list.
+  const isDeck = ["home", "saved"].includes(activeFeed().kind) && deckMQL.matches;
   el.feed.classList.toggle("deck", isDeck);
   if (!preserve) deckIndex = 0;
   const cards = isDeck ? el.feed.querySelectorAll(".card") : [];

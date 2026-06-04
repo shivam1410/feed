@@ -52,8 +52,7 @@ const el = {
   meta: document.getElementById("meta"),
   refreshBtn: document.getElementById("refreshBtn"),
   menuBtn: document.getElementById("menuBtn"),
-  homeBtn: document.getElementById("homeBtn"),
-  lbBtn: document.getElementById("lbBtn"),
+  navToggle: document.getElementById("navToggle"),
   scrim: document.getElementById("scrim"),
   categoryChips: document.getElementById("categoryChips"),
   catAll: document.getElementById("catAll"),
@@ -79,6 +78,9 @@ function nudgeFontScale(delta) {
 
 // Mobile Home shows cards as a horizontal swipe deck (one per screen + dots).
 const deckMQL = window.matchMedia("(max-width: 1024px)");
+
+const HOME_SVG = '<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11l9-7 9 7"/><path d="M5 10v9a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-9"/></svg>';
+const CHART_SVG = '<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20V4"/><path d="M4 20h16"/><rect x="7" y="11" width="3" height="6" rx="0.5"/><rect x="12" y="7" width="3" height="10" rx="0.5"/><rect x="17" y="4" width="3" height="13" rx="0.5"/></svg>';
 const DECK_GAP = 10;
 
 let isFetching = false;
@@ -376,9 +378,24 @@ function jumpToFirstUnseen(items) {
   if (!cards.length) return;
   let idx = items.findIndex((it) => it.guid && !seen.has(it.guid));
   if (idx < 0) idx = 0; // all seen → start at the top
-  if (idx > 0) el.feed.scrollLeft = idx * deckStep();
   deckIndex = idx;
   updateDeckIndicator(idx);
+  if (idx > 0) scrollDeckTo(idx);
+}
+
+// Restore deck scroll position reliably. iOS Safari resets a programmatic
+// scrollLeft on a scroll-snap container if it's set before layout/snap settle,
+// so wait for the next frame and turn snapping off while we seek.
+function scrollDeckTo(idx) {
+  const seek = () => {
+    if (!el.feed.classList.contains("deck")) return;
+    const prevSnap = el.feed.style.scrollSnapType;
+    el.feed.style.scrollSnapType = "none";
+    el.feed.scrollLeft = idx * deckStep();
+    void el.feed.offsetWidth; // force reflow so the seek sticks
+    el.feed.style.scrollSnapType = prevSnap;
+  };
+  requestAnimationFrame(() => requestAnimationFrame(seek));
 }
 
 function renderItems(items) {
@@ -582,8 +599,14 @@ function renderNav() {
 }
 
 function updateHeadNav() {
-  if (el.homeBtn) el.homeBtn.classList.toggle("active", activeId === "home");
-  if (el.lbBtn) el.lbBtn.classList.toggle("active", activeId === "leaderboard");
+  if (!el.navToggle) return;
+  // On Home, the toggle jumps to the Leaderboard; everywhere else it jumps Home.
+  const toLeaderboard = activeId === "home";
+  el.navToggle.innerHTML = toLeaderboard ? CHART_SVG : HOME_SVG;
+  const label = toLeaderboard ? "Leaderboard" : "Home";
+  el.navToggle.setAttribute("aria-label", label);
+  el.navToggle.title = label;
+  el.navToggle.dataset.target = toLeaderboard ? "leaderboard" : "home";
 }
 
 function renderCategoryChips() {
@@ -634,8 +657,7 @@ el.categoryChips.addEventListener("click", (e) => {
 el.catAll.addEventListener("click", selectAllCategories);
 el.refreshBtn.addEventListener("click", load);
 el.menuBtn.addEventListener("click", openNav);
-el.homeBtn.addEventListener("click", () => switchSource("home"));
-el.lbBtn.addEventListener("click", () => switchSource("leaderboard"));
+el.navToggle.addEventListener("click", () => switchSource(el.navToggle.dataset.target || "home"));
 el.scrim.addEventListener("click", closeNav);
 function saveNotionUrl() {
   const url = el.pNotionUrl.value.trim();

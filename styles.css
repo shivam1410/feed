@@ -164,7 +164,8 @@ button#saveProfile:hover, .refresh:hover { border-color: var(--accent); }
 .meta { margin-left: auto; font-size: 12px; color: var(--text-dim); }
 .meta .linkbtn { margin-left: 12px; }
 
-.fs-controls { margin-left: auto; display: flex; gap: 6px; }
+.head-right { margin-left: auto; display: flex; align-items: center; gap: 10px; }
+.fs-controls { display: flex; gap: 6px; }
 .fs-controls button {
   font: inherit;
   font-size: 13px;
@@ -177,8 +178,7 @@ button#saveProfile:hover, .refresh:hover { border-color: var(--accent); }
   cursor: pointer;
 }
 .fs-controls button:hover { border-color: var(--accent); color: var(--text); }
-/* when both meta and controls exist, only one should push right */
-.meta:not(:empty) ~ .fs-controls { margin-left: 12px; }
+.meta:empty { margin-left: 0; }
 
 .menu-btn {
   display: inline-block;

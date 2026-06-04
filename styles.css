@@ -382,7 +382,22 @@ button#saveProfile:hover, .refresh:hover { border-color: var(--accent); }
     height: 100%;
     overflow-y: auto;
     scroll-snap-align: center;
+    display: flex;
+    flex-direction: column;
   }
+  /* Fill the card height and pin the date + Save row to the bottom */
+  .feed.deck > .card > .card-body {
+    flex: 1 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .feed.deck .card-foot {
+    margin-top: auto;
+    padding-top: 12px;
+    font-size: 13px;
+  }
+  .feed.deck .card-foot .date { font-size: 13px; }
+  .feed.deck .card-foot .save-btn { font-size: 13px; padding: 6px 14px; }
 }
 
 .deck-dots { display: none; justify-content: center; gap: 7px; padding: 12px 0 16px; }

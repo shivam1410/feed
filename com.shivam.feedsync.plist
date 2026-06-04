@@ -10,6 +10,7 @@
         <string>/usr/bin/python3</string>
         <string>/Users/shivamhl/Shivam/Feed/sync.py</string>
         <string>--push</string>
+        <string>--catchup</string>
     </array>
 
     <key>WorkingDirectory</key>
@@ -36,7 +37,10 @@
     <key>StandardErrorPath</key>
     <string>/Users/shivamhl/Shivam/Feed/data/sync.log</string>
 
+    <!-- Also run at login/load so a missed 7 PM run (Mac off/asleep) catches up
+         the next time you're on the machine. The --catchup guard makes this a
+         no-op unless it's past 7 PM and today's run hasn't happened yet. -->
     <key>RunAtLoad</key>
-    <false/>
+    <true/>
 </dict>
 </plist>

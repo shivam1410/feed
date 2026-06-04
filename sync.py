@@ -433,10 +433,41 @@ def git_publish() -> int:
         return 1
 
 
+SCHEDULED_HOUR = 19  # 7 PM — matches the LaunchAgent's StartCalendarInterval
+STAMP_PATH = os.path.join(DATA_DIR, ".last_sync")  # git-ignored; records last run date
+
+
+def already_ran_today() -> bool:
+    try:
+        with open(STAMP_PATH) as fh:
+            return fh.read().strip() == datetime.date.today().isoformat()
+    except FileNotFoundError:
+        return False
+
+
+def stamp_today() -> None:
+    os.makedirs(DATA_DIR, exist_ok=True)
+    with open(STAMP_PATH, "w") as fh:
+        fh.write(datetime.date.today().isoformat())
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description="Generate the daily feed digest.")
     parser.add_argument("--push", action="store_true", help="git commit & push generated content")
+    parser.add_argument(
+        "--catchup", action="store_true",
+        help="run only if today's scheduled run was missed (past the scheduled hour and not yet run today)",
+    )
     args = parser.parse_args()
+
+    if args.catchup:
+        if datetime.datetime.now().hour < SCHEDULED_HOUR:
+            log("catchup: before scheduled hour — skipping")
+            return 0
+        if already_ran_today():
+            log("catchup: already ran today — skipping")
+            return 0
+        log("catchup: today's run was missed — running now")
 
     cfg = load_config()
     log(f"sync start — model={cfg.get('model', 'haiku')}")
@@ -456,6 +487,7 @@ def main() -> int:
     log(f"briefed {sum(1 for it in categorized if it.get('briefed'))} top stories")
 
     write_outputs(categorized, by_source, cfg)
+    stamp_today()  # mark today's run complete (for --catchup)
 
     if args.push:
         return git_publish()

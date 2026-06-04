@@ -109,36 +109,26 @@ function isCatShown(cat) {
 function loadSaved() {
   try { return JSON.parse(localStorage.getItem(SAVED_KEY) || "[]"); } catch { return []; }
 }
-function isSaved(guid) {
-  return loadSaved().some((s) => s.guid === guid);
-}
 function notionUrl() {
   return (el.pNotionUrl.value || localStorage.getItem(NOTION_URL_KEY) || "").trim();
 }
-async function toggleSave(item, btn) {
-  const saved = loadSaved();
-  const idx = saved.findIndex((s) => s.guid === item.guid);
-  if (idx >= 0) {
-    saved.splice(idx, 1);
-    localStorage.setItem(SAVED_KEY, JSON.stringify(saved));
-    btn.innerHTML = saveLabel("save");
-    btn.classList.remove("saved");
-    return;
-  }
-  const record = {
+
+// Save-to-Notion is a one-shot action, not a persistent bookmark: the "Saved"
+// state is per-session feedback only (the button resets to "Save to Notion" on
+// reload). We still keep a local record (de-duped by guid) for the Saved tab.
+async function saveToNotion(item, btn) {
+  const saved = loadSaved().filter((s) => s.guid !== item.guid);
+  saved.unshift({
     guid: item.guid, title: item.title, url: item.link, source: item.source || "",
     category: item.category || "", date: item.date, score: item.score ?? null,
     summary: item.summary || "", savedAt: new Date().toISOString(),
-  };
-  saved.unshift(record);
-  localStorage.setItem(SAVED_KEY, JSON.stringify(saved.slice(0, 1000)));
-  btn.classList.add("saved");
+  });
+  try { localStorage.setItem(SAVED_KEY, JSON.stringify(saved.slice(0, 1000))); } catch { /* ignore */ }
 
   const url = notionUrl();
-  if (!url) { btn.innerHTML = saveLabel("saved"); return; }
+  if (!url) { btn.innerHTML = saveLabel("saved"); btn.classList.add("saved"); return; }
 
   btn.innerHTML = saveLabel("saving");
-  // Shape the payload the Apps Script / Notion endpoint expects.
   const payload = {
     title: item.title,
     tags: [item.category].filter(Boolean),
@@ -147,9 +137,8 @@ async function toggleSave(item, btn) {
   };
   if (item.authors && item.authors.length) payload.writer = item.authors;
   try {
-    // Apps Script can't return CORS headers, so this is a fire-and-forget
-    // "simple" request (text/plain → no preflight); response is opaque, so we
-    // mark saved optimistically.
+    // Apps Script can't return CORS headers → fire-and-forget (text/plain, no
+    // preflight); response is opaque, so we mark saved optimistically.
     await fetch(url, {
       method: "POST",
       mode: "no-cors",
@@ -157,6 +146,7 @@ async function toggleSave(item, btn) {
       body: JSON.stringify(payload),
     });
     btn.innerHTML = saveLabel("saved");
+    btn.classList.add("saved");
   } catch {
     btn.innerHTML = saveLabel("fail");
   }
@@ -342,7 +332,6 @@ function cardHTML(item, isNew) {
   const orig = briefed ? (item.origSummary || "") : body;
   const showOrig = briefed && orig && orig !== body;
   const hasMore = briefed ? showOrig : body.length > 220;
-  const saved = isSaved(item.guid);
   const canSave = !!notionUrl(); // show Save only when a Notion endpoint is configured
   const imgTag = item.image
     ? `<img class="thumb" src="/img?url=${encodeURIComponent(item.image)}" data-orig="${safe(item.image)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="if(!this.dataset.fbk){this.dataset.fbk=1;this.src=this.dataset.orig}else{this.remove()}">`
@@ -368,7 +357,7 @@ function cardHTML(item, isNew) {
         ${byline ? `<div class="byline">${safe(byline)}</div>` : ""}
         <div class="card-foot">
           <span class="date">${safe(date)}</span>
-          ${canSave ? `<button type="button" class="save-btn${saved ? " saved" : ""}">${saveLabel(saved ? "saved" : "save")}</button>` : ""}
+          ${canSave ? `<button type="button" class="save-btn">${saveLabel("save")}</button>` : ""}
         </div>
       </div>
     </article>`;
@@ -597,7 +586,7 @@ document.body.addEventListener("click", (e) => {
   const save = e.target.closest(".save-btn");
   if (save) {
     const item = renderedById[save.closest(".card")?.getAttribute("data-guid")];
-    if (item) toggleSave(item, save);
+    if (item) saveToNotion(item, save);
     return;
   }
   const more = e.target.closest(".readmore");

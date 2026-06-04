@@ -530,7 +530,7 @@ async function renderLeaderboard() {
   if (data && Array.isArray(data.models) && data.models.length) {
     const wd = data.generatedAt ? new Date(data.generatedAt) : null;
     const when = wd && !isNaN(wd)
-      ? wd.toLocaleDateString("en-US", { year: "numeric", month: "short", day: "2-digit" })
+      ? wd.toLocaleString("en-US", { year: "numeric", month: "short", day: "2-digit", hour: "numeric", minute: "2-digit" })
       : "";
     html += `<div class="curate-banner">🏆 Top trending models on Hugging Face${when ? " · " + safe(when) : ""}</div>`;
     html += '<div class="lb-table">' + data.models.map((m, i) => `

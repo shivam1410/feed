@@ -128,7 +128,7 @@ refresh is manual (plus on focus).
 
 Home shows every story tagged with a **category** and a **0–100 significance
 score**, done in the daily job by your **Claude Code login** (no API key). In the
-sidebar's **Following** section, click category chips to filter Home: the first
+sidebar's **Topics** section, click category chips to filter Home: the first
 click focuses one category, more clicks add others, and **All** resets. Your
 selection is saved per-device in `localStorage`.
 

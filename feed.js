@@ -363,16 +363,37 @@ function cardHTML(item, isNew) {
     </article>`;
 }
 
+function markSeenGuid(guid) {
+  if (guid && !seen.has(guid)) { seen.add(guid); saveSeen(activeId); }
+}
+
+// In the swipe deck, jump to the first card you haven't seen yet (resume).
+function jumpToFirstUnseen(items) {
+  const cards = el.feed.querySelectorAll(".card");
+  if (!cards.length) return;
+  let idx = items.findIndex((it) => it.guid && !seen.has(it.guid));
+  if (idx < 0) idx = 0; // all seen → start at the top
+  if (idx > 0) el.feed.scrollLeft = idx * deckStep();
+  deckIndex = idx;
+  updateDeckIndicator(idx);
+}
+
 function renderItems(items) {
   renderedById = Object.fromEntries(items.filter((it) => it.guid).map((it) => [it.guid, it]));
   el.feed.innerHTML = items.map((it) => cardHTML(it, it.guid && !seen.has(it.guid))).join("");
   el.meta.textContent = "";
-  // Baseline "new": mark currently shown items as seen so NEW means "since last visit".
-  var changed = false;
-  items.forEach(function (it) { if (it.guid && !seen.has(it.guid)) { seen.add(it.guid); changed = true; } });
-  if (changed) saveSeen(activeId);
   firstLoad[activeId] = false;
   setupDeck();
+  if (el.feed.classList.contains("deck")) {
+    // Deck: mark seen as you swipe past cards (handled in the scroll listener);
+    // resume at the first unseen card.
+    jumpToFirstUnseen(items);
+  } else {
+    // List view: treat everything shown as seen (baseline for NEW).
+    let changed = false;
+    items.forEach((it) => { if (it.guid && !seen.has(it.guid)) { seen.add(it.guid); changed = true; } });
+    if (changed) saveSeen(activeId);
+  }
 }
 
 /* ---------- mobile swipe deck (Home) ---------- */
@@ -568,7 +589,13 @@ el.feed.addEventListener("scroll", () => {
   const count = el.feed.querySelectorAll(".card").length;
   if (count < 2) return;
   const i = Math.max(0, Math.min(count - 1, Math.round(el.feed.scrollLeft / deckStep())));
-  if (i !== deckIndex) { deckIndex = i; updateDeckIndicator(i); }
+  if (i !== deckIndex) {
+    // The card you swiped away from counts as seen.
+    const leaving = el.feed.querySelectorAll(".card")[deckIndex];
+    markSeenGuid(leaving && leaving.getAttribute("data-guid"));
+    deckIndex = i;
+    updateDeckIndicator(i);
+  }
 }, { passive: true });
 el.deckDots.addEventListener("click", (e) => {
   const dot = e.target.closest(".dot");

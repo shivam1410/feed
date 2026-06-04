@@ -427,9 +427,17 @@ def write_outputs(items: list[dict], by_source: dict, cfg: dict) -> None:
     write_json(os.path.join(DATA_DIR, "feed.json"), feed)
     write_json(os.path.join(DATA_DIR, "latest.json"), feed)  # back-compat
 
-    # Per-source snapshots so the source tabs work on a static host.
-    # Sorted by the same significance score as Home (unscored items keep feed order at the end).
+    # Per-source snapshots so the source tabs work on a static host. categorize()
+    # scores copies, so copy score/category back onto the source items by guid,
+    # then sort by the same significance score as Home (unscored items last).
+    ann = {it.get("guid"): it for it in items if it.get("guid")}
     for src, src_items in by_source.items():
+        for it in src_items:
+            a = ann.get(it.get("guid"))
+            if a:
+                it["score"] = a.get("score")
+                if a.get("category"):
+                    it["category"] = a["category"]
         ranked = sorted(src_items, key=by_score, reverse=True)
         write_json(os.path.join(DATA_DIR, f"source-{src}.json"), {"generatedAt": generated, "items": ranked})
 

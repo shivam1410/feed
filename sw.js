@@ -2,8 +2,8 @@
  * Network-first (always fresh online), falling back to cache when offline.
  * GET only — never intercept the POST to the Notion endpoint.
  */
-var CACHE = 'feed-cache-v2';
-var SHELL = ['./', './index.html', './icon.svg', './manifest.webmanifest'];
+var CACHE = 'feed-cache-v3';
+var SHELL = ['./', './index.html', './assets/icon.svg', './manifest.webmanifest'];
 
 self.addEventListener('install', function (e) {
   e.waitUntil(caches.open(CACHE).then(function (c) { return c.addAll(SHELL); }).then(function () { return self.skipWaiting(); }));

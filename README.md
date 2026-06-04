@@ -90,12 +90,16 @@ Never commit secrets. `.gitignore` excludes `.env`; copy `.env.example` → `.en
 ## Save to Notion
 
 Saving goes through a **Google Apps Script Web App** (it holds the Notion token,
-so the key never touches the browser). See [`apps-script/Code.gs`](apps-script/Code.gs):
+so the key never touches the browser). Full walkthrough — including how to get
+the `/exec` URL by deploying from a Google Sheet — is in
+[`apps-script/README.md`](apps-script/README.md). Short version:
 
-1. Create an Apps Script project, paste in `Code.gs`, and add Script Properties
-   `NOTION_TOKEN` and `NOTION_BOOKS_DB` (optional `API_SECRET` to gate it).
-2. Deploy as a **Web App** with access set to **Anyone**, and copy the `/exec` URL.
-3. Paste that URL into the app (sidebar → **Notion sync**).
+1. Google Sheet → **Extensions → Apps Script**, paste in
+   [`apps-script/Code.gs`](apps-script/Code.gs).
+2. Add Script Properties `NOTION_TOKEN` and `NOTION_BOOKS_DB` (optional
+   `API_SECRET` to gate it), and connect the integration to your database.
+3. **Deploy → Web app**, access **Anyone**, copy the `/exec` URL.
+4. Paste that URL into the app (sidebar → **Notion sync**).
 
 Once a URL is set, a **Save to Notion** button appears on each card; tapping it
 posts the story (title, summary, source, category) to your Notion database. The

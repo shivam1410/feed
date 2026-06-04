@@ -52,6 +52,8 @@ const el = {
   meta: document.getElementById("meta"),
   refreshBtn: document.getElementById("refreshBtn"),
   menuBtn: document.getElementById("menuBtn"),
+  homeBtn: document.getElementById("homeBtn"),
+  lbBtn: document.getElementById("lbBtn"),
   scrim: document.getElementById("scrim"),
   categoryChips: document.getElementById("categoryChips"),
   catAll: document.getElementById("catAll"),
@@ -76,7 +78,7 @@ function nudgeFontScale(delta) {
 }
 
 // Mobile Home shows cards as a horizontal swipe deck (one per screen + dots).
-const deckMQL = window.matchMedia("(max-width: 560px)");
+const deckMQL = window.matchMedia("(max-width: 1024px)");
 const DECK_GAP = 10;
 
 let isFetching = false;
@@ -576,6 +578,12 @@ function renderNav() {
   const top = FEEDS.filter(isTop).map(item).join("");
   const rest = FEEDS.filter((f) => !isTop(f)).map(item).join("");
   el.nav.innerHTML = top + '<div class="nav-sep">Sources</div>' + rest;
+  updateHeadNav();
+}
+
+function updateHeadNav() {
+  if (el.homeBtn) el.homeBtn.classList.toggle("active", activeId === "home");
+  if (el.lbBtn) el.lbBtn.classList.toggle("active", activeId === "leaderboard");
 }
 
 function renderCategoryChips() {
@@ -626,6 +634,8 @@ el.categoryChips.addEventListener("click", (e) => {
 el.catAll.addEventListener("click", selectAllCategories);
 el.refreshBtn.addEventListener("click", load);
 el.menuBtn.addEventListener("click", openNav);
+el.homeBtn.addEventListener("click", () => switchSource("home"));
+el.lbBtn.addEventListener("click", () => switchSource("leaderboard"));
 el.scrim.addEventListener("click", closeNav);
 function saveNotionUrl() {
   const url = el.pNotionUrl.value.trim();

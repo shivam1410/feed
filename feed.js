@@ -11,17 +11,20 @@ const FEEDS = [
   { id: "home", name: "Home", kind: "home" },
   { id: "saved", name: "★ Saved", kind: "saved" },
   { id: "leaderboard", name: "🏆 Leaderboard", kind: "leaderboard" },
+  // Full-content sources first (full abstracts / posts).
+  { id: "arxiv", name: "arXiv (cs.LG)", kind: "rss" },
+  { id: "huggingface", name: "HF Trending Papers", kind: "hf" },
+  { id: "simonw", name: "Simon Willison", kind: "rss" },
+  { id: "latentspace", name: "Latent Space", kind: "rss" },
+  // Short-teaser sources next.
   { id: "nature", name: "Nature", kind: "rss" },
   { id: "deepmind", name: "DeepMind", kind: "rss" },
-  { id: "huggingface", name: "HF Trending Papers", kind: "hf" },
+  // Link-only sources last (no article feed).
   {
     id: "paperswithcode", name: "Papers with Code", kind: "link",
     link: "https://paperswithcode.com/",
     note: "Papers With Code was discontinued — the domain now redirects to Hugging Face Papers, so it has no independent feed. Use HF Trending Papers for the same content.",
   },
-  { id: "arxiv", name: "arXiv (cs.LG)", kind: "rss" },
-  { id: "latentspace", name: "Latent Space", kind: "rss" },
-  { id: "simonw", name: "Simon Willison", kind: "rss" },
   {
     id: "connectedpapers", name: "Connected Papers", kind: "link",
     link: "https://www.connectedpapers.com/",

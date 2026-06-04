@@ -54,7 +54,12 @@ const el = {
   pNotionUrl: document.getElementById("pNotionUrl"),
   saveNotionUrl: document.getElementById("saveNotionUrl"),
   notionUrlMsg: document.getElementById("notionUrlMsg"),
+  deckDots: document.getElementById("deckDots"),
 };
+
+// Mobile Home shows cards as a horizontal swipe deck (one per screen + dots).
+const deckMQL = window.matchMedia("(max-width: 560px)");
+const DECK_GAP = 12;
 
 let isFetching = false;
 let activeId = localStorage.getItem("feed_active") || "home";
@@ -62,6 +67,7 @@ const firstLoad = {};
 let seen = new Set();
 let lastItems = [];
 let renderedById = {};
+let deckIndex = 0;
 let allCategories = DEFAULT_CATEGORIES.slice();
 let selectedCats = loadSelectedCats(); // Set; empty = show all
 
@@ -353,6 +359,34 @@ function renderItems(items) {
   items.forEach(function (it) { if (it.guid && !seen.has(it.guid)) { seen.add(it.guid); changed = true; } });
   if (changed) saveSeen(activeId);
   firstLoad[activeId] = false;
+  setupDeck();
+}
+
+/* ---------- mobile swipe deck (Home) ---------- */
+
+function deckStep() {
+  const card = el.feed.querySelector(".card");
+  return card ? card.offsetWidth + DECK_GAP : el.feed.clientWidth;
+}
+function setActiveDot(i) {
+  const dots = el.deckDots.querySelectorAll(".dot");
+  dots.forEach(function (d, n) { d.classList.toggle("active", n === i); });
+}
+function setupDeck() {
+  const isDeck = activeFeed().kind === "home" && deckMQL.matches;
+  el.feed.classList.toggle("deck", isDeck);
+  if (!isDeck) {
+    el.deckDots.innerHTML = "";
+    el.deckDots.style.display = "none";
+    return;
+  }
+  const cards = el.feed.querySelectorAll(".card");
+  el.deckDots.style.display = cards.length > 1 ? "flex" : "none";
+  el.deckDots.innerHTML = Array.from(cards)
+    .map((_, i) => `<button type="button" class="dot${i === 0 ? " active" : ""}" data-i="${i}" aria-label="Card ${i + 1}"></button>`)
+    .join("");
+  el.feed.scrollLeft = 0;
+  deckIndex = 0;
 }
 
 function renderLinkCard(feed) {
@@ -500,6 +534,22 @@ function saveNotionUrl() {
 }
 el.saveNotionUrl.addEventListener("click", saveNotionUrl);
 el.pNotionUrl.addEventListener("change", saveNotionUrl);
+
+// Swipe deck: track scroll → active dot; tap a dot → scroll to that card.
+el.feed.addEventListener("scroll", () => {
+  if (!el.feed.classList.contains("deck")) return;
+  const count = el.deckDots.querySelectorAll(".dot").length;
+  if (!count) return;
+  const i = Math.max(0, Math.min(count - 1, Math.round(el.feed.scrollLeft / deckStep())));
+  if (i !== deckIndex) { deckIndex = i; setActiveDot(i); }
+}, { passive: true });
+el.deckDots.addEventListener("click", (e) => {
+  const dot = e.target.closest(".dot");
+  if (dot) el.feed.scrollTo({ left: Number(dot.dataset.i) * deckStep(), behavior: "smooth" });
+});
+deckMQL.addEventListener("change", setupDeck);
+let resizeT;
+window.addEventListener("resize", () => { clearTimeout(resizeT); resizeT = setTimeout(setupDeck, 150); });
 
 document.body.addEventListener("click", (e) => {
   const save = e.target.closest(".save-btn");

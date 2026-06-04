@@ -349,4 +349,37 @@ button#saveProfile:hover, .refresh:hover { border-color: var(--accent); }
   .thumb { width: 100%; height: 170px; }
   .feed { padding: 0 16px; }
   .content-head { padding: 14px 16px; }
+
+  /* Home as a horizontal swipe deck: one card per screen, snap, vertical scroll inside */
+  .feed.deck {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 12px;
+    margin: 12px 0 0;
+    padding: 0 16px;
+    height: calc(100vh - 120px);
+    height: calc(100svh - 120px);
+    overflow-x: auto;
+    overflow-y: hidden;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+  }
+  .feed.deck::-webkit-scrollbar { display: none; }
+  .feed.deck > .card {
+    flex: 0 0 100%;
+    height: 100%;
+    overflow-y: auto;
+    scroll-snap-align: center;
+  }
 }
+
+.deck-dots { display: none; justify-content: center; gap: 7px; padding: 12px 0 16px; }
+.deck-dots .dot {
+  width: 7px; height: 7px;
+  border: none; border-radius: 50%;
+  padding: 0; cursor: pointer;
+  background: var(--border);
+  transition: background 0.2s, transform 0.2s;
+}
+.deck-dots .dot.active { background: var(--accent); transform: scale(1.3); }

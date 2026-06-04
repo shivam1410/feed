@@ -313,7 +313,8 @@ function saveLabel(state) {
 }
 
 function cardHTML(item, isNew) {
-  const foot = [item.source, item.extra, fmtAuthors(item.authors), fmtDate(item.date)].filter(Boolean);
+  const byline = [item.source, item.extra, fmtAuthors(item.authors)].filter(Boolean).join(" · ");
+  const date = fmtDate(item.date);
   const briefed = !!item.briefed || !!item.why;
   const body = item.summary || "";
   // Briefed cards show the full briefing + reveal the source abstract; others
@@ -332,7 +333,10 @@ function cardHTML(item, isNew) {
       <div class="card-body">
         <div class="card-head">
           <h3>${lightMarkup(item.title)}</h3>
-          ${isNew ? '<span class="badge">New</span>' : ""}
+          <div class="head-actions">
+            ${isNew ? '<span class="badge">New</span>' : ""}
+            <a class="open-link" href="${safe(item.link)}" target="_blank" rel="noopener">Open ↗</a>
+          </div>
         </div>
         <div class="tags">
           ${item.category ? `<span class="cat-tag">${safe(item.category)}</span>` : ""}
@@ -341,10 +345,10 @@ function cardHTML(item, isNew) {
         ${body ? `<p class="summary${briefed ? " rich" : ""}">${lightMarkup(body)}</p>` : ""}
         ${showOrig ? `<div class="full"><span class="full-label">From the source:</span> ${lightMarkup(orig)}</div>` : ""}
         ${hasMore ? `<button type="button" class="readmore" data-more="${briefed ? "Source abstract ▾" : "Read more ▾"}" data-less="Show less ▴">${briefed ? "Source abstract ▾" : "Read more ▾"}</button>` : ""}
+        ${byline ? `<div class="byline">${safe(byline)}</div>` : ""}
         <div class="card-foot">
-          ${foot.map((f) => `<span class="authors">${safe(f)}</span>`).join("")}
+          <span class="date">${safe(date)}</span>
           ${canSave ? `<button type="button" class="save-btn${saved ? " saved" : ""}">${saveLabel(saved ? "saved" : "save")}</button>` : ""}
-          <a class="source-link" href="${safe(item.link)}" target="_blank" rel="noopener">Open ↗</a>
         </div>
       </div>
     </article>`;

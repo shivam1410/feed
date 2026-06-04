@@ -538,7 +538,7 @@ async function renderLeaderboard() {
         m.downloads != null ? `⬇ ${fmtNum(m.downloads)} downloads` : "",
         m.likes != null ? `❤ ${fmtNum(m.likes)} likes` : "",
         m.library ? safe(m.library) : "",
-        m.createdAt ? `Added ${safe(fmtDate(m.createdAt))}` : "",
+        m.createdAt ? safe(fmtDate(m.createdAt)) : "",
       ].filter(Boolean);
       return `
       <article class="card model-card">

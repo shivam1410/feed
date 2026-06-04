@@ -33,6 +33,7 @@ const DEFAULT_CATEGORIES = [
   "Robotics & Engineering", "Science & Society", "Chemistry & Materials",
 ];
 const S2_LIMIT = 40;
+const HOME_LIMIT = 15; // Home shows only the top-N most relevant (by score)
 
 const SEEN_KEY = (id) => `feed_seen_${id}_v1`;
 const NOTION_URL_KEY = "feed_notion_url_v1";
@@ -388,9 +389,8 @@ async function load() {
         renderCategoryChips();
       }
       lastItems = data.items;
-      const shown = lastItems.filter((it) => isCatShown(it.category));
       const when = data.generatedAt ? new Date(data.generatedAt).toLocaleDateString() : "";
-      renderItems(shown, { metaExtra: when ? `updated ${safe(when)}` : "" });
+      renderItems(homeShown(), { metaExtra: `top picks${when ? " · updated " + safe(when) : ""}` });
     } else {
       lastItems = await loadSourceItems(feed);
       renderItems(lastItems);
@@ -458,16 +458,19 @@ function toggleCategory(cat) {
   if (selectedCats.size === allCategories.length) selectedCats = new Set(); // all → store empty
   saveSelectedCats();
   renderCategoryChips();
-  if (activeFeed().kind === "home" && lastItems.length) {
-    renderItems(lastItems.filter((it) => isCatShown(it.category)));
-  }
+  if (activeFeed().kind === "home" && lastItems.length) renderItems(homeShown());
 }
 
 function selectAllCategories() {
   selectedCats = new Set();
   saveSelectedCats();
   renderCategoryChips();
-  if (activeFeed().kind === "home" && lastItems.length) renderItems(lastItems);
+  if (activeFeed().kind === "home" && lastItems.length) renderItems(homeShown());
+}
+
+// Top-N most relevant within the followed categories (items are pre-sorted by score).
+function homeShown() {
+  return lastItems.filter((it) => isCatShown(it.category)).slice(0, HOME_LIMIT);
 }
 
 function openNav() { el.app.classList.add("nav-open"); }

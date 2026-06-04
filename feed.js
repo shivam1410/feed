@@ -29,6 +29,10 @@ const DEFAULT_CATEGORIES = [
 ];
 const HOME_LIMIT = 20; // Home shows only the top-N most relevant (by score)
 
+// Short-teaser sources shown as a scannable, click-to-open card list (no
+// carousel). The full-text sources keep the immersive swipe-deck reading mode.
+const LIST_FEEDS = ["deepmind", "nature"];
+
 const SEEN_KEY = (id) => `feed_seen_${id}_v1`;
 const POS_KEY = (id) => `feed_pos_${id}_v1`;
 const NOTION_URL_KEY = "feed_notion_url_v1";
@@ -425,7 +429,7 @@ function scrollDeckTo(idx) {
 
 function renderItems(items) {
   renderedById = Object.fromEntries(items.filter((it) => it.guid).map((it) => [it.guid, it]));
-  const linkable = !["home", "saved"].includes(activeFeed().kind);
+  const linkable = LIST_FEEDS.includes(activeFeed().id); // whole-card click → open link
   el.feed.innerHTML = items.map((it) => cardHTML(it, it.guid && !seen.has(it.guid), linkable)).join("");
   el.meta.textContent = "";
   firstLoad[activeId] = false;
@@ -487,9 +491,9 @@ function updateDeckIndicator(i) {
 // preserve=true keeps the current card (e.g. on resize / address-bar collapse)
 // instead of snapping back to the first one.
 function setupDeck(preserve = false) {
-  // Swipe-deck reading mode is for the curated Home + Saved collections only.
-  // Source feeds (Nature, DeepMind, arXiv, …) render as a scrollable card list.
-  const isDeck = ["home", "saved"].includes(activeFeed().kind) && deckMQL.matches;
+  // Carousel for everything except the short-teaser list feeds and the leaderboard.
+  const f = activeFeed();
+  const isDeck = f.kind !== "leaderboard" && !LIST_FEEDS.includes(f.id) && deckMQL.matches;
   el.feed.classList.toggle("deck", isDeck);
   if (!preserve) deckIndex = 0;
   const cards = isDeck ? el.feed.querySelectorAll(".card") : [];

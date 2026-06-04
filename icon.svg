@@ -1,14 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#4f8cff"/>
-      <stop offset="1" stop-color="#7b5cff"/>
-    </linearGradient>
-  </defs>
-  <!-- full-bleed background so it works as a maskable icon -->
-  <rect width="512" height="512" fill="url(#bg)"/>
-  <!-- main sparkle (matches the app's ✨ accent) -->
-  <path d="M256 92 Q290 222 420 256 Q290 290 256 420 Q222 290 92 256 Q222 222 256 92 Z" fill="#ffffff"/>
-  <!-- small accent sparkle -->
-  <path d="M388 96 Q400 148 452 160 Q400 172 388 224 Q376 172 324 160 Q376 148 388 96 Z" fill="#ffffff" opacity="0.85"/>
+  <!-- full-bleed dark background (platform rounds it for maskable) -->
+  <rect width="512" height="512" fill="#0f1115"/>
+  <!-- three rounded "feed" bars, centered within the maskable safe zone -->
+  <g fill="#ffffff">
+    <rect x="116" y="150" width="280" height="56" rx="28"/>
+    <rect x="116" y="228" width="280" height="56" rx="28"/>
+    <rect x="116" y="306" width="280" height="56" rx="28"/>
+  </g>
 </svg>

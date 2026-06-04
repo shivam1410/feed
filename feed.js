@@ -58,7 +58,21 @@ const el = {
   saveNotionUrl: document.getElementById("saveNotionUrl"),
   notionUrlMsg: document.getElementById("notionUrlMsg"),
   deckDots: document.getElementById("deckDots"),
+  fsUp: document.getElementById("fsUp"),
+  fsDown: document.getElementById("fsDown"),
 };
+
+/* ---------- reading font size ---------- */
+const FS_KEY = "feed_fontscale_v1";
+function applyFontScale(scale) {
+  document.documentElement.style.setProperty("--fs", String(scale));
+  try { localStorage.setItem(FS_KEY, String(scale)); } catch { /* ignore */ }
+}
+function nudgeFontScale(delta) {
+  let s = parseFloat(localStorage.getItem(FS_KEY) || "1") + delta;
+  s = Math.max(0.8, Math.min(1.8, Math.round(s * 10) / 10));
+  applyFontScale(s);
+}
 
 // Mobile Home shows cards as a horizontal swipe deck (one per screen + dots).
 const deckMQL = window.matchMedia("(max-width: 560px)");
@@ -378,25 +392,38 @@ function deckStep() {
   const card = el.feed.querySelector(".card");
   return card ? card.offsetWidth + DECK_GAP : el.feed.clientWidth;
 }
-function setActiveDot(i) {
-  const dots = el.deckDots.querySelectorAll(".dot");
-  dots.forEach(function (d, n) { d.classList.toggle("active", n === i); });
+const DECK_DOTS_MAX = 20; // beyond this, show an "n / N" counter instead of dots
+function updateDeckIndicator(i) {
+  if (el.deckDots.dataset.mode === "counter") {
+    const total = el.feed.querySelectorAll(".card").length;
+    const c = el.deckDots.querySelector(".deck-counter");
+    if (c) c.textContent = `${i + 1} / ${total}`;
+  } else {
+    el.deckDots.querySelectorAll(".dot").forEach((d, n) => d.classList.toggle("active", n === i));
+  }
 }
 function setupDeck() {
-  const isDeck = activeFeed().kind === "home" && deckMQL.matches;
+  // Reading mode (swipe deck) for every story list on mobile — not link cards.
+  const isDeck = activeFeed().kind !== "link" && deckMQL.matches;
   el.feed.classList.toggle("deck", isDeck);
-  if (!isDeck) {
+  deckIndex = 0;
+  const cards = isDeck ? el.feed.querySelectorAll(".card") : [];
+  if (!isDeck || cards.length < 2) {
     el.deckDots.innerHTML = "";
     el.deckDots.style.display = "none";
     return;
   }
-  const cards = el.feed.querySelectorAll(".card");
-  el.deckDots.style.display = cards.length > 1 ? "flex" : "none";
-  el.deckDots.innerHTML = Array.from(cards)
-    .map((_, i) => `<button type="button" class="dot${i === 0 ? " active" : ""}" data-i="${i}" aria-label="Card ${i + 1}"></button>`)
-    .join("");
+  el.deckDots.style.display = "flex";
+  if (cards.length > DECK_DOTS_MAX) {
+    el.deckDots.dataset.mode = "counter";
+    el.deckDots.innerHTML = `<span class="deck-counter">1 / ${cards.length}</span>`;
+  } else {
+    el.deckDots.dataset.mode = "dots";
+    el.deckDots.innerHTML = Array.from(cards)
+      .map((_, i) => `<button type="button" class="dot${i === 0 ? " active" : ""}" data-i="${i}" aria-label="Card ${i + 1}"></button>`)
+      .join("");
+  }
   el.feed.scrollLeft = 0;
-  deckIndex = 0;
 }
 
 function renderLinkCard(feed) {
@@ -409,6 +436,7 @@ function renderLinkCard(feed) {
         <div class="card-foot"><a class="source-link" href="${safe(feed.link)}" target="_blank" rel="noopener">Open ${safe(feed.name)} ↗</a></div>
       </div>
     </article>`;
+  setupDeck(); // clears deck mode for link cards
 }
 
 /* ---------- load ---------- */
@@ -545,13 +573,13 @@ function saveNotionUrl() {
 el.saveNotionUrl.addEventListener("click", saveNotionUrl);
 el.pNotionUrl.addEventListener("change", saveNotionUrl);
 
-// Swipe deck: track scroll → active dot; tap a dot → scroll to that card.
+// Swipe deck: track scroll → indicator; tap a dot → scroll to that card.
 el.feed.addEventListener("scroll", () => {
   if (!el.feed.classList.contains("deck")) return;
-  const count = el.deckDots.querySelectorAll(".dot").length;
-  if (!count) return;
+  const count = el.feed.querySelectorAll(".card").length;
+  if (count < 2) return;
   const i = Math.max(0, Math.min(count - 1, Math.round(el.feed.scrollLeft / deckStep())));
-  if (i !== deckIndex) { deckIndex = i; setActiveDot(i); }
+  if (i !== deckIndex) { deckIndex = i; updateDeckIndicator(i); }
 }, { passive: true });
 el.deckDots.addEventListener("click", (e) => {
   const dot = e.target.closest(".dot");
@@ -560,6 +588,10 @@ el.deckDots.addEventListener("click", (e) => {
 deckMQL.addEventListener("change", setupDeck);
 let resizeT;
 window.addEventListener("resize", () => { clearTimeout(resizeT); resizeT = setTimeout(setupDeck, 150); });
+
+// Reading font size
+el.fsUp.addEventListener("click", () => nudgeFontScale(0.1));
+el.fsDown.addEventListener("click", () => nudgeFontScale(-0.1));
 
 document.body.addEventListener("click", (e) => {
   const save = e.target.closest(".save-btn");
@@ -581,6 +613,7 @@ document.addEventListener("visibilitychange", () => {
 });
 
 el.pNotionUrl.value = localStorage.getItem(NOTION_URL_KEY) || "";
+applyFontScale(parseFloat(localStorage.getItem(FS_KEY) || "1"));
 seen = loadSeen(activeId);
 renderNav();
 renderCategoryChips();

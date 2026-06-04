@@ -11,7 +11,8 @@
 <link rel="apple-touch-icon" href="apple-touch-icon.png?v=2" />
 <meta name="apple-mobile-web-app-capable" content="yes" />
 <meta name="apple-mobile-web-app-title" content="AI Feed" />
-<link rel="stylesheet" href="styles.css?v=15" />
+<link rel="stylesheet" href="fonts/montserrat.css?v=2" />
+<link rel="stylesheet" href="styles.css?v=16" />
 </head>
 <body>
   <div class="app">
@@ -51,13 +52,17 @@
         <button class="menu-btn" id="menuBtn" type="button" aria-label="Open menu">☰</button>
         <h2 id="sectionTitle">Home</h2>
         <span id="meta" class="meta" aria-live="polite"></span>
+        <div class="fs-controls" aria-label="Text size">
+          <button id="fsDown" type="button" aria-label="Smaller text">A−</button>
+          <button id="fsUp" type="button" aria-label="Larger text">A+</button>
+        </div>
       </header>
       <div id="feed" class="feed" aria-live="polite"></div>
       <div id="deckDots" class="deck-dots" aria-hidden="true"></div>
     </main>
   </div>
 
-  <script src="feed.js?v=15"></script>
+  <script src="feed.js?v=16"></script>
   <script>
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', function () {

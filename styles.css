@@ -9,6 +9,7 @@
   --new: #2ecc71;
   --radius: 12px;
   --sidebar-w: 264px;
+  --fs: 1; /* reading-text scale, adjusted by the A−/A+ control */
 }
 
 * { box-sizing: border-box; }
@@ -16,7 +17,7 @@
 html, body { height: 100%; }
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   background: var(--bg);
   color: var(--text);
   line-height: 1.5;
@@ -163,6 +164,22 @@ button#saveProfile:hover, .refresh:hover { border-color: var(--accent); }
 .meta { margin-left: auto; font-size: 12px; color: var(--text-dim); }
 .meta .linkbtn { margin-left: 12px; }
 
+.fs-controls { margin-left: auto; display: flex; gap: 6px; }
+.fs-controls button {
+  font: inherit;
+  font-size: 13px;
+  color: var(--text-dim);
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  width: 32px;
+  height: 30px;
+  cursor: pointer;
+}
+.fs-controls button:hover { border-color: var(--accent); color: var(--text); }
+/* when both meta and controls exist, only one should push right */
+.meta:not(:empty) ~ .fs-controls { margin-left: 12px; }
+
 .menu-btn {
   display: inline-block;
   font-size: 18px;
@@ -209,7 +226,7 @@ button#saveProfile:hover, .refresh:hover { border-color: var(--accent); }
 }
 
 .card-head { display: flex; align-items: flex-start; gap: 10px; }
-.card h3 { margin: 0 0 4px; font-size: 16.5px; line-height: 1.35; flex: 1; min-width: 0; color: var(--text); font-weight: 650; }
+.card h3 { margin: 0 0 4px; font-size: calc(16.5px * var(--fs)); line-height: 1.35; flex: 1; min-width: 0; color: var(--text); font-weight: 650; }
 .head-actions { display: flex; align-items: center; gap: 8px; flex-shrink: 0; }
 .open-link { font-size: 13px; color: var(--accent); white-space: nowrap; }
 
@@ -254,14 +271,14 @@ button#saveProfile:hover, .refresh:hover { border-color: var(--accent); }
 .why { margin: 2px 0 8px; font-size: 12px; color: var(--accent); }
 .summary {
   margin: 6px 0 8px;
-  font-size: 14px;
+  font-size: calc(14px * var(--fs));
   color: var(--text-dim);
   display: -webkit-box;
   -webkit-line-clamp: 4;
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
-.summary.rich { -webkit-line-clamp: unset; color: var(--text); font-size: 14.5px; line-height: 1.6; }
+.summary.rich { -webkit-line-clamp: unset; color: var(--text); font-size: calc(14.5px * var(--fs)); line-height: 1.6; }
 .summary i { color: var(--text); }
 
 .full {
@@ -269,7 +286,7 @@ button#saveProfile:hover, .refresh:hover { border-color: var(--accent); }
   margin: 4px 0 10px;
   padding-top: 8px;
   border-top: 1px solid var(--border);
-  font-size: 13.5px;
+  font-size: calc(13.5px * var(--fs));
   color: var(--text-dim);
 }
 .full-label { font-size: 11px; text-transform: uppercase; letter-spacing: 0.5px; color: var(--text-dim); margin-right: 4px; }
@@ -409,3 +426,4 @@ button#saveProfile:hover, .refresh:hover { border-color: var(--accent); }
   transition: background 0.2s, transform 0.2s;
 }
 .deck-dots .dot.active { background: var(--accent); transform: scale(1.3); }
+.deck-dots .deck-counter { font-size: 13px; color: var(--text-dim); font-variant-numeric: tabular-nums; }

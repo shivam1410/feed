@@ -26,7 +26,7 @@ Pages just serves them.
 7 PM (launchd) → sync.py: fetch all sources → categorize + score with claude CLI
               → write data/*.json, stories/*.md, data/feed.db → git push
 GitHub Pages   → serves the committed static site (read from anywhere)
-Save → Notion  → browser → Cloudflare Worker (holds Notion key) → Notion
+Save → Notion  → browser → Google Apps Script Web App (holds Notion token) → Notion
 ```
 
 Each story is tagged with one of 10 categories (edit the `CATEGORIES` list in
@@ -83,15 +83,23 @@ Never commit secrets. `.gitignore` excludes `.env`; copy `.env.example` → `.en
 - **GitHub push:** prefer SSH (no token). Only if you must push over HTTPS to a
   different account, put a PAT in `.env` as `GITHUB_TOKEN` and configure a git
   credential helper — never embed it in the remote URL or commit it.
-- **Notion:** the key lives in the Cloudflare Worker (see `notion-worker/`), not
-  in the app. The app only stores the worker **URL** (sidebar → Notion sync URL).
+- **Notion:** the token lives in the Apps Script Web App's Script Properties
+  (see [`apps-script/Code.gs`](apps-script/Code.gs)), not in the app. The app
+  only stores the Web App **URL** (sidebar → Notion sync).
 
 ## Save to Notion
 
-See [`notion-worker/README.md`](notion-worker/README.md): deploy the worker
-(holds your Notion token), paste its URL into the app, then **☆ Save** on any
-card adds it to your Notion database. With no URL set, Save just stars locally
-(the **★ Saved** tab).
+Saving goes through a **Google Apps Script Web App** (it holds the Notion token,
+so the key never touches the browser). See [`apps-script/Code.gs`](apps-script/Code.gs):
+
+1. Create an Apps Script project, paste in `Code.gs`, and add Script Properties
+   `NOTION_TOKEN` and `NOTION_BOOKS_DB` (optional `API_SECRET` to gate it).
+2. Deploy as a **Web App** with access set to **Anyone**, and copy the `/exec` URL.
+3. Paste that URL into the app (sidebar → **Notion sync**).
+
+Once a URL is set, a **Save to Notion** button appears on each card; tapping it
+posts the story (title, summary, source, category) to your Notion database. The
+request is fire-and-forget (`no-cors`), so the button confirms optimistically.
 
 ## Layout
 

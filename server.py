@@ -32,11 +32,6 @@ FEEDS = {
     "nature": "https://www.nature.com/nature.rss",
     "deepmind": "https://deepmind.google/blog/rss.xml",
     "huggingface": "https://huggingface.co/api/daily_papers",
-    "semanticscholar": (
-        "https://api.semanticscholar.org/graph/v1/paper/search/bulk"
-        "?query=artificial+intelligence&sort=publicationDate:desc"
-        "&fields=title,abstract,url,authors,publicationDate,venue"
-    ),
     "arxiv": "https://rss.arxiv.org/rss/cs.LG",
     "latentspace": "https://www.latent.space/feed",
     "simonw": "https://simonwillison.net/atom/everything/",

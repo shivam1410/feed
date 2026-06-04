@@ -19,7 +19,6 @@ const FEEDS = [
     link: "https://paperswithcode.com/",
     note: "Papers With Code was discontinued — the domain now redirects to Hugging Face Papers, so it has no independent feed. Use HF Trending Papers for the same content.",
   },
-  { id: "semanticscholar", name: "Semantic Scholar", kind: "s2", link: "https://www.semanticscholar.org/" },
   { id: "arxiv", name: "arXiv (cs.LG)", kind: "rss" },
   { id: "latentspace", name: "Latent Space", kind: "rss" },
   { id: "simonw", name: "Simon Willison", kind: "rss" },
@@ -36,7 +35,6 @@ const DEFAULT_CATEGORIES = [
   "Neuroscience & Mind", "Physics & Space", "Climate & Energy",
   "Robotics & Engineering", "Science & Society", "Chemistry & Materials",
 ];
-const S2_LIMIT = 40;
 const HOME_LIMIT = 20; // Home shows only the top-N most relevant (by score)
 
 const SEEN_KEY = (id) => `feed_seen_${id}_v1`;
@@ -244,15 +242,7 @@ function parseHF(jsonText) {
     };
   });
 }
-function parseS2(jsonText) {
-  return (JSON.parse(jsonText).data || []).slice(0, S2_LIMIT).map((p) => ({
-    guid: p.paperId, title: p.title || "(untitled)",
-    link: p.url || (p.openAccessPdf && p.openAccessPdf.url) || "",
-    authors: (p.authors || []).map((a) => a.name).filter(Boolean),
-    date: p.publicationDate, summary: p.abstract || "", image: "", extra: p.venue || "",
-  }));
-}
-const PARSERS = { rss: parseRSS, hf: parseHF, s2: parseS2 };
+const PARSERS = { rss: parseRSS, hf: parseHF };
 
 /* ---------- fetching ---------- */
 
@@ -267,8 +257,6 @@ function upstreamUrl(feed) {
     case "nature": return "https://www.nature.com/nature.rss";
     case "deepmind": return "https://deepmind.google/blog/rss.xml";
     case "huggingface": return "https://huggingface.co/api/daily_papers";
-    case "semanticscholar":
-      return "https://api.semanticscholar.org/graph/v1/paper/search/bulk?query=artificial+intelligence&sort=publicationDate:desc&fields=title,abstract,url,authors,publicationDate,venue";
     case "arxiv": return "https://rss.arxiv.org/rss/cs.LG";
     case "latentspace": return "https://www.latent.space/feed";
     case "simonw": return "https://simonwillison.net/atom/everything/";

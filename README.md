@@ -120,8 +120,10 @@ refresh is manual (plus on focus).
 | Nature | RSS 1.0 / RDF | `nature.rss` |
 | DeepMind | RSS 2.0 | `deepmind.google/blog/rss.xml`, with thumbnails |
 | HF Trending Papers | JSON API | `/api/daily_papers`, upvotes + thumbnails |
+| arXiv (cs.LG) | RSS | `rss.arxiv.org/rss/cs.LG`, full abstracts |
+| Latent Space | RSS | newsletter/podcast posts |
+| Simon Willison | Atom | blog posts + link commentary |
 | Papers with Code | link | discontinued — redirects to HF Papers, no independent feed |
-| Semantic Scholar | JSON API | recent AI papers; public API is rate-limited |
 | Connected Papers | link | per-paper citation graph; no global feed |
 
 ## Home & categories (LLM)
@@ -202,7 +204,7 @@ login. The Mac must be awake/logged in at 7 PM for the job to fire.
 Curated cards show an **Inshorts-style briefing** — a ~60–160 word plain-language
 summary (key finding → specifics/numbers → why it matters), written by the model
 from the source abstract and grounded in it (it is told not to invent figures).
-Depth tracks the source: HF and Semantic Scholar provide full abstracts; Nature
+Depth tracks the source: HF and arXiv provide full abstracts; Nature
 and DeepMind feeds are short, so those briefings are shorter.
 
 **Source abstract ▾** reveals the original feed text verbatim; **Open ↗** (and

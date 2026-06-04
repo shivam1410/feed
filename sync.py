@@ -164,26 +164,13 @@ def parse_hf(data: bytes, source: str) -> list[dict]:
     return out
 
 
-def parse_s2(data: bytes, source: str) -> list[dict]:
-    out = []
-    for p in (json.loads(data).get("data") or []):
-        out.append({
-            "guid": p.get("paperId", ""), "title": p.get("title") or "(untitled)",
-            "link": p.get("url") or (p.get("openAccessPdf") or {}).get("url", ""),
-            "authors": [a.get("name") for a in p.get("authors", []) if a.get("name")],
-            "date": p.get("publicationDate", ""), "summary": p.get("abstract") or "",
-            "image": "", "source": source, "extra": p.get("venue") or "",
-        })
-    return out
-
-
 PARSERS = {
-    "nature": parse_rss, "deepmind": parse_rss, "huggingface": parse_hf, "semanticscholar": parse_s2,
+    "nature": parse_rss, "deepmind": parse_rss, "huggingface": parse_hf,
     "arxiv": parse_rss, "latentspace": parse_rss, "simonw": parse_rss,
 }
 SOURCE_NAMES = {
     "nature": "Nature", "deepmind": "DeepMind", "huggingface": "HF Trending Papers",
-    "semanticscholar": "Semantic Scholar", "arxiv": "arXiv (cs.LG)",
+    "arxiv": "arXiv (cs.LG)",
     "latentspace": "Latent Space", "simonw": "Simon Willison",
 }
 

@@ -78,7 +78,9 @@ function nudgeFontScale(delta) {
 }
 
 // Mobile Home shows cards as a horizontal swipe deck (one per screen + dots).
-const deckMQL = window.matchMedia("(max-width: 1024px)");
+// Reading deck applies to narrow screens OR any touch device (iPad/phone),
+// regardless of width — so a wide iPad still gets the swipe deck, not the list.
+const deckMQL = window.matchMedia("(max-width: 1024px), (pointer: coarse)");
 
 const HOME_SVG = '<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11l9-7 9 7"/><path d="M5 10v9a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-9"/></svg>';
 const CHART_SVG = '<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20V4"/><path d="M4 20h16"/><rect x="7" y="11" width="3" height="6" rx="0.5"/><rect x="12" y="7" width="3" height="10" rx="0.5"/><rect x="17" y="4" width="3" height="13" rx="0.5"/></svg>';

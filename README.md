@@ -123,8 +123,6 @@ refresh is manual (plus on focus).
 | arXiv (cs.LG) | RSS | `rss.arxiv.org/rss/cs.LG`, full abstracts |
 | Latent Space | RSS | newsletter/podcast posts |
 | Simon Willison | Atom | blog posts + link commentary |
-| Papers with Code | link | discontinued — redirects to HF Papers, no independent feed |
-| Connected Papers | link | per-paper citation graph; no global feed |
 
 ## Home & categories (LLM)
 

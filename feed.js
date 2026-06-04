@@ -19,17 +19,6 @@ const FEEDS = [
   // Short-teaser sources next.
   { id: "nature", name: "Nature", kind: "rss" },
   { id: "deepmind", name: "DeepMind", kind: "rss" },
-  // Link-only sources last (no article feed).
-  {
-    id: "paperswithcode", name: "Papers with Code", kind: "link",
-    link: "https://paperswithcode.com/",
-    note: "Papers With Code was discontinued — the domain now redirects to Hugging Face Papers, so it has no independent feed. Use HF Trending Papers for the same content.",
-  },
-  {
-    id: "connectedpapers", name: "Connected Papers", kind: "link",
-    link: "https://www.connectedpapers.com/",
-    note: "Connected Papers builds a citation graph around a single seed paper — there's no global article feed. Open it and search for a paper to explore its connections.",
-  },
 ];
 
 // Fallback if feed.json hasn't loaded yet; the real list comes from the data.
@@ -589,26 +578,12 @@ async function renderLeaderboard() {
   setupDeck(); // leaderboard is not a deck — this clears any deck state
 }
 
-function renderLinkCard(feed) {
-  el.meta.textContent = "";
-  el.feed.innerHTML = `
-    <article class="card link-card">
-      <div class="card-body">
-        <div class="card-head"><h3>${safe(feed.name)}</h3></div>
-        <p class="summary">${safe(feed.note || "")}</p>
-        <div class="card-foot"><a class="source-link" href="${safe(feed.link)}" target="_blank" rel="noopener">Open ${safe(feed.name)} ↗</a></div>
-      </div>
-    </article>`;
-  setupDeck(); // clears deck mode for link cards
-}
-
 /* ---------- load ---------- */
 
 async function load() {
   const feed = activeFeed();
   el.sectionTitle.textContent = feed.name;
 
-  if (feed.kind === "link") return renderLinkCard(feed);
   if (feed.kind === "leaderboard") return renderLeaderboard();
 
   if (feed.kind === "saved") {

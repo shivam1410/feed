@@ -38,6 +38,20 @@ Generated, committed artifacts:
 - `data/source-<id>.json` — each source's daily snapshot (source tabs work statically)
 - `stories/<category>/<slug>.md` — one Markdown file per story (front-matter incl. category)
 - `data/metadata.json` + `data/feed.db` — metadata (JSON for the app, SQLite mirror for you)
+- `data/leaderboard.json` — top-10 trending Hugging Face models for the Leaderboard tab (see below)
+
+## Leaderboard
+
+The **Leaderboard** tab shows the top 10 trending models on Hugging Face as
+home-style cards. For each model `write_leaderboard()` (in `sync.py`) fetches the
+HF trending list plus each model's detail (task, library, created date) and a
+README excerpt, then asks the `claude` CLI for a grounded one-line "what it does"
+summary. Cards show: rank, task badge, summary, downloads, likes, library, and
+the model's added date. It's purely informational — no read-state is stored.
+
+This step is best-effort: if Hugging Face or the LLM is unavailable it logs and
+continues (the daily run never fails on it), and the tab falls back to the
+always-live canonical leaderboard links (LMArena, Artificial Analysis, etc.).
 
 ## Publish to GitHub Pages
 

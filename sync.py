@@ -188,14 +188,54 @@ SOURCE_NAMES = {
 }
 
 
+def article_preview(url: str, limit: int = 400) -> str:
+    """Best-effort preview for feeds that ship headlines only (e.g. DeepMind):
+    fetch the article and return its meta/og description, else the first real paragraph."""
+    try:
+        raw = fetch(url).decode("utf-8", "ignore")
+    except Exception:
+        return ""
+    for pat in (
+        r'<meta[^>]+property=["\']og:description["\'][^>]*>',
+        r'<meta[^>]+name=["\']description["\'][^>]*>',
+        r'<meta[^>]+name=["\']twitter:description["\'][^>]*>',
+    ):
+        m = re.search(pat, raw, re.I)
+        if m:
+            c = re.search(r'content=["\'](.*?)["\']', m.group(0), re.S)
+            text = html.unescape(c.group(1)).strip() if c else ""
+            if text:
+                return text[:limit]
+    for p in re.findall(r"<p[^>]*>(.*?)</p>", raw, re.S | re.I):  # fallback: first decent paragraph
+        text = html.unescape(re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", p))).strip()
+        if len(text) >= 60:
+            return text[:limit]
+    return ""
+
+
+def backfill_summaries(items: list[dict]) -> int:
+    """Fill empty summaries from the article page. Returns how many were filled."""
+    filled = 0
+    for it in items:
+        if (it.get("summary") or "").strip() or not it.get("link"):
+            continue
+        preview = article_preview(it["link"])
+        if preview:
+            it["summary"] = preview
+            filled += 1
+    return filled
+
+
 def gather_by_source() -> dict[str, list[dict]]:
     """Fetch each source's feed once; return {src_id: [items]}."""
     by_source: dict[str, list[dict]] = {}
     for src, parser in PARSERS.items():
         try:
             parsed = parser(fetch(FEEDS[src]), SOURCE_NAMES[src])
-            by_source[src] = parsed[:SOURCE_FEED_CAP]
-            log(f"{src}: {len(by_source[src])} items")
+            items = parsed[:SOURCE_FEED_CAP]
+            filled = backfill_summaries(items)  # headline-only feeds → scrape a preview
+            by_source[src] = items
+            log(f"{src}: {len(items)} items" + (f" (+{filled} previews)" if filled else ""))
         except Exception as err:  # one bad source must not sink the run
             by_source[src] = []
             log(f"{src}: FAILED ({err})")

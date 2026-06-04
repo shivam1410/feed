@@ -372,8 +372,8 @@ function cardHTML(item, isNew) {
         </div>
         ${item.why ? `<p class="why">↳ ${safe(item.why)}</p>` : ""}
         ${body ? `<p class="summary${briefed ? " rich" : ""}">${lightMarkup(body)}</p>` : ""}
+        ${hasMore ? `<button type="button" class="readmore" data-more="${briefed ? "Source abstract ▾" : "Read more ▾"}" data-less="${briefed ? "Hide abstract ▴" : "Show less ▴"}">${briefed ? "Source abstract ▾" : "Read more ▾"}</button>` : ""}
         ${showOrig ? `<div class="full"><span class="full-label">From the source:</span> ${lightMarkup(orig)}</div>` : ""}
-        ${hasMore ? `<button type="button" class="readmore" data-more="${briefed ? "Source abstract ▾" : "Read more ▾"}" data-less="Show less ▴">${briefed ? "Source abstract ▾" : "Read more ▾"}</button>` : ""}
         ${byline ? `<div class="byline">${safe(byline)}</div>` : ""}
         <div class="card-foot">
           <span class="date">${safe(date)}</span>

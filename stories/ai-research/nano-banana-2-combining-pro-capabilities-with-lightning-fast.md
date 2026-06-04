@@ -8,7 +8,7 @@ date: "Thu, 26 Feb 2026 16:01:50 +0000"
 score: 55
 guid: "https://deepmind.google/blog/nano-banana-2-combining-pro-capabilities-with-lightning-fast-speed/"
 image: "https://lh3.googleusercontent.com/uzAd6nlnEh3lSFyE5Ay-1tvY6xesJLBuPucsK64LfxUwhMk5odcsyH-pAaIKRDVh1PniKOsihrha1qqspCc2f3CgPv61TSgTReKWdUlPiavUkH3R8lM=w528-h297-n-nu-rw-lo"
-generated: "2026-06-04T15:26:41+05:30"
+generated: "2026-06-04T19:29:25+05:30"
 ---
 
 Our latest image generation model offers advanced world knowledge, production ready specs, subject consistency and more, all at Flash speed.

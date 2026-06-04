@@ -5,10 +5,10 @@ source: "Semantic Scholar"
 url: "https://www.semanticscholar.org/paper/09bf5e626437282d60c072d1291cc83b460c6e26"
 authors: ["Muzeyyen Ataseven", "Zeynep Ersoz", "B. Kahveci"]
 date: "2026-08-01"
-score: 70
+score: 48
 guid: "09bf5e626437282d60c072d1291cc83b460c6e26"
 image: ""
-generated: "2026-06-04T15:26:41+05:30"
+generated: "2026-06-04T19:19:22+05:30"
 ---
 
 

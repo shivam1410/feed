@@ -8,7 +8,7 @@ date: "2026-06-03"
 score: 65
 guid: "10.1038/s41586-026-10616-2"
 image: ""
-generated: "2026-06-04T15:26:41+05:30"
+generated: "2026-06-04T19:29:25+05:30"
 ---
 
-High-energy electron scattering experiments on three different nuclei revealed that short-range nucleon pairing—the tendency of neighboring nucleons to form correlated pairs—depends far more strongly on specific quantum orbitals than existing theoretical models predict. This experimental finding challenges nuclear physics theory and requires revised understanding of how nuclear forces operate at short distances, fundamental to explaining nuclear structure and nuclear reactions.
+The scattering of high-energy electrons from three different nuclei demonstrated that short-range-correlated pairing depends far more on the specific quantum orbitals occupied by nucleons than predicted by theoretical models.

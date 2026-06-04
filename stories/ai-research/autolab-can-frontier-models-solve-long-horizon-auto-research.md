@@ -5,10 +5,10 @@ source: "HF Trending Papers"
 url: "https://huggingface.co/papers/2606.05080"
 authors: ["Zhangchen Xu", "Junda Chen", "Yue Huang", "Dongfu Jiang", "Jiefeng Chen", "Hang Hua", "Zijian Wu", "Zheyuan Liu", "Zexue He", "Lichi Li", "Shizhe Diao", "Jiaxin Pei", "Jinsung Yoon", "Hao Zhang", "Mengdi Wang", "Radha Poovendran", "Misha Sra", "Alex Pentland", "Zichen Chen"]
 date: "2026-06-02T20:00:00.000Z"
-score: 75
+score: 73
 guid: "2606.05080"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2606.05080.png"
-generated: "2026-06-04T15:26:41+05:30"
+generated: "2026-06-04T19:29:25+05:30"
 ---
 
 AutoLab benchmark evaluates long-horizon iterative optimization capabilities of frontier models across diverse domains, revealing that persistent iteration and time awareness are more critical than initial performance quality.

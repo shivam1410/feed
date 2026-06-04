@@ -5,10 +5,10 @@ source: "Semantic Scholar"
 url: "https://www.semanticscholar.org/paper/d244eb1228dcf7b430727eda8ffa518362b2c54b"
 authors: ["Jingwen Wang", "Yan Jiang", "Lin Li"]
 date: "2026-08-01"
-score: 68
+score: 60
 guid: "d244eb1228dcf7b430727eda8ffa518362b2c54b"
 image: ""
-generated: "2026-06-04T15:26:41+05:30"
+generated: "2026-06-04T19:29:25+05:30"
 ---
 
 

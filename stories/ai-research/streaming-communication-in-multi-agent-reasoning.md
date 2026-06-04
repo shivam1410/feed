@@ -5,10 +5,10 @@ source: "HF Trending Papers"
 url: "https://huggingface.co/papers/2606.05158"
 authors: ["Zhen Yang", "Xiaogang Xu", "Wen Wang", "Cong Chen", "Xander Xu", "Ying-Cong Chen"]
 date: "2026-06-02T20:00:00.000Z"
-score: 75
+score: 65
 guid: "2606.05158"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2606.05158.png"
-generated: "2026-06-04T15:26:41+05:30"
+generated: "2026-06-04T19:29:25+05:30"
 ---
 
 StreamMA enables efficient multi-agent reasoning by streaming intermediate results and leveraging reliable early steps to improve both latency and effectiveness across various reasoning tasks.

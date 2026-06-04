@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/d41586-026-01691-6"
 authors: ["Mariana Lenharo"]
 date: "2026-06-03"
-score: 60
+score: 65
 guid: "10.1038/d41586-026-01691-6"
 image: ""
-generated: "2026-06-04T15:26:41+05:30"
+generated: "2026-06-04T19:29:25+05:30"
 ---
 
 Nature talks to specialists about whether people might soon be diagnosed by artificial-intelligence systems.

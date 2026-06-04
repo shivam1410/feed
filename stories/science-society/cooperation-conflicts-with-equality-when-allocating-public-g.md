@@ -8,7 +8,7 @@ date: "2026-06-03"
 score: 50
 guid: "10.1038/s41586-026-10550-3"
 image: ""
-generated: "2026-06-04T15:26:41+05:30"
+generated: "2026-06-04T19:29:25+05:30"
 ---
 
 Uniform sharing of public goods can boost cooperation in social networks, but often concentrates benefits among well-connected individuals, creating inequality despite greater collective success.

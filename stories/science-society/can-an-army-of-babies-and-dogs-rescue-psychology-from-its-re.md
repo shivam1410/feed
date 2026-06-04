@@ -8,7 +8,7 @@ date: "2026-06-03"
 score: 55
 guid: "10.1038/d41586-026-01727-x"
 image: ""
-generated: "2026-06-04T15:26:41+05:30"
+generated: "2026-06-04T19:29:25+05:30"
 ---
 
 Labs are teaming up to run a host of huge projects that aim to bring rigour to cognitive science.

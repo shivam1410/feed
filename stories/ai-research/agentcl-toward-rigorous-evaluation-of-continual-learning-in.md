@@ -8,7 +8,7 @@ date: "2026-06-01T20:00:00.000Z"
 score: 70
 guid: "2606.02461"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2606.02461.png"
-generated: "2026-06-04T15:26:41+05:30"
+generated: "2026-06-04T19:29:25+05:30"
 ---
 
 A comprehensive evaluation framework for continual learning in language agents is introduced, emphasizing controlled task streams and memory design analysis to better assess reusable experience and learning stability.

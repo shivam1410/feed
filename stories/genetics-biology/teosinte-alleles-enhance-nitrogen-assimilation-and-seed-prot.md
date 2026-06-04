@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/s41586-026-10575-8"
 authors: ["Yongcai Huang", "Yidong Zhu", "Yahui Cui", "Guolong Shi", "Xiaoxian Wu", "Wenhao Li", "Zhiteng Chen", "Yu Zhou", "Yincong Gu", "Zhigui Bao", "Shiqi Luo", "Xingguo Wu", "Ruifan Li", "Jingjing Liu", "Xiangjie Dai", "Junxin Liu", "Di Chen", "Lulu Gao", "Chong You", "Youliang Li", "Yu Zhang", "Wenqin Wang", "Haihai Wang", "Yongrui Wu"]
 date: "2026-06-03"
-score: 65
+score: 75
 guid: "10.1038/s41586-026-10575-8"
 image: ""
-generated: "2026-06-04T15:26:41+05:30"
+generated: "2026-06-04T19:29:25+05:30"
 ---
 
-Wild teosinte—maize's ancestor—carries genetic variants that enhance nitrogen assimilation and seed protein content when introduced into modern maize varieties. Researchers expressed these ancient alleles in contemporary crops without sacrificing yield, preserving productivity while boosting nutritional quality and growth efficiency. Nitrogen is essential for plant development; more efficient nitrogen use reduces fertilizer demands while increasing protein output. This strategy leverages natural genetic diversity already present in crop wild relatives, offering a sustainable path to improving food quality. The approach addresses future population demands by maximizing both productivity and nutritional value without yield compromise.
+Researchers introduced alleles from teosinte—maize's wild ancestor—into modern maize varieties, improving nitrogen assimilation and seed protein content without reducing crop yield. This discovery leverages genetic diversity preserved in wild crop relatives, offering an elegant solution to enhance nutritional quality and agricultural productivity. As global populations grow, crops must yield more while improving nutrition. The approach avoids typical tradeoffs where enhancing one trait reduces another. By tapping wild genetic variation, scientists can improve multiple traits simultaneously. This strategy has broader applications beyond maize, suggesting that screening wild crop relatives could unlock genetic improvements for food security in resource-constrained futures.

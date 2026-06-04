@@ -8,7 +8,7 @@ date: "2026-06-03"
 score: 70
 guid: "10.1038/s41586-026-10627-z"
 image: ""
-generated: "2026-06-04T14:49:21+05:30"
+generated: "2026-06-04T19:29:25+05:30"
 ---
 
 Single-cell mapping of cis-expression quantitative trait loci in inflammatory bowel disease revealed distal, enhancer-enriched variants detected at the cell-type level more frequently co-localize with genome-wide association study loci than those identified at the tissue level.

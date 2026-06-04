@@ -8,7 +8,7 @@ date: "2026-06-02T20:00:00.000Z"
 score: 70
 guid: "2606.05008"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2606.05008.png"
-generated: "2026-06-04T15:26:41+05:30"
+generated: "2026-06-04T19:29:25+05:30"
 ---
 
 Multi-modal models exhibit significant limitations in memory capabilities, particularly in maintaining disentangled representations and demonstrating human-like interference patterns, highlighting the need for improved memory mechanisms in video understanding systems.

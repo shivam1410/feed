@@ -8,7 +8,7 @@ date: "2026-05-31T20:00:00.000Z"
 score: 70
 guid: "2606.02060"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2606.02060.png"
-generated: "2026-06-04T15:26:41+05:30"
+generated: "2026-06-04T19:29:25+05:30"
 ---
 
 Deep-research agents can be audited using a claim-centric framework that identifies error spans in their reasoning trajectories, improving reliability assessment beyond just final answer evaluation.

@@ -5,10 +5,10 @@ source: "Semantic Scholar"
 url: "https://www.semanticscholar.org/paper/cd5d01b9da1236dbb6ca13822584981b86ae3849"
 authors: ["A. Grasso", "Vincenzo Del Zoppo", "A. Mezzina", "M. Cataldo", "G. Puglisi", "Fabio Spampinato", "S. P. Cosentino", "M. L. Pumo", "L. Naso"]
 date: "2026-07-01"
-score: 75
+score: 70
 guid: "cd5d01b9da1236dbb6ca13822584981b86ae3849"
 image: ""
-generated: "2026-06-04T15:26:41+05:30"
+generated: "2026-06-04T19:29:25+05:30"
 ---
 
-No full text available. The research develops a dual AI framework for automatically classifying hydrogen-rich Type IIP supernovae within the ASTRAI (Advanced Supernova Transient Research with Artificial Intelligence) project. Automated classification could improve discovery efficiency and characterization of these supernovae, important for understanding stellar evolution.
+The ASTRAI (Advanced Supernova Transient Research with Artificial Intelligence) project develops a dual AI framework for automatically characterizing hydrogen-rich supernovae with low-interaction properties. Automated classification of these astronomical events accelerates discovery and analysis in large survey datasets where manual review of thousands of objects is impractical. This automated capability matters for supernova science because rapid identification enables faster follow-up observations with limited telescope resources, improves understanding of stellar explosion mechanisms and physical properties, and contributes to cosmic distance measurement techniques.

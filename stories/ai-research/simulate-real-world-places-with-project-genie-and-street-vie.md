@@ -8,7 +8,7 @@ date: "Sun, 17 May 2026 19:53:18 +0000"
 score: 60
 guid: "https://deepmind.google/blog/simulate-real-world-places-with-project-genie-and-street-view/"
 image: ""
-generated: "2026-06-04T15:26:41+05:30"
+generated: "2026-06-04T19:29:25+05:30"
 ---
 
 We’re expanding access to Google AI Ultra subscribers globally and introducing a new capability powered by Street View.

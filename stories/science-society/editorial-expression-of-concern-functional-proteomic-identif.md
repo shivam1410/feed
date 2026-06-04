@@ -8,7 +8,7 @@ date: "2026-06-03"
 score: 20
 guid: "10.1038/s41586-026-10727-w"
 image: ""
-generated: "2026-06-04T15:26:41+05:30"
+generated: "2026-06-04T19:29:25+05:30"
 ---
 
 Editorial Expression of Concern: Functional proteomic identification of DNA replication proteins by induced proteolysis in vivo

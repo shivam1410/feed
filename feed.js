@@ -340,20 +340,14 @@ function cardHTML(item, isNew) {
     </article>`;
 }
 
-function setMeta(items, extra = "") {
-  const newCount = items.filter((it) => it.guid && !seen.has(it.guid)).length;
-  const parts = [`${items.length} stories`];
-  if (newCount) parts.push(`${newCount} new`);
-  let html = parts.join(" · ");
-  if (extra) html += " · " + extra;
-  if (items.length) html += ' · <button type="button" class="linkbtn" id="markReadBtn">Mark all read</button>';
-  el.meta.innerHTML = html;
-}
-
-function renderItems(items, { metaExtra = "" } = {}) {
+function renderItems(items) {
   renderedById = Object.fromEntries(items.filter((it) => it.guid).map((it) => [it.guid, it]));
   el.feed.innerHTML = items.map((it) => cardHTML(it, it.guid && !seen.has(it.guid))).join("");
-  setMeta(items, metaExtra);
+  el.meta.textContent = "";
+  // Baseline "new": mark currently shown items as seen so NEW means "since last visit".
+  var changed = false;
+  items.forEach(function (it) { if (it.guid && !seen.has(it.guid)) { seen.add(it.guid); changed = true; } });
+  if (changed) saveSeen(activeId);
   firstLoad[activeId] = false;
 }
 
@@ -404,8 +398,7 @@ async function load() {
         renderCategoryChips();
       }
       lastItems = data.items;
-      const when = data.generatedAt ? new Date(data.generatedAt).toLocaleDateString() : "";
-      renderItems(homeShown(), { metaExtra: `top picks${when ? " · updated " + safe(when) : ""}` });
+      renderItems(homeShown());
     } else {
       lastItems = await loadSourceItems(feed);
       renderItems(lastItems);
@@ -423,17 +416,6 @@ async function load() {
 /* ---------- interactions ---------- */
 
 const activeFeed = () => FEEDS.find((f) => f.id === activeId) || FEEDS[0];
-
-function markAllRead() {
-  document.querySelectorAll(".card[data-guid]").forEach((c) => {
-    const g = c.getAttribute("data-guid");
-    if (g) seen.add(g);
-    c.classList.remove("is-new");
-    c.querySelector(".badge")?.remove();
-  });
-  saveSeen(activeId);
-  el.meta.innerHTML = el.meta.innerHTML.replace(/\d+ new · /, "");
-}
 
 function switchSource(id) {
   if (id === activeId) { closeNav(); return; }
@@ -510,7 +492,6 @@ el.pNotionUrl.addEventListener("change", () => {
 });
 
 document.body.addEventListener("click", (e) => {
-  if (e.target.id === "markReadBtn") return markAllRead();
   const save = e.target.closest(".save-btn");
   if (save) {
     const item = renderedById[save.closest(".card")?.getAttribute("data-guid")];

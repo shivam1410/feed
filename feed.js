@@ -528,7 +528,10 @@ async function renderLeaderboard() {
 
   let html = "";
   if (data && Array.isArray(data.models) && data.models.length) {
-    const when = data.generatedAt ? new Date(data.generatedAt).toLocaleString() : "";
+    const wd = data.generatedAt ? new Date(data.generatedAt) : null;
+    const when = wd && !isNaN(wd)
+      ? wd.toLocaleDateString("en-US", { year: "numeric", month: "short", day: "2-digit" })
+      : "";
     html += `<div class="curate-banner">🏆 Top trending models on Hugging Face${when ? " · " + safe(when) : ""}</div>`;
     html += '<div class="lb-table">' + data.models.map((m, i) => `
       <a class="lb-row" href="${safe(m.url)}" target="_blank" rel="noopener">

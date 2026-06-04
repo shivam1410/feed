@@ -283,6 +283,9 @@ button#saveProfile:hover, .refresh:hover { border-color: var(--accent); }
 .source-link { white-space: nowrap; }
 .save-btn {
   margin-left: auto;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
   font: inherit;
   font-size: 12px;
   color: var(--text-dim);
@@ -293,6 +296,19 @@ button#saveProfile:hover, .refresh:hover { border-color: var(--accent); }
   cursor: pointer;
   white-space: nowrap;
 }
+.save-btn .ic { flex-shrink: 0; }
+#saveNotionUrl {
+  font: inherit;
+  font-size: 13px;
+  color: var(--text);
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 7px 12px;
+  margin-top: 6px;
+  cursor: pointer;
+}
+#saveNotionUrl:hover { border-color: var(--accent); }
 .save-btn:hover { border-color: var(--accent); color: var(--text); }
 .save-btn.saved { color: var(--new); border-color: var(--new); }
 

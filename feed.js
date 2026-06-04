@@ -35,6 +35,7 @@ const LIST_FEEDS = ["deepmind", "nature"];
 
 const SEEN_KEY = (id) => `feed_seen_${id}_v1`;
 const POS_KEY = (id) => `feed_pos_${id}_v1`;
+const READ_KEY = "feed_read_v1"; // guids the user has opened/marked read (global)
 const NOTION_URL_KEY = "feed_notion_url_v1";
 const SAVED_KEY = "feed_saved_v1";
 const CATS_KEY = "feed_cats_v1";
@@ -83,6 +84,7 @@ let isFetching = false;
 let activeId = localStorage.getItem("feed_active") || "home";
 const firstLoad = {};
 let seen = new Set();
+let read = new Set();
 let lastItems = [];
 let renderedById = {};
 let deckIndex = 0;
@@ -160,6 +162,18 @@ function loadSeen(id) {
 }
 function saveSeen(id) {
   try { localStorage.setItem(SEEN_KEY(id), JSON.stringify([...seen].slice(-500))); } catch { /* ignore */ }
+}
+function loadRead() {
+  try { return new Set(JSON.parse(localStorage.getItem(READ_KEY) || "[]")); } catch { return new Set(); }
+}
+function saveRead() {
+  try { localStorage.setItem(READ_KEY, JSON.stringify([...read].slice(-2000))); } catch { /* ignore */ }
+}
+function setCardRead(card, isRead) {
+  if (!card) return;
+  card.classList.toggle("read", isRead);
+  const btn = card.querySelector(".read-btn");
+  if (btn) { btn.classList.toggle("is-read", isRead); btn.textContent = isRead ? "✓ Read" : "Mark read"; }
 }
 
 /* ---------- reading position (resume the last story on reload) ---------- */
@@ -336,6 +350,7 @@ function cardHTML(item, isNew, linkable) {
   const showOrig = briefed && orig && orig !== body;
   const hasMore = briefed ? showOrig : body.length > 220;
   const canSave = !!notionUrl(); // show Save only when a Notion endpoint is configured
+  const isRead = linkable && item.guid && read.has(item.guid); // read/visited state (list feeds only)
   const imgTag = item.image
     ? `<img class="thumb" src="/img?url=${encodeURIComponent(item.image)}" data-orig="${safe(item.image)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="if(!this.dataset.fbk){this.dataset.fbk=1;this.src=this.dataset.orig}else{this.remove()}">`
     : "";
@@ -343,7 +358,7 @@ function cardHTML(item, isNew, linkable) {
   const headActions = `${isNew ? '<span class="badge">New</span>' : ""}` +
     (linkable ? "" : `<a class="open-link" href="${safe(item.link)}" target="_blank" rel="noopener">Open ↗</a>`);
   return `
-    <article class="card${isNew ? " is-new" : ""}${linkable ? " card-link" : ""}" data-guid="${safe(item.guid)}"${linkable ? ` data-link="${safe(item.link)}"` : ""}>
+    <article class="card${isNew ? " is-new" : ""}${linkable ? " card-link" : ""}${isRead ? " read" : ""}" data-guid="${safe(item.guid)}"${linkable ? ` data-link="${safe(item.link)}"` : ""}>
       ${imgTag}
       <div class="card-body">
         <div class="card-head">
@@ -360,6 +375,7 @@ function cardHTML(item, isNew, linkable) {
         ${byline ? `<div class="byline">${safe(byline)}</div>` : ""}
         <div class="card-foot">
           <span class="date">${safe(date)}</span>
+          ${linkable ? `<button type="button" class="read-btn${isRead ? " is-read" : ""}">${isRead ? "✓ Read" : "Mark read"}</button>` : ""}
           ${canSave ? `<button type="button" class="save-btn">${saveLabel("save")}</button>` : ""}
         </div>
       </div>
@@ -375,6 +391,7 @@ function markSeenGuid(guid) {
 function restorePosition(items) {
   const cards = el.feed.querySelectorAll(".card");
   if (!cards.length) return;
+  if (LIST_FEEDS.includes(activeId)) return; // these always start at the top on (re)load
   const savedGuid = loadPos(activeId);
   let idx = savedGuid ? items.findIndex((it) => it.guid === savedGuid) : -1;
 
@@ -752,10 +769,10 @@ el.feed.addEventListener("scroll", () => {
 // List view: remember the story currently at the top of the viewport.
 let posT;
 window.addEventListener("scroll", () => {
-  if (el.feed.classList.contains("deck")) return;
+  if (el.feed.classList.contains("deck") || LIST_FEEDS.includes(activeId)) return;
   clearTimeout(posT);
   posT = setTimeout(() => {
-    if (el.feed.classList.contains("deck")) return;
+    if (el.feed.classList.contains("deck") || LIST_FEEDS.includes(activeId)) return;
     const line = headerOffset();
     let current = null;
     for (const c of el.feed.querySelectorAll(".card")) {
@@ -790,10 +807,26 @@ document.body.addEventListener("click", (e) => {
     more.textContent = expanded ? more.dataset.less : more.dataset.more;
     return;
   }
+  // Toggle the read/visited state without opening the article.
+  const readBtn = e.target.closest(".read-btn");
+  if (readBtn) {
+    const card = readBtn.closest(".card");
+    const guid = card?.getAttribute("data-guid");
+    if (guid) {
+      const now = !read.has(guid);
+      if (now) read.add(guid); else read.delete(guid);
+      saveRead();
+      setCardRead(card, now);
+    }
+    return;
+  }
   // Source-feed cards open their article on click — unless the click was on an
   // interactive element (Save, an inner link/button) or the user selected text.
   const linkCard = e.target.closest(".card-link");
   if (linkCard && !e.target.closest("a, button") && !window.getSelection()?.toString()) {
+    const guid = linkCard.getAttribute("data-guid");
+    if (guid && !read.has(guid)) { read.add(guid); saveRead(); } // opening marks it read
+    setCardRead(linkCard, true);
     const url = linkCard.getAttribute("data-link");
     if (url) window.open(url, "_blank", "noopener");
   }
@@ -806,6 +839,7 @@ document.addEventListener("visibilitychange", () => {
 el.pNotionUrl.value = localStorage.getItem(NOTION_URL_KEY) || "";
 applyFontScale(parseFloat(localStorage.getItem(FS_KEY) || "1"));
 seen = loadSeen(activeId);
+read = loadRead();
 renderNav();
 renderCategoryChips();
 load();

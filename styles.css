@@ -228,6 +228,8 @@ button#saveProfile:hover { border-color: var(--accent); }
   transition: border-color 0.2s;
 }
 .card:hover { border-color: #38404f; }
+.card-link { cursor: pointer; }
+.card-link:hover { border-color: var(--accent); }
 .card.is-new { box-shadow: inset 3px 0 0 var(--new); }
 
 .card-body { flex: 1; min-width: 0; }

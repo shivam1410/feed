@@ -321,7 +321,7 @@ function saveLabel(state) {
   return NOTION_ICON + " " + txt;
 }
 
-function cardHTML(item, isNew) {
+function cardHTML(item, isNew, linkable) {
   const byline = [item.source, item.extra, fmtAuthors(item.authors)].filter(Boolean).join(" · ");
   const date = fmtDate(item.date);
   const briefed = !!item.briefed || !!item.why;
@@ -335,16 +335,16 @@ function cardHTML(item, isNew) {
   const imgTag = item.image
     ? `<img class="thumb" src="/img?url=${encodeURIComponent(item.image)}" data-orig="${safe(item.image)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="if(!this.dataset.fbk){this.dataset.fbk=1;this.src=this.dataset.orig}else{this.remove()}">`
     : "";
+  // Source-feed cards open their link on click (whole card), so drop the Open ↗.
+  const headActions = `${isNew ? '<span class="badge">New</span>' : ""}` +
+    (linkable ? "" : `<a class="open-link" href="${safe(item.link)}" target="_blank" rel="noopener">Open ↗</a>`);
   return `
-    <article class="card${isNew ? " is-new" : ""}" data-guid="${safe(item.guid)}">
+    <article class="card${isNew ? " is-new" : ""}${linkable ? " card-link" : ""}" data-guid="${safe(item.guid)}"${linkable ? ` data-link="${safe(item.link)}"` : ""}>
       ${imgTag}
       <div class="card-body">
         <div class="card-head">
           <h3>${lightMarkup(item.title)}</h3>
-          <div class="head-actions">
-            ${isNew ? '<span class="badge">New</span>' : ""}
-            <a class="open-link" href="${safe(item.link)}" target="_blank" rel="noopener">Open ↗</a>
-          </div>
+          <div class="head-actions">${headActions}</div>
         </div>
         <div class="tags">
           ${item.category ? `<span class="cat-tag">${safe(item.category)}</span>` : ""}
@@ -425,7 +425,8 @@ function scrollDeckTo(idx) {
 
 function renderItems(items) {
   renderedById = Object.fromEntries(items.filter((it) => it.guid).map((it) => [it.guid, it]));
-  el.feed.innerHTML = items.map((it) => cardHTML(it, it.guid && !seen.has(it.guid))).join("");
+  const linkable = !["home", "saved"].includes(activeFeed().kind);
+  el.feed.innerHTML = items.map((it) => cardHTML(it, it.guid && !seen.has(it.guid), linkable)).join("");
   el.meta.textContent = "";
   firstLoad[activeId] = false;
   setupDeck();
@@ -783,6 +784,14 @@ document.body.addEventListener("click", (e) => {
     const card = more.closest(".card");
     const expanded = card.classList.toggle("expanded");
     more.textContent = expanded ? more.dataset.less : more.dataset.more;
+    return;
+  }
+  // Source-feed cards open their article on click — unless the click was on an
+  // interactive element (Save, an inner link/button) or the user selected text.
+  const linkCard = e.target.closest(".card-link");
+  if (linkCard && !e.target.closest("a, button") && !window.getSelection()?.toString()) {
+    const url = linkCard.getAttribute("data-link");
+    if (url) window.open(url, "_blank", "noopener");
   }
 });
 

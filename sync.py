@@ -53,6 +53,8 @@ STORIES_DIR = os.path.join(HERE, "stories")
 CONFIG_PATH = os.path.join(HERE, "sync.config.json")
 SOURCE_FEED_CAP = 50  # how many items per source to publish for its tab
 LEADERBOARD_URL = "https://huggingface.co/api/models?sort=trendingScore&direction=-1&limit=10"
+MODEL_DETAIL_URL = "https://huggingface.co/api/models/{id}"
+MODEL_README_URL = "https://huggingface.co/{id}/raw/main/README.md"
 
 
 def log(msg: str) -> None:
@@ -412,22 +414,89 @@ def write_outputs(items: list[dict], by_source: dict, cfg: dict) -> None:
     log(f"wrote feed.json ({len(items)} items), {len(by_source)} source files, {len(md_paths)} story MD, metadata.json, feed.db")
 
 
-def write_leaderboard() -> None:
-    """Write the top-10 trending Hugging Face models for the Leaderboard tab."""
+def _model_detail(model_id: str) -> dict:
+    """Best-effort fetch of a model's detail (tags, library, created date)."""
+    try:
+        d = json.loads(fetch(MODEL_DETAIL_URL.format(id=model_id)))
+        return d if isinstance(d, dict) else {}
+    except Exception:
+        return {}
+
+
+def _readme_excerpt(model_id: str, limit: int = 1400) -> str:
+    """Best-effort fetch of a model README → plain-text prose excerpt (no frontmatter/markup)."""
+    try:
+        raw = fetch(MODEL_README_URL.format(id=model_id)).decode("utf-8", "ignore")
+    except Exception:
+        return ""
+    m = re.match(r"\s*---.*?---\s*", raw, re.S)  # strip YAML frontmatter
+    if m:
+        raw = raw[m.end():]
+    text = re.sub(r"!\[[^\]]*\]\([^)]*\)", " ", raw)       # images
+    text = re.sub(r"\[([^\]]*)\]\([^)]*\)", r"\1", text)   # links → label
+    text = re.sub(r"<[^>]+>", " ", text)                   # html
+    text = re.sub(r"[#>*_`|]+", " ", text)                 # md punctuation
+    return re.sub(r"\s+", " ", text).strip()[:limit]
+
+
+def build_model_summary_prompt(models: list[dict]) -> str:
+    payload = [
+        {"i": i, "id": m.get("id"), "task": m.get("task") or "",
+         "tags": (m.get("tags") or [])[:10], "about": m.get("readme") or ""}
+        for i, m in enumerate(models)
+    ]
+    return (
+        "You are an ML librarian. For EACH Hugging Face model, write ONE concise sentence "
+        "(max 28 words) describing what the model is and what it does, in plain language for "
+        "an AI engineer. Base it ONLY on the provided name, task, tags, and 'about' excerpt. "
+        "Do NOT invent benchmark numbers or unverifiable claims. If information is thin, "
+        "describe it generically by its task/modality.\n\n"
+        'Return ONLY a JSON array: [{"i": <index>, "summary": "<one sentence>"}]. '
+        "No prose, no extra keys.\n\nMODELS:\n" + json.dumps(payload, ensure_ascii=False)
+    )
+
+
+def write_leaderboard(cfg: dict | None = None) -> None:
+    """Write the top-10 trending Hugging Face models (enriched + summarized) for the Leaderboard tab."""
     try:
         rows = json.loads(fetch(LEADERBOARD_URL))
     except Exception as err:  # leaderboard is optional — never sink the run
         log(f"leaderboard: fetch failed ({err})")
         return
-    models = [
-        {
-            "id": r.get("id"), "task": r.get("pipeline_tag"),
-            "likes": r.get("likes"), "downloads": r.get("downloads"),
-            "url": f"https://huggingface.co/{r.get('id')}",
-        }
-        for r in (rows if isinstance(rows, list) else [])[:10]
-        if r.get("id")
-    ]
+    models = []
+    for r in (rows if isinstance(rows, list) else [])[:10]:
+        mid = r.get("id")
+        if not mid:
+            continue
+        detail = _model_detail(mid)
+        tags = [t for t in (detail.get("tags") or []) if isinstance(t, str) and "://" not in t]
+        models.append({
+            "id": mid,
+            "task": r.get("pipeline_tag") or detail.get("pipeline_tag"),
+            "likes": r.get("likes"),
+            "downloads": r.get("downloads"),
+            "library": detail.get("library_name"),
+            "createdAt": detail.get("createdAt"),
+            "url": f"https://huggingface.co/{mid}",
+            "tags": tags,
+            "readme": _readme_excerpt(mid),
+        })
+
+    if models:  # one-line "what it does" summaries (best-effort — never sink the run)
+        try:
+            model_name = MODEL_TIERS.get(str((cfg or {}).get("model", "haiku")), "haiku")
+            for obj in run_claude(build_model_summary_prompt(models), model_name, timeout=180):
+                i = obj.get("i")
+                if isinstance(i, int) and 0 <= i < len(models):
+                    models[i]["summary"] = str(obj.get("summary", "")).strip()
+            log(f"leaderboard: summarized {sum(1 for m in models if m.get('summary'))}/{len(models)} models")
+        except Exception as err:
+            log(f"leaderboard: summary generation failed ({err})")
+
+    for m in models:  # drop bulky grounding fields from the published artifact
+        m.pop("readme", None)
+        m.pop("tags", None)
+
     os.makedirs(DATA_DIR, exist_ok=True)
     write_json(os.path.join(DATA_DIR, "leaderboard.json"), {
         "generatedAt": datetime.datetime.now().astimezone().isoformat(timespec="seconds"),
@@ -512,7 +581,7 @@ def main() -> int:
     log(f"briefed {sum(1 for it in categorized if it.get('briefed'))} top stories")
 
     write_outputs(categorized, by_source, cfg)
-    write_leaderboard()
+    write_leaderboard(cfg)
     stamp_today()  # mark today's run complete (for --catchup)
 
     if args.push:

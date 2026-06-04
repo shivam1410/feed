@@ -533,13 +533,26 @@ async function renderLeaderboard() {
       ? wd.toLocaleString("en-US", { year: "numeric", month: "short", day: "2-digit", hour: "numeric", minute: "2-digit" })
       : "";
     html += `<div class="curate-banner">🏆 Top trending models on Hugging Face${when ? " · " + safe(when) : ""}</div>`;
-    html += '<div class="lb-table">' + data.models.map((m, i) => `
-      <a class="lb-row" href="${safe(m.url)}" target="_blank" rel="noopener">
-        <span class="lb-rank">${i + 1}</span>
-        <span class="lb-model">${safe(m.id)}${m.task ? `<span class="lb-task">${safe(m.task)}</span>` : ""}</span>
-        <span class="lb-stat" title="likes">❤ ${fmtNum(m.likes)}</span>
-        <span class="lb-stat" title="downloads">⬇ ${fmtNum(m.downloads)}</span>
-      </a>`).join("") + "</div>";
+    html += data.models.map((m, i) => {
+      const stats = [
+        m.downloads != null ? `⬇ ${fmtNum(m.downloads)} downloads` : "",
+        m.likes != null ? `❤ ${fmtNum(m.likes)} likes` : "",
+        m.library ? safe(m.library) : "",
+        m.createdAt ? `Added ${safe(fmtDate(m.createdAt))}` : "",
+      ].filter(Boolean);
+      return `
+      <article class="card model-card">
+        <div class="card-body">
+          <div class="card-head">
+            <h3><span class="lb-rank">#${i + 1}</span> ${safe(m.id)}</h3>
+            <a class="open-link" href="${safe(m.url)}" target="_blank" rel="noopener">Open ↗</a>
+          </div>
+          ${m.task ? `<div class="tags"><span class="cat-tag">${safe(m.task)}</span></div>` : ""}
+          ${m.summary ? `<p class="summary">${safe(m.summary)}</p>` : ""}
+          <div class="card-foot model-stats">${stats.map((s) => `<span>${s}</span>`).join("")}</div>
+        </div>
+      </article>`;
+    }).join("");
   } else {
     html += `<div class="curate-banner warn">Live model data isn't generated yet (runs with the daily job). The leaderboards below are always live.</div>`;
   }

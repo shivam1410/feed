@@ -1,6 +1,208 @@
 {
-  "generatedAt": "2026-06-04T19:29:25+05:30",
+  "generatedAt": "2026-06-05T01:52:25+05:30",
   "items": [
+    {
+      "guid": "2606.04075",
+      "title": "Large Language Models Hack Rewards, and Society",
+      "link": "https://huggingface.co/papers/2606.04075",
+      "authors": [
+        "Wei Liu",
+        "Xinyi Mou",
+        "Hanqi Yan",
+        "Zhongyu Wei",
+        "Yulan He"
+      ],
+      "date": "2026-06-01T20:00:00.000Z",
+      "summary": "Large language models trained with reinforcement learning can exploit ambiguities in societal regulations to discover loopholes that bypass regulatory intent, posing safety risks for real-world deployment.",
+      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2606.04075.png",
+      "source": "HF Trending Papers",
+      "extra": "▲ 1"
+    },
+    {
+      "guid": "2606.02993",
+      "title": "Neural Networks Provably Learn Spectral Representations for Group Composition",
+      "link": "https://huggingface.co/papers/2606.02993",
+      "authors": [
+        "Jianliang He",
+        "Leda Wang",
+        "Fengzhuo Zhang",
+        "Siyu Chen",
+        "Zhuoran Yang"
+      ],
+      "date": "2026-06-01T20:00:00.000Z",
+      "summary": "Neural network training on group composition tasks exhibits convergence to irreducible representations and rotational rank-one alignment through Riemannian gradient ascent on representation-theoretic energy functionals.",
+      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2606.02993.png",
+      "source": "HF Trending Papers",
+      "extra": "▲ 4"
+    },
+    {
+      "guid": "2606.00825",
+      "title": "SuperMemory-VQA: An Egocentric Visual Question-Answering Benchmark for Long-Horizon Memory",
+      "link": "https://huggingface.co/papers/2606.00825",
+      "authors": [
+        "Samiul Alam",
+        "Shakhrul Iman Siam",
+        "Michael J. Proulx",
+        "James Fort",
+        "Richard Newcombe",
+        "Hyo Jin Kim",
+        "Mi Zhang"
+      ],
+      "date": "2026-05-29T20:00:00.000Z",
+      "summary": "SuperMemory-VQA is introduced as an egocentric visual question answering dataset designed to evaluate AI assistants on long-term memory tasks through real-world activities recorded with AI glasses.",
+      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2606.00825.png",
+      "source": "HF Trending Papers",
+      "extra": "▲ 1"
+    },
+    {
+      "guid": "2605.31498",
+      "title": "Scalable Inference-Time Annealing with Surrogate Likelihood Estimators",
+      "link": "https://huggingface.co/papers/2605.31498",
+      "authors": [
+        "Daniel Peñaherrera",
+        "Rishal Aggarwal",
+        "David Ryan Koes"
+      ],
+      "date": "2026-05-31T20:00:00.000Z",
+      "summary": "Scalable inference-time annealing method uses flow-based models with energy-based surrogates to efficiently sample Boltzmann distributions without costly divergence calculations.",
+      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2605.31498.png",
+      "source": "HF Trending Papers",
+      "extra": "▲ 0"
+    },
+    {
+      "guid": "2606.04056",
+      "title": "Token Budgets: An Empirical Catalog of 63 LLM-Agent Budget-Overrun Incidents, with an Affine-Typed Rust Mitigation as a Case Study",
+      "link": "https://huggingface.co/papers/2606.04056",
+      "authors": [
+        "Sajjad Khan"
+      ],
+      "date": "2026-06-01T20:00:00.000Z",
+      "summary": "LLM-agent budget overruns are a documented production failure class: a single retry loop can spend thousands of dollars before an operator notices, and the in-process integrity properties that would prevent it (no aliasing, no double-spend, no use-after-delegation of a cost-bearing value) are enforced, if at all, by ad-hoc wrappers rather than by the type system. Our central contribution is empirical: a catalog of 63 confirmed production incidents from 21 orchestration frameworks (2023-2026), each backed by a quoted GitHub issue and, where reported, a dollar loss, organized into an eight-cluster failure taxonomy (inter-rater Cohen's kappa = 0.837, N = 113), plus 47 supplementary structural entries. As one mitigation evaluated against this taxonomy, we build token-budgets, an 1,180-line Rust crate (no unsafe) that operationalizes affine ownership so that cloning, double-spending, or using a budget after delegating it are compile errors rather than runtime hazards an operator must remember to avoid. The dollar cap is runtime arithmetic under an estimator assumption; the affine layer makes that arithmetic non-bypassable. On single-agent workloads a 4-line Python counter matches the crate at 0/30 overshoot, so the distinguishing value is non-bypassability under operator error in multi-agent delegation: the delegation-fanout race documented in 11 incidents is rejected by the borrow checker at compile time, while the same pattern under asyncio overshoots 30/30 and three disciplined alternatives overshoot 0/30. Across five runtimes, three providers, and a temperature-stratified live-API test (N = 160), the approach reports zero cap violations and zero false refusals, at operational parity with concurrent work. Static over-reservation is 4-6x (2.11x adaptive). Binary-level cap-soundness on the running binary is left open.",
+      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2606.04056.png",
+      "source": "HF Trending Papers",
+      "extra": "▲ 0"
+    },
+    {
+      "guid": "2606.03712",
+      "title": "When Graph Tokens Sink: A Mechanistic Analysis of Graph Language Models",
+      "link": "https://huggingface.co/papers/2606.03712",
+      "authors": [
+        "Ding Zhang",
+        "Runtao Zhou",
+        "Wenqing Zheng",
+        "Rizal Fathony",
+        "Bayan Bruss",
+        "Chirag Agarwal"
+      ],
+      "date": "2026-06-01T20:00:00.000Z",
+      "summary": "Graph language models transform graph structure into tokens for large language models, but internal analysis reveals a disconnect between token activation saliency and actual graph information utilization.",
+      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2606.03712.png",
+      "source": "HF Trending Papers",
+      "extra": "▲ 1"
+    },
+    {
+      "guid": "2606.04978",
+      "title": "Probing Outcome-Level Resemblance and Mechanism-Level Alignment in LLM Risk Decisions: Evidence from the St. Petersburg Game",
+      "link": "https://huggingface.co/papers/2606.04978",
+      "authors": [
+        "Chensong Huang",
+        "Changyu Chen",
+        "Chenwei Lin",
+        "Hanjia Lyu",
+        "Xian Xu",
+        "Jiebo Luo"
+      ],
+      "date": "2026-06-02T20:00:00.000Z",
+      "summary": "Large language models exhibit surface-level human-like risk decisions in the St. Petersburg game without consistent human-like decision-making mechanisms, highlighting the need for deeper analysis beyond outcome similarity in high-stakes evaluations.",
+      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2606.04978.png",
+      "source": "HF Trending Papers",
+      "extra": "▲ 1"
+    },
+    {
+      "guid": "2606.05102",
+      "title": "ZipSplat: Fewer Gaussians, Better Splats",
+      "link": "https://huggingface.co/papers/2606.05102",
+      "authors": [
+        "Alexander Veicht",
+        "Sunghwan Hong",
+        "Dániel Baráth",
+        "Marc Pollefeys"
+      ],
+      "date": "2026-06-02T20:00:00.000Z",
+      "summary": "ZipSplat is a token-based feed-forward method that decouples 3D Gaussian placement from pixel grid, enabling efficient scene reconstruction with fewer Gaussians and superior performance on pose-free imaging tasks.",
+      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2606.05102.png",
+      "source": "HF Trending Papers",
+      "extra": "▲ 10"
+    },
+    {
+      "guid": "2605.31559",
+      "title": "Functional Attention: From Pairwise Affinities to Functional Correspondences",
+      "link": "https://huggingface.co/papers/2605.31559",
+      "authors": [
+        "Jiefang Xiao",
+        "Maolin Gao",
+        "Simon Weber",
+        "Guandao Yang",
+        "Daniel Cremers"
+      ],
+      "date": "2026-05-28T20:00:00.000Z",
+      "summary": "Functional Attention reinterprets attention as functional correspondence between adaptive bases, enabling compact and resolution-invariant operator learning for PDE solving and 3D segmentation.",
+      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2605.31559.png",
+      "source": "HF Trending Papers",
+      "extra": "▲ 0"
+    },
+    {
+      "guid": "2606.03773",
+      "title": "KletterMix: Climbing Toward High-Quality German Pretraining Data",
+      "link": "https://huggingface.co/papers/2606.03773",
+      "authors": [
+        "Maurice Kraus",
+        "Ruben Härle",
+        "Sebastian Sztwiertnia",
+        "Abbas Goher Khan",
+        "Mehdi Ali",
+        "Michael Fromm",
+        "Kristian Kersting"
+      ],
+      "date": "2026-06-02T11:28:15.000Z",
+      "summary": "A high-quality German-language corpus for language model pretraining is introduced through careful translation of an English corpus while preserving document structure and metadata, demonstrating improved downstream performance in German-language tasks.",
+      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2606.03773.png",
+      "source": "HF Trending Papers",
+      "extra": "▲ 10"
+    },
+    {
+      "guid": "2605.30257",
+      "title": "Stable-Layers: Fine-Tuning Image Layer Decomposition Models with VLM-Scored Reinforcement Learning",
+      "link": "https://huggingface.co/papers/2605.30257",
+      "authors": [
+        "Ciara Rowles",
+        "Reshinth Adithyan",
+        "Nikhil Pinnaparaju",
+        "Vikram Voleti",
+        "Mark Boss"
+      ],
+      "date": "2026-05-27T20:00:00.000Z",
+      "summary": "Stable-Layers uses reinforcement learning with vision-language model feedback to improve layer decomposition without paired data, employing Flow-GRPO and LoRA adaptation for optimized policy training.",
+      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2605.30257.png",
+      "source": "HF Trending Papers",
+      "extra": "▲ 2"
+    },
+    {
+      "guid": "2606.05009",
+      "title": "DAR: Deontic Reasoning with Agentic Harnesses",
+      "link": "https://huggingface.co/papers/2606.05009",
+      "authors": [
+        "Guangyao Dou",
+        "William Jurayj",
+        "Nils Holzenberger",
+        "Benjamin Van Durme"
+      ],
+      "date": "2026-06-02T20:00:00.000Z",
+      "summary": "Deontic reasoning tasks require applying complex rules and policies, and an agentic approach enables models to dynamically access statutes, showing mixed performance improvements across different model strengths.",
+      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2606.05009.png",
+      "source": "HF Trending Papers",
+      "extra": "▲ 3"
+    },
     {
       "guid": "2606.05112",
       "title": "Evaluating Large Language Models in Dynamic Clinical Decision-Making with Standardized Patient Cases",
@@ -48,7 +250,7 @@
       "summary": "Agent libOS provides a runtime substrate for long-running LLM agents with process-like execution, tool management, and security boundaries implemented through explicit capabilities and runtime primitives.",
       "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2606.03895.png",
       "source": "HF Trending Papers",
-      "extra": "▲ 1"
+      "extra": "▲ 2"
     },
     {
       "guid": "2606.03792",
@@ -146,7 +348,7 @@
       "summary": "Decentralized agent economies with auction-based competition and wealth accumulation enable emergent collective intelligence without central coordination, outperforming monolithic approaches in complex reasoning and optimization tasks.",
       "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2606.02859.png",
       "source": "HF Trending Papers",
-      "extra": "▲ 1"
+      "extra": "▲ 3"
     },
     {
       "guid": "2606.05131",
@@ -180,7 +382,7 @@
       "summary": "CHERRL is a controlled environment for studying reward hacking in rubric-based reinforcement learning with LLM judges, enabling detection and analysis of subtle bias exploitation patterns.",
       "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2606.04923.png",
       "source": "HF Trending Papers",
-      "extra": "▲ 31"
+      "extra": "▲ 34"
     },
     {
       "guid": "2605.27492",
@@ -198,7 +400,7 @@
       "summary": "Production-grounded evaluation framework RAMP assesses long-horizon software engineering agents through realistic compiler construction workloads and runtime analysis.",
       "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2605.27492.png",
       "source": "HF Trending Papers",
-      "extra": "▲ 18"
+      "extra": "▲ 19"
     },
     {
       "guid": "2606.03890",
@@ -217,7 +419,7 @@
       "summary": "OVO-S-Bench presents a comprehensive benchmark for evaluating streaming spatial intelligence in multimodal language models through human-annotated questions spanning multiple abstraction levels.",
       "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2606.03890.png",
       "source": "HF Trending Papers",
-      "extra": "▲ 27"
+      "extra": "▲ 28"
     },
     {
       "guid": "2606.02684",
@@ -238,7 +440,7 @@
       "summary": "FiRe-OPD improves on-policy distillation in large language models by filtering low-quality trajectories and applying soft reweighting to enhance informative token selection and optimization stability.",
       "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2606.02684.png",
       "source": "HF Trending Papers",
-      "extra": "▲ 9"
+      "extra": "▲ 11"
     },
     {
       "guid": "2606.04048",
@@ -315,7 +517,7 @@
       "summary": "STRIDE framework enables efficient training data attribution for LLMs by modeling functional effects in activation space through sparse recovery and steering operators, achieving superior speed and accuracy compared to traditional gradient-based methods.",
       "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2606.05165.png",
       "source": "HF Trending Papers",
-      "extra": "▲ 2"
+      "extra": "▲ 3"
     },
     {
       "guid": "2605.29489",
@@ -357,7 +559,7 @@
       "summary": "ThoughtFold addresses over-thinking in large reasoning models by using fine-grained preference learning to identify and eliminate redundant explorations in chain-of-thought reasoning processes.",
       "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2606.03503.png",
       "source": "HF Trending Papers",
-      "extra": "▲ 23"
+      "extra": "▲ 24"
     },
     {
       "guid": "2606.05080",
@@ -388,7 +590,7 @@
       "summary": "AutoLab benchmark evaluates long-horizon iterative optimization capabilities of frontier models across diverse domains, revealing that persistent iteration and time awareness are more critical than initial performance quality.",
       "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2606.05080.png",
       "source": "HF Trending Papers",
-      "extra": "▲ 7"
+      "extra": "▲ 9"
     },
     {
       "guid": "2606.03972",
@@ -449,7 +651,7 @@
       "summary": "MapAgent is an industrial-grade agentic architecture that combines vision-language processing with constraint-aware reasoning to produce specification-compliant lane maps, achieving high automation rates in large-scale urban mapping.",
       "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2606.04513.png",
       "source": "HF Trending Papers",
-      "extra": "▲ 10"
+      "extra": "▲ 11"
     },
     {
       "guid": "2606.03031",
@@ -529,7 +731,7 @@
       "summary": "StreamMA enables efficient multi-agent reasoning by streaming intermediate results and leveraging reliable early steps to improve both latency and effectiveness across various reasoning tasks.",
       "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2606.05158.png",
       "source": "HF Trending Papers",
-      "extra": "▲ 20"
+      "extra": "▲ 21"
     },
     {
       "guid": "2606.02060",
@@ -552,7 +754,7 @@
       "summary": "Deep-research agents can be audited using a claim-centric framework that identifies error spans in their reasoning trajectories, improving reliability assessment beyond just final answer evaluation.",
       "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2606.02060.png",
       "source": "HF Trending Papers",
-      "extra": "▲ 38"
+      "extra": "▲ 42"
     },
     {
       "guid": "2606.05121",
@@ -575,7 +777,7 @@
       "summary": "A unified streaming audio model is developed that combines offline task execution with real-time audio instruction following through an end-to-end framework supporting multiple audio interaction capabilities.",
       "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2606.05121.png",
       "source": "HF Trending Papers",
-      "extra": "▲ 52"
+      "extra": "▲ 83"
     },
     {
       "guid": "2606.01166",
@@ -645,7 +847,7 @@
       "summary": "Echo Infinity enables real-time infinite video generation using learnable evolving memory and unified relative RoPE to overcome limitations in existing autoregressive methods.",
       "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2606.04527.png",
       "source": "HF Trending Papers",
-      "extra": "▲ 20"
+      "extra": "▲ 22"
     },
     {
       "guid": "2606.05160",
@@ -713,7 +915,7 @@
       "summary": "Few-step distillation for visual generative models benefits from systematic investigation of training recipes beyond just distillation objectives, leading to improved student performance through optimized data composition, teacher guidance, and task mixture.",
       "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2606.03746.png",
       "source": "HF Trending Papers",
-      "extra": "▲ 26"
+      "extra": "▲ 28"
     },
     {
       "guid": "2606.02800",
@@ -1016,7 +1218,7 @@
       "summary": "Cosmos 3 is an omnimodal world model that processes and generates multiple data types through a unified mixture-of-transformers architecture, achieving state-of-the-art performance in various understanding and generation tasks.",
       "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2606.02800.png",
       "source": "HF Trending Papers",
-      "extra": "▲ 56"
+      "extra": "▲ 62"
     },
     {
       "guid": "2606.03197",
@@ -1073,256 +1275,6 @@
       "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2606.04036.png",
       "source": "HF Trending Papers",
       "extra": "▲ 15"
-    },
-    {
-      "guid": "2606.01286",
-      "title": "BenchEvolver: Frontier Task Synthesis via Solution-Centric Evolution",
-      "link": "https://huggingface.co/papers/2606.01286",
-      "authors": [
-        "Yangzhen Wu",
-        "Aaron J. Li",
-        "Wenjie Ma",
-        "Li Cao",
-        "Ziheng Zhou",
-        "Mert Cemri",
-        "Shu Liu",
-        "Yuran Xiu",
-        "Chenxiao Yan",
-        "Haikun Zhao",
-        "Bin Yu",
-        "Ion Stoica",
-        "Dawn Song"
-      ],
-      "date": "2026-05-30T20:00:00.000Z",
-      "summary": "BenchEvolver is an evolutionary framework that automatically generates harder coding problems from existing ones, creating challenging benchmarks that maintain validity and diversity while enabling model self-improvement and enhanced training performance.",
-      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2606.01286.png",
-      "source": "HF Trending Papers",
-      "extra": "▲ 5"
-    },
-    {
-      "guid": "2606.04889",
-      "title": "GRAIL: Gradient-Reweighted Advantages for Reinforcement Learning with Verifiable Rewards",
-      "link": "https://huggingface.co/papers/2606.04889",
-      "authors": [
-        "Tej Deep Pala",
-        "Vernon Toh",
-        "Soujanya Poria"
-      ],
-      "date": "2026-06-02T20:00:00.000Z",
-      "summary": "Gradient-Reweighted Advantage (GRAIL) improves mathematical reasoning in LLMs by reweighting token-wise advantages based on gradient-activation saliency, outperforming GRPO in accuracy and Pass@3 metrics.",
-      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2606.04889.png",
-      "source": "HF Trending Papers",
-      "extra": "▲ 3"
-    },
-    {
-      "guid": "2606.02461",
-      "title": "AgentCL: Toward Rigorous Evaluation of Continual Learning in Language Agents",
-      "link": "https://huggingface.co/papers/2606.02461",
-      "authors": [
-        "Yiheng Shu",
-        "Bernal Jiménez Gutiérrez",
-        "Saisri Padmaja Jonnalagedda",
-        "Yuguang Yao",
-        "Huan Sun",
-        "Yu Su"
-      ],
-      "date": "2026-06-01T20:00:00.000Z",
-      "summary": "A comprehensive evaluation framework for continual learning in language agents is introduced, emphasizing controlled task streams and memory design analysis to better assess reusable experience and learning stability.",
-      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2606.02461.png",
-      "source": "HF Trending Papers",
-      "extra": "▲ 2"
-    },
-    {
-      "guid": "2606.04433",
-      "title": "Stateful Visual Encoders for Vision-Language Models",
-      "link": "https://huggingface.co/papers/2606.04433",
-      "authors": [
-        "Zirui Wang",
-        "Junwei Yu",
-        "Adam Yala",
-        "David M. Chan",
-        "Joseph E. Gonzalez",
-        "Trevor Darrell"
-      ],
-      "date": "2026-06-02T20:00:00.000Z",
-      "summary": "Stateful visual encoders condition visual representations on prior features, improving visual comparison tasks in vision-language models.",
-      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2606.04433.png",
-      "source": "HF Trending Papers",
-      "extra": "▲ 5"
-    },
-    {
-      "guid": "2606.04455",
-      "title": "The Meta-Agent Challenge: Are Current Agents Capable of Autonomous Agent Development?",
-      "link": "https://huggingface.co/papers/2606.04455",
-      "authors": [
-        "Xinyu Lu",
-        "Tianshu Wang",
-        "Pengbo Wang",
-        "zujie wen",
-        "Zhiqiang Zhang",
-        "Jun Zhou",
-        "Boxi Cao",
-        "Yaojie Lu",
-        "Hongyu Lin",
-        "Xianpei Han",
-        "Le Sun"
-      ],
-      "date": "2026-06-02T20:00:00.000Z",
-      "summary": "The Meta-Agent Challenge evaluates AI models' ability to autonomously develop agent systems through iterative programming within constrained environments, revealing significant gaps in current models' self-improvement capabilities.",
-      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2606.04455.png",
-      "source": "HF Trending Papers",
-      "extra": "▲ 2"
-    },
-    {
-      "guid": "2606.03348",
-      "title": "SynCred-Bench: Benchmarking Synthetic Credibility in AI-Generated Visual Misinformation",
-      "link": "https://huggingface.co/papers/2606.03348",
-      "authors": [
-        "Junxiao Yang",
-        "Minghao Zhang",
-        "Xiaoce Wang",
-        "Haoran Liu",
-        "Shiyao Cui",
-        "Hongning Wang",
-        "Minlie Huang"
-      ],
-      "date": "2026-06-01T20:00:00.000Z",
-      "summary": "AI-generated images with realistic text and layouts pose a significant misinformation threat requiring new detection benchmarks and methods beyond surface-level credibility assessment.",
-      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2606.03348.png",
-      "source": "HF Trending Papers",
-      "extra": "▲ 2"
-    },
-    {
-      "guid": "2606.01955",
-      "title": "WALL-WM: Carving World Action Modeling at the Event Joints",
-      "link": "https://huggingface.co/papers/2606.01955",
-      "authors": [
-        "Shalfun Li",
-        "Victor Yao",
-        "Charles Yang",
-        "Truth Qu",
-        "Regis Cheng",
-        "Ryan Yu",
-        "Howard Lu",
-        "Newton Von",
-        "Vincent Chen",
-        "Yohann Tang",
-        "Maeve Zhang",
-        "Ellie Ma",
-        "Gody Li",
-        "Sage Yang",
-        "Lorien Shu",
-        "J. W. Gao",
-        "Ethan Chen",
-        "Colin Ye",
-        "Yu Sun",
-        "Elise Mon",
-        "PS Zhang",
-        "Neo Li",
-        "Lily Li",
-        "James Wang",
-        "Ping Yang",
-        "Chris Pan",
-        "Lucy Liang",
-        "Hang Su",
-        "Roy Gan",
-        "Hao Wang",
-        "Qian Wang"
-      ],
-      "date": "2026-05-31T20:00:00.000Z",
-      "summary": "WALL-WM advances video-action learning by using semantic events as learning units instead of fixed action chunks, enabling more flexible and scalable vision-language-action training and inference.",
-      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2606.01955.png",
-      "source": "HF Trending Papers",
-      "extra": "▲ 1"
-    },
-    {
-      "guid": "2606.01476",
-      "title": "OmniOPD: Logit-Free On-Policy Distillation via Speculative Verification",
-      "link": "https://huggingface.co/papers/2606.01476",
-      "authors": [
-        "Yuhang Zhou",
-        "Lizhu Zhang",
-        "Yifan Wu",
-        "Mingyi Wang",
-        "Peng Bo",
-        "Jiayi Liu",
-        "Xiangjun Fan",
-        "Zhuokai Zhao"
-      ],
-      "date": "2026-05-30T20:00:00.000Z",
-      "summary": "OmniOPD addresses limitations of standard On-Policy Distillation by using chunk-level semantic similarity instead of token-level logits, improving learning reliability and performance with black-box teachers.",
-      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2606.01476.png",
-      "source": "HF Trending Papers",
-      "extra": "▲ 8"
-    },
-    {
-      "guid": "2606.03029",
-      "title": "Conditional Hypothesis Generation for LLM-Based Text Analysis with Researcher-Specified Covariates",
-      "link": "https://huggingface.co/papers/2606.03029",
-      "authors": [
-        "Paiheng Xu",
-        "Jing Liu",
-        "Wei Ai"
-      ],
-      "date": "2026-06-01T22:07:46.000Z",
-      "summary": "Conditional hypothesis generation framework incorporates covariates to identify meaningful language differences across subgroups while addressing stratum imbalance and sign reversal challenges.",
-      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2606.03029.png",
-      "source": "HF Trending Papers",
-      "extra": "▲ 5"
-    },
-    {
-      "guid": "2606.01770",
-      "title": "Adaptive Auto-Harness: Sustained Self-Improvement for Agentic System Deployment on Open-Ended Task Streams",
-      "link": "https://huggingface.co/papers/2606.01770",
-      "authors": [
-        "Zewen Liu",
-        "Zhan Shi",
-        "Yisi Sang",
-        "Bing He",
-        "Minhua Lin",
-        "Tianxin Wei",
-        "Dakuo Wang",
-        "Benoit Dumoulin",
-        "Wei Jin",
-        "Hanqing Lu"
-      ],
-      "date": "2026-06-01T02:51:14.000Z",
-      "summary": "Adaptive Auto-Harness framework addresses dynamic task streams by decomposing performance gaps into evolution and adaptation losses, utilizing a stateful multi-agent evolver and harness tree with solve-time routing for sustained performance improvement.",
-      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2606.01770.png",
-      "source": "HF Trending Papers",
-      "extra": "▲ 12"
-    },
-    {
-      "guid": "2606.03748",
-      "title": "Ultralytics YOLO26: Unified Real-Time End-to-End Vision Models",
-      "link": "https://huggingface.co/papers/2606.03748",
-      "authors": [
-        "Glenn Jocher",
-        "Jing Qiu",
-        "Mengyu Liu",
-        "Shuai Lyu",
-        "Fatih Cagatay Akyon",
-        "Muhammet Esat Kalfaoglu"
-      ],
-      "date": "2026-06-01T20:00:00.000Z",
-      "summary": "YOLO26 addresses real-time vision challenges through a unified model family with NMS-free inference, improved training strategies, and multi-task capabilities spanning detection, segmentation, and pose estimation.",
-      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2606.03748.png",
-      "source": "HF Trending Papers",
-      "extra": "▲ 5"
-    },
-    {
-      "guid": "2605.30581",
-      "title": "Prior Availability in Industrial Visual Sim-to-Real: A Review of CAD-Guided and CAD-Unavailable Regimes",
-      "link": "https://huggingface.co/papers/2605.30581",
-      "authors": [
-        "Chenxi Tao",
-        "Seung-Kyum Choi"
-      ],
-      "date": "2026-05-27T20:00:00.000Z",
-      "summary": "Industrial visual sim-to-real is reframed as a domain-gap problem categorized by prior availability, distinguishing CAD-available, CAD-unavailable, and boundary-prior settings for robust deployment across varied industrial conditions.",
-      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2605.30581.png",
-      "source": "HF Trending Papers",
-      "extra": "▲ 3"
     }
   ]
 }

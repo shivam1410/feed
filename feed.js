@@ -409,9 +409,19 @@ function ttsRate() {
   const r = parseFloat(localStorage.getItem(RATE_KEY) || "1");
   return r >= 0.5 && r <= 2 ? r : 1;
 }
+// Default when the user hasn't picked one: English (India), else the device's
+// system-default voice, else any English, else the first available.
+function pickDefaultVoice() {
+  const isEn = (v) => (v.lang || "").toLowerCase().startsWith("en");
+  return ttsVoices.find((v) => (v.lang || "").toLowerCase() === "en-in")
+    || ttsVoices.find((v) => v.default && isEn(v))
+    || ttsVoices.find((v) => v.default)
+    || ttsVoices.find(isEn)
+    || ttsVoices[0] || null;
+}
 function chosenVoice() {
   const uri = localStorage.getItem(VOICE_KEY);
-  return ttsVoices.find((v) => v.voiceURI === uri) || null;
+  return ttsVoices.find((v) => v.voiceURI === uri) || pickDefaultVoice();
 }
 function populateVoices() {
   if (!tts || !el.voiceSelect) return;
@@ -420,13 +430,16 @@ function populateVoices() {
   const base = (l) => (l || "").split("-")[0].toLowerCase();
   const byLangName = (a, b) => a.lang.localeCompare(b.lang) || a.name.localeCompare(b.name);
   // Deterministic short list: English variants + a couple of Hindi voices only.
-  const english = all.filter((v) => base(v.lang) === "en").sort(byLangName).slice(0, 8);
+  // English (India) sorts to the top so it's the visible default.
+  const enRank = (v) => ((v.lang || "").toLowerCase() === "en-in" ? 0 : 1);
+  const english = all.filter((v) => base(v.lang) === "en")
+    .sort((a, b) => enRank(a) - enRank(b) || byLangName(a, b)).slice(0, 8);
   const hindi = all.filter((v) => base(v.lang) === "hi").sort(byLangName).slice(0, 2);
   ttsVoices = [...english, ...hindi];
   if (!ttsVoices.length) ttsVoices = all.slice(0, 10); // safety: never empty
-  const saved = localStorage.getItem(VOICE_KEY);
+  const selected = localStorage.getItem(VOICE_KEY) || pickDefaultVoice()?.voiceURI;
   el.voiceSelect.innerHTML = ttsVoices
-    .map((v) => `<option value="${safe(v.voiceURI)}"${v.voiceURI === saved ? " selected" : ""}>${safe(v.name)} (${safe(v.lang)})</option>`)
+    .map((v) => `<option value="${safe(v.voiceURI)}"${v.voiceURI === selected ? " selected" : ""}>${safe(v.name)} (${safe(v.lang)})</option>`)
     .join("");
 }
 function stopSpeech() {

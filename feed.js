@@ -39,6 +39,8 @@ const READ_KEY = "feed_read_v1"; // guids the user has opened/marked read (globa
 const NOTION_URL_KEY = "feed_notion_url_v1";
 const SAVED_KEY = "feed_saved_v1";
 const CATS_KEY = "feed_cats_v1";
+const VOICE_KEY = "feed_voice_v1"; // chosen TTS voice (voiceURI)
+const RATE_KEY = "feed_rate_v1";   // TTS speed
 
 const el = {
   app: document.querySelector(".app"),
@@ -54,6 +56,9 @@ const el = {
   pNotionUrl: document.getElementById("pNotionUrl"),
   saveNotionUrl: document.getElementById("saveNotionUrl"),
   notionUrlMsg: document.getElementById("notionUrlMsg"),
+  voiceSelect: document.getElementById("voiceSelect"),
+  rateRange: document.getElementById("rateRange"),
+  rateVal: document.getElementById("rateVal"),
   deckDots: document.getElementById("deckDots"),
   fsUp: document.getElementById("fsUp"),
   fsDown: document.getElementById("fsDown"),
@@ -390,6 +395,25 @@ function markSeenGuid(guid) {
 /* ---------- read aloud (Web Speech API — no key/server needed) ---------- */
 const tts = window.speechSynthesis;
 let speakingGuid = null;
+let ttsVoices = [];
+
+function ttsRate() {
+  const r = parseFloat(localStorage.getItem(RATE_KEY) || "1");
+  return r >= 0.5 && r <= 2 ? r : 1;
+}
+function chosenVoice() {
+  const uri = localStorage.getItem(VOICE_KEY);
+  return ttsVoices.find((v) => v.voiceURI === uri) || null;
+}
+function populateVoices() {
+  if (!tts || !el.voiceSelect) return;
+  ttsVoices = tts.getVoices().slice().sort((a, b) => a.lang.localeCompare(b.lang) || a.name.localeCompare(b.name));
+  if (!ttsVoices.length) return; // not ready yet — voiceschanged will fire
+  const saved = localStorage.getItem(VOICE_KEY);
+  el.voiceSelect.innerHTML = ttsVoices
+    .map((v) => `<option value="${safe(v.voiceURI)}"${v.voiceURI === saved ? " selected" : ""}>${safe(v.name)} (${safe(v.lang)})</option>`)
+    .join("");
+}
 function stopSpeech() {
   if (tts && (tts.speaking || tts.pending)) tts.cancel();
   speakingGuid = null;
@@ -407,6 +431,9 @@ function speakCard(card) {
   const text = [item?.title, item?.why, item?.summary].filter(Boolean).join(". ").trim();
   if (!text) return;
   const u = new SpeechSynthesisUtterance(text);
+  const v = chosenVoice();
+  if (v) { u.voice = v; u.lang = v.lang; }
+  u.rate = ttsRate();
   u.onend = () => { if (speakingGuid === guid) stopSpeech(); };
   u.onerror = () => stopSpeech();
   speakingGuid = guid;
@@ -780,6 +807,25 @@ function saveNotionUrl() {
 }
 el.saveNotionUrl.addEventListener("click", saveNotionUrl);
 el.pNotionUrl.addEventListener("change", saveNotionUrl);
+
+// Read-aloud voice + speed
+if (el.voiceSelect) {
+  el.voiceSelect.addEventListener("change", () => {
+    try { localStorage.setItem(VOICE_KEY, el.voiceSelect.value); } catch { /* ignore */ }
+  });
+}
+if (el.rateRange) {
+  el.rateRange.value = String(ttsRate());
+  if (el.rateVal) el.rateVal.textContent = ttsRate().toFixed(1) + "×";
+  el.rateRange.addEventListener("input", () => {
+    try { localStorage.setItem(RATE_KEY, el.rateRange.value); } catch { /* ignore */ }
+    if (el.rateVal) el.rateVal.textContent = parseFloat(el.rateRange.value).toFixed(1) + "×";
+  });
+}
+if (tts) {
+  tts.onvoiceschanged = populateVoices; // fires when the device's voice list loads
+  populateVoices();
+}
 
 // Swipe deck: track scroll → indicator; tap a dot → scroll to that card.
 el.feed.addEventListener("scroll", () => {

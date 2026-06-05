@@ -100,6 +100,10 @@ a:hover { text-decoration: underline; }
   width: 100%;
 }
 .profile textarea:focus, .profile-input:focus { outline: none; border-color: var(--accent); }
+.tts-label { display: block; font-size: 12px; color: var(--text-dim); margin: 8px 0 4px; }
+.tts-label:first-child { margin-top: 0; }
+.tts-range { width: 100%; accent-color: var(--accent); cursor: pointer; }
+select.profile-input { cursor: pointer; }
 .profile-msg { font-size: 12px; color: var(--new); min-height: 14px; }
 
 /* category following */

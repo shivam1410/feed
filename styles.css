@@ -130,16 +130,7 @@ select.profile-input { cursor: pointer; }
 .following { border-top: 1px solid var(--border); padding-top: 16px; display: flex; flex-direction: column; gap: 8px; }
 .following-head { display: flex; align-items: baseline; justify-content: space-between; }
 .following h2 { margin: 0; font-size: 14px; }
-.chips {
-  display: flex;
-  flex-wrap: nowrap;
-  gap: 6px;
-  overflow-x: auto;
-  padding-bottom: 4px;
-  scrollbar-width: none;
-  -webkit-overflow-scrolling: touch;
-}
-.chips::-webkit-scrollbar { display: none; }
+.chips { display: flex; flex-wrap: wrap; gap: 6px; }
 .chip {
   flex: 0 0 auto;
   white-space: nowrap;

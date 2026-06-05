@@ -418,13 +418,12 @@ function populateVoices() {
   const all = tts.getVoices();
   if (!all.length) return; // not ready yet — voiceschanged will fire
   const base = (l) => (l || "").split("-")[0].toLowerCase();
-  // Always English, plus the browser-locale language(s) (e.g. Hindi in India).
-  const prefer = new Set(["en", ...(navigator.languages || [navigator.language || "en"]).map(base)]);
-  let voices = all.filter((v) => prefer.has(base(v.lang)));
-  if (!voices.length) voices = all; // safety: never end up empty
-  const rank = (v) => (base(v.lang) === "en" ? 0 : 1); // English first
-  voices.sort((a, b) => rank(a) - rank(b) || a.lang.localeCompare(b.lang) || a.name.localeCompare(b.name));
-  ttsVoices = voices.slice(0, 12); // keep the list short
+  const byLangName = (a, b) => a.lang.localeCompare(b.lang) || a.name.localeCompare(b.name);
+  // Deterministic short list: English variants + a couple of Hindi voices only.
+  const english = all.filter((v) => base(v.lang) === "en").sort(byLangName).slice(0, 8);
+  const hindi = all.filter((v) => base(v.lang) === "hi").sort(byLangName).slice(0, 2);
+  ttsVoices = [...english, ...hindi];
+  if (!ttsVoices.length) ttsVoices = all.slice(0, 10); // safety: never empty
   const saved = localStorage.getItem(VOICE_KEY);
   el.voiceSelect.innerHTML = ttsVoices
     .map((v) => `<option value="${safe(v.voiceURI)}"${v.voiceURI === saved ? " selected" : ""}>${safe(v.name)} (${safe(v.lang)})</option>`)

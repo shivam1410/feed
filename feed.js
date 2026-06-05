@@ -52,6 +52,8 @@ const SAVED_KEY = "feed_saved_v1";
 const CATS_KEY = "feed_cats_v1";
 const VOICE_KEY = "feed_voice_v1"; // chosen TTS voice (voiceURI)
 const RATE_KEY = "feed_rate_v1";   // TTS speed
+const READING_KEY = "feed_listmode_v1"; // "1" = vertical card list instead of swipe deck
+let listMode = localStorage.getItem(READING_KEY) === "1";
 
 const el = {
   app: document.querySelector(".app"),
@@ -60,7 +62,8 @@ const el = {
   sectionTitle: document.getElementById("sectionTitle"),
   meta: document.getElementById("meta"),
   menuBtn: document.getElementById("menuBtn"),
-  navToggle: document.getElementById("navToggle"),
+  lbBtn: document.getElementById("lbBtn"),
+  readingToggle: document.getElementById("readingToggle"),
   tabbar: document.getElementById("tabbar"),
   scrim: document.getElementById("scrim"),
   categoryChips: document.getElementById("categoryChips"),
@@ -93,8 +96,9 @@ function nudgeFontScale(delta) {
 // regardless of width — so a wide iPad still gets the swipe deck, not the list.
 const deckMQL = window.matchMedia("(max-width: 1024px), (pointer: coarse)");
 
-const HOME_SVG = '<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11l9-7 9 7"/><path d="M5 10v9a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-9"/></svg>';
 const CHART_SVG = '<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20V4"/><path d="M4 20h16"/><rect x="7" y="11" width="3" height="6" rx="0.5"/><rect x="12" y="7" width="3" height="10" rx="0.5"/><rect x="17" y="4" width="3" height="13" rx="0.5"/></svg>';
+// Reading-mode (vertical card list) toggle icon — stacked cards
+const READING_SVG = '<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="6.5" rx="1.5"/><rect x="4" y="13.5" width="16" height="6.5" rx="1.5"/></svg>';
 const DECK_GAP = 10;
 
 let isFetching = false;
@@ -611,7 +615,7 @@ function updateDeckIndicator(i) {
 function setupDeck(preserve = false) {
   // Carousel for everything except the short-teaser list feeds and the leaderboard.
   const f = activeFeed();
-  const isDeck = f.kind !== "leaderboard" && !LIST_FEEDS.includes(f.id) && deckMQL.matches;
+  const isDeck = !listMode && f.kind !== "leaderboard" && !LIST_FEEDS.includes(f.id) && deckMQL.matches;
   el.feed.classList.toggle("deck", isDeck);
   if (!preserve) deckIndex = 0;
   const cards = isDeck ? el.feed.querySelectorAll(".card") : [];
@@ -794,14 +798,17 @@ function renderTabbar() {
 }
 
 function updateHeadNav() {
-  if (!el.navToggle) return;
-  // On Home, the toggle jumps to the Leaderboard; everywhere else it jumps Home.
-  const toLeaderboard = activeId === "home";
-  el.navToggle.innerHTML = toLeaderboard ? CHART_SVG : HOME_SVG;
-  const label = toLeaderboard ? "Leaderboard" : "Home";
-  el.navToggle.setAttribute("aria-label", label);
-  el.navToggle.title = label;
-  el.navToggle.dataset.target = toLeaderboard ? "leaderboard" : "home";
+  if (el.lbBtn) {
+    el.lbBtn.innerHTML = CHART_SVG;
+    el.lbBtn.classList.toggle("active", activeId === "leaderboard");
+  }
+  if (el.readingToggle) {
+    el.readingToggle.innerHTML = READING_SVG;
+    el.readingToggle.classList.toggle("active", listMode);
+    const label = listMode ? "Reading mode: on (vertical cards)" : "Reading mode: off (swipe deck)";
+    el.readingToggle.setAttribute("aria-label", label);
+    el.readingToggle.title = label;
+  }
 }
 
 function renderCategoryChips() {
@@ -855,7 +862,13 @@ el.categoryChips.addEventListener("click", (e) => {
 });
 el.catAll.addEventListener("click", selectAllCategories);
 el.menuBtn.addEventListener("click", openNav);
-el.navToggle.addEventListener("click", () => switchSource(el.navToggle.dataset.target || "home"));
+el.lbBtn.addEventListener("click", () => switchSource("leaderboard"));
+el.readingToggle.addEventListener("click", () => {
+  listMode = !listMode;
+  try { localStorage.setItem(READING_KEY, listMode ? "1" : "0"); } catch { /* ignore */ }
+  setupDeck();          // flip current feed between swipe-deck and vertical list
+  updateHeadNav();      // refresh the toggle's active state
+});
 el.scrim.addEventListener("click", closeNav);
 function saveNotionUrl() {
   const url = el.pNotionUrl.value.trim();

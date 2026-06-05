@@ -118,7 +118,7 @@ refresh is manual (plus on focus).
 |--------|------|-------|
 | Home | scored digest | top stories across all sources, scored to your profile |
 | Nature | RSS 1.0 / RDF | `nature.rss` |
-| DeepMind | RSS 2.0 | `deepmind.google/blog/rss.xml`, with thumbnails |
+| DeepMind | RSS 2.0 | `blog.google/.../google-deepmind/rss/`, teasers + thumbnails |
 | HF Trending Papers | JSON API | `/api/daily_papers`, upvotes + thumbnails |
 | arXiv (cs.LG) | RSS | `rss.arxiv.org/rss/cs.LG`, full abstracts |
 | Latent Space | RSS | newsletter/podcast posts |

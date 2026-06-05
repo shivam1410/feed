@@ -105,6 +105,7 @@ def parse_rss(data: bytes, source: str) -> list[dict]:
         authors: list[str] = []
         for ch in el:
             name, txt = _local(ch.tag), (ch.text or "").strip()
+            media = ch.tag.startswith("{http://search.yahoo.com/mrss/}")  # media:* (caption, not the teaser)
             if name == "title" and not title:
                 title = txt
             elif name == "link":
@@ -123,7 +124,7 @@ def parse_rss(data: bytes, source: str) -> list[dict]:
                 date = txt
             elif name == "encoded":
                 summary = html_to_text(txt) or summary
-            elif name in ("description", "summary") and not summary:
+            elif name in ("description", "summary") and not summary and not media:
                 summary = html_to_text(txt)
             elif name == "content":
                 if ch.get("url") and not image:  # media:content image

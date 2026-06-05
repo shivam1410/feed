@@ -30,7 +30,7 @@ from urllib.parse import urlparse, parse_qs
 # the others return JSON, which the client normalizes per source.
 FEEDS = {
     "nature": "https://www.nature.com/nature.rss",
-    "deepmind": "https://deepmind.google/blog/rss.xml",
+    "deepmind": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/rss/",
     "huggingface": "https://huggingface.co/api/daily_papers",
     "arxiv": "https://rss.arxiv.org/rss/cs.LG",
     "latentspace": "https://www.latent.space/feed",

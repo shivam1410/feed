@@ -265,7 +265,7 @@ async function fetchWithTimeout(url, ms = 20000, opts = {}) {
 function upstreamUrl(feed) {
   switch (feed.id) {
     case "nature": return "https://www.nature.com/nature.rss";
-    case "deepmind": return "https://deepmind.google/blog/rss.xml";
+    case "deepmind": return "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/rss/";
     case "huggingface": return "https://huggingface.co/api/daily_papers";
     case "arxiv": return "https://rss.arxiv.org/rss/cs.LG";
     case "latentspace": return "https://www.latent.space/feed";

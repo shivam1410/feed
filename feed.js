@@ -344,6 +344,14 @@ function saveLabel(state) {
   return NOTION_ICON + " " + txt;
 }
 
+const LISTEN_ICON =
+  '<svg class="ic" viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 5 6 9H3v6h3l5 4z"/><path d="M16 9a3.5 3.5 0 0 1 0 6"/><path d="M19.5 6.5a7 7 0 0 1 0 11"/></svg>';
+const STOP_ICON =
+  '<svg class="ic" viewBox="0 0 24 24" width="14" height="14" aria-hidden="true"><rect x="6" y="6" width="12" height="12" rx="2" fill="currentColor"/></svg>';
+function listenLabel(playing) {
+  return (playing ? STOP_ICON + " Stop" : LISTEN_ICON + " Listen");
+}
+
 function cardHTML(item, isNew, linkable) {
   const byline = [item.source, item.extra, fmtAuthors(item.authors)].filter(Boolean).join(" · ");
   const date = fmtDate(item.date);
@@ -380,7 +388,7 @@ function cardHTML(item, isNew, linkable) {
         ${byline ? `<div class="byline">${safe(byline)}</div>` : ""}
         <div class="card-foot">
           <span class="date">${safe(date)}</span>
-          <button type="button" class="listen-btn" aria-label="Listen">🔊 Listen</button>
+          <button type="button" class="listen-btn" aria-label="Listen">${listenLabel(false)}</button>
           ${linkable ? `<button type="button" class="read-btn${isRead ? " is-read" : ""}">${isRead ? "✓ Read" : "Mark read"}</button>` : ""}
           ${canSave ? `<button type="button" class="save-btn">${saveLabel("save")}</button>` : ""}
         </div>
@@ -419,7 +427,7 @@ function stopSpeech() {
   speakingGuid = null;
   document.querySelectorAll(".listen-btn.playing").forEach((b) => {
     b.classList.remove("playing");
-    b.textContent = "🔊 Listen";
+    b.innerHTML = listenLabel(false);
   });
 }
 function speakCard(card) {
@@ -438,7 +446,7 @@ function speakCard(card) {
   u.onerror = () => stopSpeech();
   speakingGuid = guid;
   const btn = card.querySelector(".listen-btn");
-  if (btn) { btn.classList.add("playing"); btn.textContent = "⏹ Stop"; }
+  if (btn) { btn.classList.add("playing"); btn.innerHTML = listenLabel(true); }
   tts.speak(u);
 }
 

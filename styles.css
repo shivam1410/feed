@@ -392,6 +392,7 @@ button#saveProfile:hover { border-color: var(--accent); }
   cursor: pointer;
   white-space: nowrap;
 }
+.listen-btn .ic { flex-shrink: 0; }
 .listen-btn:hover { border-color: var(--accent); color: var(--text); }
 .listen-btn.playing { color: var(--accent); border-color: var(--accent); }
 /* When Listen is present it owns the right-push; following buttons sit beside it. */

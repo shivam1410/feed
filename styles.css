@@ -536,8 +536,8 @@ button#saveProfile:hover { border-color: var(--accent); }
     max-width: none;
     margin: 12px 0 0;
     padding: 0 12px;
-    height: calc(100vh - 132px); /* one-row header + dots + margins */
-    height: calc(100svh - 132px);
+    height: calc(100vh - 108px); /* one-row header + dots + margins */
+    height: calc(100svh - 108px);
     overflow-x: auto;
     overflow-y: hidden;
     scroll-snap-type: x mandatory;
@@ -594,7 +594,7 @@ button#saveProfile:hover { border-color: var(--accent); }
   .content-head { padding: 14px 16px; }
 }
 
-.deck-dots { display: none; justify-content: center; gap: 7px; padding: 22px 0 10px; }
+.deck-dots { display: none; justify-content: center; gap: 7px; padding: 14px 0 10px; }
 .deck-dots .dot {
   width: 7px; height: 7px;
   border: none; border-radius: 50%;

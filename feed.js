@@ -415,8 +415,16 @@ function chosenVoice() {
 }
 function populateVoices() {
   if (!tts || !el.voiceSelect) return;
-  ttsVoices = tts.getVoices().slice().sort((a, b) => a.lang.localeCompare(b.lang) || a.name.localeCompare(b.name));
-  if (!ttsVoices.length) return; // not ready yet — voiceschanged will fire
+  const all = tts.getVoices();
+  if (!all.length) return; // not ready yet — voiceschanged will fire
+  const base = (l) => (l || "").split("-")[0].toLowerCase();
+  // Always English, plus the browser-locale language(s) (e.g. Hindi in India).
+  const prefer = new Set(["en", ...(navigator.languages || [navigator.language || "en"]).map(base)]);
+  let voices = all.filter((v) => prefer.has(base(v.lang)));
+  if (!voices.length) voices = all; // safety: never end up empty
+  const rank = (v) => (base(v.lang) === "en" ? 0 : 1); // English first
+  voices.sort((a, b) => rank(a) - rank(b) || a.lang.localeCompare(b.lang) || a.name.localeCompare(b.name));
+  ttsVoices = voices.slice(0, 12); // keep the list short
   const saved = localStorage.getItem(VOICE_KEY);
   el.voiceSelect.innerHTML = ttsVoices
     .map((v) => `<option value="${safe(v.voiceURI)}"${v.voiceURI === saved ? " selected" : ""}>${safe(v.name)} (${safe(v.lang)})</option>`)

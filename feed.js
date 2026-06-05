@@ -10,7 +10,7 @@
 const FEEDS = [
   { id: "home", name: "Home", kind: "home" },
   { id: "saved", name: "★ Saved", kind: "saved" },
-  { id: "leaderboard", name: "🏆 Leaderboard", kind: "leaderboard" },
+  { id: "leaderboard", name: "Rankings", kind: "leaderboard" },
   // Full-content sources first (full abstracts / posts).
   { id: "arxiv", name: "arXiv (cs.LG)", kind: "rss" },
   { id: "huggingface", name: "HF Trending Papers", kind: "hf" },
@@ -96,6 +96,8 @@ function nudgeFontScale(delta) {
 const deckMQL = window.matchMedia("(max-width: 1024px), (pointer: coarse)");
 
 const CHART_SVG = '<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20V4"/><path d="M4 20h16"/><rect x="7" y="11" width="3" height="6" rx="0.5"/><rect x="12" y="7" width="3" height="10" rx="0.5"/><rect x="17" y="4" width="3" height="13" rx="0.5"/></svg>';
+const HOME_SVG = '<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11l9-7 9 7"/><path d="M5 10v9a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-9"/></svg>';
+const NAV_ICONS = { home: HOME_SVG, leaderboard: CHART_SVG };
 const DECK_GAP = 10;
 
 let isFetching = false;
@@ -652,7 +654,7 @@ function fmtNum(n) {
 }
 
 async function renderLeaderboard() {
-  el.sectionTitle.textContent = "Leaderboard";
+  el.sectionTitle.textContent = "Rankings";
   el.meta.textContent = "";
   let data = null;
   try {
@@ -773,12 +775,14 @@ function switchSource(id) {
 }
 
 function renderNav() {
-  const item = (f) =>
-    `<button type="button" class="nav-item${f.id === activeId ? " active" : ""}" data-id="${f.id}">${safe(f.name)}</button>`;
+  // Sources live in the top tab strip now, so the drawer nav only carries the
+  // primary destinations (Home / Saved / Rankings), each with an icon.
+  const item = (f) => {
+    const icon = NAV_ICONS[f.id] ? `<span class="nav-ic">${NAV_ICONS[f.id]}</span>` : "";
+    return `<button type="button" class="nav-item${f.id === activeId ? " active" : ""}" data-id="${f.id}">${icon}${safe(f.name)}</button>`;
+  };
   const isTop = (f) => ["home", "saved", "leaderboard"].includes(f.kind);
-  const top = FEEDS.filter(isTop).map(item).join("");
-  const rest = FEEDS.filter((f) => !isTop(f)).map(item).join("");
-  el.nav.innerHTML = top + '<div class="nav-sep">Sources</div>' + rest;
+  el.nav.innerHTML = FEEDS.filter(isTop).map(item).join("");
   updateHeadNav();
   renderTabbar();
 }

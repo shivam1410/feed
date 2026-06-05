@@ -409,11 +409,15 @@ function ttsRate() {
   const r = parseFloat(localStorage.getItem(RATE_KEY) || "1");
   return r >= 0.5 && r <= 2 ? r : 1;
 }
+// Lang codes vary by platform: "en-IN" (web), "en_IN" (some Android/macOS).
+const langNorm = (l) => (l || "").toLowerCase().replace(/_/g, "-");
+const langBase = (l) => langNorm(l).split("-")[0];
+
 // Default when the user hasn't picked one: English (India), else the device's
 // system-default voice, else any English, else the first available.
 function pickDefaultVoice() {
-  const isEn = (v) => (v.lang || "").toLowerCase().startsWith("en");
-  return ttsVoices.find((v) => (v.lang || "").toLowerCase() === "en-in")
+  const isEn = (v) => langBase(v.lang) === "en";
+  return ttsVoices.find((v) => langNorm(v.lang) === "en-in")
     || ttsVoices.find((v) => v.default && isEn(v))
     || ttsVoices.find((v) => v.default)
     || ttsVoices.find(isEn)
@@ -427,19 +431,18 @@ function populateVoices() {
   if (!tts || !el.voiceSelect) return;
   const all = tts.getVoices();
   if (!all.length) return; // not ready yet — voiceschanged will fire
-  const base = (l) => (l || "").split("-")[0].toLowerCase();
   const byLangName = (a, b) => a.lang.localeCompare(b.lang) || a.name.localeCompare(b.name);
   // Deterministic short list: English variants + a couple of Hindi voices only.
   // English (India) sorts to the top so it's the visible default.
-  const enRank = (v) => ((v.lang || "").toLowerCase() === "en-in" ? 0 : 1);
-  const english = all.filter((v) => base(v.lang) === "en")
+  const enRank = (v) => (langNorm(v.lang) === "en-in" ? 0 : 1);
+  const english = all.filter((v) => langBase(v.lang) === "en")
     .sort((a, b) => enRank(a) - enRank(b) || byLangName(a, b)).slice(0, 8);
-  const hindi = all.filter((v) => base(v.lang) === "hi").sort(byLangName).slice(0, 2);
+  const hindi = all.filter((v) => langBase(v.lang) === "hi").sort(byLangName).slice(0, 2);
   ttsVoices = [...english, ...hindi];
   if (!ttsVoices.length) ttsVoices = all.slice(0, 10); // safety: never empty
   const selected = localStorage.getItem(VOICE_KEY) || pickDefaultVoice()?.voiceURI;
   el.voiceSelect.innerHTML = ttsVoices
-    .map((v) => `<option value="${safe(v.voiceURI)}"${v.voiceURI === selected ? " selected" : ""}>${safe(v.name)} (${safe(v.lang)})</option>`)
+    .map((v) => `<option value="${safe(v.voiceURI)}"${v.voiceURI === selected ? " selected" : ""}>${safe(v.name)}</option>`)
     .join("");
 }
 function stopSpeech() {

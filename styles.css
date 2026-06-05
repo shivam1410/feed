@@ -455,7 +455,10 @@ button#saveProfile:hover { border-color: var(--accent); }
     flex-direction: row;
     flex-wrap: nowrap;
     gap: 10px;
-    margin: 12px auto 0;
+    /* Full-width scroller so a swipe anywhere (incl. the side margins on iPad)
+       moves the carousel — not just the centered column. */
+    max-width: none;
+    margin: 12px 0 0;
     padding: 0 12px;
     height: calc(100vh - 120px);
     height: calc(100svh - 120px);
@@ -486,6 +489,14 @@ button#saveProfile:hover { border-color: var(--accent); }
   .feed.deck > .card > .card-body {
     display: flex;
     flex-direction: column;
+  }
+  /* Cards span the full viewport (so swipes register everywhere), but keep the
+     reading column + image centered and capped for legibility on wide tablets. */
+  .feed.deck > .card > .card-body,
+  .feed.deck > .card > .thumb {
+    max-width: 680px;
+    width: 100%;
+    margin-inline: auto;
   }
   .feed.deck .card-foot {
     padding-top: 12px;

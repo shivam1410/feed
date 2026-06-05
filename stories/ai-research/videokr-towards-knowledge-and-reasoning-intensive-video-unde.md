@@ -5,10 +5,10 @@ source: "HF Trending Papers"
 url: "https://huggingface.co/papers/2606.05259"
 authors: ["Lin Fu", "Zheyuan Yang", "Yang Wang", "Tingyu Song", "Arman Cohan", "Yilun Zhao"]
 date: "2026-06-02T20:00:00.000Z"
-score: 70
+score: 71
 guid: "2606.05259"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2606.05259.png"
-generated: "2026-06-05T13:37:27+05:30"
+generated: "2026-06-06T01:41:01+05:30"
 ---
 
 VideoKR presents a large-scale video reasoning dataset and benchmark designed to enhance knowledge-intensive video understanding through expert-domain content and human-in-the-loop example generation.

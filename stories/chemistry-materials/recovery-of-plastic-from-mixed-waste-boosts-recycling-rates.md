@@ -8,7 +8,7 @@ date: "2026-06-03"
 score: 55
 guid: "10.1038/d41586-026-01759-3"
 image: ""
-generated: "2026-06-05T02:55:12+05:30"
+generated: "2026-06-06T01:41:01+05:30"
 ---
 
 Recovering plastic packaging from mixed domestic waste, as well as collecting plastic waste already sorted by households, increases recycling volumes but raises contamination and safety risks. Policies that support the sorting of plastics from mixed waste at central facilities should have strict quality standards and investment in advanced purification systems to ensure safe recycling outcomes.

@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/s41586-026-10590-9"
 authors: ["Baopeng Song", "Zhifei Zhang", "Luke C. Strotz", "Timothy P. Topper", "Andrej Ernst", "Junye Ma", "Zhiliang Zhang", "Mei Luo", "Lars E. Holmer", "Yue Liang", "Yazhou Hu", "Caibin Zhang", "Yanlong Chen", "Glenn A. Brock"]
 date: "2026-06-03"
-score: 72
+score: 70
 guid: "10.1038/s41586-026-10590-9"
 image: ""
-generated: "2026-06-05T13:37:27+05:30"
+generated: "2026-06-06T01:41:01+05:30"
 ---
 
-Early Cambrian fossils, Protomelission gatehousei and Dayingomelission hexaclitia, are exquisitely preserved with soft-tissue anatomy and skeletal microstructure intact. Analysis confirms these organisms are definitively bryozoans, small colonial marine animals. The discovery pushes back the known origin of bryozoans earlier than previously understood, refining knowledge of early animal diversification during the Cambrian period and revealing a deeper evolutionary history for the Bryozoa.
+Exceptionally preserved fossils from the early Cambrian period provide definitive evidence about the evolutionary origins of bryozoans—a major group of colonial marine animals. Two species, Protomelisson gatehousei and Dayingomelission hexaclitia, preserve detailed soft tissue anatomy and skeletal microstructure never previously documented in fossil bryozoans. Analysis confirms these organisms are definitively bryozoans, establishing that the group originated in the Cambrian period, earlier than previously determined by paleontologists. This paleontological evidence refines understanding of early animal evolution and the timing of major animal group origins during the Cambrian explosion.

@@ -5,10 +5,10 @@ source: "arXiv (cs.LG)"
 url: "https://arxiv.org/abs/2606.04033"
 authors: ["Will Savage, Logan Burnett, Dean Price"]
 date: "Fri, 05 Jun 2026 00:00:00 -0400"
-score: 52
+score: 65
 guid: "oai:arXiv.org:2606.04033v1"
 image: ""
-generated: "2026-06-05T13:37:27+05:30"
+generated: "2026-06-06T01:41:01+05:30"
 ---
 
 arXiv:2606.04033v1 Announce Type: new Abstract: The validation of advanced nuclear reactor designs and fuel concepts requires critical experiments with high neutronic similarity to the target technology. Neutronic similarity is quantified by the correlation coefficient $c_k$, which captures the shared bias in $k_\text{eff}$ induced by uncertainties in nuclear data. Generally, a $c_k\geq0.9$ is needed for an experiment to be sufficiently similar to a target technology. This work presents a methodology for the inverse design of critical experiments. Deep neural network surrogate modeling and nonparametric gradient optimization are used to generate experiment geometries that maximize $c_k$. A deep neural network is trained on OpenMC-calculated sensitivity vectors for grid-based critical experiment geometries. The model architecture combines a U-Net convolutional encoder-decoder with a novel multigroup attention pooling layer, introduced to capture the differing spatial dependencies of sensitivities. Multigroup attention pooling is shown to achieve better performance than traditional pooling, as well as interpretable internal behavior. The differentiability of the surrogate enables gradient-based optimization of the full combinatorial design space, allowing $c_k$ to be maximized by directly changing the material assignment of each position in the geometry grid. The method is applied to the validation of the TN-Americas TN-LC transportation cask with HALEU fuel, for which existing critical experiment coverage is limited. The optimization procedure is shown to produce experiment geometries achieving $c_k$ scores of 0.97757, 0.81324, and 0.93276 for three configurations of interest. This approach demonstrates the potential of deep learning and gradient optimization to accelerate the development of advanced nuclear technology.

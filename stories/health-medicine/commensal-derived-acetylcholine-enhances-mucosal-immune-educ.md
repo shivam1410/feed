@@ -8,7 +8,7 @@ date: "2026-06-03"
 score: 70
 guid: "10.1038/s41586-026-10592-7"
 image: ""
-generated: "2026-06-05T02:55:12+05:30"
+generated: "2026-06-06T01:41:01+05:30"
 ---
 
 A diet–microbiome–host axis strengthens mucosal immune defences and reinforces host–microbiota mutualism.

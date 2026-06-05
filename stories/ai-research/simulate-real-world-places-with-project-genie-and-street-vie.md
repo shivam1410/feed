@@ -2,13 +2,13 @@
 title: "Simulate real-world places with Project Genie and Street View"
 category: "AI Research"
 source: "DeepMind"
-url: "https://deepmind.google/blog/simulate-real-world-places-with-project-genie-and-street-view/"
-authors: []
-date: "Sun, 17 May 2026 19:53:18 +0000"
-score: 55
-guid: "https://deepmind.google/blog/simulate-real-world-places-with-project-genie-and-street-view/"
-image: ""
-generated: "2026-06-05T02:55:12+05:30"
+url: "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/project-genie-expands/"
+authors: ["Diego Rivas", "Jonathan Herbert", "Nicole Segaran"]
+date: "Tue, 19 May 2026 17:45:00 +0000"
+score: 60
+guid: "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/project-genie-expands/"
+image: "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/projectgenie-social.max-600x600.format-webp.webp"
+generated: "2026-06-06T01:41:01+05:30"
 ---
 
-We’re expanding access to Google AI Ultra subscribers globally and introducing a new capability powered by Street View.
+We’re connecting Project Genie with nearly 20 years of Google Street View imagery so you can create new worlds anchored in reality.

@@ -8,7 +8,7 @@ date: "2026-06-04"
 score: 45
 guid: "10.1038/d41586-026-01623-4"
 image: ""
-generated: "2026-06-05T13:37:27+05:30"
+generated: "2026-06-06T01:41:01+05:30"
 ---
 
 From 2016 to 2020, almost one-third of papers by authors in China had multiple corresponding authors — but policy reforms are expected to have dampened the trend.

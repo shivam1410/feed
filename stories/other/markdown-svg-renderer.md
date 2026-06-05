@@ -5,10 +5,10 @@ source: "Simon Willison"
 url: "https://simonwillison.net/2026/May/28/markdown-svg-renderer/#atom-everything"
 authors: []
 date: "2026-05-28T19:45:14+00:00"
-score: 20
+score: 10
 guid: "https://simonwillison.net/2026/May/28/markdown-svg-renderer/#atom-everything"
 image: ""
-generated: "2026-06-05T13:37:27+05:30"
+generated: "2026-06-06T01:41:01+05:30"
 ---
 
-markdown-svg-renderer is a customized web-based tool for rendering Markdown with specialized handling for SVG code blocks. Users can paste Markdown directly, or provide URLs pointing to CORS-enabled Markdown files and Gists. The tool displays rendered SVG images alongside a code-view tab, allowing seamless switching between visual preview and source code. An example demonstrates loading a Markdown document containing LLM Pelican logs. The tool streamlines SVG creation and documentation workflows by unifying both visual and code-level editing within a single interface, eliminating switching between separate applications.
+Tool: markdown-svg-renderer A slightly customized Markdown rendering tool with special treatment for fenced code SVG blocks - it both renders the image and provides a tab for switching to the code view. You can paste in Markdown or give it a URL to a CORS-enabled Markdown file or Gist. Here's an example where it loads a Markdown file full of LLM pelican logs for Opus 4.8 . Tags: svg , tools , markdown , cors

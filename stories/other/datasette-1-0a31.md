@@ -5,10 +5,10 @@ source: "Simon Willison"
 url: "https://simonwillison.net/2026/May/29/datasette/#atom-everything"
 authors: []
 date: "2026-05-29T03:32:02+00:00"
-score: 20
+score: 10
 guid: "https://simonwillison.net/2026/May/29/datasette/#atom-everything"
 image: ""
-generated: "2026-06-05T02:55:12+05:30"
+generated: "2026-06-06T01:41:01+05:30"
 ---
 
-Release: datasette 1.0a31 Another significant alpha release, with two new headline features. Datasette now offers users with the necessary permissions the ability to both execute write queries against their database and to save stored queries (renamed from "canned queries") both privately and for use by other members of their Datasette instance. There's more detail in SQL write queries and stored queries in Datasette 1.0a31 on the Datasette blog, which now has three posts introducing new features since the blog launched two weeks ago. Here's an animated demo from the blog post showing how the new execute query interface lets people get started with templated insert/update/delete queries from tables they have permission to edit: Tags: projects , sql , sqlite , datasette , annotated-release-notes
+Datasette 1.0a31 adds write query execution and saved query features. Authorized users can execute insert, update, and delete operations through templated interfaces, shifting from purely read-only data access. Queries can be saved privately or shared across Datasette instances for team collaboration. An animated demo on the newly-launched Datasette blog shows how the execute query interface guides users through templating operations on editable tables. This enables collaborative, write-enabled data management while maintaining permission controls. The Datasette blog has published three feature posts since launching two weeks ago.

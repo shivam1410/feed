@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/s41586-026-10550-3"
 authors: ["Anzhi Sheng", "Qi Su", "Alex McAvoy", "Long Wang", "Joshua B. Plotkin"]
 date: "2026-06-03"
-score: 60
+score: 55
 guid: "10.1038/s41586-026-10550-3"
 image: ""
-generated: "2026-06-05T13:37:27+05:30"
+generated: "2026-06-06T01:41:01+05:30"
 ---
 
 Uniform sharing of public goods can boost cooperation in social networks, but often concentrates benefits among well-connected individuals, creating inequality despite greater collective success.

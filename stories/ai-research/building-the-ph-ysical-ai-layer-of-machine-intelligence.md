@@ -5,10 +5,10 @@ source: "arXiv (cs.LG)"
 url: "https://arxiv.org/abs/2606.04106"
 authors: ["Ulbert Jose Botero, Liam Smith, Brooks Olney, Pooya Khorrami, Steven Kusiak, Watson Jia, Sage Trudeau, Daniel Capecci"]
 date: "Fri, 05 Jun 2026 00:00:00 -0400"
-score: 66
+score: 60
 guid: "oai:arXiv.org:2606.04106v1"
 image: ""
-generated: "2026-06-05T13:37:27+05:30"
+generated: "2026-06-06T01:41:01+05:30"
 ---
 
 arXiv:2606.04106v1 Announce Type: new Abstract: Foundation models achieve generalization through massive-scale training on diverse data, but have limitations with transfer to truly unseen domains without paired training data. We propose principle-driven foundation models that encode signal-theoretic principles (Fourier decomposition, energy conservation, symmetry) rather than learn untethered statistical correlations. We hypothesize that domains differ not in fundamental physics, but in learnable transformations in time, frequency, magnitude, or phase. Training exclusively on radio-frequency (RF) data with co-designed architecture and losses incorporating these principles, we achieve cross-modal transfer to audio, images, text, and video using only frozen representations learned from RF data, requiring no fine-tuning of the encoder on target domains. Our 1.99M parameter frozen encoder achieves 77.7% average accuracy (91.9% top-3) across 15 diverse tasks via linear probing, with systematic variation: 84.5 on physically-grounded tasks (speaker recognition, seismology, RF fingerprinting) versus 70.0% on semantic tasks (music genre, language recognition). This reveals that principle-driven and scale-driven approaches offer complementary paths: physical principles enable efficient cross-modal transfer while naturally establishing the boundary between physical and semantic understanding.

@@ -8,7 +8,7 @@ date: "2026-06-01T20:00:00.000Z"
 score: 70
 guid: "2606.02993"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2606.02993.png"
-generated: "2026-06-05T02:55:12+05:30"
+generated: "2026-06-05T13:37:27+05:30"
 ---
 
 Neural network training on group composition tasks exhibits convergence to irreducible representations and rotational rank-one alignment through Riemannian gradient ascent on representation-theoretic energy functionals.

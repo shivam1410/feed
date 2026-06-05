@@ -4,11 +4,11 @@ category: "AI Research"
 source: "arXiv (cs.LG)"
 url: "https://arxiv.org/abs/2606.04045"
 authors: ["Vasileios Sevetlidis"]
-date: "Thu, 04 Jun 2026 00:00:00 -0400"
-score: 50
+date: "Fri, 05 Jun 2026 00:00:00 -0400"
+score: 42
 guid: "oai:arXiv.org:2606.04045v1"
 image: ""
-generated: "2026-06-05T02:55:12+05:30"
+generated: "2026-06-05T13:37:27+05:30"
 ---
 
 arXiv:2606.04045v1 Announce Type: new Abstract: Representation learning is often described as preserving the information in an input that is relevant for prediction. This work asks what relevance means for a fixed supervised decision problem. A representation is defined to be Bayes-sufficient for a joint distribution and loss if some prediction head can use it to implement a Bayes-optimal action rule. This makes the target information loss-dependent. In the almost-surely unique Bayes-action case, the relevant object is a Bayes quotient, which identifies inputs that require the same Bayes-optimal action. A representation is sufficient when it refines this quotient, and Bayes-minimal when it is informationally equivalent to it. The framework connects naturally to property elicitation: zero-one loss requires the Bayes class, squared loss the conditional mean, Brier loss the conditional probability in binary prediction, and log loss or strictly proper scoring rules the predictive distribution. Controlled finite experiments, learned neural bottleneck experiments, and a real-data iNaturalist taxonomic refinement experiment illustrate the distinction between sufficiency, minimality, and retained non-required information. For a fixed supervised problem, the distribution and the loss determine the Bayes action, the Bayes action determines the quotient, and the quotient determines the minimal information required for Bayes-optimal prediction.

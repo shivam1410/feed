@@ -5,10 +5,10 @@ source: "Simon Willison"
 url: "https://simonwillison.net/2026/Jun/1/may-newsletter/#atom-everything"
 authors: []
 date: "2026-06-01T04:45:00+00:00"
-score: 20
+score: 32
 guid: "https://simonwillison.net/2026/Jun/1/may-newsletter/#atom-everything"
 image: ""
-generated: "2026-06-05T02:55:12+05:30"
+generated: "2026-06-05T13:37:27+05:30"
 ---
 
-I just sent out the May edition of my sponsors-only monthly newsletter . If you are a sponsor (or if you start a sponsorship now) you can access it here . This month: Al got expensive, and Anthropic had a really good month The model releases were a little disappointing Conferences and podcasts I launched Datasette Agent and made a lot of progress on Datasette What I'm using, May 2026 edition Miscellaneous extras Here's a copy of the April newsletter as a preview of what you'll get. Pay $10/month to stay a month ahead of the free copy! Tags: newsletter
+Simon Willison's May 2026 newsletter notes that AI became noticeably more expensive this month, with Anthropic having a particularly strong period with major releases and funding success. Model releases were described as "a little disappointing," contrasting with Anthropic's improvements. The newsletter covers conferences, podcasts, and Willison's projects including Datasette Agent and Datasette progress. Published content includes conference coverage, developments in AI-assisted data tools, and monthly roundups of what Willison is using and building. The newsletter is available to sponsors for $10/month, providing curated insights into AI and development tools from someone deeply embedded in both communities.

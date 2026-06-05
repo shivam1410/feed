@@ -1,106 +1,106 @@
 {
-  "generatedAt": "2026-06-05T02:55:44+05:30",
+  "generatedAt": "2026-06-05T13:37:54+05:30",
   "source": "Hugging Face — trending models",
   "models": [
     {
       "id": "nvidia/LocateAnything-3B",
       "task": "image-text-to-text",
-      "likes": 1268,
-      "downloads": 91834,
+      "likes": 1317,
+      "downloads": 101823,
       "library": "transformers",
       "createdAt": "2026-03-02T20:05:49.000Z",
       "url": "https://huggingface.co/nvidia/LocateAnything-3B",
-      "summary": "Vision-language grounding model that localizes and detects objects in images using parallel box decoding for efficiency."
-    },
-    {
-      "id": "LiquidAI/LFM2.5-8B-A1B",
-      "task": "text-generation",
-      "likes": 506,
-      "downloads": 72114,
-      "library": "transformers",
-      "createdAt": "2026-05-28T09:43:54.000Z",
-      "url": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B",
-      "summary": "Hybrid MoE text model with 8.3B total / 1.5B active parameters optimized for on-device and edge deployment."
+      "summary": "Vision-language model for precise object localization, dense detection, and point-based localization across diverse domains with parallel box decoding."
     },
     {
       "id": "google/gemma-4-12B-it",
       "task": "any-to-any",
-      "likes": 391,
-      "downloads": 14866,
+      "likes": 468,
+      "downloads": 142851,
       "library": "transformers",
       "createdAt": "2026-05-23T01:17:15.000Z",
       "url": "https://huggingface.co/google/gemma-4-12B-it",
-      "summary": "Multimodal instruction-tuned model supporting text, image, audio, and video with 256K context across 140+ languages."
+      "summary": "Multimodal 12B instruction-tuned model with native text, audio, and image inputs, 256K context window, and support for 140+ languages."
+    },
+    {
+      "id": "LiquidAI/LFM2.5-8B-A1B",
+      "task": "text-generation",
+      "likes": 519,
+      "downloads": 82709,
+      "library": "transformers",
+      "createdAt": "2026-05-28T09:43:54.000Z",
+      "url": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B",
+      "summary": "MoE text-generation model with 8.3B total and 1.5B active parameters, optimized for on-device deployment and agentic reasoning tasks."
     },
     {
       "id": "HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
       "task": "image-text-to-text",
-      "likes": 1396,
-      "downloads": 2646756,
+      "likes": 1428,
+      "downloads": 2687304,
       "library": null,
       "createdAt": "2026-04-17T00:15:26.000Z",
       "url": "https://huggingface.co/HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
-      "summary": "Uncensored MoE vision-language model based on Qwen3.6-35B with no refusals for text and image understanding."
+      "summary": "Uncensored 35B parameter MoE multimodal model with aggressive uncensoring and full vision capabilities without safety refusals."
     },
     {
       "id": "unsloth/gemma-4-12b-it-GGUF",
       "task": "image-text-to-text",
-      "likes": 268,
-      "downloads": 62850,
+      "likes": 324,
+      "downloads": 296410,
       "library": null,
       "createdAt": "2026-05-29T11:25:59.000Z",
       "url": "https://huggingface.co/unsloth/gemma-4-12b-it-GGUF",
-      "summary": "GGUF-quantized Gemma 4 12B multimodal model for efficient local deployment with text and image understanding."
+      "summary": "Quantized GGUF version of Google's Gemma 4 12B instruction-tuned multimodal model with text, audio, and image inputs."
     },
     {
       "id": "google/gemma-4-12B",
       "task": "any-to-any",
-      "likes": 259,
-      "downloads": 1978,
+      "likes": 290,
+      "downloads": 53525,
       "library": "transformers",
       "createdAt": "2026-05-23T02:43:54.000Z",
       "url": "https://huggingface.co/google/gemma-4-12B",
-      "summary": "Pre-trained multimodal model supporting text, image, audio, and video inputs with 256K context and 12B parameters."
-    },
-    {
-      "id": "openbmb/MiniCPM5-1B",
-      "task": "text-generation",
-      "likes": 766,
-      "downloads": 79427,
-      "library": "transformers",
-      "createdAt": "2026-05-21T07:27:59.000Z",
-      "url": "https://huggingface.co/openbmb/MiniCPM5-1B",
-      "summary": "1B dense language model optimized for on-device deployment with tool-calling, reasoning, and code generation capabilities."
+      "summary": "Multimodal 12B base model with native text, audio, and image understanding, 256K context window, and multilingual support."
     },
     {
       "id": "stepfun-ai/Step-3.7-Flash",
       "task": "image-text-to-text",
-      "likes": 249,
-      "downloads": 22715,
+      "likes": 319,
+      "downloads": 27948,
       "library": "transformers",
       "createdAt": "2026-05-23T02:13:46.000Z",
       "url": "https://huggingface.co/stepfun-ai/Step-3.7-Flash",
-      "summary": "Sparse 198B MoE vision-language model with 256K context, 11B active parameters, and variable reasoning levels."
+      "summary": "198B-parameter sparse MoE vision-language model with selective reasoning levels, optimized for high-throughput agentic perception and reasoning workflows."
     },
     {
       "id": "sapientinc/HRM-Text-1B",
       "task": "text-generation",
-      "likes": 607,
-      "downloads": 157457,
+      "likes": 644,
+      "downloads": 159014,
       "library": "transformers",
       "createdAt": "2026-05-17T15:13:02.000Z",
       "url": "https://huggingface.co/sapientinc/HRM-Text-1B",
-      "summary": "1B pre-trained language model using hierarchical reasoning architecture with dual-timescale computation, not instruction-tuned."
+      "summary": "1B-parameter text-generation model using dual-timescale hierarchical reasoning architecture, pre-trained but not instruction-tuned or chat-aligned."
     },
     {
-      "id": "JetBrains/Mellum2-12B-A2.5B-Thinking",
+      "id": "openbmb/MiniCPM5-1B",
       "task": "text-generation",
-      "likes": 199,
-      "downloads": 12157,
+      "likes": 769,
+      "downloads": 91235,
       "library": "transformers",
-      "createdAt": "2026-05-26T09:12:25.000Z",
-      "url": "https://huggingface.co/JetBrains/Mellum2-12B-A2.5B-Thinking",
-      "summary": "MoE reasoning model with 12B total / 2.5B active parameters that emits explicit chain-of-thought before answers."
+      "createdAt": "2026-05-21T07:27:59.000Z",
+      "url": "https://huggingface.co/openbmb/MiniCPM5-1B",
+      "summary": "1B-parameter dense text-generation model designed for on-device deployment with hybrid reasoning and strong agentic tool-calling capabilities."
+    },
+    {
+      "id": "ideogram-ai/ideogram-4-fp8",
+      "task": "text-to-image",
+      "likes": 230,
+      "downloads": 1246,
+      "library": "diffusers",
+      "createdAt": "2026-05-30T23:40:55.000Z",
+      "url": "https://huggingface.co/ideogram-ai/ideogram-4-fp8",
+      "summary": "Text-to-image generation model using diffusion flow-matching and DiT architecture for high-quality image synthesis from text prompts."
     }
   ]
 }

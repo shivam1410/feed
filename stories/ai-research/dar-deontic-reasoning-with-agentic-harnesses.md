@@ -8,7 +8,7 @@ date: "2026-06-02T20:00:00.000Z"
 score: 65
 guid: "2606.05009"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2606.05009.png"
-generated: "2026-06-05T02:55:12+05:30"
+generated: "2026-06-05T13:37:27+05:30"
 ---
 
 Deontic reasoning tasks require applying complex rules and policies, and an agentic approach enables models to dynamically access statutes, showing mixed performance improvements across different model strengths.

@@ -8,7 +8,7 @@ date: "2026-06-03"
 score: 55
 guid: "10.1038/s41586-026-10562-z"
 image: ""
-generated: "2026-06-05T02:55:12+05:30"
+generated: "2026-06-05T13:37:27+05:30"
 ---
 
 The size of tropical vegetation gross primary production

@@ -4,11 +4,11 @@ category: "AI Research"
 source: "arXiv (cs.LG)"
 url: "https://arxiv.org/abs/2606.04188"
 authors: ["Alexey Zemtsov, Maxim Bobrin, Alexander Nikulin, Dmitry V. Dylov, Fakhri Karray, Vladislav Kurenkov, Martin Tak\\'a\\v{c}, Arip Asadulaev"]
-date: "Thu, 04 Jun 2026 00:00:00 -0400"
-score: 60
+date: "Fri, 05 Jun 2026 00:00:00 -0400"
+score: 44
 guid: "oai:arXiv.org:2606.04188v1"
 image: ""
-generated: "2026-06-05T02:55:12+05:30"
+generated: "2026-06-05T13:37:27+05:30"
 ---
 
 arXiv:2606.04188v1 Announce Type: new Abstract: Offline goal-conditioned reinforcement learning requires both long-horizon reachability estimates and local action comparisons. Dual goal representations provide value fields that capture global goal reachability, but they do not directly specify which action should be preferred at a given state. We propose Dual Advantage Fields, a policy-extraction method that turns a bilinear dual value model into a local advantage signal. Under bilinear dual parameterization, the goal embedding is the gradient of the value field with respect to the state representation. DAF learns an action-effect model that predicts the discounted feature displacement induced by an action and scores actions by the alignment between this displacement and the goal direction. In the realizable case, this score equals the goal-conditioned Bellman advantage, yielding a standard local policy-improvement guarantee. On OGBench locomotion, manipulation, and puzzle tasks, DAF improves aggregate RLiable metrics and performs strongly in settings where locally correct actions differ from direct movement toward the final goal.

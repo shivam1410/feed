@@ -1,0 +1,14 @@
+---
+title: "sqlite AGENTS.md"
+category: "AI Research"
+source: "Simon Willison"
+url: "https://simonwillison.net/2026/May/27/sqlite-agents/#atom-everything"
+authors: []
+date: "2026-05-27T23:44:37+00:00"
+score: 48
+guid: "https://simonwillison.net/2026/May/27/sqlite-agents/#atom-everything"
+image: ""
+generated: "2026-06-05T13:37:27+05:30"
+---
+
+sqlite AGENTS.md SQLite gained an AGENTS.md file five days ago - but it's not intended for their own development, it's presumably aimed at people who are pointing agents at the SQLite codebase. It includes: SQLite does not accept pull requests without prior agreement and/or accompanying legal paperwork that places the pull request in the public domain. However, the human SQLite developers will review a concise and well-written pull request as a proof-of-concept prior to reimplementing the changes themselves. SQLite does not accept agentic code. However the project will accept agentic bug reports that include a reproducible test case. Patches or pull requests demonstrating a possible fix, for documentation purposes, are welcomed. The most recent commit to that file removed "(currently)" from "SQLite does not (currently) accept agentic code", with the commit message "Strengthen the statement about not accepting agentic code". Meanwhile the SQLite forum was being flooded with so many AI-generated bug reports - of varying quality - that they've now split those off into a new SQLite Bug Forum . D. Richard Hipp is resolving issues on there with a flurry of commits to the codebase. Via Alex Garcia on the Datasette Discord Tags: sqlite , ai , d-richard-hipp , generative-ai , llms , coding-agents , ai-security-research

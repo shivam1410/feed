@@ -66,7 +66,6 @@ const el = {
   sidebar: document.getElementById("sidebar"),
   closeNav: document.getElementById("closeNav"),
   categoryChips: document.getElementById("categoryChips"),
-  catAll: document.getElementById("catAll"),
   pNotionUrl: document.getElementById("pNotionUrl"),
   saveNotionUrl: document.getElementById("saveNotionUrl"),
   notionUrlMsg: document.getElementById("notionUrlMsg"),
@@ -806,7 +805,8 @@ function updateHeadNav() {
 }
 
 function renderCategoryChips() {
-  el.categoryChips.innerHTML = allCategories
+  const allChip = `<button type="button" class="chip${selectedCats.size === 0 ? " active" : ""}" data-all="1">All</button>`;
+  el.categoryChips.innerHTML = allChip + allCategories
     .map((c) => `<button type="button" class="chip${isCatShown(c) ? " active" : ""}" data-cat="${safe(c)}">${safe(c)}</button>`)
     .join("");
 }
@@ -852,9 +852,10 @@ el.tabbar.addEventListener("click", (e) => {
 });
 el.categoryChips.addEventListener("click", (e) => {
   const chip = e.target.closest(".chip");
-  if (chip) toggleCategory(chip.dataset.cat);
+  if (!chip) return;
+  if (chip.dataset.all) selectAllCategories();
+  else toggleCategory(chip.dataset.cat);
 });
-el.catAll.addEventListener("click", selectAllCategories);
 el.menuBtn.addEventListener("click", openNav);
 el.lbBtn.addEventListener("click", () => switchSource("leaderboard"));
 el.scrim.addEventListener("click", closeNav);

@@ -375,6 +375,7 @@ function cardHTML(item, isNew, linkable) {
         ${byline ? `<div class="byline">${safe(byline)}</div>` : ""}
         <div class="card-foot">
           <span class="date">${safe(date)}</span>
+          <button type="button" class="listen-btn" aria-label="Listen">🔊 Listen</button>
           ${linkable ? `<button type="button" class="read-btn${isRead ? " is-read" : ""}">${isRead ? "✓ Read" : "Mark read"}</button>` : ""}
           ${canSave ? `<button type="button" class="save-btn">${saveLabel("save")}</button>` : ""}
         </div>
@@ -384,6 +385,34 @@ function cardHTML(item, isNew, linkable) {
 
 function markSeenGuid(guid) {
   if (guid && !seen.has(guid)) { seen.add(guid); saveSeen(activeId); }
+}
+
+/* ---------- read aloud (Web Speech API — no key/server needed) ---------- */
+const tts = window.speechSynthesis;
+let speakingGuid = null;
+function stopSpeech() {
+  if (tts && (tts.speaking || tts.pending)) tts.cancel();
+  speakingGuid = null;
+  document.querySelectorAll(".listen-btn.playing").forEach((b) => {
+    b.classList.remove("playing");
+    b.textContent = "🔊 Listen";
+  });
+}
+function speakCard(card) {
+  if (!tts || !card) return;
+  const guid = card.getAttribute("data-guid");
+  if (speakingGuid === guid) { stopSpeech(); return; } // tap again = stop
+  stopSpeech();
+  const item = renderedById[guid];
+  const text = [item?.title, item?.why, item?.summary].filter(Boolean).join(". ").trim();
+  if (!text) return;
+  const u = new SpeechSynthesisUtterance(text);
+  u.onend = () => { if (speakingGuid === guid) stopSpeech(); };
+  u.onerror = () => stopSpeech();
+  speakingGuid = guid;
+  const btn = card.querySelector(".listen-btn");
+  if (btn) { btn.classList.add("playing"); btn.textContent = "⏹ Stop"; }
+  tts.speak(u);
 }
 
 // Resume where you left off: scroll back to the last story you were on
@@ -445,6 +474,7 @@ function scrollDeckTo(idx) {
 }
 
 function renderItems(items) {
+  stopSpeech(); // re-render replaces the DOM — don't leave audio orphaned
   renderedById = Object.fromEntries(items.filter((it) => it.guid).map((it) => [it.guid, it]));
   const linkable = LIST_FEEDS.includes(activeFeed().id); // whole-card click → open link
   el.feed.innerHTML = items.map((it) => cardHTML(it, it.guid && !seen.has(it.guid), linkable)).join("");
@@ -471,6 +501,7 @@ function isHeadlineOnly(items) {
 }
 
 function renderTitleList(items) {
+  stopSpeech();
   renderedById = {};
   el.feed.classList.remove("deck"); // not a carousel — a plain scannable list
   el.deckDots.style.display = "none";
@@ -658,6 +689,7 @@ const activeFeed = () => FEEDS.find((f) => f.id === activeId) || FEEDS[0];
 
 function switchSource(id) {
   if (id === activeId) { closeNav(); return; }
+  stopSpeech();
   activeId = id;
   localStorage.setItem("feed_active", id);
   seen = loadSeen(id);
@@ -759,6 +791,7 @@ el.feed.addEventListener("scroll", () => {
     // The card you swiped away from counts as seen.
     const leaving = el.feed.querySelectorAll(".card")[deckIndex];
     markSeenGuid(leaving && leaving.getAttribute("data-guid"));
+    stopSpeech(); // stop reading when you swipe to another card
     deckIndex = i;
     updateDeckIndicator(i);
     const current = el.feed.querySelectorAll(".card")[i];
@@ -794,6 +827,8 @@ el.fsUp.addEventListener("click", () => nudgeFontScale(0.1));
 el.fsDown.addEventListener("click", () => nudgeFontScale(-0.1));
 
 document.body.addEventListener("click", (e) => {
+  const listen = e.target.closest(".listen-btn");
+  if (listen) { speakCard(listen.closest(".card")); return; }
   const save = e.target.closest(".save-btn");
   if (save) {
     const item = renderedById[save.closest(".card")?.getAttribute("data-guid")];
@@ -833,8 +868,10 @@ document.body.addEventListener("click", (e) => {
 });
 
 document.addEventListener("visibilitychange", () => {
+  if (document.visibilityState === "hidden") stopSpeech();
   if (document.visibilityState === "visible" && !isFetching && activeFeed().kind !== "home") load();
 });
+window.addEventListener("pagehide", stopSpeech);
 
 el.pNotionUrl.value = localStorage.getItem(NOTION_URL_KEY) || "";
 applyFontScale(parseFloat(localStorage.getItem(FS_KEY) || "1"));

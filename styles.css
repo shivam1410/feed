@@ -372,6 +372,26 @@ button#saveProfile:hover { border-color: var(--accent); }
 .read-btn:hover { border-color: var(--accent); color: var(--text); }
 .read-btn.is-read { color: var(--new); border-color: var(--new); }
 .read-btn ~ .save-btn { margin-left: 0; } /* read-btn already pushed the group right */
+
+.listen-btn {
+  margin-left: auto;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font: inherit;
+  font-size: 12px;
+  color: var(--text-dim);
+  background: none;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 3px 11px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.listen-btn:hover { border-color: var(--accent); color: var(--text); }
+.listen-btn.playing { color: var(--accent); border-color: var(--accent); }
+/* When Listen is present it owns the right-push; following buttons sit beside it. */
+.listen-btn ~ .read-btn, .listen-btn ~ .save-btn { margin-left: 0; }
 /* A read/visited card fades back so unread items stand out. */
 .card.read { opacity: 0.5; }
 .card.read:hover { opacity: 0.72; }

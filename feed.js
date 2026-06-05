@@ -63,6 +63,8 @@ const el = {
   lbBtn: document.getElementById("lbBtn"),
   tabbar: document.getElementById("tabbar"),
   scrim: document.getElementById("scrim"),
+  sidebar: document.getElementById("sidebar"),
+  closeNav: document.getElementById("closeNav"),
   categoryChips: document.getElementById("categoryChips"),
   catAll: document.getElementById("catAll"),
   pNotionUrl: document.getElementById("pNotionUrl"),
@@ -852,6 +854,20 @@ el.catAll.addEventListener("click", selectAllCategories);
 el.menuBtn.addEventListener("click", openNav);
 el.lbBtn.addEventListener("click", () => switchSource("leaderboard"));
 el.scrim.addEventListener("click", closeNav);
+el.closeNav.addEventListener("click", closeNav);
+// Swipe left on the drawer to dismiss it.
+let navTouchX = null, navTouchY = null;
+el.sidebar.addEventListener("touchstart", (e) => {
+  navTouchX = e.touches[0].clientX;
+  navTouchY = e.touches[0].clientY;
+}, { passive: true });
+el.sidebar.addEventListener("touchend", (e) => {
+  if (navTouchX == null) return;
+  const dx = e.changedTouches[0].clientX - navTouchX;
+  const dy = e.changedTouches[0].clientY - navTouchY;
+  navTouchX = navTouchY = null;
+  if (dx < -50 && Math.abs(dx) > Math.abs(dy)) closeNav(); // left swipe
+}, { passive: true });
 function saveNotionUrl() {
   const url = el.pNotionUrl.value.trim();
   try { localStorage.setItem(NOTION_URL_KEY, url); } catch { /* ignore */ }

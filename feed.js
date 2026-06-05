@@ -33,6 +33,17 @@ const HOME_LIMIT = 20; // Home shows only the top-N most relevant (by score)
 // carousel). The full-text sources keep the immersive swipe-deck reading mode.
 const LIST_FEEDS = ["deepmind", "nature"];
 
+// Feed tabs shown in the scrollable strip under the header (short labels).
+const TAB_FEEDS = [
+  { id: "home", label: "Home" },
+  { id: "arxiv", label: "arXiv" },
+  { id: "huggingface", label: "HF" },
+  { id: "simonw", label: "Simon Willison" },
+  { id: "latentspace", label: "Latent Space" },
+  { id: "nature", label: "Nature" },
+  { id: "deepmind", label: "DeepMind" },
+];
+
 const SEEN_KEY = (id) => `feed_seen_${id}_v1`;
 const POS_KEY = (id) => `feed_pos_${id}_v1`;
 const READ_KEY = "feed_read_v1"; // guids the user has opened/marked read (global)
@@ -50,6 +61,7 @@ const el = {
   meta: document.getElementById("meta"),
   menuBtn: document.getElementById("menuBtn"),
   navToggle: document.getElementById("navToggle"),
+  tabbar: document.getElementById("tabbar"),
   scrim: document.getElementById("scrim"),
   categoryChips: document.getElementById("categoryChips"),
   catAll: document.getElementById("catAll"),
@@ -767,6 +779,18 @@ function renderNav() {
   const rest = FEEDS.filter((f) => !isTop(f)).map(item).join("");
   el.nav.innerHTML = top + '<div class="nav-sep">Sources</div>' + rest;
   updateHeadNav();
+  renderTabbar();
+}
+
+function renderTabbar() {
+  if (!el.tabbar) return;
+  el.tabbar.innerHTML = TAB_FEEDS
+    .map((t) => `<button type="button" class="tab${t.id === activeId ? " active" : ""}" data-id="${safe(t.id)}">${safe(t.label)}</button>`)
+    .join("");
+  const active = el.tabbar.querySelector(".tab.active");
+  if (active) { // center the active tab without scrolling the page
+    el.tabbar.scrollLeft = active.offsetLeft - (el.tabbar.clientWidth - active.offsetWidth) / 2;
+  }
 }
 
 function updateHeadNav() {
@@ -819,6 +843,10 @@ function closeNav() { el.app.classList.remove("nav-open"); }
 
 el.nav.addEventListener("click", (e) => {
   const btn = e.target.closest(".nav-item");
+  if (btn) switchSource(btn.dataset.id);
+});
+el.tabbar.addEventListener("click", (e) => {
+  const btn = e.target.closest(".tab");
   if (btn) switchSource(btn.dataset.id);
 });
 el.categoryChips.addEventListener("click", (e) => {

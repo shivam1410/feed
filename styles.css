@@ -151,16 +151,18 @@ button#saveProfile:hover { border-color: var(--accent); }
 /* ---------- content ---------- */
 
 .content { flex: 1; min-width: 0; }
-.content-head {
+.topbar {
   position: sticky;
   top: 0;
   z-index: 5;
+  background: rgba(0, 0, 0, 0.92);
+  backdrop-filter: blur(8px);
+}
+.content-head {
   display: flex;
   align-items: center;
   gap: 12px;
   padding: 16px 24px;
-  background: rgba(0, 0, 0, 0.92);
-  backdrop-filter: blur(8px);
   border-bottom: 1px solid var(--border);
 }
 .content-head h2 { margin: 0; font-size: 18px; }
@@ -210,6 +212,32 @@ button#saveProfile:hover { border-color: var(--accent); }
 }
 .head-icon:hover { color: var(--text); border-color: var(--accent); }
 .head-icon.active { color: var(--accent); border-color: var(--accent); }
+
+/* Horizontal, scrollable feed tabs under the header */
+.tabbar {
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+  padding: 8px 16px;
+  border-bottom: 1px solid var(--border);
+  scrollbar-width: none;
+  -webkit-overflow-scrolling: touch;
+}
+.tabbar::-webkit-scrollbar { display: none; }
+.tab {
+  flex: 0 0 auto;
+  font: inherit;
+  font-size: 13px;
+  color: var(--text-dim);
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 6px 14px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.tab:hover { border-color: var(--accent); color: var(--text); }
+.tab.active { color: #000; background: var(--accent); border-color: var(--accent); font-weight: 600; }
 
 .feed {
   max-width: 760px;
@@ -485,8 +513,8 @@ button#saveProfile:hover { border-color: var(--accent); }
     max-width: none;
     margin: 12px 0 0;
     padding: 0 12px;
-    height: calc(100vh - 120px);
-    height: calc(100svh - 120px);
+    height: calc(100vh - 166px); /* header + tab strip + dots + margins */
+    height: calc(100svh - 166px);
     overflow-x: auto;
     overflow-y: hidden;
     scroll-snap-type: x mandatory;

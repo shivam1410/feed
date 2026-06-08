@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/s41586-026-10561-0"
 authors: ["Jiameng Lai", "Linda M. J. Kooijmans", "Wu Sun", "Danica Lombardozzi", "J. Elliott Campbell", "Lianhong Gu", "Yiqi Luo", "Le Kuai", "Ying Sun"]
 date: "2026-06-03"
-score: 5
+score: ""
 guid: "10.1038/s41586-026-10561-0"
 image: ""
-generated: "2026-06-05T13:37:27+05:30"
+generated: "2026-06-08T11:21:54+05:30"
 ---
 
-Reply to: The size of tropical vegetation gross primary production
+This is a reply article addressing tropical vegetation gross primary production research. Without full text content, specific responses and findings cannot be accurately summarized. The article engages with previously published work examining carbon sequestration capacity of tropical forests.

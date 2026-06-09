@@ -8,7 +8,7 @@ date: "2026-06-03"
 score: 70
 guid: "10.1038/s41586-026-10612-6"
 image: ""
-generated: "2026-06-06T01:41:01+05:30"
+generated: "2026-06-09T19:05:06+05:30"
 ---
 
-Detailed longitudinal studies of IDH-mutant gliomas—a specific type of brain tumor—reveal how disease progression depends on three interconnected layers of biological change: genetic mutations, epigenetic modifications, and microenvironmental factors. Using transcriptomic, chromatin, and genomic analysis methods, researchers tracked these changes in individual tumors over time. The findings demonstrate that disease progression results from interdependent interactions among all three layers rather than any single mechanism dominating. This multidimensional understanding could guide development of more effective combination treatment strategies targeting multiple mechanisms simultaneously.
+Longitudinal transcriptomic, chromatin and genomic analyses of the two types of IDH-mutant glioma reveal in detail how disease progression is influenced by interdependent genetic, epigenetic and microenvironmental factors.

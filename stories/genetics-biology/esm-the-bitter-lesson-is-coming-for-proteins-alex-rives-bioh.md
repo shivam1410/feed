@@ -5,10 +5,10 @@ source: "Latent Space"
 url: "https://www.latent.space/p/esmfold2"
 authors: ["RJ Honicky"]
 date: "Wed, 27 May 2026 17:46:16 GMT"
-score: 75
+score: 82
 guid: "https://www.latent.space/p/esmfold2"
 image: ""
-generated: "2026-06-06T01:41:01+05:30"
+generated: "2026-06-09T19:05:06+05:30"
 ---
 
-ESMFold 2 protein prediction engine achieves state-of-the-art performance on protein interaction prediction, particularly for antibody structures critical to therapeutic development. Built on protein language models trained via masked amino acid prediction from millions of sequences, the system learned biological structure and function emerging from simple self-supervised objectives. Inference-time compute scaling improves performance across cancer and immunology targets. The release includes 6.8 billion protein atlas and 1.1 billion predicted structures publicly available for research. Results demonstrate compute scaling drives capability improvements even in specialized protein domains.
+BioHub announced ESMFold2, an open engine for protein prediction and design building on protein language models trained on millions of sequences via masked-token prediction. The system achieves state-of-the-art performance on protein interactions—especially antibodies critical for therapeutics—and shows inference-time scaling works across cancer and immunology targets. BioHub released an atlas of 6.8 billion predicted protein structures, validating that scaling simple language objectives on proteins yields emergent structure prediction ability.

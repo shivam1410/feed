@@ -5,10 +5,10 @@ source: "Simon Willison"
 url: "https://simonwillison.net/2026/Jun/2/micropython-wasm/#atom-everything"
 authors: []
 date: "2026-06-02T19:20:47+00:00"
-score: 25
+score: 28
 guid: "https://simonwillison.net/2026/Jun/2/micropython-wasm/#atom-everything"
 image: ""
-generated: "2026-06-06T01:41:01+05:30"
+generated: "2026-06-09T19:05:06+05:30"
 ---
 
-Release: micropython-wasm 0.1a1 Fixes for some limitations that emerged while I was trying to use this to build datasette-agent-micropython . Tags: python , sandboxing , webassembly
+Release: micropython-wasm 0.1a1 Fixes for some limitations that emerged while I was trying to use this to build datasette-agent-micropython . Tags: python , sandboxing , webassembly , micropython

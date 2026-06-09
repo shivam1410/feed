@@ -8,7 +8,7 @@ date: "2026-06-03"
 score: 70
 guid: "10.1038/s41586-026-10575-8"
 image: ""
-generated: "2026-06-06T01:41:01+05:30"
+generated: "2026-06-09T19:05:06+05:30"
 ---
 
 Teosinte alleles enhance nitrogen assimilation and seed protein without lowering crop yield when expressed in modern maize, providing a powerful strategy for crop improvement to meet future population demands.

@@ -8,7 +8,7 @@ date: "Wed, 03 Jun 2026 05:49:02 GMT"
 score: 85
 guid: "https://www.latent.space/p/ainews-microsoft-build-mai-thinking"
 image: ""
-generated: "2026-06-10T19:39:28+05:30"
+generated: "2026-06-11T19:06:09+05:30"
 ---
 
-Microsoft announced seven new MAI models at Build 2026, leveraging its two-year-old Inflection acquisition. The lineup spans reasoning, code, image, speech transcription, and voice capabilities, with MAI-Thinking-1 highlighted as the standout offering. A 100+ page technical report accompanied the announcement and received positive community reception. The company positioned itself as both platform provider and frontier lab. These represent from-scratch pretrains rather than distillation, establishing MAI as a capable tier-two neolab supporting domain-specific customization.
+Microsoft announced seven new MAI models at Build spanning reasoning, code, image, speech, and voice modalities. The flagship MAI-Thinking-1 features 1 trillion total parameters with 35 billion active. These represent from-scratch pretrains completed in just two years since the Microsoft-Inflection merger. Positioned as a capable tier-2 neolab, the MAI family supports domain-specific fine-tuning, a capability frontier labs have largely discontinued.

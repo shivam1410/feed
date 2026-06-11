@@ -1,0 +1,14 @@
+---
+title: "Efficient and accurate neural-field reconstruction using resistive memory"
+category: "AI Research"
+source: "Nature"
+url: "https://www.nature.com/articles/s41586-026-10646-w"
+authors: ["Yifei Yu", "Xinyuan Zhang", "Shaocong Wang", "Woyu Zhang", "Xiuzhe Wu", "Yangu He", "Jichang Yang", "Yue Zhang", "Ning Lin", "Bo Wang", "Xi Chen", "Songqi Wang", "Xiaoshan Wu", "Shihao Han", "Yi Li", "Meng Xu", "Hegan Chen", "Wenkui Zhang", "Jingyi Chen", "Xumeng Zhang", "Xiaojuan Qi", "Dashan Shang", "Qi Liu", "Zhongrui Wang", "Kwang-Ting Cheng", "Ming Liu"]
+date: "2026-06-10"
+score: 75
+guid: "10.1038/s41586-026-10646-w"
+image: ""
+generated: "2026-06-11T19:06:09+05:30"
+---
+
+A co-optimized hardware-software system using resistive-memory computing improved efficiency and parallelism for neural-field reconstruction in imaging and 3D vision applications. Resistive memories (memristors) compute in-place without transferring data between processing and memory units, dramatically reducing energy consumption versus traditional computing architectures. The system achieved superior performance on sparse signal reconstruction—core tasks in computational imaging where many sensor values are zero or negligible. This neuromorphic computing approach demonstrates practical advantages for sparse signal processing endemic to imaging and 3D vision where conventional processors waste energy on zero values.

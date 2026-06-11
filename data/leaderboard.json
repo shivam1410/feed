@@ -1,106 +1,106 @@
 {
-  "generatedAt": "2026-06-10T19:40:01+05:30",
+  "generatedAt": "2026-06-11T19:06:46+05:30",
   "source": "Hugging Face — trending models",
   "models": [
     {
-      "id": "google/gemma-4-12B-it",
-      "task": "any-to-any",
-      "likes": 858,
-      "downloads": 581354,
-      "library": "transformers",
-      "createdAt": "2026-05-23T01:17:15.000Z",
-      "url": "https://huggingface.co/google/gemma-4-12B-it",
-      "summary": "Instruction-tuned 12B multimodal model handling text, image, and audio with 256K context, multilingual, for generation and reasoning."
-    },
-    {
       "id": "nvidia/LocateAnything-3B",
       "task": "image-text-to-text",
-      "likes": 1777,
-      "downloads": 123922,
+      "likes": 1842,
+      "downloads": 131794,
       "library": "transformers",
       "createdAt": "2026-03-02T20:05:49.000Z",
       "url": "https://huggingface.co/nvidia/LocateAnything-3B",
-      "summary": "3B vision-language grounding model for precise object localization and detection using parallel box decoding across diverse domains."
+      "summary": "Fast vision-language grounding model for precise object localization and detection using parallel box decoding across diverse domains."
     },
     {
-      "id": "unsloth/gemma-4-12b-it-GGUF",
-      "task": "image-text-to-text",
-      "likes": 542,
-      "downloads": 660140,
-      "library": null,
-      "createdAt": "2026-05-29T11:25:59.000Z",
-      "url": "https://huggingface.co/unsloth/gemma-4-12b-it-GGUF",
-      "summary": "GGUF-quantized version of Gemma 4 12B instruction-tuned, enabling efficient multimodal inference on consumer hardware."
-    },
-    {
-      "id": "google/gemma-4-12B",
+      "id": "google/gemma-4-12B-it",
       "task": "any-to-any",
-      "likes": 494,
-      "downloads": 122464,
+      "likes": 925,
+      "downloads": 675936,
       "library": "transformers",
-      "createdAt": "2026-05-23T02:43:54.000Z",
-      "url": "https://huggingface.co/google/gemma-4-12B",
-      "summary": "Pre-trained 12B multimodal model with text, image, audio support, 256K context, multilingual, for generation and reasoning."
+      "createdAt": "2026-05-23T01:17:15.000Z",
+      "url": "https://huggingface.co/google/gemma-4-12B-it",
+      "summary": "Multimodal 12B instruction-tuned model handling text, image, audio, and video inputs across 140+ languages with 256K context."
     },
     {
-      "id": "ideogram-ai/ideogram-4-fp8",
-      "task": "text-to-image",
-      "likes": 457,
-      "downloads": 5915,
-      "library": "diffusers",
-      "createdAt": "2026-05-30T23:40:55.000Z",
-      "url": "https://huggingface.co/ideogram-ai/ideogram-4-fp8",
-      "summary": "Ideogram 4 text-to-image diffusion model using flow-matching and Diffusion Transformer architecture."
+      "id": "google/diffusiongemma-26B-A4B-it",
+      "task": "image-text-to-text",
+      "likes": 393,
+      "downloads": 0,
+      "library": "transformers",
+      "createdAt": "2026-06-09T12:40:12.000Z",
+      "url": "https://huggingface.co/google/diffusiongemma-26B-A4B-it",
+      "summary": "MoE-based discrete diffusion model using parallel block sampling for faster text generation from multimodal image and video inputs."
     },
     {
       "id": "bosonai/higgs-audio-v3-tts-4b",
       "task": "text-to-speech",
-      "likes": 304,
-      "downloads": 16207,
+      "likes": 336,
+      "downloads": 19948,
       "library": "transformers",
       "createdAt": "2026-06-04T05:37:32.000Z",
       "url": "https://huggingface.co/bosonai/higgs-audio-v3-tts-4b",
-      "summary": "4B text-to-speech model generating expressive multilingual speech with zero-shot voice cloning and fine-grained prosody control."
-    },
-    {
-      "id": "ideogram-ai/ideogram-4-nf4",
-      "task": "text-to-image",
-      "likes": 300,
-      "downloads": 5250,
-      "library": "diffusers",
-      "createdAt": "2026-05-30T02:06:53.000Z",
-      "url": "https://huggingface.co/ideogram-ai/ideogram-4-nf4",
-      "summary": "Ideogram 4 text-to-image diffusion model using flow-matching and Diffusion Transformer architecture."
+      "summary": "Expressive 4B text-to-speech model for voice agents with zero-shot voice cloning and emotion control across 100+ languages."
     },
     {
       "id": "nvidia/nemotron-3.5-asr-streaming-0.6b",
       "task": "automatic-speech-recognition",
-      "likes": 331,
-      "downloads": 4181,
+      "likes": 364,
+      "downloads": 4965,
       "library": "nemo",
       "createdAt": "2026-05-15T21:52:25.000Z",
       "url": "https://huggingface.co/nvidia/nemotron-3.5-asr-streaming-0.6b",
-      "summary": "600M multilingual streaming speech recognition model supporting 40 languages with native punctuation and capitalization."
+      "summary": "Multilingual streaming ASR model with cache-aware FastConformer-RNNT for low-latency transcription across 40 language-locales."
+    },
+    {
+      "id": "unsloth/gemma-4-12b-it-GGUF",
+      "task": "image-text-to-text",
+      "likes": 556,
+      "downloads": 711706,
+      "library": null,
+      "createdAt": "2026-05-29T11:25:59.000Z",
+      "url": "https://huggingface.co/unsloth/gemma-4-12b-it-GGUF",
+      "summary": "GGUF-quantized Gemma 4 12B multimodal model with encoder-free native audio, vision, and text understanding for local deployment."
+    },
+    {
+      "id": "ideogram-ai/ideogram-4-fp8",
+      "task": "text-to-image",
+      "likes": 480,
+      "downloads": 7170,
+      "library": "diffusers",
+      "createdAt": "2026-05-30T23:40:55.000Z",
+      "url": "https://huggingface.co/ideogram-ai/ideogram-4-fp8",
+      "summary": "Text-to-image diffusion model using flow-matching and diffusion transformer architecture for image generation."
+    },
+    {
+      "id": "CohereLabs/North-Mini-Code-1.0",
+      "task": "text-generation",
+      "likes": 295,
+      "downloads": 1859,
+      "library": "transformers",
+      "createdAt": "2026-06-05T02:38:01.000Z",
+      "url": "https://huggingface.co/CohereLabs/North-Mini-Code-1.0",
+      "summary": "30B MoE code-generation model optimized for agentic software engineering and terminal tasks with 256K context window."
+    },
+    {
+      "id": "google/gemma-4-12B",
+      "task": "any-to-any",
+      "likes": 511,
+      "downloads": 140221,
+      "library": "transformers",
+      "createdAt": "2026-05-23T02:43:54.000Z",
+      "url": "https://huggingface.co/google/gemma-4-12B",
+      "summary": "Multimodal 12B base model handling text, image, audio, and video inputs across 140+ languages with 256K context."
     },
     {
       "id": "HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
       "task": "image-text-to-text",
-      "likes": 1618,
-      "downloads": 2983909,
+      "likes": 1652,
+      "downloads": 3057541,
       "library": null,
       "createdAt": "2026-04-17T00:15:26.000Z",
       "url": "https://huggingface.co/HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
-      "summary": "Uncensored 35B Qwen3.6 A3B multimodal model handling image and text with aggressive refusal removal."
-    },
-    {
-      "id": "sapientinc/HRM-Text-1B",
-      "task": "text-generation",
-      "likes": 739,
-      "downloads": 133351,
-      "library": "transformers",
-      "createdAt": "2026-05-17T15:13:02.000Z",
-      "url": "https://huggingface.co/sapientinc/HRM-Text-1B",
-      "summary": "1B pre-trained language model using Hierarchical Reasoning architecture with dual-timescale recurrence, not chat-aligned."
+      "summary": "Uncensored 35B MoE Qwen3.6 multimodal model with vision and language understanding for English and Chinese."
     }
   ]
 }

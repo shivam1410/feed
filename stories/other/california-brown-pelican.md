@@ -5,10 +5,10 @@ source: "Simon Willison"
 url: "https://simonwillison.net/2026/Jun/2/sighting-367841339/#atom-everything"
 authors: []
 date: "2026-06-02T18:17:03+00:00"
-score: 10
+score: 5
 guid: "https://simonwillison.net/2026/Jun/2/sighting-367841339/#atom-everything"
 image: ""
-generated: "2026-06-10T19:39:28+05:30"
+generated: "2026-06-11T19:06:09+05:30"
 ---
 
-Observation from Microsoft Build 2026 venue: California Brown Pelicans dive-hunting in waters adjacent to Fort Mason conference location in San Francisco.
+California Brown Pelican, in Fort Mason, CA, US I'm at the Microsoft Build conference today, held at Fort Mason in San Francisco. There are California Brown Pelicans diving into the water directly behind venue! Tags: microsoft , ai , generative-ai , llms , llm-release

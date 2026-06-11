@@ -8,7 +8,7 @@ date: "2026-06-08T12:19:18.000Z"
 score: 70
 guid: "2606.09697"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2606.09697.png"
-generated: "2026-06-10T19:39:28+05:30"
+generated: "2026-06-11T19:06:09+05:30"
 ---
 
 A psychologically-informed refusal framework called PsychoSafe is developed for large language models to improve harmful request handling through structured supportive communication, showing enhanced refusal quality and resource referral while maintaining performance on non-refusal tasks.

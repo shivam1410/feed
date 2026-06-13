@@ -8,7 +8,7 @@ date: "2026-06-10"
 score: 75
 guid: "10.1038/s41586-026-10546-z"
 image: ""
-generated: "2026-06-11T19:06:09+05:30"
+generated: "2026-06-13T19:05:08+05:30"
 ---
 
-A massive graveyard of whale remains 5.3 million years old was discovered in the southeastern Indian Ocean, containing an enormous accumulation of skeletal fossils. This deep-sea necropolis supports long-term, highly specialized ecosystems dependent entirely on decomposing whale bodies. The extensive fossil record documents whale species diversity and evolutionary changes across millions of years. Researchers found whale mortality events created persistent organic-matter hotspots fueling complex food webs in the abyssal zone. The site provides unprecedented insight into whale evolutionary history, deep-ocean biodiversity patterns, and how megafauna death shapes ancient marine ecosystems.
+A massive whale necropolis containing 5.3 million-year-old remains was discovered at 7 kilometers depth in the Diamantina Zone of the southeastern Indian Ocean. The site hosts specialized long-term deep-sea ecosystems supported by whale falls. The extensive fossil record reveals insights into whale evolutionary history and deep-ocean biodiversity patterns.

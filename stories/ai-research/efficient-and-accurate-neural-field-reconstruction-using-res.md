@@ -8,7 +8,7 @@ date: "2026-06-10"
 score: 75
 guid: "10.1038/s41586-026-10646-w"
 image: ""
-generated: "2026-06-11T19:06:09+05:30"
+generated: "2026-06-13T19:05:08+05:30"
 ---
 
-A co-optimized hardware-software system using resistive-memory computing improved efficiency and parallelism for neural-field reconstruction in imaging and 3D vision applications. Resistive memories (memristors) compute in-place without transferring data between processing and memory units, dramatically reducing energy consumption versus traditional computing architectures. The system achieved superior performance on sparse signal reconstruction—core tasks in computational imaging where many sensor values are zero or negligible. This neuromorphic computing approach demonstrates practical advantages for sparse signal processing endemic to imaging and 3D vision where conventional processors waste energy on zero values.
+A co-optimized AI hardware–software system using resistive-memory computing improves energy efficiency and parallelism for sparse signal reconstruction in imaging and three-dimensional vision applications.

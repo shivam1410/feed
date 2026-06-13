@@ -1,14 +1,14 @@
 ---
-title: "We’re launching the Google DeepMind Accelerator program in Asia Pacific to tackle environmental risks"
+title: "We’re launching the Google DeepMind Accelerator program in Asia Pacific to tackle environmental risks."
 category: "AI Research"
 source: "DeepMind"
-url: "https://deepmind.google/blog/were-launching-the-google-deepmind-accelerator-program-in-asia-pacific-to-tackle-environmental-risks/"
-authors: []
-date: "Thu, 21 May 2026 19:46:42 +0000"
-score: 50
-guid: "https://deepmind.google/blog/were-launching-the-google-deepmind-accelerator-program-in-asia-pacific-to-tackle-environmental-risks/"
-image: ""
-generated: "2026-06-05T02:55:12+05:30"
+url: "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/accelerator-ai-for-the-planet/"
+authors: ["Dr. Ramine Tinati"]
+date: "Sun, 17 May 2026 18:00:00 +0000"
+score: 70
+guid: "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/accelerator-ai-for-the-planet/"
+image: "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Image_for_APAC_GDM_Accelerator.max-600x600.format-webp.webp"
+generated: "2026-06-13T19:05:08+05:30"
 ---
 
 The Asia-Pacific region is a global engine for economic growth, but it's also highly vulnerable to climate change. While green technologies are gaining momentum, a recen…

@@ -8,7 +8,7 @@ date: "2026-06-10"
 score: 75
 guid: "10.1038/s41586-026-10631-3"
 image: ""
-generated: "2026-06-11T19:06:09+05:30"
+generated: "2026-06-13T19:05:08+05:30"
 ---
 
-Diffuse midline gliomas (DMG)—aggressive brain tumors in children—exploit healthy brain circuits for growth. Tumor network mapping defined a conserved brain circuit strongly associated with patient prognosis. These findings suggest DMGs do not grow in isolation but instead activate and hijack otherwise normal neural networks performing healthy brain functions. The tumor-brain circuit interaction plays a central role in tumor growth and progression. This insight opens new therapeutic possibilities: drugs could target the brain circuits themselves that tumors co-opted. Understanding tumor-brain relationships may improve treatment and prognosis for this devastating pediatric cancer.
+Brain network mapping in children with diffuse midline glioma (DMG) identified a conserved neural network with prognostic significance. Findings suggest that DMG tumors exploit otherwise healthy brain circuits to promote growth. This reshapes understanding of how pediatric brain tumors interact with normal brain organization.

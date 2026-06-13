@@ -8,7 +8,7 @@ date: "2026-06-10"
 score: 70
 guid: "10.1038/d41586-026-01754-8"
 image: ""
-generated: "2026-06-11T19:06:09+05:30"
+generated: "2026-06-13T19:05:08+05:30"
 ---
 
 A protein signal remains silent under normal conditions but is activated under cold stress to protect developing pollen. This ‘on-demand’ resilience mechanism could enable the development of ‘climate smart’ crops that maintain high yields in good years and food security under climate stress.

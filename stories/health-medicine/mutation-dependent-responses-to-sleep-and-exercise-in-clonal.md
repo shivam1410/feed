@@ -8,7 +8,7 @@ date: "2026-06-10"
 score: 70
 guid: "10.1038/s41586-026-10634-0"
 image: ""
-generated: "2026-06-11T19:06:09+05:30"
+generated: "2026-06-13T19:05:08+05:30"
 ---
 
 Sleep and exercise can slow clonal haematopoiesis and limit mutant cell-driven atherosclerosis.

@@ -5,10 +5,10 @@ source: "Simon Willison"
 url: "https://simonwillison.net/2026/Jun/2/pasted-file-editor/#atom-everything"
 authors: []
 date: "2026-06-02T04:13:36+00:00"
-score: 10
+score: 5
 guid: "https://simonwillison.net/2026/Jun/2/pasted-file-editor/#atom-everything"
 image: ""
-generated: "2026-06-06T01:41:01+05:30"
+generated: "2026-06-13T19:05:08+05:30"
 ---
 
-Pasted File Editor is a prototype tool replicating Claude.ai's automatic conversion of large text pastes into file attachments. When users paste substantial volumes of text, the tool detects this and transforms the content into a file object rather than cluttering the conversation. Additional features include direct file opening with image thumbnails, drag-and-drop file upload, and file browsing capabilities. Built as a Claude Code prototype using Codex desktop, the tool addresses practical usability challenges: distinguishing whether pasted content represents conversation input or file data requiring storage.
+Tool: Pasted File Editor I really like how you can paste a large volume of text into claude.ai (or the Claude desktop/mobile apps) and it will detect it as a large paste and turn it into a file attachment instead. I decided to have Codex desktop build me a version of that as a prototype. You can also open files directly - including images which will be shown as thumbnails - or drag files onto the textarea. Tags: javascript , tools , ai-assisted-programming , claude , codex

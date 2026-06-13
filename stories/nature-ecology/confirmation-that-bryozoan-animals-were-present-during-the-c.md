@@ -8,7 +8,7 @@ date: "2026-06-10"
 score: 70
 guid: "10.1038/d41586-026-01753-9"
 image: ""
-generated: "2026-06-11T19:06:09+05:30"
+generated: "2026-06-13T19:05:08+05:30"
 ---
 
-Newly discovered fossils from the Cambrian period, around 538 million years ago, reveal that bryozoans—marine invertebrates forming colonies where individuals live in connected structures—had already diversified during this time. Previously, bryozoans were thought absent from the Cambrian explosion, the rapid evolutionary diversification of major animal phyla. These fossils show bryozoans were actually present in this foundational event of animal evolution. This matters because it extends understanding of early animal evolution and the diversity of organisms present during the Cambrian explosion. Including bryozoans in the Cambrian fauna provides a more complete picture of early animal history and suggests other organisms thought absent may also be discovered.
+Bryozoans are marine invertebrates that live in colonies and have long been considered absent from the Cambrian explosion — a rapid evolutionary event that began around 538 million years ago. Newly discovered fossils from the Cambrian period reveal that the bryozoan phylum had already diversified by this time.

@@ -8,7 +8,7 @@ date: "2026-06-10"
 score: 70
 guid: "10.1038/d41586-026-01796-y"
 image: ""
-generated: "2026-06-11T19:06:09+05:30"
+generated: "2026-06-13T19:05:08+05:30"
 ---
 
 Modelling with artificial-intelligence tools has filled gaps in migration data, revealing detailed global population movements from 1990 to 2023.

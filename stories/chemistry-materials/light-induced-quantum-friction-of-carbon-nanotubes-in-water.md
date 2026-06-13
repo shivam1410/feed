@@ -8,7 +8,7 @@ date: "2026-06-10"
 score: 75
 guid: "10.1038/s41586-026-10632-2"
 image: ""
-generated: "2026-06-11T19:06:09+05:30"
+generated: "2026-06-13T19:05:08+05:30"
 ---
 
-Near-infrared fluorescent carbon nanotubes suspended in water exhibit light-induced quantum friction—a phenomenon where exciton interactions slow nanoscale motion. Upon near-infrared illumination, electronically excited states (excitons) form within nanotubes and interact with surrounding water molecules, creating drag that reduces diffusion speed. This effect enables optical control of nanotube movement and local fluid dynamics. The discovery demonstrates how light-excited quantum states regulate nanoscale transport processes. The phenomenon has potential applications in optically controlled nanodevices, biosensing, and drug delivery systems where precise nanoscale motion control is desired.
+Near-infrared fluorescent carbon nanotubes in water exhibit light-induced quantum friction, where exciton interactions mechanically slow the nanotubes' nanoscale motion. When illuminated, these particles diffuse more slowly than normal, enabling optical control of their movement and surrounding fluid dynamics. This discovery allows remote light-based manipulation of nanoparticles, with potential applications in targeted drug delivery and sensing systems where wireless optical control is essential.

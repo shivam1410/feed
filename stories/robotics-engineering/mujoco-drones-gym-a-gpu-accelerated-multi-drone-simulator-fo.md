@@ -5,10 +5,10 @@ source: "HF Trending Papers"
 url: "https://huggingface.co/papers/2606.08039"
 authors: ["Manan Tayal"]
 date: "2026-06-05T20:00:00.000Z"
-score: 64
+score: 65
 guid: "2606.08039"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2606.08039.png"
-generated: "2026-06-13T19:05:08+05:30"
+generated: "2026-06-14T20:51:07+05:30"
 ---
 
 A Gymnasium-compatible multi-drone simulation environment built on MuJoCo physics engine that supports flexible physics models, action interfaces, and observation spaces for reinforcement learning applications.

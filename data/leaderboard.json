@@ -1,106 +1,106 @@
 {
-  "generatedAt": "2026-06-13T19:05:34+05:30",
+  "generatedAt": "2026-06-14T20:51:32+05:30",
   "source": "Hugging Face — trending models",
   "models": [
     {
       "id": "google/diffusiongemma-26B-A4B-it",
       "task": "image-text-to-text",
-      "likes": 658,
-      "downloads": 92080,
+      "likes": 752,
+      "downloads": 198912,
       "library": "transformers",
       "createdAt": "2026-06-09T12:40:12.000Z",
       "url": "https://huggingface.co/google/diffusiongemma-26B-A4B-it",
-      "summary": "Google's 26B mixture-of-experts model using discrete diffusion to generate text from text, image, and video inputs in parallel blocks."
-    },
-    {
-      "id": "nvidia/LocateAnything-3B",
-      "task": "image-text-to-text",
-      "likes": 1943,
-      "downloads": 69443,
-      "library": "transformers",
-      "createdAt": "2026-03-02T20:05:49.000Z",
-      "url": "https://huggingface.co/nvidia/LocateAnything-3B",
-      "summary": "NVIDIA vision-language model for precise visual grounding and object localization using parallel box decoding across diverse domains."
+      "summary": "Multimodal model using discrete diffusion to generate text from text, image, and video inputs with parallel decoding for faster generation."
     },
     {
       "id": "moonshotai/Kimi-K2.7-Code",
       "task": "image-text-to-text",
-      "likes": 445,
-      "downloads": 1689,
+      "likes": 584,
+      "downloads": 15145,
       "library": "transformers",
       "createdAt": "2026-06-11T07:51:47.000Z",
       "url": "https://huggingface.co/moonshotai/Kimi-K2.7-Code",
-      "summary": "Moonshot AI's 1 trillion-parameter mixture-of-experts agentic model optimized for complex coding tasks and long-horizon software engineering."
+      "summary": "Coding-focused agentic model with 1T parameters and 32B activated, improved long-horizon task completion, 30% fewer thinking tokens than predecessor."
     },
     {
       "id": "MiniMaxAI/MiniMax-M3",
       "task": "image-text-to-text",
-      "likes": 358,
-      "downloads": 1031,
+      "likes": 464,
+      "downloads": 6643,
       "library": "transformers",
       "createdAt": "2026-06-02T07:49:31.000Z",
       "url": "https://huggingface.co/MiniMaxAI/MiniMax-M3",
-      "summary": "Native multimodal model with 1M context and sparse attention, excelling in long-horizon coding and agentic tasks."
+      "summary": "Native multimodal model with 1M context length supporting text, image, video; excels in coding and agentic long-horizon tasks."
+    },
+    {
+      "id": "nvidia/LocateAnything-3B",
+      "task": "image-text-to-text",
+      "likes": 1984,
+      "downloads": 75201,
+      "library": "transformers",
+      "createdAt": "2026-03-02T20:05:49.000Z",
+      "url": "https://huggingface.co/nvidia/LocateAnything-3B",
+      "summary": "Vision-language model for fast visual grounding using parallel box decoding to locate objects, text, and UI elements in images."
     },
     {
       "id": "CohereLabs/North-Mini-Code-1.0",
       "task": "text-generation",
-      "likes": 341,
-      "downloads": 6533,
+      "likes": 366,
+      "downloads": 9932,
       "library": "transformers",
       "createdAt": "2026-06-05T02:38:01.000Z",
       "url": "https://huggingface.co/CohereLabs/North-Mini-Code-1.0",
-      "summary": "Cohere's 30B mixture-of-experts model optimized for code generation, agentic software engineering, and terminal tasks with 256K context."
+      "summary": "30B parameter model optimized for code generation, agentic software engineering, and terminal tasks with 256K context length."
     },
     {
       "id": "google/gemma-4-12B-it",
       "task": "any-to-any",
-      "likes": 985,
-      "downloads": 1005883,
+      "likes": 1004,
+      "downloads": 1084405,
       "library": "transformers",
       "createdAt": "2026-05-23T01:17:15.000Z",
       "url": "https://huggingface.co/google/gemma-4-12B-it",
-      "summary": "Google's 12B instruction-tuned multimodal model handling text, audio, image, video inputs with encoder-free architecture and 256K context."
-    },
-    {
-      "id": "bosonai/higgs-audio-v3-tts-4b",
-      "task": "text-to-speech",
-      "likes": 398,
-      "downloads": 32162,
-      "library": "transformers",
-      "createdAt": "2026-06-04T05:37:32.000Z",
-      "url": "https://huggingface.co/bosonai/higgs-audio-v3-tts-4b",
-      "summary": "Expressive text-to-speech model generating conversational speech in 100+ languages with zero-shot voice cloning and controllable prosody."
+      "summary": "Lightweight multimodal model handling text, image, audio, video inputs with encoder-free architecture and 256K context for local deployment."
     },
     {
       "id": "unsloth/diffusiongemma-26B-A4B-it-GGUF",
       "task": "image-text-to-text",
-      "likes": 230,
-      "downloads": 42885,
+      "likes": 254,
+      "downloads": 80118,
       "library": null,
       "createdAt": "2026-06-10T14:19:12.000Z",
       "url": "https://huggingface.co/unsloth/diffusiongemma-26B-A4B-it-GGUF",
-      "summary": "Quantized GGUF version of Google's DiffusionGemma multimodal model for efficient local inference on consumer hardware."
+      "summary": "Quantized version of DiffusionGemma for local inference using block-diffusion architecture with parallel box decoding."
     },
     {
       "id": "OBLITERATUS/Gemma-4-12B-OBLITERATED",
       "task": "text-generation",
-      "likes": 267,
-      "downloads": 50289,
+      "likes": 292,
+      "downloads": 60949,
       "library": "transformers",
       "createdAt": "2026-06-05T08:58:36.000Z",
       "url": "https://huggingface.co/OBLITERATUS/Gemma-4-12B-OBLITERATED",
-      "summary": "Modified Gemma 4 12B with refusal behaviors surgically removed for alignment research and safety evaluation."
+      "summary": "Gemma 4 12B variant with safety refusals surgically removed while maintaining original benchmark performance for research purposes."
     },
     {
       "id": "HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
       "task": "image-text-to-text",
-      "likes": 1743,
-      "downloads": 2411202,
+      "likes": 1785,
+      "downloads": 2516709,
       "library": null,
       "createdAt": "2026-04-17T00:15:26.000Z",
       "url": "https://huggingface.co/HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
-      "summary": "Uncensored Qwen 3.6 35B mixture-of-experts multimodal model with vision capabilities designed for unrestricted text generation."
+      "summary": "Qwen3.6 35B MoE multimodal model with safety guardrails removed, supporting text and image inputs."
+    },
+    {
+      "id": "bosonai/higgs-audio-v3-tts-4b",
+      "task": "text-to-speech",
+      "likes": 422,
+      "downloads": 35122,
+      "library": "transformers",
+      "createdAt": "2026-06-04T05:37:32.000Z",
+      "url": "https://huggingface.co/bosonai/higgs-audio-v3-tts-4b",
+      "summary": "TTS model generating expressive conversational speech in 100+ languages with zero-shot voice cloning and controllable emotion and style."
     }
   ]
 }

@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/d41586-026-01858-1"
 authors: ["Michael Eisenstein"]
 date: "2026-06-12"
-score: 75
+score: 65
 guid: "10.1038/d41586-026-01858-1"
 image: ""
-generated: "2026-06-13T19:05:08+05:30"
+generated: "2026-06-14T20:51:07+05:30"
 ---
 
-Two research teams have independently developed laser phase plate systems for cryo-electron microscopy. The technology enables researchers to generate high-quality protein structures across a broad range of protein types. This advance, after years of development effort, addresses a key bottleneck in structural biology research.
+After years of effort, two research teams have developed ‘laser phase plate’ systems that could help cryo-electron-microscopy users to generate high-quality structures for a broad range of proteins.

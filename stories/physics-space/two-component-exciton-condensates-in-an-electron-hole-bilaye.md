@@ -8,7 +8,7 @@ date: "2026-06-10"
 score: 80
 guid: "10.1038/s41586-026-10636-y"
 image: ""
-generated: "2026-06-13T19:05:08+05:30"
+generated: "2026-06-14T20:51:07+05:30"
 ---
 
-Macroscopic quantum coherence has been achieved in exciton Bose-Einstein condensates within layered MoSe2/hBN/WSe2 bilayers. The system exhibits distinct spin-valley-polarized phases and quantum phase transitions under magnetic fields, with stable condensate behavior up to approximately 1.8 Kelvin. This demonstrates controllable quantum collective phenomena in artificial layered materials.
+Researchers observed macroscopic quantum coherence in two-component exciton Bose-Einstein condensates within electron-hole bilayer heterostructures made from molybdenum diselenide, hexagonal boron nitride, and tungsten diselenide. The condensates exhibited distinct spin-valley polarized phases and underwent quantum phase transitions under applied magnetic fields. Importantly, the quantum condensates remained stable up to approximately 1.8 Kelvin, demonstrating controlled quantum behavior in solid-state materials and advancing understanding of condensed matter systems.

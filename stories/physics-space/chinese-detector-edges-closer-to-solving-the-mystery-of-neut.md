@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/d41586-026-01851-8"
 authors: ["Davide Castelvecchi"]
 date: "2026-06-10"
-score: 80
+score: 75
 guid: "10.1038/d41586-026-01851-8"
 image: ""
-generated: "2026-06-13T19:05:08+05:30"
+generated: "2026-06-14T20:51:07+05:30"
 ---
 
-The JUNO facility aims to determine which neutrino type has the highest mass, a fundamental question in particle physics that has eluded researchers despite knowing neutrinos possess mass. Solving it could illuminate the universe's particle symmetries and matter-antimatter asymmetry.
+The JUNO facility in China is advancing efforts to solve one of particle physics' enduring mysteries: determining the mass hierarchy of neutrinos. Physicists hope that JUNO's sensitivity and precision will reveal which type of neutrino is heaviest. Resolving this question is fundamental to understanding neutrino physics and may provide insights into matter-antimatter asymmetry. The detector's design and location make it uniquely positioned for achieving this goal, representing a major contribution to international neutrino research.

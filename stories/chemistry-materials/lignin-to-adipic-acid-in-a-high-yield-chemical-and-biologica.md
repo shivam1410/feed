@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/s41586-026-10580-x"
 authors: ["Kathryn M. Mains", "Chad T. Palumbo", "Davide Rigo", "Matthew S. Webber", "Gloria Rosetto", "Si Tong Bao", "Austin L. Carroll", "Nicolette R. Meyer", "Alexander F. Benson", "Brett A. Boyle", "Stefan J. Haugen", "Morgan A. Ingraham", "William G. Alexander", "Miriam Silberman", "Logan C. Myers", "Kelsey J. Ramirez", "Kevin P. Sullivan", "Adam M. Guss", "Davinia Salvachúa", "Yuriy Román-Leshkov", "Shannon S. Stahl", "Allison Z. Werner", "Gregg T. Beckham"]
 date: "2026-06-10"
-score: 75
+score: 70
 guid: "10.1038/s41586-026-10580-x"
 image: ""
-generated: "2026-06-13T19:05:08+05:30"
+generated: "2026-06-14T20:51:07+05:30"
 ---
 
-A chemical and biological redox process that resembles processes in petrochemical refining is used to convert lignin from poplar into a single, valuable bioproduct, adipic acid, in high yields.
+Researchers developed an integrated chemical and biological redox process that converts lignin, a plant polymer byproduct from wood processing, into adipic acid, a widely used industrial chemical. The process mimics industrial petrochemical refinery approaches and achieves high yields. This breakthrough offers a sustainable pathway to manufacture adipic acid from renewable plant waste rather than petroleum-based fossil fuels, simultaneously adding economic value to agricultural residues while reducing fossil fuel consumption.

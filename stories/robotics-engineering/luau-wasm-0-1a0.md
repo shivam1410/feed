@@ -1,0 +1,14 @@
+---
+title: "luau-wasm 0.1a0"
+category: "Robotics & Engineering"
+source: "Simon Willison"
+url: "https://simonwillison.net/2026/Jun/13/luau-wasm/#atom-everything"
+authors: []
+date: "2026-06-13T23:14:30+00:00"
+score: 50
+guid: "https://simonwillison.net/2026/Jun/13/luau-wasm/#atom-everything"
+image: ""
+generated: "2026-06-14T20:51:07+05:30"
+---
+
+Release: luau-wasm 0.1a0 See Publishing WASM wheels to PyPI for use with Pyodide for details. Tags: lua , webassembly , pyodide

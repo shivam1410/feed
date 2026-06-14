@@ -8,7 +8,7 @@ date: "2026-06-10"
 score: 75
 guid: "10.1038/s41586-026-10640-2"
 image: ""
-generated: "2026-06-13T19:05:08+05:30"
+generated: "2026-06-14T20:51:07+05:30"
 ---
 
-Structural analysis of the AGO maturation complex reveals how molecular chaperone proteins and RNA duplexes cooperate to assemble the RNA-induced silencing complex (RISC). Understanding these assembly mechanisms illuminates the molecular basis of RNA interference, a fundamental gene-silencing pathway essential for post-transcriptional gene regulation.
+Researchers determined the structural basis for maturation of the RNA-induced silencing complex (RISC), a fundamental gene silencing mechanism. Structures reveal how chaperone proteins and RNA duplexes work in concert to drive assembly. Understanding RISC maturation at atomic resolution provides mechanistic insight into a cellular pathway essential for gene regulation and viral defense, potentially enabling optimization of RISC-based therapeutic applications.

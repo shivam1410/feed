@@ -5,10 +5,10 @@ source: "HF Trending Papers"
 url: "https://huggingface.co/papers/2606.12385"
 authors: ["Sanjay Adhikesaven", "Haoxiang Sun", "Sewon Min"]
 date: "2026-06-09T20:00:00.000Z"
-score: 71
+score: 70
 guid: "2606.12385"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2606.12385.png"
-generated: "2026-06-13T19:05:08+05:30"
+generated: "2026-06-14T20:51:07+05:30"
 ---
 
-ModSleuth reconstructs large-scale dependency graphs for LLM development by analyzing public artifacts and resolving documentation inconsistencies. Because LLM development chains are often opaque, understanding foundational models and data sources improves transparency and accountability, helping assess potential biases in development lineages.
+ModSleuth is an agentic system designed to transparently reveal the hidden foundations of modern large language models. It reconstructs large-scale dependency graphs by systematically analyzing public artifacts and resolving inconsistencies between documentation claims and actual artifact identities. This comprehensive auditing approach identifies what researchers call invisible dependencies—the specific models, datasets, and training data inputs used in LLM development that remain unrevealed in public documentation. Understanding these dependency chains is crucial for supply chain security, scientific reproducibility, and accountability in artificial intelligence development. ModSleuth automates investigation that would otherwise require extensive manual research across fragmented and sometimes contradictory sources in the AI ecosystem.

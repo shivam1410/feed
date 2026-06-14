@@ -5,10 +5,10 @@ source: "HF Trending Papers"
 url: "https://huggingface.co/papers/2606.13174"
 authors: ["Yujun Zhou", "Kehan Guo", "Haomin Zhuang", "Xiangqi Wang", "Yue Huang", "Zhenwen Liang", "Pin-Yu Chen", "Tian Gao", "Nuno Moniz", "Nitesh V. Chawla", "Xiangliang Zhang"]
 date: "2026-06-10T20:00:00.000Z"
-score: 67
+score: 65
 guid: "2606.13174"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2606.13174.png"
-generated: "2026-06-13T19:05:08+05:30"
+generated: "2026-06-14T20:51:07+05:30"
 ---
 
 TRACE is a skill-layer pipeline that mines user corrections to create runtime checks, significantly reducing preference violations in interactive LLM agents.

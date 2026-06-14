@@ -8,7 +8,7 @@ date: "2026-06-10"
 score: 80
 guid: "10.1038/s41586-026-10538-z"
 image: ""
-generated: "2026-06-13T19:05:08+05:30"
+generated: "2026-06-14T20:51:07+05:30"
 ---
 
-The Jiangmen Underground Neutrino Observatory's first data reveals high-precision measurements of neutrino oscillation parameters, surpassing previous experimental results. Crucially, JUNO can now determine the neutrino mass hierarchy—whether electron-type or tau-type neutrinos are the heaviest—one of fundamental physics' deepest unsolved questions. This breakthrough advances understanding of neutrino properties and their role in the universe's matter-antimatter asymmetry and large-scale structure.
+The Jiangmen Underground Neutrino Observatory (JUNO) released its first data, delivering high-precision measurements of neutrino oscillation parameters and substantially improving previous results. These measurements demonstrate the facility's readiness to determine neutrino mass ordering, a fundamental open question in particle physics. Neutrino oscillation describes how neutrinos change types as they travel. Mass ordering refers to the sequence of neutrino masses, currently unknown. JUNO's high-precision measurements represent a crucial advancement in understanding neutrino physics and provide the foundation for determining which neutrino type is heaviest—a key question that physicists have pursued for decades.

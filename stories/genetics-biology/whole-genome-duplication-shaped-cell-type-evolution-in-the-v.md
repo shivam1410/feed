@@ -8,7 +8,7 @@ date: "2026-06-10"
 score: 75
 guid: "10.1038/s41586-026-10629-x"
 image: ""
-generated: "2026-06-13T19:05:08+05:30"
+generated: "2026-06-14T20:51:07+05:30"
 ---
 
-Single-cell transcriptome analysis across five species—human, mouse, lizard, lamprey, and amphioxus—reveals that duplicated genes called ohnologues drove early vertebrate neural cell-type diversification. This gene duplication event explains how vertebrates achieved complex brain cell types compared to invertebrate ancestors.
+Analysis of brain cell transcriptomes from humans, mice, lizards, lampreys, and amphioxus reveals that whole-genome duplication events early in vertebrate evolution drove emergence of diverse cell types within vertebrate brains. Duplicated genes, called ohnologues, played a pivotal role in cell-type diversification. These findings suggest evolutionary gene duplication has been central to increasing neuronal complexity in vertebrates, explaining why vertebrate brains contain far more cell-type diversity than invertebrate nervous systems.

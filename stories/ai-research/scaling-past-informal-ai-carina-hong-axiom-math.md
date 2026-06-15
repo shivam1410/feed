@@ -8,7 +8,7 @@ date: "Wed, 03 Jun 2026 19:27:49 GMT"
 score: 85
 guid: "https://www.latent.space/p/axiom"
 image: ""
-generated: "2026-06-13T19:05:08+05:30"
+generated: "2026-06-15T19:06:44+05:30"
 ---
 
-Axiom Math, a seven-month-old startup, solved Putnam competition problems, scoring 8/12 within the time limit and 12/12 overall. These results exceed top undergraduate performers (110/120) and the closest prior AI result (DeepSeek 103/120), though with more time available. The Putnam exam is extraordinarily difficult, with median scores of 0–1 points. However, Axiom CEO Carina Hong argues that coding ability alone, while necessary for AGI progress, is insufficient. She identifies the "informal bottleneck" as a remaining challenge where AI exhibits surprising gaps despite superhuman coding performance. This highlights that mathematical reasoning success doesn't guarantee broader intelligence advancement.
+Axiom's math AI achieved a breakthrough by solving all 12 problems on the Putnam exam in 2025, scoring 8 out of 12 within the competition time limit. This exceeds typical undergraduate performance and outpaces prior AI results. Yet CEO Carina Hong argues that coding capability, while necessary, is insufficient for AGI progress. She identifies a critical next frontier: "Verified AI"—the ability to generate formal mathematical proofs and rigorous verification rather than heuristic code. The Putnam median score is typically 0–1 point; scoring 8 represents a genuine milestone. This matters because it suggests AGI advancement may require moving beyond empirical coding success toward formal mathematical reasoning and certainty, a fundamentally different challenge.

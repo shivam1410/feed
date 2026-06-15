@@ -5,10 +5,10 @@ source: "Latent Space"
 url: "https://www.latent.space/p/ainews-nvidia-cosmos-3-nemotron-3"
 authors: []
 date: "Tue, 02 Jun 2026 03:28:10 GMT"
-score: 80
+score: 85
 guid: "https://www.latent.space/p/ainews-nvidia-cosmos-3-nemotron-3"
 image: ""
-generated: "2026-06-13T19:05:08+05:30"
+generated: "2026-06-15T19:06:44+05:30"
 ---
 
-NVIDIA unveiled Cosmos 3, an open-source foundation model family unifying language, image, video, audio, and action prediction using a Mixture-of-Transformers architecture. The system pairs an autoregressive reasoner with a diffusion generator in Nano (16B) and Super (64B) variants, with specialized versions for Text-to-Image and Image-to-Video that rank as new state-of-the-art open-weight models. NVIDIA also released Nemotron 3 Ultra, a 550B open-weight language model achieving new U.S. state-of-the-art performance, and previewed the RTX Spark superchip. These releases advance open physical AI capabilities and democratize frontier multimodal models for researchers and developers.
+NVIDIA announced three major open-source releases: Cosmos 3 (omnimodal world models in Nano 16B and Super 64B variants), Nemotron 3 Ultra (a 550B open-weight LLM), and the RTX Spark personal supercomputer. Cosmos 3 unifies language, image, video, audio, and action within a Mixture-of-Transformers architecture pairing autoregressive reasoning with diffusion generation. The smaller Nano model sets new SOTA for open-weight image and video generation. Nemotron 3 Ultra achieves US SOTA for open-weight LLMs. This matters because releasing multimodal and language models as open-source reduces dependency on proprietary systems, democratizes physical AI development access, and enables rapid community-driven innovation in world modeling and embodied AI.

@@ -5,10 +5,10 @@ source: "HF Trending Papers"
 url: "https://huggingface.co/papers/2606.08103"
 authors: ["Xiaoqian Wu", "Yejie Guo", "Xiaoyang Chen", "Lixin Yang", "Cewu Lu", "Yong-Lu Li"]
 date: "2026-06-05T20:00:00.000Z"
-score: 75
+score: 82
 guid: "2606.08103"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2606.08103.png"
-generated: "2026-06-14T20:51:07+05:30"
+generated: "2026-06-15T19:06:44+05:30"
 ---
 
-Geometric Primary Structure (GPS) enables efficient robot learning by providing a new representation for perceiving articulated parts like joints and hinges. The approach enables fast data collection through VR annotation rather than expensive real-world labeling. Robots trained with GPS achieve high manipulation success rates without task-specific fine-tuning. This matters because robot learning has historically required massive datasets and fine-tuning; GPS reduces both bottlenecks. The research demonstrates that better geometric abstractions can make robot learning faster and far more sample-efficient.
+This work introduces Geometric Primary Structure (GPS), a novel geometric representation for understanding articulated objects with parts that move relative to each other. The system enables efficient data collection through virtual reality annotation, reducing annotation burden typically required for robot manipulation tasks. Robots achieve high manipulation success rates without fine-tuning to specific objects, suggesting the representation captures generalizable geometric principles. This addresses a major challenge in robot learning: efficiently collecting diverse training data. The geometric approach transfers across objects, valuable for scaling robot manipulation to diverse household and industrial tasks.

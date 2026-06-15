@@ -8,7 +8,7 @@ date: "2026-06-10"
 score: 70
 guid: "10.1038/d41586-026-01832-x"
 image: ""
-generated: "2026-06-14T20:51:07+05:30"
+generated: "2026-06-15T19:06:44+05:30"
 ---
 
 Organisms called bathynomids boast a bacterial gene that helps them to regulate their metabolism in the cold depths.

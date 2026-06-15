@@ -8,7 +8,7 @@ date: "2026-06-10"
 score: 70
 guid: "10.1038/s41586-026-10580-x"
 image: ""
-generated: "2026-06-14T20:51:07+05:30"
+generated: "2026-06-15T19:06:44+05:30"
 ---
 
-Researchers developed an integrated chemical and biological redox process that converts lignin, a plant polymer byproduct from wood processing, into adipic acid, a widely used industrial chemical. The process mimics industrial petrochemical refinery approaches and achieves high yields. This breakthrough offers a sustainable pathway to manufacture adipic acid from renewable plant waste rather than petroleum-based fossil fuels, simultaneously adding economic value to agricultural residues while reducing fossil fuel consumption.
+A chemical and biological redox process that resembles processes in petrochemical refining is used to convert lignin from poplar into a single, valuable bioproduct, adipic acid, in high yields.

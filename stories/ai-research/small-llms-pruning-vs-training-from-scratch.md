@@ -1,0 +1,14 @@
+---
+title: "Small LLMs: Pruning vs. Training from Scratch"
+category: "AI Research"
+source: "arXiv (cs.LG)"
+url: "https://arxiv.org/abs/2606.14150"
+authors: ["Yufeng Xu, Taiming Lu, Kunjun Li, Jiachen Zhu, Mingjie Sun, Zhuang Liu"]
+date: "Mon, 15 Jun 2026 00:00:00 -0400"
+score: 68
+guid: "oai:arXiv.org:2606.14150v1"
+image: ""
+generated: "2026-06-15T19:06:44+05:30"
+---
+
+arXiv:2606.14150v1 Announce Type: new Abstract: Pruning promises a shortcut to strong small language models. In this work, we examine this promise by pruning Llama-3.1-8B at pruning ratios of 0.5--0.8 with six methods spanning depth, width, and sparse granularities, under two controlled token-matched settings. (1) With the same training token budget, pruned initialization consistently outperforms random initialization. This shows that the parent model provides a strong starting point, although the advantage narrows as the training token budget grows and as the pruning ratio rises, nearly vanishing at the highest pruning ratio we study. (2) When training from scratch is instead given the full token budget consumed by the whole pipeline, pruning at finer granularities still retains an advantage, while coarser structured pruning can be matched or surpassed. This suggests that the parent model transfers knowledge that additional training tokens alone cannot fully recover, but only at fine granularity. Taken together, our results yield a clear recommendation: with a large pretrained model in hand and a limited training token budget, pruning is better than training from scratch; when the training budget is not limited, training from scratch can be competitive for coarser pruning, so a large pretrained parent is not always necessary.

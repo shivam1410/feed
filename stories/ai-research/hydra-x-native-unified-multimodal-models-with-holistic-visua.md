@@ -5,10 +5,10 @@ source: "HF Trending Papers"
 url: "https://huggingface.co/papers/2606.13289"
 authors: ["Guozhen Zhang", "Xuerui Qiu", "Yutao Cui", "Tianhui Song", "Changlin Li", "Junzhe Li", "Tao Huang", "Xiao Zhang", "Yang Li", "Jianbing Wu", "Miles Yang", "Zhao Zhong", "Liefeng Bo", "Limin Wang"]
 date: "2026-06-10T20:00:00.000Z"
-score: 75
+score: 82
 guid: "2606.13289"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2606.13289.png"
-generated: "2026-06-14T20:51:07+05:30"
+generated: "2026-06-15T19:06:44+05:30"
 ---
 
-HYDRA-X presents a unified multimodal architecture that processes both images and videos using a single Vision Transformer with integrated tokenization. Using causal temporal attention and hierarchical compression, the system preserves spatial and temporal structure while maintaining semantic awareness. This unified approach reduces parameter overhead compared to separate image and video systems. The significance lies in efficiency and seamless reasoning across modalities without duplication. The work points toward simpler, more efficient multimodal AI systems that handle diverse input types in a single architecture.
+HYDRA-X presents a unified multimodal model that processes both images and videos within a single Vision Transformer architecture using integrated tokenizers. The model employs causal temporal attention to understand video sequences while hierarchical compression balances computational efficiency with semantic richness. Rather than separate image and video processing pipelines, a single model handles both modalities, simplifying architecture and enabling cross-modal transfer learning. The integrated approach improves spatiotemporal understanding—critical for video analysis—while maintaining computational efficiency compared to separate systems.

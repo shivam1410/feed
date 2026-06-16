@@ -1,106 +1,106 @@
 {
-  "generatedAt": "2026-06-15T19:07:12+05:30",
+  "generatedAt": "2026-06-16T19:05:44+05:30",
   "source": "Hugging Face — trending models",
   "models": [
     {
+      "id": "yuxinlu1/gemma-4-12B-coder-fable5-composer2.5-v1-GGUF",
+      "task": "text-generation",
+      "likes": 950,
+      "downloads": 60921,
+      "library": "gguf",
+      "createdAt": "2026-06-10T07:24:02.000Z",
+      "url": "https://huggingface.co/yuxinlu1/gemma-4-12B-coder-fable5-composer2.5-v1-GGUF",
+      "summary": "Local 12B coding model using GGUF format with chain-of-thought reasoning for Python and software engineering tasks."
+    },
+    {
       "id": "google/diffusiongemma-26B-A4B-it",
       "task": "image-text-to-text",
-      "likes": 839,
-      "downloads": 311788,
+      "likes": 923,
+      "downloads": 375974,
       "library": "transformers",
       "createdAt": "2026-06-09T12:40:12.000Z",
       "url": "https://huggingface.co/google/diffusiongemma-26B-A4B-it",
-      "summary": "Google's 26B MoE model using discrete diffusion to generate text from multimodal inputs with parallel block decoding."
-    },
-    {
-      "id": "moonshotai/Kimi-K2.7-Code",
-      "task": "image-text-to-text",
-      "likes": 702,
-      "downloads": 56750,
-      "library": "transformers",
-      "createdAt": "2026-06-11T07:51:47.000Z",
-      "url": "https://huggingface.co/moonshotai/Kimi-K2.7-Code",
-      "summary": "Moonshot's 1T MoE coding model with 32B active parameters, designed for long-horizon software engineering tasks."
+      "summary": "Google's 26B MoE model using discrete diffusion for parallel text generation with multimodal input support."
     },
     {
       "id": "MiniMaxAI/MiniMax-M3",
       "task": "image-text-to-text",
-      "likes": 703,
-      "downloads": 14312,
+      "likes": 983,
+      "downloads": 25064,
       "library": "transformers",
       "createdAt": "2026-06-02T07:49:31.000Z",
       "url": "https://huggingface.co/MiniMaxAI/MiniMax-M3",
-      "summary": "MiniMax's 428B native multimodal model with 1M context window, optimized for coding and long-horizon agentic tasks."
+      "summary": "428B parameter MoE model with 1M context supporting native multimodal input with strong agentic coding capabilities."
+    },
+    {
+      "id": "moonshotai/Kimi-K2.7-Code",
+      "task": "image-text-to-text",
+      "likes": 774,
+      "downloads": 102206,
+      "library": "transformers",
+      "createdAt": "2026-06-11T07:51:47.000Z",
+      "url": "https://huggingface.co/moonshotai/Kimi-K2.7-Code",
+      "summary": "1T parameter MoE coding model with 256K context optimizing real-world agentic software engineering with reduced reasoning overhead."
     },
     {
       "id": "nvidia/LocateAnything-3B",
       "task": "image-text-to-text",
-      "likes": 2035,
-      "downloads": 86968,
+      "likes": 2079,
+      "downloads": 98698,
       "library": "transformers",
       "createdAt": "2026-03-02T20:05:49.000Z",
       "url": "https://huggingface.co/nvidia/LocateAnything-3B",
-      "summary": "NVIDIA's 3B vision-language model for fast, precise object grounding and visual localization using parallel box decoding."
+      "summary": "NVIDIA's vision-language grounding model for object localization and detection using parallel box decoding for faster inference."
     },
     {
       "id": "CohereLabs/North-Mini-Code-1.0",
       "task": "text-generation",
-      "likes": 376,
-      "downloads": 11145,
+      "likes": 404,
+      "downloads": 12129,
       "library": "transformers",
       "createdAt": "2026-06-05T02:38:01.000Z",
       "url": "https://huggingface.co/CohereLabs/North-Mini-Code-1.0",
-      "summary": "Cohere's 30B MoE model with 3B active parameters, designed for code generation and agentic software engineering."
-    },
-    {
-      "id": "yuxinlu1/gemma-4-12B-coder-fable5-composer2.5-v1-GGUF",
-      "task": "text-generation",
-      "likes": 311,
-      "downloads": 20207,
-      "library": "gguf",
-      "createdAt": "2026-06-10T07:24:02.000Z",
-      "url": "https://huggingface.co/yuxinlu1/gemma-4-12B-coder-fable5-composer2.5-v1-GGUF",
-      "summary": "Quantized Gemma 4 12B fine-tuned for Python coding with chain-of-thought reasoning leading to verifiable solutions."
+      "summary": "Cohere's 30B MoE model with 3B active parameters and 256K context optimized for code generation and agents."
     },
     {
       "id": "prefeitura-rio/Rio-3.5-Open-397B",
       "task": "image-text-to-text",
-      "likes": 293,
-      "downloads": 188723,
+      "likes": 308,
+      "downloads": 189744,
       "library": "transformers",
       "createdAt": "2026-06-11T03:04:32.000Z",
       "url": "https://huggingface.co/prefeitura-rio/Rio-3.5-Open-397B",
-      "summary": "Brazilian-tuned Qwen 3.5 397B MoE model merged and distilled, supporting Portuguese and English conversations."
+      "summary": "397B parameter MoE model merging Nex-N2-Pro and Qwen3.5 with on-policy distillation for multimodal understanding."
     },
     {
       "id": "unsloth/diffusiongemma-26B-A4B-it-GGUF",
       "task": "image-text-to-text",
-      "likes": 269,
-      "downloads": 107243,
+      "likes": 281,
+      "downloads": 120435,
       "library": null,
       "createdAt": "2026-06-10T14:19:12.000Z",
       "url": "https://huggingface.co/unsloth/diffusiongemma-26B-A4B-it-GGUF",
-      "summary": "Quantized GGUF version of Google's DiffusionGemma 26B for local inference via llama.cpp with discrete diffusion."
+      "summary": "GGUF-quantized DiffusionGemma with discrete diffusion requiring specialized llama.cpp build for block-based text generation."
+    },
+    {
+      "id": "HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
+      "task": "image-text-to-text",
+      "likes": 1871,
+      "downloads": 2716651,
+      "library": null,
+      "createdAt": "2026-04-17T00:15:26.000Z",
+      "url": "https://huggingface.co/HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
+      "summary": "Uncensored Qwen3.6 35B MoE variant with full multimodal capabilities and unrestricted output generation."
     },
     {
       "id": "google/gemma-4-12B-it",
       "task": "any-to-any",
-      "likes": 1019,
-      "downloads": 1160435,
+      "likes": 1045,
+      "downloads": 1223383,
       "library": "transformers",
       "createdAt": "2026-05-23T01:17:15.000Z",
       "url": "https://huggingface.co/google/gemma-4-12B-it",
-      "summary": "Google's 12B unified multimodal model with native audio and vision understanding for local device deployment."
-    },
-    {
-      "id": "OBLITERATUS/Gemma-4-12B-OBLITERATED",
-      "task": "text-generation",
-      "likes": 314,
-      "downloads": 70732,
-      "library": "transformers",
-      "createdAt": "2026-06-05T08:58:36.000Z",
-      "url": "https://huggingface.co/OBLITERATUS/Gemma-4-12B-OBLITERATED",
-      "summary": "Gemma 4 12B modified via weight surgery for alignment research with safety guardrails removed for study."
+      "summary": "Google's 12B unified multimodal model with encoder-free architecture handling text, audio, image, and video locally."
     }
   ]
 }

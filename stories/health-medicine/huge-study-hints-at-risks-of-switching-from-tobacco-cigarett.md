@@ -8,7 +8,7 @@ date: "2026-06-14"
 score: 70
 guid: "10.1038/d41586-026-01834-9"
 image: ""
-generated: "2026-06-15T19:06:44+05:30"
+generated: "2026-06-16T19:05:16+05:30"
 ---
 
-Lung cancer risk was higher in people who took up electronic cigarettes than in those who quit smoking completely.
+A large epidemiological study reveals that people who switched from conventional cigarettes to electronic cigarettes had higher lung cancer risk than those who quit smoking completely. The finding challenges public assumptions about e-cigarettes as a uniformly safer alternative to smoking, at least regarding respiratory cancer outcomes. While vaping may reduce exposure to some smoking-related toxins, the research demonstrates it does not eliminate cancer risk and may carry distinct hazards. Complete smoking cessation remains the gold standard for cancer risk reduction, whereas switching to vaping without full cessation may not provide equivalent protection. These findings inform tobacco harm reduction strategies and consumer education.

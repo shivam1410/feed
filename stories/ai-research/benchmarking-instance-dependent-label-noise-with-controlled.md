@@ -1,0 +1,14 @@
+---
+title: "Benchmarking Instance-Dependent Label Noise with Controlled Corruptions"
+category: "AI Research"
+source: "arXiv (cs.LG)"
+url: "https://arxiv.org/abs/2606.14965"
+authors: ["Shadman Islam, Agustinus Kristiadi, Mostafa Milani"]
+date: "Tue, 16 Jun 2026 00:00:00 -0400"
+score: 55
+guid: "oai:arXiv.org:2606.14965v1"
+image: ""
+generated: "2026-06-16T19:05:16+05:30"
+---
+
+arXiv:2606.14965v1 Announce Type: new Abstract: Synthetic instance-dependent label noise (IDN) benchmarks are widely used to evaluate noisy-label learning methods, yet existing approaches typically generate noise through imperfect annotators or classifier raters, leaving the source of ambiguity implicit. We introduce CILN, a benchmark generation framework that creates IDN through controlled input corruptions. A diverse voter pool labels corrupted instances, producing benchmark datasets in which both the source and severity of ambiguity are explicit and controllable. Using CIFAR10, MNIST, and Adult, we construct 90 benchmark settings spanning multiple corruption families and severity levels. Our experiments show that the resulting benchmarks exhibit genuine instance-dependent noise, provide diverse confusion structures, and, on CIFAR-10, can produce label distributions that are closer to human uncertainty than an existing synthetic IDN benchmark. We further demonstrate that corruption-mediated IDN can expose failure modes of popular noisy-label learning methods, including Co-Teaching and DivideMix, that are not observed under comparable levels of rater-fallibility noise. These findings suggest that noise structure, not only noise rate, plays an important role in benchmark difficulty and algorithm behavior. By making ambiguity generation explicit and controllable, CILN provides a complementary benchmarking framework for studying noisy-label learning under diverse sources of instance difficulty.

@@ -1,0 +1,14 @@
+---
+title: "Can Neural Networks Achieve Optimal Computational-statistical Tradeoff? An Analysis on Single-Index Model"
+category: "AI Research"
+source: "arXiv (cs.LG)"
+url: "https://arxiv.org/abs/2606.15219"
+authors: ["Siyu Chen, Beining Wu, Miao Lu, Zhuoran Yang, Tianhao Wang"]
+date: "Tue, 16 Jun 2026 00:00:00 -0400"
+score: 70
+guid: "oai:arXiv.org:2606.15219v1"
+image: ""
+generated: "2026-06-16T19:05:16+05:30"
+---
+
+arXiv:2606.15219v1 Announce Type: new Abstract: In this work, we tackle the following question: Can neural networks trained with gradient-based methods achieve the optimal computational-statistical tradeoff in learning Gaussian single-index models? Prior research has shown that any polynomial-time algorithm under the statistical query (SQ) framework requires $\Omega(d^{s^\star/2}\lor d)$ samples, where $s^\star$ is the generative exponent representing the intrinsic difficulty of learning the underlying model. However, it remains unknown whether neural networks can achieve this sample complexity. Inspired by prior techniques such as label transformation and landscape smoothing for learning single-index models, we propose a unified gradient-based algorithm for training a two-layer neural network in polynomial time. Our method is adaptable to a variety of loss and activation functions, covering a broad class of existing approaches. We show that our algorithm learns a feature representation that strongly aligns with the unknown signal $\theta^\star$, with sample complexity $\widetilde{O} (d^{s^\star/2} \lor d)$, matching the SQ lower bound up to a polylogarithmic factor for all generative exponents $s^\star\geq 1$. Furthermore, we extend our approach to the setting where $\theta^\star$ is $k$-sparse for $k = o(\sqrt{d})$ by introducing a novel weight perturbation technique that leverages the sparsity structure. We derive a corresponding SQ lower bound of order $\widetilde{\Omega}(k^{s^\star})$, matched by our method up to a polylogarithmic factor. Our framework, especially the weight perturbation technique, is of independent interest, and suggests potential gradient-based solutions to other problems such as sparse tensor PCA.

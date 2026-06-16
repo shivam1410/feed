@@ -8,7 +8,7 @@ date: "2026-06-10"
 score: 70
 guid: "10.1038/s41586-026-10632-2"
 image: ""
-generated: "2026-06-15T19:06:44+05:30"
+generated: "2026-06-16T19:05:16+05:30"
 ---
 
 Near-infrared fluorescent carbon nanotubes exhibit light-induced quantum friction in water, in which exciton interactions slow nanoscale motion and enable optical control of diffusion and fluid dynamics.

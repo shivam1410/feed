@@ -8,7 +8,7 @@ date: "2026-06-10"
 score: 75
 guid: "10.1038/s41586-026-10645-x"
 image: ""
-generated: "2026-06-15T19:06:44+05:30"
+generated: "2026-06-16T19:05:16+05:30"
 ---
 
-SIRT7 safeguards X-chromosome integrity and dosage balance with autosomes.
+The protein SIRT7 emerges as a crucial guardian of X-chromosome integrity in females. SIRT7 regulates dosage compensation—the cellular mechanism that balances expression of X-chromosome genes against genes on autosomes, ensuring females with two X chromosomes maintain proper genomic homeostasis. Without effective dosage compensation, females would experience gene imbalance and cell dysfunction. This discovery highlights how specialized cellular machines preserve genomic stability and prevent imbalances that could disrupt normal physiology. The finding has implications for understanding X-linked genetic diseases and conditions arising from dosage compensation defects.

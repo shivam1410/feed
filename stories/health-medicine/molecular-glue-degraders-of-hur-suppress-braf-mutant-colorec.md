@@ -8,7 +8,7 @@ date: "2026-06-10"
 score: 75
 guid: "10.1038/s41586-026-10613-5"
 image: ""
-generated: "2026-06-15T19:06:44+05:30"
+generated: "2026-06-16T19:05:16+05:30"
 ---
 
-Molecular glue degraders of the RNA-binding protein HuR have therapeutic potential for BRAF-mutant cancers.
+Molecular glue degraders targeting the RNA-binding protein HuR show therapeutic potential for treating BRAF-mutant colorectal cancers. This mechanism disrupts a protein that may support cancer cell survival, offering a novel strategy for addressing BRAF-mutant tumors resistant to standard therapies. The approach opens a new avenue for treatment development of difficult-to-treat cancers.

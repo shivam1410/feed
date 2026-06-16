@@ -8,7 +8,7 @@ date: "2026-06-12"
 score: 70
 guid: "10.1038/d41586-026-01858-1"
 image: ""
-generated: "2026-06-15T19:06:44+05:30"
+generated: "2026-06-16T19:05:16+05:30"
 ---
 
 After years of effort, two research teams have developed ‘laser phase plate’ systems that could help cryo-electron-microscopy users to generate high-quality structures for a broad range of proteins.

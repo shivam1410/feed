@@ -5,10 +5,10 @@ source: "Simon Willison"
 url: "https://simonwillison.net/2026/Jun/10/datasette-agent/#atom-everything"
 authors: []
 date: "2026-06-10T23:57:27+00:00"
-score: 20
+score: 35
 guid: "https://simonwillison.net/2026/Jun/10/datasette-agent/#atom-everything"
 image: ""
-generated: "2026-06-13T19:05:08+05:30"
+generated: "2026-06-16T19:05:16+05:30"
 ---
 
-datasette-agent 0.2a0 introduces interactive tool capabilities and SQL saving features. Tools can now ask users yes/no, multiple-choice, or free-text questions mid-execution through a ToolContext parameter. Unanswered questions suspend the agent turn, rendering as persistent forms in the chat UI that survive server restarts. Upon answering, tools re-execute with stored answers replayed, ensuring side effects occur only after approval. A new built-in save_query tool allows agents to propose SQL saved as Datasette stored queries, requiring explicit human approval before storage. This enables safer agent-human collaboration with approval gates for dangerous operations.
+Datasette-agent 0.2a0 adds interactive mid-execution questioning and a new save_query tool. Tools declaring a context parameter receive a ToolContext object enabling context.ask_user() calls for yes/no, multiple-choice, or free-text questions. Questions suspend execution, render as forms in the chat UI, and persist to the database so conversations survive server restarts. Once answered, tools re-execute with stored answers replayed. The new save_query tool lets agents save SQL as Datasette stored queries—always requiring human approval before storage. These features enable more collaborative human-in-the-loop agent workflows.

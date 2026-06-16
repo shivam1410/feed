@@ -1,0 +1,14 @@
+---
+title: "Phase-Localized Curation Does Not Help: A Negative Result on Per-Phase Metric Selection for Demonstration Filtering"
+category: "AI Research"
+source: "arXiv (cs.LG)"
+url: "https://arxiv.org/abs/2606.15064"
+authors: ["Aarav Bedi"]
+date: "Tue, 16 Jun 2026 00:00:00 -0400"
+score: 55
+guid: "oai:arXiv.org:2606.15064v1"
+image: ""
+generated: "2026-06-16T19:05:16+05:30"
+---
+
+arXiv:2606.15064v1 Announce Type: new Abstract: Manipulation demonstrations have temporal phase structure, and a natural hypothesis is that demonstration-curation metrics should be applied within phases rather than globally. The idea is to segment each trajectory into phases, score each phase with the metric that is locally most informative, and then aggregate. This follows directly from prior work showing that a single global metric can be the best detector of a defect and yet the worst curator of the resulting policy. We test the per-phase hypothesis on three contact-rich LIBERO pick-and-place tasks with a controlled early-release structural defect, comparing phase-gated curation against the same metrics applied uniformly and against a strong single global metric. Across all three tasks and five random seeds per condition, phase-gated curation is never the best curation strategy, and it is the worst of the three on two of the three tasks (Task 1: 86.0 vs. 92.0 for global; Task 3: 22.7 vs. 48.0 for uniform). We trace the failure to a concrete mechanism. When the defect signal is concentrated in a single phase, rank-aggregating across phases dilutes that signal with uninformative scores from defect-free phases, selecting a worse demonstration subset than simply applying the defect-informative metric everywhere. We further show that the per-phase metric selection does not transfer across tasks, since no phase shares a winning metric between any two tasks, so the selection cannot be reused and must be re-derived per task from a noisy sweep. These results bound a plausible and previously untested method, and they argue that practitioners should prefer identifying a single defect-informative metric over decomposing curation by phase. We release the full pipeline, all metric implementations, and per-seed results.

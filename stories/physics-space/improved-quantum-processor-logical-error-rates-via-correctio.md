@@ -8,7 +8,7 @@ date: "2026-06-10"
 score: 80
 guid: "10.1038/s41586-026-10628-y"
 image: ""
-generated: "2026-06-15T19:06:44+05:30"
+generated: "2026-06-16T19:05:16+05:30"
 ---
 
-Quantum error-correcting codes combined with error detection improved trapped-ion quantum processor performance dramatically. Logical error rates dropped 11 to 800 times lower than physical circuit baselines depending on circuit design. This advancement suggests quantum computers can overcome fundamental noise limitations through improved error management and post-selection.
+Trapped-ion quantum processors equipped with quantum error-correcting codes combined with error detection and post-selection demonstrate improvements in logical error rates ranging from 11-fold to 800-fold compared with unencoded physical baselines. This experimental demonstration proves quantum error correction works in practice, advancing the field toward fault-tolerant quantum computing where useful computations can run longer than error accumulation would otherwise allow.

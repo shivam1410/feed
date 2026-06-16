@@ -8,7 +8,7 @@ date: "2026-06-10"
 score: 75
 guid: "10.1038/s41586-026-10636-y"
 image: ""
-generated: "2026-06-15T19:06:44+05:30"
+generated: "2026-06-16T19:05:16+05:30"
 ---
 
-Macroscopic quantum coherence arises in two-component exciton Bose–Einstein condensates within MoSe2/hBN/WSe2 electron–hole bilayers, exhibiting distinct spin–valley polarized phases, quantum phase transitions under magnetic fields and stable condensate behaviour up to approximately 1.8 K.
+Researchers created macroscopic quantum coherence in two-component exciton Bose–Einstein condensates within MoSe₂/hBN/WSe₂ electron–hole bilayers, exhibiting distinct spin–valley polarized phases and quantum phase transitions under magnetic fields. The system maintains stable condensate behavior up to approximately 1.8 K. This achievement demonstrates controlled quantum coherence in layered materials, providing insight into exotic quantum phases with potential applications in quantum technologies and fundamental condensed matter physics research.

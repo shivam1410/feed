@@ -8,7 +8,7 @@ date: "2026-06-14T20:00:00.000Z"
 score: 75
 guid: "2606.16673"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2606.16673.png"
-generated: "2026-06-16T19:05:16+05:30"
+generated: "2026-06-17T19:06:27+05:30"
 ---
 
 MMDiff transforms frozen diffusion transformers into multi-modal generative systems that produce images and perceptual modalities using lightweight decoders, achieving improved semantic segmentation through multi-timestep feature fusion and spatial aggregation.

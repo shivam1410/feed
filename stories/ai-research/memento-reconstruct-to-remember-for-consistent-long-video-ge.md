@@ -8,7 +8,7 @@ date: "2026-06-11T20:00:00.000Z"
 score: 75
 guid: "2606.14667"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2606.14667.png"
-generated: "2026-06-16T19:05:16+05:30"
+generated: "2026-06-17T19:06:27+05:30"
 ---
 
 Memento is a subject-reconstruction-guided framework that improves long-form video generation by preserving recurring subjects through memory-based reconstruction and dual-query mechanisms.

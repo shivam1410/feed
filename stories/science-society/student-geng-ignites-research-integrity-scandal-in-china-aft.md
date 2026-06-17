@@ -8,7 +8,7 @@ date: "2026-06-12"
 score: 65
 guid: "10.1038/d41586-026-01902-0"
 image: ""
-generated: "2026-06-16T19:05:16+05:30"
+generated: "2026-06-17T19:06:27+05:30"
 ---
 
 Video blogger’s viral accusations of data manipulation in Nature journals have sparked intense debate and speedy institutional investigations.

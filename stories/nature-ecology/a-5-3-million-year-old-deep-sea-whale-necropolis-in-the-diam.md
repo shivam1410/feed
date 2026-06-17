@@ -8,7 +8,7 @@ date: "2026-06-10"
 score: 80
 guid: "10.1038/s41586-026-10546-z"
 image: ""
-generated: "2026-06-16T19:05:16+05:30"
+generated: "2026-06-17T19:06:27+05:30"
 ---
 
-A 5.3-million-year-old whale necropolis in the Diamantina Zone of the southeastern Indian Ocean contains an enormous accumulation of fossilized whale remains, providing an unprecedented window into ancient marine life. Submarine dives revealed highly specialized deep-sea ecosystems that evolved to exploit whale carcasses as sustained food sources, flourishing for thousands of years on single whale falls. The extensive fossil record offers unparalleled insight into whale evolutionary history, showing how cetacean species changed across millions of years. The site illuminates how whale deaths structure abyssal ecosystems—creating oases of biodiversity in the deep ocean where megafauna death sustains entire communities.
+Researchers uncovered a monumental 5.3-million-year-old whale necropolis in the Diamantina Zone of the southeastern Indian Ocean, containing an enormous accumulation of whale remains. The site supports specialized deep-sea ecosystems and preserves an extensive fossil record providing unprecedented insights into whale evolution and deep-ocean biodiversity over millions of years.

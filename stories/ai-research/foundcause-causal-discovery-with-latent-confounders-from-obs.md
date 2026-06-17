@@ -1,0 +1,14 @@
+---
+title: "FoundCause: Causal Discovery with Latent Confounders from Observational Data"
+category: "AI Research"
+source: "arXiv (cs.LG)"
+url: "https://arxiv.org/abs/2606.17516"
+authors: ["Patrick Bl\\\"obaum, Krishnakumar Balasubramanian, Shiva Prasad Kasiviswanathan"]
+date: "Wed, 17 Jun 2026 00:00:00 -0400"
+score: 65
+guid: "oai:arXiv.org:2606.17516v1"
+image: ""
+generated: "2026-06-17T19:06:27+05:30"
+---
+
+arXiv:2606.17516v1 Announce Type: new Abstract: Causal discovery from observational data remains challenging due to the need to recover directed structure and latent confounding without interventions. We propose FoundCause, an amortized causal discovery model trained entirely on synthetic data that maps datasets directly to causal graphs in a single forward pass. By learning from large collections of simulated structural causal models, FoundCause captures transferable statistical patterns that generalize beyond individual datasets. The architecture incorporates several key inductive biases for causal discovery. It uses a permutation-invariant transformer encoder with alternating attention over samples and variables to jointly model cross-variable dependence and per-variable distributions. Pairwise statistical features derived from classical asymmetry measures are injected through statistics-conditioned attention, guiding the model toward known causal signals. A factorized decoder separates edge existence from direction, while a triangular refinement module enables reasoning over higher-order causal motifs such as chains and colliders. In addition, a dedicated confounder module based on learnable latent tokens explicitly models hidden common causes, and the model explicitly handles missing data via its masked input representation. To our knowledge, FoundCause is the first amortized causal discovery approach to explicitly model latent confounding. FoundCause outperforms 11 classical non-amortized methods (e.g., PC, GES, NOTEARS-style optimization) and 4 amortized causal discovery methods on 15 real-world datasets, achieving +9.6% improvement in $F_1$, +1.2% in AUROC, and an 18.9% reduction in structural Hamming distance relative to the strongest non-amortized methods, while performing inference in a single forward pass.

@@ -1,0 +1,14 @@
+---
+title: "Models Take Notes at Prefill: KV Cache Can Be Editable and Composable"
+category: "AI Research"
+source: "arXiv (cs.LG)"
+url: "https://arxiv.org/abs/2606.17107"
+authors: ["Bojie Li"]
+date: "Wed, 17 Jun 2026 00:00:00 -0400"
+score: 70
+guid: "oai:arXiv.org:2606.17107v1"
+image: ""
+generated: "2026-06-17T19:06:27+05:30"
+---
+
+arXiv:2606.17107v1 Announce Type: new Abstract: Prefix caching reuses prefill only across an exactly shared prefix, so one changed field invalidates the entire downstream cache. Yet overwriting the field's own key/value vectors and reusing the rest leaves the model acting on the old value. The reason, established causally across four model families: at prefill the model has already written the field-conditioned conclusion onto downstream notes; the field's own key/value drives under 1% of the decision. Read as a notebook of memoized conclusions, two capabilities follow. (1) It is editable. A salient erratum amends the notes; and with chain-of-thought, editing the field alone recovers the decision (1.00 at 8B, ~1% compute), while without CoT it is ignored. (2) It is composable. The notes are position-portable, so a precompiled skill can be RoPE-repositioned and spliced into any context, indistinguishable from full recompute (logit cosine 0.90-0.999, twelve models) at O(L) rather than O(L^2) time-to-first-token. A unified edit+compose agent stays decision-identical to recompute at up to 14.9x lower latency. The approach applies to any per-token attention KV cache, validated across scale, quantization, Mixture-of-Experts, and multimodal caches, and extends to several attention variants through small adapters. Because the erratum is append-only, it composes with production prefix caching: in an online vLLM benchmark it keeps the prefix cache-aligned (98.5% hit-rate), cutting p90 time-to-first-token by 53-398x.

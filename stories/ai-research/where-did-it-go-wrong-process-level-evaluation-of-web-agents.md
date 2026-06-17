@@ -8,7 +8,7 @@ date: "2026-04-07T20:00:00.000Z"
 score: 70
 guid: "2606.15673"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2606.15673.png"
-generated: "2026-06-16T19:05:16+05:30"
+generated: "2026-06-17T19:06:27+05:30"
 ---
 
 WebStep benchmark enables process-level analysis of web agents through semantic MDP tracking, revealing detailed performance differences and error localization that terminal success metrics miss.

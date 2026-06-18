@@ -8,7 +8,7 @@ date: "2026-06-16"
 score: 5
 guid: "10.1038/s41586-026-10770-7"
 image: ""
-generated: "2026-06-17T19:06:27+05:30"
+generated: "2026-06-18T19:07:09+05:30"
 ---
 
 Author Correction: Ontogeny and transcriptional regulation of Thetis cells

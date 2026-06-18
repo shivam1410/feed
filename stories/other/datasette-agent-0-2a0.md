@@ -5,10 +5,10 @@ source: "Simon Willison"
 url: "https://simonwillison.net/2026/Jun/10/datasette-agent/#atom-everything"
 authors: []
 date: "2026-06-10T23:57:27+00:00"
-score: 35
+score: 20
 guid: "https://simonwillison.net/2026/Jun/10/datasette-agent/#atom-everything"
 image: ""
-generated: "2026-06-16T19:05:16+05:30"
+generated: "2026-06-18T19:07:09+05:30"
 ---
 
-Datasette-agent 0.2a0 adds interactive mid-execution questioning and a new save_query tool. Tools declaring a context parameter receive a ToolContext object enabling context.ask_user() calls for yes/no, multiple-choice, or free-text questions. Questions suspend execution, render as forms in the chat UI, and persist to the database so conversations survive server restarts. Once answered, tools re-execute with stored answers replayed. The new save_query tool lets agents save SQL as Datasette stored queries—always requiring human approval before storage. These features enable more collaborative human-in-the-loop agent workflows.
+Release: datasette-agent 0.2a0 Highlights from the release notes: Tools can now ask the user questions mid-execution. Tools that declare a context parameter receive a ToolContext object, and await context.ask_user(...) can ask a yes/no, multiple-choice ( options=[...] ) or free-text ( free_text=True ) question. While a question is unanswered the agent turn suspends: the question renders as a form in the chat UI and persists to the internal database, so suspended conversations survive a server restart. Once answered, the tool re-executes from the top with stored answers replayed, so call ask_user() before performing side effects. #20 New built-in save_query tool: the agent can save SQL it has written as a Datasette stored query . Saving always requires human approval - the agent shows the full SQL plus the proposed name, database and visibility, and nothing is stored until you click Yes. #20 The ask_user() feature was enabled by the new LLM alpha I built yesterday with the help of Claude Fable 5. Tags: ai , datasette , generative-ai , llms , datasette-agent

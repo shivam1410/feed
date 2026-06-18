@@ -8,7 +8,7 @@ date: "Wed, 03 Jun 2026 19:27:49 GMT"
 score: 85
 guid: "https://www.latent.space/p/axiom"
 image: ""
-generated: "2026-06-17T19:06:27+05:30"
+generated: "2026-06-18T19:07:09+05:30"
 ---
 
-In 2025, seven-month-old startup Axiom solved all 12 Putnam exam problems within the three-hour time limit, exceeding previous best AI results (DeepSeek 103/120) and matching performance of top human undergraduates (110/120). The Putnam competition is legendary for its extreme difficulty; the median human score is typically just 0–1 points out of 120. Despite this mathematical achievement, Axiom CEO Carina Hong argues that coding ability, while progressing rapidly with Claude Code and similar tools, is necessary but insufficient for AGI. She identifies persistent gaps in reasoning and "verified AI" as critical.
+Axiom Math's system solved all 12 Putnam exam problems (12/12), outperforming top undergraduate solvers (8/12 median score) and closest competing system DeepSeek (103/120 points). The Putnam exam is legendary for difficulty; median human score typically reaches zero or one point. Yet CEO Carina Hong argues coding ability, though necessary, remains insufficient for AGI. Significant gaps persist in informal verification, reasoning rigor, and proof validation at scale. Axiom contends these verification and validation bottlenecks—rather than raw math capability—will constrain AGI progress.

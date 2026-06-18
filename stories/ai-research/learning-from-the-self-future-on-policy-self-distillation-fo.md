@@ -5,10 +5,10 @@ source: "HF Trending Papers"
 url: "https://huggingface.co/papers/2606.18195"
 authors: ["Yifu Luo", "Zeyu Chen", "Haoyu Wang", "Xinhao Hu", "Yuxuan Zhang", "Zhizhou Sha", "Shiwei Liu"]
 date: "2026-06-15T20:00:00.000Z"
-score: 65
+score: 76
 guid: "2606.18195"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2606.18195.png"
-generated: "2026-06-17T19:06:27+05:30"
+generated: "2026-06-18T19:07:09+05:30"
 ---
 
 d-OPSD introduces a novel on-policy self-distillation framework for diffusion language models by adapting self-teacher construction and supervision mechanisms to match the non-autoregressive nature of diffusion models.

@@ -5,10 +5,10 @@ source: "DeepMind"
 url: "https://blog.google/company-news/inside-google/around-the-globe/google-europe/united-kingdom/platform-37-the-ai-exchange/"
 authors: ["Demis Hassabis"]
 date: "Thu, 12 Mar 2026 10:00:00 +0000"
-score: 30
+score: 25
 guid: "https://blog.google/company-news/inside-google/around-the-globe/google-europe/united-kingdom/platform-37-the-ai-exchange/"
 image: "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Hero_Q93Ij5p.max-600x600.format-webp.webp"
-generated: "2026-06-17T19:06:27+05:30"
+generated: "2026-06-18T19:07:09+05:30"
 ---
 
 Google’s newest London building, Platform 37, is named to honor Google DeepMind’s AlphaGo.

@@ -5,10 +5,10 @@ source: "Simon Willison"
 url: "https://simonwillison.net/2026/Jun/15/datasette-agent/#atom-everything"
 authors: []
 date: "2026-06-15T17:19:27+00:00"
-score: 30
+score: 25
 guid: "https://simonwillison.net/2026/Jun/15/datasette-agent/#atom-everything"
 image: ""
-generated: "2026-06-16T19:05:16+05:30"
+generated: "2026-06-18T19:07:09+05:30"
 ---
 
-datasette-agent 0.3a0 introduces execute_write_sql, a tool requesting user approval before modifying databases while accounting for permissions. Updates enhance CLI chat mode to support approval workflows and add options including --root, --yes (auto-approve), and --unsafe (both). Users can now directly modify databases via natural language prompts like "create a notes table" or "add a note about X." This gating mechanism balances AI automation with human oversight, enabling safe database operations through human-in-the-loop agents.
+Release: datasette-agent 0.3a0 New tool, execute_write_sql , which requests user approval and then writes to a database - taking user permissions into account. #27 I added a mechanism for asking user approval in datasette agent 0.2a0 . The new execute_write_sql tool can now prompt the user for all kinds of useful operations. Here's an example where I add some pelican sightings to my pelican_sightings table: The new version also enhances the datasette agent chat terminal mode to support approvals, and adds several new options including --unsafe mode for auto-approving them: datasette agent chat can execute tools that require user approval. #30 Three new options for datasette agent chat - --root to run as root, --yes to approve all ask user questions, and --unsafe for both. Tools can now provide plain text alternatives to HTML, for display in the datasette agent chat CLI. #31 The datasette agent chat content.db -m gpt-5.5 --unsafe command can now be used to chat directly with a specific database and directly modify it through prompts like "create a notes table", "add a note about X" etc. Tags: projects , ai , datasette , annotated-release-notes , generative-ai , llms , llm-tool-use , datasette-agent

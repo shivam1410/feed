@@ -1,0 +1,14 @@
+---
+title: "SCOPE-FL: A Strategy-proof Chain-based Optimal pareto efficient Federated Learning System"
+category: "AI Research"
+source: "arXiv (cs.LG)"
+url: "https://arxiv.org/abs/2606.18384"
+authors: ["Seyed Salar Ghazi, Kaiwen Zhang, Mehdi feizi, Hans-Arno Jacobsen"]
+date: "Thu, 18 Jun 2026 00:00:00 -0400"
+score: 69
+guid: "oai:arXiv.org:2606.18384v1"
+image: ""
+generated: "2026-06-18T19:07:09+05:30"
+---
+
+arXiv:2606.18384v1 Announce Type: new Abstract: Hierarchical Federated Learning (HFL) enables scalable collaborative model training across distributed devices while preserving data privacy. However, existing HFL client selection mechanisms suffer from a fundamental strategic inefficiency. By prioritizing stability over Pareto efficiency (PE), they produce suboptimal resource allocations, and without strategy proofness (SP), participants are incentivized to misrepresent their true preferences, both failures degrading system overall welfare in the Pareto sense in practice. To address it, we propose SCOPE-FL (Strategy-proof Chain-based Optimal pareto efficient Federated Learning), a synchronous HFL framework that formulates client selection as a two-sided school choice problem solved through the Top Trading Cycle (TTC) algorithm that simultaneously guarantees PE and SP. For reward distribution, SCOPE-FL employs a scalable Shapley value approximation based on One-Round Reconstruction (OR), ensuring compensation proportional to each client's contribution. The entire mechanism executes via blockchain smart contracts, providing the tamper-proof environment required for the SP guarantees to hold in practice. A comprehensive evaluation on MNIST, Fashion-MNIST, and CIFAR-10 demonstrates that SCOPE-FL outperforms state-of-the-art approaches, including DA, IAS, and other methods across model accuracy, convergence rate, and reward efficiency, while achieving communication latency comparable to DA and blockchain overhead significantly lower than DA at scale.

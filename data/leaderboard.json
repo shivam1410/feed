@@ -1,106 +1,106 @@
 {
-  "generatedAt": "2026-06-18T19:07:41+05:30",
+  "generatedAt": "2026-06-19T21:39:34+05:30",
   "source": "Hugging Face — trending models",
   "models": [
     {
       "id": "yuxinlu1/gemma-4-12B-coder-fable5-composer2.5-v1-GGUF",
       "task": "text-generation",
-      "likes": 1609,
-      "downloads": 211424,
+      "likes": 1789,
+      "downloads": 268102,
       "library": "gguf",
       "createdAt": "2026-06-10T07:24:02.000Z",
       "url": "https://huggingface.co/yuxinlu1/gemma-4-12B-coder-fable5-composer2.5-v1-GGUF",
-      "summary": "Local 12B coding model with chain-of-thought reasoning, quantized for offline use."
+      "summary": "Local 12B coding model with chain-of-thought reasoning, fine-tuned for Python, runs offline on modest hardware."
     },
     {
       "id": "zai-org/GLM-5.2",
       "task": "text-generation",
-      "likes": 1205,
-      "downloads": 4307,
+      "likes": 1472,
+      "downloads": 11871,
       "library": "transformers",
       "createdAt": "2026-06-16T07:39:20.000Z",
       "url": "https://huggingface.co/zai-org/GLM-5.2",
-      "summary": "Long-context flagship model with 1M tokens, advanced coding, flexible reasoning levels, and MoE efficiency."
+      "summary": "Latest GLM model with 1M-token context, advanced coding support with flexible effort levels, and improved sparse MoE architecture."
     },
     {
       "id": "MiniMaxAI/MiniMax-M3",
       "task": "image-text-to-text",
-      "likes": 1083,
-      "downloads": 56162,
+      "likes": 1119,
+      "downloads": 67836,
       "library": "transformers",
       "createdAt": "2026-06-02T07:49:31.000Z",
       "url": "https://huggingface.co/MiniMaxAI/MiniMax-M3",
-      "summary": "Native multimodal MoE model with 1M context, excels at coding and agentic long-horizon tasks."
+      "summary": "Native multimodal model handling text, image, and video with 1M context and strong agentic and coding capabilities."
     },
     {
       "id": "moonshotai/Kimi-K2.7-Code",
       "task": "image-text-to-text",
-      "likes": 863,
-      "downloads": 229156,
+      "likes": 898,
+      "downloads": 274865,
       "library": "transformers",
       "createdAt": "2026-06-11T07:51:47.000Z",
       "url": "https://huggingface.co/moonshotai/Kimi-K2.7-Code",
-      "summary": "Coding-focused agentic model with improved efficiency and long-horizon task completion capabilities."
-    },
-    {
-      "id": "google/diffusiongemma-26B-A4B-it",
-      "task": "image-text-to-text",
-      "likes": 993,
-      "downloads": 527080,
-      "library": "transformers",
-      "createdAt": "2026-06-09T12:40:12.000Z",
-      "url": "https://huggingface.co/google/diffusiongemma-26B-A4B-it",
-      "summary": "Multimodal MoE model using discrete diffusion for faster text generation from text, image, and video inputs."
+      "summary": "Coding-focused agentic model with 30% lower thinking-token usage, optimized for real-world software engineering and complex task workflows."
     },
     {
       "id": "WeiboAI/VibeThinker-3B",
       "task": "text-generation",
-      "likes": 370,
-      "downloads": 6589,
+      "likes": 433,
+      "downloads": 12148,
       "library": "transformers",
       "createdAt": "2026-06-12T11:43:29.000Z",
       "url": "https://huggingface.co/WeiboAI/VibeThinker-3B",
-      "summary": "Compact 3B reasoning model optimized for mathematics and competitive programming with strong verification."
+      "summary": "3B reasoning model excelling at math, coding, and STEM with frontier-level reasoning, not designed for tool-calling."
+    },
+    {
+      "id": "google/diffusiongemma-26B-A4B-it",
+      "task": "image-text-to-text",
+      "likes": 1008,
+      "downloads": 601208,
+      "library": "transformers",
+      "createdAt": "2026-06-09T12:40:12.000Z",
+      "url": "https://huggingface.co/google/diffusiongemma-26B-A4B-it",
+      "summary": "26B multimodal MoE using discrete diffusion for faster parallel token generation from text, image, and video inputs."
     },
     {
       "id": "prefeitura-rio/Rio-3.5-Open-397B",
       "task": "image-text-to-text",
-      "likes": 322,
-      "downloads": 190501,
+      "likes": 323,
+      "downloads": 190639,
       "library": "transformers",
       "createdAt": "2026-06-11T03:04:32.000Z",
       "url": "https://huggingface.co/prefeitura-rio/Rio-3.5-Open-397B",
-      "summary": "Large Portuguese-English multimodal model created via merging and distillation from stronger base models."
+      "summary": "397B multimodal MoE merged and distilled model based on Qwen3.5, supports image and text inputs."
     },
     {
       "id": "nvidia/LocateAnything-3B",
       "task": "image-text-to-text",
-      "likes": 2147,
-      "downloads": 183093,
+      "likes": 2187,
+      "downloads": 228669,
       "library": "transformers",
       "createdAt": "2026-03-02T20:05:49.000Z",
       "url": "https://huggingface.co/nvidia/LocateAnything-3B",
-      "summary": "Vision-language grounding model for precise object localization across domains using parallel box decoding."
+      "summary": "3B vision-language model for visual grounding and object localization with parallel box decoding, supports diverse domains."
     },
     {
-      "id": "Jackrong/Qwopus3.6-27B-Coder-MTP-GGUF",
-      "task": "image-text-to-text",
-      "likes": 244,
-      "downloads": 122175,
+      "id": "microsoft/FastContext-1.0-4B-SFT",
+      "task": "text-generation",
+      "likes": 220,
+      "downloads": 1437,
       "library": "transformers",
-      "createdAt": "2026-06-11T23:28:10.000Z",
-      "url": "https://huggingface.co/Jackrong/Qwopus3.6-27B-Coder-MTP-GGUF",
-      "summary": "Dense 27B agentic coding model optimized for tool-calling, repository-level tasks, and structured workflows."
+      "createdAt": "2026-06-14T14:39:57.000Z",
+      "url": "https://huggingface.co/microsoft/FastContext-1.0-4B-SFT",
+      "summary": "4B repository-exploration subagent for coding tasks, efficiently locates relevant code via parallel tool calls and compact context."
     },
     {
       "id": "HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
       "task": "image-text-to-text",
-      "likes": 1955,
-      "downloads": 3420052,
+      "likes": 1991,
+      "downloads": 3730978,
       "library": null,
       "createdAt": "2026-04-17T00:15:26.000Z",
       "url": "https://huggingface.co/HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
-      "summary": "Uncensored multimodal MoE model variant with aggressive refusal removal for unrestricted content generation."
+      "summary": "Uncensored Qwen3.6 35B MoE multimodal model with aggressive removal of safety refusals while preserving full functionality."
     }
   ]
 }

@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/s41586-026-10664-8"
 authors: ["Liwei Zhang", "Aaron Bufe", "Joshua F. Dean", "Gerard Rocher-Ros", "Ryan A. Sponseller", "Emily H. Stanley", "Jan Karlsson", "David E. Butman", "Ran Liu", "Lijun Hou", "Jinzhi Ding", "Shilong Piao", "Xinghui Xia", "Tom J. Battin"]
 date: "2026-06-17"
-score: 64
+score: 60
 guid: "10.1038/s41586-026-10664-8"
 image: ""
-generated: "2026-06-18T19:07:09+05:30"
+generated: "2026-06-19T21:38:58+05:30"
 ---
 
-On the Qinghai-Tibet Plateau, permafrost melting accelerates rock weathering through exposure to precipitation and oxygen. Rock weathering absorbs atmospheric carbon dioxide during chemical reactions that break down minerals. The research reveals a counterintuitive finding: permafrost thaw increases rock-weathering carbon-absorption rates while simultaneously reducing river carbon dioxide emissions. This creates a potential natural brake on climate change because geological carbon sequestration from weathering may eventually exceed carbon dioxide releases from permafrost degradation. Carbon that would escape as gas instead gets locked into stable mineral forms persisting across geological timescales, providing an important long-term carbon sink mechanism.
+On the Qinghai-Tibet Plateau, permafrost thaw triggers increased rock weathering rates while reducing carbon dioxide emissions from rivers. Rock weathering—chemical breakdown of minerals—removes CO₂ from atmosphere and stores it long-term in dissolved carbonate forms. This process potentially counterbalances warming and methane/CO₂ release from thawing permafrost. Findings suggest geological processes may provide natural carbon sink offsetting emissions from thaw-driven organic matter breakdown, offering mechanism by which Earth's geological systems could mitigate some climate impacts from polar thaw.

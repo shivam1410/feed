@@ -5,10 +5,10 @@ source: "HF Trending Papers"
 url: "https://huggingface.co/papers/2606.16748"
 authors: ["Lawrence Keunho Jang", "Andrew Keunwoo Jang", "Jing Yu Koh", "Ruslan Salakhutdinov"]
 date: "2026-06-14T20:00:00.000Z"
-score: 78
+score: 75
 guid: "2606.16748"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2606.16748.png"
-generated: "2026-06-18T19:07:09+05:30"
+generated: "2026-06-19T21:38:58+05:30"
 ---
 
-MyPCBench is a benchmark evaluating computer-use agents as personal assistants on a simulated Linux desktop with real-world web applications. Claude Opus 4.6 achieved the highest task completion rate at 55.4%, outperforming other models tested. However, agents struggle significantly with multi-application workflows and long task sequences, revealing critical gaps in current autonomous computer-use capabilities.
+MyPCBench evaluates computer-use agents performing real-world tasks in a simulated Linux desktop environment. Claude Opus 4.6 achieved the highest completion rate at 55.4%, indicating meaningful progress in autonomous desktop navigation. However, the benchmark reveals significant limitations: the model struggles with multi-application workflows requiring coordination across different programs, and with long task sequences that accumulate errors. These findings highlight both the capability and brittleness of current agents. Understanding where agents fail—complex, multi-step operations spanning multiple tools—helps guide development toward more robust autonomous systems.

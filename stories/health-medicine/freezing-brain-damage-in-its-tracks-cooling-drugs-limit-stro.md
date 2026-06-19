@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/d41586-026-01923-9"
 authors: ["Edward Chen"]
 date: "2026-06-17"
-score: 63
+score: 65
 guid: "10.1038/d41586-026-01923-9"
 image: ""
-generated: "2026-06-18T19:07:09+05:30"
+generated: "2026-06-19T21:38:58+05:30"
 ---
 
 A two-drug combination induces hypothermia in mice by lowering metabolism and dilating blood vessels.

@@ -5,10 +5,10 @@ source: "HF Trending Papers"
 url: "https://huggingface.co/papers/2606.15872"
 authors: ["Jingru Guo", "Xiangyuan Xue", "Lian Zhang", "Wanghan Xu", "Siki Chen", "Philip Torr", "Wanli Ouyang", "Lei Bai", "Zhenfei Yin"]
 date: "2026-06-14T11:45:34.000Z"
-score: 82
+score: 75
 guid: "2606.15872"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2606.15872.png"
-generated: "2026-06-18T19:07:09+05:30"
+generated: "2026-06-19T21:38:58+05:30"
 ---
 
-SciOrch is a framework using a lightweight orchestrator model to coordinate multiple frontier large language models for solving complex scientific reasoning tasks. The orchestrator intelligently routes multimodal problems to specialized expert models, trained through Monte Carlo Tree Search and GRPO-style optimization. This approach achieves superior performance on frontier scientific tasks while significantly reducing API costs compared to using large models directly.
+SciOrch introduces a framework orchestrating multiple frontier language models for scientific reasoning tasks. A lightweight orchestrator coordinates specialized LLMs using Monte Carlo tree search-based training and gradient-regularized policy optimization. This approach achieves superior results on multimodal scientific problems while reducing API costs compared to individual models. By distributing reasoning across specialized experts rather than relying on a single large model, SciOrch demonstrates how coordinated systems tackle complex scientific challenges more effectively. This strategy is particularly valuable for organizations seeking both accuracy and cost efficiency.

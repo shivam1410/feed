@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/d41586-026-01870-5"
 authors: []
 date: "2026-06-17"
-score: 48
+score: 55
 guid: "10.1038/d41586-026-01870-5"
 image: ""
-generated: "2026-06-18T19:07:09+05:30"
+generated: "2026-06-19T21:38:58+05:30"
 ---
 
 Having a greater tissue volume in some parts of the cerebellum is linked to higher scores on cognitive tests.

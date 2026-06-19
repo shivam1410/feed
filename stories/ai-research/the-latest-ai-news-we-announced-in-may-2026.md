@@ -3,12 +3,12 @@ title: "The latest AI news we announced in May 2026"
 category: "AI Research"
 source: "DeepMind"
 url: "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-may-2026/"
-authors: ["The Keyword Team"]
+authors: ["Blog Team"]
 date: "Fri, 05 Jun 2026 14:45:00 +0000"
-score: 38
+score: 35
 guid: "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-may-2026/"
 image: "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/May_AI_Recap_still.max-600x600.format-webp.webp"
-generated: "2026-06-18T19:07:09+05:30"
+generated: "2026-06-19T21:38:58+05:30"
 ---
 
 Here are Google’s latest AI updates from May 2026

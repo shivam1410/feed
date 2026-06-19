@@ -8,7 +8,7 @@ date: "2026-06-13T01:01:50+00:00"
 score: 75
 guid: "https://simonwillison.net/2026/Jun/13/us-government-directive-to-suspend-access/#atom-everything"
 image: ""
-generated: "2026-06-18T19:07:09+05:30"
+generated: "2026-06-19T21:38:58+05:30"
 ---
 
-Anthropic received a US government directive suspending Fable 5 and Mythos 5 access for all users, including foreign Anthropic employees, citing national security concerns. The order was issued 5:21 PM ET with minimal explanation. The government claims a jailbreak exists: asking the model to review code for security issues. Anthropic validated the reported technique as narrow and non-universal, finding other publicly available models can replicate results without requiring a bypass. The broad suspension based on narrow, non-universal capability raises policy questions.
+The US government suspended access to Anthropic's Fable 5 and Mythos 5 models effective immediately, citing national security authorities and a potential jailbreak method. The directive, issued today at 5:21pm ET, bars all foreign nationals—including Anthropic employees—from using these models. The suspected jailbreak involves asking the model to read a codebase and identify software flaws. Anthropic reviewed the government's demonstration and confirmed the exposed vulnerabilities are minor and simple; other publicly-available models can discover them without special techniques. The government provided only verbal evidence and one demonstration of this 'narrow, non-universal jailbreak.' All other Anthropic models remain available.

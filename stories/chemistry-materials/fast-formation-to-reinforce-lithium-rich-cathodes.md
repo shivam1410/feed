@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/s41586-025-09553-3"
 authors: ["Mengjian Fan", "Jiantao Li", "Guiyang Gao", "Benli Jiang", "Longlong Fan", "Qingxi Yuan", "Yinggan Zhang", "Hongfei Zheng", "Saichao Li", "Liang Lin", "Zonghai Chen", "Yang Ren", "Yuanyuan Liu", "Wei He", "Gaosheng Chen", "Baisheng Sa", "Laisen Wang", "Jie Lin", "Dong-Liang Peng", "Qingshui Xie"]
 date: "2026-06-17"
-score: 63
+score: 60
 guid: "10.1038/s41586-025-09553-3"
 image: ""
-generated: "2026-06-18T19:07:09+05:30"
+generated: "2026-06-19T21:38:58+05:30"
 ---
 
-Fast-formation manufacturing processes for lithium-ion batteries outperform traditional slow-formation approaches across multiple critical metrics. Fast formation simultaneously lowers manufacturing costs while improving energy capacity, storage stability, and cycle life—the number of charge-discharge cycles before degradation. This process represents a substantial manufacturing advance with immediate economic benefits for producers and users. The improvements apply broadly to many different electrode chemistries and battery compositions, suggesting the advantage is a general manufacturing principle rather than specific to a single design. These combined benefits make lithium-ion batteries more economical for widespread deployment in electric vehicles, consumer electronics, and grid-scale energy storage.
+Fast formation—rapid thermal treatment during lithium-ion battery manufacturing—outperforms conventional slow formation. The faster approach reduces production costs while improving battery capacity, cycle stability, and lifespan. Fast formation optimizes internal electrode structures in ways slow formation cannot achieve. Improvements apply broadly across different electrode systems beyond traditional lithium-ion designs. Findings suggest manufacturers can accelerate battery production timelines while enhancing final battery performance, addressing two major constraints: cost and quality.

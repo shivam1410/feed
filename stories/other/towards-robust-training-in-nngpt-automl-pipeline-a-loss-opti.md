@@ -1,0 +1,14 @@
+---
+title: "Towards Robust Training in NNGPT AutoML Pipeline: A Loss-Optimizer Pairing Selection Study"
+category: "Other"
+source: "arXiv (cs.LG)"
+url: "https://arxiv.org/abs/2606.20933"
+authors: ["Anton Abramochkin, Radu Timofte, Dmitry Ignatov"]
+date: "Tue, 23 Jun 2026 00:00:00 -0400"
+score: ""
+guid: "oai:arXiv.org:2606.20933v1"
+image: ""
+generated: "2026-06-23T19:00:42+05:30"
+---
+
+arXiv:2606.20933v1 Announce Type: new Abstract: The choice of loss function and optimizer is an important decision, that shapes further model training. Yet automated architecture search pipelines (AutoML) benefits significantly more from the optimal pairing selection and vice versa. This paper investigates whether a single recipe is sufficient for heterogeneous architecture pools, or whether the optimal pairing varies across structurally diverse models. We conduct a systematic empirical study of all $3 \times 6 = 18$ combinations of six optimizers (SGD+Momentum, Adam, AdamW, RMSprop, Adagrad, Adadelta), paired with three loss functions: Cross-Entropy (CEL), Negative Log-Likelihood (NLL), and the recently introduced genetically evolved NGL loss across the base models presented in LEMUR heterogeneous architecture pool on six image classification datasets (CelebA-Gender, CIFAR-10, CIFAR-100, ImageNette, MNIST, SVHN). The 18 loss-optimizer configurations are applied to each of the 33 compatible base architectures taken from the LEMUR pool, resulting in 594 variants that were generated fully automatically by a source-level injection pipeline and evaluated under fixed hyperparameters, ensuring that observed accuracy differences are attributable solely to the loss-optimizer pairing. Our results confirm that no single pairing is universally optimal. Cross-Entropy with Adam or AdamW is the most robust choice across architecture families and datasets. NGL is a competitive alternative to CEL on standard convolutional classifiers, but only when paired with adaptive optimizers; it degrades substantially with SGD or accumulation-based methods. Adagrad and Adadelta consistently underperform under fixed hyperparameters regardless of loss function, highlighting their sensitivity to learning rate tuning. These findings provide actionable guidance for loss-optimizer selection within NNGPT Framework.

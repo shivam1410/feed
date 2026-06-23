@@ -1,0 +1,14 @@
+---
+title: "MMGNN: Multi-level, multi-color graph neural networks for molecular property prediction"
+category: "Other"
+source: "arXiv (cs.LG)"
+url: "https://arxiv.org/abs/2606.20906"
+authors: ["Trung Nguyen, Duc Duy Nguyen"]
+date: "Tue, 23 Jun 2026 00:00:00 -0400"
+score: ""
+guid: "oai:arXiv.org:2606.20906v1"
+image: ""
+generated: "2026-06-23T19:00:42+05:30"
+---
+
+arXiv:2606.20906v1 Announce Type: new Abstract: Molecular message-passing neural networks commonly propagate chemically diverse interactions through a single graph, which may mix interaction-specific signals and require deep propagation to capture long-range effects. We introduce the Multi-level, Multi-color Graph Neural Network (MMGNN), a hierarchical framework that decomposes a molecular graph into overlapping atom-type-pair-specific subgraphs while preserving atom-level resolution. MMGNN-2D constructs chemical-colored subgraphs from covalent connectivity, whereas MMGNN-3D constructs geometric-colored subgraphs from spatial proximity and augments their edges with distance, angular, and torsional descriptors. Both variants apply a shared communicative message-passing backbone to each subgraph and combine the resulting representations through atom-wise aggregation and molecular readout. We evaluated MMGNN on five classification and three regression benchmarks from MoleculeNet using common scaffold splits and five independent runs. MMGNN-2D achieved the highest macro-average AUC-ROC of 0.838 across the classification datasets and the lowest RMSE on ESOL (0.803). MMGNN-3D obtained the highest mean AUC-ROC on BBBP (0.956) and the lowest RMSE on FreeSolv (1.793), indicating complementary strengths of topological and geometric representations. Structural and leave-one-out analyses further illustrate how the subgraph decomposition affects learned representations and atom-type-pair sensitivities. These results support overlapping interaction-specific graph decomposition as a competitive strategy for molecular property prediction.

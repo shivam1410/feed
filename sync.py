@@ -59,6 +59,8 @@ MODEL_README_URL = "https://huggingface.co/{id}/raw/main/README.md"
 # HighLevel AI tab — scrape each ideas board (Canny preloads posts as JSON in
 # the page) and summarize the themes with the claude CLI.
 HL_IDEAS_URL = "https://ideas.gohighlevel.com/{slug}"
+HL_CHANGELOG_URL = "https://ideas.gohighlevel.com/api/changelog/feed.rss"
+HL_AI_RE = re.compile(r"\bai\b", re.I)  # match "AI" as a standalone word (Conversation AI, Voice AI, …)
 HL_ROADMAP_SUMMARY = (
     "2026 is HighLevel's “AI Employee” year. Conversation AI now drafts replies in the "
     "background (Auto-Suggestive mode) and understands 30+ languages; Voice AI matured to 27 "
@@ -590,6 +592,33 @@ def fetch_hl_ideas(slug: str, limit: int = 6) -> list[str]:
     return out
 
 
+def fetch_hl_changelog(limit: int = 8) -> list[dict]:
+    """Pull HighLevel's changelog RSS and keep only AI-related shipped updates."""
+    try:
+        raw = fetch(HL_CHANGELOG_URL).decode("utf-8", "ignore")
+    except Exception:
+        return []
+
+    def field(it: str, tag: str) -> str:
+        m = re.search(r"<" + tag + r"[^>]*>(.*?)</" + tag + r">", it, re.S)
+        if not m:
+            return ""
+        val = re.sub(r"<!\[CDATA\[|\]\]>", "", m.group(1))
+        return html.unescape(re.sub(r"<[^>]+>", " ", val)).strip()
+
+    out: list[dict] = []
+    for it in re.findall(r"<item>(.*?)</item>", raw, re.S):
+        title = field(it, "title")
+        cats = " ".join(re.findall(r"<category>(.*?)</category>", it, re.S))
+        cats = re.sub(r"<!\[CDATA\[|\]\]>", "", cats)
+        if not HL_AI_RE.search(title + " " + cats):
+            continue
+        out.append({"title": title, "link": field(it, "link"), "date": field(it, "pubDate")})
+        if len(out) >= limit:
+            break
+    return out
+
+
 def build_hl_summary_prompt(products: list[dict]) -> str:
     payload = [{"i": i, "name": p["name"], "ideas": p["ideas"]} for i, p in enumerate(products) if p["ideas"]]
     return (
@@ -618,12 +647,13 @@ def write_highlevel_ai(cfg: dict | None = None) -> None:
                     products[i]["summary"] = str(obj.get("summary", "")).strip()
         except Exception as err:
             log(f"highlevel-ai: summary failed ({err})")
+    changelog = fetch_hl_changelog()
     os.makedirs(DATA_DIR, exist_ok=True)
     write_json(os.path.join(DATA_DIR, "highlevel-ai.json"), {
         "generatedAt": datetime.datetime.now().astimezone().isoformat(timespec="seconds"),
-        "summary": HL_ROADMAP_SUMMARY, "products": products,
+        "summary": HL_ROADMAP_SUMMARY, "products": products, "changelog": changelog,
     })
-    log(f"wrote highlevel-ai.json ({filled}/{len(products)} boards with ideas)")
+    log(f"wrote highlevel-ai.json ({filled}/{len(products)} boards with ideas, {len(changelog)} AI changelog)")
 
 
 def git_publish() -> int:

@@ -754,6 +754,17 @@ async function renderHighLevelAI() {
 
   let html = `<div class="curate-banner">🤖 HighLevel AI — roadmap &amp; community ideas${when}</div>`;
   html += `<article class="card"><div class="card-body"><p class="summary rich">${safe(summary)}</p></div></article>`;
+
+  const changelog = Array.isArray(data?.changelog) ? data.changelog : [];
+  if (changelog.length) {
+    html += `<h3 class="lb-heading">What's new — AI updates</h3>`;
+    html += `<div class="title-list">` + changelog.map((c) =>
+      `<a class="title-row" href="${safe(c.link)}" target="_blank" rel="noopener">
+        <span class="title-row-title">${safe(c.title)}</span>
+        <span class="title-row-meta">${c.date ? safe(fmtDate(c.date)) : ""}</span>
+      </a>`).join("") + `</div>`;
+  }
+
   html += `<h3 class="lb-heading">Products &amp; top community ideas</h3>`;
   html += products.map((p) => `
     <article class="card">

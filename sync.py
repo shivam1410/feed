@@ -56,6 +56,28 @@ LEADERBOARD_URL = "https://huggingface.co/api/models?sort=trendingScore&directio
 MODEL_DETAIL_URL = "https://huggingface.co/api/models/{id}"
 MODEL_README_URL = "https://huggingface.co/{id}/raw/main/README.md"
 
+# HighLevel AI tab — scrape each ideas board (Canny preloads posts as JSON in
+# the page) and summarize the themes with the claude CLI.
+HL_IDEAS_URL = "https://ideas.gohighlevel.com/{slug}"
+HL_ROADMAP_SUMMARY = (
+    "2026 is HighLevel's “AI Employee” year. Conversation AI now drafts replies in the "
+    "background (Auto-Suggestive mode) and understands 30+ languages; Voice AI matured to 27 "
+    "languages and 340+ voices; AI Studio added role-based team permissions; and Ask AI — "
+    "powered by Claude Sonnet — drives the backend by chat."
+)
+HL_BOARDS = [
+    {"name": "Conversation AI", "slug": "conversation-ai",
+     "what": "AI agents that handle automated chats across every messaging channel, drafting replies in the background while a human stays in control."},
+    {"name": "AI Employee", "slug": "ai-employee",
+     "what": "The bundled AI suite (Voice AI + Conversation AI + Content AI), launched May 2026 — a virtual employee that talks, texts, and creates."},
+    {"name": "AI Studio", "slug": "ai-studio",
+     "what": "Build websites and apps with AI (no-code), with permissions so teams/agencies control who can view vs. edit each agent."},
+    {"name": "Ask AI", "slug": "ask-ai",
+     "what": "A Claude Sonnet-powered assistant that runs your HighLevel backend by chat — content, courses, scheduling, automations."},
+    {"name": "Voice AI", "slug": "voice-ai",
+     "what": "AI phone agents that answer calls, qualify leads, and book appointments — 27 languages, 340+ voices."},
+]
+
 
 def log(msg: str) -> None:
     print(f"[{datetime.datetime.now().isoformat(timespec='seconds')}] {msg}", flush=True)
@@ -544,6 +566,66 @@ def write_leaderboard(cfg: dict | None = None) -> None:
     log(f"wrote leaderboard.json ({len(models)} models)")
 
 
+def fetch_hl_ideas(slug: str, limit: int = 6) -> list[str]:
+    """Scrape the top community-idea titles from a HighLevel ideas board (Canny)."""
+    try:
+        html = fetch(HL_IDEAS_URL.format(slug=slug)).decode("utf-8", "ignore")
+    except Exception:
+        return []
+    out: list[str] = []
+    seen: set[str] = set()
+    for raw in re.findall(r'"title":"((?:[^"\\]|\\.){5,160})"', html):
+        try:
+            title = json.loads('"' + raw + '"')
+        except Exception:
+            continue
+        title = re.sub(r"\s+", " ", title).strip()
+        key = title.lower()
+        if len(title) < 5 or key in seen:
+            continue
+        seen.add(key)
+        out.append(title)
+        if len(out) >= limit:
+            break
+    return out
+
+
+def build_hl_summary_prompt(products: list[dict]) -> str:
+    payload = [{"i": i, "name": p["name"], "ideas": p["ideas"]} for i, p in enumerate(products) if p["ideas"]]
+    return (
+        "For EACH HighLevel product board, you're given its name and the titles of the top "
+        "community feature requests. Write ONE sentence (max 30 words) summarizing the common "
+        "themes users are asking for. Base it only on the provided titles.\n\n"
+        'Return ONLY a JSON array: [{"i": <index>, "summary": "<one sentence>"}]. '
+        "No prose, no extra keys.\n\nBOARDS:\n" + json.dumps(payload, ensure_ascii=False)
+    )
+
+
+def write_highlevel_ai(cfg: dict | None = None) -> None:
+    """Scrape each HighLevel ideas board + summarize themes for the HighLevel AI tab."""
+    products = [
+        {"name": b["name"], "url": HL_IDEAS_URL.format(slug=b["slug"]),
+         "what": b["what"], "ideas": fetch_hl_ideas(b["slug"]), "summary": ""}
+        for b in HL_BOARDS
+    ]
+    filled = sum(1 for p in products if p["ideas"])
+    if filled:  # theme summary per board (best-effort — never sink the run)
+        try:
+            model = MODEL_TIERS.get(str((cfg or {}).get("model", "haiku")), "haiku")
+            for obj in run_claude(build_hl_summary_prompt(products), model, timeout=180):
+                i = obj.get("i")
+                if isinstance(i, int) and 0 <= i < len(products):
+                    products[i]["summary"] = str(obj.get("summary", "")).strip()
+        except Exception as err:
+            log(f"highlevel-ai: summary failed ({err})")
+    os.makedirs(DATA_DIR, exist_ok=True)
+    write_json(os.path.join(DATA_DIR, "highlevel-ai.json"), {
+        "generatedAt": datetime.datetime.now().astimezone().isoformat(timespec="seconds"),
+        "summary": HL_ROADMAP_SUMMARY, "products": products,
+    })
+    log(f"wrote highlevel-ai.json ({filled}/{len(products)} boards with ideas)")
+
+
 def git_publish() -> int:
     """Commit and push generated content. Used by the scheduled job with --push."""
     if not os.path.isdir(os.path.join(HERE, ".git")):
@@ -621,6 +703,7 @@ def main() -> int:
 
     write_outputs(categorized, by_source, cfg)
     write_leaderboard(cfg)
+    write_highlevel_ai(cfg)
     stamp_today()  # mark today's run complete (for --catchup)
 
     if args.push:

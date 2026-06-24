@@ -739,13 +739,23 @@ const HIGHLEVEL_AI = {
   ],
 };
 
-function renderHighLevelAI() {
+async function renderHighLevelAI() {
   el.sectionTitle.textContent = "HighLevel AI";
   el.meta.textContent = "";
-  let html = `<div class="curate-banner">🤖 HighLevel AI — roadmap &amp; community ideas</div>`;
-  html += `<article class="card"><div class="card-body"><p class="summary rich">${safe(HIGHLEVEL_AI.summary)}</p></div></article>`;
+  // Prefer the daily-scraped data; fall back to the bundled static content.
+  let data = null;
+  try {
+    const res = await fetchWithTimeout("data/highlevel-ai.json", 5000);
+    if (res.ok) data = await res.json();
+  } catch { /* use static fallback */ }
+  const summary = data?.summary || HIGHLEVEL_AI.summary;
+  const products = (data && Array.isArray(data.products) && data.products.length) ? data.products : HIGHLEVEL_AI.products;
+  const when = data?.generatedAt ? " · " + safe(fmtDate(data.generatedAt)) : "";
+
+  let html = `<div class="curate-banner">🤖 HighLevel AI — roadmap &amp; community ideas${when}</div>`;
+  html += `<article class="card"><div class="card-body"><p class="summary rich">${safe(summary)}</p></div></article>`;
   html += `<h3 class="lb-heading">Products &amp; top community ideas</h3>`;
-  html += HIGHLEVEL_AI.products.map((p) => `
+  html += products.map((p) => `
     <article class="card">
       <div class="card-body">
         <div class="card-head">
@@ -753,7 +763,8 @@ function renderHighLevelAI() {
           <a class="open-link" href="${safe(p.url)}" target="_blank" rel="noopener">Ideas ↗</a>
         </div>
         <p class="summary rich">${safe(p.what)}</p>
-        <ul class="hl-ideas">${p.ideas.map((i) => `<li>${safe(i)}</li>`).join("")}</ul>
+        ${p.summary ? `<p class="why">↳ ${safe(p.summary)}</p>` : ""}
+        ${Array.isArray(p.ideas) && p.ideas.length ? `<ul class="hl-ideas">${p.ideas.map((i) => `<li>${safe(i)}</li>`).join("")}</ul>` : ""}
       </div>
     </article>`).join("");
   el.feed.innerHTML = html;

@@ -11,6 +11,7 @@ const FEEDS = [
   { id: "home", name: "Home", kind: "home" },
   { id: "saved", name: "★ Saved", kind: "saved" },
   { id: "leaderboard", name: "Rankings", kind: "leaderboard" },
+  { id: "highlevelai", name: "HighLevel AI", kind: "highlevelai" },
   // Full-content sources first (full abstracts / posts).
   { id: "arxiv", name: "arXiv (cs.LG)", kind: "rss" },
   { id: "huggingface", name: "HF Trending Papers", kind: "hf" },
@@ -36,6 +37,7 @@ const LIST_FEEDS = ["deepmind", "nature"];
 // Feed tabs shown in the scrollable strip under the header (short labels).
 const TAB_FEEDS = [
   { id: "home", label: "Home" },
+  { id: "highlevelai", label: "HighLevel AI" },
   { id: "arxiv", label: "arXiv" },
   { id: "huggingface", label: "HF" },
   { id: "simonw", label: "Simon Willison" },
@@ -613,7 +615,7 @@ function updateDeckIndicator(i) {
 function setupDeck(preserve = false) {
   // Carousel for everything except the short-teaser list feeds and the leaderboard.
   const f = activeFeed();
-  const isDeck = f.kind !== "leaderboard" && !LIST_FEEDS.includes(f.id) && deckMQL.matches;
+  const isDeck = !["leaderboard", "highlevelai"].includes(f.kind) && !LIST_FEEDS.includes(f.id) && deckMQL.matches;
   el.feed.classList.toggle("deck", isDeck);
   if (!preserve) deckIndex = 0;
   const cards = isDeck ? el.feed.querySelectorAll(".card") : [];
@@ -704,6 +706,60 @@ async function renderLeaderboard() {
   setupDeck(); // leaderboard is not a deck — this clears any deck state
 }
 
+/* ---------- HighLevel AI (curated roadmap + community ideas) ---------- */
+
+const HIGHLEVEL_AI = {
+  summary: "2026 is HighLevel's “AI Employee” year. Conversation AI now drafts replies in the background (Auto-Suggestive mode) and understands 30+ languages; Voice AI matured to 27 languages and 340+ voices; AI Studio added role-based team permissions; and Ask AI — powered by Claude Sonnet — drives the backend by chat. Five tools (Ask AI, AI Studio, Workflow AI, Funnel AI, Email AI) were free for every paid sub-account over the summer.",
+  products: [
+    {
+      name: "Conversation AI", url: "https://ideas.gohighlevel.com/conversation-ai",
+      what: "AI agents that handle automated chats across every messaging channel, drafting replies in the background while a human stays in control.",
+      ideas: ["Support models beyond OpenAI (e.g. Anthropic)", "Custom actions / external API calls from agents", "Save Flow-Builder agents as reusable templates", "Let agents overwrite stale custom-field values", "TikTok messaging support"],
+    },
+    {
+      name: "AI Employee", url: "https://ideas.gohighlevel.com/ai-employee",
+      what: "The bundled AI suite (Voice AI + Conversation AI + Content AI), launched May 2026 — a virtual employee that talks, texts, and creates.",
+      ideas: ["File sharing (send images / PDFs / video)", "Combined voice + text in a single widget", "Offer AI Employee as a configurable SaaS plan", "Warm call transfers with accept/reject", "Spam-call filtering"],
+    },
+    {
+      name: "AI Studio", url: "https://ideas.gohighlevel.com/ai-studio",
+      what: "Build websites and apps with AI (no-code), with permissions so teams/agencies control who can view vs. edit each agent.",
+      ideas: ["Track AI Studio sites in Website Analytics", "Database support (Lovable-style)", "1-click payments / e-commerce + CRM", "Token-usage display for pricing transparency", "Use AI Studio as a front-end on the HighLevel API"],
+    },
+    {
+      name: "Ask AI", url: "https://ideas.gohighlevel.com/ask-ai",
+      what: "A Claude Sonnet-powered assistant that runs your HighLevel backend by chat — content, courses, scheduling, automations.",
+      ideas: ["Build workflows / funnels / sites via natural language", "File & image upload to analyze", "@mention Ask AI inside Conversations", "Upload brand guides as persistent “skills”", "Chat history: folders + delete"],
+    },
+    {
+      name: "Voice AI", url: "https://ideas.gohighlevel.com/voice-ai",
+      what: "AI phone agents that answer calls, qualify leads, and book appointments — 27 languages, 340+ voices.",
+      ideas: ["Greet known callers by name", "More realistic, less-robotic voices", "Push-to-talk web widget for demos", "Data lookups (Sheets / Airtable)", "Bot-to-bot transfers; spam blocking"],
+    },
+  ],
+};
+
+function renderHighLevelAI() {
+  el.sectionTitle.textContent = "HighLevel AI";
+  el.meta.textContent = "";
+  let html = `<div class="curate-banner">🤖 HighLevel AI — roadmap &amp; community ideas</div>`;
+  html += `<article class="card"><div class="card-body"><p class="summary rich">${safe(HIGHLEVEL_AI.summary)}</p></div></article>`;
+  html += `<h3 class="lb-heading">Products &amp; top community ideas</h3>`;
+  html += HIGHLEVEL_AI.products.map((p) => `
+    <article class="card">
+      <div class="card-body">
+        <div class="card-head">
+          <h3>${safe(p.name)}</h3>
+          <a class="open-link" href="${safe(p.url)}" target="_blank" rel="noopener">Ideas ↗</a>
+        </div>
+        <p class="summary rich">${safe(p.what)}</p>
+        <ul class="hl-ideas">${p.ideas.map((i) => `<li>${safe(i)}</li>`).join("")}</ul>
+      </div>
+    </article>`).join("");
+  el.feed.innerHTML = html;
+  setupDeck(); // not a deck
+}
+
 /* ---------- load ---------- */
 
 async function load() {
@@ -711,6 +767,7 @@ async function load() {
   el.sectionTitle.textContent = feed.name;
 
   if (feed.kind === "leaderboard") return renderLeaderboard();
+  if (feed.kind === "highlevelai") return renderHighLevelAI();
 
   if (feed.kind === "saved") {
     const items = loadSaved();

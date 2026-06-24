@@ -568,17 +568,18 @@ def write_leaderboard(cfg: dict | None = None) -> None:
     log(f"wrote leaderboard.json ({len(models)} models)")
 
 
-def fetch_hl_ideas(slug: str, limit: int = 6) -> list[str]:
-    """Scrape the top community-idea titles from a HighLevel ideas board (Canny)."""
+def fetch_hl_ideas(slug: str) -> list[dict]:
+    """Scrape community ideas (title + vote score) from a HighLevel ideas board
+    (Canny preloads posts as JSON: …"score":N,"status":"…","title":"…"…). Sorted by score desc."""
     try:
         html = fetch(HL_IDEAS_URL.format(slug=slug)).decode("utf-8", "ignore")
     except Exception:
         return []
-    out: list[str] = []
+    out: list[dict] = []
     seen: set[str] = set()
-    for raw in re.findall(r'"title":"((?:[^"\\]|\\.){5,160})"', html):
+    for m in re.finditer(r'"score":(\d+),"status":"[^"]*","title":"((?:[^"\\]|\\.)*)"', html):
         try:
-            title = json.loads('"' + raw + '"')
+            title = json.loads('"' + m.group(2) + '"')
         except Exception:
             continue
         title = re.sub(r"\s+", " ", title).strip()
@@ -586,9 +587,8 @@ def fetch_hl_ideas(slug: str, limit: int = 6) -> list[str]:
         if len(title) < 5 or key in seen:
             continue
         seen.add(key)
-        out.append(title)
-        if len(out) >= limit:
-            break
+        out.append({"title": title, "score": int(m.group(1))})
+    out.sort(key=lambda p: p["score"], reverse=True)
     return out
 
 
@@ -632,11 +632,17 @@ def build_hl_summary_prompt(products: list[dict]) -> str:
 
 def write_highlevel_ai(cfg: dict | None = None) -> None:
     """Scrape each HighLevel ideas board + summarize themes for the HighLevel AI tab."""
-    products = [
-        {"name": b["name"], "url": HL_IDEAS_URL.format(slug=b["slug"]),
-         "what": b["what"], "ideas": fetch_hl_ideas(b["slug"]), "summary": ""}
-        for b in HL_BOARDS
-    ]
+    products = []
+    all_ideas: list[dict] = []
+    for b in HL_BOARDS:
+        url = HL_IDEAS_URL.format(slug=b["slug"])
+        posts = fetch_hl_ideas(b["slug"])
+        products.append({"name": b["name"], "url": url, "what": b["what"],
+                         "ideas": [p["title"] for p in posts[:6]], "summary": ""})
+        for p in posts:
+            all_ideas.append({"title": p["title"], "score": p["score"], "product": b["name"], "url": url})
+    all_ideas.sort(key=lambda x: x["score"], reverse=True)
+    top_ideas = all_ideas[:10]
     filled = sum(1 for p in products if p["ideas"])
     if filled:  # theme summary per board (best-effort — never sink the run)
         try:
@@ -651,9 +657,9 @@ def write_highlevel_ai(cfg: dict | None = None) -> None:
     os.makedirs(DATA_DIR, exist_ok=True)
     write_json(os.path.join(DATA_DIR, "highlevel-ai.json"), {
         "generatedAt": datetime.datetime.now().astimezone().isoformat(timespec="seconds"),
-        "summary": HL_ROADMAP_SUMMARY, "products": products, "changelog": changelog,
+        "summary": HL_ROADMAP_SUMMARY, "topIdeas": top_ideas, "products": products, "changelog": changelog,
     })
-    log(f"wrote highlevel-ai.json ({filled}/{len(products)} boards with ideas, {len(changelog)} AI changelog)")
+    log(f"wrote highlevel-ai.json ({filled}/{len(products)} boards, {len(top_ideas)} top ideas, {len(changelog)} AI changelog)")
 
 
 def git_publish() -> int:

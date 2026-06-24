@@ -8,7 +8,7 @@ date: "2026-06-23"
 score: ""
 guid: "10.1038/d41586-026-01130-6"
 image: ""
-generated: "2026-06-23T19:00:42+05:30"
+generated: "2026-06-24T19:00:41+05:30"
 ---
 
 A researcher in Europe feels left out of their team and held to different standards from their colleagues. How can they challenge exclusion without risking their position?

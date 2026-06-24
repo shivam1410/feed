@@ -8,7 +8,7 @@ date: "2026-06-22"
 score: ""
 guid: "10.1038/d41586-026-01949-z"
 image: ""
-generated: "2026-06-23T19:00:42+05:30"
+generated: "2026-06-24T19:00:41+05:30"
 ---
 
 A successful rescue of the Swift space observatory could be a good omen for the Hubble Space Telescope.

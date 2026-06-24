@@ -8,7 +8,7 @@ date: "2026-06-23"
 score: ""
 guid: "10.1038/d41586-026-01953-3"
 image: ""
-generated: "2026-06-23T19:00:42+05:30"
+generated: "2026-06-24T19:00:41+05:30"
 ---
 
 An under-appreciated research powerhouse, Europe has a responsibility to champion democratic science that is accessible to all the world’s research talent.

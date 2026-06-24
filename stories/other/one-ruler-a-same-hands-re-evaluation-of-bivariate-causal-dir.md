@@ -1,0 +1,14 @@
+---
+title: "One Ruler: A Same-Hands Re-Evaluation of Bivariate Causal Direction on Tuebingen, with a Parameter-Free Compression Baseline"
+category: "Other"
+source: "arXiv (cs.LG)"
+url: "https://arxiv.org/abs/2606.23767"
+authors: ["Wietse Stienstra"]
+date: "Wed, 24 Jun 2026 00:00:00 -0400"
+score: ""
+guid: "oai:arXiv.org:2606.23767v1"
+image: ""
+generated: "2026-06-24T19:00:41+05:30"
+---
+
+arXiv:2606.23767v1 Announce Type: new Abstract: Headline accuracies on the Tuebingen cause-effect pairs are routinely compared across papers even though each is measured under its authors' own protocol -- different pair subsets, weightings, model-selection, and decision rates. We argue this is the wrong comparison and run the right one: a same-hands re-evaluation in which every method is run by us on the identical 102 pairs, with one strict rule -- no tuning and a decision forced on every pair. As a clean reference point we introduce a deliberately minimal baseline: sorted-conditional compression, which feeds quantized, sorted, first-differenced data to an off-the-shelf compressor (bz2) and has zero fitted parameters. Under the common ruler the ranking differs sharply from the literature. Our baseline reaches 74.7% weighted accuracy (p = 3.7e-7); on the same 100 pairs that SLOPE is evaluated on it scores 76.0%, a 1.2-point gap below the authors' own forced-decision SLOPE (77.2%) that is well inside noise (McNemar p = 0.39). A faithful re-run of RECI lands at 70.7% -- inside the original authors' reported error bar, not the 77.5% often quoted (which we trace to a mis-copied cell). SLOPE's published 82.4% is a decided-subset figure: scoring the authors' own stored output only on the pairs its significance test chose to answer reproduces 81.7%. Under the common ruler the methods cluster in the low-to-mid 70s and the zero-parameter compressor ties the strongest of them. We document the mechanisms that inflate published figures (test-set model selection, significance-gated abstention) and contribute two further results: compression score magnitude is a model-free confounding flag (p = 2.8e-68), and a pre-registered falsification test fails in an instructive way that bounds the method's theoretical interpretation. Code, pre-registrations, and per-pair outputs are released.

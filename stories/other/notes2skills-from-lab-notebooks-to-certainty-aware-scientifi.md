@@ -8,7 +8,7 @@ date: "2026-06-09T20:00:00.000Z"
 score: ""
 guid: "2606.11897"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2606.11897.png"
-generated: "2026-06-23T19:00:42+05:30"
+generated: "2026-06-24T19:00:41+05:30"
 ---
 
 Notes2Skills framework converts laboratory notes into verifiable skills for AI agents while maintaining author uncertainty levels, addressing gaps in scientific AI development.

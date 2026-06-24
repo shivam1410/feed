@@ -8,7 +8,7 @@ date: "2026-06-17"
 score: ""
 guid: "10.1038/s41586-026-10764-5"
 image: ""
-generated: "2026-06-23T19:00:42+05:30"
+generated: "2026-06-24T19:00:41+05:30"
 ---
 
 Towards Conversational AI for Disease Management

@@ -8,7 +8,7 @@ date: "2026-06-18"
 score: ""
 guid: "10.1038/d41586-026-01967-x"
 image: ""
-generated: "2026-06-23T19:00:42+05:30"
+generated: "2026-06-24T19:00:41+05:30"
 ---
 
 Researchers have tracked the electrical activity of individual brain cells during conversation in real time. Plus, the history of GPS and a cross-species transplant that could reveal clues about the origin of animals.

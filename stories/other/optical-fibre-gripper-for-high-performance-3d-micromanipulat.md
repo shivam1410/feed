@@ -8,7 +8,7 @@ date: "2026-06-17"
 score: ""
 guid: "10.1038/s41586-026-10673-7"
 image: ""
-generated: "2026-06-23T19:00:42+05:30"
+generated: "2026-06-24T19:00:41+05:30"
 ---
 
 A miniature three-dimensional optical fibre gripper enables powerful, precise micromanipulation of particles and single cells in confined spaces, bridging the gap between optical and mechanical tweezers.

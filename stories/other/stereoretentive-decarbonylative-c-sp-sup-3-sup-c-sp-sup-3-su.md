@@ -8,7 +8,7 @@ date: "2026-06-22"
 score: ""
 guid: "10.1038/s41586-026-10800-4"
 image: ""
-generated: "2026-06-23T19:00:42+05:30"
+generated: "2026-06-24T19:00:41+05:30"
 ---
 
 Stereoretentive decarbonylative C(sp 3 )-C(sp 3 ) cross-coupling

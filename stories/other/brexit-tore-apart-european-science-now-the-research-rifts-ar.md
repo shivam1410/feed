@@ -8,7 +8,7 @@ date: "2026-06-18"
 score: ""
 guid: "10.1038/d41586-026-01841-w"
 image: ""
-generated: "2026-06-23T19:00:42+05:30"
+generated: "2026-06-24T19:00:41+05:30"
 ---
 
 The UK’s share of EU research funding is climbing, but lost networks will be harder to recover.

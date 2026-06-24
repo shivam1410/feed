@@ -8,7 +8,7 @@ date: "2026-06-22"
 score: ""
 guid: "10.1038/s41586-026-10807-x"
 image: ""
-generated: "2026-06-23T19:00:42+05:30"
+generated: "2026-06-24T19:00:41+05:30"
 ---
 
 C-glycoside synthesis via radical cross-coupling of glycohydrazides

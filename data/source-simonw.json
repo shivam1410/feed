@@ -1,6 +1,30 @@
 {
-  "generatedAt": "2026-06-23T19:00:42+05:30",
+  "generatedAt": "2026-06-24T19:00:41+05:30",
   "items": [
+    {
+      "guid": "https://simonwillison.net/2026/Jun/23/datasette/#atom-everything",
+      "title": "datasette 1.0a35",
+      "link": "https://simonwillison.net/2026/Jun/23/datasette/#atom-everything",
+      "authors": [],
+      "date": "2026-06-23T21:34:37+00:00",
+      "summary": "Release: datasette 1.0a35 I'll write more about this one tomorrow, but it's a big release. Three highlights from the release notes: New \"Create table\" interface in the database actions menu, backed by the /<database>/-/create JSON API . It can define columns, primary keys, custom column types, NOT NULL constraints, literal defaults, expression defaults and single-column foreign keys. ( #2787 ) New \"Alter table\" table action and /<database>/<table>/-/alter JSON API for changing existing tables: add, rename, reorder and drop columns; change column types, defaults, NOT NULL constraints, primary keys and foreign keys; and rename the table. The alter table dialog also includes a \"Drop table\" button. ( #2788 ) New Template context documentation listing the variables available to custom templates for Datasette's core pages. Variables documented there are treated as a stable API for custom templates until Datasette 2.0. The documentation is generated from dataclass definitions next to the view code, with tests that compare the documented fields against the actual contexts rendered by the database, table, query and row pages. ( #1510 , #2127 , #1477 , #2803 ) Here's a rough video demo I made of the new create/alter table feature as part of reviewing the PR : Tags: datasette",
+      "image": "",
+      "source": "Simon Willison",
+      "score": null,
+      "category": "Other"
+    },
+    {
+      "guid": "https://simonwillison.net/2026/Jun/23/opfs-pyodide/#atom-everything",
+      "title": "OPFS + Pyodide test harness",
+      "link": "https://simonwillison.net/2026/Jun/23/opfs-pyodide/#atom-everything",
+      "authors": [],
+      "date": "2026-06-23T18:58:54+00:00",
+      "summary": "Tool: OPFS + Pyodide test harness I've been pondering if Datasette Lite - the Python Datasette application run entirely in the browser using Pyodide and WebAssembly - might be able to edit persistent SQLite files stored on the user's computer. That's what OFPS (Origin Private File System) is for, so I had Claude Code for web build me this playground UI to try it out in different browsers. Tags: browsers , pyodide , datasette-lite",
+      "image": "",
+      "source": "Simon Willison",
+      "score": null,
+      "category": "Other"
+    },
     {
       "guid": "https://simonwillison.net/2026/Jun/22/prompt-injection-as-role-confusion/#atom-everything",
       "title": "Prompt Injection as Role Confusion",
@@ -332,30 +356,6 @@
       "authors": [],
       "date": "2026-06-13T01:01:50+00:00",
       "summary": "Statement on the US government directive to suspend access to Fable 5 and Mythos 5 Well this is nuts : The US government, citing national security authorities, has issued an export control directive to suspend all access to Fable 5 and Mythos 5 by any foreign national, whether inside or outside the United States, including foreign national Anthropic employees. The net effect of this order is that we must abruptly disable Fable 5 and Mythos 5 for all our customers to ensure compliance. Access to all other Anthropic models will not be affected. We received the directive from the government today at 5:21pm (ET). The letter did not provide specific details of its national security concern. Our understanding is that the government believes it has become aware of a method of bypassing, or \"jailbreaking\" Fable 5. We reviewed a demonstration of this specific technique being used to identify a small number of previously known, minor vulnerabilities. These vulnerabilities all appear relatively simple, and we have found that other publicly-available models are able to discover them as well without requiring a bypass. [...] To date, the government has only given us verbal evidence of a potential narrow, non-universal jailbreak, which essentially consists of asking the model to read a specific codebase and fix any software flaws. Our understanding is that one potential jailbreak was shared with the government. We have reviewed the report and validated that the level of capability displayed there is widely available from other models (including OpenAI's GPT-5.5 ), and is used every day by the defenders who keep systems safe. We will share more details over the next 24 hours. I still have access to Fable via claude.ai and Claude Code now, at 9:01pm ET. Update : I ran this script against the Anthropic API to spot when claude-fable-5 would stop working. My access was cut off at 6:59pm Pacific (9:59pm ET): [2026-06-12T18:56:50-07:00] attempt 35: running uv run llm -m claude-fable-5 hi [2026-06-12T18:56:55-07:00] success: Hi there! How can I help you today? [2026-06-12T18:57:55-07:00] attempt 36: running uv run llm -m claude-fable-5 hi [2026-06-12T18:57:59-07:00] success: Hi! How can I help you today? [2026-06-12T18:58:59-07:00] attempt 37: running uv run llm -m claude-fable-5 hi [2026-06-12T18:59:00-07:00] FAILED after attempt 37 with exit code 1 stderr: Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'Claude Fable 5 is not available. Please use Opus 4.8. Learn more: https://www.anthropic.com/news/fable-mythos-access'}, 'request_id': 'req_011CbzRyirV7KZLHYYdBM9od'} Via @AnthropicAI Tags: jailbreaking , ai , generative-ai , llms , anthropic , claude , ai-ethics , claude-mythos",
-      "image": "",
-      "source": "Simon Willison",
-      "score": null,
-      "category": "Other"
-    },
-    {
-      "guid": "https://simonwillison.net/2026/Jun/12/openai-webrtc/#atom-everything",
-      "title": "OpenAI WebRTC Audio Session, now with document context",
-      "link": "https://simonwillison.net/2026/Jun/12/openai-webrtc/#atom-everything",
-      "authors": [],
-      "date": "2026-06-12T23:53:04+00:00",
-      "summary": "OpenAI WebRTC Audio Session, now with document context I built the first version of this tool in December 2024 to try out the then-new OpenAI WebRTC API for interacting with their realtime audio models. Last month OpenAI introduced a brand new model to that API called GPT‑Realtime‑2 , which they promoted as \"our first voice model with GPT‑5‑class reasoning\" - with a Sep 30, 2024 knowledge cut-off. I've been waiting for that model to show up in the ChatGPT iPhone app but it still hasn't, so I revisited my old playground. You can now pick the better model, and you can also paste in a big chunk of document context so you can have as audio conversation in your browser about whatever information you think would be useful to explore in a conversational way. Tags: audio , tools , ai , openai , generative-ai , llms , multi-modal-output , webrtc",
-      "image": "",
-      "source": "Simon Willison",
-      "score": null,
-      "category": "Other"
-    },
-    {
-      "guid": "https://simonwillison.net/2026/Jun/12/andrew-singleton/#atom-everything",
-      "title": "Quoting Andrew Singleton",
-      "link": "https://simonwillison.net/2026/Jun/12/andrew-singleton/#atom-everything",
-      "authors": [],
-      "date": "2026-06-12T18:09:21+00:00",
-      "summary": "Jenny owns a crematorium. John’s propane company gives her a $20 billion investment in return for 5 percent of her operation. Jenny throws $10 billion into the incinerator, then pays John $10 billion to buy propane to burn that money to ashes. John reports that his AI investments have generated $10 billion in revenue this quarter and that he owns 5 percent of a $100 billion business. A reporter from Forbes is assigned to profile John and Jenny, and over the course of his research, he becomes embroiled in a passionate but confusing three-way love affair with them, which eventually turns into a polyamorous common-law marriage. His profile is glowing, but light on financial details. — Andrew Singleton , AI Economics for Dummies Tags: ai",
       "image": "",
       "source": "Simon Willison",
       "score": null,

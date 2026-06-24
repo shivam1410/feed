@@ -8,7 +8,7 @@ date: "2026-06-17"
 score: ""
 guid: "10.1038/s41586-026-10614-4"
 image: ""
-generated: "2026-06-23T19:00:42+05:30"
+generated: "2026-06-24T19:00:41+05:30"
 ---
 
 Although Antarctic ice loss projections diverge widely by 2100, this Perspective shows that present-day rates robustly predict mid-century sea level rise, providing a firm basis for near-term planning, while highlighting priorities for model development aimed at resolving longer-term sea level rise uncertainty.

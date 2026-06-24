@@ -8,7 +8,7 @@ date: "2026-06-17"
 score: ""
 guid: "10.1038/s41586-026-10657-7"
 image: ""
-generated: "2026-06-23T19:00:42+05:30"
+generated: "2026-06-24T19:00:41+05:30"
 ---
 
 Cryo-electron microscopy and biochemical reconstitution experiments in yeast provide insight into the assembly of the CMGE complex, a helicase that establishes bidirectional DNA replication in eukaryotic cells, and elucidate the role of the firing factor Sld2.

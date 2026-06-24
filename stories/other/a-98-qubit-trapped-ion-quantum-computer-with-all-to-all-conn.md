@@ -8,7 +8,7 @@ date: "2026-06-17"
 score: ""
 guid: "10.1038/s41586-026-10676-4"
 image: ""
-generated: "2026-06-23T19:00:42+05:30"
+generated: "2026-06-24T19:00:41+05:30"
 ---
 
 A new quantum computer, Quantinuum Helios, which is a 98-qubit trapped-ion quantum processor built on the QCCD architecture, demonstrates performance well beyond classical capabilities and provides a path for scaling up quantum computing.

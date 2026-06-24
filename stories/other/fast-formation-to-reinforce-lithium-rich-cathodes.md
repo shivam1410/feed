@@ -8,7 +8,7 @@ date: "2026-06-17"
 score: ""
 guid: "10.1038/s41586-025-09553-3"
 image: ""
-generated: "2026-06-23T19:00:42+05:30"
+generated: "2026-06-24T19:00:41+05:30"
 ---
 
 Fast formation in lithium-ion batteries outperforms conventional slow formation, lowering costs and improving battery capacity, stability and cycle life, offering broader application to electrode systems.

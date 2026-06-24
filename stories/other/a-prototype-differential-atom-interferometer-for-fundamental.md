@@ -8,7 +8,7 @@ date: "2026-06-17"
 score: ""
 guid: "10.1038/s41586-026-10617-1"
 image: ""
-generated: "2026-06-23T19:00:42+05:30"
+generated: "2026-06-24T19:00:41+05:30"
 ---
 
 A prototype differential atom interferometer operates at the standard quantum limit with no excess noise beyond atom shot noise, achieving performance in line with the specifications for future long-baseline atom interferometers.

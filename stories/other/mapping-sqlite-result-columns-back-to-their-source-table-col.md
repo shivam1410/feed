@@ -8,7 +8,7 @@ date: "2026-06-13T23:05:00+00:00"
 score: ""
 guid: "https://simonwillison.net/2026/Jun/13/sqlite-column-provenance/#atom-everything"
 image: ""
-generated: "2026-06-23T19:00:42+05:30"
+generated: "2026-06-24T19:00:41+05:30"
 ---
 
 Research: Mapping SQLite result columns back to their source `table.column` It would be neat if arbitrary SQL queries in Datasette could be rendered with additional information based on which columns from which tables were included in the results. To build that, we would need to be able to look at a SQL query like select users.name, orders.total from users join orders on orders.user_id = users.id and programmatically identify the table.column for each result - navigating not just joins but also more complex syntax like CTEs. I decided to set Claude Code (Opus 4.8, since Fable is currently banned by the US government ) on the problem. It found several promising solutions - one using apsw , another that uses ctypes to access the SQLite sqlite3_column_table_name() C function (which is not otherwise exposed to Python), and one using clever interrogation of the output of EXPLAIN . Tags: python , sqlite , datasette

@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/s41586-026-10698-y"
 authors: ["Zhenyu Xiao", "Yandong Gong", "Xiaolong Yang", "Nannan He", "Xinyuan Wang", "Guoju You", "Hanlin Zhu", "Yingping Liang", "Xinwei Xie", "Baoqi Fang", "Gaoke Liu", "Bing Liu", "Yu Lan"]
 date: "2026-06-24"
-score: 72
+score: 75
 guid: "10.1038/s41586-026-10698-y"
 image: ""
-generated: "2026-06-25T19:05:48+05:30"
+generated: "2026-06-27T19:06:06+05:30"
 ---
 
-High-resolution spatial transcriptome analysis of a human embryo at Carnegie stage 6 reveals three distinct developmental trajectories from the epiblast towards amnion, primitive streak and axial mesoderm, and detects the initiation of haematopoiesis before gastrulation, originating from hypoblast rather than epiblast.
+Advanced spatial transcriptome analysis of a stage-6 human embryo mapped three distinct developmental pathways: epiblast cells differentiate toward amnion, primitive streak, and axial mesoderm. The study revealed blood cell formation initiates surprisingly early—before gastrulation—and originates from hypoblast tissue rather than epiblast as previously believed. This challenges conventional understanding of embryonic blood development timing and cellular origin. High-resolution observations provide unprecedented detail about human embryonic development during its earliest stages, refining models of how tissues and organs emerge from pluripotent cell populations.

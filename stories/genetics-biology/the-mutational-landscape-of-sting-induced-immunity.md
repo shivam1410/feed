@@ -8,7 +8,7 @@ date: "2026-06-24"
 score: 70
 guid: "10.1038/s41586-026-10685-3"
 image: ""
-generated: "2026-06-25T19:05:48+05:30"
+generated: "2026-06-27T19:06:06+05:30"
 ---
 
 A massively parallel assay systematically charts the sequence-function landscape of the STING signalling protein, and the findings define molecular principles that tune STING activity and show its functional potential across immune contexts.

@@ -1,106 +1,106 @@
 {
-  "generatedAt": "2026-06-25T19:06:23+05:30",
+  "generatedAt": "2026-06-27T19:06:35+05:30",
   "source": "Hugging Face — trending models",
   "models": [
     {
-      "id": "zai-org/GLM-5.2",
-      "task": "text-generation",
-      "likes": 2426,
-      "downloads": 67107,
-      "library": "transformers",
-      "createdAt": "2026-06-16T07:39:20.000Z",
-      "url": "https://huggingface.co/zai-org/GLM-5.2",
-      "summary": "Open-source text generation model with 1M-token context, advanced coding, and multiple thinking effort levels for long-horizon tasks."
-    },
-    {
       "id": "baidu/Unlimited-OCR",
       "task": "image-text-to-text",
-      "likes": 826,
-      "downloads": 70743,
+      "likes": 1102,
+      "downloads": 212760,
       "library": "transformers",
       "createdAt": "2026-06-19T09:40:33.000Z",
       "url": "https://huggingface.co/baidu/Unlimited-OCR",
-      "summary": "Vision-language OCR model for extracting text from images with support for long documents and multiple languages."
+      "summary": "Vision-language OCR model for document parsing and long-form text extraction from images."
     },
     {
-      "id": "yuxinlu1/gemma-4-12B-coder-fable5-composer2.5-v1-GGUF",
+      "id": "zai-org/GLM-5.2",
       "task": "text-generation",
-      "likes": 2323,
-      "downloads": 495813,
+      "likes": 2640,
+      "downloads": 98994,
+      "library": "transformers",
+      "createdAt": "2026-06-16T07:39:20.000Z",
+      "url": "https://huggingface.co/zai-org/GLM-5.2",
+      "summary": "Long-context text generation model with 1M tokens, advanced coding capabilities, and flexible thinking effort levels."
+    },
+    {
+      "id": "empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
+      "task": "image-text-to-text",
+      "likes": 639,
+      "downloads": 712627,
       "library": "gguf",
-      "createdAt": "2026-06-10T07:24:02.000Z",
-      "url": "https://huggingface.co/yuxinlu1/gemma-4-12B-coder-fable5-composer2.5-v1-GGUF",
-      "summary": "Locally-runnable 12B coding model that reasons through problems and generates tested Python solutions on modest hardware."
+      "createdAt": "2026-06-19T14:32:14.000Z",
+      "url": "https://huggingface.co/empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
+      "summary": "GGUF-quantized 9B reasoning model with 1M-token context, function calling, and multimodal capabilities for local inference."
     },
     {
       "id": "yuxinlu1/gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF",
       "task": "text-generation",
-      "likes": 571,
-      "downloads": 165187,
+      "likes": 709,
+      "downloads": 206828,
       "library": "gguf",
       "createdAt": "2026-06-19T00:06:07.000Z",
       "url": "https://huggingface.co/yuxinlu1/gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF",
-      "summary": "12B agentic coding model that reads, reasons, uses tools, and handles multi-step technical tasks locally."
+      "summary": "Local 12B agentic coding model with tool-use and reasoning for autonomous technical tasks and code generation."
     },
     {
-      "id": "empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
+      "id": "yuxinlu1/gemma-4-12B-coder-fable5-composer2.5-v1-GGUF",
       "task": "text-generation",
-      "likes": 427,
-      "downloads": 134294,
+      "likes": 2417,
+      "downloads": 536130,
       "library": "gguf",
-      "createdAt": "2026-06-19T14:32:14.000Z",
-      "url": "https://huggingface.co/empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
-      "summary": "GGUF-quantized 9B reasoning model with 1M-token context, function calling, and native tool use for technical reasoning tasks."
-    },
-    {
-      "id": "WeiboAI/VibeThinker-3B",
-      "task": "text-generation",
-      "likes": 706,
-      "downloads": 51717,
-      "library": "transformers",
-      "createdAt": "2026-06-12T11:43:29.000Z",
-      "url": "https://huggingface.co/WeiboAI/VibeThinker-3B",
-      "summary": "3B reasoning model specialized in mathematics, code, and STEM problems with verified solutions, not tool-use focused."
+      "createdAt": "2026-06-10T07:24:02.000Z",
+      "url": "https://huggingface.co/yuxinlu1/gemma-4-12B-coder-fable5-composer2.5-v1-GGUF",
+      "summary": "12B coding model with chain-of-thought reasoning, fine-tuned on Python code for verified, tested solutions."
     },
     {
       "id": "empero-ai/Qwythos-9B-Claude-Mythos-5-1M",
       "task": "text-generation",
-      "likes": 352,
-      "downloads": 10160,
+      "likes": 465,
+      "downloads": 30298,
       "library": "transformers",
       "createdAt": "2026-06-19T14:01:14.000Z",
       "url": "https://huggingface.co/empero-ai/Qwythos-9B-Claude-Mythos-5-1M",
-      "summary": "Uncensored 9B reasoning model with 1M-token context and native function calling, post-trained on 500M+ Claude reasoning tokens."
+      "summary": "Uncensored 9B reasoning model with 1M-token context and native function calling for agentic technical tasks."
     },
     {
-      "id": "unsloth/GLM-5.2-GGUF",
+      "id": "Qwen/Qwen-AgentWorld-35B-A3B",
       "task": "text-generation",
-      "likes": 370,
-      "downloads": 88915,
-      "library": null,
-      "createdAt": "2026-06-17T00:21:36.000Z",
-      "url": "https://huggingface.co/unsloth/GLM-5.2-GGUF",
-      "summary": "GGUF-quantized version of GLM-5.2 optimized for local inference with support for flexible thinking effort levels."
+      "likes": 341,
+      "downloads": 18872,
+      "library": "transformers",
+      "createdAt": "2026-06-22T14:49:37.000Z",
+      "url": "https://huggingface.co/Qwen/Qwen-AgentWorld-35B-A3B",
+      "summary": "Language world model simulating seven agentic interaction domains via chain-of-thought reasoning and next-state prediction."
     },
     {
       "id": "krea/Krea-2-Turbo",
       "task": "text-to-image",
-      "likes": 221,
-      "downloads": 2996,
+      "likes": 304,
+      "downloads": 17445,
       "library": "diffusers",
       "createdAt": "2026-06-18T04:50:10.000Z",
       "url": "https://huggingface.co/krea/Krea-2-Turbo",
-      "summary": "High-resolution text-to-image diffusion model capable of generating images up to 2048×2048 in 8 inference steps."
+      "summary": "Diffusion Transformer text-to-image model with 12B parameters for fast, high-quality image generation."
     },
     {
-      "id": "HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
-      "task": "image-text-to-text",
-      "likes": 2219,
-      "downloads": 3520206,
-      "library": null,
-      "createdAt": "2026-04-17T00:15:26.000Z",
-      "url": "https://huggingface.co/HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
-      "summary": "Uncensored 35B multimodal model based on Qwen3.6 with vision capabilities, supporting multiple languages without safety refusals."
+      "id": "deepreinforce-ai/Ornith-1.0-35B-GGUF",
+      "task": "text-generation",
+      "likes": 273,
+      "downloads": 20266,
+      "library": "transformers",
+      "createdAt": "2026-06-25T04:56:44.000Z",
+      "url": "https://huggingface.co/deepreinforce-ai/Ornith-1.0-35B-GGUF",
+      "summary": "35B agentic coding model using self-improving RL to optimize solution scaffolds and generation quality."
+    },
+    {
+      "id": "WeiboAI/VibeThinker-3B",
+      "task": "text-generation",
+      "likes": 737,
+      "downloads": 57521,
+      "library": "transformers",
+      "createdAt": "2026-06-12T11:43:29.000Z",
+      "url": "https://huggingface.co/WeiboAI/VibeThinker-3B",
+      "summary": "3B reasoning model optimized for mathematics and coding with strong performance on competitive problem solving."
     }
   ]
 }

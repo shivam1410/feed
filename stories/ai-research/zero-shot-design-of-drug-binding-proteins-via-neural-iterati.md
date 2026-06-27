@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/s41586-026-10670-w"
 authors: ["Benjamin Fry", "Kaia Slaw", "Nicholas F. Polizzi"]
 date: "2026-06-24"
-score: 82
+score: 80
 guid: "10.1038/s41586-026-10670-w"
 image: ""
-generated: "2026-06-25T19:05:48+05:30"
+generated: "2026-06-27T19:06:06+05:30"
 ---
 
-By pairing two neural networks in an iterative optimization algorithm, researchers have achieved zero-shot design of small-molecule binding proteins from scratch—proteins that don't exist in nature but bind drug molecules with high accuracy and affinity. The method shows high success rates across diverse design challenges. This capability transforms protein engineering from laborious trial-and-error into rational, AI-guided design workflow. Applications span drug delivery (proteins transporting therapeutics) and drug sequestration (proteins neutralizing harmful molecules). Zero-shot design means proteins function on first attempt, dramatically accelerating development. This advance represents a major step toward AI-driven rational medicine and personalized protein drugs.
+Researchers developed a computational approach pairing two neural networks in an iterative optimization algorithm to design proteins that bind small-molecule drugs with high precision. The system creates functional binding proteins from scratch without template proteins or prior examples, achieving high accuracy, binding affinity, and success rates. This zero-shot design capability represents a breakthrough in protein engineering. Designed proteins show promise for targeted drug delivery and selective sequestration applications. The advance demonstrates how artificial intelligence accelerates protein engineering, potentially reducing development timelines for therapeutic approaches.

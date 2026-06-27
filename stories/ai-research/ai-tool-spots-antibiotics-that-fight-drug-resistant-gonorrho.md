@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/d41586-026-01987-7"
 authors: []
 date: "2026-06-24"
-score: 75
+score: 80
 guid: "10.1038/d41586-026-01987-7"
 image: ""
-generated: "2026-06-25T19:05:48+05:30"
+generated: "2026-06-27T19:06:06+05:30"
 ---
 
-The bacterium Neisseria gonorrhoeae has evolved resistance to most antibiotics used to treat it, but a machine-learning screen reveals potential therapies.
+Researchers have used artificial intelligence and machine-learning screening to identify potential new antibiotics against Neisseria gonorrhoeae, the bacterium causing gonorrhea that has evolved resistance to nearly all conventional antibiotic treatments. As this pathogen has progressively gained resistance to existing drugs, it has become increasingly difficult to treat, creating a major public health concern. The machine-learning approach rapidly screened large compound libraries to identify drug candidates potentially effective against resistant strains. This demonstrates how computational methods accelerate therapy identification when pathogens develop multi-drug resistance.

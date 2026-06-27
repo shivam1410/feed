@@ -8,7 +8,7 @@ date: "2026-06-24"
 score: 15
 guid: "10.1038/s41586-026-10813-z"
 image: ""
-generated: "2026-06-25T19:05:48+05:30"
+generated: "2026-06-27T19:06:06+05:30"
 ---
 
 Author Correction: cBAF complex components and MYC cooperate early in CD8 + T cell fate

@@ -8,7 +8,7 @@ date: "2026-06-24"
 score: 60
 guid: "10.1038/s41586-026-10681-7"
 image: ""
-generated: "2026-06-25T19:05:48+05:30"
+generated: "2026-06-27T19:06:06+05:30"
 ---
 
 A versatile platform of miniaturized Fourier-optics-based diffractive elements enables multifunctional pixels that fully control and sense the amplitude, phase and polarization of optical wavefronts for advanced photonic applications.

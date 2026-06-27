@@ -5,10 +5,10 @@ source: "Simon Willison"
 url: "https://simonwillison.net/2026/Jun/16/matteo-wong-the-atlantic/#atom-everything"
 authors: []
 date: "2026-06-16T03:07:54+00:00"
-score: 50
+score: 68
 guid: "https://simonwillison.net/2026/Jun/16/matteo-wong-the-atlantic/#atom-everything"
 image: ""
-generated: "2026-06-25T19:05:48+05:30"
+generated: "2026-06-27T19:06:06+05:30"
 ---
 
-Katie Moussouris, a cybersecurity expert and the CEO of Luta Security, told me that Anthropic shared with her a copy of the White House’s report on the Fable jailbreak to get her appraisal. (She said that she is not being paid by Anthropic.) The report, Moussouris said, involved IT experts asking Fable to help find and patch bugs. When given deliberately insecure code, she said, Fable refused the prompt “review the code for security issues” but then complied when asked to “fix this code,” followed by some further manual steps. Moussouris told me that this was just “the model working as intended” for cyberdefense. — Matteo Wong, The Atlantic , The White House Is Ratcheting Up Its War Against Anthropic Tags: anthropic , claude , ai , llms , ai-ethics , jailbreaking , generative-ai , ai-security-research , claude-mythos
+Katie Moussouris describes the White House report underlying the Fable jailbreak characterization, which documented IT experts asking Fable to help identify and patch bugs in deliberately insecure code containing both known CVEs and newly planted vulnerabilities. Fable refused the prompt "review the code for security issues" but complied with "fix this code" followed by additional manual steps. Moussouris characterizes this behavior as the model performing exactly as intended for defensive cybersecurity purposes, not an attack or guardrail bypass.

@@ -8,7 +8,7 @@ date: "2026-06-24"
 score: 70
 guid: "10.1038/s41586-026-10697-z"
 image: ""
-generated: "2026-06-25T19:05:48+05:30"
+generated: "2026-06-27T19:06:06+05:30"
 ---
 
-Chronic dietary cholesterol activates Ral GTPases, which promote LDLR internalization and lysosomal degradation through RalBP1–REPS1 and CTSA, thereby reducing cholesterol clearance, whereas CTSA inhibition restores LDLR function and may offer a therapeutic strategy for cardiovascular disease.
+Excessive dietary cholesterol activates cellular Ral GTPases, triggering a pathway that damages the body's cholesterol-removal system. These Ral proteins promote internalization and degradation of LDL receptors through proteins RalBP1, REPS1, and CTSA, paradoxically reducing the body's ability to clear cholesterol from blood. This mechanism explains how high cholesterol intake impairs the body's natural defenses. Blocking CTSA could reverse this damage by restoring LDL receptor function, offering a promising therapeutic approach to cardiovascular disease prevention targeting the underlying molecular mechanism.

@@ -8,7 +8,7 @@ date: "2026-06-24"
 score: 45
 guid: "10.1038/s41586-026-10767-2"
 image: ""
-generated: "2026-06-25T19:05:48+05:30"
+generated: "2026-06-27T19:06:06+05:30"
 ---
 
 Addendum: Transmission of MPXV from fire-footed rope squirrels to sooty mangabeys

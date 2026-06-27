@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/s41586-026-10704-3"
 authors: ["Jianghai Peng", "Jiwei Li", "Johannes R. Krause", "Mitchell B. Lyons", "Nicholas J. Murray", "Steven R. Schill", "Chris M. Roelfsema", "Gregory P. Asner"]
 date: "2026-06-24"
-score: 78
+score: 65
 guid: "10.1038/s41586-026-10704-3"
 image: ""
-generated: "2026-06-25T19:05:48+05:30"
+generated: "2026-06-27T19:06:06+05:30"
 ---
 
-New global high-resolution mapping reveals a seagrass crisis unfolding since 2019, documenting widespread loss and degradation across the world's coastal ecosystems. The troubling finding: most seagrass meadows exist outside protected areas, leaving them vulnerable to continued decline. Seagrass meadows are critical ecosystems that support marine biodiversity, sequester carbon, and stabilize coastal sediments. This geographic gap in protection—showing conservation efforts have failed to adequately safeguard these vital habitats—demands urgent policy intervention. The study underscores both the accelerating need for expanded marine protected areas and integration of seagrass conservation into climate-adaptation strategies.
+Global high-resolution mapping reveals widespread seagrass loss and degradation since 2019, identifying a critical conservation challenge. Most seagrass meadows remain unprotected, leaving them vulnerable to continued decline from human activities and environmental stressors. Seagrass ecosystems provide essential services including carbon storage, coastal protection, and habitat for marine biodiversity. The findings highlight urgent needs for expanded marine conservation policies and climate mitigation efforts to reverse decline. Without intervention, further loss threatens ecosystem services and marine biodiversity worldwide.

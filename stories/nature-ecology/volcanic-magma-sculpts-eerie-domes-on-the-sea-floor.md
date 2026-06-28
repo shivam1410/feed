@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/d41586-026-01986-8"
 authors: []
 date: "2026-06-24"
-score: 55
+score: 50
 guid: "10.1038/d41586-026-01986-8"
 image: ""
-generated: "2026-06-27T19:06:06+05:30"
+generated: "2026-06-28T19:19:18+05:30"
 ---
 
-Submarine volcanic activity creates distinctive seafloor formations when carbon dioxide bubbling from geological depths solidifies on the ocean floor. These mineral domes reach heights up to five metres, providing visible evidence of subsurface CO2 movement and interaction with marine environments. The formations document how volcanic-driven chemical processes shape deep-sea topography and reveal pathways of carbon release from Earth's interior. Studying these structures helps geologists understand carbon cycling and volcanic activity in ocean basins.
+Underwater volcanic activity creates distinctive dome-shaped formations on the seafloor when carbon dioxide bubbling upward from deep geothermal reservoirs solidifies into mineral structures reaching heights of up to five meters. These geological formations create striking landscape features across volcanic seabeds and provide insight into deep-ocean geochemistry and hydrothermal processes. Understanding these formations matters for marine geology because they reveal how subsurface geothermal activity shapes underwater landscapes and influences chemical cycling in ocean systems. The domes also create specialized habitats for extremophile microorganisms and serve as natural laboratories.

@@ -8,7 +8,7 @@ date: "2026-06-24"
 score: 70
 guid: "10.1038/s41586-026-10688-0"
 image: ""
-generated: "2026-06-27T19:06:06+05:30"
+generated: "2026-06-28T19:19:18+05:30"
 ---
 
 AI models for medical diagnostics are vulnerable to membership inference attacks.

@@ -8,7 +8,7 @@ date: "2026-06-08T20:00:00.000Z"
 score: 70
 guid: "2606.11445"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2606.11445.png"
-generated: "2026-06-27T19:06:06+05:30"
+generated: "2026-06-28T19:19:18+05:30"
 ---
 
 Behavior Forecasters are trained to predict large reasoning model outputs from single trajectories, outperforming large language models while requiring significantly less computational cost.

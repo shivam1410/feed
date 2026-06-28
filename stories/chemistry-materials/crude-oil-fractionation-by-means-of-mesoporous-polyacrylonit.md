@@ -8,7 +8,7 @@ date: "2026-06-24"
 score: 55
 guid: "10.1038/s41586-026-10677-3"
 image: ""
-generated: "2026-06-27T19:06:06+05:30"
+generated: "2026-06-28T19:19:18+05:30"
 ---
 
 Porous polyacrylonitrile membranes—typically used as non-selective support layers—can be used to achieve effective molecular refining of crude oil at steady state, enabling substantial reductions in energy consumption, cooling water, and CO2 emissions compared with distillation processes.

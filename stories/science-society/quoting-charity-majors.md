@@ -5,10 +5,10 @@ source: "Simon Willison"
 url: "https://simonwillison.net/2026/Jun/17/charity-majors/#atom-everything"
 authors: []
 date: "2026-06-17T17:12:41+00:00"
-score: 65
+score: 78
 guid: "https://simonwillison.net/2026/Jun/17/charity-majors/#atom-everything"
 image: ""
-generated: "2026-06-27T19:06:06+05:30"
+generated: "2026-06-28T19:19:18+05:30"
 ---
 
-What happened in 2025 was this: the economics of code production were turned upside down . Instead of being very hard, time-consuming, and expensive to generate code, it became effectively free and instant. Lines of code went from being treasured, reused, cared for and carefully curated, to being disposable and regenerable, practically overnight. — Charity Majors , AI demands more engineering discipline. Not less Tags: charity-majors , ai-assisted-programming , generative-ai , ai , llms
+Charity Majors observes 2025 inverted code economics: generating new code became effectively free and instant, flipping decades where lines were treasured and carefully curated. Shift changes engineering focus from preserving scarce code to managing abundant disposable code. Reflects broader industry consequence of AI-assisted coding: code abundance requires new discipline in architecture, testing, and maintenance since regenerating code cheaply does not guarantee correct, secure, maintainable systems.

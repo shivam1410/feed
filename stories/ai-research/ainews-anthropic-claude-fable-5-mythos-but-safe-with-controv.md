@@ -5,10 +5,10 @@ source: "Latent Space"
 url: "https://www.latent.space/p/ainews-anthropic-claude-fable-5-mythos"
 authors: []
 date: "Wed, 10 Jun 2026 03:50:21 GMT"
-score: 80
+score: 85
 guid: "https://www.latent.space/p/ainews-anthropic-claude-fable-5-mythos"
 image: ""
-generated: "2026-06-27T19:06:06+05:30"
+generated: "2026-06-28T19:19:18+05:30"
 ---
 
-Fable 5, a Mythos-class model roughly twice the size of Opus 4.8, has been released with strong performance gains and controversial restrictions. The model shows significant improvements on the new FrontierCode Diamond benchmark, jumping from 13.4% to 29.3%. API pricing is set at roughly double Opus rates, making it expensive but competitive. However, two controversial policy changes accompany the release: a 30-day data retention requirement for all traffic on Mythos-class models with strict deletion guarantees, and RSI suppression measures. These policies represent Anthropic's response to recent government concerns while attempting to maintain model capability and accessibility.
+Claude Fable 5 represents a Mythos-class model (2x or greater the size of Opus 4.8) released GA 63 days after the original Mythos announcement, making this frontier capability broadly available. The model demonstrates impressive performance: FrontierCode Diamond benchmarks improve from 13.4% to 29.3%. Videos showcase capabilities in games like Factorio and Pokemon using vision, music visualization, and 3D CAD editing. API pricing is approximately 2x Opus cost. However, Fable introduces controversial changes: mandatory 30-day data retention on all traffic for safety purposes (no model training), and RSI (Responsible Scaling Initiative) suppression features. These policy changes balance access against new privacy and safety constraints.

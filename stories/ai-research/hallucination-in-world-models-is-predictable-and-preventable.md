@@ -5,10 +5,10 @@ source: "HF Trending Papers"
 url: "https://huggingface.co/papers/2606.27326"
 authors: ["Nicklas Hansen", "Xiaolong Wang"]
 date: "2026-06-24T20:00:00.000Z"
-score: 70
+score: 75
 guid: "2606.27326"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2606.27326.png"
-generated: "2026-06-27T19:06:06+05:30"
+generated: "2026-06-28T19:19:18+05:30"
 ---
 
 World models exhibit hallucinations in low-data regions of state-action space, which can be detected and mitigated using data-centric signals and coverage-aware sampling techniques.

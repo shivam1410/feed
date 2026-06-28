@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/s41586-026-10567-8"
 authors: ["Henry F. Legg"]
 date: "2026-06-24"
-score: 45
+score: 35
 guid: "10.1038/s41586-026-10567-8"
 image: ""
-generated: "2026-06-27T19:06:06+05:30"
+generated: "2026-06-28T19:19:18+05:30"
 ---
 
 On the robustness of topological gap detection via transport

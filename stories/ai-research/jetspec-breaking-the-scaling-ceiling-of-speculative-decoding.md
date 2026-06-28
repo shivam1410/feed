@@ -8,7 +8,7 @@ date: "2026-06-24T20:00:00.000Z"
 score: 70
 guid: "2606.18394"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2606.18394.png"
-generated: "2026-06-27T19:06:06+05:30"
+generated: "2026-06-28T19:19:18+05:30"
 ---
 
 JetSpec is a speculative decoding framework that combines efficient forward drafting with causal conditioning to improve LLM inference speed and acceptance rates across various benchmarks.

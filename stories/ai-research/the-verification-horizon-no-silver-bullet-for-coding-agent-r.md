@@ -8,7 +8,7 @@ date: "2026-06-23T20:00:00.000Z"
 score: 65
 guid: "2606.26300"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2606.26300.png"
-generated: "2026-06-27T19:06:06+05:30"
+generated: "2026-06-28T19:19:18+05:30"
 ---
 
 Verification challenges in AI agents arise from the difficulty of aligning proxy signals with human intent, requiring adaptive verification systems that evolve alongside generative capabilities.

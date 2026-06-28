@@ -8,7 +8,7 @@ date: "2026-06-24"
 score: 75
 guid: "10.1038/s41586-026-10702-5"
 image: ""
-generated: "2026-06-27T19:06:06+05:30"
+generated: "2026-06-28T19:19:18+05:30"
 ---
 
-Using the Angular Distribution of Pairwise Distances statistical method, astronomers detected coherent anisotropic structures extending across gigaparsec scales—vast cosmic distances. This finding challenges a fundamental cosmological assumption: that the universe becomes uniformly isotropic in all directions at sufficiently large scales. The detected directional patterns suggest the universe retains structural asymmetries even at cosmic scales where uniformity was expected. These results have profound implications for cosmological models and our understanding of large-scale structure formation, raising questions about persistent asymmetries in cosmic matter distribution.
+Using parameter-free Angular Distribution of Pairwise Distances analysis, researchers detected coherent anisotropic structures extending over gigaparsec scales in cosmic distribution. This challenges the fundamental cosmological assumption that the Universe becomes statistically isotropic on sufficiently large scales, indicating persistent directional asymmetry.

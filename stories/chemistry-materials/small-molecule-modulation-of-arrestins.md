@@ -8,7 +8,7 @@ date: "2026-06-24"
 score: 55
 guid: "10.1038/s41586-026-10683-5"
 image: ""
-generated: "2026-06-27T19:06:06+05:30"
+generated: "2026-06-28T19:19:18+05:30"
 ---
 
-Integrated pharmacological, biochemical, biophysical and structural analyses of small-molecule β-arrestin inhibitors show how they block β-arrestin engagement with activated GPCRs, revealing their mechanism of action and uncovering a previously unrecognized allosteric regulatory site.
+Advanced pharmacological and structural analyses of small-molecule β-arrestin inhibitors have revealed how these drugs function at the molecular level by blocking β-arrestin proteins from engaging with activated G-protein-coupled receptors (GPCRs). The research uncovered a previously unknown allosteric regulatory site where inhibitor molecules bind to exert their effects. Understanding this mechanism matters because β-arrestins regulate numerous cellular signaling pathways implicated in disease, making their specific inhibition potentially therapeutic for multiple conditions. This structural knowledge can inform development of more effective drugs targeting β-arrestin signaling.

@@ -8,7 +8,7 @@ date: "2026-06-25"
 score: 20
 guid: "10.1038/s41586-026-10829-5"
 image: ""
-generated: "2026-06-27T19:06:06+05:30"
+generated: "2026-06-28T19:19:18+05:30"
 ---
 
 Publisher Correction: In situ nanocrystal confinement for efficient blue perovskite LEDs

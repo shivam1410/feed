@@ -8,7 +8,7 @@ date: "2026-06-24"
 score: 75
 guid: "10.1038/d41586-026-01704-4"
 image: ""
-generated: "2026-06-27T19:06:06+05:30"
+generated: "2026-06-28T19:19:18+05:30"
 ---
 
-Genetic analysis of Neanderthal skeletal remains is challenging established assumptions about these ancient hominins and raising new research questions. Though the excerpt provides no specific findings, the data-driven approach suggests important revisions to our understanding of Neanderthal population dynamics and extinction. Understanding Neanderthal genetics illuminates human evolutionary history.
+A surge of genetic data from the skeletal remains of Neanderthals disproves some assumptions and generates fresh questions about these ancient hominins.

@@ -8,7 +8,7 @@ date: "2026-06-14T20:00:00.000Z"
 score: 70
 guid: "2606.16316"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2606.16316.png"
-generated: "2026-06-27T19:06:06+05:30"
+generated: "2026-06-28T19:19:18+05:30"
 ---
 
 RL-Index introduces an agentic indexing framework that shifts reasoning from query time to indexing stage by using LLM-generated rationales and reinforcement learning to improve retrieval effectiveness and reduce latency.

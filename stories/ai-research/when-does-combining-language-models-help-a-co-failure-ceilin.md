@@ -5,10 +5,10 @@ source: "HF Trending Papers"
 url: "https://huggingface.co/papers/2606.27288"
 authors: ["Josef Chen"]
 date: "2026-06-24T20:00:00.000Z"
-score: 70
+score: 75
 guid: "2606.27288"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2606.27288.png"
-generated: "2026-06-27T19:06:06+05:30"
+generated: "2026-06-28T19:19:18+05:30"
 ---
 
 Multi-model systems face fundamental accuracy limits determined by the rate at which all models fail simultaneously, regardless of their individual correlations or ensemble strategies.

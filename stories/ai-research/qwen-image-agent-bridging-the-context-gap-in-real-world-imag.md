@@ -8,7 +8,7 @@ date: "2026-06-24T20:00:00.000Z"
 score: 70
 guid: "2606.26907"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2606.26907.png"
-generated: "2026-06-27T19:06:06+05:30"
+generated: "2026-06-28T19:19:18+05:30"
 ---
 
 A unified agentic framework called Qwen-Image-Agent is proposed to address the context gap in text-to-image generation by progressively constructing complete generation context through planning, reasoning, searching, and memory mechanisms.

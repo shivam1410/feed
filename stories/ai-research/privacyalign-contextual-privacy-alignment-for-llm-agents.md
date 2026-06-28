@@ -8,7 +8,7 @@ date: "2026-06-18T20:00:00.000Z"
 score: 70
 guid: "2606.21710"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2606.21710.png"
-generated: "2026-06-27T19:06:06+05:30"
+generated: "2026-06-28T19:19:18+05:30"
 ---
 
 Researchers develop a human-centered approach to align AI agents with privacy norms by creating a comprehensive dataset of privacy judgments and using annotation-conditioned reward modeling to improve agent behavior.

@@ -8,7 +8,7 @@ date: "2026-06-25"
 score: 50
 guid: "10.1038/s41586-026-10826-8"
 image: ""
-generated: "2026-06-27T19:06:06+05:30"
+generated: "2026-06-28T19:19:18+05:30"
 ---
 
 Ligand-enabled distal desaturative lactonization of aliphatic acids

@@ -8,7 +8,7 @@ date: "Tue, 14 Apr 2026 15:00:00 +0000"
 score: 65
 guid: "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/gemini-robotics-er-1-6/"
 image: "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-robotics-1.6__page-cover.max-600x600.format-webp.webp"
-generated: "2026-06-27T19:06:06+05:30"
+generated: "2026-06-28T19:19:18+05:30"
 ---
 
-Gemini Robotics ER-1.6 is an upgraded reasoning-focused model designed to help robots better understand their environments. Enhanced reasoning allows robots to interpret complex sensory input more effectively. Better environmental understanding enables robots to adapt to dynamic settings and execute sophisticated autonomous behaviors required for real-world tasks.
+An overview of Gemini Robotics-ER 1.6, an upgrade to our reasoning-first model that helps robots to understand their environment.

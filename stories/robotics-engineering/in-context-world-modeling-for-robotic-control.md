@@ -8,7 +8,7 @@ date: "2026-06-24T20:00:00.000Z"
 score: 70
 guid: "2606.26025"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2606.26025.png"
-generated: "2026-06-28T19:19:18+05:30"
+generated: "2026-06-29T19:05:09+05:30"
 ---
 
-In-Context World Modeling (ICWM) enables robot policies to adapt to novel configurations by inferring system variables directly from self-generated interactions, eliminating the need for parameter retraining. The approach treats system identification as an in-context adaptation problem, allowing robots to understand new task requirements through exploration alone. This is significant because it enables flexible deployment of the same trained policy across diverse robot morphologies and configurations without expensive retraining procedures. By learning to identify system properties through autonomous interaction, robots can rapidly adjust to changes like modified hardware, different sensor arrangements, or altered dynamics, improving practical applicability in real-world robotic systems where conditions frequently change.
+ICWM (In-Context World Modeling) enables robot policies to quickly adapt to novel physical configurations without retraining or updating parameters. The system treats system identification—learning what springs, weights, friction, or geometry a specific robot has—as an in-context learning problem. Robots generate exploratory interactions with their environment, observe the results, and use those observations to infer system variables on-the-fly. This matters because real robots must operate in variable conditions: different payloads, wear, environmental changes, or even different robot instances. Rather than requiring expensive retraining for each scenario, in-context adaptation allows immediate transfer to new configurations, making robots more practical and flexible for deployment across diverse real-world situations.

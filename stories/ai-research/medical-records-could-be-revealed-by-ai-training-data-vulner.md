@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/d41586-026-02032-3"
 authors: ["Benjamin Thompson", "Nick Petrić Howe"]
 date: "2026-06-24"
-score: 75
+score: 65
 guid: "10.1038/d41586-026-02032-3"
 image: ""
-generated: "2026-06-27T19:06:06+05:30"
+generated: "2026-06-29T19:05:09+05:30"
 ---
 
-Researchers have identified a concerning vulnerability in artificial intelligence systems trained on medical records: sensitive patient information can leak from the training data itself. Patients in underrepresented demographic groups face disproportionately higher identification risks when AI models are trained on imbalanced datasets. This finding highlights intersecting challenges in AI privacy and equity—as AI becomes increasingly deployed in healthcare, systems may inadvertently expose sensitive information, particularly affecting minorities already marginalized in medical research. Such vulnerabilities underscore the need for careful data governance.
+Identification risks are more severe for underrepresented groups in the training data — plus, evidence that the Universe is more uneven than assumed.

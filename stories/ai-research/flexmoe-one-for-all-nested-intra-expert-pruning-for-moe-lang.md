@@ -1,0 +1,14 @@
+---
+title: "FlexMoE: One-for-All Nested Intra-Expert Pruning for MoE Language Models"
+category: "AI Research"
+source: "arXiv (cs.LG)"
+url: "https://arxiv.org/abs/2606.27866"
+authors: ["Fan Mo, Yuxuan Han, Geng Zhang, Wangbo Zhao, Yang You"]
+date: "Mon, 29 Jun 2026 00:00:00 -0400"
+score: 50
+guid: "oai:arXiv.org:2606.27866v1"
+image: ""
+generated: "2026-06-29T19:05:09+05:30"
+---
+
+arXiv:2606.27866v1 Announce Type: new Abstract: Mixture-of-Experts (MoE) language models scale model ability with sparsely activated experts, making this architecture a standard recipe for modern large models. However, sparse activation does not remove the deployment burden of storing and serving all experts, and the available deployment budget can vary substantially across devices, users, and workloads. Existing MoE compression methods are still largely fixed-budget, typically optimizing one compressed endpoint at each chosen target budget. We study a different setting: converting a large pretrained MoE LLM into a nested family of deployable subnetworks across budgets. Our method first ranks expert FFN channels by their importance, then lets each expert learn a discrete action to prune its channels. By gradually increasing cost pressure, a single action-training run exports a series of action masks from high to low budgets, each of which identifies a reliable smaller subnetwork nested in the ranked base model. Moreover, we use a single recovery fine-tune at a mid pruning budget (40%) to recover degraded model quality and transfer the recovered model to other unseen budgets. Overall, our framework surpasses recent MoE compression baselines. Specifically, on Qwen2-57B-A14B, our method retains ~99.8% of base performance while pruning 50% of routed expert parameters even without fine-tuning. For deployment, our pruned subnetworks deliver real memory reduction and throughput gains, and further support realtime online budget switching with kernel-level co-design.

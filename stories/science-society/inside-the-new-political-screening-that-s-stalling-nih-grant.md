@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/d41586-026-01924-8"
 authors: ["Max Kozlov"]
 date: "2026-06-26"
-score: 55
+score: 30
 guid: "10.1038/d41586-026-01924-8"
 image: ""
-generated: "2026-06-28T19:19:18+05:30"
+generated: "2026-06-29T19:05:09+05:30"
 ---
 
 Mandatory reviews by top health officials and checks for 235 disfavoured terms have left hundreds of vetted grant applications in administrative limbo.

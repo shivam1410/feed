@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/d41586-026-01994-8"
 authors: ["Miryam Naddaf"]
 date: "2026-06-25"
-score: 75
+score: 60
 guid: "10.1038/d41586-026-01994-8"
 image: ""
-generated: "2026-06-28T19:19:18+05:30"
+generated: "2026-06-29T19:05:09+05:30"
 ---
 
-Analysis of rhythmic patterns in laughter produced by both apes and humans reveals evidence that complex primate vocal control mechanisms began evolving approximately 15 million years ago, when the evolutionary lineages leading to modern apes and humans diverged. These matching laughter rhythms—similar frequencies and temporal patterns—suggest their common ancestor possessed sophisticated vocal production abilities. This discovery matters because it places the evolutionary origin of human speech capability much earlier than previously understood, demonstrating that human linguistic sophistication builds on vocal systems millions of years old and is firmly rooted in primate heritage.
+Humans and great apes share strikingly similar rhythmic patterns of laughter when tickled, suggesting that complex primate vocal control evolved much deeper in evolutionary history than previously thought. Evidence points to sophisticated vocal abilities originating approximately 15 million years ago in primate ancestors. Understanding shared mechanisms between humans and apes illuminates how human speech capabilities emerged over deep evolutionary time, grounding modern human communication in ancient biological roots.

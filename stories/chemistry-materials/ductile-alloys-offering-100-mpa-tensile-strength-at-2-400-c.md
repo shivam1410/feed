@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/s41586-026-10708-z"
 authors: ["Mintao Xue", "Suzhi Li", "Jing Wang", "Jinyang Li", "Xiangdong Ding", "En Ma", "Jun Sun"]
 date: "2026-06-24"
-score: 70
+score: 60
 guid: "10.1038/s41586-026-10708-z"
 image: ""
-generated: "2026-06-28T19:19:18+05:30"
+generated: "2026-06-29T19:05:09+05:30"
 ---
 
-Boron-stabilized oxide-strengthened tantalum alloy achieves 100 MPa tensile strength at 2,400 °C while maintaining exceptional room-temperature ductility. Exceptional combination of high-temperature strength and low-temperature toughness enables structural applications in extreme environments above 2,000 °C.
+A boron-stabilized, oxide-strengthened tantalum alloy achieves 100 MPa tensile strength at 2,400°C while remaining ductile at room temperature. Most metals become brittle at ultrahigh temperatures; this alloy breaks that tradeoff. The development matters for extreme-temperature engineering—rocket nozzles, furnaces, and aerospace engines—where materials must withstand exceptional heat while bearing structural loads.

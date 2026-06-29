@@ -5,10 +5,10 @@ source: "Simon Willison"
 url: "https://simonwillison.net/2026/Jun/22/prompt-injection-as-role-confusion/#atom-everything"
 authors: []
 date: "2026-06-22T23:59:53+00:00"
-score: 82
+score: 75
 guid: "https://simonwillison.net/2026/Jun/22/prompt-injection-as-role-confusion/#atom-everything"
 image: ""
-generated: "2026-06-28T19:19:18+05:30"
+generated: "2026-06-29T19:05:09+05:30"
 ---
 
-Research by Charles Ye, Jasmine Cui, and Dylan Hadfield-Menell demonstrates models cannot distinguish privileged system instructions (wrapped in role tags like <system>, <think>, <assistant>) from untrusted user input. Models weight text formatting and style over semantic content. When user input mimics model internal thinking format, models like gpt-oss-20b override safety training. Rewriting identical text with different formatting—"destyling"—materially changes model classification. Since identical semantic meaning produces different safety outcomes based on style, models lack true semantic understanding of instruction source.
+Research by Ye, Cui, and Hadfield-Menell reveals that LLMs cannot reliably distinguish their own internal system text from untrusted user input. Models prioritize text formatting style over actual content meaning. Models like GPT-OSS-20B can be jailbroken by mimicking internal thinking block style, causing policy overrides. "Destyling" rewritten text materially changes how models classify identical semantic content. This represents a fundamental architectural vulnerability where formatting matters more than instruction content to the model.

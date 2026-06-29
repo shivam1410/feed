@@ -8,7 +8,7 @@ date: "2026-06-25"
 score: 70
 guid: "10.1038/d41586-026-02027-0"
 image: ""
-generated: "2026-06-28T19:19:18+05:30"
+generated: "2026-06-29T19:05:09+05:30"
 ---
 
-Ethical discussions are urgently needed as genome-editing science advances, some researchers say.
+Genome editing of human embryos provides developmental insights but raises urgent ethical questions. Researchers emphasize the need for robust ethical frameworks to guide advancing genome-editing science. The findings advance understanding of human development while highlighting the profound responsibility scientists face in using powerful editing technologies, necessitating society-wide conversation about appropriate boundaries and oversight.

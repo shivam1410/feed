@@ -5,10 +5,10 @@ source: "HF Trending Papers"
 url: "https://huggingface.co/papers/2606.11445"
 authors: ["Mosh Levy", "Yoav Goldberg", "Asa Cooper Stickland"]
 date: "2026-06-08T20:00:00.000Z"
-score: 70
+score: 65
 guid: "2606.11445"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2606.11445.png"
-generated: "2026-06-28T19:19:18+05:30"
+generated: "2026-06-29T19:05:09+05:30"
 ---
 
 Behavior Forecasters are trained to predict large reasoning model outputs from single trajectories, outperforming large language models while requiring significantly less computational cost.

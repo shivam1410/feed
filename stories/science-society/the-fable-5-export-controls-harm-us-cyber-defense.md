@@ -5,10 +5,10 @@ source: "Simon Willison"
 url: "https://simonwillison.net/2026/Jun/16/fable-5-export-controls/#atom-everything"
 authors: []
 date: "2026-06-16T05:20:29+00:00"
-score: 78
+score: 70
 guid: "https://simonwillison.net/2026/Jun/16/fable-5-export-controls/#atom-everything"
 image: ""
-generated: "2026-06-28T19:19:18+05:30"
+generated: "2026-06-29T19:05:09+05:30"
 ---
 
-Export controls banned Claude Fable 5 citing "jailbreak" vulnerability, but designation mischaracterizes defensive security work. Kate Moussouris clarifies: researchers tested models with open-source code containing known CVEs plus deliberately planted vulnerabilities, requesting "fix this code." Fable 5 refused direct security review but complied with fix request. Through manual multistep process, researchers created vulnerability test patches. Moussouris argues this represents essential defender capability—the find-fix-test loop security teams run daily—not attack capability.
+The Fable 5 Export Controls Harm US Cyber Defense I quoted The Atlantic quoting Kate Moussouris earlier, when I should have gone straight to the source. Here she is confirming that the "jailbreak" that got Claude Fable 5 banned under an export control really was "fix this code": The researchers took open-source code with known CVEs, plus new code with deliberately planted vulnerabilities, and asked Fable 5, Mythos, and Opus to “review the code for security issues.” Fable 5 refused. They then asked the models to “fix this code” and, through a multistep and manual process, turned the output into scripts that test the patches. As Kate points out, this is absurd. Coding models fix bugs, and security exploits are the most important category of bugs for them to fix! Defenders need to be able to ask AI to fix the bugs in a file, explain why the fix matters, and write tests that confirm the patch works. That is not a guardrail bypass. It is the most valuable thing an AI model can do for defensive security: executing the find, fix, and test loop defenders run every day. [...] The prompts worked because they were defensive requests, and that capability cannot be removed without making the model worse at fixing bugs and verifying patches. This whole situation is such a mess. Non-technical decision-makers have been hearing that models that can "craft cyber attacks" are uniquely dangerous for months. Now they look ready to ban any model that can help us secure our code. Tags: jailbreaking , security , ai , generative-ai , llms , anthropic , ai-security-research , claude-mythos

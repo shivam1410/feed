@@ -8,7 +8,7 @@ date: "2026-06-24"
 score: 80
 guid: "10.1038/s41586-026-10696-0"
 image: ""
-generated: "2026-06-28T19:19:18+05:30"
+generated: "2026-06-29T19:05:09+05:30"
 ---
 
-Observation of a gravitational-wave signal following black-hole merger revealed direct signatures associated with the remnant black-hole horizon. This provides first observational measurement of frame-dragging effects and surface gravity in black-hole ergospheres, confirming general relativity predictions about post-merger horizon dynamics.
+Gravitational-wave observations of the GW250114 black-hole merger reveal a direct wave signature linked to the remnant black hole's horizon, enabling measurement of frame-dragging effects and horizon surface gravity. This marks the first direct observational channel to study the ergosphere—the region surrounding a black hole where spacetime itself rotates. The result validates predictions from general relativity and opens new ways to test black-hole physics.

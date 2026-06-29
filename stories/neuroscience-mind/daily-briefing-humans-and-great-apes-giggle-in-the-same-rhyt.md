@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/d41586-026-02060-z"
 authors: ["Jacob Smith"]
 date: "2026-06-25"
-score: 60
+score: 45
 guid: "10.1038/d41586-026-02060-z"
 image: ""
-generated: "2026-06-28T19:19:18+05:30"
+generated: "2026-06-29T19:05:09+05:30"
 ---
 
-Recent research shows that humans and great apes produce giggles with strikingly similar rhythmic patterns, suggesting that vocal motor control—the ability to precisely control and modulate vocalizations—may have evolutionary roots in mechanisms present in a shared primate ancestor. This parallel between ape laughter and human giggles hints at deep evolutionary connections in how primates produce and control vocal sounds. The finding matters for understanding human evolution and speech origins because it suggests human linguistic abilities are not entirely unique, but rather built on vocal control systems inherited from ancient primate ancestors.
+The findings hint that vocal motor control might have evolved from a shared ancestor. Plus, sea turtles’ navigation skills are only so-so and what’s next for the International Space Station.

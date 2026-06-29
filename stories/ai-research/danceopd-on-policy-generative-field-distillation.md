@@ -8,7 +8,7 @@ date: "2026-06-24T20:00:00.000Z"
 score: 65
 guid: "2606.27377"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2606.27377.png"
-generated: "2026-06-28T19:19:18+05:30"
+generated: "2026-06-29T19:05:09+05:30"
 ---
 
 A novel on-policy generative field distillation framework called DanceOPD is proposed to unify text-to-image generation, local editing, and global editing capabilities in flow-matching models through capability-specific routing and velocity-based training.

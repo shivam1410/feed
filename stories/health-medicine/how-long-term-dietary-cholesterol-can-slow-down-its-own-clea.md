@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/d41586-026-01899-6"
 authors: []
 date: "2026-06-25"
-score: 70
+score: 65
 guid: "10.1038/d41586-026-01899-6"
 image: ""
-generated: "2026-06-28T19:19:18+05:30"
+generated: "2026-06-29T19:05:09+05:30"
 ---
 
-Cholesterol carried by low-density lipoprotein (LDL) drives heart disease and is cleared by liver cells expressing the receptor LDLR. A cell-signalling mechanism has been discovered through which high cholesterol promotes the enzyme-mediated degradation of LDLR. Blocking this enzyme restores LDLR levels in liver cells, suggesting a new strategy for treating high cholesterol.
+High cholesterol from LDL particles is normally cleared by liver cells via LDLR receptors, but researchers discovered excess cholesterol triggers enzyme-mediated degradation of these receptors, creating a self-perpetuating cycle. Blocking the degradation enzyme restored LDLR levels and cholesterol clearance in liver cells. This mechanism explains why high cholesterol persists despite treatment and suggests a novel therapeutic strategy: targeting the enzyme to restore the liver's ability to clear harmful LDL cholesterol and reduce heart disease risk.

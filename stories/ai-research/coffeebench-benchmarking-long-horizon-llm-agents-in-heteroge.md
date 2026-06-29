@@ -5,10 +5,10 @@ source: "HF Trending Papers"
 url: "https://huggingface.co/papers/2606.16613"
 authors: ["Issa Sugiura", "Daichi Hattori", "Kazuo Araragi", "Keita Ogawa", "Shota Onose", "Taro Makino", "Teppei Usuki", "Takashi Ishida"]
 date: "2026-06-14T20:00:00.000Z"
-score: 65
+score: 55
 guid: "2606.16613"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2606.16613.png"
-generated: "2026-06-28T19:19:18+05:30"
+generated: "2026-06-29T19:05:09+05:30"
 ---
 
 CoffeeBench evaluates LLM agents in a multi-agent economic simulation where firms interact over 90 days to maximize profits, revealing differences in communication patterns and performance among various models.

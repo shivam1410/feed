@@ -8,7 +8,7 @@ date: "2026-06-26T17:10:43+00:00"
 score: 85
 guid: "https://simonwillison.net/2026/Jun/26/openai/#atom-everything"
 image: ""
-generated: "2026-06-28T19:19:18+05:30"
+generated: "2026-06-29T19:05:09+05:30"
 ---
 
-OpenAI launched GPT-5.6 series with three models targeting different use cases and price points. Sol serves as flagship model; Terra offers competitive GPT-5.5 performance at 2x lower cost ($2.50 input/$15 output vs Sol's $5/$30); Luna is fastest and most affordable ($1/$6). All three feature enhanced prompt caching supporting explicit cache breakpoints with 30-minute minimum cache life—cache writes bill at 1.25x uncached input rate while cached reads get 90% discount. Release starts with limited preview for government-approved trusted partners before general availability in coming weeks.
+OpenAI is previewing three GPT-5.6 models with tiered pricing: Sol ($5/$30 per 1M tokens) for flagship work, Terra ($2.50/$15) at 2x cheaper than GPT-5.5 with competitive performance, and Luna ($1/$6) for affordability. The models introduce improved prompt caching with 30-minute minimum cache life, cache reads discounted 90%, and writes billed at 1.25x uncached rates. Limited preview begins with government-approved partners before wider availability in coming weeks. This stratified pricing model makes capable AI more economically accessible across use cases.

@@ -1,0 +1,14 @@
+---
+title: "On Surrogate Modeling of Static Response of AM Short-Fiber Thermoplastics Using Graph Neural Networks"
+category: "Chemistry & Materials"
+source: "arXiv (cs.LG)"
+url: "https://arxiv.org/abs/2606.28996"
+authors: ["Pharindra Pathak (Auburn University, Oakridge National Lab, NASA Glenn Research Center, Auburn University, Auburn University), Vipin Kumar (Auburn University, Oakridge National Lab, NASA Glenn Research Center, Auburn University, Auburn University), Trenton M. Ricks (Auburn University, Oakridge National Lab, NASA Glenn Research Center, Auburn University, Auburn University), Suhasini Gururaja (Auburn University, Oakridge National Lab, NASA Glenn Research Center, Auburn University, Auburn University), Siddhartha Srivastava (Auburn University, Oakridge National Lab, NASA Glenn Research Center, Auburn University, Auburn University)"]
+date: "Tue, 30 Jun 2026 00:00:00 -0400"
+score: 52
+guid: "oai:arXiv.org:2606.28996v1"
+image: ""
+generated: "2026-06-30T19:06:59+05:30"
+---
+
+arXiv:2606.28996v1 Announce Type: new Abstract: Short-fiber thermoplastic (SFT) composites are increasingly employed in lightweight aerospace and automotive structures owing to their favorable strength-to-weight ratio, high production rates, and recyclability. Unlike continuous-fiber systems, the mechanical response of SFTs is governed by mesoscale interactions among fiber orientation, spatial clustering, and manufacturing-induced porosity. These features exhibit significant spatial variability in manufactured components and influence stiffness, damage initiation, and nonlinear deformation. Although mesoscale finite element (FE) models can resolve such heterogeneity, their application to realistic three-dimensional microstructures remains computationally intractable. A data-driven surrogate framework is proposed to predict the mechanical behavior of additively manufactured, compression-molded (AM-CM) SFTs. Microstructures reconstructed from micro-computed tomography data were discretized into Voronoi-based cells representing distinct fiber-interaction neighborhoods. Each cell was homogenized via nonlinear FE simulations incorporating matrix damage, and the resulting stress-strain responses trained a hybrid Graph Neural Network-Long Short-Term Memory (GNN-LSTM) architecture encoding microstructural topology and history-dependent mechanical evolution. The surrogate accurately predicts stiffness and stress-strain behavior of unseen microstructures, achieving $R^2\approx 0.98$ relative to high-fidelity FE simulations with over two orders-of-magnitude reduction in computational cost. Coupling the framework with experimentally calibrated damage laws demonstrates that fiber orientation, clustering, and porosity collectively govern local effective stiffness. The approach provides a physics-informed, data-efficient pathway to identify mechanically weak microstructural cells and accelerate digital-twin development for SFT components.

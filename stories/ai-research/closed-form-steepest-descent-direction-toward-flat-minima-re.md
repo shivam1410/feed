@@ -1,0 +1,14 @@
+---
+title: "Closed-Form Steepest Descent Direction toward Flat Minima: Reducing Upper Bounds on the Loss Hessian Eigenspectrum in Neural Networks"
+category: "AI Research"
+source: "arXiv (cs.LG)"
+url: "https://arxiv.org/abs/2606.28662"
+authors: ["Yuto Omae, Kazuki Sakai, Yohei Kakimoto, Makoto Sasaki, Yusuke Sakai, Hirotaka Takahashi"]
+date: "Tue, 30 Jun 2026 00:00:00 -0400"
+score: 46
+guid: "oai:arXiv.org:2606.28662v1"
+image: ""
+generated: "2026-06-30T19:06:59+05:30"
+---
+
+arXiv:2606.28662v1 Announce Type: new Abstract: The flatness hypothesis suggests that flatness of the loss landscape, as measured by the eigenvalues of the loss Hessian, correlates with better neural network generalization. While various algorithms reduce these eigenvalues, most focus on procedural design, leaving it unclear how data distributions and NN parameters structurally determine directions toward flat minima. Characterizing these directions analytically is generally intractable. To overcome this mathematical difficulty, recent studies derived the Wolkowicz-Styan (WS) upper bound on the maximum eigenvalue of the cross-entropy loss Hessian in three-layer NNs. Although this upper bound is differentiable, its gradient was not derived. Therefore, we analytically derive the gradient of the WS upper bound to characterize directions leading to flat minima. Based on this, we propose Hessian Spectral Range (HSR) Regularization, which updates parameters along the steepest descent direction of the WS bound. Experiments demonstrate that HSR Regularization narrows the Hessian eigenvalue spectrum, avoids sharp minima and saddle points, and promotes convergence to flat minima. Although the applicability of this method is currently limited to cross-entropy loss and three-layer architectures, to the best of the authors' knowledge, this is the first study to report a closed-form gradient that promotes convergence to flat minima without numerical approximations. Therefore, the theoretical analysis of this gradient is expected to contribute to the further development of NNs.

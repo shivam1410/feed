@@ -5,10 +5,10 @@ source: "Simon Willison"
 url: "https://simonwillison.net/2026/Jun/26/openai/#atom-everything"
 authors: []
 date: "2026-06-26T17:10:43+00:00"
-score: 85
+score: 64
 guid: "https://simonwillison.net/2026/Jun/26/openai/#atom-everything"
 image: ""
-generated: "2026-06-29T19:05:09+05:30"
+generated: "2026-06-30T19:06:59+05:30"
 ---
 
-OpenAI is previewing three GPT-5.6 models with tiered pricing: Sol ($5/$30 per 1M tokens) for flagship work, Terra ($2.50/$15) at 2x cheaper than GPT-5.5 with competitive performance, and Luna ($1/$6) for affordability. The models introduce improved prompt caching with 30-minute minimum cache life, cache reads discounted 90%, and writes billed at 1.25x uncached rates. Limited preview begins with government-approved partners before wider availability in coming weeks. This stratified pricing model makes capable AI more economically accessible across use cases.
+We're beginning a limited preview of the GPT‑5.6 series: Sol, our flagship model; Terra, a balanced model for everyday work; and Luna, a fast and affordable model. Terra has competitive performance to GPT‑5.5 while being 2x cheaper and Luna brings strong capability at our lowest cost. [...] We believe in broad access, and we plan to make GPT‑5.6 Sol, Terra, and Luna generally available in the coming weeks. As part of our ongoing engagement with the U.S. government, we previewed our plans and the models’ capabilities ahead of today’s launch. At their request, we are starting with a limited preview for a small group of trusted partners whose participation has been shared with the government, before releasing more broadly. [...] GPT‑5.6 is priced per 1M tokens across three model sizes: Sol is $5 input / $30 output; Terra is $2.50 input / $15 output; and Luna is $1 input / $6 output. GPT‑5.6 also introduces more predictable prompt caching, including support for explicit cache breakpoints and a 30-minute minimum cache life. For GPT‑5.6 and later models, cache writes are billed at 1.25x the model’s uncached input rate, while cache reads continue to receive the 90% cached-input discount. — OpenAI , Previewing GPT‑5.6 Sol: a next-generation model Tags: gpt , generative-ai , ai-security-research , openai , llms , llm-release , llm-pricing

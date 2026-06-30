@@ -5,10 +5,10 @@ source: "HF Trending Papers"
 url: "https://huggingface.co/papers/2606.27978"
 authors: ["Jiayi Xu", "Di He", "Guolin Ke"]
 date: "2026-06-25T20:00:00.000Z"
-score: 70
+score: 68
 guid: "2606.27978"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2606.27978.png"
-generated: "2026-06-29T19:05:09+05:30"
+generated: "2026-06-30T19:06:59+05:30"
 ---
 
-Parallel Rollout Approximation addresses inefficiencies in pixel-space autoregressive image generation by using low-dimensional intermediate states and parallel training. The method improves both quality and computational efficiency of image synthesis. This matters because autoregressive generation is slow; faster, higher-quality image models enable broader real-time applications.
+Parallel Rollout Approximation (PRA) addresses limitations in pixel-space autoregressive image generation by using low-dimensional intermediate states and parallel training to improve quality and efficiency.

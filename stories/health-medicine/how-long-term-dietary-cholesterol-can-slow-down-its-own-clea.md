@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/d41586-026-01899-6"
 authors: []
 date: "2026-06-25"
-score: 65
+score: 75
 guid: "10.1038/d41586-026-01899-6"
 image: ""
-generated: "2026-06-29T19:05:09+05:30"
+generated: "2026-06-30T19:06:59+05:30"
 ---
 
-High cholesterol from LDL particles is normally cleared by liver cells via LDLR receptors, but researchers discovered excess cholesterol triggers enzyme-mediated degradation of these receptors, creating a self-perpetuating cycle. Blocking the degradation enzyme restored LDLR levels and cholesterol clearance in liver cells. This mechanism explains why high cholesterol persists despite treatment and suggests a novel therapeutic strategy: targeting the enzyme to restore the liver's ability to clear harmful LDL cholesterol and reduce heart disease risk.
+High dietary cholesterol triggers a cellular feedback loop that paradoxically worsens cholesterol buildup. A cell-signaling mechanism activates an enzyme that breaks down LDLR, the liver receptor responsible for clearing cholesterol from the bloodstream. As cholesterol levels rise, the body destroys the very receptor needed to remove cholesterol, creating a vicious cycle. Researchers discovered this mechanism and showed that blocking the degradation enzyme restores LDLR function. This offers a novel therapeutic strategy for treating high cholesterol and reducing heart disease risk.

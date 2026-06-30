@@ -5,10 +5,10 @@ source: "Simon Willison"
 url: "https://simonwillison.net/2026/Jun/25/ai-and-liability/#atom-everything"
 authors: []
 date: "2026-06-25T22:28:46+00:00"
-score: 70
+score: 51
 guid: "https://simonwillison.net/2026/Jun/25/ai-and-liability/#atom-everything"
 image: ""
-generated: "2026-06-29T19:05:09+05:30"
+generated: "2026-06-30T19:06:59+05:30"
 ---
 
-A German court ruled Google liable for inaccurate AI-generated overviews. Legal scholars Schneier and Sanders argue AI deployers should face accountability identical to human employees—if companies would be liable for errors from hired human writers, they should be equally liable for AI mistakes. Allowing companies to escape responsibility would create perverse incentives to replace humans with unaccountable AI regardless of accuracy, essentially subsidizing corporate negligence. This establishes legal principle that AI is a tool deployed by its owner, not an independent agent.
+AI and Liability Bruce Schneier and Nathan Sanders on the recent German ruling that Google be held liable for errors introduced in their AI overviews: AI agents are agents of the person or organization that deploys them—and should be treated by the law as such. If a company hired human writers to write its summaries, that company would be liable for inaccuracies in those summaries. [...] To allow businesses to hide behind the excuse of faulty AI in those same circumstances would be a massive handout to companies, and would introduce disastrous incentives for corporate misbehavior. Why hire human writers, lawyers or doctors when AIs are not only cheaper, but also absolve employers whenever they make a mistake? Tags: bruce-schneier , google , law , ai , generative-ai , llms , ai-ethics , hallucinations

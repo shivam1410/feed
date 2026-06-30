@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/d41586-026-02047-w"
 authors: ["Elizabeth Gibney", "Mohana Basu"]
 date: "2026-06-25"
-score: 55
+score: 70
 guid: "10.1038/d41586-026-02047-w"
 image: ""
-generated: "2026-06-29T19:05:09+05:30"
+generated: "2026-06-30T19:06:59+05:30"
 ---
 
 The supercomputer has an innovative chip design that allows it to carry out more than two quintillion calculations per second.

@@ -1,106 +1,106 @@
 {
-  "generatedAt": "2026-06-29T19:05:35+05:30",
+  "generatedAt": "2026-06-30T19:07:38+05:30",
   "source": "Hugging Face — trending models",
   "models": [
     {
       "id": "baidu/Unlimited-OCR",
       "task": "image-text-to-text",
-      "likes": 1323,
-      "downloads": 362945,
+      "likes": 1439,
+      "downloads": 429056,
       "library": "transformers",
       "createdAt": "2026-06-19T09:40:33.000Z",
       "url": "https://huggingface.co/baidu/Unlimited-OCR",
-      "summary": "Vision-language model for optical character recognition and document parsing with long-horizon capabilities."
-    },
-    {
-      "id": "zai-org/GLM-5.2",
-      "task": "text-generation",
-      "likes": 2887,
-      "downloads": 133350,
-      "library": "transformers",
-      "createdAt": "2026-06-16T07:39:20.000Z",
-      "url": "https://huggingface.co/zai-org/GLM-5.2",
-      "summary": "Large language model with 1M-token context supporting advanced coding with flexible thinking effort levels."
+      "summary": "Vision-language OCR model for long-horizon document parsing and text extraction from complex layouts."
     },
     {
       "id": "empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
       "task": "image-text-to-text",
-      "likes": 873,
-      "downloads": 907682,
+      "likes": 1012,
+      "downloads": 970663,
       "library": "gguf",
       "createdAt": "2026-06-19T14:32:14.000Z",
       "url": "https://huggingface.co/empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
-      "summary": "Quantized 9B reasoning model with 1M-token context, trained on Claude traces for superior reasoning."
+      "summary": "GGUF-quantized 9B reasoning model with 1M-token context, post-trained on Claude Mythos traces for agents."
     },
     {
-      "id": "yuxinlu1/gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF",
+      "id": "zai-org/GLM-5.2",
       "task": "text-generation",
-      "likes": 825,
-      "downloads": 241409,
-      "library": "gguf",
-      "createdAt": "2026-06-19T00:06:07.000Z",
-      "url": "https://huggingface.co/yuxinlu1/gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF",
-      "summary": "12B agentic coding model with tool-use and reasoning, optimized for local deployment and technical tasks."
+      "likes": 2996,
+      "downloads": 142547,
+      "library": "transformers",
+      "createdAt": "2026-06-16T07:39:20.000Z",
+      "url": "https://huggingface.co/zai-org/GLM-5.2",
+      "summary": "Open-source text-generation model with 1M-token context, advanced coding with flexible thinking effort levels."
     },
     {
       "id": "deepreinforce-ai/Ornith-1.0-35B-GGUF",
       "task": "text-generation",
-      "likes": 443,
-      "downloads": 123598,
+      "likes": 506,
+      "downloads": 157418,
       "library": "transformers",
       "createdAt": "2026-06-25T04:56:44.000Z",
       "url": "https://huggingface.co/deepreinforce-ai/Ornith-1.0-35B-GGUF",
-      "summary": "35B open-source agentic coding model achieving state-of-the-art performance on SWE-bench and Terminal-Bench."
+      "summary": "GGUF-quantized 35B coding agent with RL-trained scaffolding optimization for software engineering tasks."
     },
     {
       "id": "Qwen/Qwen-AgentWorld-35B-A3B",
       "task": "text-generation",
-      "likes": 421,
-      "downloads": 26223,
+      "likes": 453,
+      "downloads": 28480,
       "library": "transformers",
       "createdAt": "2026-06-22T14:49:37.000Z",
       "url": "https://huggingface.co/Qwen/Qwen-AgentWorld-35B-A3B",
-      "summary": "World model for agentic environment simulation across seven domains including tool-use and software engineering."
+      "summary": "World model simulating agent interactions across MCP, search, terminal, SWE, Android, web, and OS."
     },
     {
-      "id": "empero-ai/Qwythos-9B-Claude-Mythos-5-1M",
+      "id": "yuxinlu1/gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF",
       "task": "text-generation",
-      "likes": 541,
-      "downloads": 79540,
-      "library": "transformers",
-      "createdAt": "2026-06-19T14:01:14.000Z",
-      "url": "https://huggingface.co/empero-ai/Qwythos-9B-Claude-Mythos-5-1M",
-      "summary": "9B reasoning model with 1M-token context and native function-calling, trained on high-quality Claude traces."
+      "likes": 870,
+      "downloads": 257216,
+      "library": "gguf",
+      "createdAt": "2026-06-19T00:06:07.000Z",
+      "url": "https://huggingface.co/yuxinlu1/gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF",
+      "summary": "12B GGUF local coding agent with tool-use and reasoning for terminal-based technical debugging."
     },
     {
       "id": "krea/Krea-2-Turbo",
       "task": "text-to-image",
-      "likes": 382,
-      "downloads": 38454,
+      "likes": 409,
+      "downloads": 45668,
       "library": "diffusers",
       "createdAt": "2026-06-18T04:50:10.000Z",
       "url": "https://huggingface.co/krea/Krea-2-Turbo",
-      "summary": "12B text-to-image diffusion model with Diffusion Transformer architecture, optimized for fast turbo inference."
+      "summary": "Text-to-image diffusion transformer with 12 billion parameters for high-resolution image generation."
     },
     {
-      "id": "yuxinlu1/gemma-4-12B-coder-fable5-composer2.5-v1-GGUF",
+      "id": "empero-ai/Qwythos-9B-Claude-Mythos-5-1M",
       "task": "text-generation",
-      "likes": 2491,
-      "downloads": 561577,
-      "library": "gguf",
-      "createdAt": "2026-06-10T07:24:02.000Z",
-      "url": "https://huggingface.co/yuxinlu1/gemma-4-12B-coder-fable5-composer2.5-v1-GGUF",
-      "summary": "12B local coding model that reasons through problems before generating tested Python solutions."
+      "likes": 578,
+      "downloads": 99359,
+      "library": "transformers",
+      "createdAt": "2026-06-19T14:01:14.000Z",
+      "url": "https://huggingface.co/empero-ai/Qwythos-9B-Claude-Mythos-5-1M",
+      "summary": "9B reasoning model with 1M-token context and native function-calling, trained on Claude traces."
     },
     {
       "id": "deepreinforce-ai/Ornith-1.0-9B-GGUF",
       "task": "text-generation",
-      "likes": 290,
-      "downloads": 68667,
+      "likes": 329,
+      "downloads": 98750,
       "library": "transformers",
       "createdAt": "2026-06-25T04:56:13.000Z",
       "url": "https://huggingface.co/deepreinforce-ai/Ornith-1.0-9B-GGUF",
-      "summary": "9B open-source agentic coding model with state-of-the-art performance on SWE-bench and Terminal-Bench."
+      "summary": "GGUF-quantized 9B coding agent with RL-optimized solution scaffolding for software engineering."
+    },
+    {
+      "id": "deepreinforce-ai/Ornith-1.0-9B",
+      "task": "text-generation",
+      "likes": 296,
+      "downloads": 26151,
+      "library": "transformers",
+      "createdAt": "2026-06-21T04:27:07.000Z",
+      "url": "https://huggingface.co/deepreinforce-ai/Ornith-1.0-9B",
+      "summary": "9B self-improving coding model trained via RL to optimize solution generation for engineering tasks."
     }
   ]
 }

@@ -1,0 +1,14 @@
+---
+title: "Can Tabular In-Context Learners Generalize to Biomolecular Property Prediction?"
+category: "Genetics & Biology"
+source: "arXiv (cs.LG)"
+url: "https://arxiv.org/abs/2606.31126"
+authors: ["Davy Guan, Lu Zhang, Asiri Wijesinghe, Allen Zhu, He Zhao, Helen Power, F. Hafna Ahmed, Andrew Warden, Cheng Soon Ong, Daniel M. Steinberg"]
+date: "Wed, 01 Jul 2026 00:00:00 -0400"
+score: 68
+guid: "oai:arXiv.org:2606.31126v1"
+image: ""
+generated: "2026-07-01T19:05:33+05:30"
+---
+
+arXiv:2606.31126v1 Announce Type: new Abstract: Predicting biomolecular properties from limited labeled data is a central bottleneck in protein engineering and small-molecule design. As strong pretrained encoders now supply rich fixed-length representations, the difficulty has shifted from representation learning to building a data-efficient predictor for the few-shot regime. Tabular foundation models such as TabPFN3 and TabICL are unlikely candidates for this role: they are in-context learners pretrained on synthetic tables drawn from random causal graphs, a generative prior with no obvious correspondence to the processes that produce protein sequences or molecular graphs. That this tabular, causal inductive bias should transfer to biomolecular data at all is unintuitive, yet we find it does. Treating each method as a predictor-representation pair, we evaluate across two domains. Over a fixed ESMC representation, tabular in-context learning is consistently competitive for protein fitness regression on ProteinGym and a diverse esterase dataset. For small-molecule classification with ECFP/RDKit descriptors, no single pairing dominates across TDC ADMET, MoleculeNet, FS-Mol, and DrugOOD; representation choice becomes a primary determinant, as expected when the predictor's own prior is indifferent to molecular structure. We conclude that tabular foundation models are strong performers on biomolecular prediction tasks, but that their performance depends strongly on the sequence or molecular representation used.

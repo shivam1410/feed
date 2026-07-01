@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/d41586-026-02075-6"
 authors: ["Flora Graham"]
 date: "2026-06-29"
-score: 80
+score: 70
 guid: "10.1038/d41586-026-02075-6"
 image: ""
-generated: "2026-06-30T19:06:59+05:30"
+generated: "2026-07-01T19:05:33+05:30"
 ---
 
-CRISPR gene-editing technology is expanding beyond DNA sequence changes to target epigenetic modifications—chemical marks that regulate genes without altering DNA sequences. Epigenome-editing approaches can treat diseases by adjusting how genes are expressed. Why it matters: epigenome editing offers a new therapeutic frontier by modifying disease-associated genetic regulation rather than changing DNA code itself, potentially treating conditions where faulty gene regulation drives disease.
+CRISPR gene-editing is advancing toward treatment of disease through epigenome editing—modifying chemical modifications on DNA rather than the DNA sequence itself. This approach enables reversible therapeutic changes without permanent genome alterations. The technique also relates to breakthroughs in computing speed and resilience under pressure.

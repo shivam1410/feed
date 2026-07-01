@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/s41586-026-10829-5"
 authors: ["Shaocheng Liu", "Mike Pols", "Zhongyang Zhang", "Xudan Huang", "Zijian Huang", "Ying Han", "Zhenyu Guo", "Liang Li", "Rundong Fan", "De-Yi Zhang", "Ping Du", "Wenjin Yu", "Jiazhen Gu", "Luxuan Men", "Hao Dong", "Shuxia Tao", "Lifen Wang", "Qi Chen", "Huan Wang", "Huaiyu Xu", "Ling-Dong Sun", "Chun-Hua Yan", "Huanping Zhou"]
 date: "2026-06-25"
-score: 50
+score: 30
 guid: "10.1038/s41586-026-10829-5"
 image: ""
-generated: "2026-06-30T19:06:59+05:30"
+generated: "2026-07-01T19:05:33+05:30"
 ---
 
 Publisher Correction: In situ nanocrystal confinement for efficient blue perovskite LEDs

@@ -8,7 +8,7 @@ date: "2026-06-29"
 score: 40
 guid: "10.1038/d41586-026-01137-z"
 image: ""
-generated: "2026-06-30T19:06:59+05:30"
+generated: "2026-07-01T19:05:33+05:30"
 ---
 
 Sarah Weisberg is one of a number of scientists who have made the move to Europe for job security.

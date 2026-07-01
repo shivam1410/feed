@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/d41586-026-01980-0"
 authors: ["Abdullahi Tsanni"]
 date: "2026-06-30"
-score: 50
+score: 45
 guid: "10.1038/d41586-026-01980-0"
 image: ""
-generated: "2026-06-30T19:06:59+05:30"
+generated: "2026-07-01T19:05:33+05:30"
 ---
 
 An ambitious analysis challenges the view that a nation’s pursuit of economic growth alone can deliver long-term prosperity.

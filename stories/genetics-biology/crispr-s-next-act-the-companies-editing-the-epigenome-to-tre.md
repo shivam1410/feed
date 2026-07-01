@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/d41586-026-01976-w"
 authors: ["Roxanne Khamsi"]
 date: "2026-06-26"
-score: 80
+score: 75
 guid: "10.1038/d41586-026-01976-w"
 image: ""
-generated: "2026-06-30T19:06:59+05:30"
+generated: "2026-07-01T19:05:33+05:30"
 ---
 
-Multiple biotech startups are testing therapies that edit specific epigenetic markers to treat diseases ranging from high cholesterol to rare muscular disorders. These companies target chemical gene modifications rather than changing DNA sequences. Why it matters: epigenome editing represents CRISPR's evolution beyond genetic mutation correction to gene expression regulation. Treating cholesterol and muscular dystrophy through epigenetic therapy could provide safer, more flexible treatments.
+Startup firms are developing novel CRISPR-based therapies specifically targeting epigenetic markers—the chemical tags on DNA that regulate gene activity without altering the DNA sequence itself. These therapies are currently being tested to treat diseases ranging from high cholesterol to rare muscular disorders. Epigenetic editing represents a significant new frontier beyond traditional CRISPR gene editing, offering potentially reversible treatments by modifying gene expression patterns rather than permanently changing genetic code. This approach could substantially expand CRISPR's therapeutic reach to conditions previously considered untreatable through standard gene editing techniques.

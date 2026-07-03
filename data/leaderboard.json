@@ -1,106 +1,106 @@
 {
-  "generatedAt": "2026-07-01T19:06:11+05:30",
+  "generatedAt": "2026-07-03T19:05:43+05:30",
   "source": "Hugging Face — trending models",
   "models": [
     {
-      "id": "baidu/Unlimited-OCR",
-      "task": "image-text-to-text",
-      "likes": 1544,
-      "downloads": 630246,
-      "library": "transformers",
-      "createdAt": "2026-06-19T09:40:33.000Z",
-      "url": "https://huggingface.co/baidu/Unlimited-OCR",
-      "summary": "Vision-language OCR model for extracting text from images with long document parsing support."
-    },
-    {
       "id": "empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
       "task": "image-text-to-text",
-      "likes": 1107,
-      "downloads": 1113871,
+      "likes": 1322,
+      "downloads": 1366360,
       "library": "gguf",
       "createdAt": "2026-06-19T14:32:14.000Z",
       "url": "https://huggingface.co/empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
-      "summary": "GGUF-quantized 9B reasoning model with 1M-token context, function calling, and Claude-trained chain-of-thought."
+      "summary": "GGUF-quantized 9B reasoning model with 1M-token context, native function calling, and multimodal image-text capabilities."
+    },
+    {
+      "id": "baidu/Unlimited-OCR",
+      "task": "image-text-to-text",
+      "likes": 1672,
+      "downloads": 885040,
+      "library": "transformers",
+      "createdAt": "2026-06-19T09:40:33.000Z",
+      "url": "https://huggingface.co/baidu/Unlimited-OCR",
+      "summary": "Multilingual vision-language OCR model for long-horizon document parsing and text extraction."
     },
     {
       "id": "zai-org/GLM-5.2",
       "task": "text-generation",
-      "likes": 3119,
-      "downloads": 159967,
+      "likes": 3309,
+      "downloads": 191462,
       "library": "transformers",
       "createdAt": "2026-06-16T07:39:20.000Z",
       "url": "https://huggingface.co/zai-org/GLM-5.2",
-      "summary": "Large-scale text-generation model with 1M-token context, advanced coding capabilities, and flexible thinking effort levels."
+      "summary": "Open-source long-context text generation model with 1M-token window, flexible coding effort levels, and MIT license."
     },
     {
       "id": "deepreinforce-ai/Ornith-1.0-35B-GGUF",
       "task": "text-generation",
-      "likes": 577,
-      "downloads": 233701,
+      "likes": 669,
+      "downloads": 322780,
       "library": "transformers",
       "createdAt": "2026-06-25T04:56:44.000Z",
       "url": "https://huggingface.co/deepreinforce-ai/Ornith-1.0-35B-GGUF",
-      "summary": "GGUF-quantized 35B agentic coding model trained with RL to optimize solution scaffolds and agent trajectories."
+      "summary": "GGUF-quantized agentic coding model (35B) trained for tool-use and multi-step technical problem-solving."
     },
     {
-      "id": "Qwen/Qwen-AgentWorld-35B-A3B",
+      "id": "deepseek-ai/DeepSeek-V4-Pro-DSpark",
       "task": "text-generation",
-      "likes": 483,
-      "downloads": 34371,
+      "likes": 320,
+      "downloads": 9388,
       "library": "transformers",
-      "createdAt": "2026-06-22T14:49:37.000Z",
-      "url": "https://huggingface.co/Qwen/Qwen-AgentWorld-35B-A3B",
-      "summary": "World model simulating seven agentic environments (tool calling, search, terminal, SWE, Android, web, OS) via long chain-of-thought."
+      "createdAt": "2026-06-27T03:02:56.000Z",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-DSpark",
+      "summary": "MoE text generation model (1.6T params, 49B active) with million-token context and hybrid sparse attention architecture."
     },
     {
       "id": "yuxinlu1/gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF",
       "task": "text-generation",
-      "likes": 906,
-      "downloads": 288741,
+      "likes": 977,
+      "downloads": 329391,
       "library": "gguf",
       "createdAt": "2026-06-19T00:06:07.000Z",
       "url": "https://huggingface.co/yuxinlu1/gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF",
-      "summary": "Local 12B agentic coding model for terminal tasks, tool use, and reasoning; runs offline with ~4.5GB VRAM."
+      "summary": "Lightweight 12B agentic coding model optimized for local tool-use and multi-step technical reasoning tasks."
     },
     {
       "id": "deepreinforce-ai/Ornith-1.0-9B-GGUF",
       "task": "text-generation",
-      "likes": 356,
-      "downloads": 191409,
+      "likes": 405,
+      "downloads": 287942,
       "library": "transformers",
       "createdAt": "2026-06-25T04:56:13.000Z",
       "url": "https://huggingface.co/deepreinforce-ai/Ornith-1.0-9B-GGUF",
-      "summary": "GGUF-quantized 9B agentic coding model using RL to optimize solution scaffolds and multi-step coding tasks."
-    },
-    {
-      "id": "empero-ai/Qwythos-9B-Claude-Mythos-5-1M",
-      "task": "text-generation",
-      "likes": 605,
-      "downloads": 114499,
-      "library": "transformers",
-      "createdAt": "2026-06-19T14:01:14.000Z",
-      "url": "https://huggingface.co/empero-ai/Qwythos-9B-Claude-Mythos-5-1M",
-      "summary": "Reasoning-focused 9B model with 1M-token context, native function calling, and Claude-trained chain-of-thought for technical tasks."
+      "summary": "Lightweight GGUF-quantized 9B agentic coding model for efficient single-GPU technical problem-solving."
     },
     {
       "id": "deepreinforce-ai/Ornith-1.0-9B",
       "task": "text-generation",
-      "likes": 321,
-      "downloads": 46677,
+      "likes": 358,
+      "downloads": 64051,
       "library": "transformers",
       "createdAt": "2026-06-21T04:27:07.000Z",
       "url": "https://huggingface.co/deepreinforce-ai/Ornith-1.0-9B",
-      "summary": "MIT-licensed 9B agentic coding model trained with RL for terminal tasks, software engineering, and code generation."
+      "summary": "Open-source 9B agentic coding model with multimodal capabilities and self-improving training framework."
     },
     {
-      "id": "krea/Krea-2-Turbo",
-      "task": "text-to-image",
-      "likes": 432,
-      "downloads": 56953,
-      "library": "diffusers",
-      "createdAt": "2026-06-18T04:50:10.000Z",
-      "url": "https://huggingface.co/krea/Krea-2-Turbo",
-      "summary": "Text-to-image diffusion model supporting fast inference with adjustable guidance, up to 2048×2048 resolution."
+      "id": "deepreinforce-ai/Ornith-1.0-35B",
+      "task": "text-generation",
+      "likes": 316,
+      "downloads": 211406,
+      "library": "transformers",
+      "createdAt": "2026-06-21T03:30:07.000Z",
+      "url": "https://huggingface.co/deepreinforce-ai/Ornith-1.0-35B",
+      "summary": "Open-source 35B MoE agentic coding model with multimodal capabilities and self-improving training."
+    },
+    {
+      "id": "Qwen/Qwen-AgentWorld-35B-A3B",
+      "task": "text-generation",
+      "likes": 518,
+      "downloads": 45455,
+      "library": "transformers",
+      "createdAt": "2026-06-22T14:49:37.000Z",
+      "url": "https://huggingface.co/Qwen/Qwen-AgentWorld-35B-A3B",
+      "summary": "Native language world model covering seven agent domains (MCP, search, terminal, SWE, Android, web, OS) for environment simulation."
     }
   ]
 }

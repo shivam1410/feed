@@ -5,10 +5,10 @@ source: "DeepMind"
 url: "https://blog.google/innovation-and-ai/technology/developers-tools/kaggle-genai-intensive-course-vibe-coding-june-2026/"
 authors: ["Anant Nawalgaria", "Frank Guan"]
 date: "Mon, 27 Apr 2026 13:00:00 +0000"
-score: 35
+score: 42
 guid: "https://blog.google/innovation-and-ai/technology/developers-tools/kaggle-genai-intensive-course-vibe-coding-june-2026/"
 image: "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Vibe_Coding_Course_herosocial.max-600x600.format-webp.webp"
-generated: "2026-06-25T19:05:48+05:30"
+generated: "2026-07-03T19:05:12+05:30"
 ---
 
 Google is bringing back its 5-Day AI Agents Intensive Course with Kaggle and registration is open.

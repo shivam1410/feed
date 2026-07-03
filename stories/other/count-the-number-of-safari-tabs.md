@@ -5,10 +5,10 @@ source: "Simon Willison"
 url: "https://simonwillison.net/2026/Jun/29/safari-tab-count/#atom-everything"
 authors: []
 date: "2026-06-29T18:36:18+00:00"
-score: 12
+score: 10
 guid: "https://simonwillison.net/2026/Jun/29/safari-tab-count/#atom-everything"
 image: ""
-generated: "2026-06-30T19:06:59+05:30"
+generated: "2026-07-03T19:05:12+05:30"
 ---
 
 Tiniest TIL, using AppleScript to count the number of open browser tabs in Safari: osascript -e 'tell application "Safari" to count tabs of every window' Tags: safari , til , applescript

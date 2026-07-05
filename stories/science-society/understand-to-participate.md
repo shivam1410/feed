@@ -5,10 +5,10 @@ source: "Simon Willison"
 url: "https://simonwillison.net/2026/Jul/2/understand-to-participate/#atom-everything"
 authors: []
 date: "2026-07-02T17:07:14+00:00"
-score: 60
+score: 55
 guid: "https://simonwillison.net/2026/Jul/2/understand-to-participate/#atom-everything"
 image: ""
-generated: "2026-07-03T19:05:12+05:30"
+generated: "2026-07-05T10:28:16+05:30"
 ---
 
-I saw Geoffrey Litt speak at AIE yesterday, and one framing he used particularly resonated with me: Understand to participate Geoffrey was talking about the challenge of collaborating with coding agents as they construct increasingly large and sophisticated changes, and the need to avoid taking on cognitive debt as your understanding drifts from how the code actually works. His argument is that you need to understand the code to a depth that enables you to participate further with the model: You can learn what the agent is doing to make sure you can be an active participant in the creative process. [...] You need a rich set of concepts in your mind to think creatively and fluently about how to move something forward. If you're lacking that fluency, your ability to participate in the project is meaningfully limited. The AIE talks are all recorded - all 300+ of them! - and should be trickling out over the next three weeks. Geoffrey's is one that I recommend catching on YouTube. Geoffrey also published a thread version of his talk on Twitter. Tags: geoffrey-litt , coding-agents , cognitive-debt , generative-ai , ai , llms
+Geoffrey Litt's framework 'understand to participate' emphasizes that effective collaboration with coding agents requires sufficient understanding to engage creatively in problem-solving. As agents construct increasingly large changes, humans risk cognitive debt—where code understanding drifts from reality. To remain an active creative participant, you need fluency in the code's concepts and patterns. This deep understanding enables you to reason about how to move the work forward collaboratively. Without that fluency, your ability to participate meaningfully becomes limited, reducing you to passive acceptance of agent changes rather than active creative direction.

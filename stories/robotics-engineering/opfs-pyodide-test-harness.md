@@ -8,7 +8,7 @@ date: "2026-06-23T18:58:54+00:00"
 score: 45
 guid: "https://simonwillison.net/2026/Jun/23/opfs-pyodide/#atom-everything"
 image: ""
-generated: "2026-07-03T19:05:12+05:30"
+generated: "2026-07-05T10:28:16+05:30"
 ---
 
-Tool: OPFS + Pyodide test harness I've been pondering if Datasette Lite - the Python Datasette application run entirely in the browser using Pyodide and WebAssembly - might be able to edit persistent SQLite files stored on the user's computer. That's what OFPS (Origin Private File System) is for, so I had Claude Code for web build me this playground UI to try it out in different browsers. Tags: browsers , pyodide , datasette-lite
+Simon Willison is exploring whether Datasette Lite, a browser-based Python SQLite implementation, can edit and persist files using OPFS (Origin Private File System). The test harness uses Pyodide WebAssembly runtime to manage local file storage. If successful, this would enable collaborative database editing directly in browsers without server infrastructure, expanding Datasette Lite from read-only exploration to data modification and persistence.

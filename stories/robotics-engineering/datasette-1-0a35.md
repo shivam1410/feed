@@ -5,10 +5,10 @@ source: "Simon Willison"
 url: "https://simonwillison.net/2026/Jun/23/datasette/#atom-everything"
 authors: []
 date: "2026-06-23T21:34:37+00:00"
-score: 40
+score: 50
 guid: "https://simonwillison.net/2026/Jun/23/datasette/#atom-everything"
 image: ""
-generated: "2026-07-01T19:05:33+05:30"
+generated: "2026-07-05T10:28:16+05:30"
 ---
 
-Release: datasette 1.0a35 I'll write more about this one soon, but it's a big release. Three highlights from the release notes: New "Create table" interface in the database actions menu, backed by the /<database>/-/create JSON API . It can define columns, primary keys, custom column types, NOT NULL constraints, literal defaults, expression defaults and single-column foreign keys. ( #2787 ) New "Alter table" table action and /<database>/<table>/-/alter JSON API for changing existing tables: add, rename, reorder and drop columns; change column types, defaults, NOT NULL constraints, primary keys and foreign keys; and rename the table. The alter table dialog also includes a "Drop table" button. ( #2788 ) New Template context documentation listing the variables available to custom templates for Datasette's core pages. Variables documented there are treated as a stable API for custom templates until Datasette 2.0. The documentation is generated from dataclass definitions next to the view code, with tests that compare the documented fields against the actual contexts rendered by the database, table, query and row pages. ( #1510 , #2127 , #1477 , #2803 ) Here's a rough video demo I made of the new create/alter table feature as part of reviewing the PR : Tags: datasette
+Datasette 1.0a35 adds significant database management interfaces. A "Create table" UI supports defining columns, primary keys, custom types, constraints, defaults, and foreign keys. An "Alter table" interface enables column addition, renaming, reordering, type changes, and table renaming. Template context documentation establishes a stable API for custom templates through Datasette 2.0. These features make database management significantly more accessible to users unfamiliar with SQL syntax, enabling visual database design and modification.

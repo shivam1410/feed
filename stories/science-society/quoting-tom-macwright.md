@@ -5,10 +5,10 @@ source: "Simon Willison"
 url: "https://simonwillison.net/2026/Jun/24/tom-macwright/#atom-everything"
 authors: []
 date: "2026-06-24T18:13:51+00:00"
-score: 60
+score: 55
 guid: "https://simonwillison.net/2026/Jun/24/tom-macwright/#atom-everything"
 image: ""
-generated: "2026-07-03T19:05:12+05:30"
+generated: "2026-07-05T10:28:16+05:30"
 ---
 
-In the last few months, I've started to see [job applications] that were clearly cowritten by an LLM, link to an LLM-generated portfolio site, which then links to LLM-generated GitHub projects, with purely LLM-generated commit messages. [...] My other reaction is that I don't know anything about these people . They haven't put themselves out there. They haven't said anything true. [...] The perfected, generated, prompted resume is generic and impersonal. It tells me nothing about this person, other than that they use particular tools. — Tom MacWright , Accidental anonymity Tags: careers , ai , tom-macwright , ai-misuse
+Tom MacWright observes job applications increasingly composed entirely by LLMs—portfolios, GitHub projects, and commit messages all AI-generated. While technically polished, this approach tells employers nothing about candidates beyond tool familiarity. Fully AI-generated applications lack authenticity, personal voice, and evidence of genuine accomplishment and judgment. The trend highlights how LLM assistance applied wholesale undermines portfolios' real purpose: revealing genuine capabilities, decision-making, and individual perspective that hiring managers cannot evaluate from synthetic content.

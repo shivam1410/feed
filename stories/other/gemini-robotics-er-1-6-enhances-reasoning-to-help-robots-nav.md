@@ -8,7 +8,7 @@ date: "Tue, 14 Apr 2026 15:00:00 +0000"
 score: ""
 guid: "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/gemini-robotics-er-1-6/"
 image: "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-robotics-1.6__page-cover.max-600x600.format-webp.webp"
-generated: "2026-06-24T19:00:41+05:30"
+generated: "2026-07-05T10:28:16+05:30"
 ---
 
 An overview of Gemini Robotics-ER 1.6, an upgrade to our reasoning-first model that helps robots to understand their environment.

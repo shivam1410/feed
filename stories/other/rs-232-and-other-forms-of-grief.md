@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/d41586-026-01936-4"
 authors: ["C. A. Russell"]
 date: "2026-07-01"
-score: 10
+score: ""
 guid: "10.1038/d41586-026-01936-4"
 image: ""
-generated: "2026-07-03T19:05:12+05:30"
+generated: "2026-07-05T10:28:16+05:30"
 ---
 
 A connection to another life.

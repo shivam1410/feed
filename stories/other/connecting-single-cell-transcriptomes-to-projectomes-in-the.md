@@ -1,0 +1,14 @@
+---
+title: "Connecting single-cell transcriptomes to projectomes in the mouse visual cortex"
+category: "Other"
+source: "Nature"
+url: "https://www.nature.com/articles/s41586-026-10424-8"
+authors: ["Staci A. Sorensen", "Nathan W. Gouwens", "Yun Wang", "Matt Mallory", "Agata Budzillo", "Rachel Dalley", "Brian R. Lee", "Olga Gliko", "Hsien-chi Kuo", "Xiuli Kuang", "Rusty Mann", "Leila Ahmadinia", "Lauren Alfiler", "Fahimeh Baftizadeh", "Katherine S. Baker", "Sarah Bannick", "Darren Bertagnolli", "Kris Bickley", "Phil Bohn", "Jasmine Bomben", "Chris Bowman", "Gabriella Boyer", "Krissy Brouner", "Dillan Brown", "Alex Cahoon", "Natalie Chen", "Chao Chen", "Kai Chen", "Maggie Chvilicek", "Forrest Collman", "Tanya L. Daigle", "Tim Dawes", "Rebecca de Frates", "Nick Dee", "Maxwell DePartee", "Tom Egdorf", "Laila El-Hifnawi", "Rachel Enstrom", "Luke Esposito", "Colin Farrell", "Rohan Gala", "Clare Gamlin", "Amanda Gary", "Andrew Glomb", "Olena Gerasymchuk", "Jeff Goldy", "Hong Gu", "Kristen Hadley", "Mike Hawrylycz", "Alex Henry", "Dijon Hill", "Karla E. Hirokawa", "Zili Huang", "Katelyn Johnson", "Zoe Juneau", "Sara Kebede", "Lisa Kim", "Lauren Kruse", "Changkyu Lee", "Arielle L. Leon", "Phil Lesnar", "Quinn Lheureux", "Anan Li", "Yaoyao Li", "Elizabeth Liang", "Katie Link", "Michelle Maxwell", "Medea McGraw", "Delissa A. McMillen", "Alice Mukora", "Lindsay Ng", "Thomas Ochoa", "Aaron Oldre", "Daniel Park", "Christina Alice Pom", "Zoran Popovich", "Lydia Potekhina", "Ram Rajanbabu", "Shea Ransford", "Melissa R. Reding", "Augustin Ruiz", "David Sandman", "Martin Schroedter", "Josh Sevigny", "Lyudmila Shulga", "La’Akea Siverts", "Cliff R. Slaughterbeck", "Kimberly A. Smith", "Michelle Stoecklin", "Josef Sulc", "Susan M. Sunkin", "Michael Tieu", "Jonathan T. Ting", "Jessica Trinh", "Ramel Velasco", "Sara Vargas", "Dave Vumbaco", "Miranda Walker", "Micheal Wang", "Adrian Wanner", "Jack Waters", "Mirah Wells", "Grace Williams", "Julia A. Wilson", "Wei Xiong", "Ed S. Lein", "Jim Berg", "Brian E. Kalmbach", "Shenqin Yao", "Hui Gong", "Qingming Luo", "Quanxin Wang", "Lydia Ng", "Uygar Sümbül", "Zizhen Yao", "Tim Jarsky", "Bosiljka Tasic", "Hongkui Zeng"]
+date: "2026-07-01"
+score: ""
+guid: "10.1038/s41586-026-10424-8"
+image: ""
+generated: "2026-07-05T10:28:16+05:30"
+---
+
+In the mouse visual cortex, multimodal cell-type definitions, gene expression patterns and cell location predict long-range projection targets of excitatory neurons, linking transcriptomic identity with morphological, electrophysiological and circuit-level properties.

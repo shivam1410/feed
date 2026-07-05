@@ -8,7 +8,7 @@ date: "Tue, 19 May 2026 17:45:00 +0000"
 score: ""
 guid: "https://blog.google/innovation-and-ai/technology/research/gemini-for-science-io-2026/"
 image: "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/science__keyword__blog-header.max-600x600.format-webp.webp"
-generated: "2026-06-24T19:00:41+05:30"
+generated: "2026-07-05T10:28:16+05:30"
 ---
 
 Gemini for Science is a new collection of science tools and experiments to expand the scale and precision of scientific exploration.

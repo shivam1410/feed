@@ -8,7 +8,7 @@ date: "2026-07-03"
 score: 40
 guid: "10.1038/d41586-026-01989-5"
 image: ""
-generated: "2026-07-03T19:05:12+05:30"
+generated: "2026-07-07T19:04:36+05:30"
 ---
 
 The National Natural Science Foundation of China says it will fund an extra 12,000 projects from this year.

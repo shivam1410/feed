@@ -5,10 +5,10 @@ source: "Simon Willison"
 url: "https://simonwillison.net/2026/Jun/29/safari-tab-count/#atom-everything"
 authors: []
 date: "2026-06-29T18:36:18+00:00"
-score: 10
+score: 15
 guid: "https://simonwillison.net/2026/Jun/29/safari-tab-count/#atom-everything"
 image: ""
-generated: "2026-07-05T10:28:16+05:30"
+generated: "2026-07-07T19:04:36+05:30"
 ---
 
-AppleScript enables automation for monitoring Safari browser tabs on macOS. The command osascript -e 'tell application "Safari" to count tabs of every window' returns the total tab count across all windows. This tip proves useful for developers automating browser management. It demonstrates how system-level scripting languages interact with native macOS applications to retrieve runtime state information for automation workflows.
+Tiniest TIL, using AppleScript to count the number of open browser tabs in Safari: osascript -e 'tell application "Safari" to count tabs of every window' Tags: safari , til , applescript

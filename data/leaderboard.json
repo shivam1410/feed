@@ -1,106 +1,106 @@
 {
-  "generatedAt": "2026-07-05T10:29:00+05:30",
+  "generatedAt": "2026-07-07T19:05:03+05:30",
   "source": "Hugging Face — trending models",
   "models": [
     {
       "id": "empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
       "task": "image-text-to-text",
-      "likes": 1469,
-      "downloads": 1464047,
+      "likes": 1706,
+      "downloads": 1683711,
       "library": "gguf",
       "createdAt": "2026-06-19T14:32:14.000Z",
       "url": "https://huggingface.co/empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
-      "summary": "9B reasoning model with 1M-token context, quantized for llama.cpp, supporting multimodal input and function calling."
+      "summary": "9B GGUF-quantized multimodal model with 1M context, function-calling, and reasoning trained on Claude traces."
     },
     {
       "id": "zai-org/GLM-5.2",
       "task": "text-generation",
-      "likes": 3404,
-      "downloads": 208920,
+      "likes": 3561,
+      "downloads": 281584,
       "library": "transformers",
       "createdAt": "2026-06-16T07:39:20.000Z",
       "url": "https://huggingface.co/zai-org/GLM-5.2",
-      "summary": "Large language model with 1M-token context, advanced coding with flexible thinking effort levels, MIT-licensed open-source."
+      "summary": "Large-scale text model with 1M-token context, advanced coding capabilities, and improved architecture for long-horizon tasks."
+    },
+    {
+      "id": "tencent/Hy3",
+      "task": "text-generation",
+      "likes": 409,
+      "downloads": 121,
+      "library": "transformers",
+      "createdAt": "2026-07-02T13:23:54.000Z",
+      "url": "https://huggingface.co/tencent/Hy3",
+      "summary": "295B MoE text model with 21B active parameters, outperforming larger models on product and agent tasks."
     },
     {
       "id": "baidu/Unlimited-OCR",
       "task": "image-text-to-text",
-      "likes": 1716,
-      "downloads": 988379,
+      "likes": 1818,
+      "downloads": 1084945,
       "library": "transformers",
       "createdAt": "2026-06-19T09:40:33.000Z",
       "url": "https://huggingface.co/baidu/Unlimited-OCR",
-      "summary": "Vision-language OCR model supporting long-document parsing and multilingual text extraction from images with single-pass inference."
-    },
-    {
-      "id": "deepreinforce-ai/Ornith-1.0-35B-GGUF",
-      "task": "text-generation",
-      "likes": 713,
-      "downloads": 359659,
-      "library": "transformers",
-      "createdAt": "2026-06-25T04:56:44.000Z",
-      "url": "https://huggingface.co/deepreinforce-ai/Ornith-1.0-35B-GGUF",
-      "summary": "35B mixture-of-experts coding agent trained with reinforcement learning for multi-step agentic tasks, MIT-licensed open-source."
-    },
-    {
-      "id": "nvidia/Qwen3.6-27B-NVFP4",
-      "task": "text-generation",
-      "likes": 254,
-      "downloads": 184521,
-      "library": "Model Optimizer",
-      "createdAt": "2026-06-22T12:24:08.000Z",
-      "url": "https://huggingface.co/nvidia/Qwen3.6-27B-NVFP4",
-      "summary": "Alibaba's Qwen3.6-27B model quantized with NVIDIA's FP4 optimization for efficient deployment in agents and RAG systems."
-    },
-    {
-      "id": "yuxinlu1/gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF",
-      "task": "text-generation",
-      "likes": 1013,
-      "downloads": 342752,
-      "library": "gguf",
-      "createdAt": "2026-06-19T00:06:07.000Z",
-      "url": "https://huggingface.co/yuxinlu1/gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF",
-      "summary": "12B gemma-4 model optimized for local agentic coding tasks, reasoning, tool-use, and multi-step debugging with minimal VRAM."
+      "summary": "Vision-language OCR model for one-shot long-horizon parsing of structured documents with multilingual support."
     },
     {
       "id": "InternScience/Agents-A1",
       "task": "text-generation",
-      "likes": 243,
-      "downloads": 5456,
+      "likes": 360,
+      "downloads": 14723,
       "library": "transformers",
       "createdAt": "2026-06-22T02:22:59.000Z",
       "url": "https://huggingface.co/InternScience/Agents-A1",
-      "summary": "35B mixture-of-experts agentic vision-language model scaling long-horizon tasks across engineering, research, and tool-calling domains."
+      "summary": "35B MoE agentic VLM scaling long-horizon tasks across engineering, research, tool-calling, and instruction-following."
     },
     {
-      "id": "deepseek-ai/DeepSeek-V4-Pro-DSpark",
+      "id": "nvidia/Qwen3.6-27B-NVFP4",
       "task": "text-generation",
-      "likes": 371,
-      "downloads": 10306,
-      "library": "transformers",
-      "createdAt": "2026-06-27T03:02:56.000Z",
-      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-DSpark",
-      "summary": "Mixture-of-experts language model with 1.6T parameters supporting 1M-token context and speculative decoding for efficient inference."
+      "likes": 304,
+      "downloads": 538687,
+      "library": "Model Optimizer",
+      "createdAt": "2026-06-22T12:24:08.000Z",
+      "url": "https://huggingface.co/nvidia/Qwen3.6-27B-NVFP4",
+      "summary": "27B text model quantized to FP4 with NVIDIA Model Optimizer for efficient agent and RAG deployment."
     },
     {
       "id": "google/tabfm-1.0.0-pytorch",
       "task": "tabular-classification",
-      "likes": 201,
-      "downloads": 1177,
+      "likes": 270,
+      "downloads": 9458,
       "library": "tabfm",
       "createdAt": "2026-06-29T23:04:41.000Z",
       "url": "https://huggingface.co/google/tabfm-1.0.0-pytorch",
-      "summary": "Zero-shot tabular foundation model for classification and regression on mixed structured data without fine-tuning or hyperparameter search."
+      "summary": "Zero-shot tabular foundation model for classification and regression on mixed numerical-categorical data without fine-tuning."
     },
     {
-      "id": "deepreinforce-ai/Ornith-1.0-9B",
+      "id": "deepreinforce-ai/Ornith-1.0-35B-GGUF",
       "task": "text-generation",
-      "likes": 377,
-      "downloads": 69837,
+      "likes": 771,
+      "downloads": 502663,
       "library": "transformers",
-      "createdAt": "2026-06-21T04:27:07.000Z",
-      "url": "https://huggingface.co/deepreinforce-ai/Ornith-1.0-9B",
-      "summary": "9B lightweight agentic coding model with self-improving RL training, MIT-licensed for efficient single-GPU deployment on coding tasks."
+      "createdAt": "2026-06-25T04:56:44.000Z",
+      "url": "https://huggingface.co/deepreinforce-ai/Ornith-1.0-35B-GGUF",
+      "summary": "MIT-licensed 35B agentic coding model with self-improving RL training, top performance on coding benchmarks."
+    },
+    {
+      "id": "AliesTaha/fable-traces",
+      "task": "text-generation",
+      "likes": 181,
+      "downloads": 3886,
+      "library": "transformers",
+      "createdAt": "2026-07-03T21:55:50.000Z",
+      "url": "https://huggingface.co/AliesTaha/fable-traces",
+      "summary": "4B instruction-tuned conversation model based on Qwen3, runs efficiently on modest hardware for casual dialogue."
+    },
+    {
+      "id": "yuxinlu1/gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF",
+      "task": "text-generation",
+      "likes": 1069,
+      "downloads": 384383,
+      "library": "gguf",
+      "createdAt": "2026-06-19T00:06:07.000Z",
+      "url": "https://huggingface.co/yuxinlu1/gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF",
+      "summary": "12B GGUF-quantized local coding agent with tool-use, reasoning, and multi-step task capabilities for offline work."
     }
   ]
 }

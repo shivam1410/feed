@@ -8,7 +8,7 @@ date: "2026-07-02"
 score: 70
 guid: "10.1038/s41586-026-10844-6"
 image: ""
-generated: "2026-07-03T19:05:12+05:30"
+generated: "2026-07-07T19:04:36+05:30"
 ---
 
-Electrodeposited self-assembled molecules enhance perovskite photovoltaic performance, advancing materials science approaches for solar energy applications.
+Electrodeposited self-assembled molecules for perovskite photovoltaics

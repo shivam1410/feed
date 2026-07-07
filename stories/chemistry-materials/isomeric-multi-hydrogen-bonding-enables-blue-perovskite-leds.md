@@ -8,7 +8,7 @@ date: "2026-07-01"
 score: 75
 guid: "10.1038/s41586-026-10723-0"
 image: ""
-generated: "2026-07-03T19:05:12+05:30"
+generated: "2026-07-07T19:04:36+05:30"
 ---
 
-Using isomeric molecules to engineer hydrogen-bonding networks, researchers achieved record external quantum efficiencies of 22.0% in blue perovskite light-emitting diodes. This breakthrough solves the long-standing engineering challenge of creating stable, saturated blue light emission in perovskite LEDs with efficiency and color purity comparable to conventional semiconductors. The achievement enables next-generation full-color displays leveraging perovskite technology for consumer electronics and emerging applications.
+Engineered hydrogen-bonding networks using isomeric molecules enable stable blue perovskite LEDs with record external quantum efficiencies of 22.0%. This breakthrough advances full-color display technology performance. The achievement demonstrates how molecular engineering directly improves device efficiency, with practical applications in smartphones, televisions, and lighting. Hydrogen-bond engineering represents a novel approach to solving the long-standing challenge of efficient blue light emission.

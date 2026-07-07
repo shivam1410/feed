@@ -8,7 +8,7 @@ date: "2026-07-01"
 score: 75
 guid: "10.1038/s41586-026-10718-x"
 image: ""
-generated: "2026-07-03T19:05:12+05:30"
+generated: "2026-07-07T19:04:36+05:30"
 ---
 
-Monotherapy with the HIF-2α inhibitor casdatifan achieves meaningful, durable responses linked to HIF-2α biology with manageable safety in the treatment of individuals with clear cell renal cell carcinoma.
+Casdatifan, a HIF-2α inhibitor, achieved meaningful and durable responses as monotherapy in clear cell renal cell carcinoma patients, with manageable safety. The responses correlated with HIF-2α biology modulation, identifying the mechanism driving efficacy. This demonstrates a new targeted therapy option for kidney cancer with a defined molecular basis.

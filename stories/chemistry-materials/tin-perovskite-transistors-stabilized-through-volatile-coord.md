@@ -8,7 +8,7 @@ date: "2026-07-01"
 score: 70
 guid: "10.1038/s41586-026-10714-1"
 image: ""
-generated: "2026-07-03T19:05:12+05:30"
+generated: "2026-07-07T19:04:36+05:30"
 ---
 
 A volatile-assisted coordination strategy regulates surface defect chemistry and self-doping, thus stabilizing the stoichiometry of tin perovskite semiconductors, resulting in transistors that can maintain stable operation for a month at temperatures of 100 °C.

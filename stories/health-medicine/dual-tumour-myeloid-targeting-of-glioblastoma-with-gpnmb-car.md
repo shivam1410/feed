@@ -8,7 +8,7 @@ date: "2026-07-01"
 score: 75
 guid: "10.1038/s41586-026-10641-1"
 image: ""
-generated: "2026-07-03T19:05:12+05:30"
+generated: "2026-07-07T19:04:36+05:30"
 ---
 
-Integrated multi-omic profiling of glioblastoma reveals GPNMB as a shared antigen in tumour cells and the surrounding microenvironment, and GPNMB-targeted chimeric antigen receptor T cells demonstrate therapeutic activity in vitro and in animal models.
+Multi-omic profiling identified GPNMB as a shared antigen in both glioblastoma tumor cells and surrounding immune microenvironment. GPNMB-targeted CAR-T immunotherapy cells demonstrated therapeutic activity in laboratory and animal models. This dual-targeting approach overcomes a major obstacle in brain cancer: the immunosuppressive tumor microenvironment. The strategy offers a promising immunotherapy approach for this treatment-resistant brain cancer.

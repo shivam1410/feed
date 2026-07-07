@@ -5,10 +5,10 @@ source: "Simon Willison"
 url: "https://simonwillison.net/2026/Jun/26/openai/#atom-everything"
 authors: []
 date: "2026-06-26T17:10:43+00:00"
-score: 70
+score: 75
 guid: "https://simonwillison.net/2026/Jun/26/openai/#atom-everything"
 image: ""
-generated: "2026-07-05T10:28:16+05:30"
+generated: "2026-07-07T19:04:36+05:30"
 ---
 
-OpenAI previewed GPT-5.6 series: Sol (flagship), Terra (balanced), and Luna (affordable). Luna prices at $1/$6 per million tokens, Terra at $2.50/$15, and Sol at $5/$30. Terra matches GPT-5.5 performance at 2x lower cost. Initial limited preview targets government-approved partners before broader release in coming weeks. GPT-5.6 introduces prompt caching with explicit breakpoints and 30-minute minimum lifespan, billed at 1.25x input rate with 90% discount on cache reads.
+We're beginning a limited preview of the GPT‑5.6 series: Sol, our flagship model; Terra, a balanced model for everyday work; and Luna, a fast and affordable model. Terra has competitive performance to GPT‑5.5 while being 2x cheaper and Luna brings strong capability at our lowest cost. [...] We believe in broad access, and we plan to make GPT‑5.6 Sol, Terra, and Luna generally available in the coming weeks. As part of our ongoing engagement with the U.S. government, we previewed our plans and the models’ capabilities ahead of today’s launch. At their request, we are starting with a limited preview for a small group of trusted partners whose participation has been shared with the government, before releasing more broadly. [...] GPT‑5.6 is priced per 1M tokens across three model sizes: Sol is $5 input / $30 output; Terra is $2.50 input / $15 output; and Luna is $1 input / $6 output. GPT‑5.6 also introduces more predictable prompt caching, including support for explicit cache breakpoints and a 30-minute minimum cache life. For GPT‑5.6 and later models, cache writes are billed at 1.25x the model’s uncached input rate, while cache reads continue to receive the 90% cached-input discount. — OpenAI , Previewing GPT‑5.6 Sol: a next-generation model Tags: gpt , generative-ai , ai-security-research , openai , llms , llm-release , llm-pricing

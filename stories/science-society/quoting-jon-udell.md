@@ -5,10 +5,10 @@ source: "Simon Willison"
 url: "https://simonwillison.net/2026/Jun/28/jon-udell/#atom-everything"
 authors: []
 date: "2026-06-28T21:57:41+00:00"
-score: 40
+score: 45
 guid: "https://simonwillison.net/2026/Jun/28/jon-udell/#atom-everything"
 image: ""
-generated: "2026-07-05T10:28:16+05:30"
+generated: "2026-07-07T19:04:36+05:30"
 ---
 
-Jon Udell reframes "human in the loop" as language that cedes authority to machines. He advocates viewing AI agents as tools invited into our existing workflow, where humans remain primary decision-makers. This semantic shift emphasizes human agency and control, transforming AI assistance from a system that directs us to one we direct. The reframing supports trustworthy AI-assisted software development processes where agents augment human capability rather than replace judgment, prioritizing human control while leveraging AI strengths.
+Human Agent in the loop I dislike the phrase “human in the loop” because it cedes authority to the machines. Let’s flip the narrative. It’s our loop, we work the same way we always have, now we recruit agents to join the team. An agent-assisted process need not be a black box that takes in prompts and emits features. [...] Let’s do agentic software development like that. Not as a loop we’ve been excluded from, instead as one we invite agents into. — Jon Udell , “Doctor, it hurts when agents create unreviewable PRs.” “Don’t do that.” Tags: jon-udell , coding-agents , generative-ai , agentic-engineering , ai , llms

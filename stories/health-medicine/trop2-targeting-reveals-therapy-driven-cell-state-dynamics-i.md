@@ -8,7 +8,7 @@ date: "2026-07-01"
 score: 70
 guid: "10.1038/s41586-026-10705-2"
 image: ""
-generated: "2026-07-03T19:05:12+05:30"
+generated: "2026-07-07T19:04:36+05:30"
 ---
 
 TROP2 marks poor-prognosis colorectal cancer cells with fetal-like, therapy-resistant states, and therapeutic targeting of TROP2 with antibody–drug conjugates in combination with chemotherapy enhances treatment efficacy by modulating tumour cell plasticity and overcoming resistance.

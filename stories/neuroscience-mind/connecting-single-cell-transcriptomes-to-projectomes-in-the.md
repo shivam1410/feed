@@ -8,7 +8,7 @@ date: "2026-07-01"
 score: 75
 guid: "10.1038/s41586-026-10424-8"
 image: ""
-generated: "2026-07-03T19:05:12+05:30"
+generated: "2026-07-07T19:04:36+05:30"
 ---
 
-In the mouse visual cortex, researchers linked gene expression profiles of individual neurons to their long-range anatomical projections across distant brain regions. Using multimodal analysis combining transcriptomics, cell morphology, and electrical properties, they demonstrated that a neuron's molecular identity reliably predicts its circuit connections. This framework links genetic programming directly to neural wiring, suggesting genetic programs sculpt brain connectivity during development and providing tools for understanding circuit assembly mechanisms.
+In the mouse visual cortex, researchers linked single-cell gene expression profiles to long-range neural projection targets by integrating transcriptomic, morphological, and electrophysiological data. Cell-type definitions predict where excitatory neurons send connections across the brain. This multimodal approach bridges molecular identity and circuit function, enabling prediction of neural connectivity from genes and establishing how molecular signatures determine circuit organization.

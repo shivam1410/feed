@@ -8,7 +8,7 @@ date: "2026-07-01"
 score: 80
 guid: "10.1038/s41586-026-10720-3"
 image: ""
-generated: "2026-07-03T19:05:12+05:30"
+generated: "2026-07-07T19:04:36+05:30"
 ---
 
-Using fiber-optic systems engineered to mimic black hole physics, researchers provided experimental evidence for Hawking radiation—the quantum phenomenon predicting black holes emit particles—and demonstrated how this radiation affects the system generating it. This optical analogue confirms theoretical predictions linking quantum mechanics and general relativity through controlled laboratory experiments, previously inaccessible to direct testing, advancing understanding of black hole thermodynamics.
+Using a fiber-optic system mimicking black hole physics, researchers provided experimental and theoretical evidence for Hawking radiation and its backreaction effect on the optical pump. This laboratory approach tests black hole thermodynamics predictions impossible to observe directly. The work validates fundamental theoretical physics through controlled experiments, demonstrating how optical analogues enable investigation of extreme physics inaccessible to direct observation.

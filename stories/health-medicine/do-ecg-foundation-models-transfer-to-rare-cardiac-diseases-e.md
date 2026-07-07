@@ -1,0 +1,14 @@
+---
+title: "Do ECG Foundation Models Transfer to Rare Cardiac Diseases? Evidence from Brugada Syndrome Detection"
+category: "Health & Medicine"
+source: "arXiv (cs.LG)"
+url: "https://arxiv.org/abs/2607.03009"
+authors: ["Beatrice Zanchi, Giuliana Monachino, Alvise Dei Rossi, Luigi Fiorillo, Georgia Sarquella-Brugada, Giulio Conte, Francesca Dalia Faraci"]
+date: "Tue, 07 Jul 2026 00:00:00 -0400"
+score: 75
+guid: "oai:arXiv.org:2607.03009v1"
+image: ""
+generated: "2026-07-07T19:04:36+05:30"
+---
+
+arXiv:2607.03009v1 Announce Type: new Abstract: Background: Foundation models (FMs) trained on large-scale unlabeled physiological data have emerged as a promising paradigm for medical artificial intelligence. Their ability to capture clinically meaningful, transferable representations for rare diseases remains largely unproven. This study investigates whether FM pre-training provides genuine clinical generalization benefits beyond improved optimization for rare electrocardiographic (ECG) phenotypes. Methods: We systematically evaluated nine publicly available ECG FMs for Brugada syndrome detection on the BrSwiss cohort (294 patients, 87 cases) and the independent external HUCA cohort (363 patients, 76 cases), under three strategies (from-scratch training, linear probing, full fine-tuning) across several configurations, including a 3% data ablation and zero-shot cross-site transfers. Results: Pre-training was necessary for high-capacity architectures unable to converge from scratch (AUC gain up to 0.411, p < 0.05), but gave no significant gain for compact architectures already converged on labeled data alone. On full BrSwiss, the best fine-tuned FM (ECG-CPC, AUC = 0.962) only marginally exceeded the strongest supervised baseline (ECG-CPC from scratch, AUC = 0.932; p = 0.091). At matched training-set size, the data-efficiency advantage on BrSwiss-3% (AUC gain = 0.055, p < 0.01) did not replicate on HUCA. Under zero-shot cross-site transfer, FM-based pipelines did not generalize better than supervised baselines, all approaching chance-level performance. Conclusion: For Brugada syndrome detection, FM pre-training is mechanical rather than semantic, providing optimization stability rather than transferable clinical knowledge. These findings challenge the assumption that large-scale pre-training inherently encodes clinically meaningful representations, highlighting the central role of model architecture and data-domain alignment.

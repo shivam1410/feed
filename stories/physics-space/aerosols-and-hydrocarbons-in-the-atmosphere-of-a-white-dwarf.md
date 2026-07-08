@@ -8,7 +8,7 @@ date: "2026-07-01"
 score: 80
 guid: "10.1038/s41586-026-10514-7"
 image: ""
-generated: "2026-07-07T19:04:36+05:30"
+generated: "2026-07-08T19:04:42+05:30"
 ---
 
-The James Webb Space Telescope detected hydrocarbons and aerosols in the atmosphere of WD 1856 b, a planet orbiting a white dwarf, through transmission spectroscopy. This discovery provides the first direct atmospheric composition data for a white-dwarf-orbiting exoplanet and offers constraints on the planet's mass and thermal history. Understanding such extreme planetary atmospheres tests our models of atmospheric evolution under intense stellar radiation.
+WD 1856 b is the first known rocky exoplanet orbiting a white dwarf stellar remnant. James Webb Space Telescope transmission spectroscopy detected hydrocarbons and aerosols in its thin atmosphere. These molecular signatures constrain the planet's mass, density, and heating from proximity to the white dwarf. The detection demonstrates that JWST can characterize atmospheres of small, cool planets orbiting exotic stellar objects, extending exoplanet science to previously inaccessible worlds and opening new frontiers in studying planetary atmospheres around stellar remnants.

@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/s41586-026-10574-9"
 authors: ["Liujia Qian", "Zizhuo Zhou", "Peijie Zhou", "Zhen Dong", "Xudong Zhang", "Zhenwu Dai", "Zhangyang Gao", "Siqi Sun", "Kevin R. Roy", "Shuaiyao Wang", "Nicola Zamboni", "Charles Boone", "Michael Costanzo", "Jianzhe Li", "Gianni Liti", "Jia-Xing Yue", "Markus Ralser", "Evan Williams", "Mattia Zampieri", "Heng Jiang", "Tailin Wu", "Yalin Wang", "Feiran Li", "Joseph Schacherer", "Rui Sun", "Zhaoxing Li", "Yaming Deng", "Yi Chen", "Zhiping Xie", "Huiqiang Lou", "Xiaowen Wang", "Linhai Xie", "Han Wen", "Liangyi Chen", "Kai Lei", "George Rosenberger", "Xue Cai", "Yingrui Wang", "Qi Xiao", "Huaizong Shen", "Gaowen Liu", "Lei Ma", "Brenda Andrews", "Hui Lu", "Kiryl Piatkevich", "Yi Zhu", "Lei Bai", "Yizhi Cai", "Yuping Chen", "Weinan E", "Ge Gao", "Fuchu He", "Luonan Chen", "Stan Z. Li", "Hongwu Ma", "Liang Qiao", "Lars M. Steinmetz", "Leihan Tang", "Tang Tang", "Xiaofan Zhang", "Jing Yang", "Yifan Yang", "Kaicheng Yu", "Jianyang Zeng", "Yefeng Zheng", "Bowen Zhou", "Tiannan Guo"]
 date: "2026-07-01"
-score: 65
+score: 76
 guid: "10.1038/s41586-026-10574-9"
 image: ""
-generated: "2026-07-07T19:04:36+05:30"
+generated: "2026-07-08T19:04:42+05:30"
 ---
 
-A virtual yeast, an artificial intelligence-driven agent for modelling eukaryotic cellular behaviours, is described.
+Researchers developed a virtual yeast—an artificial intelligence agent simulating eukaryotic cellular behaviors of yeast cells. The system represents progress toward computational modeling of complete cellular biology. The provided text describes the project's existence and purpose but offers no validation results, accuracy metrics, or specific behaviors successfully modeled.

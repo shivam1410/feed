@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/s41586-026-10729-8"
 authors: ["Sarah Schiffers", "Blake W. Nelson", "Maria Prigge", "Shriya Krishna", "Leslie Watkins", "Yining Zhu", "Nishu Tyagi", "Hamid Beiki", "Sudipto Das", "Ayush Raman", "Jingyao Ma", "Thorkell Andresson", "Hai-Quan Mao", "Bin Wu", "Shalini Oberdoerffer"]
 date: "2026-07-01"
-score: 70
+score: 74
 guid: "10.1038/s41586-026-10729-8"
 image: ""
-generated: "2026-07-03T19:05:12+05:30"
+generated: "2026-07-08T19:04:42+05:30"
 ---
 
-Researchers compared chemical modifications to RNA used in synthetic mRNA therapeutics, testing N4-acetylcytidine versus N1-methylpseudouridine, the industry standard. N4-acetylcytidine produced both higher protein translation output and greater fidelity—accuracy in producing intended proteins. Different RNA modifications alter ribosomal elongation rates during synthesis, affecting translation quantity and quality. This finding has direct implications for improving mRNA vaccines and therapeutics by selecting optimal modifications, potentially boosting both efficacy and safety.
+Synthetic mRNA translation efficiency and accuracy depend critically on ribonucleoside chemical structure. N4-acetylcytidine modifies elongation rates compared to the industry standard N1-methylpseudouridine, producing higher translation output and improved fidelity. These small chemical changes in mRNA building blocks produce measurable differences in protein production—key metrics for therapeutic mRNA vaccines and drugs. The work provides rational frameworks for optimizing mRNA formulations by selecting modifications that balance translation speed and accuracy for specific therapeutic contexts.

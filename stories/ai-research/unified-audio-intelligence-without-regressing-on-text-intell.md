@@ -8,7 +8,7 @@ date: "2026-07-05T20:00:00.000Z"
 score: 75
 guid: "2607.05196"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2607.05196.png"
-generated: "2026-07-07T19:04:36+05:30"
+generated: "2026-07-08T19:04:42+05:30"
 ---
 
-A unified audio-text large language model integrates both modalities through a shared transformer decoder, achieving strong performance on audio and speech tasks while maintaining robust text reasoning. The architecture avoids the efficiency penalties of separate specialized models. This demonstrates that cross-modal integration can match or exceed single-modality specialists.
+A unified audio-text large language model is presented that integrates audio and text processing through a shared transformer decoder, achieving superior performance across multiple audio and speech tasks while maintaining strong text reasoning capabilities.

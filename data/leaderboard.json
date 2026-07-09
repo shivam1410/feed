@@ -1,106 +1,106 @@
 {
-  "generatedAt": "2026-07-08T19:05:16+05:30",
+  "generatedAt": "2026-07-09T19:07:11+05:30",
   "source": "Hugging Face — trending models",
   "models": [
     {
       "id": "empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
       "task": "image-text-to-text",
-      "likes": 1810,
-      "downloads": 1683711,
+      "likes": 1898,
+      "downloads": 1875602,
       "library": "gguf",
       "createdAt": "2026-06-19T14:32:14.000Z",
       "url": "https://huggingface.co/empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
-      "summary": "GGUF-quantized 9B reasoning model with 1M-token context, multimodal capabilities, and function-calling support for local inference."
+      "summary": "A 9B reasoning model with 1M-token context, function calling, and multimodal capabilities for image-text-to-text tasks."
     },
     {
       "id": "tencent/Hy3",
       "task": "text-generation",
-      "likes": 533,
-      "downloads": 121,
+      "likes": 586,
+      "downloads": 5572,
       "library": "transformers",
       "createdAt": "2026-07-02T13:23:54.000Z",
       "url": "https://huggingface.co/tencent/Hy3",
-      "summary": "Tencent's 295B Mixture-of-Experts model with 21B active parameters, outperforming larger models on productivity and agentic tasks."
+      "summary": "A 295B Mixture-of-Experts text generation model with 21B active parameters and 256K context for conversational and agent tasks."
     },
     {
       "id": "zai-org/GLM-5.2",
       "task": "text-generation",
-      "likes": 3640,
-      "downloads": 281584,
+      "likes": 3693,
+      "downloads": 362300,
       "library": "transformers",
       "createdAt": "2026-06-16T07:39:20.000Z",
       "url": "https://huggingface.co/zai-org/GLM-5.2",
-      "summary": "MIT-licensed GLM-5.2 flagship model supporting 1M-token context with advanced coding and flexible thinking effort levels."
+      "summary": "An MIT-licensed text generation model with 1M-token context and flexible thinking effort levels for long-horizon coding."
     },
     {
       "id": "baidu/Unlimited-OCR",
       "task": "image-text-to-text",
-      "likes": 1853,
-      "downloads": 1084945,
+      "likes": 1891,
+      "downloads": 1246042,
       "library": "transformers",
       "createdAt": "2026-06-19T09:40:33.000Z",
       "url": "https://huggingface.co/baidu/Unlimited-OCR",
-      "summary": "Vision-language model for one-shot OCR and document parsing across multiple languages without fine-tuning."
+      "summary": "A multilingual vision-language OCR model for extracting text from images with one-shot long-horizon parsing capabilities."
     },
     {
       "id": "InternScience/Agents-A1",
       "task": "text-generation",
-      "likes": 390,
-      "downloads": 14723,
+      "likes": 414,
+      "downloads": 23112,
       "library": "transformers",
       "createdAt": "2026-06-22T02:22:59.000Z",
       "url": "https://huggingface.co/InternScience/Agents-A1",
-      "summary": "35B MoE agentic model scaling long-horizon capabilities across search, engineering, research, and tool-calling tasks."
+      "summary": "A 35B Mixture-of-Experts agentic model for long-horizon search, engineering, scientific research, and tool-calling."
     },
     {
       "id": "google/tabfm-1.0.0-pytorch",
       "task": "tabular-classification",
-      "likes": 301,
-      "downloads": 9458,
+      "likes": 323,
+      "downloads": 16374,
       "library": "tabfm",
       "createdAt": "2026-06-29T23:04:41.000Z",
       "url": "https://huggingface.co/google/tabfm-1.0.0-pytorch",
-      "summary": "Zero-shot tabular foundation model for classification and regression using in-context learning on mixed numerical and categorical data."
-    },
-    {
-      "id": "deepreinforce-ai/Ornith-1.0-35B-GGUF",
-      "task": "text-generation",
-      "likes": 794,
-      "downloads": 502663,
-      "library": "transformers",
-      "createdAt": "2026-06-25T04:56:44.000Z",
-      "url": "https://huggingface.co/deepreinforce-ai/Ornith-1.0-35B-GGUF",
-      "summary": "MIT-licensed 35B agentic coding model using RL-based self-improvement for scaffold discovery and solution generation."
+      "summary": "A zero-shot tabular foundation model for classification and regression on structured data with no fine-tuning needed."
     },
     {
       "id": "AliesTaha/fable-traces",
       "task": "text-generation",
-      "likes": 185,
-      "downloads": 3886,
+      "likes": 192,
+      "downloads": 4647,
       "library": "transformers",
       "createdAt": "2026-07-03T21:55:50.000Z",
       "url": "https://huggingface.co/AliesTaha/fable-traces",
-      "summary": "Compact 4B instruction-tuned conversational model based on Qwen3, optimized for short replies on mid-range GPUs."
+      "summary": "A 4B instruction-tuned language model based on Qwen3 designed for short conversational replies on single GPU."
     },
     {
-      "id": "nvidia/Qwen3.6-27B-NVFP4",
+      "id": "froggeric/Qwen-Fixed-Chat-Templates",
+      "task": null,
+      "likes": 807,
+      "downloads": 0,
+      "library": "mlx",
+      "createdAt": "2026-04-23T15:28:14.000Z",
+      "url": "https://huggingface.co/froggeric/Qwen-Fixed-Chat-Templates",
+      "summary": "Fixed Jinja chat templates for Qwen 3.5 & 3.6 supporting LM Studio, llama.cpp, vLLM with tool-calling."
+    },
+    {
+      "id": "mistralai/Leanstral-1.5-119B-A6B",
+      "task": null,
+      "likes": 174,
+      "downloads": 258,
+      "library": "vllm",
+      "createdAt": "2026-07-01T16:43:19.000Z",
+      "url": "https://huggingface.co/mistralai/Leanstral-1.5-119B-A6B",
+      "summary": "A 119B Mixture-of-Experts code agent for Lean 4 with multimodal input and 256K context support."
+    },
+    {
+      "id": "deepreinforce-ai/Ornith-1.0-35B-GGUF",
       "task": "text-generation",
-      "likes": 322,
-      "downloads": 538687,
-      "library": "Model Optimizer",
-      "createdAt": "2026-06-22T12:24:08.000Z",
-      "url": "https://huggingface.co/nvidia/Qwen3.6-27B-NVFP4",
-      "summary": "NVIDIA's FP4-quantized Qwen3.6-27B model optimized for AI agents, chatbots, and RAG system deployment."
-    },
-    {
-      "id": "HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
-      "task": "image-text-to-text",
-      "likes": 2564,
-      "downloads": 2823988,
-      "library": null,
-      "createdAt": "2026-04-17T00:15:26.000Z",
-      "url": "https://huggingface.co/HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
-      "summary": "Uncensored GGUF quantization of Qwen3.6-35B-A3B MoE model with multimodal vision and multilingual capabilities."
+      "likes": 812,
+      "downloads": 957721,
+      "library": "transformers",
+      "createdAt": "2026-06-25T04:56:44.000Z",
+      "url": "https://huggingface.co/deepreinforce-ai/Ornith-1.0-35B-GGUF",
+      "summary": "An MIT-licensed 35B Mixture-of-Experts agentic coding model with self-improving capabilities through reinforcement learning."
     }
   ]
 }

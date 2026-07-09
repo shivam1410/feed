@@ -8,7 +8,7 @@ date: "Wed, 25 Feb 2026 17:00:00 +0000"
 score: 50
 guid: "https://blog.google/company-news/inside-google/googlers/ask-a-techspert/what-is-a-world-model-project-genie/"
 image: "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/World_SocialShare.max-600x600.format-webp.webp"
-generated: "2026-07-08T19:04:42+05:30"
+generated: "2026-07-09T19:06:43+05:30"
 ---
 
 Learn more about Google’s Project Genie, as well as what makes a world model and what it can do.

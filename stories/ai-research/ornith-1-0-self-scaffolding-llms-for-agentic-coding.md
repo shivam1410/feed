@@ -5,10 +5,10 @@ source: "Simon Willison"
 url: "https://simonwillison.net/2026/Jun/29/ornith/#atom-everything"
 authors: []
 date: "2026-06-29T16:17:59+00:00"
-score: 80
+score: 75
 guid: "https://simonwillison.net/2026/Jun/29/ornith/#atom-everything"
 image: ""
-generated: "2026-07-08T19:04:42+05:30"
+generated: "2026-07-09T19:06:43+05:30"
 ---
 
-DeepReinforce released Ornith-1.0, an MIT-licensed open-weights coding model available in variants from 9B to 397B parameters, built on Gemma 4 and Qwen 3.5. The model achieves state-of-the-art performance on coding benchmarks among comparable open-source models and handles multi-step agentic tool-use workflows effectively, running at 103 tokens per second on tested hardware.
+Ornith-1.0 is a MIT-licensed open-weights model from DeepReinforce designed for agentic coding, available in variants from 9B to 397B parameters. Built on pretrained Gemma 4 and Qwen 3.5 (both Apache 2.0 licensed), it achieves state-of-the-art performance among open-source models on coding benchmarks. Early testing shows proficient execution of agent harness operations across multiple tool calls, including code discovery and UI interaction analysis. The 35B variant (20GB quantized) achieves 103 tokens per second, enabling practical local deployment. This represents an accessible open-source option for coding-focused applications where code understanding and generation are critical.

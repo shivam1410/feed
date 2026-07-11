@@ -5,10 +5,10 @@ source: "Simon Willison"
 url: "https://simonwillison.net/2026/Jul/8/introducing-gptlive/#atom-everything"
 authors: []
 date: "2026-07-08T23:20:48+00:00"
-score: 50
+score: 62
 guid: "https://simonwillison.net/2026/Jul/8/introducing-gptlive/#atom-everything"
 image: ""
-generated: "2026-07-09T19:06:43+05:30"
+generated: "2026-07-11T21:29:29+05:30"
 ---
 
 Introducing GPT‑Live OpenAI finally upgraded the model used by ChatGPT voice mode! I've had preview access for a few weeks in the iPhone app, and the new model is very impressive. It also has the ability to spin off harder tasks to GPT-5.5: For questions that require web search, deeper reasoning, or more complex work, it delegates to our latest frontier model behind the scenes and brings the result back into the conversation when it’s ready. While it works, GPT‑Live can keep talking with you and maintain the flow of conversation. At launch, GPT‑Live will use GPT‑5.5 in the background. As we release new frontier models, we’ll continuously update the model used by GPT‑Live. The previous voice mode in the ChatGPT app was based on a GPT-4o era model, with a knowledge cut-off some time in 2024. I had mostly stopped using voice mode because the age and relative weakness of the model greatly limited how useful it was as a brainstorming partner. During the preview period I encountered a pretty obscure bug: the model was interrupting me to laugh at things I said, which weren't even intended as jokes! It felt rude and condescending - I reported it to OpenAI and as far as I can tell they made some tweaks and it's now less likely to happen. From looking back at my transcripts I think it was this bit that triggered the interrupting laugh: so where are the owls when they're not, like before dusk? The owls exist, right? Are they hiding in holes? Where are they hiding? My longest conversation with the new model has been a full hour while walking the dog (and taking photos of pelicans ). I have not yet managed to take a photo of an owl. Via Hacker News Tags: text-to-speech , ai , openai , generative-ai , llms , multi-modal-output , llm-release , speech-to-text

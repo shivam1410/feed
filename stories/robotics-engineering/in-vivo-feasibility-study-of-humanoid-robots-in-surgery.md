@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/s41586-026-10796-x"
 authors: ["Zekai Liang", "Nikita Thareja", "Peihan Zhang", "Calvin Joyce", "Soofiyan Atar", "Florian Richter", "Garth Jacobsen", "Shanglei Liu", "Ryan Broderick", "Michael Yip"]
 date: "2026-07-08"
-score: 70
+score: 75
 guid: "10.1038/s41586-026-10796-x"
 image: ""
-generated: "2026-07-09T19:06:43+05:30"
+generated: "2026-07-11T21:29:29+05:30"
 ---
 
-A systematic evaluation shows that contemporary humanoid robots can perform laparoscopic surgical tasks through teleoperation, highlighting both their promise and key technical challenges before clinical deployment.
+A systematic study demonstrates that current humanoid robots can perform laparoscopic surgical tasks when remotely controlled by surgeons. The evaluation confirms both the robots' surgical potential and identifies technical hurdles before they can enter clinical use. This research provides a critical assessment of robot readiness for operating rooms.

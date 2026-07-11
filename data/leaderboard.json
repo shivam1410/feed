@@ -1,106 +1,106 @@
 {
-  "generatedAt": "2026-07-09T19:07:11+05:30",
+  "generatedAt": "2026-07-11T21:29:58+05:30",
   "source": "Hugging Face — trending models",
   "models": [
     {
-      "id": "empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
-      "task": "image-text-to-text",
-      "likes": 1898,
-      "downloads": 1875602,
-      "library": "gguf",
-      "createdAt": "2026-06-19T14:32:14.000Z",
-      "url": "https://huggingface.co/empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
-      "summary": "A 9B reasoning model with 1M-token context, function calling, and multimodal capabilities for image-text-to-text tasks."
-    },
-    {
       "id": "tencent/Hy3",
       "task": "text-generation",
-      "likes": 586,
-      "downloads": 5572,
+      "likes": 692,
+      "downloads": 8210,
       "library": "transformers",
       "createdAt": "2026-07-02T13:23:54.000Z",
       "url": "https://huggingface.co/tencent/Hy3",
-      "summary": "A 295B Mixture-of-Experts text generation model with 21B active parameters and 256K context for conversational and agent tasks."
+      "summary": "Tencent's 295B-parameter mixture-of-experts model with 21B active parameters for text generation and agent tasks."
+    },
+    {
+      "id": "empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
+      "task": "image-text-to-text",
+      "likes": 2001,
+      "downloads": 1944961,
+      "library": "gguf",
+      "createdAt": "2026-06-19T14:32:14.000Z",
+      "url": "https://huggingface.co/empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
+      "summary": "9B reasoning model with 1M context window, function-calling support, and Claude-style chain-of-thought capabilities."
     },
     {
       "id": "zai-org/GLM-5.2",
       "task": "text-generation",
-      "likes": 3693,
-      "downloads": 362300,
+      "likes": 3814,
+      "downloads": 421270,
       "library": "transformers",
       "createdAt": "2026-06-16T07:39:20.000Z",
       "url": "https://huggingface.co/zai-org/GLM-5.2",
-      "summary": "An MIT-licensed text generation model with 1M-token context and flexible thinking effort levels for long-horizon coding."
-    },
-    {
-      "id": "baidu/Unlimited-OCR",
-      "task": "image-text-to-text",
-      "likes": 1891,
-      "downloads": 1246042,
-      "library": "transformers",
-      "createdAt": "2026-06-19T09:40:33.000Z",
-      "url": "https://huggingface.co/baidu/Unlimited-OCR",
-      "summary": "A multilingual vision-language OCR model for extracting text from images with one-shot long-horizon parsing capabilities."
+      "summary": "GLM-5.2 flagship model supporting 1M-token context with advanced coding and long-horizon task capabilities."
     },
     {
       "id": "InternScience/Agents-A1",
       "task": "text-generation",
-      "likes": 414,
-      "downloads": 23112,
+      "likes": 484,
+      "downloads": 28141,
       "library": "transformers",
       "createdAt": "2026-06-22T02:22:59.000Z",
       "url": "https://huggingface.co/InternScience/Agents-A1",
-      "summary": "A 35B Mixture-of-Experts agentic model for long-horizon search, engineering, scientific research, and tool-calling."
+      "summary": "35B mixture-of-experts agentic vision-language model for long-horizon search, engineering, research, and tool-calling."
     },
     {
-      "id": "google/tabfm-1.0.0-pytorch",
-      "task": "tabular-classification",
-      "likes": 323,
-      "downloads": 16374,
-      "library": "tabfm",
-      "createdAt": "2026-06-29T23:04:41.000Z",
-      "url": "https://huggingface.co/google/tabfm-1.0.0-pytorch",
-      "summary": "A zero-shot tabular foundation model for classification and regression on structured data with no fine-tuning needed."
-    },
-    {
-      "id": "AliesTaha/fable-traces",
-      "task": "text-generation",
-      "likes": 192,
-      "downloads": 4647,
+      "id": "bottlecapai/ThinkingCap-Qwen3.6-27B",
+      "task": "image-text-to-text",
+      "likes": 224,
+      "downloads": 4128,
       "library": "transformers",
-      "createdAt": "2026-07-03T21:55:50.000Z",
-      "url": "https://huggingface.co/AliesTaha/fable-traces",
-      "summary": "A 4B instruction-tuned language model based on Qwen3 designed for short conversational replies on single GPU."
+      "createdAt": "2026-07-06T13:16:04.000Z",
+      "url": "https://huggingface.co/bottlecapai/ThinkingCap-Qwen3.6-27B",
+      "summary": "Qwen3.6-27B variant optimized for token-efficient reasoning with 50% fewer thinking tokens on average."
+    },
+    {
+      "id": "baidu/Unlimited-OCR",
+      "task": "image-text-to-text",
+      "likes": 1927,
+      "downloads": 1380690,
+      "library": "transformers",
+      "createdAt": "2026-06-19T09:40:33.000Z",
+      "url": "https://huggingface.co/baidu/Unlimited-OCR",
+      "summary": "Multilingual vision-language OCR model for comprehensive document parsing and text extraction from images."
     },
     {
       "id": "froggeric/Qwen-Fixed-Chat-Templates",
       "task": null,
-      "likes": 807,
+      "likes": 846,
       "downloads": 0,
       "library": "mlx",
       "createdAt": "2026-04-23T15:28:14.000Z",
       "url": "https://huggingface.co/froggeric/Qwen-Fixed-Chat-Templates",
-      "summary": "Fixed Jinja chat templates for Qwen 3.5 & 3.6 supporting LM Studio, llama.cpp, vLLM with tool-calling."
+      "summary": "Fixed Jinja chat templates for Qwen 3.5/3.6 supporting multiple inference engines with improved tool-calling."
     },
     {
-      "id": "mistralai/Leanstral-1.5-119B-A6B",
-      "task": null,
-      "likes": 174,
-      "downloads": 258,
-      "library": "vllm",
-      "createdAt": "2026-07-01T16:43:19.000Z",
-      "url": "https://huggingface.co/mistralai/Leanstral-1.5-119B-A6B",
-      "summary": "A 119B Mixture-of-Experts code agent for Lean 4 with multimodal input and 256K context support."
-    },
-    {
-      "id": "deepreinforce-ai/Ornith-1.0-35B-GGUF",
+      "id": "meituan-longcat/LongCat-2.0",
       "task": "text-generation",
-      "likes": 812,
-      "downloads": 957721,
-      "library": "transformers",
-      "createdAt": "2026-06-25T04:56:44.000Z",
-      "url": "https://huggingface.co/deepreinforce-ai/Ornith-1.0-35B-GGUF",
-      "summary": "An MIT-licensed 35B Mixture-of-Experts agentic coding model with self-improving capabilities through reinforcement learning."
+      "likes": 174,
+      "downloads": 1572,
+      "library": "LongCat-2.0",
+      "createdAt": "2026-07-05T00:07:44.000Z",
+      "url": "https://huggingface.co/meituan-longcat/LongCat-2.0",
+      "summary": "1.6-trillion-parameter MoE model with 1M context window optimized for long-horizon coding and agentic workflows."
+    },
+    {
+      "id": "conradlocke/krea2-identity-edit",
+      "task": null,
+      "likes": 170,
+      "downloads": 0,
+      "library": null,
+      "createdAt": "2026-07-07T14:28:55.000Z",
+      "url": "https://huggingface.co/conradlocke/krea2-identity-edit",
+      "summary": "Krea 2 LoRA adapter enabling instruction-based image editing while preserving identities and untouched elements."
+    },
+    {
+      "id": "google/tabfm-1.0.0-pytorch",
+      "task": "tabular-classification",
+      "likes": 347,
+      "downloads": 20110,
+      "library": "tabfm",
+      "createdAt": "2026-06-29T23:04:41.000Z",
+      "url": "https://huggingface.co/google/tabfm-1.0.0-pytorch",
+      "summary": "Google's zero-shot tabular foundation model for classification and regression requiring only in-context examples, no fine-tuning."
     }
   ]
 }

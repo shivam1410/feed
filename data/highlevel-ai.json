@@ -1,7 +1,13 @@
 {
-  "generatedAt": "2026-07-09T19:07:37+05:30",
+  "generatedAt": "2026-07-11T21:30:24+05:30",
   "summary": "2026 is HighLevel's “AI Employee” year. Conversation AI now drafts replies in the background (Auto-Suggestive mode) and understands 30+ languages; Voice AI matured to 27 languages and 340+ voices; AI Studio added role-based team permissions; and Ask AI — powered by Claude Sonnet — drives the backend by chat.",
   "topIdeas": [
+    {
+      "title": "Voice AI Push-To-Talk widget that is embeddable to funnels/website",
+      "score": 286,
+      "product": "Voice AI",
+      "url": "https://ideas.gohighlevel.com/voice-ai"
+    },
     {
       "title": "Improve Voice AI realism",
       "score": 272,
@@ -10,25 +16,31 @@
     },
     {
       "title": "Recognize a caller in your contacts and say hello \"name\" when they call in",
-      "score": 262,
+      "score": 265,
       "product": "Voice AI",
       "url": "https://ideas.gohighlevel.com/voice-ai"
     },
     {
+      "title": "Send Images through Conversational AI",
+      "score": 235,
+      "product": "Conversation AI",
+      "url": "https://ideas.gohighlevel.com/conversation-ai"
+    },
+    {
       "title": "🤖Combine Voice AI and Conversation AI Together �",
-      "score": 233,
+      "score": 235,
       "product": "AI Employee",
       "url": "https://ideas.gohighlevel.com/ai-employee"
     },
     {
-      "title": "GHL AI Assistant (For users - NOT for customers)",
-      "score": 201,
-      "product": "Ask AI",
-      "url": "https://ideas.gohighlevel.com/ask-ai"
+      "title": "Add Gemini LLM Model in conversation AI",
+      "score": 190,
+      "product": "Conversation AI",
+      "url": "https://ideas.gohighlevel.com/conversation-ai"
     },
     {
       "title": "AI hand off to a human message for Conversation AI at the end of maximum number of replies",
-      "score": 175,
+      "score": 177,
       "product": "Conversation AI",
       "url": "https://ideas.gohighlevel.com/conversation-ai"
     },
@@ -39,28 +51,16 @@
       "url": "https://ideas.gohighlevel.com/voice-ai"
     },
     {
-      "title": "WHATSAPP MESSAGES SENT THROUGH THE COEXISTENCE SHOULD SEND THE BOT TO SLEEP AS WELL",
-      "score": 136,
-      "product": "Conversation AI",
-      "url": "https://ideas.gohighlevel.com/conversation-ai"
-    },
-    {
       "title": "Add AI Studio websites to Website Analytics",
-      "score": 123,
+      "score": 126,
       "product": "AI Studio",
       "url": "https://ideas.gohighlevel.com/ai-studio"
     },
     {
-      "title": "Anthropic models on Conversation AI",
-      "score": 93,
-      "product": "Conversation AI",
-      "url": "https://ideas.gohighlevel.com/conversation-ai"
-    },
-    {
-      "title": "Add GitHub integration",
-      "score": 89,
-      "product": "AI Studio",
-      "url": "https://ideas.gohighlevel.com/ai-studio"
+      "title": "📅🤖 Cross-Platform AI-Employee Integration",
+      "score": 124,
+      "product": "AI Employee",
+      "url": "https://ideas.gohighlevel.com/ai-employee"
     }
   ],
   "products": [
@@ -69,14 +69,14 @@
       "url": "https://ideas.gohighlevel.com/conversation-ai",
       "what": "AI agents that handle automated chats across every messaging channel, drafting replies in the background while a human stays in control.",
       "ideas": [
+        "Send Images through Conversational AI",
+        "Add Gemini LLM Model in conversation AI",
         "AI hand off to a human message for Conversation AI at the end of maximum number of replies",
-        "WHATSAPP MESSAGES SENT THROUGH THE COEXISTENCE SHOULD SEND THE BOT TO SLEEP AS WELL",
         "Anthropic models on Conversation AI",
         "Conversation AI + Rentals Calendar:🚀 = Huge Step Forward 🚀",
-        "AI to update the contact name and not just use social name",
-        "Allow AI to Pull Multiple Choice or Selection Custom Field Data for Contact details"
+        "AI to update the contact name and not just use social name"
       ],
-      "summary": "Users want better AI handoff to humans, third-party model support, calendar integration, and access to contact and custom field data."
+      "summary": "Users want more LLM model choices, system integrations, and better human handoff capabilities for Conversation AI."
     },
     {
       "name": "AI Employee",
@@ -84,13 +84,13 @@
       "what": "The bundled AI suite (Voice AI + Conversation AI + Content AI), launched May 2026 — a virtual employee that talks, texts, and creates.",
       "ideas": [
         "🤖Combine Voice AI and Conversation AI Together �",
+        "📅🤖 Cross-Platform AI-Employee Integration",
         "Allow Voice AI to connect to SIP/Asterisk phone systems or allow standard desk phone (SIP) to connect to Lead Connector Phone Sytem",
         "Transcript summary with detailed view in custom field",
         "Enable Voice AI to make warm transfers.",
-        "Live Chat Summary/Transcript Email",
-        "Ability to Delete Knowledge Bases if Voice AI or Chatbot accidently deleted first and still linked."
+        "Live Chat Summary/Transcript Email"
       ],
-      "summary": "Users need voice and chat integration, phone system connectivity, transcript summaries, and warm transfer capabilities."
+      "summary": "Users want Voice AI and Conversation AI integration, SIP phone system connectivity, and enhanced transcript management with warm transfers."
     },
     {
       "name": "AI Studio",
@@ -99,41 +99,57 @@
       "ideas": [
         "Add AI Studio websites to Website Analytics",
         "Add GitHub integration",
-        "Add database like loveable",
         "Download code - or link to Github",
+        "Add database like loveable",
         "Clone AI Studio projects to external agencies with remix link.",
-        "Display Token usage"
+        "Sub-account integration with AI studio projects as a backend through API"
       ],
-      "summary": "Users want developer tools like GitHub integration, code export, project remixing, and visibility into analytics and token usage."
+      "summary": "Users want GitHub integration, database capabilities, analytics tracking, and better project sharing across agencies."
     },
     {
       "name": "Ask AI",
       "url": "https://ideas.gohighlevel.com/ask-ai",
       "what": "A Claude Sonnet-powered assistant that runs your HighLevel backend by chat — content, courses, scheduling, automations.",
       "ideas": [
-        "GHL AI Assistant (For users - NOT for customers)",
         "Please add Ask AI in workflows",
-        "Allow File & Image Uploads to Ask AI (Photos, Code, Documents etc.)",
-        "Give Ask AI Access to Workflows, Funnels/Websites, Products, Courses, and more.",
         "Ask Ai - Delete Chat History & Folders",
-        "Ask AI with pay-per-use"
+        "Give Ask AI Access to Workflows, Funnels/Websites, Products, Courses, and more.",
+        "Add a Microphone to ask AI so we can talk out what we want to build or need help on",
+        "Ask AI with pay-per-use",
+        "@mention ASk AI in Conversations (Conversation tab) to complete tasks"
       ],
-      "summary": "Users want Ask AI integrated into workflows with access to platform data, file uploads, and flexible pay-per-use pricing."
+      "summary": "Users want Ask AI integrated into workflows and system-wide modules, with voice input and pay-per-use pricing options."
     },
     {
       "name": "Voice AI",
       "url": "https://ideas.gohighlevel.com/voice-ai",
       "what": "AI phone agents that answer calls, qualify leads, and book appointments — 27 languages, 340+ voices.",
       "ideas": [
+        "Voice AI Push-To-Talk widget that is embeddable to funnels/website",
         "Improve Voice AI realism",
         "Recognize a caller in your contacts and say hello \"name\" when they call in",
         "AI Voice Cloning - Train or upload a custom AI voice",
-        "Outbound \"I'm an AI Assistant\" disclaimer needs to be optional.",
-        "Please Remove unnesscary restrictions on OUTBOUND Voice AI Calling. Other companies are eating away at GHL's market share because of it's hyper-restrictiveness. NOBODY will use this",
+        "Voice AI on Whatsapp",
         "Bilingual Option"
       ],
-      "summary": "Users seek realistic, cloneable voices with caller recognition, bilingual support, optional disclaimers, and fewer outbound calling restrictions."
+      "summary": "Users want Voice AI embedded on websites, custom voice cloning, multi-channel deployment, and multilingual support."
     }
   ],
-  "changelog": []
+  "changelog": [
+    {
+      "title": "Targeted Edits in AI Builder",
+      "link": "https://ideas.gohighlevel.com/changelog/targeted-edits-in-ai-builder",
+      "date": "Fri, 10 Jul 2026 18:48:03 GMT"
+    },
+    {
+      "title": "New Channel Management Conversation AI",
+      "link": "https://ideas.gohighlevel.com/changelog/new-channel-management-conversation-ai",
+      "date": "Fri, 10 Jul 2026 17:11:22 GMT"
+    },
+    {
+      "title": "🚀 Prospect AI gets an activity center & pipeline integration",
+      "link": "https://ideas.gohighlevel.com/changelog/prospect-ai-gets-an-activity-center-pipeline-integration",
+      "date": "Fri, 10 Jul 2026 11:36:11 GMT"
+    }
+  ]
 }

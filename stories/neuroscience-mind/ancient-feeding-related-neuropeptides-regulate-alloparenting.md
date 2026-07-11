@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/s41586-026-10747-6"
 authors: ["Alexander Paul", "Tomas Kay", "Ivan Lacroix", "Vikram Chandra", "Asaf Gal", "Patrick K. Piekarski", "Stephany Valdés-Rodríguez", "Amelia L. Ritger", "Katelyn S. Lee", "Kip D. Lacy", "Daniel J. C. Kronauer"]
 date: "2026-07-08"
-score: 55
+score: 65
 guid: "10.1038/s41586-026-10747-6"
 image: ""
-generated: "2026-07-09T19:06:43+05:30"
+generated: "2026-07-11T21:29:29+05:30"
 ---
 
-Researchers identified two specific neuropeptides with opposite effects that regulate brood care behavior in ants through pharmacological screening. These molecules link an animal's nutritional state to age-dependent changes in parenting behavior, revealing a biological mechanism connecting feeding status to social caregiving behavior.
+Two neuropeptides were identified as key regulators of brood care in ants, with opposite effects on parenting behavior. The chemicals link an ant's nutritional state to age-related shifts in how much it cares for offspring. This discovery reveals an ancient molecular mechanism controlling parenting, with evolutionary implications for understanding behavior across species.

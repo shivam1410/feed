@@ -5,10 +5,10 @@ source: "Simon Willison"
 url: "https://simonwillison.net/2026/Jul/5/sqlite-utils/#atom-everything"
 authors: []
 date: "2026-07-05T00:47:38+00:00"
-score: 25
+score: 14
 guid: "https://simonwillison.net/2026/Jul/5/sqlite-utils/#atom-everything"
 image: ""
-generated: "2026-07-09T19:06:43+05:30"
+generated: "2026-07-11T21:29:29+05:30"
 ---
 
 Release: sqlite-utils 4.0rc2 See sqlite-utils 4.0rc2, mostly written by Claude Fable (for about $149.25) .

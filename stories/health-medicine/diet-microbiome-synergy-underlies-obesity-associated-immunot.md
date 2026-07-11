@@ -8,7 +8,7 @@ date: "2026-07-08"
 score: 75
 guid: "10.1038/s41586-026-10750-x"
 image: ""
-generated: "2026-07-09T19:06:43+05:30"
+generated: "2026-07-11T21:29:29+05:30"
 ---
 
-Researchers demonstrated that diet shapes cancer immunotherapy responses through gut microbial metabolism and anti-tumor immunity mechanisms. The team tested this in mice fed custom diets and verified findings by transplanting human fecal microbiota into mice, reproducing the diet-dependent response. The results suggest dietary interventions might enhance immunotherapy effectiveness by modulating gut microbiota.
+Diet shapes how patients respond to immune checkpoint inhibitors—drugs that fight cancer by releasing immune brakes—through gut bacterial composition and metabolism. Researchers demonstrated this through mouse models where custom diets altered microbial communities, then confirmed the mechanism using human fecal microbiota transplants into mice. Gut microbes influence host immune responses crucial for cancer treatment efficacy. This reveals that optimizing diet may enhance immunotherapy effectiveness in obese patients. The finding suggests personalized dietary interventions could improve cancer treatment outcomes by leveraging the diet-microbiome-immunity axis.

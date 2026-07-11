@@ -8,7 +8,7 @@ date: "2026-07-07T20:00:00.000Z"
 score: 72
 guid: "2607.07675"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2607.07675.png"
-generated: "2026-07-09T19:06:43+05:30"
+generated: "2026-07-11T21:29:29+05:30"
 ---
 
-LingBot-Video is a DiT-based video pretraining framework specifically designed for embodied intelligence applications in robotics. The architecture incorporates a Mixture-of-Experts design for efficient model scaling, specialized data augmentation techniques tailored to robot learning, and a multi-dimensional reward system for improved task performance. By pretraining on large-scale video data with this architecture, the model learns generalizable representations for embodied control across diverse robot platforms. The combination of efficient scaling through MoE, domain-specific augmentation, and multi-faceted reward signals enables the model to transfer learned representations to diverse robotic manipulation and navigation tasks with strong performance and generalization.
+LingBot-Video presents a DiT-based video pretraining framework with Mixture-of-Experts architecture, specialized data augmentation, and multi-dimensional reward system for embodied intelligence applications.

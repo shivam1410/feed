@@ -8,7 +8,7 @@ date: "2026-07-08"
 score: 45
 guid: "10.1038/s41586-026-10736-9"
 image: ""
-generated: "2026-07-09T19:06:43+05:30"
+generated: "2026-07-11T21:29:29+05:30"
 ---
 
 The EUROPE-IGM-ATLAS reveals spatiotemporal trends that characterize the changing geography of opportunity in Europe and its relationship with regional innovation.

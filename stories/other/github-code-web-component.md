@@ -5,10 +5,10 @@ source: "Simon Willison"
 url: "https://simonwillison.net/2026/Jul/7/github-code-component/#atom-everything"
 authors: []
 date: "2026-07-07T16:18:16+00:00"
-score: 35
+score: 16
 guid: "https://simonwillison.net/2026/Jul/7/github-code-component/#atom-everything"
 image: ""
-generated: "2026-07-09T19:06:43+05:30"
+generated: "2026-07-11T21:29:29+05:30"
 ---
 
-Tool: github-code Web Component An experimental Web Component built using GPT-5.5 and the following prompt : let's build a Web Component for embedding code from GitHub <github-code href="https://github.com/simonw/sqlite-ast/blob/437c759129154f05296324a7f82aa1246340dd14/sqlite_ast/parser.py#L9-L18"></github-code> It takes URLs like that, converts them to https://raw.githubusercontent.com/simonw/sqlite-ast/437c759129154f05296324a7f82aa1246340dd14/sqlite_ast/parser.py, then uses fetch() to fetch them and displays the specified range of lines - with line numbers, no syntax highlighting though Show me a preview web browser so I can see your work Here's what it looks like embedded on this page: Tags: github , web-components , gpt
+An experimental Web Component built using GPT-5.5 enables embedding code snippets directly from GitHub repositories into web pages, avoiding copy-paste and screenshot maintenance. Users provide standard GitHub URLs with line-range anchors (e.g., #L9-L18), and the component automatically converts them to raw.githubusercontent URLs, fetches the specified code, and displays the selected lines complete with line numbers. The component renders code without syntax highlighting. This tool simplifies documentation workflows in blogs, tutorials, and web projects by eliminating manual copy-pasting, screenshot editing, and version-sync headaches. Developers can link directly to repository source, ensuring documentation always reflects current code without manual updates.

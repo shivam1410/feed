@@ -8,7 +8,7 @@ date: "2026-07-08"
 score: 55
 guid: "10.1038/d41586-026-01874-1"
 image: ""
-generated: "2026-07-09T19:06:43+05:30"
+generated: "2026-07-11T21:29:29+05:30"
 ---
 
-Rebuilding reciprocal care-oriented relationships between Amazonian Indigenous peoples and nature could address predicted climate impacts on biodiversity and ecosystem services. Indigenous knowledge systems integrate long-term stewardship with ecosystem health, offering climate-adaptation pathways grounded in centuries of practice. The approach suggests reconnecting Indigenous land management with natural systems provides a pathway to counter both biodiversity loss and climate-driven ecosystem disruption in the Amazon.
+Rebuilding reciprocal, care-oriented relationships between Amazonian Indigenous peoples and nature could counter the predicted effects of climate change on biodiversity and culture. Indigenous stewardship practices, developed through generations of sustainable interaction, have maintained ecosystem health while supporting human communities. Rather than top-down conservation, this approach centers the knowledge and agency of Indigenous peoples as primary caretakers. Strengthening these relationships could enhance forest resilience to climate change while preserving irreplaceable cultural knowledge. The strategy recognizes that human communities and natural ecosystems are interdependent.

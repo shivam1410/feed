@@ -5,10 +5,10 @@ source: "Simon Willison"
 url: "https://simonwillison.net/2026/Jul/6/hy3/#atom-everything"
 authors: []
 date: "2026-07-06T23:57:35+00:00"
-score: 75
+score: 72
 guid: "https://simonwillison.net/2026/Jul/6/hy3/#atom-everything"
 image: ""
-generated: "2026-07-09T19:06:43+05:30"
+generated: "2026-07-11T21:29:29+05:30"
 ---
 
-Tencent released Hy3, a 295B-parameter Mixture-of-Experts model with 21B active parameters and 3.8B MTP layer parameters supporting 256K token context. The model outperforms open-source competitors of similar size and rivals models with 2-5x larger parameter counts on various benchmarks. Developed following feedback from 50+ Tencent products, the full-sized model is 598GB while the FP8 quantized version is 300GB. Made available free on OpenRouter through July 21st, Hy3 demonstrates significant gains in utility and productivity tasks. This represents a strong open-source alternative in the competitive large language model landscape, offering efficient performance through mixture-of-experts architecture.
+tencent/Hy3 New Apache 2.0 licensed model from Tencent in China: Hy3 is a 295B-parameter Mixture-of-Experts (MoE) model with 21B active parameters and 3.8B MTP layer parameters, developed by the Tencent Hy Team. Following the Hy3 Preview launch in late April, we gathered feedback from 50+ products and scaled up post-training with higher quality data. Today, we introduce Hy3, which outperforms similar-size models and rivals flagship open-source models with 2-5x parameters. It also shows significant gains in utility across various products and productivity tasks. The full-sized model is 598GB on Hugging Face, and the FP8 quantized one is 300GB . The context length is 256K. It's available for free on OpenRouter until July 21st . I had it "Generate an SVG of a pelican riding a bicycle" there and got this: Update : I'd forgotten about this but Max Woolf wrote about an earlier preview of this model back on May 26th: The mysterious Hy3 LLM is topping OpenRouter Model Rankings by a large margin . When I tried that one I got back this pelican which wasn't as good as today's but did have a "Change Pelican Color" button, a first from any model. Tags: ai , generative-ai , llms , pelican-riding-a-bicycle , llm-release , ai-in-china

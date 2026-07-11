@@ -5,10 +5,10 @@ source: "Simon Willison"
 url: "https://simonwillison.net/2026/Jul/7/sqlite-utils-4/#atom-everything"
 authors: []
 date: "2026-07-07T19:32:57+00:00"
-score: 40
+score: 18
 guid: "https://simonwillison.net/2026/Jul/7/sqlite-utils-4/#atom-everything"
 image: ""
-generated: "2026-07-09T19:06:43+05:30"
+generated: "2026-07-11T21:29:29+05:30"
 ---
 
-sqlite-utils 4.0 releases after five years with three major features: database schema migrations, nested transactions via db.atomic(), and compound foreign key support. Schema migrations track which changes have been applied, enabling reproducible database evolution. The library uses table.transform() to achieve ALTER TABLE capabilities SQLite doesn't natively support, implementing SQLite's recommended pattern of creating temporary tables with new schemas, copying data, then swapping tables. This first major version bump since 2020 significantly enhances database management capabilities. The migration system allows developers to version control database schema changes alongside application code, improving database maintenance and team collaboration.
+sqlite-utils reached version 4.0, its first major release since November 2020, introducing three significant features: database migrations, nested transactions via a new db.atomic() method, and support for compound foreign keys. The migration system enables tracking which schema changes have been applied to SQLite databases. Migrations are defined in Python files and leverage the powerful table.transform() method, which creates a temporary table with the new schema, copies data, drops the original table, and renames the temporary one—implementing SQLite's recommended pattern for alterations that its native ALTER TABLE statement doesn't support. This 124th release marks a milestone for the project, enabling proper version control of database schemas alongside application code.

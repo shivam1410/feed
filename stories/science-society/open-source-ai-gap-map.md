@@ -5,10 +5,10 @@ source: "Simon Willison"
 url: "https://simonwillison.net/2026/Jul/3/open-source-ai-gap-map/#atom-everything"
 authors: []
 date: "2026-07-03T22:04:31+00:00"
-score: 70
+score: 68
 guid: "https://simonwillison.net/2026/Jul/3/open-source-ai-gap-map/#atom-everything"
 image: ""
-generated: "2026-07-08T19:04:42+05:30"
+generated: "2026-07-11T21:29:29+05:30"
 ---
 
-Current AI, a $400m-backed non-profit launched in Paris in February 2025, released an open-source AI Gap Map cataloging 421 products—266 tools, 85 models, 50 datasets, and 20 hardware projects—from 228 organizations across 14 categories. The underlying dataset (1,184 MIT-licensed YAML files) is publicly available on GitHub. The project also tracks 24,400 uncategorized artifacts representing the long tail of the open-source AI ecosystem. The Gap Map provides structured indexing of a fragmented landscape, enabling researchers and developers to explore the open-source AI stack systematically.
+Current AI, a non-profit founded in February 2025 and backed by $400 million in commitments, launched Gap Map v0.1 to systematically index the open-source AI ecosystem. The map catalogs 421 products in depth: 266 software tools and libraries, 85 models, 50 datasets, and 20 hardware projects from 228 organizations, organized into 14 categories across three stack layers (model components, product/UX, infrastructure). An additional 24,400 artifacts remain in an uncategorized long tail awaiting research. All underlying data—1,184 YAML files plus notebooks and scripts—is released under MIT license on GitHub. This comprehensive inventory enables researchers and developers to identify gaps and opportunities in open-source AI infrastructure.

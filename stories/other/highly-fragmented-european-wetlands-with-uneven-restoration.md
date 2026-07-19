@@ -8,7 +8,7 @@ date: "2026-07-15"
 score: ""
 guid: "10.1038/s41586-026-10760-9"
 image: ""
-generated: "2026-07-18T21:58:10+05:30"
+generated: "2026-07-19T19:52:10+05:30"
 ---
 
 Satellite imagery and machine learning used for the mapping of six seminatural open wetland types and land-use disturbance in European countries shows that wetlands are highly fragmented and have uneven restoration needs.

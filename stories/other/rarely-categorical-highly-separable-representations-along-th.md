@@ -8,7 +8,7 @@ date: "2026-07-15"
 score: ""
 guid: "10.1038/s41586-026-10668-4"
 image: ""
-generated: "2026-07-18T21:58:10+05:30"
+generated: "2026-07-19T19:52:10+05:30"
 ---
 
 Cortical circuits prioritize diversity over categorical structure, supporting a computational regime geared towards high-dimensional, highly separable neural representations.

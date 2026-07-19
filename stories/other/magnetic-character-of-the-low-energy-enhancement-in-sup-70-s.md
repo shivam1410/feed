@@ -8,7 +8,7 @@ date: "2026-07-15"
 score: ""
 guid: "10.1038/s41586-026-10758-3"
 image: ""
-generated: "2026-07-18T21:58:10+05:30"
+generated: "2026-07-19T19:52:10+05:30"
 ---
 
 The low-energy enhancement in the γ-ray strength function of 70Zn is due to magnetic dipole transitions between nuclear states.

@@ -1,6 +1,42 @@
 {
-  "generatedAt": "2026-07-18T21:58:10+05:30",
+  "generatedAt": "2026-07-19T19:52:10+05:30",
   "items": [
+    {
+      "guid": "https://simonwillison.net/2026/Jul/19/ai-mania/#atom-everything",
+      "title": "AI Mania Is Eviscerating Global Decision-Making",
+      "link": "https://simonwillison.net/2026/Jul/19/ai-mania/#atom-everything",
+      "authors": [],
+      "date": "2026-07-19T05:06:21+00:00",
+      "summary": "AI Mania Is Eviscerating Global Decision-Making Here's an entertaining perspective from Nik Suresh on the AI mania that is overwhelming the large companies that he consults with. It's crammed with spicy anecdotes from anonymous sources. In one extreme case, I have seen an executive confess that they had never even used ChatGPT or any AI tool in their life, immediately after producing a technical strategy for an organisation with $2B+ in revenue which was entirely centered around AI. Here's a report from an engineer at a company with a token leaderboard: Checking out a parallel copy of our Go repository and telling the AI to rewrite the whole thing in Zig while I work on something else just so I can keep my job. I particularly enjoyed this conversation with a skeptical executive at an over-enthusiastic company: I asked why this was being repeated without opposition. Was it just sales fluff? The answer was a lot more interesting. It was partially ridiculous sales material being delivered to an easily excitable audience, but this was not the dominant factor constraining honesty. Executives at their customers were saying absurd things about achieving 100x productivity, and this meant that if any executive at the vendor said that these gains were not plausible, it would undermine the credibility of the customer’s executive, be perceived as an attack (or heresy), and possibly result in an enterprise contract cancellation. And getting enterprise contracts cancelled because you wanted to opine on something that doesn’t really matter to your organisation’s mission is a great way to get fired. Via Hacker News Tags: ai , ai-ethics , ai-misuse",
+      "image": "",
+      "source": "Simon Willison",
+      "score": null,
+      "category": "Other"
+    },
+    {
+      "guid": "https://simonwillison.net/2026/Jul/19/claude-code-in-bun-in-rust/#atom-everything",
+      "title": "Claude Code uses Bun written in Rust now",
+      "link": "https://simonwillison.net/2026/Jul/19/claude-code-in-bun-in-rust/#atom-everything",
+      "authors": [],
+      "date": "2026-07-19T03:54:09+00:00",
+      "summary": "In Rewriting Bun in Rust Jarred Sumner made the following claim: Claude Code v2.1.181 (released June 17th) and later use the Rust port of Bun. Startup got 10% faster on Linux but otherwise, barely anyone noticed. Boring is good. I decided to have a poke at my own Claude Code installation to see if I could find evidence that it was using Bun written in Rust. I found these two commands convincing: strings ~/.local/bin/claude | grep -m1 'Bun v1' For me this outputs Bun v1.4.0 (macOS arm64) . The most recent release of Bun on GitHub is currently v1.3.14 from May 12th, so that v1.4.0 version number in Claude supports them shipping a preview of a not-yet-released Bun version. ( Update : The Rust version has been released as Bun canary - running bun upgrade --canary will install this release .) strings ~/.local/bin/claude | grep -Eo 'src/[[:alnum:]_./-]+\\.rs' This outputs a list of 563 filenames , starting with these: src/runtime/bake/dev_server/mod.rs src/runtime/bake/production.rs src/bundler/bundle_v2.rs It looks like Bun in Rust is indeed being run in production across millions of different devices. Like Jarred said, \"Boring is good\". Update : Here's a neat trick from Ajan Raj : cat > /tmp/bun-version.ts <<'EOF' console.log(\"embedded bun:\", Bun.version); process.exit(0); EOF BUN_OPTIONS=\"--preload=/tmp/bun-version.ts\" claude --version This outputs 1.4.0 for me. Here's the commit from May 17th that updated the version in package.json to 1.4.0. That version hasn't been changed since then, but also hasn't yet made it into a tagged release outside of canary . Tags: bun , rust , anthropic , claude-code , jarred-sumner",
+      "image": "",
+      "source": "Simon Willison",
+      "score": null,
+      "category": "Other"
+    },
+    {
+      "guid": "https://simonwillison.net/2026/Jul/18/sqlite-query-explainer/#atom-everything",
+      "title": "SQLite Query Explainer",
+      "link": "https://simonwillison.net/2026/Jul/18/sqlite-query-explainer/#atom-everything",
+      "authors": [],
+      "date": "2026-07-18T17:19:10+00:00",
+      "summary": "Tool: SQLite Query Explainer Julia Evan's, in Learning a few things about running SQLite : Maybe one day I’ll learn to read a query plan. Big same.... which inspired me to have Fable build this interactive explain tool, which runs SQLite in Python in Pyodide in Web Assembly in the browser and adds a layer of explanation to the results of both EXPLAIN and EXPLAIN QUERY PLAN. Approach with caution, since I don't know enough about SQLite query plans to verify the results myself, but it seems cromulent enough to me. Tags: sql , sqlite , tools , julia-evans , pyodide , claude-mythos-fable",
+      "image": "",
+      "source": "Simon Willison",
+      "score": null,
+      "category": "Other"
+    },
     {
       "guid": "https://simonwillison.net/2026/Jul/18/claude-make-fable-5-permanent/#atom-everything",
       "title": "Claude make Fable 5 permanent",
@@ -320,42 +356,6 @@
       "authors": [],
       "date": "2026-07-11T23:50:20+00:00",
       "summary": "Release: sqlite-utils 4.1 The first dot-release since 4.0 a few days ago , introducing a number of minor new features. sqlite-utils insert and sqlite-utils upsert now accept a --code option for providing a block of Python code (or a path to a .py file) that defines a rows() function or rows iterable of rows to insert, as an alternative to importing from a file. ( #684 ) sqlite-utils already had features that allow you to pass blocks of Python code as CLI arguments, for example this one for the sqlite-utils convert command: sqlite - utils convert content . db articles headline ' def convert ( value ): return value . upper ()' Allowing blocks of code to generate new rows directly was on obvious extension of that pattern: sqlite - utils insert data . db creatures - - code ' def rows (): yield { \"id\" : 1 , \"name\" : \"Cleo\" } yield { \"id\" : 2 , \"name\" : \"Suna\" } ' - - pk id sqlite-utils insert and sqlite-utils upsert now accept --type column-name type to override the type automatically chosen when the table is created . This is useful for CSV or TSV columns such as ZIP codes that look like integers but should be stored as TEXT to preserve leading zeros. ( #131 ) A long-standing feature request which turned out to be a simple implementation . New table.drop_index(name) method and sqlite-utils drop-index command for dropping an index by name. Both accept ignore=True / --ignore to ignore a missing index. ( #626 ) sqlite-utils query can now read the SQL query from standard input by passing - in place of the query, for example echo \"select * from dogs\" | sqlite-utils query dogs.db - . ( #765 ) Two more small features. I had Codex review all open issues and highlight the easiest ones! sqlite-utils upsert can now infer the primary key of an existing table, so --pk can be omitted when upserting into a table that already has a primary key. Another Codex suggestion, an obvious missing CLI feature from a Python library improvement that shipped in the 4.0 release. table.transform() and table.transform_sql() now accept strict=True or strict=False to change a table’s SQLite strict mode . Omitting the option preserves the existing mode. ( #787 ) The sqlite-utils transform command now accepts --strict and --no-strict to change a table’s strict mode. ( #787 ) These two were inspired by Prefer STRICT tables in SQLite by Evan Hahn, which did the rounds on Hacker News today. Evan pointed out that: Unfortunately, I don’t think there’s a way to ALTER a table to make it strict. I think you have to copy the data out of the non-strict table into the strict one. That's exactly what the sqlite-utils transform mechanism does, so I extended it to add the ability to switch tables from strict to non-strict and vice-versa. Here's the GPT-5.6 Sol xhigh Codex transcript I used to implement those new strict table features. One of the most useful prompts I ran was this one: use uv run python -c and manually exercise the new .transform(strict=) option, see if you can find any edge-cases or bugs Effectively telling the model to manually test its work, outside of the automated tests it had already written. This turned up two minor issues that we then fixed. Tags: projects , python , sqlite , sqlite-utils , annotated-release-notes , ai-assisted-programming",
-      "image": "",
-      "source": "Simon Willison",
-      "score": null,
-      "category": "Other"
-    },
-    {
-      "guid": "https://simonwillison.net/2026/Jul/10/nilay-patel/#atom-everything",
-      "title": "Quoting Nilay Patel",
-      "link": "https://simonwillison.net/2026/Jul/10/nilay-patel/#atom-everything",
-      "authors": [],
-      "date": "2026-07-10T17:05:26+00:00",
-      "summary": "The reality is to make augmented reality glasses, you need to put a camera next to your eyes that is continuously recording everything you see and processing that to put information over it. There is not another way around it. And there's certainly not a chip that can fit in the stem of a glasses that is both powerful enough and power miserly enough to do that in real time. You have to send that data to a cloud. You gotta do it. [...] Or you can build something the size of a Vision Pro with a battery pack that lives somewhere else. Those are the current choices in this world. And it means if you want to build the product that everyone thinks is the next thing, you are going to have to invade people's privacy. And maybe you shouldn't. Like, there's an incredible argument for, nope, you shouldn't do that. Nope, the trade-offs required to make this product are so high at a societal level that we should stop it. — Nilay Patel , The Vergecast Tags: ai-ethics , augmented-reality , nilay-patel , privacy , ai",
-      "image": "",
-      "source": "Simon Willison",
-      "score": null,
-      "category": "Other"
-    },
-    {
-      "guid": "https://simonwillison.net/2026/Jul/10/openai/#atom-everything",
-      "title": "Quoting OpenAI",
-      "link": "https://simonwillison.net/2026/Jul/10/openai/#atom-everything",
-      "authors": [],
-      "date": "2026-07-10T01:05:57+00:00",
-      "summary": "[...] Work on web and mobile runs in the cloud. Work in the desktop app can also use local files and desktop apps with your permission. At launch, cloud Work conversations do not appear in desktop Work; desktop Work threads and local files remain on that computer. — OpenAI , trying (unsuccessfully) to clarify ChatGPT Work Tags: openai , chatgpt , ai",
-      "image": "",
-      "source": "Simon Willison",
-      "score": null,
-      "category": "Other"
-    },
-    {
-      "guid": "https://simonwillison.net/2026/Jul/9/gpt-5-6/#atom-everything",
-      "title": "The new GPT-5.6 family: Luna, Terra, Sol",
-      "link": "https://simonwillison.net/2026/Jul/9/gpt-5-6/#atom-everything",
-      "authors": [],
-      "date": "2026-07-09T19:46:38+00:00",
-      "summary": "OpenAI's latest flagship model hit general availability this morning , and comes in three sizes: Luna, Terra, and Sol (from smallest to largest). The new models are priced per 1M input/output tokens as Luna $1/$6, Terra $2.50/$15, Sol $5/$30. For comparison, the Claude Opus series are $5/$25 and the Claude Fable 5 is $10/$50, but price-per-million tokens doesn't tell us much now that the number of reasoning tokens can differ so much between models for the same task. All three models have a February 16th 2026 knowledge cutoff, a million token context window, and 128,000 maximum output tokens. OpenAI's biggest benchmark claim concerns long-running agentic performance, with one benchmark showing all three models outperforming Claude Fable 5: We trained GPT-5.6 to get more useful work from every token. On Agents’ Last Exam , an evaluation of long-running professional workflows across 55 fields, GPT-5.6 Sol sets a new high of 53.6, eclipsing Claude Fable 5 (adaptive reasoning) by 13.1 points. Even at medium reasoning, it beats Fable 5 by 11.4 points at roughly one-quarter the estimated cost. That efficiency extends to smaller models, which are essential to making intelligence more abundant and affordable: GPT-5.6 Terra and GPT-5.6 Luna outperform Fable 5 at around one-sixteenth the cost. Amusingly, one self-reported benchmark that Fable 5 crushed the GPT-5.6 family on was SWE-Bench Pro, where Fable 5 got 80% compared to GPT-5.6 Sol getting 64.6%. This may help explain why OpenAI chose to publish this article yesterday specifically calling out SWE-Bench Pro for problems they found while auditing that benchmark: In light of these results, we estimate that ~30% of SWE-bench Pro tasks are broken, and advise that model developers carefully examine results I've had some early access to GPT-5.6 Sol - it's definitely very competent, though so far it hasn't struck me as better than Fable at the kind of complex coding tasks I've been using with Anthropic's model. As usual, the model guidance for using GPT-5.6 has the most interesting details. There are a bunch of new API features that I need to explore (and probably add support for in LLM ), including: Programmatic Tool Calling allows the models to \"compose and run JavaScript that orchestrates tool calls\" - which sounds to me like it could help bridge the gap between MCPs and full terminal sessions that can compose CLI utilities in useful ways. Also reminiscent of the dynamic filtering mechanism Anthropic added to their web search tool, which allows code execution against web results as part of a single model turn. Multi-agent lets the model \"spin up subagents for parallel, focused work\" - the sub-agent pattern now baked into the core API. Prompt cache breakpoints brings the Claude model of prompt caching to OpenAI, letting you be explicit about where the cache breakpoints are rather than relying on the API to detect them automatically. Personally I much prefer automatic detection (still supported by OpenAI), but presumably there are optimization cost savings to be had here if you put the work in. You can now set detail: original on image requests to avoid resizing the image at all before it is processed. Here's a full page with 18 different pelicans - for reasoning efforts none, low, medium, high, xhigh, and max across the three different models. It also lists their token and calculated costs - the least expensive was gpt-5.6-luna at effort none for 0.71 cents, the most expensive was gpt-5.6-sol at max reasoning level for 48.55 cents. In further pelican news, if you jump to 17:50 in their livestream from this morning you'll see OpenAI's own demo of 3D pelicans riding a tricycle, a bicycle, a pony, and another pelican! Tags: ai , openai , generative-ai , llms , llm-tool-use , llm-pricing , pelican-riding-a-bicycle , llm-release , gpt-5",
       "image": "",
       "source": "Simon Willison",
       "score": null,

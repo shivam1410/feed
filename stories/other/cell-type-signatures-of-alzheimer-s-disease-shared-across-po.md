@@ -8,7 +8,7 @@ date: "2026-07-15"
 score: ""
 guid: "10.1038/s41586-026-10793-0"
 image: ""
-generated: "2026-07-18T21:58:10+05:30"
+generated: "2026-07-19T19:52:10+05:30"
 ---
 
 Single-nucleus RNA-seq and ATAC-seq analyses on post-mortem brain samples from African American, Latin and white individuals identify cell-type-specific molecular signatures that are associated with cognitive impairment and/or Alzheimer’s disease across diverse population groups.

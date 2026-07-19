@@ -8,7 +8,7 @@ date: "2026-07-15"
 score: ""
 guid: "10.1038/s41586-026-10757-4"
 image: ""
-generated: "2026-07-18T21:58:10+05:30"
+generated: "2026-07-19T19:52:10+05:30"
 ---
 
 The saturation of geomagnetic activity with solar wind strength can be explained by a regression to the mean effect, suggesting that the impact of extreme geomagnetic storms can be twice as large as previously thought

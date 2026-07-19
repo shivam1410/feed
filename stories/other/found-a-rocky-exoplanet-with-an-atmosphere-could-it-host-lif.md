@@ -8,7 +8,7 @@ date: "2026-07-17"
 score: ""
 guid: "10.1038/d41586-026-02200-5"
 image: ""
-generated: "2026-07-18T21:58:10+05:30"
+generated: "2026-07-19T19:52:10+05:30"
 ---
 
 Astronomers have spotted helium escaping from LHS 1140b, an exoplanet orbiting in its star’s ‘habitable zone’.

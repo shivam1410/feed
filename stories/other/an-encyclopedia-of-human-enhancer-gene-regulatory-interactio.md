@@ -8,7 +8,7 @@ date: "2026-07-15"
 score: ""
 guid: "10.1038/s41586-026-10781-4"
 image: ""
-generated: "2026-07-18T21:58:10+05:30"
+generated: "2026-07-19T19:52:10+05:30"
 ---
 
 An encyclopedia of more than 92 million enhancer–gene regulatory interactions created as part of the ENCODE4 project provides a valuable resource for future studies of gene regulation and human genetics.

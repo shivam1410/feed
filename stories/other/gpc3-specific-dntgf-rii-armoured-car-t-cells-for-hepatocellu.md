@@ -8,7 +8,7 @@ date: "2026-07-15"
 score: ""
 guid: "10.1038/s41586-026-10786-z"
 image: ""
-generated: "2026-07-18T21:58:10+05:30"
+generated: "2026-07-19T19:52:10+05:30"
 ---
 
 Chimeric antigen receptor (CAR) T cells for antitumour therapy ‘armoured’ with a dominant-negative TGFβ receptor II show enhanced efficacy and tolerable safety in patients with advanced hepatocellular carcinoma who have developed resistance or not responded to previous treatment.

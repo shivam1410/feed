@@ -8,7 +8,7 @@ date: "2026-07-15"
 score: ""
 guid: "10.1038/s41586-026-10801-3"
 image: ""
-generated: "2026-07-18T21:58:10+05:30"
+generated: "2026-07-19T19:52:10+05:30"
 ---
 
 A molten salt, high-pressure synthesis method enables solution-based production of diverse refractory metal nitride nanocrystals, expanding access to technologically important nitride materials for advanced applications.

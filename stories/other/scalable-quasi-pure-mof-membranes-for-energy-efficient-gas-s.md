@@ -8,7 +8,7 @@ date: "2026-07-15"
 score: ""
 guid: "10.1038/s41586-026-10655-9"
 image: ""
-generated: "2026-07-18T21:58:10+05:30"
+generated: "2026-07-19T19:52:10+05:30"
 ---
 
 Scalable quasi-pure metal–organic framework membranes achieve near-intrinsic separation performance, enabling energy-efficient industrial gas separations with major cost reductions compared with distillation.

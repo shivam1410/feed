@@ -8,7 +8,7 @@ date: "2026-07-15"
 score: ""
 guid: "10.1038/s41586-026-10765-4"
 image: ""
-generated: "2026-07-18T21:58:10+05:30"
+generated: "2026-07-19T19:52:10+05:30"
 ---
 
 Polydopamine-pillared composite graphene oxide membranes with tunable and stable interlayer spacing, featuring controllable interlayer spacing, are capable of sieving hydrated rubidium and potassium ions and delivering continuous freshwater production at high levels.

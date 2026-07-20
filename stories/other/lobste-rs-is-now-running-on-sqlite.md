@@ -5,10 +5,10 @@ source: "Simon Willison"
 url: "https://simonwillison.net/2026/Jul/14/lobsters-sqlite/#atom-everything"
 authors: []
 date: "2026-07-14T19:44:11+00:00"
-score: ""
+score: 55
 guid: "https://simonwillison.net/2026/Jul/14/lobsters-sqlite/#atom-everything"
 image: ""
-generated: "2026-07-19T19:52:10+05:30"
+generated: "2026-07-20T19:05:49+05:30"
 ---
 
-lobste.rs is now running on SQLite Community site Lobsters has been planning a migration away from MariaDB since August 2018 - originally targeting PostgreSQL, but last year they decided to investigate SQLite instead. This weekend they completed the migration, and now consider it stable enough that it looks like this is the permanent architecture for the site going forward: SQLite seems to have passed with flying colors: cpu usage is down, memory usage is down, site seems to be snappier at least for me, 1/2 the vps cost once mariadb vps is taken down The Lobsters Rails application now runs on a single VPS, with a primary content SQLite database file that's around 3.8GB. There's also a 1.1GB cache database, a 218MB queue database, and a still growing 555MB rack_attack database used by the Rack::Attack middleware for blocking and throttling abusive requests. There are plenty more details in both the linked thread and this SQLite migration PR by Thomas Dziedzic, which added 735 lines and removed 593 lines across 30 commits and 188 files. That PR built on top of previous PRs #1705 , #1871 , and #1924 . This is a really useful case study, and a great reminder that you can get a whole lot done with a single server and SQLite in 2026. Tags: migrations , ops , rails , sqlite , lobsters
+Community discussion site Lobsters has successfully migrated from MariaDB to SQLite after exploring database alternatives since August 2018, initially considering PostgreSQL before ultimately settling on SQLite. Now running entirely on a single VPS, the system manages a 3.8GB primary content database alongside separate 1.1GB cache, 218MB queue, and 555MB rate-limiting databases. The migration was accomplished through 30 commits spanning 188 affected files. Measured operational improvements include reduced CPU consumption, decreased memory usage, improved site responsiveness, and halved VPS operating costs. This case study demonstrates SQLite's practical viability for production-scale community platforms, challenging longstanding conventional assumptions about database selection for web applications.

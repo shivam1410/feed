@@ -1,0 +1,14 @@
+---
+title: "ASK-NN: An Asymmetric Nearest-Neighbor Test that detects Distribution Drifts in Natural Language"
+category: "AI Research"
+source: "arXiv (cs.LG)"
+url: "https://arxiv.org/abs/2607.15607"
+authors: ["Sergey Zakharov, Rodion Oblovatny, Alexey Zaytsev"]
+date: "Mon, 20 Jul 2026 00:00:00 -0400"
+score: 60
+guid: "oai:arXiv.org:2607.15607v1"
+image: ""
+generated: "2026-07-20T19:05:49+05:30"
+---
+
+arXiv:2607.15607v1 Announce Type: new Abstract: Hallucinations and artificial text in LLM-generated outputs often appear as distributional deviations between prompt and response hidden-state distributions. Since prompts or retrieved contexts typically serve as reference samples and responses as query samples, with major differences in length, these asymmetries motivate the use of change test statistics that treat the two samples differently. We consider an asymmetric two-sample test ASK-NN based on the directed k-nearest-neighbor graph. Our statistic counts reference points whose nearest neighbor in the pooled sample is also a reference point. Under the permutation null, it admits an exact finite-sample conditional mean and variance; we further establish asymptotic normality and consistency under fixed alternatives. ASK-NN is computationally effective and easy to implement. Empirically, it is competitive with kernel and graph-based baselines on synthetic benchmarks, artificial-text detection, and LLM hallucination detection from token-level hidden states.

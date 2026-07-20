@@ -1,0 +1,14 @@
+---
+title: "In-context learning of closed form solution to simple linear regression task using transformer with linear self-attention"
+category: "AI Research"
+source: "arXiv (cs.LG)"
+url: "https://arxiv.org/abs/2607.15819"
+authors: ["Katsuyuki Hagiwara"]
+date: "Mon, 20 Jul 2026 00:00:00 -0400"
+score: 55
+guid: "oai:arXiv.org:2607.15819v1"
+image: ""
+generated: "2026-07-20T19:05:49+05:30"
+---
+
+arXiv:2607.15819v1 Announce Type: new Abstract: In-context learning is a remarkable property of transformers and has recently received a lot of interest. In many studies of in-context learning, it has been shown that transformers are capable of implementing solver for linear and non-linear regression problems, in which the most of them implement gradient descent algorithm. However, it is still unclear whether those implementations have actually been acquired through training. In this paper, we construct a transformer with linear self-attention, which in-context learns the least squares estimate in a simple regression task. The point here is that the closed form (analytical) solution is approximately obtained by using layer normalization rather than an approximate solution based on gradient descent algorithm. Then, we show an experimental example, in which our implementation is mainly used in the transformer trained with l1 regularization when the target output is the least squares estimate.

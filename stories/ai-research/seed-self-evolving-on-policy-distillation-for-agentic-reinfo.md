@@ -1,0 +1,14 @@
+---
+title: "SEED: Self-Evolving On-Policy Distillation for Agentic Reinforcement Learning"
+category: "AI Research"
+source: "HF Trending Papers"
+url: "https://huggingface.co/papers/2607.14777"
+authors: ["Jinyang Wu", "Shuo Yang", "Zhengxi Lu", "Fan Zhang", "Yuhao Shen", "Lang Feng", "Haoran Luo", "Zheng Lian", "Shuai Zhang", "Zhengqi Wen", "Jianhua Tao"]
+date: "2026-07-15T20:00:00.000Z"
+score: 75
+guid: "2607.14777"
+image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2607.14777.png"
+generated: "2026-07-20T19:05:49+05:30"
+---
+
+Large language models are increasingly trained as interactive agents for long-horizon tasks involving multi-turn interaction, tool use, and environment feedback. Outcome-based reinforcement learning (RL) provides a practical optimization paradigm, but its sparse trajectory-level rewards offer limited guidance on intermediate decisions, leaving a supervision gap between episode-level outcomes and token-level policy learning. We propose SEED (SElf-Evolving On-Policy Distillation), a self-evolving framework that converts completed on-policy trajectories into training-time hindsight skills and distills their behavioral effect back into the policy model. SEED first fine-tunes the policy to analyze completed trajectories and generate natural-language skills that capture reusable workflows, decisive observations, or failure-avoidance rules. During RL, the current policy both collects trajectories and serves as the analyzer that extracts hindsight skills from them. Policy updates therefore improve subsequent decision making and skill analysis together, allowing hindsight supervision to evolve with the policy. SEED then re-scores the sampled actions under ordinary and skill-augmented contexts, converting the skill-induced probability shift into a dense token-level on-policy distillation signal. This signal is jointly optimized with outcome-based RL, keeping the auxiliary supervision aligned with the current trajectory distribution. Extensive experiments on text-based and vision-based agentic tasks show that SEED consistently improves performance and sample efficiency, exhibiting robust generalization to unseen scenarios. Our code is available at https://github.com/jinyangwu/SEED.

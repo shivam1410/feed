@@ -8,7 +8,7 @@ date: "2026-07-15"
 score: 75
 guid: "10.1038/s41586-026-10655-9"
 image: ""
-generated: "2026-07-20T19:05:49+05:30"
+generated: "2026-07-21T19:05:01+05:30"
 ---
 
-Scalable metal-organic framework (MOF) membranes have achieved near-intrinsic separation performance for industrial gas separations, enabling energy-efficient processing with major cost reductions compared to traditional distillation methods. These quasi-pure membranes can now be manufactured at scale for practical deployment. The improved separation efficiency dramatically reduces energy consumption required for gas purification and separation processes. Since energy costs typically dominate industrial gas separation expenses, this efficiency gain translates to substantial operational savings. The technology addresses a critical bottleneck in industrial chemistry. Applications span chemical manufacturing, refineries, and other sectors where gas purification represents a significant operational expense.
+Metal-organic framework membranes achieve near-perfect separation efficiency for industrial gases using far less energy than traditional distillation. These scalable quasi-pure membranes selectively pass desired gas molecules based on size and chemical affinity, approaching theoretical limits with minimal defects. Industrial gas separation is typically energy-intensive; distillation is the current standard. MOF membranes reduce energy consumption substantially, lowering operational costs significantly. Economic modeling suggests major cost reductions compared with conventional distillation, making the technology commercially viable at industrial scale.

@@ -1,106 +1,106 @@
 {
-  "generatedAt": "2026-07-20T19:06:12+05:30",
+  "generatedAt": "2026-07-21T19:05:28+05:30",
   "source": "Hugging Face — trending models",
   "models": [
     {
       "id": "thinkingmachines/Inkling",
       "task": "image-text-to-text",
-      "likes": 1197,
-      "downloads": 13462,
+      "likes": 1317,
+      "downloads": 16441,
       "library": "transformers",
       "createdAt": "2026-07-14T13:23:14.000Z",
       "url": "https://huggingface.co/thinkingmachines/Inkling",
-      "summary": "Inkling is a multimodal transformer accepting text, image, and audio inputs to generate text, designed for agentic systems and RAG applications."
+      "summary": "General-purpose multimodal model accepting text, image, and audio inputs for conversational, coding, and agentic applications."
     },
     {
       "id": "prism-ml/Ternary-Bonsai-27B-gguf",
       "task": "text-generation",
-      "likes": 825,
-      "downloads": 338945,
+      "likes": 880,
+      "downloads": 432196,
       "library": "llama.cpp",
       "createdAt": "2026-07-04T00:24:01.000Z",
       "url": "https://huggingface.co/prism-ml/Ternary-Bonsai-27B-gguf",
-      "summary": "Ternary Bonsai 27B is a highly compressed 27B reasoning model (9.4x smaller than FP16) with 95% intelligence retention for llama.cpp."
+      "summary": "27B reasoning model quantized to ternary (2-bit) weights for 7.2 GB on-device deployment with 95% of full precision performance."
     },
     {
       "id": "prism-ml/Bonsai-27B-gguf",
       "task": "text-generation",
-      "likes": 521,
-      "downloads": 1262894,
+      "likes": 560,
+      "downloads": 1404962,
       "library": "llama.cpp",
       "createdAt": "2026-07-04T00:24:38.000Z",
       "url": "https://huggingface.co/prism-ml/Bonsai-27B-gguf",
-      "summary": "Bonsai 27B is a binary-quantized 27B reasoning model (14.2x smaller than FP16) with 90% intelligence retention for llama.cpp."
+      "summary": "27B reasoning model in 1-bit binary weights for 3.9 GB on-device deployment retaining 90% of full precision capability."
     },
     {
       "id": "baidu/Unlimited-OCR",
       "task": "image-text-to-text",
-      "likes": 2322,
-      "downloads": 2122848,
+      "likes": 2537,
+      "downloads": 2237351,
       "library": "transformers",
       "createdAt": "2026-06-19T09:40:33.000Z",
       "url": "https://huggingface.co/baidu/Unlimited-OCR",
-      "summary": "Unlimited-OCR is a vision-language model for long-horizon document parsing and OCR, generating structured text from images."
+      "summary": "Vision-language model for OCR and document parsing with multilingual support and long-horizon document understanding capabilities."
     },
     {
       "id": "zai-org/GLM-5.2",
       "task": "text-generation",
-      "likes": 4196,
-      "downloads": 531947,
+      "likes": 4250,
+      "downloads": 545109,
       "library": "transformers",
       "createdAt": "2026-06-16T07:39:20.000Z",
       "url": "https://huggingface.co/zai-org/GLM-5.2",
-      "summary": "GLM-5.2 is a text generation model with 1M-token context, advanced coding capabilities, and flexible thinking effort levels."
+      "summary": "1M-context reasoning model with advanced coding, flexible effort levels, and sparse attention for long-horizon tasks."
     },
     {
       "id": "empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
       "task": "image-text-to-text",
-      "likes": 2359,
-      "downloads": 2117323,
+      "likes": 2380,
+      "downloads": 2133420,
       "library": "gguf",
       "createdAt": "2026-06-19T14:32:14.000Z",
       "url": "https://huggingface.co/empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
-      "summary": "Qwythos-9B is a 9B multimodal reasoning model with 1M-token context and function-calling, trained on Claude traces."
+      "summary": "9B multimodal reasoning model trained on Claude Mythos traces with 1M context and function-calling support."
+    },
+    {
+      "id": "DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
+      "task": "image-text-to-text",
+      "likes": 209,
+      "downloads": 62842,
+      "library": null,
+      "createdAt": "2026-07-17T00:27:17.000Z",
+      "url": "https://huggingface.co/DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
+      "summary": "Qwen3.6-27B fine-tune exceeding 700 ARC-C score with multi-stage training, uncensored for consumer hardware."
     },
     {
       "id": "conradlocke/krea2-identity-edit",
       "task": null,
-      "likes": 443,
+      "likes": 466,
       "downloads": 0,
       "library": null,
       "createdAt": "2026-07-07T14:28:55.000Z",
       "url": "https://huggingface.co/conradlocke/krea2-identity-edit",
-      "summary": "Krea 2 Identity Edit is an instruction-based image editing LoRA preserving identity during face/person swaps and inpainting."
-    },
-    {
-      "id": "bottlecapai/ThinkingCap-Qwen3.6-27B",
-      "task": "image-text-to-text",
-      "likes": 473,
-      "downloads": 10647,
-      "library": "transformers",
-      "createdAt": "2026-07-06T13:16:04.000Z",
-      "url": "https://huggingface.co/bottlecapai/ThinkingCap-Qwen3.6-27B",
-      "summary": "ThinkingCap-Qwen3.6-27B is a token-efficient reasoning model requiring 50% fewer thinking tokens while maintaining answer quality."
+      "summary": "Identity-preserving image editing LoRA for Krea 2, enabling reference-based face swaps and virtual try-on."
     },
     {
       "id": "HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
       "task": "image-text-to-text",
-      "likes": 2920,
-      "downloads": 2007025,
+      "likes": 2951,
+      "downloads": 1997690,
       "library": null,
       "createdAt": "2026-04-17T00:15:26.000Z",
       "url": "https://huggingface.co/HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
-      "summary": "Qwen3.6-35B-A3B-Uncensored is a 35B multimodal model with aggressive uncensoring and zero content refusals."
+      "summary": "Uncensored Qwen3.6-35B multimodal model with full capabilities and no refusals for text and vision tasks."
     },
     {
       "id": "ATH-MaaS/OvisOCR2",
       "task": "image-text-to-text",
-      "likes": 209,
-      "downloads": 14587,
+      "likes": 229,
+      "downloads": 17162,
       "library": "transformers",
       "createdAt": "2026-07-13T05:43:32.000Z",
       "url": "https://huggingface.co/ATH-MaaS/OvisOCR2",
-      "summary": "OvisOCR2 is a compact 0.8B model generating Markdown from document images, handling text, tables, and formulas."
+      "summary": "0.8B document parsing model converting page images to Markdown with text, formulas, and table understanding."
     }
   ]
 }

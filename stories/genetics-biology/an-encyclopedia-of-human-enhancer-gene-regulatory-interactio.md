@@ -8,7 +8,7 @@ date: "2026-07-15"
 score: 85
 guid: "10.1038/s41586-026-10781-4"
 image: ""
-generated: "2026-07-20T19:05:49+05:30"
+generated: "2026-07-21T19:05:01+05:30"
 ---
 
-The ENCODE4 project has created a comprehensive database of more than 92 million documented enhancer-gene regulatory interactions across the human genome. Enhancers are regulatory DNA elements that control gene expression. This encyclopedia catalogs the regulatory network controlling human genes. The resource substantially advances understanding of how genetic variation affects human traits and disease. Having a comprehensive map of regulatory interactions enables researchers to interpret genetic data and predict mechanisms of gene regulation. This foundational resource will support future studies of gene regulation, disease genetics, and personalized medicine.
+A comprehensive catalog of 92 million enhancer-gene regulatory pairs provides a reference map of human gene control. The ENCODE4 project systematically identified enhancer DNA sequences that regulate distant genes through 3D chromatin contact. This encyclopedia documents which regulatory elements control specific genes and tissue-specific activation patterns. Each interaction represents a potential genetic variation affecting disease or traits. The resource enables researchers to interpret genetic variants of unknown function by linking DNA changes to gene regulation mechanisms, advancing disease decoding and gene therapy development.

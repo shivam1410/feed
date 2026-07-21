@@ -1,0 +1,14 @@
+---
+title: "SVR-R1: Bootstrapping Multi-modal Reasoning with Self-verification in Reinforcement Learning"
+category: "AI Research"
+source: "HF Trending Papers"
+url: "https://huggingface.co/papers/2607.10966"
+authors: ["Mingyuan Wu", "Jingcheng Yang", "Shengyi Qian", "Xudong Wang", "Jize Jiang", "Qifan Wang", "Aashu Singh", "Khoi Pham", "Fei Liu", "Zhaolun Su", "Zhuokai Zhao", "Klara Nahrstedt", "Jianyu Wang", "Hanchao Yu"]
+date: "2026-07-12T20:00:00.000Z"
+score: 68
+guid: "2607.10966"
+image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2607.10966.png"
+generated: "2026-07-21T19:05:01+05:30"
+---
+
+We introduce Self-Verified Reasoner (SVR-R1), a multi-turn RL framework that turns a model's own verification into a learning signal for multimodal reasoning. For each query, the model proposes an answer using the same weights, and issues a binary self-verdict (Yes/No). A 'No' triggers a second-chance rethink; a 'Yes,' or a turn cap, finalizes the output for computing the outcome-based reward. SVR-R1 is implemented with GRPO and an asynchronous multi-turn rollout framework and needs no external supervision or auxiliary critics. We evaluate SVR-R1 on vision-language reasoning benchmarks and show that it improves accuracy by a large margin over strong standard GRPO baselines. Training dynamics show decreasing reliance on verification-fewer verification turns, yet higher test accuracy-indicating that the gap between verification and generation narrows as the policy internalizes self-correction and chooses the most confident answer via our framework. SVR-R1 bridges the less explored intersection of inference-time self-refinement and RL training for VLMs, offering a simple yet effective recipe for bootstrapping multimodal reasoning. We will open-source SVR-R1 to facilitate future research in VLMs.

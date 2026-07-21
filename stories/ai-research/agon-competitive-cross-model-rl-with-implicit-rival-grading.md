@@ -5,10 +5,10 @@ source: "HF Trending Papers"
 url: "https://huggingface.co/papers/2607.07690"
 authors: ["Vladislav Beliaev"]
 date: "2026-07-07T20:00:00.000Z"
-score: 80
+score: 70
 guid: "2607.07690"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2607.07690.png"
-generated: "2026-07-20T19:05:49+05:30"
+generated: "2026-07-21T19:05:01+05:30"
 ---
 
-Agon introduces a training method where two AI models compete to solve problems by grading each other's reasoning. Unlike standard RL that only grades final answers, Agon has one model draft a solution while the other reads and solves it, rewarding whoever out-reasons the other. This forces reasoning to be judged implicitly without explicit process labels. On DeepMath's hard problems using Qwen3, Agon doubled the pass rate of the baseline method (GRPO), roughly eight times better than untrained ensemble approaches. The breakthrough matters because it trains models to reason more deeply rather than just writing longer solutions, and both models can improve together as they face progressively stronger rivals.
+Reinforcement learning from verifiable rewards (e.g. GRPO) is the engine behind today's reasoning models, yet it grades only the final answer. On hard problems this trains models to write more rather than to think better, since the trace itself is never graded and no label for good thinking exists. We introduce Agon, which makes two competing models each other's graders. Both attempt the same problem; in alternating roles, one drafts a solution and the other reads it while solving, and each is rewarded for out-solving the other. To win, a model must out-reason a rival that has seen its work, so reasoning is judged implicitly during training, with no process labels and no reward model. Because both models are optimized, each faces a progressively stronger rival, which single-model RL cannot provide. The two need only be comparably strong and behaviorally different. At inference the pair deploys as it trains, a two-stage cascade in which one model drafts and the other answers after reading the draft. On the hard split of DeepMath with Qwen3, this doubles GRPO's pass@1, roughly eight times the gain of an untrained Mixture-of-Agents pass over the same base. The ordering replicates on competitive-programming code and across model families (Qwen3.5, Gemma 4). For now the models talk in text; the next step is to let them reason together in latent space.

@@ -8,7 +8,7 @@ date: "2026-07-15"
 score: 85
 guid: "10.1038/s41586-026-10709-y"
 image: ""
-generated: "2026-07-20T19:05:49+05:30"
+generated: "2026-07-21T19:05:01+05:30"
 ---
 
-Researchers demonstrated 54 qubits arranged in non-Abelian topological order, combining anyon braiding and fusion operations to enable universal quantum computation. This hardware-based realization proves that topological approaches can support the complete set of quantum gates required for general-purpose quantum computing applications. The advance represents significant progress toward building scalable, inherently error-resistant quantum computers based on exotic topological quantum states. This achievement brings practical quantum computing closer to reality by harnessing fundamental principles of topology and quantum mechanics.
+Quantum computers require universal gates manipulating quantum information. Researchers demonstrated this using a 54-qubit system implementing non-Abelian topological order. The approach combines anyon braiding—moving quantum particles around each other—and fusion. These operations encode information in ways protected from environmental noise. This topological approach offers inherent error resistance, critical for scaling quantum computers. Demonstration on actual quantum hardware suggests topological quantum computing, previously theoretical, can be practically realized and brings universal quantum gates closer to reality.

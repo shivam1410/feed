@@ -5,10 +5,10 @@ source: "Simon Willison"
 url: "https://simonwillison.net/2026/Jul/19/ai-mania/#atom-everything"
 authors: []
 date: "2026-07-19T05:06:21+00:00"
-score: 75
+score: 70
 guid: "https://simonwillison.net/2026/Jul/19/ai-mania/#atom-everything"
 image: ""
-generated: "2026-07-20T19:05:49+05:30"
+generated: "2026-07-21T19:05:01+05:30"
 ---
 
-AI mania is driving irrational decision-making at enterprises, according to industry observations. Extreme examples include an executive at a $2B+ revenue company producing an AI-centered technical strategy without ever using ChatGPT, engineers rewriting code in unfamiliar languages to appear productive, and executives claiming 100x productivity improvements. The root problem is perverse incentives: when customer executives publicly promise unrealistic AI gains, vendor executives cannot contradict them without appearing to attack the customer's credibility and risking enterprise contract cancellation. This silences honest pushback on inflated claims. Sales enthusiasm combines with executive fear of heresy to prevent realistic assessment. This matters because irrational AI decisions may misdirect massive capital and organizational effort away from genuine productivity improvements.
+AI enthusiasm is driving poor business decisions at major companies, where executives lacking hands-on experience make sweeping strategic commitments based on unrealistic hype. One executive oversaw a $2B+ revenue organization's AI strategy while never using ChatGPT; an engineer rewrites entire codebases in different languages just to appear productive under AI pressure. The problem intensifies through vendor-customer feedback loops: when executives claim 100x productivity gains, competitors feel forced to echo those claims or risk losing enterprise contracts. Skeptical vendors cannot challenge obviously false promises without being perceived as undermining clients' credibility, creating a self-reinforcing cycle of inflated expectations. This dynamic disconnects AI strategy from actual capability and evidence-based decision-making.

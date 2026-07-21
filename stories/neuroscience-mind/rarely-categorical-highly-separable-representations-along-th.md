@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/s41586-026-10668-4"
 authors: ["Lorenzo Posani", "Shuqi Wang", "Samuel P. Muscinelli", "Liam Paninski", "Stefano Fusi"]
 date: "2026-07-15"
-score: 80
+score: 72
 guid: "10.1038/s41586-026-10668-4"
 image: ""
-generated: "2026-07-20T19:05:49+05:30"
+generated: "2026-07-21T19:05:01+05:30"
 ---
 
-Brain circuits prioritize neural diversity and separability of information representation over categorical organization. Rather than organizing inputs into discrete categories, cortical systems generate high-dimensional, highly separable neural representations optimized for distinguishing distinct inputs. This computational architecture supports flexible reasoning and adaptive perception. The findings suggest cortical circuits implement a computational regime fundamentally different from traditional categorical processing models. This strategy enables more nuanced information processing that varies across the cortical hierarchy. High-dimensional separable representations support more flexible adaptive computation suited to complex real-world reasoning, perception, and decision-making tasks that require fine discrimination.
+Neurons throughout the cerebral cortex prioritize high-dimensional, highly separable representations rather than organizing into neat categorical groups. Neural recordings across cortical hierarchy reveal circuits generate diverse patterns where different stimuli activate largely non-overlapping neural populations. This computational strategy differs from categorical abstraction and suggests cortex optimizes for decoding many distinct, subtle distinctions. High-dimensional separability enables flexible downstream computations—circuits extract diverse relationships from sensory input without constraining to predefined categories. This may reflect how brains extract rich information from complex environments.

@@ -8,7 +8,7 @@ date: "2026-07-15"
 score: ""
 guid: "10.1038/s41586-026-10789-w"
 image: ""
-generated: "2026-07-19T19:52:10+05:30"
+generated: "2026-07-23T04:03:36+05:30"
 ---
 
 In vivo ligation of clinically used therapeutic antibodies via bioorthogonal click chemistry to antibody–drug conjugates leads to enhanced antitumour activity in heterogeneous and treatment-resistant tumours.

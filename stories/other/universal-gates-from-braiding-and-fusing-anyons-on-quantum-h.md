@@ -8,7 +8,7 @@ date: "2026-07-15"
 score: ""
 guid: "10.1038/s41586-026-10709-y"
 image: ""
-generated: "2026-07-19T19:52:10+05:30"
+generated: "2026-07-23T04:03:36+05:30"
 ---
 
 A 54-qubit realization of non-Abelian S3 topological order demonstrates that combining anyon braiding with fusion enables universal topological quantum computation.

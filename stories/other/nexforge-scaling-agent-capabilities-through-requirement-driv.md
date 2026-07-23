@@ -1,0 +1,14 @@
+---
+title: "NexForge: Scaling Agent Capabilities through Requirement-Driven Task Synthesis for LLMs"
+category: "Other"
+source: "HF Trending Papers"
+url: "https://huggingface.co/papers/2607.14186"
+authors: ["Jiarong Zhao", "Zhikai Lei", "Zhiheng Xi", "Rui Zheng", "Hang Yan", "Jie Zhou", "Qin Chen", "Liang He"]
+date: "2026-07-20T20:00:00.000Z"
+score: ""
+guid: "2607.14186"
+image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2607.14186.png"
+generated: "2026-07-23T04:03:36+05:30"
+---
+
+Scaling executable agent training data for LLM post-training is bottlenecked by substrate-bound methods that tie task generation to predefined tools, repositories, or skill graphs: expanding coverage requires manual substrate engineering, each new domain demands a bespoke pipeline, and the resulting task distributions often reflect substrate biases rather than real-world demand. We introduce NexForge, a requirement-driven framework that takes high-level capability requirements as input and synthesizes diverse, executable agent tasks and expert trajectories for SFT. NexForge first investigates real-world demand to construct representative scenarios and task profiles, then performs distribution-aware compilation to generate task directives. For each directive, NexForge automatically retrieves or constructs the required files, dependencies, and runtime configurations, and finally synthesizes expert rollouts and produces training trajectories. Without domain-specific infrastructure, NexForge produces 3.6K terminal and 2K office tasks, improving Qwen3.5-35B-A3B Base from 22.5\% to 52.0\% on Terminal-Bench 2.0 and from 813 to 1338 Elo on GDPval; scaling further to 43.2K terminal tasks yields 58.4\%, on par with Claude Opus 4.6 equipped with Claude Code. Scaled further, NexForge-synthesized data contributes to the training of Nex-N2, a family of publicly available agent models that lift Qwen3.5-35B-A3B to 75.3\% on Terminal-Bench 2.1 and to 1585 Elo on GDPval -- achieving state-of-the-art open-source performance and surpassing several frontier proprietary systems. Nex-N2 models are available at https://nex.sii.edu.cn/.

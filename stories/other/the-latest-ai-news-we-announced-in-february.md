@@ -8,7 +8,7 @@ date: "Thu, 05 Mar 2026 16:30:00 +0000"
 score: ""
 guid: "https://blog.google/innovation-and-ai/products/google-ai-updates-february-2026/"
 image: "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Thumbnail_mPCqgRv.max-600x600.format-webp.webp"
-generated: "2026-07-18T21:58:10+05:30"
+generated: "2026-07-23T04:03:36+05:30"
 ---
 
 Here are Google’s latest AI updates from February 2026

@@ -8,7 +8,7 @@ date: "2026-07-15"
 score: ""
 guid: "10.1038/s41586-026-10804-0"
 image: ""
-generated: "2026-07-19T19:52:10+05:30"
+generated: "2026-07-23T04:03:36+05:30"
 ---
 
 Elastic instabilities in mechanical metamaterials can be harnessed to programme fracture behaviour, transforming instability from a failure mechanism into a design principle that increases fracture energy by up to tenfold.

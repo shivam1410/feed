@@ -1,0 +1,14 @@
+---
+title: "Intelligence from Learnable Novelty"
+category: "Other"
+source: "arXiv (cs.LG)"
+url: "https://arxiv.org/abs/2607.18433"
+authors: ["Yanbo Zhang, Michael Levin"]
+date: "Wed, 22 Jul 2026 00:00:00 -0400"
+score: ""
+guid: "oai:arXiv.org:2607.18433v1"
+image: ""
+generated: "2026-07-23T04:03:36+05:30"
+---
+
+arXiv:2607.18433v1 Announce Type: new Abstract: Intelligence appears under different names in different fields: as data compression in statistics and machine learning, as universal computation in dynamical systems, and as adaptive behavior in agents. Each field carries its own objective, and the two most influential drives often fail in mirror image: novelty search, which seeks surprise, is transfixed by a noisy television screen, while the free-energy principle, which avoids surprise, is most content in a dark room. Both failures have a single cause: each objective treats as one quantity the surprise a learner can convert into knowledge and the surprise it never can. Here we show that the learnable part of that information, which we call learnable novelty, yields the seemingly disparate projections of intelligence, and we give a closed-form estimator of it built on a cheap and differentiable reservoir computer. Used as a measure, with no supervision of any kind, the estimator recovers decades of complexity classification, ranking the Turing-complete rule~110 highest among the elementary cellular automata. Used as an objective, its gradient carries a neural cellular automaton from simple dynamics into a regime of solitons, the traveling, colliding structures by which rule~110 computes, as well as organizes the representation of an image encoder around the ten digit classes of MNIST, fully unsupervised: no label ever enters training. Handed to a reinforcement-learning agent as an intrinsic reward, it supplies the exploration that task rewards lack, improving on the task baseline in nine of ten environments and collapsing in none. Complexity generation, abstraction, and exploration, ordinarily pursued with unrelated objectives in separate fields, thus emerge from ascent on one differentiable quantity, and the projections of intelligence gain a common quantitative footing.

@@ -1,0 +1,14 @@
+---
+title: "Hybrid Latent-Structural Fusion (HLSF) for Cyber Anomaly Detection"
+category: "Other"
+source: "arXiv (cs.LG)"
+url: "https://arxiv.org/abs/2607.18479"
+authors: ["Dorianis M. Perez, Maksim E. Eren, Bryan E. Kaiser"]
+date: "Wed, 22 Jul 2026 00:00:00 -0400"
+score: ""
+guid: "oai:arXiv.org:2607.18479v1"
+image: ""
+generated: "2026-07-23T04:03:36+05:30"
+---
+
+arXiv:2607.18479v1 Announce Type: new Abstract: Malicious anomalous activity detection is a fundamental challenge for cyber security systems. Both tensor decomposition under statistical framework with CANDECOMP-PARAFAC alternating Poisson regression (CP-APR) and normalizing flows have proven to be powerful unsupervised machine learning methods that model multi-dimensional data and capture complex and multi-faceted details of behavior profiles in cyber security applications. In this study, we propose Hybrid Latent-Structural Fusion (HLSF), a weighted anomaly fusion framework integrating CP-APR structural anomaly scores with latent-space density scores derived from normalizing flows. In our experiments, we show that the HLSF framework improves anomaly detection performance on a dataset of real-world compromised user credentials collected from the large enterprise network of Los Alamos National Laboratory (LANL) during a red-teaming exercise, compared with using CP-APR or normalizing flows alone.

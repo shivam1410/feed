@@ -8,7 +8,7 @@ date: "2026-07-16"
 score: ""
 guid: "10.1038/d41586-026-02175-3"
 image: ""
-generated: "2026-07-19T19:52:10+05:30"
+generated: "2026-07-23T04:03:36+05:30"
 ---
 
 Project on peer-review platform Pubpeer aims to make replication studies more visible.

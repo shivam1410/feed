@@ -8,7 +8,7 @@ date: "2026-07-15"
 score: ""
 guid: "10.1038/s41586-026-10780-5"
 image: ""
-generated: "2026-07-19T19:52:10+05:30"
+generated: "2026-07-23T04:03:36+05:30"
 ---
 
 A Bayesian generative framework that integrates longitudinal electronic health records with genetic data to identify latent disease signatures is presented.

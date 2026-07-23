@@ -8,7 +8,7 @@ date: "2026-07-15"
 score: ""
 guid: "10.1038/d41586-026-02221-0"
 image: ""
-generated: "2026-07-19T19:52:10+05:30"
+generated: "2026-07-23T04:03:36+05:30"
 ---
 
 The simple chemical that keeps a mole-rat queen atop her throne — plus, how people approach new games.

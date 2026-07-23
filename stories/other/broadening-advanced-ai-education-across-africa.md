@@ -8,7 +8,7 @@ date: "Tue, 17 Mar 2026 08:00:00 +0000"
 score: ""
 guid: "https://blog.google/company-news/inside-google/around-the-globe/google-africa/ai-research-foundations/"
 image: "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AIResearchFoundations_KeywordHe.max-600x600.format-webp.webp"
-generated: "2026-07-18T21:58:10+05:30"
+generated: "2026-07-23T04:03:36+05:30"
 ---
 
 Google DeepMind, Google.org, and Google Skills unite to empower the next generation of AI researchers and educators with a free, high-impact curriculum.

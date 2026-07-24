@@ -5,10 +5,10 @@ source: "Simon Willison"
 url: "https://simonwillison.net/2026/Jul/20/afraid-of-chinese-models/#atom-everything"
 authors: []
 date: "2026-07-20T17:09:19+00:00"
-score: 65
+score: 55
 guid: "https://simonwillison.net/2026/Jul/20/afraid-of-chinese-models/#atom-everything"
 image: ""
-generated: "2026-07-21T19:05:01+05:30"
+generated: "2026-07-24T19:06:17+05:30"
 ---
 
-Ben Thompson proposes U.S. copyright law changes explicitly permitting training data collection as fair use while banning terms of service that restrict distillation, indemnifying labs while enabling downstream innovation. Thompson notes Alibaba's decision to release Qwen 3.8 Max (2.4T parameters) as open weights—reversing their prior closed approach—may reflect Xi Jinping's emphasis on open-source collaboration. These developments suggest evolving policy and competitive pressures reshaping global access to and usage of AI models.
+Who’s Afraid of Chinese Models? Interesting proposal from Ben Thompson that both addresses the hypocrisy of labs outlawing distillation against their models despite training on unlicensed data, and could help US open models compete more effectively with their Chinese counterparts: The U.S. should pass a law that (1) makes explicit that collecting data for training models is fair use, and (2) bars terms of service that forbid distillation, for U.S. companies at a minimum. Stopping distillation — which is literally just querying the API — is nearly impossible; the U.S. should go the other way and lean into a new copyright policy that both indemnifies the labs and also guarantees that what they learned fuels further innovation for everyone else. Ben also theorizes that Alibaba's decision to release Qwen 3.8 Max as open weights - a reversal from their decision not to release Qwen 3.7 Max in May - may have been influenced by a recent speech by Xi Jinping, who said: We should seize this rare, historic opportunity to encourage open source, openness, collaboration and sharing. And on the subject of Qwen 3.8 Max - a new 2.4T parameter model (nearly as large as the 2.8T Kimi K3) - here's a pelican it drew : I particularly enjoyed seeing these notes in the (extensive) reasoning trace: "Could add helmet? No." and "Maybe add small bell? no." and "Need maybe add small fish in basket? Not necessary." Via John Gruber Tags: ai , generative-ai , llms , training-data , qwen , pelican-riding-a-bicycle , ai-ethics , llm-release , ai-in-china

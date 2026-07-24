@@ -1,0 +1,14 @@
+---
+title: "Joint Utilization of Geospatial and census proxies for Autoencoder-Assisted Downscaling (JUGAAD) of socioeconomic indicators in India"
+category: "Science & Society"
+source: "arXiv (cs.LG)"
+url: "https://arxiv.org/abs/2607.20559"
+authors: ["Aditya Dutt, Paul Gader, Aditya Singh"]
+date: "Fri, 24 Jul 2026 00:00:00 -0400"
+score: 64
+guid: "oai:arXiv.org:2607.20559v1"
+image: ""
+generated: "2026-07-24T19:06:17+05:30"
+---
+
+arXiv:2607.20559v1 Announce Type: new Abstract: Monitoring poverty and food security indicators is imperative for addressing socioeconomic challenges in developing nations. A limitation is mismatches in scale between data sources: census data provide geographic coverage, while socioeconomic indicators are derived from infrequently conducted surveys at coarse resolutions, posing a methodological challenge. This study introduces a deep learning framework, JuGAAD, using Indian census and survey data from 2001 and 2011 as a case study. We employ a three-step process: census and geospatial data are averaged into intermediate village-cluster-scale tessellations to reduce noise and regularize administrative boundary changes; an autoencoder compresses high-dimensional National Sample Survey Office (NSSO) data into a low-dimensional latent representation; and a regression model maps upscaled census and geospatial data to this representation. This function is applied to fine-grained census data to generate high-resolution predictions, validated against ground-truth district-level NSSO indicators. Results confirm the methodology predicts socioeconomic indicators at fine scales with strong accuracy.

@@ -1,0 +1,14 @@
+---
+title: "Transcription Policy as a Latent Variable: Activating Controllable Verbatim ASR with Word-Level Timing"
+category: "AI Research"
+source: "HF Trending Papers"
+url: "https://huggingface.co/papers/2607.18934"
+authors: ["Laurin Wagner", "Mario Zusag", "Bernhard Thallinger"]
+date: "2026-07-20T20:00:00.000Z"
+score: 65
+guid: "2607.18934"
+image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2607.18934.png"
+generated: "2026-07-24T19:06:17+05:30"
+---
+
+Modern ASR models trained on heterogeneously annotated data treat transcription style (verbatim vs. intended) as an uncontrolled latent variable, causing measurable decoding instability, evaluation confounding (up to 60% of reported WER attributable to style mismatch), and unreliable word-level timing. We show that models already encode both styles; the challenge is controlled activation. Using coverage-aware decoder task tokens trained on parallel verbatim/intended transcript pairs, we raise German disfluency F1 from 10% to 79% zero-shot, despite English-only training. Full English-only fine-tuning surpasses all baselines in verbatim accuracy, disfluency detection, and intended-mode quality across both languages. We further introduce supervised cross-attention fine-tuning that improves word-level timestamps on disfluent speech beyond forced-alignment baselines. Finally, we propose verbatimize, a new task enabling scalable creation and enrichment of speech corpora with high-quality canonical verbatim transcriptions.

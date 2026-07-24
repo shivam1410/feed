@@ -7,6 +7,14 @@ flowchart TD
     C -->|Three| F[fa:fa-car Car]
 ```
 
+```mermaid
+graph TD
+    A[Start] --> B[Process]
+    B --> C{Decision}
+    C -->|Yes| D[Success]
+    C -->|No| E[Retry]
+```
+
 # AI & Science — Live Feed
 
 A zero-dependency, single-page feed reader that polls multiple research sources,

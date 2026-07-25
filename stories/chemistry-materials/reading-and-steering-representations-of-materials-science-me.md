@@ -5,10 +5,10 @@ source: "HF Trending Papers"
 url: "https://huggingface.co/papers/2607.20058"
 authors: ["Markus J. Buehler"]
 date: "2026-07-21T20:00:00.000Z"
-score: 75
+score: 76
 guid: "2607.20058"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2607.20058.png"
-generated: "2026-07-24T19:06:17+05:30"
+generated: "2026-07-25T21:42:33+05:30"
 ---
 
-Researchers demonstrate that materials science knowledge in the Gemma-4-E4B-it language model is encoded in three forms: readable concepts in individual hidden states, constitutive orientation in transformations between states, and causal control of scientific answers. Using matched vocabulary readouts, state geometry analysis, a 60-law counterfactual benchmark, and causal interventions, they showed their approach reproduced concept rankings and enabled identification of 9 of 10 mechanism families. Bidirectional tests comparing reversed physical inputs showed the model's hidden-state transformations correctly oriented 39 of 40 directional laws, far exceeding lexical baselines. This reveals that language models don't merely memorize scientific facts but genuinely represent governing physics.
+Materials-science mechanism information in google/gemma-4-E4B-it exists in three separable forms: readable concepts in hidden states, constitutive orientation via controlled transformations, and causal control of scientific answers. Using matched direct and Jacobian readouts, state geometry analysis, 60-law counterfactual benchmarks, and causal interventions on 50 materials descriptions, Jacobian lenses reproduced concept ranks and identified 9 of 10 mechanism families. Hidden-state movements followed supplied constitutive laws in 39 of 40 directional cases—far exceeding chance—while lexical controls performed at chance. These findings reveal how LLMs internally represent and apply scientific knowledge.

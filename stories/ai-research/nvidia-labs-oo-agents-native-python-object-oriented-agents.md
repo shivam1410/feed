@@ -5,10 +5,10 @@ source: "HF Trending Papers"
 url: "https://huggingface.co/papers/2607.20709"
 authors: ["Paul Furgale", "Severin Klingler", "James Nolan", "Matt Staats", "Gaia Di Lorenzo", "Elisa Martinez Abad", "Christian Schüller", "Razvan Dinu", "Alessio Devoto", "Pascal Berard", "Gal Kaplun", "Elad Sarafian", "Riccardo Roveri", "Leon Derczynski", "Ricardo Silveira Cabral"]
 date: "2026-07-21T20:00:00.000Z"
-score: 65
+score: 62
 guid: "2607.20709"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2607.20709.png"
-generated: "2026-07-24T19:06:17+05:30"
+generated: "2026-07-25T21:42:33+05:30"
 ---
 
 Traditional agent development is split across prompt templates, tool schemas, callback code, and workflow graphs. We present NVIDIA Object-Oriented Agents (NOOA), a model-agnostic Python framework for building reliable AI agents. NOOA takes a simpler approach: an agent is a Python object. Its methods are the actions the model can take, fields are its state, docstrings are its prompts, and its type annotations are contracts. A method whose code body consists of "..." is completed at runtime by an LLM-driven agent loop, while methods with normal bodies remain standard deterministic Python. This gives developers and agents the same interface, so agent behavior can be tested, traced, refactored, and improved just like other software.

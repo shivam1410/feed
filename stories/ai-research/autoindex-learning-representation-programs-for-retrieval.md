@@ -5,10 +5,10 @@ source: "HF Trending Papers"
 url: "https://huggingface.co/papers/2607.18603"
 authors: ["Sam O'Nuallain", "Nithya Rajkumar", "Ramya Narayanasamy", "Hanna Jiang", "Shreyas Chaudhari", "Andrew Drozdov"]
 date: "2026-07-20T20:00:00.000Z"
-score: 70
+score: 71
 guid: "2607.18603"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2607.18603.png"
-generated: "2026-07-24T19:06:17+05:30"
+generated: "2026-07-25T21:42:33+05:30"
 ---
 
 We present AutoIndex, a framework for learning representation programs: executable transformations that map raw documents into the representations exposed to a retrieval system. Rather than tuning retrievers, rerankers, or a small set of preprocessing hyperparameters, AutoIndex searches over programs that slice, enrich, normalize, reweight, or reorganize documents before indexing. At each iteration, AutoIndex performs validation-guided program search, in which agents diagnose failures of the current program and synthesize candidate updates, retaining only updates that improve retrieval quality under the resulting index. We evaluate AutoIndex on CRUMB, a benchmark of heterogeneous retrieval tasks, with BM25 held fixed across all experiments. The learned programs improve recall over a static full-document BM25 baseline on all 8 tasks, with average gains of +8.4% in Recall@100 and +8.3% in nDCG@10, and largest gains of +30.5% in Recall@100 and +43.6% in nDCG@10. These results suggest that document representation should not be treated as a fixed preprocessing choice made before retrieval begins, but as an explicit optimization target. Code to reproduce our results is available at https://github.com/auto-index/autoindex.

@@ -5,10 +5,10 @@ source: "HF Trending Papers"
 url: "https://huggingface.co/papers/2607.21217"
 authors: ["Zhongyuan Peng", "Dan Huang", "Chuyu Zhang", "Caijun Xu", "Changyi Xiao", "Shibo Hong", "David Lo", "Lin Qiu", "Xuezhi Cao", "Jiyuan He", "Yixin Cao"]
 date: "2026-07-22T20:00:00.000Z"
-score: 65
+score: 68
 guid: "2607.21217"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2607.21217.png"
-generated: "2026-07-24T19:06:17+05:30"
+generated: "2026-07-25T21:42:33+05:30"
 ---
 
 The recent emergence of vibe-coding workflows is changing what coding agents are expected to do. Instead of merely completing code under fully specified instructions, agents are increasingly expected to transform incomplete product intent into working software by combining various abilities including planning, requirement clarification, tool use, debugging, and repository-level construction. Yet existing benchmarks have not fully caught up with this shift, evaluating agents on static, fully specified tasks.

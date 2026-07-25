@@ -5,10 +5,10 @@ source: "HF Trending Papers"
 url: "https://huggingface.co/papers/2607.21017"
 authors: ["Boyuan Wang", "Yue Zhang", "Xutao Xue", "Xueyu Song", "Yu Sun"]
 date: "2026-07-22T20:00:00.000Z"
-score: 75
+score: 71
 guid: "2607.21017"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2607.21017.png"
-generated: "2026-07-24T19:06:17+05:30"
+generated: "2026-07-25T21:42:33+05:30"
 ---
 
-TableVerse presents a fully automated Real2Sim pipeline that reconstructs real-world tabletop environments from internet images into simulation-ready 3D scenes with verified mechanical stability and accurate scaling. The resulting TableVerse-100K Dataset comprises 100,000 unique, physically consistent environments paired with collision-free pick-and-place demonstration trajectories. By capturing realistic spatial distributions and diverse asset compositions, this large-scale, high-fidelity dataset addresses a critical bottleneck in robotic manipulation: the lack of large-scale, physically plausible training data needed to develop generalizable manipulation policies that work in cluttered human environments.
+The development of generalizable robotic manipulation policies is inherently bounded by the availability of large-scale, high-fidelity scene data. While recent automated synthesis methods attempt to bridge this gap via text-to-layout hallucination or simplified procedural generation, they frequently suffer from physical implausibility and fail to capture the complex, dense clutter of actual human environments. In this paper, we introduce TableVerse, a fully automated Real2Sim pipeline that shifts the paradigm from imaginative layout generation to deterministic reconstruction from unstructured, in-the-wild image data. Our framework seamlessly processes unscripted internet media into high-fidelity, simulation-ready tabletop environments with accurate metric scales, authentic topologies, and verified mechanical stability. Furthermore, an automated task-conditioned trajectory generation framework is integrated to synthesize high-quality, collision-free pick-and-place demonstrations. Leveraging this complete pipeline, we construct the TableVerse-100K Dataset, a large-scale corpus comprising 100,000 unique, physically consistent environments paired with interactive manipulation trajectories. By capturing diverse asset compositions, realistic spatial distributions, and high-quality demonstrations, TableVerse-100K establishes a highly scalable and high-fidelity data foundation, providing significant value to facilitate future research in generalizable robotic manipulation tasks.

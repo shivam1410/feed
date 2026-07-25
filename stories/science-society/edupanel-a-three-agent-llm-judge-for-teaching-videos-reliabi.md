@@ -5,10 +5,10 @@ source: "HF Trending Papers"
 url: "https://huggingface.co/papers/2607.18529"
 authors: ["Jia-Kai Dong", "Yi-Cheng Lin", "Hung-yi Lee"]
 date: "2026-07-19T20:00:00.000Z"
-score: 65
+score: 62
 guid: "2607.18529"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2607.18529.png"
-generated: "2026-07-24T19:06:17+05:30"
+generated: "2026-07-25T21:42:33+05:30"
 ---
 
-EduPanel is a rubric-grounded language model system that evaluates teaching video quality through specialized agents adapted to specific learner types. The system improves automated scoring accuracy with median absolute error reduced from 0.87 to 0.73, matching the reliability of human experts. Experts retained the ability to detect unreliable outputs (AUC = 0.77), indicating EduPanel functions as an effective assistant rather than a replacement for human judgment. By decomposing evaluation across multiple agents focused on distinct pedagogical aspects, EduPanel enables scalable, interpretable assessment of teaching video quality while maintaining appropriate human oversight.
+EduPanel is a rubric-grounded, learner-conditioned LLM judge evaluating teaching-video quality through specialized agents. Tailored to intended learner profiles and integrating multimodal evidence, EduPanel achieves reliability comparable to human experts, improving scoring accuracy (MAE 0.87→0.73). Experts can detect unreliable outputs (AUC=0.77), positioning EduPanel as an assistant rather than replacement. Ablations confirm value of specialized agents and learner conditioning. The interpretable multi-agent design produces actionable feedback improving both automated assessment and expert judgment, enabling scalable pedagogical evaluation while preserving human oversight.

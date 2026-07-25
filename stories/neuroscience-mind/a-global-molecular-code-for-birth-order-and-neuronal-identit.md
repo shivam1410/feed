@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/s41586-026-10797-w"
 authors: ["Sebastian Cachero", "Myrto Mitletton", "Isabella R. Beckett", "Elizabeth C. Marin", "Laia Serratosa Capdevila", "Marina Gkantia", "Jelly H. M. Soffers", "Haluk Lacin", "Gregory S. X. E. Jefferis", "Erika Donà"]
 date: "2026-07-22"
-score: 75
+score: 76
 guid: "10.1038/s41586-026-10797-w"
 image: ""
-generated: "2026-07-24T19:06:17+05:30"
+generated: "2026-07-25T21:42:33+05:30"
 ---
 
-Researchers created a high-resolution transcriptional atlas mapping gene expression throughout the developing Drosophila nerve cord, revealing a shared molecular code recording the order in which neurons are born. This transcriptional signature of birth order governs neuronal identity and organizes remarkable cellular diversity in the nervous system. Birth order constrains which identity each neuron adopts, and the atlas reveals precise transcriptional mechanisms implementing this developmental program. Understanding how birth order translates into cellular identity illuminates fundamental neural development principles conserved across species, including vertebrates, with implications for understanding human nervous system development and neurodevelopmental disorders.
+A high-resolution single-cell transcriptional atlas of the Drosophila melanogaster nerve cord has revealed a shared gene-expression code that precisely encodes neuronal birth order and fundamentally organizes neural cellular diversity. This transcriptional code appears remarkably universal across distinct neuronal lineages, suggesting a fundamental and conserved developmental principle underlying neural specification. Individual neurons carry a transcriptional 'molecular memory' of when they were generated during embryonic development, information that profoundly shapes their cellular identity, connectivity patterns, and circuit function. The atlas, integrated with comprehensive circuit connectivity mapping data, demonstrates how a deceptively simple transcriptional rule generates remarkable neuronal diversity and exquisite circuit organization. This discovery illuminates fundamental mechanisms of how developmental timing instructs neural identity, with significant implications for understanding vertebrate brain development and neuroevolution.

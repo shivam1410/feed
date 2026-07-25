@@ -8,7 +8,7 @@ date: "2026-07-23"
 score: 65
 guid: "10.1038/d41586-026-02295-w"
 image: ""
-generated: "2026-07-24T19:06:17+05:30"
+generated: "2026-07-25T21:42:33+05:30"
 ---
 
 The compact device can measure when the body is in ketosis and could help people to manage weight loss.

@@ -5,10 +5,10 @@ source: "HF Trending Papers"
 url: "https://huggingface.co/papers/2607.16165"
 authors: ["Jiarui Zhang", "Muzi Tao", "Shangshang Wang", "Ollie Liu", "Xuezhe Ma", "Willie Neiswanger"]
 date: "2026-07-16T20:00:00.000Z"
-score: 68
+score: 72
 guid: "2607.16165"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2607.16165.png"
-generated: "2026-07-25T21:42:33+05:30"
+generated: "2026-07-26T22:35:53+05:30"
 ---
 
-Human vision is a closed loop: gaze is continuously redirected by intermediate hypotheses rather than a single snapshot. Decades of psychophysics and cognitive science have argued that this active observation is essential for a wide range of tasks. Whether today's multimodal large language models (MLLMs) exercise active observation is an empirical question that current vision-language benchmarks do not answer. We introduce ActiveVision, a benchmark that makes active observation measurable for MLLMs, comprising 17 tasks across 3 categories. Tasks are designed to force repeated visual perception rather than a single static description. Frontier MLLMs collapse on ActiveVision: the highest-scoring model we evaluate, GPT-5.5 at the highest exposed reasoning-effort tier, solves only 10.6% of items and scores zero on 11 of the 17 tasks, and even Claude Fable 5, despite topping most reasoning and coding leaderboards, solves just 3.5%, far behind three human participants who average 96.1%. Furthermore, much of the gap persists even when models write and run their own vision code: such code is unreliable on realistic imagery, and catching its failures itself requires the active perception the models lack. Together, these results indicate that current MLLMs lack robust active visual observation, motivating architectures and training objectives that close the perception-reasoning loop.
+ActiveVision demonstrates that frontier multimodal LLMs lack active visual observation despite strong reasoning abilities. GPT-5.5 at highest reasoning-effort solves only 10.6% of tasks and scores zero on 11 of 17 items. Claude Fable 5 solves 3.5% despite topping reasoning leaderboards. Three human participants average 96.1%. Even when models write and run vision code, failures persist due to unreliable code on realistic imagery. Catching such failures itself requires the active perception models lack. These results indicate current MLLMs cannot iteratively redirect perception based on intermediate hypotheses—a capability fundamental to human vision.

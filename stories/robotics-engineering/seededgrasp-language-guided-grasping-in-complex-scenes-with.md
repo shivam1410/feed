@@ -5,10 +5,10 @@ source: "HF Trending Papers"
 url: "https://huggingface.co/papers/2607.20207"
 authors: ["Yang Xu", "Gurpreet Singh Mukker", "Raymond Wang", "Jasper Gerigk", "Maria Attarian", "Igor Gilitschenski"]
 date: "2026-07-21T20:00:00.000Z"
-score: 71
+score: 75
 guid: "2607.20207"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2607.20207.png"
-generated: "2026-07-25T21:42:33+05:30"
+generated: "2026-07-26T22:35:53+05:30"
 ---
 
 Practical robotic grasping in complex scenes requires both 3D spatial reasoning and alignment with task-specific requirements. Vision-language models (VLMs) offer a natural way to specify these requirements using language, but existing approaches either use a VLM to predict the grasp directly with limited spatial awareness, or train the VLM together with the grasping model, which requires significantly more data and compute. These limitations impede performance and have prevented scaling to multiple embodiments in complex scenes. We address this by proposing SeededGrasp, a novel data-efficient framework that enables a VLM to predict a seed point to be used as conditioning for a subsequent lightweight grasp-generation model. Our architecture decouples high-level semantic reasoning from low-level geometric execution, enabling multi-embodiment support while bypassing the need for expensive end-to-end training. To enable training such models, we release the first multi-embodiment tabletop grasping dataset comprising over 2.5M grasps in cluttered scenes. Experimental results demonstrate that our approach outperforms existing baselines, achieving 72% success in simulation and 78% in real-world grasping experiments. See our project site for data and code: https://uoft-isl.github.io/seeded-grasp/

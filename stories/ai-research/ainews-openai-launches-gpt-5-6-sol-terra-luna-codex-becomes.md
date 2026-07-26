@@ -8,7 +8,7 @@ date: "Fri, 10 Jul 2026 06:19:40 GMT"
 score: 80
 guid: "https://www.latent.space/p/ainews-openai-launches-gpt-56-solterraluna"
 image: ""
-generated: "2026-07-25T21:42:33+05:30"
+generated: "2026-07-26T22:35:53+05:30"
 ---
 
-OpenAI launched GPT 5.6 with three new model sizes—Sol, Terra, and Luna—and an "ultra" reasoning level coordinating four agents in parallel. Terra performs above Fable 5; Luna outperforms Opus 4.8—each using approximately one-third the time, half the output tokens, and one-quarter the estimated cost. The models achieve state-of-the-art on Terminal-Bench 2.1 and DeepSWE complex command-line benchmarks. Meta concurrently released Muse Spark 1.1 in its Model API, signaling confidence for broad third-party testing and integration.
+OpenAI launched GPT 5.6 in three size variants—Sol, Terra, and Luna—representing sun, earth, and moon scales. The new ultra reasoning mode coordinates four agents in parallel for complex multi-step tasks. Terra performs above Fable 5 while Luna surpasses Opus 4.8, achieving these results in roughly one-third the time, consuming half the output tokens, and costing approximately one-quarter the price. The model achieves state-of-the-art results on Terminal-Bench 2.1 and DeepSWE benchmarks. This advancement demonstrates significant efficiency gains in frontier AI, delivering superior performance while reducing latency and cost—a departure from the previous trend of scaling requiring proportionally higher costs.

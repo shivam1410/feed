@@ -5,10 +5,10 @@ source: "Simon Willison"
 url: "https://simonwillison.net/2026/Jul/21/sighting-383713864/#atom-everything"
 authors: []
 date: "2026-07-21T19:51:03+00:00"
-score: 10
+score: 35
 guid: "https://simonwillison.net/2026/Jul/21/sighting-383713864/#atom-everything"
 image: ""
-generated: "2026-07-24T19:06:17+05:30"
+generated: "2026-07-26T22:35:53+05:30"
 ---
 
-California Sea Lion, in San Francisco County, US, CA We took some visiting family to Pier 39 to see the sea lions. They're somehow always even more fun than I remember them being last time. Tags: san-francisco , wildlife
+A brief personal note documenting a visit to Pier 39 in San Francisco to observe California sea lions. Willison's primary observation: the sea lions prove consistently more entertaining in person than memory suggests, maintaining their appeal across repeated visits.

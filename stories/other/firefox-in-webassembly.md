@@ -5,10 +5,10 @@ source: "Simon Willison"
 url: "https://simonwillison.net/2026/Jul/16/firefox-in-webassembly/#atom-everything"
 authors: []
 date: "2026-07-16T23:34:16+00:00"
-score: ""
+score: 50
 guid: "https://simonwillison.net/2026/Jul/16/firefox-in-webassembly/#atom-everything"
 image: ""
-generated: "2026-07-19T19:52:10+05:30"
+generated: "2026-07-26T22:35:53+05:30"
 ---
 
-Firefox in WebAssembly This is absurdly cool: Puter compiled Firefox to WebAssembly such that the whole browser runs in another browser. Here's my blog, running in Firefox, running in WebAssembly, running in Chrome: They chose Firefox/Gecko because it has strong single-process support. The project used an estimated $25,000 worth of Claude Opus and Fable tokens, but took advantage of a Claude Max subscription plan so cost much less in actual dollars. The demo funnels all traffic over a WebSocket protocol (using the Wisp protocol ) through Puter's server - a requirement to get this kind of thing to work because code running in browsers can't open arbitrary network connections. (That proxying sounds expensive! The team had to scale the servers up to handle the traffic during the Hacker News conversation about the project.) Puter claim this supports end-to-end encryption and that looks to be true - I inspected the WebSocket messages and traffic to my own HTTPS site was encrypted whereas requests and responses to http://www.example.com/ were in cleartext. Here's the repo for firefox-wasm . theogbob/WebkitWasm is a similar project that compiles WebKit to WASM, but that one doesn't currently have an accessible online demo. Via Hacker News Tags: browsers , firefox , ai , webassembly , generative-ai , llms , ai-assisted-programming , claude , claude-mythos-fable
+Puter compiled Firefox/Gecko to WebAssembly, enabling the full browser to run inside another browser—a technically complex feat accomplished using approximately $25,000 worth of Claude Opus and Fable API tokens, though actual spending was substantially less via a Claude Max subscription. Gecko was selected for strong single-process architecture. All traffic is proxied through Puter's servers via Wisp protocol over WebSocket (browser code cannot open arbitrary network connections). The project supports end-to-end encryption for HTTPS traffic while routing HTTP cleartext through the proxy. This achievement demonstrates modern AI's capability in assisting complex systems programming and challenges conventional assumptions about browser isolation and platform boundaries.

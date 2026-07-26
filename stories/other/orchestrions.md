@@ -5,10 +5,10 @@ source: "Simon Willison"
 url: "https://simonwillison.net/2026/Jul/22/all-the-orchestrions/#atom-everything"
 authors: []
 date: "2026-07-22T14:48:52+00:00"
-score: 5
+score: 15
 guid: "https://simonwillison.net/2026/Jul/22/all-the-orchestrions/#atom-everything"
 image: ""
-generated: "2026-07-24T19:06:17+05:30"
+generated: "2026-07-26T22:35:53+05:30"
 ---
 
-Musée Mécanique in San Francisco displays Orchestrions—self-playing mechanical violins—that can be fully activated by a single visitor for approximately $15 ($10 in quarters and a $5 bill). Because most visitors distribute their money inefficiently across individual exhibits rather than maximizing their musical selection, a visitor who invests this full amount will likely be the only person activating all machines simultaneously, thereby gaining sole control of the museum's entire soundscape. This economic quirk creates an unusual opportunity: for a modest investment of just fifteen dollars, you transform a typically passive museum visit into an immersive and interactive musical experience where you conduct the mechanical orchestra throughout the entire space.
+San Francisco tip: it only costs around $15 ($10 in quarters plus a $5 bill for the self-playing violin) to activate every single Orchestrion in Musée Mécanique . And because most people are bad at allocating their funds you may well be the ONLY person activating the Orchestrions, which means you get to craft the soundscape for the entire museum. Tags: san-francisco

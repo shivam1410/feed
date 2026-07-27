@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/d41586-026-02256-3"
 authors: ["M. E. Garber"]
 date: "2026-07-22"
-score: 38
+score: 25
 guid: "10.1038/d41586-026-02256-3"
 image: ""
-generated: "2026-07-25T21:42:33+05:30"
+generated: "2026-07-27T19:07:27+05:30"
 ---
 
 Stars in our eyes.

@@ -5,10 +5,10 @@ source: "HF Trending Papers"
 url: "https://huggingface.co/papers/2607.21485"
 authors: ["Hyunmin Cho", "Jaejun Yoo", "Kyong Hwan Jin"]
 date: "2026-07-22T20:00:00.000Z"
-score: 65
+score: 76
 guid: "2607.21485"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2607.21485.png"
-generated: "2026-07-26T22:35:53+05:30"
+generated: "2026-07-27T19:07:27+05:30"
 ---
 
-We study sinusoidal recurrence as an iterative mechanism for harmonic spectral enrichment in implicit neural representations (INRs). Our analysis reveals that sinusoidal activations induce a harmonic line spectrum, providing a spectral account of how recurrent unrolling enriches the effective spectral support. We realize this principle with a shared sinusoidal block that iteratively refines the latent representation. We empirically validate the resulting spectral behavior against feed-forward INRs, non-sinusoidal recurrent variants, and equilibrium-style sinusoidal models. Complementing this analysis, we evaluate the proposed architecture across image and 3D representation tasks. On RGB image benchmarks, our method achieves higher fidelity than feed-forward baselines with fewer parameters and fewer optimization steps, and it further transfers favorably to super-resolution, NeRF, and SDF tasks.
+Recurrent Sinusoidal INRs iteratively refine implicit neural representations through harmonic spectral enrichment. A shared sinusoidal block unrolls recurrently to enrich spectral support compared to feed-forward architectures. On image benchmarks, the method achieves higher fidelity than feed-forward baselines using fewer parameters and optimization steps. Results transfer favorably to super-resolution, NeRF, and signed distance functions across image and 3D domains. This matters because more parameter-efficient representations enable faster synthesis without sacrificing quality across multiple high-fidelity application domains.

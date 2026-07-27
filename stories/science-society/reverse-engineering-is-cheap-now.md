@@ -5,10 +5,10 @@ source: "Simon Willison"
 url: "https://simonwillison.net/2026/Jul/20/cheap-reverse-engineering/#atom-everything"
 authors: []
 date: "2026-07-20T19:24:05+00:00"
-score: 68
+score: 58
 guid: "https://simonwillison.net/2026/Jul/20/cheap-reverse-engineering/#atom-everything"
 image: ""
-generated: "2026-07-26T22:35:53+05:30"
+generated: "2026-07-27T19:07:27+05:30"
 ---
 
 I keep hearing anecdotes from people who used coding agents to reverse-engineer and automate devices in their homes. I think this is an interesting illustration of the impact of the reduced cost of writing code. Prior to agents, it was entirely possible to reverse-engineer home devices. The problem was the ROI - was it really worth all of that effort? More importantly, any experienced programmer knows that undocumented, unstable APIs like that may well change or break in the future. Is that initial work worth the effort if you're committing yourself to a frustrating cycle of maintenance in the future? Coding agents change that equation entirely. The effort to get a simple automation working has dropped, as has the cost of trying and failing to get it to work. Since the code is so cheap, the idea of having to maintain it in the future - or throw it away and start again - carries way less psychological baggage. Tags: reverse-engineering , coding-agents , ai-assisted-programming , generative-ai , ai , llms

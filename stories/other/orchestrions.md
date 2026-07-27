@@ -5,10 +5,10 @@ source: "Simon Willison"
 url: "https://simonwillison.net/2026/Jul/22/all-the-orchestrions/#atom-everything"
 authors: []
 date: "2026-07-22T14:48:52+00:00"
-score: 15
+score: 12
 guid: "https://simonwillison.net/2026/Jul/22/all-the-orchestrions/#atom-everything"
 image: ""
-generated: "2026-07-26T22:35:53+05:30"
+generated: "2026-07-27T19:07:27+05:30"
 ---
 
 San Francisco tip: it only costs around $15 ($10 in quarters plus a $5 bill for the self-playing violin) to activate every single Orchestrion in Musée Mécanique . And because most people are bad at allocating their funds you may well be the ONLY person activating the Orchestrions, which means you get to craft the soundscape for the entire museum. Tags: san-francisco

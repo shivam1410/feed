@@ -8,7 +8,7 @@ date: "2026-07-22"
 score: 80
 guid: "10.1038/s41586-026-10820-0"
 image: ""
-generated: "2026-07-24T19:06:17+05:30"
+generated: "2026-07-27T19:07:27+05:30"
 ---
 
-Scientists established a workflow combining artificial intelligence with directed protein evolution to engineer enzymes with substantially improved properties compared to enzymes evolved from natural starting sequences. Rather than iteratively improving natural proteins through traditional evolution, researchers used AI to redesign starting templates before subjecting them to directed evolution, yielding superior final enzymes. AI-guided protein design identifies structural features and sequences that natural evolution bypassed, providing trajectories to better outcomes. This methodology demonstrates how machine learning accelerates enzyme engineering by expanding sequence space accessible to directed evolution, promising improvements in biofuel production, drug synthesis, and industrial biocatalysis.
+A workflow has been established using artificial intelligence to redesign starting proteins for directed enzyme evolution. Rather than evolving enzymes from naturally occurring wild-type proteins, researchers used AI-designed proteins as starting points, resulting in evolved enzymes with substantially improved functional properties compared to those evolved from natural proteins. This approach demonstrates that computationally optimized scaffolds can outperform natural proteins as evolutionary starting materials. By combining machine learning-based protein design with directed evolution techniques, this strategy enables rapid development of enzymes with significantly enhanced function and properties, potentially accelerating biotechnological and therapeutic applications.

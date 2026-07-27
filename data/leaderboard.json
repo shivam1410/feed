@@ -1,106 +1,106 @@
 {
-  "generatedAt": "2026-07-26T22:36:17+05:30",
+  "generatedAt": "2026-07-27T19:08:02+05:30",
   "source": "Hugging Face — trending models",
   "models": [
     {
       "id": "baidu/Unlimited-OCR",
       "task": "image-text-to-text",
-      "likes": 3178,
-      "downloads": 2593460,
+      "likes": 3276,
+      "downloads": 2645773,
       "library": "transformers",
       "createdAt": "2026-06-19T09:40:33.000Z",
       "url": "https://huggingface.co/baidu/Unlimited-OCR",
-      "summary": "Vision-language model for multilingual OCR and long-horizon document parsing with one-shot capability."
+      "summary": "Unlimited-OCR is a multilingual vision-language model for optical character recognition and document parsing with long-context capabilities."
     },
     {
       "id": "poolside/Laguna-S-2.1",
       "task": "text-generation",
-      "likes": 687,
-      "downloads": 56445,
+      "likes": 727,
+      "downloads": 63605,
       "library": "transformers",
       "createdAt": "2026-07-13T13:58:35.000Z",
       "url": "https://huggingface.co/poolside/Laguna-S-2.1",
-      "summary": "118B MoE model with 8B active tokens, 1M context, designed for agentic coding and long-horizon work."
-    },
-    {
-      "id": "upstage/Solar-Open2-250B",
-      "task": "text-generation",
-      "likes": 585,
-      "downloads": 3305,
-      "library": "transformers",
-      "createdAt": "2026-07-22T02:40:42.000Z",
-      "url": "https://huggingface.co/upstage/Solar-Open2-250B",
-      "summary": "250B MoE (15B active tokens) with 1M context and hybrid linear-attention architecture for agentic workflows."
+      "summary": "Laguna S 2.1 is a 118B-parameter MoE model with 8B activated parameters designed for agentic coding and long-context reasoning tasks."
     },
     {
       "id": "DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
       "task": "image-text-to-text",
-      "likes": 602,
-      "downloads": 552026,
+      "likes": 697,
+      "downloads": 634146,
       "library": null,
       "createdAt": "2026-07-17T00:27:17.000Z",
       "url": "https://huggingface.co/DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
-      "summary": "Fine-tuned 27B model with enhanced reasoning and coding performance exceeding base Qwen3.6 benchmarks."
+      "summary": "Qwen3.6-27B-Fable-Fusion is a fine-tuned model optimized for consumer hardware with enhanced reasoning and problem-solving across general and coding tasks."
+    },
+    {
+      "id": "upstage/Solar-Open2-250B",
+      "task": "text-generation",
+      "likes": 621,
+      "downloads": 3761,
+      "library": "transformers",
+      "createdAt": "2026-07-22T02:40:42.000Z",
+      "url": "https://huggingface.co/upstage/Solar-Open2-250B",
+      "summary": "Solar Open 2 is a 250B-parameter MoE model activating 15B tokens per token, designed for agentic workflows with 1M-token context."
     },
     {
       "id": "Nanbeige/Nanbeige4.2-3B",
       "task": "text-generation",
-      "likes": 434,
-      "downloads": 14049,
+      "likes": 471,
+      "downloads": 16518,
       "library": "transformers",
       "createdAt": "2026-07-21T08:39:03.000Z",
       "url": "https://huggingface.co/Nanbeige/Nanbeige4.2-3B",
-      "summary": "Compact 3B agentic model with looped transformer for code and general-purpose agent tasks."
-    },
-    {
-      "id": "thinkingmachines/Inkling",
-      "task": "image-text-to-text",
-      "likes": 1577,
-      "downloads": 34511,
-      "library": "transformers",
-      "createdAt": "2026-07-14T13:23:14.000Z",
-      "url": "https://huggingface.co/thinkingmachines/Inkling",
-      "summary": "Multimodal MoE model accepting text, image, and audio inputs for agentic and tool-use systems."
+      "summary": "Nanbeige4.2-3B is a compact 3B-parameter model with looped transformer architecture for agentic, reasoning, and code-agent tasks."
     },
     {
       "id": "microsoft/Mage-Flow",
       "task": "text-to-image",
-      "likes": 322,
-      "downloads": 1375,
+      "likes": 367,
+      "downloads": 1691,
       "library": "diffusers",
       "createdAt": "2026-07-21T10:57:40.000Z",
       "url": "https://huggingface.co/microsoft/Mage-Flow",
-      "summary": "4B native-resolution generative model for efficient text-to-image generation and instruction-based editing."
+      "summary": "Mage-Flow is a 4B-parameter text-to-image generation and editing model with efficient native-resolution diffusion and instruction-based editing capabilities."
+    },
+    {
+      "id": "thinkingmachines/Inkling",
+      "task": "image-text-to-text",
+      "likes": 1590,
+      "downloads": 36196,
+      "library": "transformers",
+      "createdAt": "2026-07-14T13:23:14.000Z",
+      "url": "https://huggingface.co/thinkingmachines/Inkling",
+      "summary": "Inkling is a 66-layer multimodal MoE model accepting text, image, and audio inputs for conversational and agentic applications."
     },
     {
       "id": "zai-org/GLM-5.2",
       "task": "text-generation",
-      "likes": 4464,
-      "downloads": 827191,
+      "likes": 4507,
+      "downloads": 1003547,
       "library": "transformers",
       "createdAt": "2026-06-16T07:39:20.000Z",
       "url": "https://huggingface.co/zai-org/GLM-5.2",
-      "summary": "Long-horizon text generation with solid 1M-token context and flexible coding effort levels."
+      "summary": "GLM-5.2 is a language model with 1M-token context, advanced coding capabilities with variable reasoning effort, and improved sparse-attention architecture."
+    },
+    {
+      "id": "Kwaipilot/KAT-Coder-V2.5-Dev",
+      "task": "text-generation",
+      "likes": 221,
+      "downloads": 5312,
+      "library": "transformers",
+      "createdAt": "2026-07-23T09:54:08.000Z",
+      "url": "https://huggingface.co/Kwaipilot/KAT-Coder-V2.5-Dev",
+      "summary": "KAT-Coder-V2.5-Dev is a 35B-parameter MoE model with 3B activated for specialized agentic coding and reasoning tasks."
     },
     {
       "id": "prism-ml/Ternary-Bonsai-27B-gguf",
       "task": "text-generation",
-      "likes": 1045,
-      "downloads": 631970,
+      "likes": 1059,
+      "downloads": 648938,
       "library": "llama.cpp",
       "createdAt": "2026-07-04T00:24:01.000Z",
       "url": "https://huggingface.co/prism-ml/Ternary-Bonsai-27B-gguf",
-      "summary": "Ternary 2-bit quantized 27B model in ~7.2GB footprint for on-device reasoning with llama.cpp."
-    },
-    {
-      "id": "unsloth/Laguna-S-2.1-GGUF",
-      "task": "text-generation",
-      "likes": 194,
-      "downloads": 102684,
-      "library": "transformers",
-      "createdAt": "2026-07-21T23:30:21.000Z",
-      "url": "https://huggingface.co/unsloth/Laguna-S-2.1-GGUF",
-      "summary": "GGUF quantized Laguna-S-2.1 (118B MoE, 8B active) for efficient llama.cpp local deployment."
+      "summary": "Ternary Bonsai 27B is a ternary-quantized language model retaining 95% of full-precision intelligence while fitting in ~7.2GB for on-device deployment."
     }
   ]
 }

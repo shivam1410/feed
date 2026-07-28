@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/d41586-026-02268-z"
 authors: ["Heidi Ledford"]
 date: "2026-07-24"
-score: 78
+score: 80
 guid: "10.1038/d41586-026-02268-z"
 image: ""
-generated: "2026-07-27T19:07:27+05:30"
+generated: "2026-07-28T19:07:22+05:30"
 ---
 
-CRISPR enzyme kills cancer cells precisely. A novel CRISPR protein destroys cancer cell DNA selectively. Early tests show it targets cells with tumor-causing mutations. This could enable cancer treatment that kills malignant cells while sparing healthy tissue—a major advance in cancer therapy offering fewer side effects and better outcomes.
+A CRISPR-derived enzyme can destroy cancer cells by fragmenting their DNA, with early tests showing promise. Unlike traditional CRISPR gene-editing, this enzyme functions as a molecular weapon, directly damaging DNA rather than precisely editing sequences. The protein targets cells carrying specific tumor-causing mutations, enabling selective destruction of cancer cells while sparing healthy tissue. This represents a novel CRISPR application for mutation-driven cancers.

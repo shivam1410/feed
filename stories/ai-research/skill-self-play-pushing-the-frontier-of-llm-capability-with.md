@@ -8,7 +8,7 @@ date: "2026-07-23T20:00:00.000Z"
 score: 80
 guid: "2607.22529"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2607.22529.png"
-generated: "2026-07-27T19:07:27+05:30"
+generated: "2026-07-28T19:07:22+05:30"
 ---
 
-Skill Self-Play (Skill-SP) introduces a self-evolutionary framework where LLM capabilities improve through interaction with dynamically co-evolving skills. The system features a proposer generating tasks, a solver exploring solutions, and a skill controller managing an expanding library—orchestrated via reinforcement learning. This approach reconciles task diversity with verification reliability by using skills as scaffolding for both exploration and grounded feedback. Evaluated on tool-use and reasoning benchmarks, Skill-SP demonstrates consistent capability improvements. This matters because LLMs need reliable self-improvement mechanisms.
+Skill Self-Play (Skill-SP) reconciles task diversity and verification reliability through dynamic skill-based routing. The system comprises proposer (generating skill-conditioned tasks), solver (exploring solutions), and skill controller (collecting feedback). Components co-evolve in a continuous reinforcement learning loop: proposer generates challenging tasks, solver pushes boundaries, skill controller updates and expands the library. This interactive co-evolution bridges structured verification and open-ended exploration. Empirical evaluations on tool-use and reasoning benchmarks demonstrate Skill-SP consistently pushes performance ceiling of competent baseline models while maintaining verification reliability through skill-scoped execution feedback.

@@ -8,7 +8,7 @@ date: "2026-07-23"
 score: 60
 guid: "10.1038/d41586-026-02169-1"
 image: ""
-generated: "2026-07-24T19:06:17+05:30"
+generated: "2026-07-28T19:07:22+05:30"
 ---
 
 Two of the four are the first Chinese-born winners of the prize since 1982.

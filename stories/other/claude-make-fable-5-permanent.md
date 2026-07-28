@@ -5,10 +5,10 @@ source: "Simon Willison"
 url: "https://simonwillison.net/2026/Jul/18/claude-make-fable-5-permanent/#atom-everything"
 authors: []
 date: "2026-07-18T06:00:13+00:00"
-score: ""
+score: 35
 guid: "https://simonwillison.net/2026/Jul/18/claude-make-fable-5-permanent/#atom-everything"
 image: ""
-generated: "2026-07-19T19:52:10+05:30"
+generated: "2026-07-28T19:07:22+05:30"
 ---
 
-Claude make Fable 5 permanent An update from the @claudeai account on Twitter: Beginning July 20, Claude Fable 5 will be included in all Max and Team Premium plans, at 50% of limits. Pro and Team Standard users will continue to have access to Fable via usage credits, and will receive a one-time $100 credit. As I was saying last week , the competition from GPT-5.6 Sol (and maybe to a lesser extent Kimi 3 ) made untenable Anthropic's plan to remove Fable 5 from their subscription accounts and make it available exclusively through API pricing. Why pay $100 or $200/month for a subscription plan that doesn't include Anthropic's best model? Their original plan was driven by concerns over compute capacity. I wonder if they'll have to dial back their training efforts in order to make more GPUs available to help serve the model. A lot of people were losing sleep over trying to make the most of Fable 5 before subscriber access was withdrawn. It's nice not to have to worry about the Fablepocalypse any more. Update : Important to note that users on the $20/month plan will still not have access to Fable 5 on that subscription. The Max plans are $100 and $200/month. Tags: ai , generative-ai , llms , anthropic , claude , llm-pricing , claude-mythos-fable
+Anthropic has reversed its previously announced plan to remove Fable 5 from subscription plans, instead making it permanent in Max and Team Premium tiers starting July 20 at fifty percent of standard API limits. Pro and Team Standard subscribers receive a one-time $100 credit alongside continued access via usage-based credits. Notably, the $20 monthly plan will not include Fable 5 access. Competition from GPT-5.6 Sol and Kimi 3 made Anthropic's original removal strategy economically untenable—customers paying $100-200 monthly for subscriptions that excluded Anthropic's best-performing model faced strong incentives to switch. This decision demonstrates how intense model competition directly pressures companies to revise pricing and feature availability.

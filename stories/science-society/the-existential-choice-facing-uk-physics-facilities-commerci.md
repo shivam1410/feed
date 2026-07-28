@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/d41586-026-02171-7"
 authors: ["Elizabeth Gibney"]
 date: "2026-07-27"
-score: 55
+score: 60
 guid: "10.1038/d41586-026-02171-7"
 image: ""
-generated: "2026-07-27T19:07:27+05:30"
+generated: "2026-07-28T19:07:22+05:30"
 ---
 
 The national synchrotron source, a laser facility and a particle accelerator are under threat of closure unless cash is found.

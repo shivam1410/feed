@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/d41586-026-02299-6"
 authors: ["Benjamin Thompson", "Nick Petrić Howe"]
 date: "2026-07-22"
-score: 70
+score: 75
 guid: "10.1038/d41586-026-02299-6"
 image: ""
-generated: "2026-07-27T19:07:27+05:30"
+generated: "2026-07-28T19:07:22+05:30"
 ---
 
-Jupiter-mass object challenges moon definition. A Jupiter-sized object orbiting a distant exoplanet challenges how astronomers define moons, potentially enabling detection of true exomoons. Scientists also identified a rare transmissible cancer in wild catfish populations.
+Discovery of a massive Jupiter-mass object orbiting a distant exoplanet has reignited scientific debate about defining moons, challenging traditional classification boundaries. This finding suggests exomoons—natural satellites around distant planets—may be detectable, opening new research avenues. Researchers are formalizing moon classification criteria considering mass, composition, and gravitational dynamics. Additionally, a rare transmissible cancer has been identified in catfish populations, expanding understanding of inter-organism cancer transmission.

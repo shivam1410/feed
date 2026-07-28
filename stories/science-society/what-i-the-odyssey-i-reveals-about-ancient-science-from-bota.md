@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/d41586-026-02275-0"
 authors: ["Jo Marchant"]
 date: "2026-07-23"
-score: 45
+score: 50
 guid: "10.1038/d41586-026-02275-0"
 image: ""
-generated: "2026-07-25T21:42:33+05:30"
+generated: "2026-07-28T19:07:22+05:30"
 ---
 
 From intelligent ships to clues about eclipses, Homer’s The Odyssey reveals how Bronze Age Greeks understood the world.

@@ -8,7 +8,7 @@ date: "2026-07-22"
 score: 85
 guid: "10.1038/s41586-026-10794-z"
 image: ""
-generated: "2026-07-25T21:42:33+05:30"
+generated: "2026-07-28T19:07:22+05:30"
 ---
 
-ContactSeek, an artificial intelligence model driven by AlphaFold3, enhances the precision of genome-editing tools by computationally predicting molecular contacts within DNA-editing enzyme complexes. The model leverages AlphaFold3's protein structure prediction capabilities to improve base-editing accuracy and specificity. More precise editing significantly reduces off-target mutations that cause unintended genetic changes—a major safety challenge limiting therapeutic genome editing applications. ContactSeek's detailed insights into the three-dimensional spatial arrangement of editing enzymes and their DNA targets enable researchers to rationally design enzyme variants with improved selectivity. This computational approach represents a key advancement toward developing safer, more reliable gene therapies for treating genetic diseases and advancing research applications in genetic engineering.
+ContactSeek, a new computational tool, leverages AlphaFold3 protein structure prediction to improve precision of genome-editing tools. By using AlphaFold3-based contact modelling to understand protein interactions and dynamics, the approach enhances accuracy of DNA base editors that make single-letter genetic changes. This integration of structural prediction with genome-editing design reduces off-target effects and makes genetic modifications more precise.

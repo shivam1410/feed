@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/d41586-026-02024-3"
 authors: ["Virginia Gewin"]
 date: "2026-07-23"
-score: 55
+score: 45
 guid: "10.1038/d41586-026-02024-3"
 image: ""
-generated: "2026-07-28T19:07:22+05:30"
+generated: "2026-07-29T16:31:06+05:30"
 ---
 
 Researchers share their views on the US health policy spanning topics from vaccines to nutrition.

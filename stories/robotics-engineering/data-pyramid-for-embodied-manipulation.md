@@ -8,7 +8,7 @@ date: "2026-07-26T20:00:00.000Z"
 score: 75
 guid: "2607.24744"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2607.24744.png"
-generated: "2026-07-28T19:07:22+05:30"
+generated: "2026-07-29T16:31:06+05:30"
 ---
 
-This work organizes embodied AI data as a pyramid spanning five sources: real-robot, UMI-style, egocentric/exocentric, simulation, and vision-language data. The framework characterizes each by data quality, diversity, reusability, and physical fidelity, organizing around scalability-versus-robot-alignment tension. Analysis of recent embodied foundation models reveals how sources are selected, aligned, and mixed during pretraining, correlating composition with capabilities in perception, reasoning, planning, action generation, and world prediction. Six open challenges emerge: building large-scale tactile datasets, collecting failure-recovery data, developing scalable pipelines, aligning actions across embodiments, leveraging egocentric data for dexterous manipulation, and designing principled data recipes for robot learning.
+Embodied learning requires data coupling observations, physical states, and actions—a challenge absent from internet-trained vision-language models. This work organizes the embodied data ecosystem as a five-level pyramid: real-robot data, UMI-style data, egocentric and exocentric data, simulation, and general vision-language data. Analysis of recent embodied foundation models shows how data composition—balancing scalability against robot alignment—correlates with capabilities in perception, reasoning, planning, action generation, and world prediction. Six open challenges include building tactile datasets and scalable collection pipelines.

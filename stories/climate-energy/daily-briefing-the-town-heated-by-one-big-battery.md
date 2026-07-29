@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/d41586-026-02355-1"
 authors: ["Flora Graham"]
 date: "2026-07-27"
-score: 70
+score: 55
 guid: "10.1038/d41586-026-02355-1"
 image: ""
-generated: "2026-07-28T19:07:22+05:30"
+generated: "2026-07-29T16:31:06+05:30"
 ---
 
-Pornainen, Finland, is heated by an innovative sand battery system that stores thermal energy for up to a week during winter, offering a practical demonstration of renewable energy storage at community scale. The system captures excess renewable energy in sand and releases heat as needed, reducing dependence on conventional fuels. UK physics facilities face funding pressures, and MAHA health claims are under scientific scrutiny.
+A sand battery can keep Pornainen, Finland, toasty for up to a week in winter. Plus, UK physics facilities face a funding threat and examine MAHA health claims under the microscope.

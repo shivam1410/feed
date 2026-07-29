@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/s41586-026-10833-9"
 authors: ["Xian Shu", "Rui Wang", "Xufei Zhou", "Feiyue Cheng", "Jiayue Ma", "Zhihua Li", "Xin Li", "Tuozhan Wu", "Aici Wu", "Qiong Xue", "Chao Liu", "Huiwei Zhao", "Xifeng Cao", "Lin Wang", "Shouyue Zhang", "Yan Zhang", "Ming Li"]
 date: "2026-07-22"
-score: 80
+score: 70
 guid: "10.1038/s41586-026-10833-9"
 image: ""
-generated: "2026-07-28T19:07:22+05:30"
+generated: "2026-07-29T16:31:06+05:30"
 ---
 
-CRISPR–Cas systems regulate diverse bacterial antiviral defences by transcriptionally controlling their expression using RNA-like guides. The system balances antiviral protection against fitness costs and hyperactivates defences when bacteria are compromised. This reveals bacteria deploy a sophisticated, layered immune network where CRISPR acts as a master regulator coordinating multiple innate defence pathways simultaneously, enabling cells to dynamically adjust antiviral responses to threats.
+CRISPR-Cas bacterial defense systems transcriptionally regulate diverse innate immune mechanisms using CRISPR RNA-like guides to balance antiviral protection against fitness costs. These systems hyperactivate defenses when bacteria are compromised, creating a layered 'immunity guard' network. The discovery reveals bacteria employ sophisticated regulation beyond simple on-off switches, instead fine-tuning defense responses dynamically based on threat level and metabolic state. This mechanism allows bacteria to coordinate multiple immune strategies efficiently, protecting against viruses while minimizing the metabolic burden of constant defense activation.

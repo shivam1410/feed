@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/d41586-026-02299-6"
 authors: ["Benjamin Thompson", "Nick Petrić Howe"]
 date: "2026-07-22"
-score: 75
+score: 70
 guid: "10.1038/d41586-026-02299-6"
 image: ""
-generated: "2026-07-28T19:07:22+05:30"
+generated: "2026-07-29T16:31:06+05:30"
 ---
 
-Discovery of a massive Jupiter-mass object orbiting a distant exoplanet has reignited scientific debate about defining moons, challenging traditional classification boundaries. This finding suggests exomoons—natural satellites around distant planets—may be detectable, opening new research avenues. Researchers are formalizing moon classification criteria considering mass, composition, and gravitational dynamics. Additionally, a rare transmissible cancer has been identified in catfish populations, expanding understanding of inter-organism cancer transmission.
+Astronomers discovered a distant Jupiter-mass object that could unlock detection of exomoons around distant planets, potentially advancing understanding of moon formation in other planetary systems. The finding may pave the way for discovering smaller companions orbiting extrasolar planets. Separately, researchers identified a rare transmissible cancer emerging in catfish populations. Together, these discoveries expand knowledge of extreme planetary systems and emerging wildlife diseases. While these announcements are brief, they highlight ongoing advances in detecting distant worlds and understanding new biological threats to animal populations.

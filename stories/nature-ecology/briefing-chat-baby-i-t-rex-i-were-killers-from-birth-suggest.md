@@ -8,7 +8,7 @@ date: "2026-07-24"
 score: 60
 guid: "10.1038/d41586-026-02338-2"
 image: ""
-generated: "2026-07-28T19:07:22+05:30"
+generated: "2026-07-29T16:31:06+05:30"
 ---
 
-New fossil discoveries suggest juvenile Tyrannosaurus rex were formidable predators from birth, equipped to hunt effectively despite smaller size, challenging assumptions about young dinosaur capabilities. Nature staff also discuss accomplishments of ancient Egyptian princesses and note London's emerging prominence as a global center for AI safety research. The briefing spans paleontology, ancient history, and contemporary technology policy.
+New fossil discoveries reveal that juvenile Tyrannosaurus rex were formidable and effective hunters from birth, according to research discussed by Nature staff. The discussion also covered ancient Egyptian princesses' documented capabilities and London's emergence as a global center for artificial intelligence safety research. The dinosaur discoveries provide insights into predatory behavior, development patterns, and hunting capabilities exhibited by young tyrannosaurs, challenging previous assumptions about early vulnerability and dependency in juvenile dinosaurs. These findings reshape understanding of dinosaur development and survival strategies in ancient ecosystems.

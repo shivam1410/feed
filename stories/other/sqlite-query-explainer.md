@@ -5,10 +5,10 @@ source: "Simon Willison"
 url: "https://simonwillison.net/2026/Jul/18/sqlite-query-explainer/#atom-everything"
 authors: []
 date: "2026-07-18T17:19:10+00:00"
-score: 40
+score: 30
 guid: "https://simonwillison.net/2026/Jul/18/sqlite-query-explainer/#atom-everything"
 image: ""
-generated: "2026-07-28T19:07:22+05:30"
+generated: "2026-07-29T16:31:06+05:30"
 ---
 
-An interactive SQLite query explanation tool has been built by Fable, directly inspired by Julia Evans' essay Learning about running SQLite, which highlighted her expressed desire to understand query execution plans better. The tool runs SQLite in Python via Pyodide and WebAssembly technology in the browser, automatically providing human-readable explanations for both EXPLAIN and EXPLAIN QUERY PLAN commands. This annotation layer translates SQLite's technical output into clearer descriptions, helping developers understand query performance implications. While the creator acknowledges uncertainty about complete verification, the tool appears functional and offers developers an accessible entry point for learning SQLite query optimization principles.
+Julia Evans expressed frustration understanding SQLite query plans; Simon Willison responded with an interactive browser-based explainer. The tool runs SQLite in Python inside Pyodide (Python compiled to WebAssembly), then annotates EXPLAIN and EXPLAIN QUERY PLAN output with plain-language explanations. It makes query optimization accessible without mastering cryptic plan notation. The tool's accuracy depends on its underlying model understanding, but results appear reasonable for learning purposes and help developers decode performance bottlenecks intuitively.

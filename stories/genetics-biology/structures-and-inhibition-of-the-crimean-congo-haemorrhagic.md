@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/s41586-026-10701-6"
 authors: ["Lu Xue", "Jiacheng Gui", "Hainei Pan", "Fan Wu", "Shenghua Gao", "Wenhua Kuang", "Tiancai Chang", "Zimu Li", "Binqian Zou", "Heyu Zhao", "Mei Li", "Min Zhou", "Hongyu Yuan", "Lijun Rong", "Peng Gong", "Jun He", "Zengqin Deng", "Manli Wang", "Peng Zhan", "Xinwen Chen", "Xiaoli Xiong"]
 date: "2026-07-22"
-score: 75
+score: 65
 guid: "10.1038/s41586-026-10701-6"
 image: ""
-generated: "2026-07-27T19:07:27+05:30"
+generated: "2026-07-29T16:31:06+05:30"
 ---
 
-Viral polymerase structure reveals drug targets. Structural studies of Crimean-Congo hemorrhagic fever virus polymerase reveal how the virus synthesizes RNA and identify druggable sites. These insights enable development of nucleoside and non-nucleoside antiviral drugs against this dangerous pathogen.
+Structural studies of Crimean–Congo haemorrhagic fever virus (CCHFV) polymerase reveal the structural basis of CCHFV RNA synthesis and highlight druggable sites for designing both nucleoside antivirals and non-nucleoside antivirals.

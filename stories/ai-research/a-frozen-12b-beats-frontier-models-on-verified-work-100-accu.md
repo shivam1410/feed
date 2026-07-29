@@ -5,10 +5,10 @@ source: "HF Trending Papers"
 url: "https://huggingface.co/papers/2607.23806"
 authors: ["Sietse Schelpe"]
 date: "2026-07-25T20:00:00.000Z"
-score: 85
+score: 80
 guid: "2607.23806"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2607.23806.png"
-generated: "2026-07-28T19:07:22+05:30"
+generated: "2026-07-29T16:31:06+05:30"
 ---
 
-Rather than retraining models continuously, researchers demonstrate that a frozen 12-billion-parameter model achieves 100% accuracy on solved problem families via a persistent memory of verified solutions. Across 180 fresh instances spanning nine families and four model architectures, each scored 180/180 at zero generation tokens per answer, deterministic and bit-exact. Memory lookup completes in 6-23 milliseconds; the verified store handles 6-million-token windows—exceeding vLLM's 30,399-token limit and SGLang's 32,000-token truncation. Approximate similarity retrieval selects wrong items 94.3% of time, while exact addressing makes zero errors. By storing only verification-passed solutions, the approach eliminates hallucinations while dramatically reducing inference cost, decoupling capability from parameter scaling.
+A frozen 12-billion-parameter model paired with a verified-solution memory answers fresh problem instances at 100% accuracy (180/180 across nine problem families) with zero generation tokens, bit-exact and deterministic. Once a problem family passes independent verification, every new instance is solved via exact memory retrieval in 6–23 milliseconds without retraining. This approach decouples execution-bound capability from parameter scaling: memory selection takes 1.4 microseconds, and the verified store handles six-million-token contexts where deployed systems cap at 30–32 thousand tokens.

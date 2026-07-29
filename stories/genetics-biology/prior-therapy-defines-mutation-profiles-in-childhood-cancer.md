@@ -8,7 +8,7 @@ date: "2026-07-22"
 score: 70
 guid: "10.1038/s41586-026-10803-1"
 image: ""
-generated: "2026-07-27T19:07:27+05:30"
+generated: "2026-07-29T16:31:06+05:30"
 ---
 
 Chemotherapy, particularly with platinum-based drugs, is associated with substantial, rapidly detectable mutagenesis in childhood cancers, tripling private signatures and doubling mutation burden, highlighting therapy-induced tumour evolution and opportunities for safer, de-escalated treatment.

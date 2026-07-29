@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/d41586-026-02332-8"
 authors: ["Dan Garisto", "Kaia Glickman"]
 date: "2026-07-24"
-score: 65
+score: 55
 guid: "10.1038/d41586-026-02332-8"
 image: ""
-generated: "2026-07-28T19:07:22+05:30"
+generated: "2026-07-29T16:31:06+05:30"
 ---
 
 Chief US science adviser calls for a shake-up in funding while handing out grants to accelerate research with AI.

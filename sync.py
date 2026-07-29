@@ -676,6 +676,13 @@ def git_publish() -> int:
             log("git: nothing to commit")
             return 0
         subprocess.run(["git", "commit", "-m", msg], cwd=HERE, check=True)
+        # Integrate any commits made on the remote (e.g. README edits via the web UI)
+        # so the push stays a fast-forward instead of failing "non-fast-forward".
+        pull = subprocess.run(["git", "pull", "--rebase", "origin", "main"], cwd=HERE)
+        if pull.returncode != 0:
+            subprocess.run(["git", "rebase", "--abort"], cwd=HERE)
+            log("git: remote diverged with conflicts — aborted rebase, skipping push")
+            return 1
         subprocess.run(["git", "push"], cwd=HERE, check=True)
         log("git: pushed")
         return 0

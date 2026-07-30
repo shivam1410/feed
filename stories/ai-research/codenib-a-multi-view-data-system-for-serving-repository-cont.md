@@ -5,10 +5,10 @@ source: "HF Trending Papers"
 url: "https://huggingface.co/papers/2607.25431"
 authors: ["Zhongming Yu", "Hengjia Yu", "Boqin Yuan", "Shuting Zhao", "Yizhao Chen", "Aryan Dokania", "Mihir Jagtap", "Jiayu Chang", "Yitong Ma", "Yash Jayswal", "Wentao Ni", "Hejia Zhang", "Zhaoling Chen", "Gangda Deng", "Jishen Zhao"]
 date: "2026-07-27T20:00:00.000Z"
-score: 65
+score: 55
 guid: "2607.25431"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2607.25431.png"
-generated: "2026-07-29T16:31:06+05:30"
+generated: "2026-07-30T19:07:10+05:30"
 ---
 
 Coding agents repeatedly search, navigate, and retain context from evolving repositories, but disconnected indexes, language servers, and task-local histories force repeated discovery and obscure lifecycle costs. CodeNib builds reusable lexical, dense, and structural views per repository commit, maps outputs to repository-relative source ranges, maintains selected views across edits, and serves ranked search, symbol navigation, and bounded context through one runtime.

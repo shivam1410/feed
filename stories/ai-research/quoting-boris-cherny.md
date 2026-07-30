@@ -8,7 +8,7 @@ date: "2026-07-25T00:42:59+00:00"
 score: 50
 guid: "https://simonwillison.net/2026/Jul/25/boris-cherny/#atom-everything"
 image: ""
-generated: "2026-07-29T16:31:06+05:30"
+generated: "2026-07-30T19:07:10+05:30"
 ---
 
 More than any of these eval scores, what is most exciting to me is something else: Opus 5 is our least prompt injectable model yet. It is a bit buried in the system card, but across PI evals and red teaming, Opus 5 is very hard to prompt inject successfully. — Boris Cherny , here's that System Card section , page 73 Tags: prompt-injection , anthropic , claude , generative-ai , ai , llms , boris-cherny

@@ -8,7 +8,7 @@ date: "2026-07-23T04:50:36+00:00"
 score: 30
 guid: "https://simonwillison.net/2026/Jul/23/seth-larson/#atom-everything"
 image: ""
-generated: "2026-07-28T19:07:22+05:30"
+generated: "2026-07-30T19:07:10+05:30"
 ---
 
-PyPI now rejects file uploads to releases older than 14 days, a policy designed to prevent poisoning of long-stable releases if publishing tokens or project workflows are compromised. According to PyPI maintainer Seth Larson, this attack vector has not yet been exploited, but the absence of technical barriers meant it was only a matter of time. The policy represents proactive supply-chain security. By restricting updates to aged releases, PyPI reduces the window during which attackers could successfully compromise widely-trusted package versions, protecting the Python ecosystem from downstream damage.
+Python's official package index (PyPI) now prevents new file uploads to any release older than 14 days in age. This protective policy blocks attackers who compromise publishing credentials or continuous integration workflows from retroactively poisoning well-established package versions that millions of developers rely on globally. According to the PyPI blog, the measure is preemptive and defensive: no confirmed attacks exploiting this vulnerability have occurred, but the attack surface existed unknown to maintainers, implying attackers may not have discovered this possible exploit path. The policy guards against an existential supply-chain threat—compromised credentials could enable poisoned legacy package versions deployed across millions of production systems.

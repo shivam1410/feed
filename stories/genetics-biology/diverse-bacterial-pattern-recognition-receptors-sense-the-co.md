@@ -8,7 +8,7 @@ date: "2026-07-29"
 score: 75
 guid: "10.1038/s41586-026-10852-6"
 image: ""
-generated: "2026-07-30T19:07:10+05:30"
+generated: "2026-07-31T19:06:14+05:30"
 ---
 
-Researchers systematically analyzed prokaryotic STAND NTPases—immune proteins related to those in animals and plants—and discovered diverse antiviral sensors detecting most core structural and replicative proteins of bacteriophages. STAND NTPases function as pattern recognition receptors in bacteria's immune system. This work reveals how bacteria recognize and respond to viral threats at the molecular level. Understanding these ancient immune mechanisms has implications for synthetic biology, biotechnology applications, and understanding evolutionary origins of immunity.
+Bacteria possess diverse immune sensors called STAND NTPases—relatives of animal and plant immune receptors—that recognize most core structural and replicative proteins of bacteriophages. Systematic analysis reveals bacteria employ multiple independent recognition strategies against viral infection, illuminating an ancient arms race between microbes and viruses. These findings illuminate natural antiviral defenses with potential for informing new antimicrobial strategies.

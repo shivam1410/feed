@@ -8,7 +8,7 @@ date: "2026-07-29"
 score: 75
 guid: "10.1038/s41586-026-10825-9"
 image: ""
-generated: "2026-07-30T19:07:10+05:30"
+generated: "2026-07-31T19:06:14+05:30"
 ---
 
 A plasmonic metamaterial driven at terahertz frequencies achieves strong, ultrafast temporal modulation and shows a transition to the photonic time crystal regime with reduced plasmonic losses.

@@ -1,0 +1,14 @@
+---
+title: "Voice Memory for Agentic Speech Recognition"
+category: "AI Research"
+source: "HF Trending Papers"
+url: "https://huggingface.co/papers/2607.26410"
+authors: ["Chao-Han Huck Yang", "Zih-Ching Chen", "Piotr Zelasko", "Zhehuai Chen", "Jagadeesh Balam", "Boris Ginsburg"]
+date: "2026-07-28T20:00:00.000Z"
+score: 70
+guid: "2607.26410"
+image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2607.26410.png"
+generated: "2026-07-31T19:06:14+05:30"
+---
+
+We present Voice Memory, a inference-only scheme for agentic speech recognition: at stream time, a frozen corrector reads a single per-domain memory.md and decides per utterance whether to act on the hypothesis or abstain and keep the 1-best. Asynchronously, a score-gated optimizer revises that file through bounded edits, accepting an edit only when it strictly improves a held-out score. Extended from classical ASR-LM framework, we refer this split the listener-thinker architecture; the two roles are coupled only through the memory, so no weights change and the learned skill stays auditable and portable. Restraint turns out to be the operative skill this loop discovers: unconstrained generative error correction (GER) over-corrects, breaking correct tokens on up to 64% of its edits on financial news, and Voice Memory, reduces this rate to 35%. Across ten HyPoradise domains with an open corrector, Voice Memory, lowers weighted word error rate from 8.36% to 7.52% (7.47% with three added in-context examples) without regressing any dataset below its 1-best baseline; gains concentrate where recoverable headroom is largest, including air-travel commands (8.40% to 3.40%) and noisy far-field speech (CHiME-4, 12.69% to 10.46%). The memory transfers across corrector families and adds zero parameters to the inference path. A demo and example code are provided for future studies.

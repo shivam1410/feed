@@ -8,7 +8,7 @@ date: "2026-07-29"
 score: 75
 guid: "10.1038/s41586-026-10868-y"
 image: ""
-generated: "2026-07-30T19:07:10+05:30"
+generated: "2026-07-31T19:06:14+05:30"
 ---
 
-Discovery of Eoceras shaanxiense from the early Cambrian period preserves septa (chamber walls) and a segmented tube resembling a primordial siphuncle—the anatomical structure cephalopods use for buoyancy regulation in chambered shells. This fossil extends the known origins of cephalopods and reveals early assembly of the sophisticated chambered shell system. Eoceras represents a transitional form showing how this elegant buoyancy control mechanism evolved in earliest cephalopods.
+Eoceras shaanxiense, newly identified from the early Cambrian period, preserves septa and a segmented tube resembling a primordial siphuncle—the structure cephalopods use to regulate buoyancy. This discovery extends cephalopod evolutionary origins further back and reveals how chambered shells and buoyancy control evolved early in the group, illuminating key cephalopod innovations during Cambrian diversification.

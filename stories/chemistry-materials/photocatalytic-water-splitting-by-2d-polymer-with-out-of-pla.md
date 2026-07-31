@@ -8,7 +8,7 @@ date: "2026-07-29"
 score: 75
 guid: "10.1038/s41586-026-10866-0"
 image: ""
-generated: "2026-07-30T19:07:10+05:30"
+generated: "2026-07-31T19:06:14+05:30"
 ---
 
-Scientists developed a photocatalytic strategy using polymeric carbon nitride crystals to induce out-of-plane carrier (electron and hole) migration through internal electric fields applied to facet-selective nanofilms. This increases the apparent quantum efficiency for overall water splitting, which produces hydrogen fuel from water and sunlight. Improving efficiency makes the process more practical for large-scale hydrogen production. Out-of-plane carrier transport reduces charge recombination, keeping electrons and holes separated longer.
+Researchers developed a new photocatalytic strategy using polymeric carbon nitride crystals to improve water splitting. The approach applies internal electric fields to facet-selective nanofilms placed on polymer photocatalysts, inducing out-of-plane carrier migration where charge carriers move perpendicular to material surfaces. This geometry increases apparent quantum efficiency for overall water splitting—the process of converting water into hydrogen and oxygen using light. Higher quantum efficiency means more photons successfully drive the reaction, producing hydrogen fuel. This advance addresses a critical need for scalable renewable energy and clean hydrogen production, making solar-driven water splitting more practical for real-world applications.

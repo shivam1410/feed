@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/d41586-026-01843-8"
 authors: ["Daniella Watson"]
 date: "2026-07-30"
-score: 45
+score: 30
 guid: "10.1038/d41586-026-01843-8"
 image: ""
-generated: "2026-07-30T19:07:10+05:30"
+generated: "2026-07-31T19:06:14+05:30"
 ---
 
 The career market is difficult to navigate — and academic achievements feel like they’re no longer enough, says Daniella Watson.

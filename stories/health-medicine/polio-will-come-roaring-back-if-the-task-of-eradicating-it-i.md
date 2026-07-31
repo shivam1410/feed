@@ -8,7 +8,7 @@ date: "2026-07-29"
 score: 70
 guid: "10.1038/d41586-026-02308-8"
 image: ""
-generated: "2026-07-30T19:07:10+05:30"
+generated: "2026-07-31T19:06:14+05:30"
 ---
 
 Eliminating polio is within reach — if countries see it as an essential public-health priority.

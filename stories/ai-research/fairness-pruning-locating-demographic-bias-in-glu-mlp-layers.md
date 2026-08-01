@@ -5,10 +5,10 @@ source: "HF Trending Papers"
 url: "https://huggingface.co/papers/2607.28319"
 authors: ["Pere Martra", "Eugenio Martínez Cámara", "Alfonso Ureña López"]
 date: "2026-07-29T20:00:00.000Z"
-score: 75
+score: 80
 guid: "2607.28319"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2607.28319.png"
-generated: "2026-07-31T19:06:14+05:30"
+generated: "2026-08-01T19:05:30+05:30"
 ---
 
-This work presents Fairness Pruning, a lightweight structural intervention method designed for the management and future mitigation of demographic bias in large language models (LLMs). As a foundational empirical validation of this method, this work focuses on causal bias localization. Using minimally contrastive prompt pairs and inference-time activation capture, the method identifies neurons that react differentially when processing demographic attributes in GLU architectures, evaluating the signal at the down_proj input. Empirical evaluation was conducted on models of up to 3 billion parameters (Llama-3.2 family and Salamandra-2B), combining standardized benchmark evaluation with qualitative text generation experiments. Results demonstrate that zeroing the identified neurons alters how the model responds to associated demographic variables. However, rather than producing flat mitigation, the intervention causes bidirectional bias destabilization: because BiasScore is unsigned, candidate sets mix neurons that push toward and against the stereotype, and the net effect on aggregate bias depends on which sign dominates. The intervention is extremely surgical: zeroing at most 40 neurons in Llama-3.2-1B (less than 0.031% of total MLP width) achieves a mean retention of 99.49% in reasoning and general knowledge capabilities. These findings empirically confirm that demographic bias processing and model capabilities operate on dissociable circuits, establishing the methodological foundations for transitioning from blind zeroing toward directional behavior modulation.
+Fairness Pruning locates and reduces demographic bias in large language models by zeroing specific neurons. Testing on Llama-3.2 and Salamandra-2B models (up to 3 billion parameters) showed zeroing fewer than 40 neurons (0.031% of network width) reduced demographic bias while retaining 99.49% of reasoning and knowledge capabilities. Results prove bias processing and model capabilities operate on separate neural circuits, enabling surgical bias intervention.

@@ -8,7 +8,7 @@ date: "2026-07-29T20:00:00.000Z"
 score: 80
 guid: "2607.28074"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2607.28074.png"
-generated: "2026-07-31T19:06:14+05:30"
+generated: "2026-08-01T19:05:30+05:30"
 ---
 
-Environment depth and co-evolution significantly boost agent training efficiency. On twelve synthetic environments, a 9B model improved from 36.5% to 67.1% accuracy across fourteen evaluation splits. Deep environments raised accuracy 5–17 points versus baseline; shallow ones degraded performance. Repairing individual environments during co-evolution loop lifted same-domain accuracy from 16.2% to 38.5%. Results show behavioral richness and environment improvement yield larger returns than environment quantity alone.
+Echoverse trains computer-use agents in synthetic environments with three key properties: behavioral depth, targeted interaction focus, and continuous co-evolution with the model. A 9-billion-parameter model improved from 36.5% to 67.1% accuracy across evaluation splits when trained on twelve such environments. Deep environments raised accuracy 5–17 points while shallow ones reduced it; repairing a single environment lifted performance from 16.2% to 38.5%, demonstrating environment quality drives capability.

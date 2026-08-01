@@ -5,10 +5,10 @@ source: "HF Trending Papers"
 url: "https://huggingface.co/papers/2607.24117"
 authors: ["Ali Zahid Raja"]
 date: "2026-07-26T20:00:00.000Z"
-score: 80
+score: 77
 guid: "2607.24117"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2607.24117.png"
-generated: "2026-07-31T19:06:14+05:30"
+generated: "2026-08-01T19:05:30+05:30"
 ---
 
 Modern multi-agent knowledge systems increasingly accumulate knowledge through chains of autonomous transformations rather than direct retrieval. Existing provenance work records what happened - execution traces, tool calls, evidence links - and source-reliability estimation is long established (truth discovery, reputation systems). What is missing is an operational framework that attaches graded, per-domain transmitter reliability to claim-level transmission chains, with completeness semantics, transformation-typed aggregation, decoupled content criticism, and serve/review/quarantine routing.

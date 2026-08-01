@@ -8,7 +8,7 @@ date: "2026-07-28T20:00:00.000Z"
 score: 80
 guid: "2607.26760"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2607.26760.png"
-generated: "2026-07-31T19:06:14+05:30"
+generated: "2026-08-01T19:05:30+05:30"
 ---
 
-Native memory built into foundation models replaces external memory modules with integrated state and attention mechanisms. Metis introduces persistent, dynamically evolving memory state within the backbone updated via gradient-free forward passes. Architecture enables end-to-end optimization and inference-time efficiency—all learned weights freeze while native memory states autonomously maintain task context. This approach combines advantages of implicit (parameter integration) and explicit (separate state) memory.
+Most language model agents implement memory externally, but Metis introduces memory foundation models with native, integrated memory capabilities. The architecture features persistent memory state within the backbone and memory attention mechanisms for information retrieval. Training employs memory-specific data and optimization objectives at mid-training scale. Inference requires no gradient updates—only forward passes—making online maintenance gradient-free. Metis provides advantages in architecture fit, end-to-end optimization, and efficiency. This prototype demonstrates foundation models can internalize memory as first-class architectural component rather than relegating it to external modules, opening new design directions for stateful language models.

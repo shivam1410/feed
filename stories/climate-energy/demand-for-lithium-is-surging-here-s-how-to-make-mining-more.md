@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/d41586-026-02195-z"
 authors: ["Mohana Basu"]
 date: "2026-07-30"
-score: 65
+score: 55
 guid: "10.1038/d41586-026-02195-z"
 image: ""
-generated: "2026-07-31T19:06:14+05:30"
+generated: "2026-08-01T19:05:30+05:30"
 ---
 
-As lithium demand surges for electric vehicle and renewable energy storage, researchers develop extraction methods from underground reservoirs requiring far less water than traditional evaporation-based mining. These techniques address environmental concerns about water depletion in arid regions where lithium deposits concentrate, making mining sustainable while meeting growing global demand for battery materials and clean energy infrastructure.
+Researchers are looking for ways to extract the metal from underground reservoirs that use less water.

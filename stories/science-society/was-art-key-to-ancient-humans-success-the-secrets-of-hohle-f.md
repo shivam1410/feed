@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/d41586-026-02359-x"
 authors: ["Dan Fox"]
 date: "2026-07-29"
-score: 65
+score: 50
 guid: "10.1038/d41586-026-02359-x"
 image: ""
-generated: "2026-07-31T19:06:14+05:30"
+generated: "2026-08-01T19:05:30+05:30"
 ---
 
 New discoveries at famous archeological site add to mystery of ancient human culture.

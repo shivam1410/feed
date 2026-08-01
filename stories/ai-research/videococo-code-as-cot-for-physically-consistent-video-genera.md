@@ -8,7 +8,7 @@ date: "2026-07-28T20:00:00.000Z"
 score: 80
 guid: "2607.27380"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2607.27380.png"
-generated: "2026-07-31T19:06:14+05:30"
+generated: "2026-08-01T19:05:30+05:30"
 ---
 
-Executable Blender code as chain-of-thought improves physical consistency in video generation. VideoCoCo decouples process-level reasoning (code specification) from visual quality (generative editing). For text prompt, coding agent generates Blender program defining scene and temporal evolution; video editor refines simulation draft into photorealistic output. Approach improves PhyGenBench from 0.475 to 0.558 and VBench-2.0 from 52.18 to 77.88, with gains driven by explicit spatiotemporal reasoning.
+Text-to-video models produce visually compelling but physically inconsistent results because temporal evolution must be inferred implicitly from compressed text. VideoCoCo uses executable Blender code as process-level chain of thought: a coding agent synthesizes programs specifying scene geometry and animation; simulation engine runs them deterministically; video editor transforms results into photorealistic video. Decomposition separates physics reasoning from visual rendering, making dynamics controllable and inspectable. On PhyGenBench, VideoCoCo improves OmniWeaving baseline from 0.475 to 0.558; on VBench-2.0, from 52.18 to 77.88, achieving best score on both benchmarks. This enables executable, verifiable video generation.

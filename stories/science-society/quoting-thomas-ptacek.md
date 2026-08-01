@@ -5,10 +5,10 @@ source: "Simon Willison"
 url: "https://simonwillison.net/2026/Jul/22/thomas-ptacek/#atom-everything"
 authors: []
 date: "2026-07-22T23:59:01+00:00"
-score: 45
+score: 60
 guid: "https://simonwillison.net/2026/Jul/22/thomas-ptacek/#atom-everything"
 image: ""
-generated: "2026-07-29T16:31:06+05:30"
+generated: "2026-08-01T19:05:30+05:30"
 ---
 
 I genuinely believe that if you took an open weights model from 2025 and built a pentest harness for it, it could do this kind of sandbox escape and scan/hack in most networks. This is only surprising because you assume OpenAI has sounder sandboxes. — Thomas Ptacek , doesn't think this even needs a frontier model Tags: thomas-ptacek , openai , security , generative-ai , ai-security-research , ai , llms , sandboxing , openai-hugging-face-incident

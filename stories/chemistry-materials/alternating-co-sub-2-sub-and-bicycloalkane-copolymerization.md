@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/s41586-026-10848-2"
 authors: ["Min Zhu", "Xavier Westworth", "Yingluo Zhao", "Gaurav S. Deshmukh", "Deepak K. Barange", "Tao Zhang", "Ravikumar R. Gowda", "Linda J. Broadbelt", "Eugene Y.-X. Chen"]
 date: "2026-07-29"
-score: 75
+score: 65
 guid: "10.1038/s41586-026-10848-2"
 image: ""
-generated: "2026-07-31T19:06:14+05:30"
+generated: "2026-08-01T19:05:30+05:30"
 ---
 
-A simple organic catalyst enables alternating copolymerization of CO₂ with bicycloalkanes to produce high-performance polyesters designed for complete chemical recycling. These polymers can be selectively depolymerized back to starting materials and resynthesized in closed-loop cycles, addressing plastic waste while utilizing CO₂ as feedstock and reducing reliance on fossil fuels for polymer production and sustainability.
+An organic catalyst directly combines carbon dioxide with bicycloalkanes to produce high-performance polyesters that can be selectively depolymerized and recycled repeatedly in closed-loop systems. This approach converts a greenhouse gas into feedstock while enabling indefinite reuse, reducing both carbon emissions and landfill burden.

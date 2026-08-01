@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/s41586-026-10814-y"
 authors: ["Dong Tong", "Anqi Li", "Quanquan Jiang", "Qili Yuan", "Xiaozhao Liu", "Ximiao He", "Jiejunyi Liang", "Yunyun Han", "Zheng Guo"]
 date: "2026-07-29"
-score: 75
+score: 70
 guid: "10.1038/s41586-026-10814-y"
 image: ""
-generated: "2026-07-31T19:06:14+05:30"
+generated: "2026-08-01T19:05:30+05:30"
 ---
 
 In Drosophila, cell fate switching in adult intestinal stem cells is determined through an epigenetic mechanism in which these cells count divisions, switching from producing enterocytes to producing an enteroendocrine mother cell every ninth division.

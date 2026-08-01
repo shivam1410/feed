@@ -5,10 +5,10 @@ source: "HF Trending Papers"
 url: "https://huggingface.co/papers/2607.25289"
 authors: ["Yuqi Li", "Yi-Cheng Lin", "Xianglong Wang", "Kuo Yang", "Xiaoqin Feng", "Yixuan Wang", "Huiran Duan", "Yingli Tian"]
 date: "2026-07-27T20:00:00.000Z"
-score: 70
+score: 65
 guid: "2607.25289"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2607.25289.png"
-generated: "2026-07-31T19:06:14+05:30"
+generated: "2026-08-01T19:05:30+05:30"
 ---
 
 On-device speech emotion recognition (SER) is critical for real-time applications, yet large self-supervised models that excel at SER are too costly for edge devices. Multi-teacher knowledge distillation can compress them into a lightweight student, but two challenges remain: teacher reliability varies across batches, and logit-level distillation ignores inter-sample relational structure. We propose Adaptive Multi-teacher Relational Distillation (AMRD) to address both. A one-class SVM on each teacher's logit similarity matrix assigns per-batch weights favoring more coherent teachers. A relational distillation loss aligns teacher and student similarity matrices, capturing structure that logit matching misses. On IEMOCAP and CREMA-D datasets across four student architectures, AMRD outperforms single-teacher distillation baselines in most settings, and ablations confirm both components yield complementary gains.

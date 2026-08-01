@@ -8,7 +8,7 @@ date: "2026-07-29"
 score: 75
 guid: "10.1038/s41586-026-10841-9"
 image: ""
-generated: "2026-07-31T19:06:14+05:30"
+generated: "2026-08-01T19:05:30+05:30"
 ---
 
-Complete sequencing of more than 2,000 centromeres from diverse humans reveals structures and elevated mutation rates that shape the evolution of these critically important regions.
+Sequencing over 2,000 centromeres from diverse human populations revealed structural variation and elevated mutation rates within these chromosomal regions. Understanding centromere evolution and genetic variation illuminates how these critical DNA-segregation structures remain functional despite rapid change and explains human genetic diversity.

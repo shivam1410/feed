@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/d41586-026-02366-y"
 authors: ["Freda Kreier"]
 date: "2026-07-31"
-score: 75
+score: 70
 guid: "10.1038/d41586-026-02366-y"
 image: ""
-generated: "2026-07-31T19:06:14+05:30"
+generated: "2026-08-01T19:05:30+05:30"
 ---
 
-Researchers sequenced viral DNA extracted from Chilean mummies, providing the first genomic evidence that smallpox was introduced to the Americas from Europe during early contact between continents. Previously, the pathogen's American origins were debated using only historical accounts; viral sequences now clarify transmission mechanisms and timing precisely. Understanding how specific pathogens crossed oceanic barriers and affected isolated populations has profound implications for epidemiology, public health history, and disease dynamics among geographically separated ancient populations.
+Viral sequences recovered from Chilean mummies provide the first genomic evidence that smallpox was introduced to the Americas from Europe. This genetic analysis confirms historical records of disease transmission during colonization and demonstrates how pathogen DNA from archaeological remains can resolve long-standing questions about disease spread.

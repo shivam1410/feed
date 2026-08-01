@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/d41586-026-02282-1"
 authors: ["Dalmeet Singh Chawla"]
 date: "2026-07-29"
-score: 55
+score: 50
 guid: "10.1038/d41586-026-02282-1"
 image: ""
-generated: "2026-07-31T19:06:14+05:30"
+generated: "2026-08-01T19:05:30+05:30"
 ---
 
 Researchers say that transparent publishing practices could be associated with research quality, but more evidence is needed.

@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/s41586-026-10840-w"
 authors: ["Colin J. Carlson", "Tamma Carleton", "Romaric C. Odoulami", "Cullen D. Molitor", "Christopher H. Trisos"]
 date: "2026-07-29"
-score: 75
+score: 65
 guid: "10.1038/s41586-026-10840-w"
 image: ""
-generated: "2026-07-31T19:06:14+05:30"
+generated: "2026-08-01T19:05:30+05:30"
 ---
 
-Climate and econometric modeling reveals that human-induced climate change is shifting the geographic and demographic burden of childhood malaria across Africa. As temperatures and rainfall patterns change, malaria transmission zones expand into previously cooler regions while contracting in others. This redistribution affects which African populations face increased or decreased malaria risk. The models integrate climate projections with economic data to forecast future disease patterns and impacts. Understanding how climate change alters malaria distribution is critical for public health planning, vaccine and drug delivery, and resource allocation across the continent.
+Climate and economic modeling shows human-caused climate change is shifting the geographic burden of childhood malaria across Africa. The analysis combines climate projections with epidemiological data to track where malaria risk increases and decreases. The work highlights how warming temperatures alter disease distribution in vulnerable populations, with implications for public health planning and resource allocation.

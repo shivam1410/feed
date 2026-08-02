@@ -8,7 +8,7 @@ date: "2026-07-29"
 score: 15
 guid: "10.1038/d41586-026-02183-3"
 image: ""
-generated: "2026-08-01T19:05:30+05:30"
+generated: "2026-08-02T19:04:48+05:30"
 ---
 
-A description of the terminology and methodology used in this supplement, and a guide to the functionality that is available free online at natureindex.com.
+This article describes the terminology and methodology of the Nature Index supplement and provides a guide to free online functionality available at natureindex.com.

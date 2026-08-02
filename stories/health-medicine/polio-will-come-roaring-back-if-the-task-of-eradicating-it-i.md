@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/d41586-026-02308-8"
 authors: []
 date: "2026-07-29"
-score: 55
+score: 65
 guid: "10.1038/d41586-026-02308-8"
 image: ""
-generated: "2026-08-01T19:05:30+05:30"
+generated: "2026-08-02T19:04:48+05:30"
 ---
 
-Polio eradication remains achievable if countries treat it as a critical public health priority. The statement emphasizes barriers are political and logistical rather than technical. Without sustained commitment, the virus threatens rapid resurgence. Success requires maintaining vaccination programs and disease surveillance in endemic and at-risk regions worldwide.
+Polio eradication is within reach but requires countries to recognize it as an essential public-health priority. The statement emphasizes that while global efforts have reduced polio significantly, completing eradication depends on sustained commitment and resources from nations worldwide to finish the job.

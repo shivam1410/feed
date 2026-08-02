@@ -5,10 +5,10 @@ source: "HF Trending Papers"
 url: "https://huggingface.co/papers/2607.16955"
 authors: ["Satyam Kumar", "Saurabh Jha"]
 date: "2026-07-17T20:00:00.000Z"
-score: 77
+score: 70
 guid: "2607.16955"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2607.16955.png"
-generated: "2026-08-01T19:05:30+05:30"
+generated: "2026-08-02T19:04:48+05:30"
 ---
 
 On-policy knowledge distillation transfers reasoning from large teachers to compact students, but existing approaches suffer three compounding failure modes: (i) cold-start collapse, where a fresh student assigns near-zero mass to teacher-preferred tokens; (ii) state-agnostic divergence scheduling, where time-only forward/reverse-KL interpolation ignores the student's coverage state; and (iii) binary reward sparsity, where pass/fail signals discard information from partially correct traces.

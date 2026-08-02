@@ -1,0 +1,14 @@
+---
+title: "datasette-apps 0.2a0"
+category: "Other"
+source: "Simon Willison"
+url: "https://simonwillison.net/2026/Aug/1/datasette-apps/#atom-everything"
+authors: []
+date: "2026-08-01T21:23:56+00:00"
+score: 10
+guid: "https://simonwillison.net/2026/Aug/1/datasette-apps/#atom-everything"
+image: ""
+generated: "2026-08-02T19:04:48+05:30"
+---
+
+Release: datasette-apps 0.2a0 Changes that improve Datasette Apps when created and edited using Datasette Agent : New app_debug() tool allowing agent to open an app (invisibly) and test it using JavaScript. #33 New app_list() tool for listing apps the user has permission to edit, so the agent can edit them. #36 The app_debug() tool is pretty neat: it works by displaying the app in a opacity: 0 iframe with pointer-events: none (so it can't be seen or interacted with) and then executing agent-provided JavaScript inside that sandboxed iframe. This means the agent can smoke test that the app is working and even do things like measure the dimensions of different elements. This uses the new context.browser_task() mechanism added in datasette-agent 0.4a0 . Tags: iframes , datasette , datasette-apps

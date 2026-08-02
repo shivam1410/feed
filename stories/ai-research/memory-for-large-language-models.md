@@ -5,10 +5,10 @@ source: "HF Trending Papers"
 url: "https://huggingface.co/papers/2607.25380"
 authors: ["Sining Zhoubian", "Dan Zhang", "Evgeny Kharlamov", "Jie Tang"]
 date: "2026-07-27T20:00:00.000Z"
-score: 82
+score: 75
 guid: "2607.25380"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2607.25380.png"
-generated: "2026-08-01T19:05:30+05:30"
+generated: "2026-08-02T19:04:48+05:30"
 ---
 
-Memory in large language models evolved from implicit computation byproduct to diverse explicit mechanisms spanning attention, recurrence, adaptation, and lookup storage. This survey provides architecture-centric taxonomy characterizing memory across three orthogonal axes: representation (implicit versus explicit), update dynamics (offline versus online), and persistence (short-term versus long-term). Framework formalizes granular mechanisms for writing, routing, state transitions, consolidation. Analysis bridges computation-coupled memory and independently addressable storage, covers hybrid architectures and efficiency trade-offs, examines multi-dimensional evaluation methodologies. Consolidating scattered advancements into cohesive framework, survey charts memory-centric LLM design and provides principled foundation for scalable, adaptive language model innovation.
+Memory has evolved into a foundational architectural dimension in large language models (LLMs), shifting from an implicit byproduct of computation to a spectrum of explicit, controllable mechanisms. While recent advances introduce diverse strategies---spanning transient attention, recurrent state dynamics, parameter-efficient adaptations, and scalable lookup storage---this rapid evolution has led to a highly fragmented research landscape. In this survey, we present a systematic, architecture-centric taxonomy of memory in LLMs. Our framework characterizes memory along three orthogonal axes: representation (implicit versus explicit), update dynamics (offline versus online), and persistence (short-term versus long-term). We further formalize the granular mechanisms dictating memory writing, routing, state transitions, and consolidation. This unified perspective elucidates the conceptual boundaries between computation-coupled and independently addressable memory, effectively bridging disparate architectural paradigms. Additionally, we critically analyze hybrid memory architectures, system-level efficiency trade-offs, and multi-dimensional evaluation methodologies. By consolidating these scattered advancements into a cohesive framework, this survey charts the trajectory of memory-centric LLM design and provides a principled foundation for future innovations in scalable and adaptive language modeling.

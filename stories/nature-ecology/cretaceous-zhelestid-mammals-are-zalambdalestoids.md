@@ -8,7 +8,7 @@ date: "2026-07-29"
 score: 60
 guid: "10.1038/s41586-026-10861-5"
 image: ""
-generated: "2026-08-01T19:05:30+05:30"
+generated: "2026-08-02T19:04:48+05:30"
 ---
 
 New Mongolian fossil evidence shows zhelestids were not placental-like herbivore relatives, but a dental variant within Zalambdalestoidea, with distinctive molars alongside zalambdalestid skull and limb traits.

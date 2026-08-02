@@ -8,7 +8,7 @@ date: "2026-07-30"
 score: 40
 guid: "10.1038/d41586-026-02079-2"
 image: ""
-generated: "2026-08-01T19:05:30+05:30"
+generated: "2026-08-02T19:04:48+05:30"
 ---
 
 Some 50 years after exposing gender discrimination in US academics’ retirement benefits, Mary Gray works as a statistician and social-justice campaigner.

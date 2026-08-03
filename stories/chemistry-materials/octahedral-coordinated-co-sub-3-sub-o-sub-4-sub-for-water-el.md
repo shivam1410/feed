@@ -8,7 +8,7 @@ date: "2026-07-29"
 score: 75
 guid: "10.1038/s41586-026-10851-7"
 image: ""
-generated: "2026-08-02T19:04:48+05:30"
+generated: "2026-08-03T19:06:42+05:30"
 ---
 
-A new trigonal-phase Co3O4 manufactured via vacuum-mediated molten-alkali mechanochemical method exhibits edge-shared octahedral coordination of cobalt atoms. In acidic water electrolysis for oxygen evolution, this material achieves lower overpotential—requiring less applied voltage—compared to conventional spinel-type Co3O4 while showing reduced cobalt dissolution, improving material stability. These improvements address key limitations in electrocatalysis for hydrogen production from water. Rational tuning of material phase and atomic coordination enhances electrocatalyst performance, supporting development of more efficient, durable catalysts for green energy.
+A new trigonal-phase cobalt oxide (Co₃O₄) manufactured via vacuum-mediated molten-alkali mechanochemistry exhibits edge-shared octahedral coordination and achieves lower overpotential than conventional spinel Co₃O₄ in acidic oxygen evolution reactions while reducing cobalt dissolution. This catalyst improvement advances water-splitting efficiency, critical for hydrogen production and clean energy technologies.

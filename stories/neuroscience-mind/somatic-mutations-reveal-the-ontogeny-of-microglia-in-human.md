@@ -8,7 +8,7 @@ date: "2026-07-30"
 score: 70
 guid: "10.1038/s41586-026-10939-0"
 image: ""
-generated: "2026-08-01T19:05:30+05:30"
+generated: "2026-08-03T19:06:42+05:30"
 ---
 
-Somatic mutations accumulating in microglia—brain resident immune cells—reveal their development and evolution during human aging. By tracking genetic changes in individual microglia over time, researchers infer patterns of origin and proliferation. Understanding microglial aging may illuminate neurodegenerative disease and suggest therapeutic targets.
+Scientists used somatic mutations as molecular markers to trace the developmental history and aging of microglia—brain immune cells—throughout the human lifespan. This approach reveals how these cells originate and evolve with age. Understanding microglial development is crucial for explaining age-related neurodegeneration and neuroinflammation.

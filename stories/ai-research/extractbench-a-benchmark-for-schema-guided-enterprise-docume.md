@@ -1,0 +1,14 @@
+---
+title: "ExtractBench: A Benchmark for Schema-Guided Enterprise Document Extraction"
+category: "AI Research"
+source: "HF Trending Papers"
+url: "https://huggingface.co/papers/2607.29677"
+authors: ["Boyang Zhang", "Adrian Lyjak", "Eli Stewart", "Zhaoqi Li", "Simon Suo"]
+date: "2026-07-30T20:00:00.000Z"
+score: 55
+guid: "2607.29677"
+image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2607.29677.png"
+generated: "2026-08-03T19:06:42+05:30"
+---
+
+Enterprise workflows increasingly rely on agents for schema-guided extraction: given a document and a user-defined schema, the agent faithfully follows the schema to produce the correct output with source evidence as grounding metadata. We present ExtractBench, a benchmark for schema-guided extraction and, to our knowledge, the first to score value accuracy, record completeness at scale, grounding, and measured cost together. The evaluation system contains 4,869 pages across 370 enterprise documents, 8 business domains, and 67 document types, with clear tags differentiating their challenge scenarios. The scalable schema and ground-truth curation pipeline combines independent-system agreement for real documents, known values for synthetic lists, and human verification for forms. We report order-insensitive value F1 for value accuracy, plus two grounding metrics for source traceability: word- and page-level F1. Commercial VLMs perform well on short documents but often truncate record lists on long ones, while coding agents retain higher accuracy at much higher cost. LlamaExtract Agentic Plus ranks first on all three metrics, with accuracy comparable to coding agents at a fraction of the cost. Dataset and evaluation code are available on https://huggingface.co/datasets/llamaindex/ExtractBench{HuggingFace} and https://github.com/run-llama/ExtractBench{GitHub}.

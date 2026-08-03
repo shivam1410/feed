@@ -5,10 +5,10 @@ source: "Simon Willison"
 url: "https://simonwillison.net/2026/Jul/29/d-richard-hipp/#atom-everything"
 authors: []
 date: "2026-07-29T21:15:21+00:00"
-score: 5
+score: 20
 guid: "https://simonwillison.net/2026/Jul/29/d-richard-hipp/#atom-everything"
 image: ""
-generated: "2026-08-02T19:04:48+05:30"
+generated: "2026-08-03T19:06:42+05:30"
 ---
 
-Years ago, we didn’t have SQL. There were people whose job was to generate software that would query large data sets. Their job title was COBOL programmer. Then SQL comes along—I’m simplifying this only a little bit—and it gives you this convenient way so people could just specify. With a very simple specification, you can generate all of that code that you had to pay the expensive COBOL programmer to do before. That didn’t mean programmers went away. It just meant the job changed a little bit. — D. Richard Hipp Tags: d-richard-hipp , sql , careers
+D. Richard Hipp reflects on SQL's job transformation rather than elimination. When SQL emerged, it automated the manual code generation COBOL programmers performed for database queries. SQL didn't eliminate programmers—the profession continued, but the work changed fundamentally. Hipp's analogy suggests AI may similarly transform rather than eliminate technical careers by automating specific tasks while creating demand for higher-level problem-solving and tool design.

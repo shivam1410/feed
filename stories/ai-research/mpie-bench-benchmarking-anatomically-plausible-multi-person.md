@@ -5,10 +5,10 @@ source: "HF Trending Papers"
 url: "https://huggingface.co/papers/2607.27616"
 authors: ["Jiajia Lin", "Mingxuan Du", "Tuowen Zhou", "Benfeng Xu", "Hongtao Xie"]
 date: "2026-07-29T20:00:00.000Z"
-score: 60
+score: 70
 guid: "2607.27616"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2607.27616.png"
-generated: "2026-08-02T19:04:48+05:30"
+generated: "2026-08-03T19:06:42+05:30"
 ---
 
 Text-to-image and personalized editing models now synthesize high-fidelity single-subject images with ease. Yet placing multiple named people into shared contact actions such as embrace, carry, or grapple still exposes major failures: fused limbs, invented extremities, and interpenetrating bodies. Existing evaluations largely overlook these anatomical and geometric issues, and VLM-as-a-judge checklists often saturate on Interaction while the errors remain obvious to humans. We introduce MPIE-Bench, a 2,500-sample benchmark of video-mined editing triplets spanning 405 scenes, 14 interaction categories, and four contact densities (C0-C3). We also propose MPIE-Eval, whose two new axes score contact-time geometry from a frozen public multi-person mesh reconstruction. Anatomy asks whether every human-like mass is explained by a complete set of reconstructed bodies, and Interaction asks whether the penetration and surface distance between those bodies match the contact the instruction asked for. Across ten editors, mesh Anatomy tops out at 0.65 and mesh Interaction at 0.72 on two different models, so no single editor is strong on both, while VLM checklists rate the same images above 0.95. A five-rater study confirms that both axes track human judgement more closely than a zero-shot VLM judge, and the rankings hold under ablation of every weight and threshold.

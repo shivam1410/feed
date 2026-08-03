@@ -8,7 +8,7 @@ date: "2026-07-29"
 score: 75
 guid: "10.1038/s41586-026-10825-9"
 image: ""
-generated: "2026-08-02T19:04:48+05:30"
+generated: "2026-08-03T19:06:42+05:30"
 ---
 
-A plasmonic metamaterial driven at terahertz frequencies demonstrates strong, ultrafast temporal modulation—rapid property changes on picosecond timescales—and exhibits transition to the photonic time crystal regime with reduced plasmonic losses. Time crystals represent a novel phase of matter with properties distinct from conventional ordered systems. This work extends time crystal concepts into photonics, potentially enabling new light manipulation mechanisms. Reduced losses improve practical device performance, with applications in ultrafast optical switching, terahertz modulators, or novel sensing devices.
+A plasmonic metamaterial driven at terahertz frequencies achieves strong, ultrafast temporal modulation and transitions into the photonic time crystal regime while reducing plasmonic losses. The work demonstrates controlled manipulation of light at ultrafast timescales through engineered materials. This advance could enable new applications in photonic devices and metamaterial engineering.

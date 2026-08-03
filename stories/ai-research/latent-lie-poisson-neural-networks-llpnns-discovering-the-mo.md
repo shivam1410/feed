@@ -1,0 +1,14 @@
+---
+title: "Latent Lie-Poisson Neural Networks (LLPNNs): Discovering the motion of Lie-Poisson systems through observable data and latent dynamics"
+category: "AI Research"
+source: "arXiv (cs.LG)"
+url: "https://arxiv.org/abs/2607.28939"
+authors: ["Vakhtang Putkaradze"]
+date: "Mon, 03 Aug 2026 00:00:00 -0400"
+score: 62
+guid: "oai:arXiv.org:2607.28939v1"
+image: ""
+generated: "2026-08-03T19:06:42+05:30"
+---
+
+arXiv:2607.28939v1 Announce Type: new Abstract: Structure-preserving neural networks are essential for the long-term prediction of Hamiltonian systems from data. Many important Hamiltonian systems in mechanics and control admit symmetry reduction to Lie--Poisson systems, including rigid bodies, underwater vehicles, fluids, plasmas, and optimal control problems. A fundamental challenge in learning such systems is that their dynamics evolve in momentum variables that are typically unobservable, while available data consist only of observable quantities such as configurations and velocities. In optimal control applications, the situation is further complicated because the latent variables contain unobservable co-states and the Hamiltonian may be degenerate, preventing the existence of a corresponding Lagrangian and rendering the encoder-decoder approaches inapplicable. We introduce Latent Lie--Poisson Neural Networks (LLPNNs), a structure-preserving framework for learning Lie--Poisson dynamics directly from observable data. The proposed approach exploits three geometric ingredients: (i) learning either a Hamiltonian decoder or a pseudo-Lagrangian encoder on the active variables, (ii) constructing latent trajectories through a universal Noether invariant arising from Lie--Poisson symmetry reduction, and (iii) reconstructing observable and latent dynamics through Lie--Poisson flows combined with Magnus-based Lie-group updates. The resulting method preserves the geometric structure and is applicable to both regular and degenerate Hamiltonian systems. We demonstrate the method on three examples: a generalized rigid body on SO(3), Kirchhoff's underwater vehicle on SE(3), and an optimal-control problem for interacting vehicles on $SE(2)^N$. Numerical experiments show excellent long-term predictive accuracy, strong robustness to noise, and competitive performance using only modest datasets and lightweight neural-network architectures.

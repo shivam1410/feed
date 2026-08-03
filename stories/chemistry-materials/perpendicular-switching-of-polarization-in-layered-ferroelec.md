@@ -8,7 +8,7 @@ date: "2026-07-29"
 score: 70
 guid: "10.1038/s41586-026-10839-3"
 image: ""
-generated: "2026-07-31T19:06:14+05:30"
+generated: "2026-08-03T19:06:42+05:30"
 ---
 
 Perpendicular switching of the polarization state in the layered ferroelectric Bi4Ti3O12 is demonstrated by means of trilinear coupling, allowing manipulation of the in-plane polarization component with an out-of-plane electric field.

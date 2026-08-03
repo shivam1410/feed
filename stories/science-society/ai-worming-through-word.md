@@ -5,10 +5,10 @@ source: "Simon Willison"
 url: "https://simonwillison.net/2026/Jul/29/ai-worming-through-word/#atom-everything"
 authors: []
 date: "2026-07-29T18:43:03+00:00"
-score: 70
+score: 85
 guid: "https://simonwillison.net/2026/Jul/29/ai-worming-through-word/#atom-everything"
 image: ""
-generated: "2026-08-02T19:04:48+05:30"
+generated: "2026-08-03T19:06:42+05:30"
 ---
 
-Security researcher Håkon Måløy discovered a prompt injection attack where hidden instructions in Word documents can hijack Copilot for Word. The attack self-replicates: Copilot copies hidden instructions into newly drafted documents, triggering the attack again in subsequent uses. This creates a worm mechanism where instructions propagate through document chains. The attack exploits hidden text formatting and was responsibly disclosed to Microsoft with a 144-day fix window.
+Håkon Måløy discovered a new prompt injection attack class that self-replicates through Word documents. Hidden instructions in source material trigger Copilot to copy those instructions into generated documents, creating self-propagating worms. Subsequent Copilot workflows re-trigger the instructions, spreading them further without requiring the attacker's original document. Responsibly disclosed to Microsoft with 144 days for mitigation, but no defense covering the full attack class exists yet.

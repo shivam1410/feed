@@ -8,7 +8,7 @@ date: "2026-07-30"
 score: 75
 guid: "10.1038/d41586-026-02420-9"
 image: ""
-generated: "2026-08-02T19:04:48+05:30"
+generated: "2026-08-03T19:06:42+05:30"
 ---
 
-Raygun, an AI tool, can redesign proteins by adding, removing, or swapping subunits using steps analogous to natural evolution. This enables programmable protein engineering at potentially large scale. In related developments, quantum computing shows spin qubits remain competitive in the quantum race, and new drugs show promise in preventing long COVID. Together, these advances span protein design, quantum computation, and infectious disease prevention. Each represents progress in distinct domains with significant medical potential. These breakthroughs illustrate accelerating innovation across multiple biotechnology and computing frontiers.
+Researchers developed Raygun, an AI tool that modifies proteins by adding, removing, or swapping subunits through mechanisms mimicking natural evolution. This capability could accelerate protein engineering for therapeutics and materials science. The briefing also covered advances in spin qubit quantum computing and potential drugs to prevent long COVID.

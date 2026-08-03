@@ -8,7 +8,7 @@ date: "2026-07-29"
 score: 80
 guid: "10.1038/s41586-026-10842-8"
 image: ""
-generated: "2026-08-02T19:04:48+05:30"
+generated: "2026-08-03T19:06:42+05:30"
 ---
 
-Raygun uses probabilistic sequence encoding derived from language model embeddings within a generative artificial intelligence framework to design miniaturized, modified, and augmented protein variants while maintaining native three-dimensional architecture and functional integrity. Language models trained on protein sequences learn statistical patterns encoding structural and functional information. By leveraging these learned representations, researchers efficiently navigate protein sequence space while preserving critical properties. This method accelerates protein engineering for therapeutic and biotechnological applications, representing a paradigm shift toward AI-guided rational protein design.
+Raygun, a generative AI framework using probabilistic sequence encoding from language model embeddings, enables protein miniaturization, modification, and augmentation while maintaining native architecture and functional integrity. The approach leverages large language model knowledge to design improved proteins without sacrificing biological activity. This technique advances protein engineering for drug discovery and synthetic biology.

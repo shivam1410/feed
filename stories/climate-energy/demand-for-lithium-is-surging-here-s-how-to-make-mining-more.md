@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/d41586-026-02195-z"
 authors: ["Mohana Basu"]
 date: "2026-07-30"
-score: 65
+score: 55
 guid: "10.1038/d41586-026-02195-z"
 image: ""
-generated: "2026-08-03T19:06:42+05:30"
+generated: "2026-08-04T20:29:16+05:30"
 ---
 
-As lithium demand surges for battery production, researchers are developing alternative extraction methods from underground reservoirs using significantly less water than conventional mining. Traditional lithium extraction is water-intensive, particularly problematic in arid regions. Sustainable approaches are critical as battery demand grows with renewable energy adoption.
+Researchers are looking for ways to extract the metal from underground reservoirs that use less water in the process.

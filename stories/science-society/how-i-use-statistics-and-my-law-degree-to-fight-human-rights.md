@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/d41586-026-02079-2"
 authors: ["Rachel Crowell"]
 date: "2026-07-30"
-score: 50
+score: 45
 guid: "10.1038/d41586-026-02079-2"
 image: ""
-generated: "2026-08-03T19:06:42+05:30"
+generated: "2026-08-04T20:29:16+05:30"
 ---
 
 Some 50 years after exposing gender discrimination in US academics’ retirement benefits, Mary Gray works as a statistician and social-justice campaigner.

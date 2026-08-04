@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/d41586-026-02362-2"
 authors: ["Rachel Fieldhouse"]
 date: "2026-07-31"
-score: 60
+score: 55
 guid: "10.1038/d41586-026-02362-2"
 image: ""
-generated: "2026-08-03T19:06:42+05:30"
+generated: "2026-08-04T20:29:16+05:30"
 ---
 
 The allergy is caused by ticks, but researchers have much to learn about it.

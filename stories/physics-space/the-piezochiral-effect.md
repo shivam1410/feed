@@ -8,7 +8,7 @@ date: "2026-07-29"
 score: 70
 guid: "10.1038/s41586-026-10845-5"
 image: ""
-generated: "2026-08-02T19:04:48+05:30"
+generated: "2026-08-04T20:29:16+05:30"
 ---
 
-The piezochiral effect, a new member of the family of strain-responsive functionalities alongside piezoelectricity and piezomagnetism, is introduced, enabling control of chirality through mechanical strain, with future applications in photonics, spintronics, biosensing and quantum information.
+The piezochiral effect is a new strain-responsive functionality joining piezoelectricity and piezomagnetism, enabling control of molecular chirality through mechanical strain. This phenomenon offers applications in photonics, spintronics, biosensing, and quantum information processing, opening new avenues for strain-controlled optical, magnetic, and quantum technologies.

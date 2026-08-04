@@ -8,7 +8,7 @@ date: "2026-07-29"
 score: 75
 guid: "10.1038/s41586-026-10852-6"
 image: ""
-generated: "2026-08-03T19:06:42+05:30"
+generated: "2026-08-04T20:29:16+05:30"
 ---
 
-Systematic analysis of prokaryotic STAND NTPases — relatives of animal and plant immune receptors — uncovers diverse antiviral sensors that detect most of the core structural and replicative proteins of bacteriophages.
+Analysis of prokaryotic STAND NTPases, relatives of animal and plant immune receptors, reveals diverse bacterial antiviral sensors. These sensors detect most core structural and replicative proteins produced by bacteriophages during infection. This characterization expands understanding of how bacteria recognize and respond to viral threats, paralleling animal and plant immune recognition strategies.

@@ -1,0 +1,14 @@
+---
+title: "Mitigating Backdoors via Decoy Shortcuts and Knowledge Decoupling"
+category: "AI Research"
+source: "arXiv (cs.LG)"
+url: "https://arxiv.org/abs/2608.00732"
+authors: ["Zixuan Zhu, Rui Wang, Lihua Jing, Jinwen Zhong"]
+date: "Tue, 04 Aug 2026 00:00:00 -0400"
+score: 69
+guid: "oai:arXiv.org:2608.00732v1"
+image: ""
+generated: "2026-08-04T20:29:16+05:30"
+---
+
+arXiv:2608.00732v1 Announce Type: new Abstract: Backdoor attacks pose a serious threat to deep neural networks, especially when training relies on third-party data, allowing adversaries to inject malicious behaviors through data poisoning. In this work, we reveal that backdoor behaviors tend to be absorbed by a simpler parallel branch when jointly trained with the main network. Motivated by this insight, we propose Trapping and Removing (TR), a simple yet effective training-time defense that introduces a lightweight shortcut branch as a "honeypot" to trap backdoor knowledge. After training, backdoors can be removed by discarding the shortcut, without requiring any additional data. To further enhance backdoor isolation while maintaining benign performance, we design a knowledge decoupling strategy with entropy-based weight assignment, encouraging poisoned samples to flow through the honeypot while guiding the main network to focus on benign learning. In addition, we introduce an automatic shortcut generation strategy to improve generalization across model architectures. Extensive experiments on four benchmark datasets and five model architectures demonstrate that our approach effectively mitigates a wide range of backdoor attacks while preserving performance on benign data. Code: https://github.com/Zixuan-Zhu/TR}{github.com/Zixuan-Zhu/TR.

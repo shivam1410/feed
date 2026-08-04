@@ -8,7 +8,7 @@ date: "Wed, 01 Apr 2026 13:00:00 +0000"
 score: 35
 guid: "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-march-2026/"
 image: "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/March_2026_AI_Recap_social_hvvl.max-600x600.format-webp.webp"
-generated: "2026-08-03T19:06:42+05:30"
+generated: "2026-08-04T20:29:16+05:30"
 ---
 
 Here are Google’s latest AI updates from March 2026

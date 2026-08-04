@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/s41586-026-10920-x"
 authors: ["Cliodhna Kate O’Toole", "Zhiyuan Song", "Filippos Anagnostakis", "Zhijian Yang", "Ye Ella Tian", "Michael R. Duggan", "Chunrui Zou", "Yue Leng", "Yi Cai", "Wenjia Bai", "Cynthia H. Y. Fu", "Michael S. Rafii", "Paul Aisen", "Gao Wang", "Philip L. De Jager", "Jian Zeng", "Hamilton Se-Hwee Oh", "Xia Zhou", "Keenan A. Walker", "Daniel W. Belsky", "Andrew Zalesky", "Eleanor M. Simonsick", "Susan M. Resnick", "Luigi Ferrucci", "Christos Davatzikos", "Junhao Wen"]
 date: "2026-07-30"
-score: 20
+score: 25
 guid: "10.1038/s41586-026-10920-x"
 image: ""
-generated: "2026-08-03T19:06:42+05:30"
+generated: "2026-08-04T20:29:16+05:30"
 ---
 
 Author Correction: Sleep chart of biological ageing clocks in middle and late life

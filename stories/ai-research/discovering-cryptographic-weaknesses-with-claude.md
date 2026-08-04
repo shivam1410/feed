@@ -5,10 +5,10 @@ source: "Simon Willison"
 url: "https://simonwillison.net/2026/Jul/28/discovering-cryptographic-weaknesses-with-claude/#atom-everything"
 authors: []
 date: "2026-07-28T22:45:37+00:00"
-score: 85
+score: 75
 guid: "https://simonwillison.net/2026/Jul/28/discovering-cryptographic-weaknesses-with-claude/#atom-everything"
 image: ""
-generated: "2026-08-03T19:06:42+05:30"
+generated: "2026-08-04T20:29:16+05:30"
 ---
 
-Anthropic researchers used Claude Mythos, a frontier AI model, to discover previously unknown mathematical flaws in cryptographic algorithms including HAWK and a weakened AES variant. Though these findings have no practical security impact on today's systems, the 60-hour research effort cost approximately $100,000 in API expenses. Human researchers had to repeatedly encourage the model to pursue publishable-quality discoveries rather than settling for easier targets, revealing that frontier models require sustained human guidance and prompting to attempt ambitious research problems they initially deem impossible. The work produced CryptanalysisBench, a new cryptanalysis evaluation metric developed in partnership with ETH Zurich and Israeli universities.
+Anthropic researchers used Claude Mythos to discover mathematical flaws in the HAWK cryptographic standard and a reduced-round AES variant. The model ran for 60 hours (~$100,000 API cost) on carefully crafted prompts encouraging persistent research-level effort. Results were formalized in a new CryptanalysisBench evaluation created with ETH Zurich and Israeli universities. Findings have no immediate practical impact but demonstrate AI capability for research-grade cryptanalysis with human guidance focused on preventing premature abandonment.

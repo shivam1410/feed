@@ -5,10 +5,10 @@ source: "Latent Space"
 url: "https://www.latent.space/p/xaira"
 authors: ["RJ Honicky"]
 date: "Tue, 21 Jul 2026 19:34:06 GMT"
-score: 75
+score: 77
 guid: "https://www.latent.space/p/xaira"
 image: ""
-generated: "2026-08-04T20:29:16+05:30"
+generated: "2026-08-05T20:00:21+05:30"
 ---
 
-Drug discovery models fail when limited by data rather than parameters or compute. Xaira Therapeutics' X-Cell model demonstrated this: a 3.1B-parameter model hit a performance ceiling at 1.5B training parameters while test loss plateaued despite continued training loss improvements, indicating information saturation in their dataset. When researchers expanded data richness approximately 30-fold through additional expression experiments, the scaling wall disappeared: both parameters and training compute now drove continued performance gains. For predicting gene expression changes, information-rich data proved more limiting than model capacity. This insight redirected Xaira's strategy toward data collection infrastructure and experiments. The finding generalizes: current frontier models may be constrained by information density rather than architecture.
+Xaira Therapeutics identified information-rich data as critical bottleneck for scaling drug discovery AI. Initial 3.1B model with single small dataset showed test loss plateau after 1.5B parameters despite continued training loss improvement—indicating information limitation rather than compute limitation. Increasing dataset information by approximately 30x enabled models to scale with parameters and compute. Chu promoted to Chief Discovery Officer and Wang to Chief AI Scientist, underscoring strategic importance. Demonstrates that capability depends on data information content, not model size alone.

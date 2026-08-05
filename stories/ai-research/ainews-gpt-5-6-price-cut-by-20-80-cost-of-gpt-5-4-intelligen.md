@@ -5,10 +5,10 @@ source: "Latent Space"
 url: "https://www.latent.space/p/ainews-gpt-56-price-cut-by-20-80"
 authors: []
 date: "Fri, 31 Jul 2026 04:40:54 GMT"
-score: 75
+score: 78
 guid: "https://www.latent.space/p/ainews-gpt-56-price-cut-by-20-80"
 image: ""
-generated: "2026-08-04T20:29:16+05:30"
+generated: "2026-08-05T20:00:21+05:30"
 ---
 
-GPT 5.6 achieved its own infrastructure optimization, reducing serving costs while maintaining capability quality. OpenAI reported three optimization strategies: First, GPT 5.6 autonomously analyzed production traffic, tuned load balancing, and rewrote production kernels in Triton and Gluon, reducing end-to-end serving costs by 20%. Second, it improved its own draft model through hundreds of autonomous experiments on architecture variants, increasing token-generation efficiency 15% via speculative decoding. Third, optimizations to key-value caching and batch scheduling extracted additional savings. Across four months, the cost of equivalent GPT 5.4-level intelligence dropped 13-fold, extending the trend where constant-capability AI fell 1000x over 18 months. Suggests frontier models may now improve their own efficiency.
+OpenAI achieved 13x cost reduction for GPT 5.4-level intelligence over four months through GPT 5.6 Sol's recursive self-optimization of serving infrastructure. Self-optimization reduced end-to-end serving costs by 20% through autonomous production kernel rewrites in Triton and Gluon. Speculative decoding improvements increased token-generation efficiency over 15%. Extends 1000x cost reduction for constant-level intelligence over 18 months, demonstrating continued progress beyond initial optimization gains. Cost continues falling despite all low-hanging fruit being exhausted.

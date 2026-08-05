@@ -5,10 +5,10 @@ source: "DeepMind"
 url: "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/accelerator-ai-for-the-planet/"
 authors: ["Dr. Ramine Tinati"]
 date: "Sun, 17 May 2026 18:00:00 +0000"
-score: 62
+score: 60
 guid: "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/accelerator-ai-for-the-planet/"
 image: "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Image_for_APAC_GDM_Accelerator.max-600x600.format-webp.webp"
-generated: "2026-08-04T20:29:16+05:30"
+generated: "2026-08-05T20:00:21+05:30"
 ---
 
-Google DeepMind is launching an accelerator program in Asia-Pacific targeting environmental challenges. The region drives global economic growth but faces acute climate vulnerability from climate change. While green technologies are gaining adoption, the accelerator likely aims to support startups and initiatives scaling climate adaptation and mitigation solutions tailored to the region's specific risks.
+Google DeepMind launched an accelerator program in Asia-Pacific to support environmental innovation. The region drives substantial global economic growth but faces significant climate vulnerability. While green technologies are gaining adoption, the program aims to scale climate solutions and build resilience across the region.

@@ -5,10 +5,10 @@ source: "Simon Willison"
 url: "https://simonwillison.net/2026/Aug/4/llm-anthropic/#atom-everything"
 authors: []
 date: "2026-08-04T22:00:58+00:00"
-score: 55
+score: 50
 guid: "https://simonwillison.net/2026/Aug/4/llm-anthropic/#atom-everything"
 image: ""
-generated: "2026-08-05T20:00:21+05:30"
+generated: "2026-08-06T19:05:18+05:30"
 ---
 
 Release: llm-anthropic 0.26 Includes new features enabled by LLM 0.32 : New models: claude-fable-5 , claude-sonnet-5 , and claude-opus-5 . #75 , #76 Added server-side tools for WebSearch , WebFetch , CodeExecution , and AnthropicMCP , available through LLM's -T interface or Python tools= . The previous -o web_search* options have been removed in favor of -T WebSearch . #79 Upgraded to llm>=0.32 . Reasoning, tool calls, tool results, and server-side tool results now stream as typed events. Reasoning for llm CLI prompts now displays to standard error unless you pass --hide-reasoning/-R . Simplified extended thinking to thinking and thinking_effort ( low , medium , high , xhigh , or max ). Claude 5 models think by default; -o thinking 0 disables thinking for Sonnet 5 and Opus 5, while Fable 5 always thinks. -R/--hide-reasoning now omits reasoning from responses and logs. The thinking_budget , thinking_display , and thinking_adaptive options have been removed. #80 Tags: llm , anthropic , claude , model-context-protocol

@@ -1,0 +1,14 @@
+---
+title: "When Many Answers Are Valid, Voting Fails: Symbolic Verification for Best-of-K Causal Reasoning in LLMs"
+category: "AI Research"
+source: "HF Trending Papers"
+url: "https://huggingface.co/papers/2608.03506"
+authors: ["Omatharv Bharat Vaidya", "Connor Thomas Jerzak", "Zayne Rea Sprague", "Fangcong Yin", "Nhat Ho"]
+date: "2026-08-03T20:00:00.000Z"
+score: 70
+guid: "2608.03506"
+image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2608.03506.png"
+generated: "2026-08-06T19:05:18+05:30"
+---
+
+Self-consistency assumes the most frequent answer among sampled reasoning traces is the most reliable, but this can fail in causal reasoning: samples often repeat the same confounding error, and votes fragment across multiple valid answers, letting an invalid answer win despite a valid minority trace. We introduce CALVER (Causal Axiom-Level VERification), a training-free symbolic verifier that scores structured traces against Pearl's causal criteria, including -separation, backdoor adjustment, and intervention, and selects the highest-scoring candidate without consulting a reference answer. On CLEAR find-one-valid queries that admit multiple graph-valid answers, CALVER reaches 42.1% where plurality, a reward model, an LLM judge, and model confidence remain near 30% on identical frozen pools. Scaling the judge to 72B does not close the gap. In an audited clean-core subset, 11 of 21 graph-valid CALVER selections differ from the benchmark's listed answer while still satisfying the requested predicate. The advantage widens with the sampling budget and reproduces across ten published Bayesian networks, a second model family, and settings where the model must build the graph from text. CALVER also improves thresholded average-treatment-effect decisions against exact ground truth, generalizes to logic under a truth-table checker, and scores each candidate in milliseconds on CPU. CALVER needs only a causal structure, supplied outright or built from the text; wherever that holds, selection can aggregate via causal validity.

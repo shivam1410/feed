@@ -1,106 +1,106 @@
 {
-  "generatedAt": "2026-08-05T20:00:53+05:30",
+  "generatedAt": "2026-08-06T19:05:49+05:30",
   "source": "Hugging Face — trending models",
   "models": [
     {
       "id": "MiniMaxAI/MiniMax-H3",
       "task": "image-text-to-video",
-      "likes": 2385,
-      "downloads": 0,
+      "likes": 2653,
+      "downloads": 12102,
       "library": "diffusers",
       "createdAt": "2026-07-28T10:45:18.000Z",
       "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3",
-      "summary": "Multimodal generative system that creates videos up to 2K resolution from text, images, or video inputs with native stereo audio."
+      "summary": "MiniMax H3 generates video from text, images, and video inputs with native stereo audio, supporting up to 2K resolution and 15-second durations."
     },
     {
       "id": "deepseek-ai/DeepSeek-V4-Flash-0731",
       "task": "text-generation",
-      "likes": 2440,
-      "downloads": 433284,
+      "likes": 2593,
+      "downloads": 617900,
       "library": "transformers",
       "createdAt": "2026-07-31T07:30:24.000Z",
       "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731",
-      "summary": "Fast text generation model with enhanced agentic capabilities, competitive with leading proprietary LLMs on code and reasoning benchmarks."
+      "summary": "DeepSeek-V4-Flash-0731 is a text-generation model with enhanced agentic capabilities, competitive with proprietary models despite smaller activated parameters."
     },
     {
       "id": "moonshotai/Kimi-K3",
       "task": "image-text-to-text",
-      "likes": 10083,
-      "downloads": 1125935,
+      "likes": 10167,
+      "downloads": 1258043,
       "library": "transformers",
       "createdAt": "2026-06-13T06:42:57.000Z",
       "url": "https://huggingface.co/moonshotai/Kimi-K3",
-      "summary": "2.8T-parameter open multimodal model with native vision and 1M token context for long-horizon coding and agentic knowledge work."
+      "summary": "Kimi K3 is a 2.8T-parameter multimodal model with native vision, 1M-token context, designed for long-horizon coding and agentic knowledge work."
     },
     {
       "id": "Comfy-Org/MiniMax-H3",
       "task": null,
-      "likes": 714,
-      "downloads": 2,
-      "library": null,
+      "likes": 810,
+      "downloads": 2295377,
+      "library": "diffusion-single-file",
       "createdAt": "2026-07-30T22:36:12.000Z",
       "url": "https://huggingface.co/Comfy-Org/MiniMax-H3",
-      "summary": "ComfyUI-compatible packaging of MiniMax-H3 video generation model in multiple quantization formats for local deployment."
+      "summary": "Repackaged MiniMax H3 model files for ComfyUI integration."
     },
     {
       "id": "DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
       "task": "image-text-to-text",
-      "likes": 1563,
-      "downloads": 1633405,
+      "likes": 1621,
+      "downloads": 2087189,
       "library": null,
       "createdAt": "2026-07-17T00:27:17.000Z",
       "url": "https://huggingface.co/DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
-      "summary": "Fine-tuned multimodal model optimized for consumer hardware, combining Qwen3.6 with custom training and merging."
+      "summary": "Uncensored fine-tuned Qwen3.6-27B multimodal model optimized for consumer hardware with claimed high benchmark performance."
     },
     {
       "id": "unsloth/DeepSeek-V4-Flash-0731-GGUF",
       "task": null,
-      "likes": 490,
-      "downloads": 111678,
+      "likes": 514,
+      "downloads": 145105,
       "library": null,
       "createdAt": "2026-07-31T12:24:24.000Z",
       "url": "https://huggingface.co/unsloth/DeepSeek-V4-Flash-0731-GGUF",
-      "summary": "Quantized versions of DeepSeek-V4-Flash-0731 for efficient local inference with superior accuracy compared to other quantizations."
-    },
-    {
-      "id": "baidu/Unlimited-OCR",
-      "task": "image-text-to-text",
-      "likes": 3896,
-      "downloads": 2703366,
-      "library": "transformers",
-      "createdAt": "2026-06-19T09:40:33.000Z",
-      "url": "https://huggingface.co/baidu/Unlimited-OCR",
-      "summary": "Vision-language model for optical character recognition and document parsing with support for long-horizon text extraction."
-    },
-    {
-      "id": "thinkingmachines/Inkling-Small",
-      "task": "image-text-to-text",
-      "likes": 302,
-      "downloads": 15500,
-      "library": "transformers",
-      "createdAt": "2026-07-27T22:33:44.000Z",
-      "url": "https://huggingface.co/thinkingmachines/Inkling-Small",
-      "summary": "Multimodal model with sparse mixture-of-experts architecture that processes text, images, and audio for conversational and agentic tasks."
+      "summary": "GGUF quantized variant of DeepSeek-V4-Flash-0731 using Unsloth Dynamic 2.0 for efficient local deployment."
     },
     {
       "id": "ethanfel/Qwen3-VL-32B-Ultra-Heretic-H3-ComfyUI-INT8-ConvRot",
       "task": "image-text-to-text",
-      "likes": 250,
+      "likes": 323,
       "downloads": 0,
       "library": "comfyui",
       "createdAt": "2026-08-03T09:25:01.000Z",
       "url": "https://huggingface.co/ethanfel/Qwen3-VL-32B-Ultra-Heretic-H3-ComfyUI-INT8-ConvRot",
-      "summary": "ComfyUI-compatible vision-language encoder variant of Qwen3-VL-32B for H3 video generation workflows."
+      "summary": "Uncensored Qwen3-VL-32B vision-language encoder and generation tails optimized for ComfyUI H3 integration."
     },
     {
       "id": "LiquidAI/LFM2.5-2.6B",
       "task": "text-generation",
-      "likes": 239,
-      "downloads": 47393,
+      "likes": 310,
+      "downloads": 73573,
       "library": "transformers",
       "createdAt": "2026-07-28T22:14:32.000Z",
       "url": "https://huggingface.co/LiquidAI/LFM2.5-2.6B",
-      "summary": "Efficient 2.6B-parameter text model with 128K context and agentic capabilities for on-device deployment."
+      "summary": "LFM2.5-2.6B is a 2.6B-parameter efficient text-generation model with agentic capabilities for on-device deployment."
+    },
+    {
+      "id": "thinkingmachines/Inkling-Small",
+      "task": "image-text-to-text",
+      "likes": 317,
+      "downloads": 22223,
+      "library": "transformers",
+      "createdAt": "2026-07-27T22:33:44.000Z",
+      "url": "https://huggingface.co/thinkingmachines/Inkling-Small",
+      "summary": "Inkling-Small is a multimodal sparse-MoE model accepting text, image, and audio inputs for conversational and agentic tasks."
+    },
+    {
+      "id": "baidu/Unlimited-OCR",
+      "task": "image-text-to-text",
+      "likes": 3921,
+      "downloads": 2791862,
+      "library": "transformers",
+      "createdAt": "2026-06-19T09:40:33.000Z",
+      "url": "https://huggingface.co/baidu/Unlimited-OCR",
+      "summary": "Unlimited-OCR is an advanced vision-language model for one-shot long-horizon parsing and optical character recognition tasks."
     }
   ]
 }

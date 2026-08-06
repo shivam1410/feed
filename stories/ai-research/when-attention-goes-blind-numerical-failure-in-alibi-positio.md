@@ -5,10 +5,10 @@ source: "HF Trending Papers"
 url: "https://huggingface.co/papers/2608.03994"
 authors: ["Christopher Schröder", "Lukas Gienapp", "Ferdinand Schlatt", "Martin Potthast", "Gerhard Heyer"]
 date: "2026-08-03T20:00:00.000Z"
-score: 55
+score: 70
 guid: "2608.03994"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2608.03994.png"
-generated: "2026-08-05T20:00:21+05:30"
+generated: "2026-08-06T19:05:18+05:30"
 ---
 
 We identify a previously overlooked failure mode of ALiBi positional encoding: its linear bias scaling underflows floating-point precision, which zeroes out a large fraction of attention weights and renders the affected attention heads partially blind. We analyze this failure mode, characterize its impact, and examine four mitigation strategies. We further demonstrate its occurrence in state-of-the-art pretrained models based on ALiBi. Comprehensive pretraining experiments with 148M-parameter decoder models help us to disentangle its effects from out-of-context degradation. We find that ALiBi's failure mode can substantially impair token retrieval while having only a minor effect on standard decoder benchmarks. We propose four training-time mitigation strategies and evaluate them individually and in combinations, finding that log-scaled distances yield the most consistent improvements in passkey retrieval. Despite this problem, default ALiBi slopes remain a surprisingly strong baseline, particularly for needle-in-a-haystack retrieval. Based on these findings we provide concrete recommendations on how to train models with ALiBi.

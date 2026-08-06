@@ -5,10 +5,10 @@ source: "Latent Space"
 url: "https://www.latent.space/p/xaira"
 authors: ["RJ Honicky"]
 date: "Tue, 21 Jul 2026 19:34:06 GMT"
-score: 77
+score: 75
 guid: "https://www.latent.space/p/xaira"
 image: ""
-generated: "2026-08-05T20:00:21+05:30"
+generated: "2026-08-06T19:05:18+05:30"
 ---
 
-Xaira Therapeutics identified information-rich data as critical bottleneck for scaling drug discovery AI. Initial 3.1B model with single small dataset showed test loss plateau after 1.5B parameters despite continued training loss improvement—indicating information limitation rather than compute limitation. Increasing dataset information by approximately 30x enabled models to scale with parameters and compute. Chu promoted to Chief Discovery Officer and Wang to Chief AI Scientist, underscoring strategic importance. Demonstrates that capability depends on data information content, not model size alone.
+Xaira Therapeutics demonstrates that data richness—not parameter scaling—limits AI performance in drug discovery. A 3.1B-parameter model hit a test-loss plateau at 1.5B parameters despite continued training-loss improvement, indicating information bottleneck. After multiplying training data (approximately 30x increase in information), scaling resumed normally with increased parameters and compute. The company promoted executives Bo Wang (Chief AI Scientist) and Ci Chu (Chief Discovery Officer) in recognition of this data-first strategy, betting that information-rich cellular data for predicting gene expression changes is key to AI-driven drug development advances.

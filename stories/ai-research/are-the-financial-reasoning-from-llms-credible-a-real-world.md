@@ -8,7 +8,7 @@ date: "2026-07-21T20:00:00.000Z"
 score: 70
 guid: "2607.28661"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2607.28661.png"
-generated: "2026-08-05T20:00:21+05:30"
+generated: "2026-08-06T19:05:18+05:30"
 ---
 
 Do Large Language Models (LLMs) possess genuine structural reasoning, or merely rely on surface-level pattern matching? The financial domain, demanding numerical precision and multi-step logic over long contexts, is an ideal testbed. Existing benchmarks fail to capture real-world industrial complexity, predominantly relying on multiple-choice questions or single-hop QA over cropped tables while ignoring intricate cross-statement dynamics and temporal de-cumulation.

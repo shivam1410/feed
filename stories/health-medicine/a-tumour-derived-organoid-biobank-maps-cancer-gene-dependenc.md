@@ -1,0 +1,14 @@
+---
+title: "A tumour-derived organoid biobank maps cancer gene dependencies"
+category: "Health & Medicine"
+source: "Nature"
+url: "https://www.nature.com/articles/s41586-026-10830-y"
+authors: ["C. Herranz-Ors", "S. G. Bhosle", "A. E. Beck", "J. G. R. Gilbert", "G. Picco", "J. Espejo Valle-Inclan", "F. Muyas", "S. Valentini", "A. E. Andres", "R. Ansari", "S. Barthorpe", "G. Battarbee", "C. M. Beaver", "S. Brocklesby", "J. Cantwell", "C. A. Collins", "J. Davis", "H. G. Dimitrova", "J. Doran", "E. Efendi", "K. Evans", "M. Fekry", "T. A. Fowler", "M. Garcia-Casado", "J. A. T. Griffiths", "C. Hall", "R. Hamer", "C. Hardy", "Z. Hewitson", "E. Hitch", "L. Holland", "D. A. Jackson", "N. Joshi", "A. Kavasakali", "L. Letchford", "H. B. Lightfoot", "H. Lingala", "I. Mali", "K. May", "T. Mironenko", "J. Morris", "C. Pacini", "S. Price", "G. Robert-Tissot", "H. A. Rogers", "J. V. Smith", "K. Smith", "E. Souster", "W. J. Spence", "F. Thomas", "S. F. Vieira", "S. Walker", "G. Alfonsin", "H. Bermingham", "H. Coles", "D. P. Ennis", "A. Freeman", "G. Giannone", "N. Grehan", "E. A. Griffiths", "J. Hall", "S. L. Lee", "E. Y. L. Leung", "C. Loreno", "C. Millington", "A. Mirnezami", "B. Nutzinger", "K. Orzechowska", "C. M. A. Pinna", "A. M. Redmond", "K. Roberts", "S. Roy", "D. A. Sanders", "P. Taniere", "M. Vias", "K. Wanigasooriya", "P. A. W. Edwards", "S. Abbas", "E. C. Smyth", "M. O’Donovan", "A. Miremadi", "S. Malhotra", "M. Tripathi", "C. Cheah", "M. Eldridge", "M. Secrier", "G. Devonshire", "S. Jammula", "J. Davies", "C. Crichton", "N. Carroll", "R. H. Hardwick", "P. Safranek", "A. Hindmarsh", "V. Sujendran", "S. J. Hayes", "Y. Ang", "A. Sharrocks", "S. R. Preston", "I. Bagwan", "V. Save", "R. J. E. Skipworth", "J. R. O’Neill", "O. Tucker", "A. Beggs", "S. Puig", "G. Contino", "B. L. Grace", "J. Lagergren", "J. Gossage", "A. Davies", "F. Chang", "U. Mahadeva", "V. Goh", "F. D. Ciccarelli", "G. Sanders", "D. Chan", "E. Cheong", "B. Kumar", "L. Sreedharan", "S. L. Parsons", "I. Soomro", "P. Kaye", "J. Saunders", "L. Lovat", "R. Haidry", "M. Scott", "S. Sothi", "G. B. Hanna", "C. J. Peters", "K. Moorthy", "A. Grabowska", "R. Turkington", "D. McManus", "H. Coleman", "R. D. Petty", "F. Bartlett", "T. D. L. Crosby", "M. R. Stratton", "L. M. Staudt", "U. McDermott", "J. D. Brenton", "I. A. McNeish", "A. Biankin", "O. J. Sansom", "I. Cortes-Ciriano", "T. J. Underwood", "R. C. Fitzgerald", "A. D. Beggs", "H. E. Francies", "M. J. Garnett"]
+date: "2026-08-05"
+score: 65
+guid: "10.1038/s41586-026-10830-y"
+image: ""
+generated: "2026-08-06T19:05:18+05:30"
+---
+
+A clinically annotated multi-omic organoid resource with matched tumour samples from 256 patients across 5 cancers maps gene dependencies, reveals subtype-specific vulnerabilities and uncovers treatment-driven changes, expanding mechanistic insight and models for precision oncology.

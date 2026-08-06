@@ -5,10 +5,10 @@ source: "HF Trending Papers"
 url: "https://huggingface.co/papers/2608.01127"
 authors: ["Yian Zhao", "Ruochong Zheng", "Hongcan Guo", "Yu Yan", "Jian Zhang", "Jie Chen"]
 date: "2026-08-01T20:00:00.000Z"
-score: 75
+score: 70
 guid: "2608.01127"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2608.01127.png"
-generated: "2026-08-05T20:00:21+05:30"
+generated: "2026-08-06T19:05:18+05:30"
 ---
 
-MiniWorld is a reproducible, lightweight framework for training video world models from scratch with modest computational resources. It uses a block-causal Video Diffusion Transformer trained with flow matching in latent space, implements chunk-wise noise scheduling and two-stage training for temporal stability, and employs rolling KV cache during inference. This approach makes competitive video world models accessible for embodied AI and interactive simulation without massive computational overhead.
+Video world models predict future observations conditioned on historical observations and control signals, enabling long-horizon generation through autoregressive state transitions. Unlike conventional video generation models that primarily capture visual appearance and motion, video world models learn the underlying dynamics governing environment evolution under agent actions, providing a foundation for embodied AI and interactive simulation. Recent progress has largely relied on adapting pretrained video generation models through post-training or distillation. Although effective, these approaches often require complex training pipelines, substantial computational resources, and suffer from the mismatch between bidirectional pretraining and causal streaming inference. Recent studies have shown that training autoregressive video world models from scratch is feasible and scalable. However, the community still lacks a lightweight, transparent, and fully reproducible baseline trainable end-to-end with modest computational resources. We present MiniWorld, a reproducible framework for training streaming video world models from scratch. MiniWorld employs a block-causal Video Diffusion Transformer trained with Flow Matching in the latent space of a pretrained Video VAE. Building on Diffusion Forcing, it adopts a chunk-wise non-decreasing noise schedule and two-stage continued training to improve temporal modeling and stability. During inference, MiniWorld combines a rolling KV cache with pipelined asynchronous denoising for efficient streaming generation under bounded computation. The entire model can be trained within several days on a single 8-GPU server. By releasing the training and inference codebase and pretrained checkpoints, we hope MiniWorld will facilitate future research on video world modeling.

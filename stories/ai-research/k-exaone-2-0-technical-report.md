@@ -1,0 +1,14 @@
+---
+title: "K-EXAONE 2.0 Technical Report"
+category: "AI Research"
+source: "HF Trending Papers"
+url: "https://huggingface.co/papers/2608.04505"
+authors: ["Eunbi Choi", "Kibong Choi", "Sehyun Chun", "Seokhee Hong", "Junwon Hwang", "Hyojin Jeon", "Ahra Jo", "Hyunjik Jo", "Yeonsik Jo", "Minhyeok Jung", "Doyoung Kim", "Heegyu Kim", "Joonkee Kim", "Seonghwan Kim", "Soyeon Kim", "Sunkyoung Kim", "Yireun Kim", "Yongil Kim", "Byungoh Ko", "Changhun Lee", "Dohaeng Lee", "Haeju Lee", "Jinsik Lee", "Kyungmin Lee", "Minwoo Lee", "Wonkee Lee", "Sangha Park", "Sungjune Park", "Kwangrok Ryoo", "Kijung Seo", "Minju Seo", "Yongwoo Song", "Sejong Yang", "Heuiyeen Yeen", "Stanley Jungkyu Choi", "Yemuk Choi", "Yongchan Chun", "Jiwon Ham", "Dasol Hong", "Sujeong Im", "Kijeong Jeon", "Gerrard Jeongwon Jo", "Hyeongjun Jo", "Yujin Jo", "Jiyeon Jung", "Naeun Kang", "Daeseong Kim", "Euisoon Kim", "Hayeon Kim", "Hyosang Kim", "Myoungshin Kim", "Unsol Kim", "Youchul Kim", "Chaeeun Lee", "ChaeYoon Lee", "Edward Hwayoung Lee", "Honglak Lee", "Hwansoo Lee", "Minkyung Lee", "Sangeun Lee", "Solji Lim", "Woohyung Lim", "Chanwoo Moon", "Jueun Mun", "Jimin Park", "Seojeong Park", "Yongmin Park", "Hyerin Seo", "Donghyeon Shin", "Donghyun Son", "Eunyong Son", "Kaehyun Um", "Sihoon Yang", "Chang En Yea", "Sihyuk Yi", "Kyungjae Yoo", "Chansik Yoon"]
+date: "2026-08-04T20:00:00.000Z"
+score: 60
+guid: "2608.04505"
+image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2608.04505.png"
+generated: "2026-08-06T19:05:18+05:30"
+---
+
+This technical report presents K-EXAONE 2.0, an open-weight multilingual foundation model developed by LG AI Research as a step in our effort toward global frontier-scale foundation models. Rather than training from scratch, we upcycle K-EXAONE and expand its architecture, yielding a Mixture-of-Experts (MoE) model with 750B total parameters and approximately 37B activated per token---more than three times the capacity of its predecessor. K-EXAONE 2.0 supports context lengths of up to 256K tokens and expands multilingual coverage from six to ten languages. Its training pipeline combines continual pre-training, difficulty-focused mid-training, and post-training to strengthen reasoning, agentic coding, multilingual capability, and safety grounded in Korean sociocultural contexts. Across nine evaluation categories selected to reflect the conditions of practical use, K-EXAONE 2.0 improves over K-EXAONE and remains competitive with open-weight models, showing its largest gains in agentic coding and long-context understanding and its clearest strengths in long-context retrieval and safety. Released under the Apache 2.0 license, K-EXAONE 2.0 enables the wider AI ecosystem to evaluate, deploy, adapt, and build upon it, while marking the beginning---rather than the endpoint---of our challenge toward the global frontier.

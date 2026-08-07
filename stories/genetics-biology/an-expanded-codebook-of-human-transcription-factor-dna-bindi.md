@@ -8,7 +8,7 @@ date: "2026-08-05"
 score: 65
 guid: "10.1038/s41586-026-10798-9"
 image: ""
-generated: "2026-08-06T19:05:18+05:30"
+generated: "2026-08-07T19:04:45+05:30"
 ---
 
 Results from a panel of assays that analyse different aspects of DNA sequence specificity reveal more than 100 new motifs to aid the characterization of putative human transcription factors.

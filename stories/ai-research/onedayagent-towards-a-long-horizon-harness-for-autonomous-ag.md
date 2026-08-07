@@ -5,10 +5,10 @@ source: "HF Trending Papers"
 url: "https://huggingface.co/papers/2608.05013"
 authors: ["Jingsheng Zheng", "Xinyuan Fang", "Jintian Zhang", "Zhengke Gui", "Huajun Chen", "Ningyu Zhang"]
 date: "2026-08-03T20:00:00.000Z"
-score: 75
+score: 70
 guid: "2608.05013"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2608.05013.png"
-generated: "2026-08-06T19:05:18+05:30"
+generated: "2026-08-07T19:04:45+05:30"
 ---
 
-OneDayAgent provides a unified harness for long-horizon autonomous agent tasks spanning work, study, and life. The system decomposes open-ended requests into bounded subtasks, maintains execution memory under context pressure, and verifies and repairs final deliverables. Evaluated on 104 tasks from AgentIF-OneDay, it achieves 0.821 overall score with GLM-5.2 and generalizes across five LLMs from three model families without backend-specific tuning. Addresses critical failure modes including goal drift, state loss, and context overflow, enabling reliable autonomous agents across heterogeneous tools and environments.
+LLM agents are increasingly applied to open-ended everyday requests that span work, study, and life. These tasks are long-horizon, cross-environment, and multimodal, forcing the agent to preserve goals and constraints across many steps while navigating heterogeneous tools and attachments. While prior work has addressed individual failure modes such as goals drift, states loss, and context overflow, whether a single harness can manage them jointly and remain effective across backends has received less study. We present OneDayAgent, a long-horizon harness for autonomous agents. OneDayAgent turns an open-ended request into a managed execution process that decomposes tasks into bounded subtasks, maintains execution memory under context pressure, and verifies and repairs the final deliverable. We evaluate OneDayAgent on AgentIF-OneDay across 104 tasks. With the GLM-5.2 backend, OneDayAgent sets a new state of the art with an overall score of 0.821. The same harness runs across five backend LLMs from three model families, indicating the harness generalizes across backends without tuning, even as different models induce distinct execution styles under the same workflow.

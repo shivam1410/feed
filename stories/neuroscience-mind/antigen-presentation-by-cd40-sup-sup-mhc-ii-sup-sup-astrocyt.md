@@ -8,7 +8,7 @@ date: "2026-08-05"
 score: 65
 guid: "10.1038/s41586-026-10860-6"
 image: ""
-generated: "2026-08-06T19:05:18+05:30"
+generated: "2026-08-07T19:04:45+05:30"
 ---
 
 Astrocytes promote central nervous system (CNS) immunity through antigen presentation and activation of CD40 in astrocytes by CD40L expressed by CD4+ T cells in a model of experimental autoimmune encephalomyelitis.

@@ -8,7 +8,7 @@ date: "2026-08-04"
 score: 55
 guid: "10.1038/d41586-026-02426-3"
 image: ""
-generated: "2026-08-04T20:29:16+05:30"
+generated: "2026-08-07T19:04:45+05:30"
 ---
 
-Put health systems at the centre of European heatwave plans
+This opinion piece advocates integrating health system infrastructure centrally into European heatwave preparedness and response strategies, presumably to improve public-health outcomes and resilience during extreme heat events.

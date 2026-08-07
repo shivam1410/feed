@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/s41586-026-10887-9"
 authors: ["S. Aryana Yousefzadeh", "Haidun Yan", "Seung-Hwa Kwak", "Yunju Oh", "Pyeonghwa Jeong", "Vladimir Pogorelov", "J. Russell Ravenel", "Shaun S. X. Lim", "James M. Roach", "Brenda C. Shields", "Ramona M. Rodriguiz", "William C. Wetsel", "Jiyong Hong", "Michael R. Tadross"]
 date: "2026-08-05"
-score: 72
+score: 75
 guid: "10.1038/s41586-026-10887-9"
 image: ""
-generated: "2026-08-06T19:05:18+05:30"
+generated: "2026-08-07T19:04:45+05:30"
 ---
 
-Cell-type-specific opioid blockade in nucleus accumbens cholinergic interneurons abolished morphine-reward learning while preserving analgesia. The findings show morphine activates separate neural mechanisms involving dopamine and acetylcholine, suggesting pro-cholinergic strategies could limit early opioid reward addiction without compromising pain relief.
+Researchers found that blocking opioid receptors specifically in cholinergic interneurons of the nucleus accumbens prevents morphine-reward learning while preserving pain-relief effects. This selective blockade severs the connection between morphine-induced dopamine and acetylcholine changes that drive addiction, suggesting enhancing cholinergic signaling might reduce opioid vulnerability without compromising pain management.

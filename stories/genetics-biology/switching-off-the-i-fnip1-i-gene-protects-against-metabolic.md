@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/d41586-026-02391-x"
 authors: []
 date: "2026-08-05"
-score: 74
+score: 75
 guid: "10.1038/d41586-026-02391-x"
 image: ""
-generated: "2026-08-06T19:05:18+05:30"
+generated: "2026-08-07T19:04:45+05:30"
 ---
 
-Analysis of over one million people reveals that rare genetic variants disrupting the FNIP1 gene are associated with approximately 60% lower cardiometabolic disease risk compared to the general population. Carriers show favorable metabolic profiles with improved muscle-to-fat ratios. Laboratory experiments confirm that silencing FNIP1 genes in mice triggers fat breakdown and reproduces these metabolic benefits. FNIP1 emerges as a promising therapeutic target for developing new treatments against obesity and cardiometabolic disease.
+A study of over one million individuals discovered that rare genetic variants disrupting FNIP1 confer roughly 60% lower cardiometabolic disease risk versus general populations. Mouse experiments confirmed that silencing FNIP1-pathway genes triggers fat breakdown and reproduces these protective metabolic changes, establishing FNIP1 as a viable therapeutic target for preventing diabetes and heart disease.

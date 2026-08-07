@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/s41586-026-10871-3"
 authors: ["David Kuridze", "Friedrich Wöger", "Michiel van Noort", "Matthias Rempel", "Robert Cameron", "Thomas Rimmele", "Sami K. Solanki", "Sarah A. Jaeggli", "Alexandra Tritschler", "Han Uitenbroek", "Damien Przybylski", "David A. Boboltz"]
 date: "2026-08-05"
-score: 78
+score: 70
 guid: "10.1038/s41586-026-10871-3"
 image: ""
-generated: "2026-08-06T19:05:18+05:30"
+generated: "2026-08-07T19:04:45+05:30"
 ---
 
-High-resolution solar observations reveal the photosphere is far more dynamic and complex than previously understood. Ubiquitous Kelvin–Helmholtz instabilities—fluid dynamics phenomena from velocity shear—actively drive plasma mixing across the solar surface, reshaping understanding of solar magnetic activity and energy transport.
+High-spatial-resolution observations of the solar photosphere reveal a far more complex and dynamic solar scene than previously observed and show that ubiquitous Kelvin–Helmholtz instabilities drive plasma mixing on the Sun.

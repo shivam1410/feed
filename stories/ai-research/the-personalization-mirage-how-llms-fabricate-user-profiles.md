@@ -8,7 +8,7 @@ date: "2026-08-04T20:00:00.000Z"
 score: 75
 guid: "2608.04570"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2608.04570.png"
-generated: "2026-08-06T19:05:18+05:30"
+generated: "2026-08-07T19:04:45+05:30"
 ---
 
-Personalized LLMs systematically fabricate user attributes beyond available evidence, a phenomenon called over-inference. MirageBench evaluated 143,616 claims across 12 models from 7 families, finding every model over-infers 35–49% of attributes (mean 41.6%). A self-monitoring inversion paradox reveals models reporting lowest over-inference actually fabricate most (rank correlation −0.60). Over-inference ranges 27–59% depending on task. Within-model self-audit moderately works (AUROC 0.58–0.83), but self-reported confidence is misleading for model comparison, fundamentally challenging current personalization approaches.
+Every evaluated personalized LLM over-infers user attributes 35–49% (mean 41.6%), fabricating details beyond evidence across 143,616 judged claims spanning 150 personas and 12 models. Critically, models' self-reported over-inference negatively correlates with actual over-inference (rho = -0.60), meaning the most confident systems are often least trustworthy. This fundamental gap between perceived and measured reliability raises serious concerns about LLM trustworthiness in applications requiring faithful user modeling.

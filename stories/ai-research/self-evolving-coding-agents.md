@@ -5,10 +5,10 @@ source: "HF Trending Papers"
 url: "https://huggingface.co/papers/2608.03392"
 authors: ["Hao Zhou", "Haichuan Hu", "Ye Shang", "Quanjun Zhang"]
 date: "2026-08-03T20:00:00.000Z"
-score: 75
+score: 70
 guid: "2608.03392"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2608.03392.png"
-generated: "2026-08-06T19:05:18+05:30"
+generated: "2026-08-07T19:04:45+05:30"
 ---
 
-Large language models now work as autonomous coding agents inspecting code repositories, running tests, and generating patches. However, static agents deployed once struggle as software evolves. A comprehensive survey catalogs self-evolving coding agents that improve over time by updating their frameworks, memories, skills, tools, and collaboration structures from experience. Software engineering offers unique advantages through executable feedback, repository-level context, and coding trajectories, though challenges remain in feedback reliability, safety, cost, and generalization.
+Large language models are increasingly embedded in software engineering workflows as coding agents that can inspect repositories, invoke tools, execute tests, debug failures, and generate patches. Yet most existing agents remain largely static after deployment, even though software development is a dynamic, feedback-rich process in which repositories evolve, dependencies change, tests fail, and repair attempts leave reusable experience. This tension has motivated a growing body of work on self-evolving coding agents, where the agent improves its future behavior by updating its framework, memory, skills, tools, models, or collaboration structures from prior coding interactions. In this survey, we provide a systematic synthesis of this emerging area. We first define self-evolving coding agents and distinguish them from conventional coding agents and general self-evolving agents. We then develop an object-centered taxonomy that characterizes what evolves in these systems, and complement it with two orthogonal perspectives: when evolution occurs and what software-specific evidence drives it. Across the literature, we find that executable feedback, repository-level context, and coding trajectories give software engineering a distinctive role as a natural domain for agent self-evolution, but also introduce new challenges in feedback reliability, benchmark overfitting, safety, maintainability, cost, and generalization. By organizing existing work around these dimensions, this survey aims to clarify the conceptual boundaries of self-evolving coding agents and provide a foundation for designing more adaptive, reliable, and software-aware agentic systems. The papers we collect can be found at https://github.com/zhouhao1024/Awesome-Self-Evolving-Coding-Agents.

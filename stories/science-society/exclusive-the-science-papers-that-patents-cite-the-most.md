@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/d41586-026-02386-8"
 authors: ["Richard  Van Noorden", "Heidi Ledford", "Edward Chen"]
 date: "2026-08-05"
-score: 38
+score: 50
 guid: "10.1038/d41586-026-02386-8"
 image: ""
-generated: "2026-08-06T19:05:18+05:30"
+generated: "2026-08-07T19:04:45+05:30"
 ---
 
 Nature reveals the studies that are mentioned most often in patent filings — and why.

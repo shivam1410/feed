@@ -8,7 +8,7 @@ date: "2026-08-02T20:00:00.000Z"
 score: 70
 guid: "2608.02580"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2608.02580.png"
-generated: "2026-08-06T19:05:18+05:30"
+generated: "2026-08-07T19:04:45+05:30"
 ---
 
-Ego2Robot converts egocentric human manipulation videos into large-scale robot training data through action retargeting and visual synthesis. The pipeline produces 18,561 hours of diverse training data spanning 15 different robot morphologies—the largest ego-to-robot dataset created to date. Robots pretrained on this synthesized data generalize better to new visual appearances, scene layouts, different morphologies, and unfamiliar tasks. Real-world robot experiments validate these improvements, demonstrating a scalable approach leveraging human video data to address robot learning challenges.
+Ego2Robot converts egocentric human manipulation videos into robot training data via action retargeting and visual synthesis, creating 18,561 hours spanning 15 robot morphologies—the largest ego-to-robot dataset. Joint pretraining on synthesized and real robot data consistently improves generalization across visual appearance, scene layout, embodiment morphology, and task variations, with benefits validated on physical robots. This addresses robot learning's data scarcity bottleneck by leveraging abundant human video.

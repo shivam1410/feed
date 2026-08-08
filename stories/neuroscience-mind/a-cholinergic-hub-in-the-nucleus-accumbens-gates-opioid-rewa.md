@@ -8,7 +8,7 @@ date: "2026-08-05"
 score: 75
 guid: "10.1038/s41586-026-10887-9"
 image: ""
-generated: "2026-08-07T19:04:45+05:30"
+generated: "2026-08-08T19:05:03+05:30"
 ---
 
-Researchers found that blocking opioid receptors specifically in cholinergic interneurons of the nucleus accumbens prevents morphine-reward learning while preserving pain-relief effects. This selective blockade severs the connection between morphine-induced dopamine and acetylcholine changes that drive addiction, suggesting enhancing cholinergic signaling might reduce opioid vulnerability without compromising pain management.
+Cell-type-specific genetic studies reveal that cholinergic interneurons in the nucleus accumbens control opioid reward learning. Blocking opioid receptors specifically in these cells abolishes morphine-conditioned reward without impairing pain relief. The manipulation decouples morphine-evoked dopamine elevations from acetylcholine dips, suggesting that cholinergic signaling is necessary for reward association. These findings identify a specific neural circuit controlling opioid reward and propose pro-cholinergic strategies as a potential approach to prevent early addiction development while preserving the analgesic benefits of opioids.

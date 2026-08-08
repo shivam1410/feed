@@ -8,7 +8,7 @@ date: "2026-08-05"
 score: 75
 guid: "10.1038/s41586-026-10740-z"
 image: ""
-generated: "2026-08-07T19:04:45+05:30"
+generated: "2026-08-08T19:05:03+05:30"
 ---
 
-Multiple herpesviruses and anelloviruses reactivate during both acute and long COVID-19 infections, with reactivation levels correlating with disease severity, inflammatory markers, and patient outcomes. This pattern mirrors findings in other severe viral infections where immune stress triggers latent virus reactivation. These viral signatures provide prognostic indicators—measuring their levels helps predict disease course. Understanding viral reactivation in COVID-19 suggests new therapeutic strategies: controlling viral reactivation might reduce inflammation and improve outcomes.
+Chronic reactivation of distinct herpesviruses and anelloviruses occur during acute and long COVID-19, and track with disease severity, inflammation and outcomes, revealing immune signatures with prognostic potential.

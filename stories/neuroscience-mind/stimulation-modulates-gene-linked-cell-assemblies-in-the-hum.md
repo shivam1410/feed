@@ -8,7 +8,7 @@ date: "2026-08-05"
 score: 75
 guid: "10.1038/s41586-026-10879-9"
 image: ""
-generated: "2026-08-07T19:04:45+05:30"
+generated: "2026-08-08T19:05:03+05:30"
 ---
 
-Cortical stimulation in human brain tissue reorganizes neural cell assemblies and activates cell-type-specific genetic programs. This ex vivo study established a framework linking stimulation parameters—intensity, duration, frequency—to both circuit-level changes and molecular-level gene expression changes. Understanding how stimulation parameters drive specific neural and genetic responses enables rational design of neuromodulatory therapies targeting particular brain circuits and cell populations. This work supports development of more precise treatments for neurological disorders.
+Electrical stimulation of human cortex reorganizes neural assemblies and induces cell-type-specific gene regulatory programs, establishing a framework linking stimulation parameters to circuit and transcriptional responses. This ex vivo research provides insights into how stimulation reshapes neural circuits at molecular level. The work bridges neuroscience and molecular biology. This matters because understanding how brain stimulation affects gene expression enables more rational, targeted design of neuromodulatory therapies for neurological and psychiatric conditions based on molecular mechanisms rather than empirical trial.

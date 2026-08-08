@@ -5,10 +5,13 @@ source: "HF Trending Papers"
 url: "https://huggingface.co/papers/2608.01481"
 authors: ["Ilia Semenkov", "Daria Kleeva", "Ivan Dakhtin", "Zarina Maksudova", "Alex Ossadtchi"]
 date: "2026-08-01T20:00:00.000Z"
-score: 75
+score: 70
 guid: "2608.01481"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2608.01481.png"
-generated: "2026-08-07T19:04:45+05:30"
+generated: "2026-08-08T19:05:03+05:30"
 ---
 
-Researchers achieved 39.75% top-1 accuracy reconstructing perceived speech from non-invasive brain recordings (magnetoencephalography) by redesigning neural decoders using spherical harmonics, reducing parameters 20-fold to just 25 branches. The interpretable model maps to known speech-perception brain regions and identifies silence, sound intensity, vowels, and acoustic onsets as strongest drivers. This advances brain-computer interfaces by combining high performance with explainability, enabling identification of which brain signals encode speech properties.
+Short segments of perceived speech can be retrieved from non-invasive magnetoencephalographic (MEG) recordings by deep networks trained with a CLIP-style objective against wav2vec 2.0 audio embeddings. Yet their weights do not map onto electrophysiological quantities, and it remains unclear which speech properties drive retrieval.
+  We build on a high-performing MEG-to-audio retrieval architecture but redesign both its front end and decoder. Its spatial attention operates on a flattened sensor layout; we replace it with spherical harmonics defined on the three-dimensional MEG helmet geometry. We reduce the subject-specific representation from 270 to 25 branches, add a temporal filter to each branch to match it to a neuronal source in space and time, and make the convolutional decoder shallower. Ocular and cardiac components are removed before training to reduce the risk of stimulus-locked shortcuts.
+  On MEG-MASC, the model reaches 39.75 +/- 0.34% Top-1 accuracy among 1005 candidates across six trained solutions, with about 20 times fewer decoder parameters. Its weights map to source space, recovering generators consistent with the speech-perception network, while left-lateralized branches carry higher-frequency rhythmic components not evident on the right. Paired MEG occlusion shows that 15 of 19 stimulus features contribute, with the largest effects for silence, sound intensity, vowels, and acoustic onsets. Random word lists behave oppositely: substituting narrative MEG into them improves retrieval, indicating that activity without narrative structure carries less recoverable information than activity during coherent speech. The wav2vec target can be reduced to about twelve learned feature dimensions without loss of accuracy, whereas strong temporal compression causes a clear loss.
+  Together, source mapping and input interventions reveal what drives retrieval.

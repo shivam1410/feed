@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/d41586-026-02444-1"
 authors: ["Peter Gluckman"]
 date: "2026-08-05"
-score: 50
+score: 25
 guid: "10.1038/d41586-026-02444-1"
 image: ""
-generated: "2026-08-07T19:04:45+05:30"
+generated: "2026-08-08T19:05:03+05:30"
 ---
 
 Questions of public trust can be addressed only through better communication and research that meets society’s interests.

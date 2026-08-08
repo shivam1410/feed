@@ -8,7 +8,7 @@ date: "2026-08-05"
 score: 75
 guid: "10.1038/s41586-026-10899-5"
 image: ""
-generated: "2026-08-07T19:04:45+05:30"
+generated: "2026-08-08T19:05:03+05:30"
 ---
 
-A synthetic peptide called aMPC16-CA50 responds to the acidic tumor microenvironment by disrupting cell membranes, triggering immunogenic cell death—a form of programmed death that activates anti-cancer immune responses. When combined with immune checkpoint blockade therapy, aMPC16-CA50 substantially enhances therapeutic efficacy. The acid-responsive design ensures activation specifically within acidic tumor regions while sparing normal tissues. This targeted approach addresses immune suppression in tumors, offering a rationally designed combination strategy.
+The synthetic-acid-responsive membranolytic peptide aMPC16-CA50 induces immunogenic membranolytic cell death in tumour cells, robustly potentiating immune checkpoint blockade therapy.

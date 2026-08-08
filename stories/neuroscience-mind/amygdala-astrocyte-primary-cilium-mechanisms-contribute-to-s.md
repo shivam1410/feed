@@ -8,7 +8,7 @@ date: "2026-08-05"
 score: 70
 guid: "10.1038/s41586-026-10874-0"
 image: ""
-generated: "2026-08-07T19:04:45+05:30"
+generated: "2026-08-08T19:05:03+05:30"
 ---
 
 Amygdala astrocyte primary cilia are disrupted during stress, and their restoration leads to improvements in stress-related behaviour in mice.

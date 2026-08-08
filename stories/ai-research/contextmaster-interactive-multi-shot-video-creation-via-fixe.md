@@ -5,10 +5,10 @@ source: "HF Trending Papers"
 url: "https://huggingface.co/papers/2608.04956"
 authors: ["Xu Guo", "Zhengxuan Wei", "Xinghui Li", "Hanzhuo Huang", "Xinyu Liu", "Xiangyang Luo", "Min Wei", "Yiran Zhu", "Qiulin Wang", "Yulong Xu", "Xintao Wang", "Pengfei Wan", "Qi Fan", "Xiangwang Hou"]
 date: "2026-08-04T20:00:00.000Z"
-score: 55
+score: 60
 guid: "2608.04956"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2608.04956.png"
-generated: "2026-08-07T19:04:45+05:30"
+generated: "2026-08-08T19:05:03+05:30"
 ---
 
 Recent video models increasingly support generation, reference conditioning, and editing within a single model, yet typically expose them as separate operations over fixed inputs. Practical creation unfolds across multiple shots, requiring one model to generate from text, follow a reference, or edit source footage while maintaining shared history. We formalize this setting as interactive multi-shot video creation (IMVC) and introduce ContextMaster, a unified model with a role-aware context representation for these operations. An interactive model must retain access to an expanding history without allowing the context read cost at each denoising step to grow. ContextMaster combines reusable clean context states with fixed budget sparse context routing and uses ConstraintSink to keep task constraints visible. To address the dual challenges of sparse context access and inference with few denoising steps, we propose a two-stage privileged context distillation framework, which transfers full context behavior from a dense teacher through consistency distillation and then refines deployment rollouts with distribution matching. Experiments on the three primitive tasks demonstrate improved task fulfillment and consistency across shots over specialized baselines. User studies further validate flexibly composed workflows, while the model reaches 16 FPS on a single GPU.

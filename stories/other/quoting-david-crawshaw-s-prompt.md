@@ -5,10 +5,10 @@ source: "Simon Willison"
 url: "https://simonwillison.net/2026/Aug/3/david-crawshaw/#atom-everything"
 authors: []
 date: "2026-08-03T16:15:27+00:00"
-score: 45
+score: 25
 guid: "https://simonwillison.net/2026/Aug/3/david-crawshaw/#atom-everything"
 image: ""
-generated: "2026-08-04T20:29:16+05:30"
+generated: "2026-08-08T19:05:03+05:30"
 ---
 
-Set up a nightly cron job that executes the prompt: fetch upstream changes to the <software> and rebase all local changes on top of upstream. Check that the software works as intended and replace the current version. — David Crawshaw's prompt , Devtools must be open source Tags: prompt-engineering , coding-agents , generative-ai , ai , llms , open-source
+David Crawshaw outlined a prompt for automating nightly infrastructure maintenance: fetch upstream code changes, rebase all local modifications on top, verify the software works as intended, and replace the current version. Though brief, this example illustrates how developers increasingly delegate routine operational tasks to AI agents via natural language prompts. It matters because it signals an emerging expectation: developers now treat AI systems as autonomous agents capable of handling repetitive infrastructure tasks (CI/CD, deployments, dependency management) with minimal human oversight during normal operation.

@@ -8,7 +8,7 @@ date: "2026-08-05"
 score: 75
 guid: "10.1038/s41586-026-10864-2"
 image: ""
-generated: "2026-08-07T19:04:45+05:30"
+generated: "2026-08-08T19:05:03+05:30"
 ---
 
-Analysis of one million human genomes identified FNIP1 genetic variants associated with favorable metabolic profiles. The FNIP1 pathway controls human energy metabolism, and inhibiting it represents a promising therapeutic target for treating cardiometabolic diseases like diabetes and heart disease, suggesting a new drug strategy based on genetic insights.
+The FNIP1 pathway has a role in human energy metabolism, and its inhibition is a potential therapeutic strategy in cardiometabolic disease.

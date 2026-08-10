@@ -8,7 +8,7 @@ date: "2026-08-05T20:00:00.000Z"
 score: 65
 guid: "2608.05784"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2608.05784.png"
-generated: "2026-08-08T19:05:03+05:30"
+generated: "2026-08-10T19:05:52+05:30"
 ---
 
 Computer-use agents pay full frontier inference to re-derive routines their user has already performed, because an agent's memory today records what the user said, not what the user did. We compile passively captured screen activity into agent memory with a deterministic, zero-model pipeline: it segments a local capture stream into typed activity frames, bounded episodes carrying application, site, timing, input volume, and evidence pointers back to the raw rows, with no model in the loop, so the output is byte-identical, cacheable, and mechanically auditable. On one professional's single-user corpus of 128,756 frames over 51 active days, the compiler reduces a day of raw capture to a prompt-ready context block 86x smaller in 68 ms, and an agent reading that block answers questions about the day at 98.4% accuracy (Wilson 95% CI 91.7-99.7%) against an independent oracle, versus 66-80% for an LLM summary of the same capture, a mid-tier model reading the block matching a frontier one.

@@ -5,10 +5,10 @@ source: "Simon Willison"
 url: "https://simonwillison.net/2026/Aug/6/datasette/#atom-everything"
 authors: []
 date: "2026-08-06T18:24:34+00:00"
-score: 8
+score: 30
 guid: "https://simonwillison.net/2026/Aug/6/datasette/#atom-everything"
 image: ""
-generated: "2026-08-08T19:05:03+05:30"
+generated: "2026-08-10T19:05:52+05:30"
 ---
 
-Release: datasette 1.0a38 This release fixes a SQL injection security issue that affects Datasette instances that serve a mixture of public and private tables in the same database, with access configured using the Datasette permissions system . Site administrators who serve private tables in this way are advised to disable the execute-sql permission ` on that database to prevent users from accessing private tables using raw SQL queries. The bug that has been fixed would have allowed users with access to any public table to execute SQL injection attacks despite that restriction, giving them read-only access to data in private tables in the same database. This fix is also available in Datasette 0.65.3 . Thankfully this particular configuration - private tables and public tables exposed for the same database within the same instance - is likely to be rare. I've not encountered an instance like that myself. Tags: security , sql-injection , datasette
+Datasette 1.0a38 patches a SQL injection vulnerability affecting instances storing both public and private tables in a single database with Datasette permission controls. Users with read access to any public table could exploit SQL injection to bypass permissions and read private tables in the same database. The vulnerability is limited to a specific rare configuration mixing public and private data in one instance. Fixes are available in versions 1.0a38 and 0.65.3. Site administrators managing private tables alongside public ones are advised to disable the execute-sql permission on affected databases. While such mixed-access configurations are uncommon, the vulnerability demonstrates the importance of careful permission design when combining public and private data in shared database instances.

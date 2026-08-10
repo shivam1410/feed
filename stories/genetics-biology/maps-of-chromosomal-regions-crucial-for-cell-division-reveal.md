@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/d41586-026-02327-5"
 authors: []
 date: "2026-08-05"
-score: 70
+score: 75
 guid: "10.1038/d41586-026-02327-5"
 image: ""
-generated: "2026-08-08T19:05:03+05:30"
+generated: "2026-08-10T19:05:52+05:30"
 ---
 
-Centromeres are regions of chromosomes that are required for cell division. Complete sequence characterization of centromeres from a diverse group of 65 individuals reveals dynamic and rapid patterns of mutational change, providing information about centromere evolution and function.
+Researchers sequenced centromeres—the chromosomal regions essential for cell division—from 65 genetically diverse individuals. The complete characterization revealed centromeres undergo rapid, dynamic mutational changes across populations. These variations illuminate both how centromeres evolve and how they function during cell division. Understanding centromere diversity helps explain natural variation in human cell biology and may inform understanding of birth defects or cancer, where centromere malfunction occurs.

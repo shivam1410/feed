@@ -8,7 +8,7 @@ date: "2026-08-05"
 score: 75
 guid: "10.1038/s41586-026-10865-1"
 image: ""
-generated: "2026-08-08T19:05:03+05:30"
+generated: "2026-08-10T19:05:52+05:30"
 ---
 
-Encapsulation epitaxy enables growth of air-stable, two-dimensional superconducting films at the interface of 2D–3D hybrid substrates, overcoming a major limitation of previous approaches. Air stability is critical because exposure to atmospheric oxygen normally destroys superconductivity in thin films. This technique promises to enable reliable fabrication of superconducting quantum circuits. This matters because air-stable 2D superconductors could overcome a major engineering obstacle to building practical quantum computing systems using superconducting qubits.
+Researchers developed 'encapsulation epitaxy'—a growth technique producing air-stable, two-dimensional superconducting films at the interface of 2D-3D hybrid substrates. Previously, 2D superconductors degraded when exposed to air, limiting applications. This advancement stabilizes films while maintaining superconducting properties, enabling quantum circuit fabrication. The method positions these materials as viable candidates for quantum computers and quantum devices. By resolving air-stability challenges, encapsulation epitaxy removes a major barrier to integrating 2D superconductors into working quantum technologies.

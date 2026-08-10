@@ -8,7 +8,7 @@ date: "2026-08-05"
 score: 60
 guid: "10.1038/s41586-026-10970-1"
 image: ""
-generated: "2026-08-08T19:05:03+05:30"
+generated: "2026-08-10T19:05:52+05:30"
 ---
 
 Thermally evaporated perovskite/silicon tandems via formamidinium eutectic

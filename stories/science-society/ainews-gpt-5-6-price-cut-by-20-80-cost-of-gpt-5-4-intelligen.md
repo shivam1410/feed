@@ -5,10 +5,10 @@ source: "Latent Space"
 url: "https://www.latent.space/p/ainews-gpt-56-price-cut-by-20-80"
 authors: []
 date: "Fri, 31 Jul 2026 04:40:54 GMT"
-score: 78
+score: 75
 guid: "https://www.latent.space/p/ainews-gpt-56-price-cut-by-20-80"
 image: ""
-generated: "2026-08-07T19:04:45+05:30"
+generated: "2026-08-10T19:05:52+05:30"
 ---
 
-OpenAI reports GPT 5.6 achieved 20–80% price reductions through self-optimization: the model analyzed production traffic to tune load balancing and autonomously rewrote inference kernels, reducing serving costs 20%, while improved speculative decoding increased token efficiency 15%. Constant-level AI intelligence continues dropping precipitously in cost—GPT 4-level intelligence fell 1000x over 18 months—suggesting abundant gains remain beyond early optimization in inference systems.
+GPT-5.6 achieves 20-80% price reductions through recursive self-optimization—the model autonomously analyzed production traffic, tuned load balancing, and rewrote serving kernels in Triton and Gluon to cut infrastructure costs by 20%. Speculative decoding improvements from autonomous architecture experiments boosted token-generation efficiency by 15%. Over 18 months, models maintaining constant capability (measured by LMSys Elo) dropped 1000x in cost; this trend continues rather than plateauing, indicating cost reductions persist beyond initial optimization gains. OpenAI published these technical details showing continued exponential cost improvement. This matters because cheaper AI-equivalent capability reshapes economics for every application—coding, analysis, creative work—through efficiency gains.

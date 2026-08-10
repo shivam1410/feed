@@ -8,7 +8,7 @@ date: "2026-08-05"
 score: 75
 guid: "10.1038/s41586-026-10864-2"
 image: ""
-generated: "2026-08-08T19:05:03+05:30"
+generated: "2026-08-10T19:05:52+05:30"
 ---
 
-The FNIP1 pathway has a role in human energy metabolism, and its inhibition is a potential therapeutic strategy in cardiometabolic disease.
+A genetic study identified variants in the FNIP1 gene associated with improved energy metabolism across 1 million human genomes. The FNIP1 pathway influences how the body processes energy. Inhibiting this pathway represents a potential therapeutic approach for treating cardiometabolic diseases—conditions like diabetes and heart disease linked to metabolic dysfunction. This finding suggests that manipulating this specific genetic target could prevent or manage metabolic disorders affecting millions.

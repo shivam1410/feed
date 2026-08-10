@@ -8,7 +8,7 @@ date: "2026-08-05"
 score: 15
 guid: "10.1038/s41586-026-10977-8"
 image: ""
-generated: "2026-08-08T19:05:03+05:30"
+generated: "2026-08-10T19:05:52+05:30"
 ---
 
 Editorial Expression of Concern: Tumour exosome integrins determine organotropic metastasis

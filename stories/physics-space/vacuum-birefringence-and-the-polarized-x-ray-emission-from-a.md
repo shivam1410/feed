@@ -8,7 +8,7 @@ date: "2026-08-05"
 score: 75
 guid: "10.1038/s41586-026-10859-z"
 image: ""
-generated: "2026-08-08T19:05:03+05:30"
+generated: "2026-08-10T19:05:52+05:30"
 ---
 
-Polarization measurements of the magnetar 1E 1547.0−5408 provide strong evidence that vacuum birefringence shapes X-ray propagation, offering an important observational test of quantum electrodynamics in extreme magnetic fields.
+Polarization measurements of X-rays from magnetar 1E 1547.0-5408 provide evidence that vacuum birefringence—predicted by quantum electrodynamics—shapes light propagation through extreme magnetic fields. In sufficiently intense magnetism, empty space becomes optically anisotropic, rotating light polarization. Magnetars with magnetic fields trillions of times stronger than Earth's provide natural laboratories testing fundamental physics under impossible-to-replicate conditions. This result validates theoretical predictions and demonstrates how astrophysical observations probe quantum physics at its extreme limits.

@@ -8,7 +8,7 @@ date: "2026-08-05"
 score: 70
 guid: "10.1038/s41586-026-10873-1"
 image: ""
-generated: "2026-08-07T19:04:45+05:30"
+generated: "2026-08-10T19:05:52+05:30"
 ---
 
-M12 is a newly discovered metabolically activated molecular glue that harnesses glutathione to recruit diverse target proteins to DCAF11, enabling their selective ubiquitin-mediated degradation. This glutathione-dependent mechanism represents a novel approach to targeted protein degradation that could work across multiple substrates, expanding the toolkit for therapeutic protein removal beyond existing methods.
+M12 is a metabolically activated molecular glue that recruits diverse proteins to DCAF11 for ubiquitin-mediated degradation, revealing a glutathione-dependent mechanism that broadens targeted protein degradation across multiple substrates.

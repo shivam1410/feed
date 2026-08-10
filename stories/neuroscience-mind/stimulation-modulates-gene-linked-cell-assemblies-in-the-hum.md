@@ -8,7 +8,7 @@ date: "2026-08-05"
 score: 75
 guid: "10.1038/s41586-026-10879-9"
 image: ""
-generated: "2026-08-08T19:05:03+05:30"
+generated: "2026-08-10T19:05:52+05:30"
 ---
 
-Electrical stimulation of human cortex reorganizes neural assemblies and induces cell-type-specific gene regulatory programs, establishing a framework linking stimulation parameters to circuit and transcriptional responses. This ex vivo research provides insights into how stimulation reshapes neural circuits at molecular level. The work bridges neuroscience and molecular biology. This matters because understanding how brain stimulation affects gene expression enables more rational, targeted design of neuromodulatory therapies for neurological and psychiatric conditions based on molecular mechanisms rather than empirical trial.
+Cortex stimulation reorganizes neural circuits and activates cell-type-specific gene regulatory programs, establishing a new ex vivo framework. Researchers stimulated human brain tissue and measured both circuit reorganization and molecular responses—which genes activated in specific cell types. This dual-level analysis revealed stimulation parameters directly influence transcriptional responses. The framework provides a roadmap for designing targeted neuromodulatory therapies, enabling precision medicine for epilepsy, depression, and neurological conditions by linking electrical stimulation to gene expression changes.

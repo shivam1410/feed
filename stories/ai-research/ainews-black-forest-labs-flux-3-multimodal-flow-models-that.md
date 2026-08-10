@@ -5,10 +5,10 @@ source: "Latent Space"
 url: "https://www.latent.space/p/ainews-black-forest-labs-flux-3-multimodal"
 authors: []
 date: "Fri, 24 Jul 2026 04:30:12 GMT"
-score: 78
+score: 80
 guid: "https://www.latent.space/p/ainews-black-forest-labs-flux-3-multimodal"
 image: ""
-generated: "2026-08-08T19:05:03+05:30"
+generated: "2026-08-10T19:05:52+05:30"
 ---
 
-Black Forest Labs launched FLUX 3 Video, a multimodal flow model exceeding performance of Seedance 2.0, Gemini Omni, and Grok Imagine. BFL also released FLUX-mimic, a video-action robotics model. These announcements came amid competing releases from OpenAI (ChatGPT Voice for consumers and OpenAI Presence for enterprises), though neither matched FLUX 3's apparent significance. It matters because FLUX 3 represents substantial progress in generative video synthesis beyond single-image generation, directly challenging established competitors and expanding AI capability into longer-form multimodal content creation.
+Black Forest Labs released FLUX 3, a multimodal flow model reported to outperform Seedance 2.0, Gemini Omni, and Grok Imagine. The launch includes a companion FLUX-mimic video-action robotics model. The announcement represents a significant generative media capability advance.

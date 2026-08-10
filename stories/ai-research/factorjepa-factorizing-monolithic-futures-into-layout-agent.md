@@ -5,10 +5,10 @@ source: "HF Trending Papers"
 url: "https://huggingface.co/papers/2608.01049"
 authors: ["Kapil Wanaskar", "Gaytri Jena", "Aman Chadha", "Vinija Jain", "Vasu Sharma", "Amitava Das"]
 date: "2026-08-01T20:00:00.000Z"
-score: 55
+score: 65
 guid: "2608.01049"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2608.01049.png"
-generated: "2026-08-08T19:05:03+05:30"
+generated: "2026-08-10T19:05:52+05:30"
 ---
 
 World models have attracted significant attention for their ability to capture and predict the structure and dynamics of the physical world. In this emerging landscape, Joint Embedding Predictive Architectures (JEPA) offer a particularly compelling direction.

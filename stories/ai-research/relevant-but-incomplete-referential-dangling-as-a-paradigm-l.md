@@ -5,10 +5,10 @@ source: "HF Trending Papers"
 url: "https://huggingface.co/papers/2608.04569"
 authors: ["Zhengpei Hu", "Kai Li", "Dapeng Fu", "Xuechao Zou", "Yuanhao Tang", "Yue Li", "Tengfei Cao", "Jianqiang Huang"]
 date: "2026-08-04T20:00:00.000Z"
-score: 70
+score: 71
 guid: "2608.04569"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2608.04569.png"
-generated: "2026-08-10T19:05:52+05:30"
+generated: "2026-08-11T19:05:57+05:30"
 ---
 
-Hard prompt compression reduces long-context inference cost by independently scoring tokens, sentences, or chunks and retaining the highest-scoring units under a budget. We identify a structural failure in this procedure: independent selection can split dependent evidence pairs, retaining one member while deleting the other. When retained text contains an answer but deleted text defines the entity needed to interpret it, we call the result referential dangling. At a compression ratio of 0.30, Beaver, which ranks coherent chunks using Qwen3-0.6B embeddings, leaves the answer path incomplete in 34-54% of bridge examples across three multi-hop question answering datasets. On a shared HotpotQA bridge set, all six hard compressors we test exhibit dangling at rates up to 60%, and every document in LongBench-v2 Single-Document QA contains at least one dangling reference. On dangling examples evaluated with Qwen3-8B, reinserting the missing supporting paragraph while removing nonsupporting paragraphs to maintain the token budget improves accuracy by 29-34 percentage points (p < 0.0001), recovering at least 88% of the gap to contexts retaining both supporting paragraphs. Stronger answer models do not absorb the loss: on MuSiQue, GPT-5.5 is 8.8 points less accurate on compressed contexts than on contexts retaining both supporting paragraphs. Finally, we train a compact classifier to rank omitted sentences by whether they are needed to interpret retained text and reinsert the top-ranked candidates without support annotations at inference. On HotpotQA with Qwen3-8B, this automatic restoration improves accuracy by 4.7 points while changing the compression ratio only from 0.30 to 0.31. Hard compressors should optimize both relevance and referential completeness.
+Hard prompt compression frequently breaks multi-hop reasoning by deleting context needed to interpret retained answers, and restoring missing referential support substantially recovers accuracy.

@@ -8,7 +8,7 @@ date: "2026-08-05"
 score: 65
 guid: "10.1038/s41586-026-10883-z"
 image: ""
-generated: "2026-08-10T19:05:52+05:30"
+generated: "2026-08-11T19:05:57+05:30"
 ---
 
 A three-dimensional printing method transforms hydrogel particles into aligned microfibres during extrusion, creating structural anisotropy to accelerate muscle tissue regeneration.

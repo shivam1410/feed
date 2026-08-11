@@ -5,10 +5,10 @@ source: "HF Trending Papers"
 url: "https://huggingface.co/papers/2603.18846"
 authors: ["Samuel Ofosu Mensah", "Camila Roa", "Kerol Djoumessi", "Philipp Berens"]
 date: "2026-08-03T20:00:00.000Z"
-score: 70
+score: 74
 guid: "2603.18846"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.18846.png"
-generated: "2026-08-10T19:05:52+05:30"
+generated: "2026-08-11T19:05:57+05:30"
 ---
 
-Foundation models are used to extract transferable representations from large amounts of unlabeled data, typically via self-supervised learning (SSL). However, many of these models rely on architectures that offer limited interpretability, a critical issue in high-stakes domains such as medical imaging. We propose DualIFM, a foundation model that is interpretable-by-design via a BagNet backbone whose small receptive fields generate class evidence maps that are faithful to the model's decision-making process. Additionally, DualIFM incorporates a 2D projection layer during pretraining that enables direct visualization of the representation space, providing a dataset-level view of the learned structure including meaningful clinical clusters as well as potential spurious correlations. We trained DualIFM on over 800,000 color fundus photographs from various sources to learn generalizable representations for different downstream tasks. Our model achieves performance comparable to RETFound, which has 16times more parameters, while providing interpretable predictions on out-of-distribution data. These results suggest that large-scale SSL pretraining paired with inherent interpretability can lead to robust representations for retinal imaging. Code and pretrained models are available at github.com/berenslab/interpretable_FM.
+DualIFM is an interpretable foundation model for retinal fundus imaging that prioritizes both explainability and efficiency. Using a BagNet backbone with 2D projections, DualIFM generates faithful, human-visualizable representations using significantly fewer parameters than comparable deep-learning models. For medical imaging, interpretability is essential for clinical validation and regulatory approval—physicians must understand why the model made specific decisions. The model maintains diagnostic accuracy while reducing computational requirements and improving transparency. By combining parameter efficiency with visual interpretability, DualIFM demonstrates that medical imaging models need not sacrifice explainability for performance. This approach enables practical deployment in clinical settings where both accuracy and interpretability directly impact patient care.

@@ -8,7 +8,7 @@ date: "2026-08-05"
 score: 70
 guid: "10.1038/s41586-026-10798-9"
 image: ""
-generated: "2026-08-10T19:05:52+05:30"
+generated: "2026-08-11T19:05:57+05:30"
 ---
 
-Results from a panel of assays that analyse different aspects of DNA sequence specificity reveal more than 100 new motifs to aid the characterization of putative human transcription factors.
+Scientists used multiple assays to analyze DNA-binding specificity of human transcription factors, identifying over 100 new DNA-binding motifs. These motifs are short sequences recognized by regulatory proteins that control genes. The expanded catalog improves identification and characterization of transcription factors, advancing understanding of gene regulation and disease mechanisms linked to genetic variants.

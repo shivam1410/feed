@@ -8,7 +8,7 @@ date: "2026-08-05"
 score: 65
 guid: "10.1038/d41586-026-02445-0"
 image: ""
-generated: "2026-08-10T19:05:52+05:30"
+generated: "2026-08-11T19:05:57+05:30"
 ---
 
-Researchers untangle the chemistry behind turning PVC into high-grade motor lubricant — plus, how engineered yeast can help make a cancer drug.
+Researchers converted polyvinyl chloride (PVC) waste into high-quality motor lubricant through chemistry. In parallel work, engineered yeast produces cancer drugs. Both advances transform environmental waste streams and synthetic manufacturing into valuable products, reducing plastic pollution while yielding commercial commodities and pharmaceuticals more sustainably.

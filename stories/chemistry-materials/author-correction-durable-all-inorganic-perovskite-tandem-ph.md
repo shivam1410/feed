@@ -8,7 +8,7 @@ date: "2026-08-10"
 score: 15
 guid: "10.1038/s41586-026-10984-9"
 image: ""
-generated: "2026-08-10T19:05:52+05:30"
+generated: "2026-08-11T19:05:57+05:30"
 ---
 
 Author Correction: Durable all-inorganic perovskite tandem photovoltaics

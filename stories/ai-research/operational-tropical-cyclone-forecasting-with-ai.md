@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/s41586-026-10953-2"
 authors: ["Ferran Alet", "Tom R. Andersson", "Ilan Price", "Stratis Markou", "Andrew El-Kadi", "Dominic Masters", "Amy Li", "Samier Merchant", "Natalie Williams", "Gregory Thornton", "Ken MacKay", "Olivia Graham", "Akib Uddin", "Ben Gaiarin", "Devaja Shah", "Elinor Kruse", "Wallace Hogsett", "David Zelinsky", "John Cangialosi", "Jonathan Martinez", "James Franklin", "Mark DeMaria", "Kate Musgrave", "Caroline L. Bain", "Helen Titley", "Jacklynn Stott", "Remi Lam", "Aaron Bell", "Paul Komarek", "Matthew Willson", "Alvaro Sanchez-Gonzalez", "Peter Battaglia"]
 date: "2026-08-06"
-score: 50
+score: 55
 guid: "10.1038/s41586-026-10953-2"
 image: ""
-generated: "2026-08-10T19:05:52+05:30"
+generated: "2026-08-11T19:05:57+05:30"
 ---
 
 Operational Tropical Cyclone Forecasting with AI

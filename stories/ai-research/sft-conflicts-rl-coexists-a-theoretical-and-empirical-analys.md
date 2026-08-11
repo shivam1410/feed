@@ -5,10 +5,10 @@ source: "HF Trending Papers"
 url: "https://huggingface.co/papers/2608.03573"
 authors: ["Kejian Zhu", "Zhuoran Jin", "Shangqing Tu", "Hongbang Yuan", "Yushi Bai", "Kang Liu", "Juanzi Li", "Jun Zhao"]
 date: "2026-08-05T20:00:00.000Z"
-score: 70
+score: 75
 guid: "2608.03573"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2608.03573.png"
-generated: "2026-08-10T19:05:52+05:30"
+generated: "2026-08-11T19:05:57+05:30"
 ---
 
-Supervised Fine-Tuning (SFT) and Reinforcement Learning (RL) exhibit fundamentally different behaviors in enhancing multi-task reasoning for large language models (LLMs). Our preliminary experiments revealed a phenomenon: SFT suffers from severe task conflicts under multi-stage training, whereas RL enables stable coexistence across diverse tasks. Empirically, we trace this to the parameter level, observing that RL induces sparse and approximately orthogonal updates across tasks. We provide a theoretical explanation for this mechanism by analyzing multi-task gradient interference. Our results reveal a distinction: interference in SFT is norm-limited, scaling with the absolute gradient magnitude, whereas interference in RL is variance-limited, bounded by the gradient variance induced by advantage normalization and on-policy optimization. This small variance bound yields near-orthogonal optimization directions across tasks. Leveraging this insight, we propose Parallel-RL, a paradigm that decouples multi-task training, significantly improving efficiency and flexibility.
+Reinforcement learning enables stable multi-task reasoning in large language models through sparse, near-orthogonal parameter updates, solving a fundamental problem with supervised fine-tuning. Standard SFT suffers from task conflicts when training on diverse, potentially contradictory objectives—updates that improve performance on one task degrade performance on another. The research demonstrates that RL's sparse updates remain nearly orthogonal across tasks, minimizing interference. The work proposes Parallel-RL, a decoupled training approach where each task maintains separate RL optimization paths. Testing across multiple reasoning tasks, Parallel-RL maintains strong performance across all tasks simultaneously. This finding has significant implications for building generalist language models that must excel across diverse, sometimes conflicting domains without catastrophic forgetting.

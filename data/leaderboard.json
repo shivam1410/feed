@@ -1,106 +1,106 @@
 {
-  "generatedAt": "2026-08-10T19:06:42+05:30",
+  "generatedAt": "2026-08-11T19:06:29+05:30",
   "source": "Hugging Face — trending models",
   "models": [
     {
       "id": "MiniMaxAI/MiniMax-H3",
       "task": "image-text-to-video",
-      "likes": 3364,
-      "downloads": 47468,
+      "likes": 3517,
+      "downloads": 59368,
       "library": "diffusers",
       "createdAt": "2026-07-28T10:45:18.000Z",
       "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3",
-      "summary": "Multimodal generative system that creates videos with synchronized stereo audio from text/image/video inputs up to 2K resolution and 15 seconds."
-    },
-    {
-      "id": "deepseek-ai/DeepSeek-V4-Flash-0731",
-      "task": "text-generation",
-      "likes": 3013,
-      "downloads": 954441,
-      "library": "transformers",
-      "createdAt": "2026-07-31T07:30:24.000Z",
-      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731",
-      "summary": "Efficient text-generation model with enhanced agentic capabilities and speculative decoding, competitive with leading proprietary alternatives."
-    },
-    {
-      "id": "Comfy-Org/MiniMax-H3",
-      "task": null,
-      "likes": 1116,
-      "downloads": 6009639,
-      "library": "diffusion-single-file",
-      "createdAt": "2026-07-30T22:36:12.000Z",
-      "url": "https://huggingface.co/Comfy-Org/MiniMax-H3",
-      "summary": "ComfyUI-formatted version of MiniMax-H3 video generation model with quantized encoders and workflow support."
-    },
-    {
-      "id": "larryvrh/MiniMax-H3-Turbo-Lora",
-      "task": "text-to-video",
-      "likes": 578,
-      "downloads": 0,
-      "library": null,
-      "createdAt": "2026-08-05T21:58:56.000Z",
-      "url": "https://huggingface.co/larryvrh/MiniMax-H3-Turbo-Lora",
-      "summary": "LoRA adapter for MiniMax-H3 enabling faster video-audio generation with as few as 4 sampling steps."
-    },
-    {
-      "id": "moonshotai/Kimi-K3",
-      "task": "image-text-to-text",
-      "likes": 10443,
-      "downloads": 1510032,
-      "library": "transformers",
-      "createdAt": "2026-06-13T06:42:57.000Z",
-      "url": "https://huggingface.co/moonshotai/Kimi-K3",
-      "summary": "Open-weight 2.8T multimodal agentic model with 1M context window, native vision, optimized for long-horizon coding and reasoning."
-    },
-    {
-      "id": "LiquidAI/LFM2.5-2.6B",
-      "task": "text-generation",
-      "likes": 474,
-      "downloads": 89680,
-      "library": "transformers",
-      "createdAt": "2026-07-28T22:14:32.000Z",
-      "url": "https://huggingface.co/LiquidAI/LFM2.5-2.6B",
-      "summary": "Lightweight 2.6B text-generation model optimized for on-device deployment with agentic capabilities and 128K context."
-    },
-    {
-      "id": "ethanfel/Qwen3-VL-32B-Ultra-Heretic-H3-ComfyUI-INT8-ConvRot",
-      "task": "image-text-to-text",
-      "likes": 433,
-      "downloads": 0,
-      "library": "comfyui",
-      "createdAt": "2026-08-03T09:25:01.000Z",
-      "url": "https://huggingface.co/ethanfel/Qwen3-VL-32B-Ultra-Heretic-H3-ComfyUI-INT8-ConvRot",
-      "summary": "Quantized Qwen3-VL-32B encoder for ComfyUI H3 with INT8 ConvRot optimization and multimodal conditioning."
-    },
-    {
-      "id": "DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
-      "task": "image-text-to-text",
-      "likes": 1837,
-      "downloads": 2439083,
-      "library": null,
-      "createdAt": "2026-07-17T00:27:17.000Z",
-      "url": "https://huggingface.co/DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
-      "summary": "Fine-tuned Qwen3.6-27B for consumer hardware with GGUF quantization and strong multimodal reasoning."
+      "summary": "Omni-modal video generator supporting multimodal input (text, image, video, audio) to produce up to 2K video with synchronized stereo audio."
     },
     {
       "id": "meta-models/Muse-Glimmer-30B",
       "task": "image-text-to-text",
-      "likes": 304,
+      "likes": 962,
       "downloads": 0,
       "library": "transformers",
       "createdAt": "2026-08-09T17:51:35.000Z",
       "url": "https://huggingface.co/meta-models/Muse-Glimmer-30B",
-      "summary": "30B multimodal model distilled for consumer hardware with reliable tool use, reasoning, and failure recovery for agents."
+      "summary": "30B multimodal reasoning model with tool use and failure recovery, designed for autonomous agentic tasks on consumer hardware without cloud infrastructure."
+    },
+    {
+      "id": "deepseek-ai/DeepSeek-V4-Flash-0731",
+      "task": "text-generation",
+      "likes": 3119,
+      "downloads": 1048685,
+      "library": "transformers",
+      "createdAt": "2026-07-31T07:30:24.000Z",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731",
+      "summary": "Fast text-generation model with enhanced agentic capabilities and speculative decoding, competitive with top proprietary models at lower inference cost."
+    },
+    {
+      "id": "larryvrh/MiniMax-H3-Turbo-Lora",
+      "task": "text-to-video",
+      "likes": 624,
+      "downloads": 0,
+      "library": null,
+      "createdAt": "2026-08-05T21:58:56.000Z",
+      "url": "https://huggingface.co/larryvrh/MiniMax-H3-Turbo-Lora",
+      "summary": "LoRA adapter for MiniMax-H3 enabling 5× faster video and audio generation via reduced sampling steps without quality degradation."
+    },
+    {
+      "id": "Comfy-Org/MiniMax-H3",
+      "task": null,
+      "likes": 1187,
+      "downloads": 6798796,
+      "library": "diffusion-single-file",
+      "createdAt": "2026-07-30T22:36:12.000Z",
+      "url": "https://huggingface.co/Comfy-Org/MiniMax-H3",
+      "summary": "ComfyUI-optimized packaging of MiniMax-H3 video generation model with quantized encoder and diffusion variants for efficient deployment."
+    },
+    {
+      "id": "LiquidAI/LFM2.5-2.6B",
+      "task": "text-generation",
+      "likes": 525,
+      "downloads": 93668,
+      "library": "transformers",
+      "createdAt": "2026-07-28T22:14:32.000Z",
+      "url": "https://huggingface.co/LiquidAI/LFM2.5-2.6B",
+      "summary": "Tiny 2.6B on-device text model with agentic post-training, matching 10B+ models on tool use and reasoning in under 2.5 GB RAM."
+    },
+    {
+      "id": "moonshotai/Kimi-K3",
+      "task": "image-text-to-text",
+      "likes": 10501,
+      "downloads": 1565484,
+      "library": "transformers",
+      "createdAt": "2026-06-13T06:42:57.000Z",
+      "url": "https://huggingface.co/moonshotai/Kimi-K3",
+      "summary": "2.8T multimodal reasoning model with 1M token context and 2.5× scaling efficiency, designed for long-horizon coding and knowledge work with vision."
+    },
+    {
+      "id": "DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
+      "task": "image-text-to-text",
+      "likes": 1884,
+      "downloads": 2521093,
+      "library": null,
+      "createdAt": "2026-07-17T00:27:17.000Z",
+      "url": "https://huggingface.co/DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
+      "summary": "Fine-tuned 27B Qwen model exceeding proprietary model performance on reasoning benchmarks, quantized for consumer hardware deployment."
     },
     {
       "id": "deepgrove/maple-preview",
       "task": "text-generation",
-      "likes": 303,
-      "downloads": 1344,
+      "likes": 325,
+      "downloads": 2049,
       "library": "transformers",
       "createdAt": "2026-08-04T20:50:54.000Z",
       "url": "https://huggingface.co/deepgrove/maple-preview",
-      "summary": "Efficient 20B ternary-weight reasoning model with 131K context delivering competitive performance on complex reasoning tasks."
+      "summary": "20B ternary-weight reasoning model achieving 200+ tokens/sec on consumer hardware while solving IMO-level problems efficiently."
+    },
+    {
+      "id": "inclusionAI/Ling-3.0-flash",
+      "task": "text-generation",
+      "likes": 299,
+      "downloads": 6148,
+      "library": null,
+      "createdAt": "2026-08-02T16:14:41.000Z",
+      "url": "https://huggingface.co/inclusionAI/Ling-3.0-flash",
+      "summary": "Efficient 124B model with 5.1B active parameters using native hybrid attention, matching larger models on reasoning and agentic tasks."
     }
   ]
 }

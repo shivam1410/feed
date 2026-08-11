@@ -8,7 +8,7 @@ date: "2026-08-05"
 score: 75
 guid: "10.1038/s41586-026-10884-y"
 image: ""
-generated: "2026-08-10T19:05:52+05:30"
+generated: "2026-08-11T19:05:57+05:30"
 ---
 
-Virtual Tissues (VirTues) is a foundation model understanding spatial protein organization across tissue scales. The model enables marker reconstruction, cell segmentation and typing, cellular niche annotation, spatial biomarker discovery, and patient stratification. VirTues integrates information across heterogeneous imaging datasets and panels, making it broadly applicable. By capturing how proteins organize within tissue architecture, the model bridges molecular to tissue-level organization, accelerating spatial proteomics research and enabling extraction of rich biological insights from complex tissue imaging data.
+Virtual Tissues (VirTues) is a foundation model that captures tissue organization across spatial scales, enabling marker reconstruction, cell segmentation and typing, niche annotation, and spatial biomarker discovery. The model supports patient stratification and generalizes across heterogeneous imaging panels and datasets. This unified approach resolves a key bottleneck in spatial proteomics: current methods are fragmented, requiring separate models for each panel type. By learning tissue organization patterns once, VirTues reduces redundant modeling and accelerates discovery of tissue-based biomarkers.

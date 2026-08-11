@@ -8,7 +8,7 @@ date: "2026-08-05"
 score: 75
 guid: "10.1038/s41586-026-10822-y"
 image: ""
-generated: "2026-08-10T19:05:52+05:30"
+generated: "2026-08-11T19:05:57+05:30"
 ---
 
-Researchers demonstrated a fast, high-fidelity entangling gate for dual-rail cavity erasure qubits that preserves the strong error hierarchy essential for scalable quantum computing. The gate maintains favorable error properties crucial for quantum error correction, which suppresses certain errors automatically. This advance substantially improves fault-tolerant performance, moving quantum computing closer to practical scalability. The work addresses a critical bottleneck: maintaining error correction advantages while performing entangling operations necessary for quantum algorithms.
+Researchers developed a fast, low-error entangling gate for dual-rail cavity erasure qubits that preserves natural error hierarchies. This advances scalable quantum error correction with substantially improved fault-tolerant performance. The progress matters because reducing errors while maintaining scalability is essential for building practical quantum computers capable of meaningful computation.

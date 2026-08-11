@@ -1,14 +1,14 @@
 ---
 title: "SPOT: Sparse Probing and Outcome Calibration for On-Policy Distillation"
 category: "AI Research"
-source: "arXiv (cs.LG)"
-url: "https://arxiv.org/abs/2608.04419"
-authors: ["Zikun Qu, Min Zhang, Mingze Kong, Zhiwei Shang, Yikun Ban, Shuang Qiu, Zhongxiang Dai"]
-date: "Thu, 06 Aug 2026 00:00:00 -0400"
-score: 60
-guid: "oai:arXiv.org:2608.04419v1"
-image: ""
-generated: "2026-08-06T19:05:18+05:30"
+source: "HF Trending Papers"
+url: "https://huggingface.co/papers/2608.04419"
+authors: ["Zikun Qu", "Min Zhang", "Mingze Kong", "Zhiwei Shang", "Yikun Ban", "Shuang Qiu", "Zhongxiang Dai"]
+date: "2026-08-04T20:00:00.000Z"
+score: 71
+guid: "2608.04419"
+image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2608.04419.png"
+generated: "2026-08-11T19:05:57+05:30"
 ---
 
-arXiv:2608.04419v1 Announce Type: new Abstract: On-policy distillation (OPD) provides dense teacher supervision on student-generated trajectories, but standard reverse-KL training can assign insufficient probability to other plausible continuations. Teacher entropy alone does not reveal whether uncertainty is concentrated among a few plausible next tokens or dispersed over a long probability tail, nor whether the student already represents those candidates well. Moreover, local teacher probabilities may not predict downstream success. We introduce Sparse Probing and Outcome-calibrated Targets OPD (SPOT), which addresses two coupled decisions, where to probe and what to distill, through an acquisition--exploration--exploitation procedure. During acquisition, a position-level score combines normalized teacher entropy, the probability mass captured by a small top-$k$ candidate set, and student--teacher mismatch to allocate a limited probing budget. During exploration, SPOT evaluates teacher-proposed candidates through verifier-scored student continuations. During exploitation, these outcomes produce a closed-form, KL-regularized target that favors candidates with better downstream outcomes while remaining anchored to the teacher distribution. Extensive experiments across multiple student models and reasoning benchmarks demonstrate the effectiveness of SPOT in improving reasoning performance while balancing solution quality and coverage.
+SPOT improves on-policy distillation by selectively probing uncertain positions and calibrating targets to downstream outcomes, boosting reasoning quality and coverage.

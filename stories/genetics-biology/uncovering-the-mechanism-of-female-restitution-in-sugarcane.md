@@ -8,7 +8,7 @@ date: "2026-08-05"
 score: 60
 guid: "10.1038/s41586-026-10863-3"
 image: ""
-generated: "2026-08-10T19:05:52+05:30"
+generated: "2026-08-11T19:05:57+05:30"
 ---
 
 Female restitution in interspecific sugarcane hybrids between Saccharum officinarum and Saccharum spontaneum arises from second division restitution, as haplotype-resolved F1 genomes reveal duplicated, partially recombined maternal chromatids and distinctive recombination signatures, resolving its meiotic mechanism and enabling breeding strategies to accelerate crop improvement.

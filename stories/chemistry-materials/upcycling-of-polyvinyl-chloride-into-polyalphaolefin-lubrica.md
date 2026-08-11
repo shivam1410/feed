@@ -8,7 +8,7 @@ date: "2026-08-05"
 score: 65
 guid: "10.1038/s41586-026-10867-z"
 image: ""
-generated: "2026-08-10T19:05:52+05:30"
+generated: "2026-08-11T19:05:57+05:30"
 ---
 
-A mild chemical process upcycles polyvinyl chloride waste into polyalphaolefin lubricants with tunable properties, offering an economical route to plastic recycling and improved carbon circularity.
+A mild chemical process converts PVC waste into polyalphaolefin lubricants with tunable properties. The method is economical and creates high-value products from discarded plastic, reducing environmental burden. This upcycling route improves carbon circularity—transforming persistent plastic waste into commercial lubricants—offering practical plastic recycling that benefits both industry and environment.

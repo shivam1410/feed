@@ -5,10 +5,10 @@ source: "HF Trending Papers"
 url: "https://huggingface.co/papers/2608.08097"
 authors: ["Can Xiao", "Sukmin Cho", "Junbong We", "Zhixiong Niu", "Jianyi Cheng", "Yiren Zhao", "Youngjin Kwon", "Yongqiang Xiong", "Rui Ma", "Junyi Liu"]
 date: "2026-08-07T20:00:00.000Z"
-score: 74
+score: 65
 guid: "2608.08097"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2608.08097.png"
-generated: "2026-08-11T19:05:57+05:30"
+generated: "2026-08-12T19:06:41+05:30"
 ---
 
 OasisKV improves LLM inference throughput by storing full KV caches in lower memory tiers and prefetching only relevant entries into HBM using speculative-decoding lookahead predictions.

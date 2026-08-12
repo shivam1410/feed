@@ -8,7 +8,7 @@ date: "2026-08-09T20:00:00.000Z"
 score: 75
 guid: "2608.09867"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2608.09867.png"
-generated: "2026-08-11T19:05:57+05:30"
+generated: "2026-08-12T19:06:41+05:30"
 ---
 
-Encrypted reasoning traces shared across sessions and models can be intercepted and injected into weaker models, allowing attackers to extract proprietary reasoning, private data, hidden hazards, and system prompts from commercial LLM APIs. This attack exploits session and model boundary assumptions, revealing a security flaw in how reasoning traces are handled. The vulnerability exposes intellectual property and sensitive information embedded in encrypted outputs.
+Encrypted reasoning traces shared between API sessions and different models in proprietary LLM systems can be intercepted and injected into weaker models, enabling attackers to extract proprietary reasoning strategies, private user data, hidden model capabilities, and system prompts. This security vulnerability affects providers of proprietary LLM APIs. The work highlights critical architectural gaps in how encrypted traces are handled and stored, necessitating fundamental redesign of trace encryption, isolation, and sharing mechanisms.

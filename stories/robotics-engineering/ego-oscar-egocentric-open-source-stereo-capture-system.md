@@ -5,10 +5,10 @@ source: "HF Trending Papers"
 url: "https://huggingface.co/papers/2608.08285"
 authors: ["Gunjan Paul", "Senthil Palanisamy", "Satpal Singh Rathore", "Pratyush Kumar Patnaik", "Shubhanshu Khatana", "Abhishek Anand"]
 date: "2026-08-07T20:00:00.000Z"
-score: 68
+score: 55
 guid: "2608.08285"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2608.08285.png"
-generated: "2026-08-11T19:05:57+05:30"
+generated: "2026-08-12T19:06:41+05:30"
 ---
 
 We present Ego-OSCAR, an open-hardware, low-cost, head-mounted stereo-inertial capture device for egocentric data collection in the wild. EgoOSCAR pairs a hardware-synchronized global-shutter stereo camera with a 6- axis IMU, an embedded Linux SBC for on-device video encoding, and a realtime microcontroller for user feedback and watchdog functions. The complete bill of materials is under USD 200 per unit, using only commercially available components and 3D-printed parts. Alongside the device, we release a complete software stack (hardware-accelerated recording pipeline, IMU sampling daemon, time-synchronization tooling, and watchdog firmware) and roughly 550 hours of egocentric stereo video per camera with synchronized IMU, collected by a distributed contributor network across everyday indoor environments. The release is annotated rather than raw: free-form action captions cover essentially the entire recorded timeline with an open vocabulary, and per-frame 3D hand reconstructions ship alongside per-session stereo calibration. Ego-OSCAR does not aim to match the per-unit fidelity of research-grade systems such as Project Aria; it aims to be the cheapest defensible substrate for crowdsourced egocentric capture, and to lower the activation energy for any team that wants to collect egocentric data at scale. All hardware designs, software, and the dataset are open-sourced

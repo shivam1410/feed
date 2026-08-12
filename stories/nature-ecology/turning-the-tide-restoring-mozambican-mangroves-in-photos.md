@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/d41586-026-02199-9"
 authors: ["Melissa Hobson"]
 date: "2026-08-10"
-score: 50
+score: 58
 guid: "10.1038/d41586-026-02199-9"
 image: ""
-generated: "2026-08-11T19:05:57+05:30"
+generated: "2026-08-12T19:06:41+05:30"
 ---
 
-Marine biologist Célia Macamo studies ways to restore Maputo's mangrove forests threatened by urban expansion. Mangroves provide coastal protection, support fisheries, and store carbon. Her conservation research seeks to balance development with ecosystem preservation, protecting biodiversity and the human communities dependent on these vital coastal habitats.
+Mozambican mangrove forests face increasing threats from urban expansion in Maputo. Marine biologist Célia Macamo is researching strategies for restoring and protecting these ecosystems. Mangrove forests provide critical ecological services including nursery habitat for fish species, coastal protection against storms and erosion, significant carbon storage, and biodiversity support. Understanding both the specific threats mangroves face and viable restoration approaches is essential for conservation success. Macamo's research contributes to developing practical science-based solutions.

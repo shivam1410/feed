@@ -3,12 +3,12 @@ title: "AI tools speed up analysis, but scientific truths must be grounded in re
 category: "AI Research"
 source: "Nature"
 url: "https://www.nature.com/articles/d41586-026-02490-9"
-authors: ["Ying Xu"]
+authors: ["Weishi Zhang", "Ying Xu", "Yitong Han"]
 date: "2026-08-11"
-score: 35
+score: 46
 guid: "10.1038/d41586-026-02490-9"
 image: ""
-generated: "2026-08-11T19:05:57+05:30"
+generated: "2026-08-12T19:06:41+05:30"
 ---
 
 AI tools speed up analysis, but scientific truths must be grounded in reality

@@ -1,106 +1,106 @@
 {
-  "generatedAt": "2026-08-12T19:07:07+05:30",
+  "generatedAt": "2026-08-13T19:07:01+05:30",
   "source": "Hugging Face — trending models",
   "models": [
     {
       "id": "meta-models/Muse-Glimmer-30B",
       "task": "image-text-to-text",
-      "likes": 1195,
-      "downloads": 0,
+      "likes": 1370,
+      "downloads": 121042,
       "library": "transformers",
       "createdAt": "2026-08-09T17:51:35.000Z",
       "url": "https://huggingface.co/meta-models/Muse-Glimmer-30B",
-      "summary": "30B multimodal language model for autonomous agents with reliable tool use, reasoning, and failure recovery on consumer hardware."
+      "summary": "30B multimodal language model for autonomous agents with integrated tool use, reasoning, and failure recovery on consumer hardware."
     },
     {
       "id": "MiniMaxAI/MiniMax-H3",
       "task": "image-text-to-video",
-      "likes": 3675,
-      "downloads": 59368,
-      "library": "diffusers",
+      "likes": 3781,
+      "downloads": 1605940,
+      "library": "minimax-h3",
       "createdAt": "2026-07-28T10:45:18.000Z",
       "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3",
-      "summary": "Omni-modal generative system producing video with text, images, and native stereo audio at up to 2K resolution."
+      "summary": "Omni-modal generative system that understands and generates video, audio, images, and text up to 2K resolution and 15 seconds."
     },
     {
-      "id": "larryvrh/MiniMax-H3-Turbo-Lora",
-      "task": "text-to-video",
-      "likes": 679,
-      "downloads": 0,
-      "library": null,
-      "createdAt": "2026-08-05T21:58:56.000Z",
-      "url": "https://huggingface.co/larryvrh/MiniMax-H3-Turbo-Lora",
-      "summary": "LoRA enabling MiniMax-H3 to generate synced video and audio in ~4 steps instead of ~20, achieving 5x speedup."
-    },
-    {
-      "id": "deepseek-ai/DeepSeek-V4-Flash-0731",
+      "id": "Qwen/Qwen3.8-2.4T-A95B",
       "task": "text-generation",
-      "likes": 3202,
-      "downloads": 1048685,
+      "likes": 700,
+      "downloads": 1012,
       "library": "transformers",
-      "createdAt": "2026-07-31T07:30:24.000Z",
-      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731",
-      "summary": "Fast text model with enhanced agentic capabilities outperforming larger variants on coding, reasoning, and tool-use benchmarks."
-    },
-    {
-      "id": "Comfy-Org/MiniMax-H3",
-      "task": null,
-      "likes": 1239,
-      "downloads": 6798796,
-      "library": "diffusion-single-file",
-      "createdAt": "2026-07-30T22:36:12.000Z",
-      "url": "https://huggingface.co/Comfy-Org/MiniMax-H3",
-      "summary": "ComfyUI-packaged MiniMax-H3 diffusion and video models with multiple quantization options for flexible hardware requirements."
+      "createdAt": "2026-08-08T01:50:52.000Z",
+      "url": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B",
+      "summary": "2.4T-parameter Qwen model with substantial gains in coding, professional work, research, and multi-step agentic task completion."
     },
     {
       "id": "Lightricks/LTX-2.5",
       "task": "image-to-video",
-      "likes": 449,
-      "downloads": 39,
+      "likes": 643,
+      "downloads": 57287,
       "library": "diffusion-single-file",
       "createdAt": "2026-07-23T07:55:24.000Z",
       "url": "https://huggingface.co/Lightricks/LTX-2.5",
-      "summary": "Multimodal video generation model supporting image, text, audio, and video inputs for flexible video creation."
+      "summary": "Diffusion-based model for image-to-video and text-to-video generation with multi-modal input and audio synthesis support."
+    },
+    {
+      "id": "deepseek-ai/DeepSeek-V4-Flash-0731",
+      "task": "text-generation",
+      "likes": 3292,
+      "downloads": 1431587,
+      "library": "transformers",
+      "createdAt": "2026-07-31T07:30:24.000Z",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731",
+      "summary": "Compact agentic text model with speculative decoding that outperforms larger variants on code and reasoning tasks."
+    },
+    {
+      "id": "larryvrh/MiniMax-H3-Turbo-Lora",
+      "task": "text-to-video",
+      "likes": 713,
+      "downloads": 0,
+      "library": "minimax-h3",
+      "createdAt": "2026-08-05T21:58:56.000Z",
+      "url": "https://huggingface.co/larryvrh/MiniMax-H3-Turbo-Lora",
+      "summary": "LoRA adapter for MiniMax-H3 enabling joint audio-video generation in as few as 4 sampling steps instead of 20."
     },
     {
       "id": "lightx2v/Minimax-h3-Turbo",
       "task": "image-to-video",
-      "likes": 388,
-      "downloads": 20376,
+      "likes": 436,
+      "downloads": 91455,
       "library": "diffusers",
       "createdAt": "2026-08-07T12:59:07.000Z",
       "url": "https://huggingface.co/lightx2v/Minimax-h3-Turbo",
-      "summary": "Image-to-video model based on MiniMax-H3 supporting text and reference conditioning for flexible video generation."
+      "summary": "Diffusion-based image-to-video generation model optimized for rapid multi-modal video synthesis."
     },
     {
-      "id": "moonshotai/Kimi-K3",
-      "task": "image-text-to-text",
-      "likes": 10555,
-      "downloads": 1565484,
-      "library": "transformers",
-      "createdAt": "2026-06-13T06:42:57.000Z",
-      "url": "https://huggingface.co/moonshotai/Kimi-K3",
-      "summary": "2.8T multimodal agentic model for long-horizon coding and knowledge work with 1M-token context and native vision."
-    },
-    {
-      "id": "DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
-      "task": "image-text-to-text",
-      "likes": 1929,
-      "downloads": 2521093,
-      "library": null,
-      "createdAt": "2026-07-17T00:27:17.000Z",
-      "url": "https://huggingface.co/DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
-      "summary": "Fine-tuned Qwen3.6-27B multimodal model exceeding base variants on benchmarks, optimized for consumer hardware."
+      "id": "Comfy-Org/MiniMax-H3",
+      "task": null,
+      "likes": 1274,
+      "downloads": 10365210,
+      "library": "diffusion-single-file",
+      "createdAt": "2026-07-30T22:36:12.000Z",
+      "url": "https://huggingface.co/Comfy-Org/MiniMax-H3",
+      "summary": "ComfyUI-packaged MiniMax H3 with multiple quantized variants for flexible resource-constrained local deployment."
     },
     {
       "id": "unsloth/Muse-Glimmer-30B-GGUF",
       "task": "image-text-to-text",
-      "likes": 330,
-      "downloads": 0,
+      "likes": 379,
+      "downloads": 352023,
       "library": "transformers",
       "createdAt": "2026-08-10T09:11:29.000Z",
       "url": "https://huggingface.co/unsloth/Muse-Glimmer-30B-GGUF",
-      "summary": "GGUF-quantized Muse Glimmer 30B with Unsloth optimization for consumer hardware with configurable thinking toggles."
+      "summary": "GGUF-quantized Muse Glimmer enabling efficient local inference with extended reasoning on consumer hardware."
+    },
+    {
+      "id": "moonshotai/Kimi-K3",
+      "task": "image-text-to-text",
+      "likes": 10604,
+      "downloads": 1871575,
+      "library": "transformers",
+      "createdAt": "2026-06-13T06:42:57.000Z",
+      "url": "https://huggingface.co/moonshotai/Kimi-K3",
+      "summary": "2.8T open multimodal agentic model with 1M-token context designed for long-horizon coding and knowledge work."
     }
   ]
 }

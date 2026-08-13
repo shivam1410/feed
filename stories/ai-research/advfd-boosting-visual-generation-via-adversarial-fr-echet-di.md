@@ -5,10 +5,10 @@ source: "HF Trending Papers"
 url: "https://huggingface.co/papers/2608.11205"
 authors: ["Mingju Gao", "Jingkai Zhou", "Kun Gai", "Changqian Yu", "Hao Tang"]
 date: "2026-08-10T20:00:00.000Z"
-score: 55
+score: 60
 guid: "2608.11205"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2608.11205.png"
-generated: "2026-08-12T19:06:41+05:30"
+generated: "2026-08-13T19:06:32+05:30"
 ---
 
 Adversarial Fréchet Distance improves generator post-training by adding a learnable adversarial feature space to static Fréchet losses, with whitening to stabilize optimization.

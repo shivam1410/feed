@@ -2,13 +2,13 @@
 title: "datasette 1.0a38"
 category: "Science & Society"
 source: "Simon Willison"
-url: "https://simonwillison.net/2026/Aug/6/datasette/#atom-everything"
+url: "https://simonwillison.net/2026/Aug/6/datasette/"
 authors: []
 date: "2026-08-06T18:24:34+00:00"
-score: 42
-guid: "https://simonwillison.net/2026/Aug/6/datasette/#atom-everything"
+score: 35
+guid: "https://simonwillison.net/2026/Aug/6/datasette/"
 image: ""
-generated: "2026-08-07T19:04:45+05:30"
+generated: "2026-08-13T19:06:32+05:30"
 ---
 
 Release: datasette 1.0a38 This release fixes a SQL injection security issue that affects Datasette instances that serve a mixture of public and private tables in the same database, with access configured using the Datasette permissions system . Site administrators who serve private tables in this way are advised to disable the execute-sql permission ` on that database to prevent users from accessing private tables using raw SQL queries. The bug that has been fixed would have allowed users with access to any public table to execute SQL injection attacks despite that restriction, giving them read-only access to data in private tables in the same database. This fix is also available in Datasette 0.65.3 . Thankfully this particular configuration - private tables and public tables exposed for the same database within the same instance - is likely to be rare. I've not encountered an instance like that myself. Tags: security , sql-injection , datasette

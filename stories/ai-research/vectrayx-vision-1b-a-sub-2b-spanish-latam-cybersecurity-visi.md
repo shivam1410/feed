@@ -5,10 +5,10 @@ source: "HF Trending Papers"
 url: "https://huggingface.co/papers/2608.08477"
 authors: ["Juan S. Santillana"]
 date: "2026-08-08T20:00:00.000Z"
-score: 55
+score: 50
 guid: "2608.08477"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2608.08477.png"
-generated: "2026-08-12T19:06:41+05:30"
+generated: "2026-08-13T19:06:32+05:30"
 ---
 
 A sub-2B Spanish cybersecurity vision-language model couples a frozen SigLIP encoder to a Spanish decoder via an MLP, introduces a NoPE positional-encoding ablation for visual attention, and reports near-zero visual grounding despite functional pipelines, with open-source weights and remediation plans.

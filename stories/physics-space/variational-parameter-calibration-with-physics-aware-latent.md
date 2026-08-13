@@ -1,0 +1,14 @@
+---
+title: "Variational Parameter Calibration with Physics-Aware Latent-Space Surrogates"
+category: "Physics & Space"
+source: "arXiv (cs.LG)"
+url: "https://arxiv.org/abs/2608.11435"
+authors: ["Qiyao Zhou, Xujia Zhu, Pierre Joli, Yu Cong, Sibo Cheng"]
+date: "Thu, 13 Aug 2026 00:00:00 -0400"
+score: 55
+guid: "oai:arXiv.org:2608.11435v1"
+image: ""
+generated: "2026-08-13T19:06:32+05:30"
+---
+
+arXiv:2608.11435v1 Announce Type: new Abstract: Forward and inverse modeling of parametric dynamical systems requires surrogate models that are not only accurate for state prediction, but also informative for parameter calibration. However, a systematic end-to-end differentiable formulation for coupling deep-learning-based reduced-order surrogates with variational parameter estimation remains underdeveloped. In this work, we introduce a physics-aware neural-network-based latent-space framework for reduced-order forward modeling and variational parameter estimation. The proposed autoencoder-based approach yields a differentiable surrogate that maps physical parameters to predicted flow fields through a latent representation. The observable supervision is used during offline training to encourage the latent variables to retain information correlated with system parameters, while the online inverse problem is solved in the parameter space through the surrogate-induced observation operator. The method is evaluated on two computational-fluid-dynamics benchmarks. The results show that reconstruction accuracy alone is insufficient for inverse modeling, owing to the lack of end-to-end differentiability or physics awareness for variational parameter calibration. Quantitative latent-space analysis further shows that observable supervision improves case-level separability and temporal organization of latent representations. Experiments with realistic measurement settings, including noisy, low-resolution, randomly masked, and block-wise partial observations, demonstrate the robustness of the proposed framework and show that it generally reduces calibration error and variability compared with the standard surrogate models.

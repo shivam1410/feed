@@ -8,7 +8,7 @@ date: "2026-08-07T20:00:00.000Z"
 score: 60
 guid: "2608.08107"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2608.08107.png"
-generated: "2026-08-13T19:06:32+05:30"
+generated: "2026-08-14T19:05:44+05:30"
 ---
 
 NeuPAT selectively constrains updates to language-sensitive neurons during multimodal tuning to preserve LLM language capabilities while enabling perceptual adaptation.

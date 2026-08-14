@@ -8,7 +8,7 @@ date: "2026-08-12"
 score: 65
 guid: "10.1038/s41586-026-10896-8"
 image: ""
-generated: "2026-08-13T19:06:32+05:30"
+generated: "2026-08-14T19:05:44+05:30"
 ---
 
 Behaviour of human participants in a prey-pursuit task reflects dynamic blending of goal-specific control policies, with hippocampus estimating latent states, anterior cingulate cortex orchestrating policy switches and orbitofrontal cortex supplying value-based contextualization rather than driving continuous policy updating.

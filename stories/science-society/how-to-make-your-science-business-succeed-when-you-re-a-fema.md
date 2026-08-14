@@ -8,7 +8,7 @@ date: "2026-08-13"
 score: 40
 guid: "10.1038/d41586-026-01904-y"
 image: ""
-generated: "2026-08-13T19:06:32+05:30"
+generated: "2026-08-14T19:05:44+05:30"
 ---
 
 Sexist assumptions and a male-dominated culture can make it harder for women to attract investment for the companies they set up.

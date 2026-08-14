@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/s41586-026-10891-z"
 authors: ["Alessandro Petrini", "Claudio Conti", "Davide Pierangeli"]
 date: "2026-08-12"
-score: 70
+score: 60
 guid: "10.1038/s41586-026-10891-z"
 image: ""
-generated: "2026-08-13T19:06:32+05:30"
+generated: "2026-08-14T19:05:44+05:30"
 ---
 
 By engineering the statistics of light at the micrometre scale using phase-only spatial light modulators, both the state and degree of polarization become spatially programmable, enabling direct encoding of information in a high-dimensional space.

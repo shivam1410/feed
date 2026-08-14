@@ -1,0 +1,14 @@
+---
+title: "Interpretable Causal Discovery via Causal-Effect Constraints"
+category: "AI Research"
+source: "arXiv (cs.LG)"
+url: "https://arxiv.org/abs/2608.12640"
+authors: ["Cixuan Zhang, Guy Van den Broeck, Benjie Wang"]
+date: "Fri, 14 Aug 2026 00:00:00 -0400"
+score: 71
+guid: "oai:arXiv.org:2608.12640v1"
+image: ""
+generated: "2026-08-14T19:05:44+05:30"
+---
+
+arXiv:2608.12640v1 Announce Type: new Abstract: Causal discovery aims to uncover the underlying causal relationships given data generated from a system. The goal, however, is not merely to predict causal edges given data, but also to be able to interpret and explain either observed or hypothesized phenomena, such as a particularly large causal effect. We consider this task of conditional causal discovery and cast it as a Bayesian inference problem, in which we target the posterior over causal graphs and parameters conditional on an event such as a causal-effect constraint. Unfortunately, this poses a computational challenge: existing approaches to Bayesian causal discovery struggle when the event has small posterior mass. To address this, we adapt rare-event estimation techniques to perform inference the joint graph-parameter space. Our method gradually drives a particle population toward the constrained region while maintaining samples that approximate the conditional posterior. Empirical evaluation on synthetic graphs validates the accuracy of our approach at small and large scales, and we show in a case study on the Sachs protein dataset how our method can be used to aid scientific exploration by providing pathway-level summaries.

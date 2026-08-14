@@ -5,10 +5,10 @@ source: "HF Trending Papers"
 url: "https://huggingface.co/papers/2608.09805"
 authors: ["Vatsal Venkatkrishna", "Nico Daheim", "Iryna Gurevych"]
 date: "2026-08-10T12:28:07.000Z"
-score: 70
+score: 55
 guid: "2608.09805"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2608.09805.png"
-generated: "2026-08-13T19:06:32+05:30"
+generated: "2026-08-14T19:05:44+05:30"
 ---
 
 Parameter-space exploration via perturbed policy sampling improves LLM reinforcement learning by diversifying rollouts and reducing training failures compared to action-space methods.

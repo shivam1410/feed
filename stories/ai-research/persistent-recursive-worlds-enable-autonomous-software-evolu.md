@@ -5,10 +5,10 @@ source: "HF Trending Papers"
 url: "https://huggingface.co/papers/2608.10450"
 authors: ["Beichen Huang", "Zhenyu Liang", "Bowen Zheng", "Ran Cheng"]
 date: "2026-08-11T20:00:00.000Z"
-score: 75
+score: 80
 guid: "2608.10450"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2608.10450.png"
-generated: "2026-08-13T19:06:32+05:30"
+generated: "2026-08-14T19:05:44+05:30"
 ---
 
-Genesis enables autonomous software development by organizing multi-day engineering tasks around persistent projects rather than persistent agents. The system successfully demonstrates compiler construction and numerical module reimplementation with low cost and high performance. It demonstrates autonomous engineering at longer timescales than typical single-episode tasks. This matters because it shows AI can handle complex, multi-day engineering projects independently.
+Genesis demonstrates that organizing long-horizon software development around a persistent project—rather than persistent agent state—enables sophisticated automated engineering. The system successfully conducted multi-day compiler construction and numerical module reimplementation with low cost and high performance. By maintaining consistent project context across many interactions, Genesis enables complex multi-step development tasks that require understanding code structure, dependencies, and long-term architectural goals. This project-centric approach represents a new paradigm for automating extended software engineering work.

@@ -5,10 +5,10 @@ source: "Simon Willison"
 url: "https://simonwillison.net/2026/Aug/7/pdfs-are-terrible/"
 authors: []
 date: "2026-08-07T16:18:51+00:00"
-score: 65
+score: 60
 guid: "https://simonwillison.net/2026/Aug/7/pdfs-are-terrible/"
 image: ""
-generated: "2026-08-14T19:05:44+05:30"
+generated: "2026-08-16T19:04:55+05:30"
 ---
 
 The Tokenpocalypse Is Here: Companies Are Scrambling To Stop Spending So Much on AI There's a fun anecdote from Accenture (apparently via leaked meeting audio recordings) in this 404 Media piece from June 24th: “We’re seeing from some of the data internally at least that it’s actually not our engineers that are driving the token consumption. It’s a lot of the non-engineers that are doing some of those behaviors [...] you were talking about,” Justice Kwak, Accenture’s agentic AI strategy lead, said [...] Stuart Henderson, Accenture’s client group lead, interrupts. He jokes he hopes Kwak didn’t just convert a PDF into images and then into markdown files. “I’m learning that’s one of the big token chewers,” Henderson says. “Turning PDFs into markdown: is that right?” That’s when Kwak says that’s what Accenture’s own data shows. Maybe if Accenture figure out that PDFs are a terrible medium for communicating information they'll be able to push that message out to the rest of the business world too! Via @404.media on TikTok Tags: pdf , markdown , ai , generative-ai , llms , ai-misuse

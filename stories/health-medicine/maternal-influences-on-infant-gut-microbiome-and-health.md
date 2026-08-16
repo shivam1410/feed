@@ -8,7 +8,7 @@ date: "2026-08-12"
 score: 65
 guid: "10.1038/s41586-026-10922-9"
 image: ""
-generated: "2026-08-14T19:05:44+05:30"
+generated: "2026-08-16T19:04:55+05:30"
 ---
 
 The maternal gut microbiome is a predictor of infant eczema.

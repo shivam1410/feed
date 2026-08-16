@@ -5,10 +5,14 @@ source: "HF Trending Papers"
 url: "https://huggingface.co/papers/2608.12440"
 authors: ["Joel Abenhaim"]
 date: "2026-08-11T20:00:00.000Z"
-score: 80
+score: 70
 guid: "2608.12440"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2608.12440.png"
-generated: "2026-08-14T19:05:44+05:30"
+generated: "2026-08-16T19:04:55+05:30"
 ---
 
-An AI coding agent successfully refactored a 717,725-line production TypeScript codebase across 3,648 files, dismantling a core architectural invariant without human code review or test oracle. The agent used specification-first methodology: 14 refinement cycles auditing the specification against source code, atomic implementation with compile/test feedback, then 17 verification cycles. It corrected 201 defects across 189 modified files before any execution. Convergence was achieved when two consecutive verification passes returned zero findings. This demonstrates AI agents can autonomously handle large-scale architectural changes previously considered infeasible through incremental refactoring.
+This paper reports a single, fully instrumented case study of a large-scale architectural refactoring by an AI coding agent under a specification-first protocol, with no human review of the generated code and no pre-existing oracle to validate the target behaviour. The task, dismantling a central invariant across a large interdependent codebase, was assessed by the author as effectively infeasible through incremental refactoring, the kind of change that conventionally calls for a rewrite instead. Under the protocol described here, the agent completed it successfully.
+  The system is a 717,725-line production TypeScript application across 3,648 files. The task required dismantling a core lifetime invariant: the guarantee that a UI panel remains open for the duration of an AI request. The target behaviour was that a streaming generation survives the closing of its panel and can be reattached, on reopening, to the same live stream with no loss or duplication.
+  The protocol: formal specification by the agent, 14 refinement cycles auditing that specification against the source code, atomic implementation, a compile/test feedback loop, then 17 verification cycles auditing the code against the frozen specification. Across 31 audit passes, 201 defects were corrected before any human executed the program. The convergence criterion was empirical: two consecutive verification passes returning zero findings.
+  The change touched 189 files (31 new); with the extraction phase, the two commits total 288 files, 34,770 insertions, 16,422 deletions. Across the first and roughly thirty later sessions, the software behaved as specified, no bug observed. Elapsed: three days; cost: USD 2,430.
+  The full specification and raw session logs, 1,500+ pages in French, are published as evidence, allowing inspection of the process and submission to a language model for consistency checking.

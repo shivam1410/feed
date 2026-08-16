@@ -5,10 +5,10 @@ source: "HF Trending Papers"
 url: "https://huggingface.co/papers/2608.12149"
 authors: ["Zunhai Su", "Bohan Sun", "Xialie Zhuang", "Shuibai Zhang", "He Xiao", "Jing Xiong", "Hengyuan Zhang", "Zhongzhu Zhou", "Tiantian Zhang", "Ngai Wong", "Chuan-Wei Kuo"]
 date: "2026-08-11T20:00:00.000Z"
-score: 55
+score: 45
 guid: "2608.12149"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2608.12149.png"
-generated: "2026-08-14T19:05:44+05:30"
+generated: "2026-08-16T19:04:55+05:30"
 ---
 
 Massive activations in hybrid linear-attention LLMs exhibit pre-attention spikes and inter-spike plateaus governed by cancellation timing, with morphology recovering at full-attention limits.

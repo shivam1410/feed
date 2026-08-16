@@ -8,7 +8,7 @@ date: "2026-08-12"
 score: 70
 guid: "10.1038/s41586-026-10886-w"
 image: ""
-generated: "2026-08-13T19:06:32+05:30"
+generated: "2026-08-16T19:04:55+05:30"
 ---
 
 CDK4/6 inhibition redirects Rb chromatin occupancy to activate oestrogen-responsive genes, counteracting its own ability to maintain therapeutic cell-cycle arrest.

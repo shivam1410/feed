@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/d41586-026-02473-w"
 authors: []
 date: "2026-08-12"
-score: 70
+score: 75
 guid: "10.1038/d41586-026-02473-w"
 image: ""
-generated: "2026-08-14T19:05:44+05:30"
+generated: "2026-08-16T19:04:55+05:30"
 ---
 
-Electrical stimulation of the human brain activates distinct, cell-type-specific gene programs in the temporal cortex. Different neuronal cell types respond to stimulation by activating different sets of genes, indicating that therapeutic benefits are mediated through cell-type-dependent molecular pathways. Understanding these molecular mechanisms of stimulation-induced gene expression could guide development of more targeted stimulation therapies to slow cognitive decline, potentially improving therapeutic outcomes beyond current non-specific stimulation approaches.
+Electrical stimulation of the human temporal cortex triggers cell-type-specific gene programs coordinated with neural network activity. Different cell types—neurons, astrocytes, and other glia—respond with distinct molecular signatures reflecting their specialized functions. Since the cell-type composition of stimulation responses may determine therapeutic benefits, identifying these gene program profiles advances development of brain stimulation protocols that more effectively enhance cognition and slow neurodegeneration.

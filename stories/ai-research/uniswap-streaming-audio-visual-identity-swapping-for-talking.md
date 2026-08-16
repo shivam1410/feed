@@ -5,10 +5,10 @@ source: "HF Trending Papers"
 url: "https://huggingface.co/papers/2608.11752"
 authors: ["Yuxuan Zhang", "Haozhong Xiong", "Jiayi Song", "Jinpeng Yu", "Yang Shi", "Jiaming Liu", "Ruihua Huang", "Liwei Wang"]
 date: "2026-08-12T20:00:00.000Z"
-score: 60
+score: 65
 guid: "2608.11752"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2608.11752.png"
-generated: "2026-08-14T19:05:44+05:30"
+generated: "2026-08-16T19:04:55+05:30"
 ---
 
 UniSwap enables synchronized appearance and voice replacement in talking videos through a unified streaming audio-visual diffusion transformer with specialized training and inference adaptations.

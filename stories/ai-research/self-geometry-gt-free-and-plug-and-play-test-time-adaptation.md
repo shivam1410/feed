@@ -8,7 +8,7 @@ date: "2026-08-10T20:00:00.000Z"
 score: 60
 guid: "2608.10708"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2608.10708.png"
-generated: "2026-08-14T19:05:44+05:30"
+generated: "2026-08-16T19:04:55+05:30"
 ---
 
 Self-Geometry improves vision foundation model predictions by enforcing explicit multi-view geometric constraints via test-time adaptation with LoRA, disentangled losses, and angular neighbor sampling.

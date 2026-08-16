@@ -8,7 +8,7 @@ date: "2026-08-10T20:00:00.000Z"
 score: 55
 guid: "2608.10615"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2608.10615.png"
-generated: "2026-08-14T19:05:44+05:30"
+generated: "2026-08-16T19:04:55+05:30"
 ---
 
 Simplax enriches uniform discrete diffusion via Dirichlet-categorical augmentation to improve reverse sampling and generative quality on text and Sudoku tasks.

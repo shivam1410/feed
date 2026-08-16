@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/s41586-026-10916-7"
 authors: ["Melissa Stouffer", "Osvaldo A. Miranda", "Florian M. Pauler", "Fabrizia Pipicelli", "Carmen Streicher", "Giselle Cheung", "Simon Hippenmeyer"]
 date: "2026-08-12"
-score: 65
+score: 75
 guid: "10.1038/s41586-026-10916-7"
 image: ""
-generated: "2026-08-14T19:05:44+05:30"
+generated: "2026-08-16T19:04:55+05:30"
 ---
 
-Stem-cell-derived brain organoids show that radial glia progenitor cells exhibit highly plastic proliferation and reduced neuronal diversity compared to developing brains, because organoids lack non-cell-autonomous environmental cues present in native tissue. This finding highlights that missing three-dimensional niche interactions are essential for faithful reproduction of cortical development outside the body.
+Lineage tracing of radial glia progenitors in stem-cell-derived cortical organoids reveals highly plastic proliferation and reduced clonal neuronal diversity compared to in vivo development. The organoids lack non-cell-autonomous niche cues essential for proper temporal control of cortical lineage progression. These missing environmental signals are critical for faithful brain development modeling, highlighting significant limitations in current stem-cell organoid systems.

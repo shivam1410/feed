@@ -8,7 +8,7 @@ date: "2026-08-05T20:00:00.000Z"
 score: 55
 guid: "2608.05604"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2608.05604.png"
-generated: "2026-08-14T19:05:44+05:30"
+generated: "2026-08-16T19:04:55+05:30"
 ---
 
 SkillZip compresses reusable procedural skills into contract-preserving, executable graph units to enable efficient retrieval and expansion under limited context budgets.

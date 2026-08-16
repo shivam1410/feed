@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/d41586-026-02558-6"
 authors: ["Jacob Smith"]
 date: "2026-08-13"
-score: 70
+score: 65
 guid: "10.1038/d41586-026-02558-6"
 image: ""
-generated: "2026-08-14T19:05:44+05:30"
+generated: "2026-08-16T19:04:55+05:30"
 ---
 
-Physicists have detected evidence of glueballs—exotic particles composed entirely of gluons, the force-carrying particles that mediate the strong nuclear force. Though glueballs are predicted by quantum chromodynamics theory, they have proven extremely difficult to observe experimentally. This discovery validates a longstanding theoretical prediction and provides crucial insights into fundamental particle physics and the structure of matter at the smallest scales.
+Physicists have found evidence of a particle made entirely of force-carrying gluons. Plus, what changes to US vaccine recommendations mean for children and the ways food scientists are improving chocolate.

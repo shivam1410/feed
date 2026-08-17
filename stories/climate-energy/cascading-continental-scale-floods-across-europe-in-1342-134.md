@@ -8,7 +8,7 @@ date: "2026-08-12"
 score: 65
 guid: "10.1038/s41586-026-10888-8"
 image: ""
-generated: "2026-08-16T19:04:55+05:30"
+generated: "2026-08-17T19:05:17+05:30"
 ---
 
-Historical analysis documents cascading continental-scale floods across Europe during 1342–1343. These medieval megafloods demonstrate that current flood management is unprepared for sequences of extreme flood events. The research emphasizes urgent need for proactive flood risk management accounting for unusual series of consecutive extreme events rather than isolated disasters. This suggests climate change may increase frequency of such cascading flood patterns.
+Historical analysis of 1342–1343 flood records reveals cascading continental-scale megafloods across Europe—multiple extreme flood waves occurring in sequence over months. Modern flood management assumes isolated peak events, but medieval evidence demonstrates that sequential, compounding extreme floods occur. Current infrastructure and risk strategies are unprepared for such cascading sequences, necessitating proactive frameworks that anticipate multiple successive extreme flood events.

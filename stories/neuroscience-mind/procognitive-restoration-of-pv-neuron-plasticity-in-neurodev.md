@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/s41586-026-10907-8"
 authors: ["Yu-Tzu Shih", "Jason Bondoc Alipio", "Zin-Juan Klaft", "Nathaniel Green", "Alok Nath Mohapatra", "Travis D. Goode", "Muthu Panchanatham", "Devesh Pathak", "Lai Ping Wong", "Ruslan Sadreyev", "Jung Ho Hyun", "Omar Ahmed", "Chris Dulla", "Amar Sahay"]
 date: "2026-08-12"
-score: 75
+score: 80
 guid: "10.1038/s41586-026-10907-8"
 image: ""
-generated: "2026-08-16T19:04:55+05:30"
+generated: "2026-08-17T19:05:17+05:30"
 ---
 
-Expression of Meis2 in hippocampal parvalbumin-expressing interneurons in an adult neurodevelopmental disorder mouse model rescued experience-dependent plasticity, improved memory and network function, and suppressed seizures. This genetic intervention simultaneously addressed multiple symptoms by restoring disrupted plasticity mechanisms. The results demonstrate that targeted genetic manipulation of specific interneuron populations can address symptoms across neurodevelopmental disorders.
+Restoring Meis2 protein expression in hippocampal parvalbumin-expressing interneurons rescued memory-dependent plasticity in an adult mouse model of neurodevelopmental disorder. This intervention normalized network function, improved memory, and suppressed seizures, indicating Meis2 loss drives multiple disease phenotypes. The finding identifies a discrete molecular target for potential therapeutic intervention in neurodevelopmental conditions affecting cognition and seizure control.

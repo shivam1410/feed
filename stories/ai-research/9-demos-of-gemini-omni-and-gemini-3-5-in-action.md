@@ -8,7 +8,7 @@ date: "Fri, 29 May 2026 17:30:00 +0000"
 score: 40
 guid: "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-3-5-videos/"
 image: "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini_Omni_and_Gemini_3.5_hero.max-600x600.format-webp.webp"
-generated: "2026-08-16T19:04:55+05:30"
+generated: "2026-08-17T19:05:17+05:30"
 ---
 
 Watch 9 videos showing the capabilities of Gemini Omni and Gemini 3.5, announced at Google I/O 2026.

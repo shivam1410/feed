@@ -8,7 +8,7 @@ date: "2026-08-12"
 score: 75
 guid: "10.1038/s41586-026-10916-7"
 image: ""
-generated: "2026-08-16T19:04:55+05:30"
+generated: "2026-08-17T19:05:17+05:30"
 ---
 
-Lineage tracing of radial glia progenitors in stem-cell-derived cortical organoids reveals highly plastic proliferation and reduced clonal neuronal diversity compared to in vivo development. The organoids lack non-cell-autonomous niche cues essential for proper temporal control of cortical lineage progression. These missing environmental signals are critical for faithful brain development modeling, highlighting significant limitations in current stem-cell organoid systems.
+Lineage tracing of radial glia progenitors in stem-cell-derived brain organoids revealed unexpected cellular plasticity and reduced clonal neuronal diversity compared to natural tissue. The organoid environment lacks non-cell-autonomous niche cues—essential signals from surrounding tissues that normally govern cortical development timing and fidelity. This finding highlights fundamental limitations of current organoid models and underscores the importance of tissue context in accurate developmental simulation.

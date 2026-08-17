@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/d41586-026-02562-w"
 authors: ["Benjamin Thompson", "Elizabeth Gibney"]
 date: "2026-08-14"
-score: 55
+score: 50
 guid: "10.1038/d41586-026-02562-w"
 image: ""
-generated: "2026-08-16T19:04:55+05:30"
+generated: "2026-08-17T19:05:17+05:30"
 ---
 
 Nature staff discuss what flagging AI content may mean for research integrity — plus, how people from different cultural backgrounds have the same ‘tickle hotspots’ on the body.

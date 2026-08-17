@@ -2,13 +2,13 @@
 title: "GitHub Models is now retired"
 category: "Other"
 source: "Simon Willison"
-url: "https://simonwillison.net/2026/Aug/9/github-models-is-now-retired/#atom-everything"
+url: "https://simonwillison.net/2026/Aug/9/github-models-is-now-retired/"
 authors: []
 date: "2026-08-09T22:48:05+00:00"
-score: 20
-guid: "https://simonwillison.net/2026/Aug/9/github-models-is-now-retired/#atom-everything"
+score: 48
+guid: "https://simonwillison.net/2026/Aug/9/github-models-is-now-retired/"
 image: ""
-generated: "2026-08-12T19:06:41+05:30"
+generated: "2026-08-17T19:05:17+05:30"
 ---
 
-GitHub Models is now retired I missed this news until today, when the GitHub Actions run for my simonw/research repository failed with this error message: GitHub Models is temporarily unavailable as part of a scheduled retirement brownout. That message is already stale, because the retirement has been completed. GitHub Models was an odd-shaped duck. GitHub provided a model playground tool and a unified API across a bunch of different LLM providers, with the biggest benefit being that code running in GitHub Actions could use the GitHub API key already present in that environment to execute prompts. This made it easy to build things that fit GitHub Next's Continuous AI concept. GitHub didn't share the reason behind the shutdown, but my bet is that it fits the pattern where coding agent patterns made it prohibitively expensive to offer free or subsidized tokens. My workflow uses an LLM call to create folder summaries for the README , using this code here . I swapped GitHub Models out for an OpenAI API key with a monthly spending limit, and I'm now generating my summaries using GPT-5.6 Luna. Tags: github , ai , github-actions , generative-ai , llms , llm-pricing
+GitHub Models, a unified LLM API and playground providing access to multiple models from various vendors, was retired following a scheduled brownout. The platform offered particular convenience for GitHub Actions: code running in CI/CD pipelines could authenticate using the GitHub API token already present in that environment, enabling frictionless LLM integration. GitHub did not publicly explain the shutdown rationale, though the pattern suggests economic pressure: as agentic coding patterns became mainstream, subsidized or free token access became prohibitively expensive to maintain. Users have migrated to alternatives: this site now uses OpenAI's API with monthly spending caps. The retirement marks a broader industry trend toward cost-consciousness in AI infrastructure provisioning.

@@ -5,10 +5,10 @@ source: "HF Trending Papers"
 url: "https://huggingface.co/papers/2608.12773"
 authors: ["Ebenezer Tarubinga"]
 date: "2026-08-12T20:00:00.000Z"
-score: 50
+score: 45
 guid: "2608.12773"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2608.12773.png"
-generated: "2026-08-16T19:04:55+05:30"
+generated: "2026-08-17T19:05:17+05:30"
 ---
 
 CW-BASS v2 selects pseudo-labels by measuring teacher reliability on held-out data and applying either strict filtering or an adaptive floor to avoid confirmation bias under saturated confidence.

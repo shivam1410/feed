@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/d41586-026-02502-8"
 authors: ["Dhruv Shenai"]
 date: "2026-08-13"
-score: 65
+score: 70
 guid: "10.1038/d41586-026-02502-8"
 image: ""
-generated: "2026-08-16T19:04:55+05:30"
+generated: "2026-08-17T19:05:17+05:30"
 ---
 
 Moderna’s newly approved vaccine could allow manufacturers to respond more rapidly to changing influenza strains.

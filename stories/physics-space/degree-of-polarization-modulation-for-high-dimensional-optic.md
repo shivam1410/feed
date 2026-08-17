@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/s41586-026-10891-z"
 authors: ["Alessandro Petrini", "Claudio Conti", "Davide Pierangeli"]
 date: "2026-08-12"
-score: 70
+score: 75
 guid: "10.1038/s41586-026-10891-z"
 image: ""
-generated: "2026-08-16T19:04:55+05:30"
+generated: "2026-08-17T19:05:17+05:30"
 ---
 
-By engineering the statistics of light at the micrometre scale using phase-only spatial light modulators, both the state and degree of polarization become spatially programmable, enabling direct encoding of information in a high-dimensional space.
+Engineers can now program light's polarization state at micrometer scales using phase-only spatial light modulators, making both polarization properties spatially variable. This transforms light into a high-dimensional information carrier for optical computing. The approach engineers light statistics to directly encode information across multiple dimensions, enabling fundamentally new computational architectures beyond conventional binary or low-dimensional schemes.

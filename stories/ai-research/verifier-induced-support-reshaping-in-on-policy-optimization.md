@@ -1,14 +1,14 @@
 ---
 title: "Verifier-Induced Support Reshaping in On-Policy Optimization"
 category: "AI Research"
-source: "arXiv (cs.LG)"
-url: "https://arxiv.org/abs/2608.00220"
-authors: ["Shaohang Wei, Zikun Su, Feifan Song, Wen Luo, Wei Li, Guangyue Peng, Houfeng Wang"]
-date: "Tue, 04 Aug 2026 00:00:00 -0400"
-score: 60
-guid: "oai:arXiv.org:2608.00220v1"
-image: ""
-generated: "2026-08-04T20:29:16+05:30"
+source: "HF Trending Papers"
+url: "https://huggingface.co/papers/2608.00220"
+authors: ["Shaohang Wei", "Zikun Su", "Feifan Song", "Wen Luo", "Wei Li", "Guangyue Peng", "Houfeng Wang"]
+date: "2026-07-30T20:00:00.000Z"
+score: 45
+guid: "2608.00220"
+image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2608.00220.png"
+generated: "2026-08-17T19:05:17+05:30"
 ---
 
-arXiv:2608.00220v1 Announce Type: new Abstract: We show that on-policy reinforcement learning with verifiable rewards (RLVR) can improve the current objective while making successful behaviors for later objectives too rare to sample and reinforce. We call this verifier-induced support reshaping and define effective rewardable support as successful trajectories reachable within a fixed rollout budget. Across two model families, we study this effect through repeated verifier-scored sampling and bidirectional training on mathematical reasoning and constrained instruction following, including sequential training with the opposite verifier. Math-RLVR raises average instruction-following success but reduces the number of prompts with any successful response under repeated sampling. On IFEval with Qwen3-8B-Base, pass@1 rises by 6.5 percentage points while best@32 falls by 9.8 percentage points, and the same divergence appears across both models and IF benchmarks. Conversely, IF-RLVR shifts math responses from step-by-step openings toward direct answers, lowers best@k across sampling budgets, and reduces reward variation for later Math-RLVR. Token-distribution analyses and controlled opening interventions show that these changes concentrate in the first few response tokens. RLVR mainly reranks openings already available in the base policy, and the selected opening causally affects math searchability. The tested reference-policy constraints, routing priors, and on-policy distillation preserve cross-task support only partially; MathIF and ReasonIF show that marginal gains translate only partly into responses that are both correct and constraint-following. Therefore, endpoint improvements do not guarantee future trainability or joint capability under on-policy optimization. Code is available at https://github.com/sylvain-wei/verifier-induced-support-reshaping
+On-policy reinforcement learning with verifiable rewards can improve immediate task performance while reducing the diversity of successful responses needed for future training, a phenomenon called verifier-induced support reshaping.

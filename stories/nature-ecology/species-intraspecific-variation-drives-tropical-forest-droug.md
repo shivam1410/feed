@@ -8,7 +8,7 @@ date: "2026-08-12"
 score: 70
 guid: "10.1038/s41586-026-10870-4"
 image: ""
-generated: "2026-08-16T19:04:55+05:30"
+generated: "2026-08-17T19:05:17+05:30"
 ---
 
-Tropical forests adapt to drought through both genetic variation within species and shifts in species composition. Trees in drier forests show increased embolism resistance and wider stomatal safety margins allowing more photosynthesis before damage. This coordinated adaptation reveals forests possess multiple evolutionary pathways for climate adjustment: populations within species can shift phenotypically while the overall species mix changes. This multi-level variation suggests tropical forests may have substantial capacity to adjust to climate change.
+Tropical forests adapt to drought through both intraspecific variation within species and species turnover, driving coordinated shifts in physiology. Trees in drier forests show increased embolism resistance and wider stomatal safety margins. This variation-driven adaptation mechanism explains how forests maintain function under changing climate—individual species evolve drought tolerance while forest composition shifts.

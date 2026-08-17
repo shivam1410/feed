@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/s41586-026-10787-y"
 authors: ["Vincent Holst", "Andres Algaba", "Floriano Tori", "Sylvia Wenmackers", "Vincent Ginis"]
 date: "2026-08-12"
-score: 20
+score: 35
 guid: "10.1038/s41586-026-10787-y"
 image: ""
-generated: "2026-08-16T19:04:55+05:30"
+generated: "2026-08-17T19:05:17+05:30"
 ---
 
 Dataset artefacts can partially drive the measured decline in disruption

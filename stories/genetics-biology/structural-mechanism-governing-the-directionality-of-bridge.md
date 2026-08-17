@@ -8,7 +8,7 @@ date: "2026-08-12"
 score: 75
 guid: "10.1038/s41586-026-10903-y"
 image: ""
-generated: "2026-08-16T19:04:55+05:30"
+generated: "2026-08-17T19:05:17+05:30"
 ---
 
-Cryo-electron microscopy structures reveal how the IS621 bridge recombinase protein mediates DNA excision and explains its natural preference for insertion over deletion. This detailed structural view shows how the enzyme binds and rearranges DNA. Understanding this mechanism informs the design of programmable bridge-editing technologies—engineered recombinases with customizable specificity and activity. The discovery provides a template for building more precise genetic modification tools applicable to research and potential therapeutics.
+Cryo-electron microscopy structures of the IS621 bridge recombinase enzyme reveal why it naturally favors DNA insertion over excision, explaining the molecular mechanisms governing directionality. This structural insight informs rational design of programmable genetic editors with controlled directionality. Understanding the structural basis of enzyme specificity enables engineered variants with predictable editing behavior.

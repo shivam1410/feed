@@ -5,10 +5,10 @@ source: "Simon Willison"
 url: "https://simonwillison.net/2026/Aug/15/sighting-391300422/"
 authors: []
 date: "2026-08-15T03:22:00+00:00"
-score: 70
+score: 76
 guid: "https://simonwillison.net/2026/Aug/15/sighting-391300422/"
 image: ""
-generated: "2026-08-16T19:04:55+05:30"
+generated: "2026-08-17T19:05:17+05:30"
 ---
 
-Morris is a Northern Gannet in Pillar Point Harbor, California—scientifically significant as the only known Northern Gannet in the entire Pacific Ocean. Morris arrived in the Farallon Islands 14 years ago and established Pillar Point Harbor as home. The bird is easily identifiable: the only white bird with a yellow head in the region, typically found among smaller black Brandt's cormorants near the harbor's commercial pier. This sighting is locally notable as Morris became a regional celebrity. The documented rare, out-of-range species contributes to understanding avian distribution patterns.
+Morris is the only known Northern Gannet in the entire Pacific Ocean, making this locally common Atlantic species an extraordinary rarity on the west coast. The bird arrived in the Farallon Islands off San Francisco fourteen years ago and subsequently established Pillar Point Harbor as its home. Morris is readily identifiable: a solitary white bird with a distinctive yellow head, typically observed near the commercial pier alongside much smaller black Brandt's cormorants. Despite spanning thousands of miles of suitable habitat, only Morris represents this species in Pacific waters—a remarkable biological anomaly that has made the gannet a local celebrity and frequent photography subject.

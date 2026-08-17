@@ -1,106 +1,106 @@
 {
-  "generatedAt": "2026-08-16T19:05:21+05:30",
+  "generatedAt": "2026-08-17T19:05:44+05:30",
   "source": "Hugging Face — trending models",
   "models": [
     {
       "id": "Qwen/Qwen3.8-27B",
       "task": "image-text-to-text",
-      "likes": 10055,
-      "downloads": 267725,
+      "likes": 10541,
+      "downloads": 415039,
       "library": "transformers",
       "createdAt": "2026-08-05T08:22:59.000Z",
       "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
-      "summary": "27B vision-language model understanding images/videos, designed for complex multi-step agentic tasks with flexible thinking."
-    },
-    {
-      "id": "meta-models/Muse-Glimmer-30B",
-      "task": "image-text-to-text",
-      "likes": 1602,
-      "downloads": 292973,
-      "library": "transformers",
-      "createdAt": "2026-08-09T17:51:35.000Z",
-      "url": "https://huggingface.co/meta-models/Muse-Glimmer-30B",
-      "summary": "30B agentic model with multimodal perception, reliable tool use, and failure recovery for autonomous tasks."
+      "summary": "27B vision-language model for image-text reasoning and complex multi-step agentic tasks."
     },
     {
       "id": "unsloth/Qwen3.8-27B-GGUF",
       "task": null,
-      "likes": 1354,
-      "downloads": 1945635,
+      "likes": 1567,
+      "downloads": 2727609,
       "library": null,
       "createdAt": "2026-08-13T08:28:40.000Z",
       "url": "https://huggingface.co/unsloth/Qwen3.8-27B-GGUF",
-      "summary": "GGUF-quantized Qwen3.8-27B supporting efficient local inference with improved tool calling for agentic applications."
+      "summary": "GGUF-quantized Qwen3.8-27B with Unsloth optimizations for efficient local inference and tool use."
+    },
+    {
+      "id": "meta-models/Muse-Glimmer-30B",
+      "task": "image-text-to-text",
+      "likes": 1648,
+      "downloads": 334099,
+      "library": "transformers",
+      "createdAt": "2026-08-09T17:51:35.000Z",
+      "url": "https://huggingface.co/meta-models/Muse-Glimmer-30B",
+      "summary": "30B distilled agent model with reasoning, tool use, and multimodal understanding for local deployment."
     },
     {
       "id": "Qwen/Qwen3.8-2.4T-A95B",
       "task": "text-generation",
-      "likes": 995,
-      "downloads": 7932,
+      "likes": 1027,
+      "downloads": 9465,
       "library": "transformers",
       "createdAt": "2026-08-08T01:50:52.000Z",
       "url": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B",
-      "summary": "Mixture-of-Experts model with 95B active parameters for text generation, coding, and long-horizon agentic tasks."
+      "summary": "95B open mixture-of-experts model with Qwen-Max capabilities for coding and agentic tasks."
     },
     {
       "id": "Lightricks/LTX-2.5",
       "task": "image-to-video",
-      "likes": 981,
-      "downloads": 424099,
+      "likes": 1071,
+      "downloads": 465529,
       "library": "diffusion-single-file",
       "createdAt": "2026-07-23T07:55:24.000Z",
       "url": "https://huggingface.co/Lightricks/LTX-2.5",
-      "summary": "Diffusion-based multimodal model supporting image-to-video, text-to-video, and bidirectional audio-video generation."
+      "summary": "Omni-modal diffusion model supporting text, image, and audio inputs for video generation."
     },
     {
       "id": "MiniMaxAI/MiniMax-Music3",
       "task": "text-to-audio",
-      "likes": 801,
-      "downloads": 8639,
+      "likes": 884,
+      "downloads": 10375,
       "library": "diffusers",
       "createdAt": "2026-08-07T12:23:29.000Z",
       "url": "https://huggingface.co/MiniMaxAI/MiniMax-Music3",
-      "summary": "Music generation model creating complete songs up to five minutes with coherent structure and expressive vocals."
+      "summary": "Music generation model creating up-to-5-minute songs from lyrics and descriptions with structural coherence."
     },
     {
       "id": "MiniMaxAI/MiniMax-H3",
       "task": "image-text-to-video",
-      "likes": 4006,
-      "downloads": 2307541,
+      "likes": 4061,
+      "downloads": 2403238,
       "library": "minimax-h3",
       "createdAt": "2026-07-28T10:45:18.000Z",
       "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3",
-      "summary": "Omni-modal generative system generating video with native stereo audio from multimodal text and image inputs."
+      "summary": "Omni-modal system generating video with audio from multimodal inputs up to 2K resolution."
     },
     {
       "id": "deepseek-ai/DeepSeek-V4-Pro-0813",
       "task": "text-generation",
-      "likes": 516,
-      "downloads": 21873,
+      "likes": 559,
+      "downloads": 25006,
       "library": "transformers",
       "createdAt": "2026-08-13T03:05:06.000Z",
       "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813",
-      "summary": "Text-generation model with enhanced agentic capabilities and speculative decoding for efficient reasoning and tool use."
+      "summary": "Advanced DeepSeek-V4 Pro with speculative decoding for competitive agentic and reasoning tasks."
     },
     {
       "id": "Qwen/Qwen3.8-27B-FP8",
       "task": "image-text-to-text",
-      "likes": 455,
-      "downloads": 352971,
+      "likes": 511,
+      "downloads": 495646,
       "library": "transformers",
       "createdAt": "2026-08-13T08:01:58.000Z",
       "url": "https://huggingface.co/Qwen/Qwen3.8-27B-FP8",
-      "summary": "FP8-quantized vision-language model for image/video understanding with performance nearly identical to the original model."
+      "summary": "FP8-quantized 27B vision-language model with near-original performance for agentic multimodal reasoning."
     },
     {
       "id": "deepseek-ai/DeepSeek-V4-Flash-0731",
       "task": "text-generation",
-      "likes": 3439,
-      "downloads": 1872232,
+      "likes": 3483,
+      "downloads": 1978298,
       "library": "transformers",
       "createdAt": "2026-07-31T07:30:24.000Z",
       "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731",
-      "summary": "Text-generation model with enhanced agentic capabilities, optimized parameter count for efficient inference and tool use."
+      "summary": "Efficient DeepSeek-V4 Flash with speculative decoding, outperforming larger models on agent benchmarks."
     }
   ]
 }

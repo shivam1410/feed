@@ -8,7 +8,7 @@ date: "Fri, 31 Jul 2026 04:40:54 GMT"
 score: 80
 guid: "https://www.latent.space/p/ainews-gpt-56-price-cut-by-20-80"
 image: ""
-generated: "2026-08-17T19:05:17+05:30"
+generated: "2026-08-18T19:06:14+05:30"
 ---
 
-GPT-5.6 pricing dropped 20-80% through recursive self-optimization, continuing a startling trend where constant-capability intelligence costs have plummeted 1000x in eighteen months. OpenAI's new self-optimization approach had the model autonomously analyze production traffic, tune load balancing, and rewrite serving kernels in Triton and Gluon, reducing end-to-end serving costs by 20%. Speculative decoding improvements through autonomous experimentation increased token-generation efficiency by 15%. Previous gains were attributed to optimization and architectural transitions (completions to reasoning, dense to MoE); eighteen additional months of price decline suggest this cost reduction remains not a temporary advantage but an ongoing structural trend. Capability-adjusted costs for frontier intelligence continue falling steeply.
+GPT 5.6 achieved 20% to 80% price reductions through recursive self-optimization of serving infrastructure. Self-optimization reduced end-to-end serving costs by 20%, while improved speculative decoding increased token-generation efficiency by over 15%. These gains sustain the trend of constant-intelligence cost reduction—previously 1000x over 18 months—driven by models now actively optimizing their own kernel implementations and serving strategies.

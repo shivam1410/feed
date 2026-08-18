@@ -5,10 +5,10 @@ source: "Simon Willison"
 url: "https://simonwillison.net/2026/Aug/12/deepseek-v4-pro-0813/"
 authors: []
 date: "2026-08-12T23:59:23+00:00"
-score: 68
+score: 60
 guid: "https://simonwillison.net/2026/Aug/12/deepseek-v4-pro-0813/"
 image: ""
-generated: "2026-08-17T19:05:17+05:30"
+generated: "2026-08-18T19:06:14+05:30"
 ---
 
 DeepSeek V4 Pro 0813 (on OpenRouter) The latest DeepSeek Pro model is now available, via API only. I had to link to OpenRouter because DeepSeek don't have any obvious announcement page for their new model. I haven't been able to confirm if they plan to release the open weights, but given the weights are available for both April's deepseek-ai/DeepSeek-V4-Pro and July's deepseek-ai/DeepSeek-V4-Flash-0731 it seems likely. Update : the weights are now available on Hugging Face, 1.7T parameters, 893 GB. Interestingly I got very different looking pelicans for the three different reasoning levels of low, medium, and high. I've not noticed this kind of difference from any other model: Low: Medium: High: In terms of benchmarks... as far as I can tell those were released to the Official DeepSeek WeChat Group, then copied and pasted into a post on Reddit which was deleted by the moderators for being "low-effort", then copied into this ASCII-art table on Hacker News . Tags: ai , generative-ai , llms , pelican-riding-a-bicycle , deepseek , llm-release , ai-in-china

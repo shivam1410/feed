@@ -5,10 +5,10 @@ source: "Latent Space"
 url: "https://www.latent.space/p/unpacking-chatgpt-work"
 authors: ["Shlok Khemani"]
 date: "Tue, 04 Aug 2026 18:20:14 GMT"
-score: 76
+score: 85
 guid: "https://www.latent.space/p/unpacking-chatgpt-work"
 image: ""
-generated: "2026-08-17T19:05:17+05:30"
+generated: "2026-08-18T19:06:14+05:30"
 ---
 
-OpenAI released ChatGPT Work on July 9th as an agent product for knowledge work, attracting 10 million users within three weeks. The launch included three new models across fourteen configurations plus consolidation of ChatGPT and Codex desktop applications. ChatGPT now has an estimated 1 billion monthly active users and 1 billion weekly active users, with Work and Chat currently separate modes that Greg Brockman confirmed will merge by year-end. Work represents a critical juncture: while currently serving power users, it previews how the platform's billion-user base will soon interact with AI agents. The release reflects OpenAI's evolution from chatbot platform toward autonomous agent infrastructure accessible to mainstream users.
+OpenAI launched ChatGPT Work in July 2026 as an agent product for knowledge work, crossing 10 million users within three weeks. The launch included three new models across fourteen configurations and consolidated ChatGPT and Codex desktop apps. ChatGPT reached 1 billion monthly active users in June and 1 billion weekly active users in August. Work and Chat remain separate modes but will merge by year-end, positioning agents as the primary interface for a billion weekly users.

@@ -5,10 +5,10 @@ source: "Simon Willison"
 url: "https://simonwillison.net/2026/Aug/17/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-tra/"
 authors: []
 date: "2026-08-17T15:21:29+00:00"
-score: 80
+score: 68
 guid: "https://simonwillison.net/2026/Aug/17/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-tra/"
 image: ""
-generated: "2026-08-18T19:06:14+05:30"
+generated: "2026-08-19T19:06:05+05:30"
 ---
 
-404 Media tracked a 1,000-book order placed via the Biblio marketplace using an embedded Apple AirTag, discovering the shipment's destination as Amazon's LAS8 facility in Las Vegas. The facility's VGT3 section, marked with a distinctive dinosaur-with-book logo, was confirmed by Amazon worker forum discussions to destructively scan large book volumes. The tracking confirms large-scale book acquisition for AI model training by a major technology company.
+We Tracked a Shipment of Rare Books. It Ended at an Amazon AI Training Facility Excellent piece of reporting from 404 Media. For a while now there have been stories of book dealers receiving orders for large volumes of books from apparently price-insensitive anonymous customers, widely suspected to be companies looking to scan them for AI training (see my previous coverage of Anthropic's book scanning from June 2025.) 404 Media investigated with an AirTag! In July, one bookseller told me they received a very large order of around 1,000 books on Biblio, one of these marketplaces. The seller agreed to put an Apple AirTag provided by 404 Media in one of the books included in this order so we could see where the book was going. And by extension, which company, AI or otherwise, was behind this massive order. The book ended up delivered to the VGT3 corner of the LAS8 Amazon facility in the north east of Las Vegas, where the entrance carried this on-the-nose logo of a dinosaur with a book! Photo credit: 404 Media Online forum discussions between Amazon workers confirmed that VGT3 destructively scans large volumes of books. Tags: amazon , journalism , ai , training-data , ai-ethics , 404-media

@@ -5,10 +5,10 @@ source: "Simon Willison"
 url: "https://simonwillison.net/2026/Aug/9/sqlite-text-history-prototype/"
 authors: []
 date: "2026-08-09T22:05:00+00:00"
-score: 30
+score: 52
 guid: "https://simonwillison.net/2026/Aug/9/sqlite-text-history-prototype/"
 image: ""
-generated: "2026-08-16T19:04:55+05:30"
+generated: "2026-08-19T19:06:05+05:30"
 ---
 
-This research explores storing text revision histories efficiently in SQLite by compressing arrays of full-text versions. Rather than storing each edit as a separate row—which multiplies storage for large documents—the approach bundles all historical versions into a JSON array and applies compression algorithms like zlib or zstd. The repeated content across versions compresses exceptionally well. This prototype aims to solve a long-standing problem: storing complete document history without proportional storage bloat for frequently-edited content.
+A prototype approach for efficient text-revision storage in SQLite: instead of storing each version as a separate database row (which adds 20KB of overhead per edit for every 20KB document), store all prior versions in a single JSON array and apply aggressive zlib or zstd compression. The repeated text appearing across versions should compress exceptionally well, significantly reducing total storage overhead. This novel approach addresses a persistent and difficult challenge in database revision-history design, where naive implementations quickly consume storage. The technique leverages compression's inherent strength at finding repeated patterns within correlated data sequences, making it ideal for version histories where documents often change minimally between revisions.

@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/d41586-026-02461-0"
 authors: []
 date: "2026-08-12"
-score: 70
+score: 65
 guid: "10.1038/d41586-026-02461-0"
 image: ""
-generated: "2026-08-18T19:06:14+05:30"
+generated: "2026-08-19T19:06:05+05:30"
 ---
 
 A mixture of proteins in snake blood can prevent the death of mice injected with an otherwise lethal dose of venom.

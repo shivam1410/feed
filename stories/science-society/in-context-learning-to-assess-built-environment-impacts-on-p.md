@@ -4,11 +4,11 @@ category: "Science & Society"
 source: "arXiv (cs.LG)"
 url: "https://arxiv.org/abs/2608.14663"
 authors: ["Houhao Liang, Kresimir Friganovic, Joanne Kua, Noor Hafizah Ismail, Su Su, Bryan Yijia Tan, Navrag B. Singh, Panos Mavros"]
-date: "Tue, 18 Aug 2026 00:00:00 -0400"
-score: 62
+date: "Wed, 19 Aug 2026 00:00:00 -0400"
+score: 60
 guid: "oai:arXiv.org:2608.14663v1"
 image: ""
-generated: "2026-08-18T19:06:14+05:30"
+generated: "2026-08-19T19:06:05+05:30"
 ---
 
 arXiv:2608.14663v1 Announce Type: new Abstract: As global populations age, enhancing neighborhood walkability through inclusive urban design is important for mitigating built environment (BE) barriers that discourage physical activity and social participation among older adults. This study investigates the utility of in-context learning (ICL), using the transformer-based foundation model TabPFN, to determine how BE features influence perceived walkability, as measured by the Neighborhood Environment Walkability Scale (NEWS-A) survey. Using a small-scale dataset (N = 257) comprising a unique demographic of older adults with knee osteoarthritis or a history of falls, TabPFN achieved a macro F1 score of 54.89% for walkability perceptions categorized as Low, Neutral, and High using equal-width binning. This result outperformed optimized, grid-searched baseline models, including Random Forest (45.85%) and XGBoost (50.56%). To interpret these results, we employed Shapley Interaction Quantification (SHAP-IQ) to identify the hierarchical importance of feature interactions. Preliminary results revealed that the model's predictive logic was primarily driven by higher-order interactions. For example, the interaction between average street circuity and the ratio of drivable roads emerged as the primary discriminator of perceived walkability. Neighborhood greenery was found to have substantial predictive importance only when combined with an individual's fear of falling or perception of age-friendliness. Overall, ICL using TabPFN demonstrates superior performance on small-scale datasets, enhancing the fidelity of the resulting interpretive insights. Furthermore, SHAP-IQ provides a synergistic perspective on how higher-order feature interactions drive the model's predictions.

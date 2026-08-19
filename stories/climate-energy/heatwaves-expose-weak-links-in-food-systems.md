@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/d41586-026-02577-3"
 authors: ["Zongyin Zhao", "Chengchao Zuo", "Xinli Ke", "Shuyu Yang"]
 date: "2026-08-18"
-score: 65
+score: 45
 guid: "10.1038/d41586-026-02577-3"
 image: ""
-generated: "2026-08-18T19:06:14+05:30"
+generated: "2026-08-19T19:06:05+05:30"
 ---
 
 Heatwaves expose weak links in food systems

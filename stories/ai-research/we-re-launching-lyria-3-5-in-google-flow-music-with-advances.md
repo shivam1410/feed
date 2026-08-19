@@ -5,10 +5,10 @@ source: "DeepMind"
 url: "https://blog.google/innovation-and-ai/models-and-research/google-labs/lyria-3-5/"
 authors: []
 date: "Wed, 29 Jul 2026 16:00:00 +0000"
-score: 45
+score: 60
 guid: "https://blog.google/innovation-and-ai/models-and-research/google-labs/lyria-3-5/"
 image: "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Lyria3.5_social.max-600x600.format-webp.webp"
-generated: "2026-08-18T19:06:14+05:30"
+generated: "2026-08-19T19:06:05+05:30"
 ---
 
 Our newest music generation model, Lyria 3.5, delivers significant advancements across musicality, lyrics, and vocal quality, empowering you to craft richer tracks. We’r…

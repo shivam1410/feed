@@ -8,7 +8,7 @@ date: "2026-08-17"
 score: 75
 guid: "10.1038/d41586-026-02552-y"
 image: ""
-generated: "2026-08-18T19:06:14+05:30"
+generated: "2026-08-19T19:06:05+05:30"
 ---
 
-The drug, called Orzeyful, takes aim at the root cause of the sleep disorder rather than at its symptoms.
+Orzeyful, a newly approved narcolepsy treatment, represents a breakthrough by targeting the disease's underlying cause rather than merely managing symptoms. Traditional narcolepsy treatments primarily address sleep attacks and muscle weakness without resolving the biological dysfunction causing them. This root-cause approach suggests potential for developing similar therapies for other neurological conditions. By addressing what actually causes narcolepsy rather than how it manifests, Orzeyful may enable more effective treatment and paves the way for first-of-its-kind interventions across neurology.

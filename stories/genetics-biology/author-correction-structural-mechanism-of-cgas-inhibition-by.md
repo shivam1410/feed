@@ -8,7 +8,7 @@ date: "2026-08-13"
 score: 25
 guid: "10.1038/s41586-026-10959-w"
 image: ""
-generated: "2026-08-18T19:06:14+05:30"
+generated: "2026-08-19T19:06:05+05:30"
 ---
 
 Author Correction: Structural mechanism of cGAS inhibition by the nucleosome

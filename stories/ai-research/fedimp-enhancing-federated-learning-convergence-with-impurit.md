@@ -4,11 +4,11 @@ category: "AI Research"
 source: "arXiv (cs.LG)"
 url: "https://arxiv.org/abs/2608.14654"
 authors: ["Hai Anh Tran, Cuong Ta, Truong X. Tran"]
-date: "Tue, 18 Aug 2026 00:00:00 -0400"
-score: 65
+date: "Wed, 19 Aug 2026 00:00:00 -0400"
+score: 55
 guid: "oai:arXiv.org:2608.14654v1"
 image: ""
-generated: "2026-08-18T19:06:14+05:30"
+generated: "2026-08-19T19:06:05+05:30"
 ---
 
 arXiv:2608.14654v1 Announce Type: new Abstract: Federated Learning (FL) is a collaborative paradigm that enables multiple devices to train a global model while preserving local data privacy. A major challenge in FL is the non-Independent and Identically Distributed (non-IID) nature of data across devices, which hinders training efficiency and slows convergence. To tackle this, we propose Federated Impurity Weighting (FedImp), a novel algorithm that quantifies each device contribution based on the informational content of its local data. These contributions are normalized to compute distinct aggregation weights for the global model update. Extensive experiments on EMNIST and CIFAR-10 datasets show that FedImp significantly improves convergence speed, reducing communication rounds by up to 64.4%, 27.8%, and 66.7% on EMNIST, and 44.2%, 44%, and 25.6% on CIFAR-10 compared to FedAvg, FedProx, and FedAdp, respectively. Under highly imbalanced data distributions, FedImp outperforms all baselines and achieves the highest accuracy. Overall, FedImp offers an effective solution to enhance FL efficiency in non-IID settings.

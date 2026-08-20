@@ -8,7 +8,7 @@ date: "Wed, 17 Jun 2026 15:00:00 +0000"
 score: ""
 guid: "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-for-disease-management-in-nature/"
 image: "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AMIE_Mx_Nature_Social_Visual_Va.max-600x600.format-webp.webp"
-generated: "2026-07-23T04:03:36+05:30"
+generated: "2026-08-20T19:00:16+05:30"
 ---
 
 Research in “Nature” shows our conversational AI system matches primary care physicians in complex disease management.

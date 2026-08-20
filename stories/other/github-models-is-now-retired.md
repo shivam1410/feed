@@ -5,10 +5,10 @@ source: "Simon Willison"
 url: "https://simonwillison.net/2026/Aug/9/github-models-is-now-retired/"
 authors: []
 date: "2026-08-09T22:48:05+00:00"
-score: 42
+score: ""
 guid: "https://simonwillison.net/2026/Aug/9/github-models-is-now-retired/"
 image: ""
-generated: "2026-08-19T19:06:05+05:30"
+generated: "2026-08-20T19:00:16+05:30"
 ---
 
-GitHub Models, a unified LLM API platform providing access across multiple providers, has been fully retired. The platform's key advantage was allowing GitHub Actions workflows to leverage existing GitHub API credentials for LLM calls without separate authentication. The likely reason: automated coding agents made free-tier tokens prohibitively expensive to offer at scale. The author migrated to OpenAI with a monthly spending cap and now uses GPT-5.6 Luna for repository documentation generation and folder summaries in GitHub Actions workflows. This shutdown exemplifies a broader pattern where coding agents and automated systems have reshaped LLM economics, making free offerings unsustainable for major platforms.
+GitHub Models is now retired I missed this news until today, when the GitHub Actions run for my simonw/research repository failed with this error message: GitHub Models is temporarily unavailable as part of a scheduled retirement brownout. That message is already stale, because the retirement has been completed. GitHub Models was an odd-shaped duck. GitHub provided a model playground tool and a unified API across a bunch of different LLM providers, with the biggest benefit being that code running in GitHub Actions could use the GitHub API key already present in that environment to execute prompts. This made it easy to build things that fit GitHub Next's Continuous AI concept. GitHub didn't share the reason behind the shutdown, but my bet is that it fits the pattern where coding agent patterns made it prohibitively expensive to offer free or subsidized tokens. My workflow uses an LLM call to create folder summaries for the README , using this code here . I swapped GitHub Models out for an OpenAI API key with a monthly spending limit, and I'm now generating my summaries using GPT-5.6 Luna. Tags: github , ai , github-actions , generative-ai , llms , llm-pricing

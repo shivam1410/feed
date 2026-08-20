@@ -1,0 +1,14 @@
+---
+title: "Pessimistic Meta-Induction and Its Limits: Lessons from Frequentist Statistics and Machine Learning Theory"
+category: "Other"
+source: "arXiv (cs.LG)"
+url: "https://arxiv.org/abs/2608.17213"
+authors: ["Hanti Lin"]
+date: "Thu, 20 Aug 2026 00:00:00 -0400"
+score: ""
+guid: "oai:arXiv.org:2608.17213v1"
+image: ""
+generated: "2026-08-20T19:00:16+05:30"
+---
+
+arXiv:2608.17213v1 Announce Type: new Abstract: This paper challenges the pessimistic meta-inductive argument against scientific realism by undermining its inductive step rather than its historical premise. Although related challenges already exist, I develop a new one. Drawing on a general epistemology of scientific inference developed in frequentist statistics, machine learning, and formal epistemology, I evaluate induction in terms of convergence to the truth. I argue that ordinary enumerative induction can achieve everywhere convergence, whereas meta-induction fails even to achieve almost everywhere convergence. Indeed, in the problem context where meta-induction arises, the failure is deeper: no inference method whatsoever achieves almost everywhere convergence.

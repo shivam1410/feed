@@ -8,7 +8,7 @@ date: "2026-08-19"
 score: ""
 guid: "10.1038/s41586-026-10910-z"
 image: ""
-generated: "2026-08-20T19:00:16+05:30"
+generated: "2026-08-21T19:00:17+05:30"
 ---
 
 The psychedelic psilocybin reorganizes brain activity into structured, context-aligned patterns that integrate internal and external processing, providing a neural basis for the felt continuity between self and world, elucidating how the psychedelic state translates into psychological change.

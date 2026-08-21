@@ -8,7 +8,7 @@ date: "2026-08-19"
 score: ""
 guid: "10.1038/s41586-026-10894-w"
 image: ""
-generated: "2026-08-20T19:00:16+05:30"
+generated: "2026-08-21T19:00:17+05:30"
 ---
 
 The discovery of the fast-orbiting star S301 near Sagittarius A* offers a promising new probe of the central black hole spin of the Milky Way through relativistic orbit measurements.

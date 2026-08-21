@@ -8,7 +8,7 @@ date: "2026-08-19"
 score: ""
 guid: "10.1038/s41586-026-10951-4"
 image: ""
-generated: "2026-08-20T19:00:16+05:30"
+generated: "2026-08-21T19:00:17+05:30"
 ---
 
 Functional lymphoid structures within the skull bone marrow enable central nervous system immunosurveillance and shape immune responses to brain disease.

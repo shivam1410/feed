@@ -1,0 +1,14 @@
+---
+title: "Scale-Aware Pretraining of Time Series Foundation Models via Multi-Patch Token Alignment and Hybrid Masking"
+category: "Other"
+source: "arXiv (cs.LG)"
+url: "https://arxiv.org/abs/2608.20005"
+authors: ["Taihua Chen, Xiang Ma, Yixin Zhang, Tailin Zhan, Manyu Sun, Lizhen Cui"]
+date: "Fri, 21 Aug 2026 00:00:00 -0400"
+score: ""
+guid: "oai:arXiv.org:2608.20005v1"
+image: ""
+generated: "2026-08-21T19:00:17+05:30"
+---
+
+arXiv:2608.20005v1 Announce Type: new Abstract: Pretraining time series foundation models across heterogeneous datasets necessitates effective handling of varying sampling frequencies. Current methods either employ dataset-specific patch sizes and separate FFNs, leading to fragmented representations, or enforce a fixed patch size that neglects inherent temporal variations. To address this, we propose SATS, featuring a scale-aware token alignment mechanism that treats patch size as an explicit notion of scale. By incorporating a contrastive-inspired alignment regularizer, SATS aligns representation spaces across scales while preserving distinct modeling capacities. Furthermore, a hybrid masking strategy combining random and contiguous masking is introduced to capture multi-scale temporal structures. Experimental results on LSTF benchmarks demonstrate that SATS achieves a 9.2% improvement in MSE and an 8.3% gain in GIFT-Eval MASE compared to competitive baselines. Notably, SATS consistently delivers SOTA performance while achieving a 65.6% increase in model efficiency over advanced baselines, highlighting its effectiveness and scalability in time series pretraining.

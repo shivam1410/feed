@@ -8,7 +8,7 @@ date: "2026-08-19"
 score: ""
 guid: "10.1038/d41586-026-02554-w"
 image: ""
-generated: "2026-08-20T19:00:16+05:30"
+generated: "2026-08-21T19:00:17+05:30"
 ---
 
 Female treefrogs select less carefully when hearing a chorus of males.

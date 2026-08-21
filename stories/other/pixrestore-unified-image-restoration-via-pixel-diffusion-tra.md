@@ -8,7 +8,7 @@ date: "2026-08-16T20:00:00.000Z"
 score: ""
 guid: "2608.16793"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2608.16793.png"
-generated: "2026-08-20T19:00:16+05:30"
+generated: "2026-08-21T19:00:17+05:30"
 ---
 
 PixRestore is a compact, VAE-free pixel-space diffusion transformer trained from scratch for unified image restoration, using flow matching on patchified pixels, DINO-based reliability-guided feature fusion, and adversarial fine-tuning to a one-step generator for efficient high-fidelity inference.

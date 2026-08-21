@@ -8,7 +8,7 @@ date: "2026-08-19"
 score: ""
 guid: "10.1038/s41586-026-10934-5"
 image: ""
-generated: "2026-08-20T19:00:16+05:30"
+generated: "2026-08-21T19:00:17+05:30"
 ---
 
 The T7 bacteriophage deactivates bacterial defence systems through T7K phosphorylation of nearly all host and phage proteins during infection.

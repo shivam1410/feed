@@ -1,0 +1,14 @@
+---
+title: "Rationally Enriched Chebyshev Trunk Bases for DeepONet Surrogates of High P\\'eclet Entrance Transport"
+category: "Other"
+source: "arXiv (cs.LG)"
+url: "https://arxiv.org/abs/2608.19658"
+authors: ["Mingeun Choi, Satish Kumar"]
+date: "Fri, 21 Aug 2026 00:00:00 -0400"
+score: ""
+guid: "oai:arXiv.org:2608.19658v1"
+image: ""
+generated: "2026-08-21T19:00:17+05:30"
+---
+
+arXiv:2608.19658v1 Announce Type: new Abstract: This study demonstrates a rationally enriched Chebyshev (REC) trunk for deep operator network (DeepONet) surrogate models of singularly perturbed and high-P\'eclet transport problems whose solution profiles are characterized by thin localized boundary or wall layers. The REC trunk combines Chebyshev polynomial dictionary elements with rational dictionary elements constructed using the adaptive Antoulas-Anderson (AAA) algorithm. Over five independent training runs, the resulting REC-trunk DeepONet is evaluated against a vanilla DeepONet and a Chebyshev-trunk DeepONet whose prescribed dictionary consists only of Chebyshev polynomials across three problems whose singular perturbation parameters are diffusion-to-advection ratios: a singularly perturbed scalar boundary-value problem (BVP), the thermal entrance problem with a prescribed wall temperature, and the concentration entrance problem with an absorbing wall. Across the held-out test profiles, the REC-trunk DeepONet improves over the vanilla DeepONet and remains comparable to the Chebyshev-trunk DeepONet in predicting the scalar profile, with its clearest advantage over the Chebyshev-trunk DeepONet appearing when the perturbation parameter lies between $1.00\times10^{-4}$ and $1.78\times10^{-4}$, where it reduces the profile-error metrics by up to $19.5\,\%$ relative to the Chebyshev-trunk DeepONet. In predicting the wall-normal temperature and concentration profiles, the REC-trunk DeepONet reduces the profile-error metrics by up to $60.2\,\%$ and $32.2\,\%$ relative to the vanilla and Chebyshev-trunk DeepONets, respectively, while suppressing artificial near-wall oscillations as the P\'eclet or mass-transfer P\'eclet number ranges from $10^{2}$ to $10^{4}$.

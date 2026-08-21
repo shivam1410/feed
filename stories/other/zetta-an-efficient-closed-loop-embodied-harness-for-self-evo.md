@@ -8,7 +8,7 @@ date: "2026-08-16T20:00:00.000Z"
 score: ""
 guid: "2608.16590"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2608.16590.png"
-generated: "2026-08-20T19:00:16+05:30"
+generated: "2026-08-21T19:00:17+05:30"
 ---
 
 Zetta is a closed-loop embodied harness that evolves runtime critics and recovery skills online to govern physical execution at action frequency, achieving high success on robot benchmarks with faster inference and scaling self-exploration.

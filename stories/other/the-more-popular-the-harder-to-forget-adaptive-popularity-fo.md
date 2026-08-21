@@ -8,7 +8,7 @@ date: "2026-08-13T20:00:00.000Z"
 score: ""
 guid: "2608.14229"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2608.14229.png"
-generated: "2026-08-20T19:00:16+05:30"
+generated: "2026-08-21T19:00:17+05:30"
 ---
 
 AdaPop adapts gradient pressure by fact popularity and automates forget-retain balance to reduce leakage of unlearned content.

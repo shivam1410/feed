@@ -8,7 +8,7 @@ date: "2026-08-18T20:00:00.000Z"
 score: ""
 guid: "2608.18746"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2608.18746.png"
-generated: "2026-08-20T19:00:16+05:30"
+generated: "2026-08-21T19:00:17+05:30"
 ---
 
 Action-conditioned objectives improve latent geometry for Euclidean-cost model-predictive control by enhancing decision-metric alignment in world models.

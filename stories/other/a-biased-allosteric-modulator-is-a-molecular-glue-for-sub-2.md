@@ -8,7 +8,7 @@ date: "2026-08-19"
 score: ""
 guid: "10.1038/s41586-026-10892-y"
 image: ""
-generated: "2026-08-20T19:00:16+05:30"
+generated: "2026-08-21T19:00:17+05:30"
 ---
 
 AP-7-168, an optimized derivative of a β-arrestin-biased negative allosteric modulator of the β2-adrenergic receptor (β2AR), functions as a molecular glue to stabilize β2AR homodimerization.

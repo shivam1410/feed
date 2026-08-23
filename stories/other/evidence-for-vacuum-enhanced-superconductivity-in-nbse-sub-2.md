@@ -8,7 +8,7 @@ date: "2026-08-19"
 score: ""
 guid: "10.1038/s41586-026-11037-x"
 image: ""
-generated: "2026-08-21T19:00:17+05:30"
+generated: "2026-08-23T23:27:56+05:30"
 ---
 
-Evidence for vacuum-enhanced superconductivity in NbSe 2
+Researchers report evidence for vacuum-enhanced superconductivity in the material niobium diselenide (NbSe₂). This finding may open new pathways for improving superconducting properties.

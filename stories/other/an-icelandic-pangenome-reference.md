@@ -8,7 +8,7 @@ date: "2026-08-19"
 score: ""
 guid: "10.1038/s41586-026-10924-7"
 image: ""
-generated: "2026-08-21T19:00:17+05:30"
+generated: "2026-08-23T23:27:56+05:30"
 ---
 
 Newly developed methods enable construction of Icelandic haplotypes and mapping of population-scale short reads to a pangenome by reducing reference bias and improving discovery in low-mappability regions, revealing many novel variants, including pathogenic alleles.

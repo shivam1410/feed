@@ -8,7 +8,7 @@ date: "2026-08-19"
 score: ""
 guid: "10.1038/s41586-026-10938-1"
 image: ""
-generated: "2026-08-21T19:00:17+05:30"
+generated: "2026-08-23T23:27:56+05:30"
 ---
 
 A 2,000-year Peruvian ice core record of atmospheric CH4 concentrations contains the first historical global CH4 record from the low latitudes, and implementation of a four-box model indicates higher equatorial CH4 strength than previous estimates from polar-only records.

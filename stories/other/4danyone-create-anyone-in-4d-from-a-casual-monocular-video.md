@@ -8,7 +8,7 @@ date: "2026-08-19T20:00:00.000Z"
 score: ""
 guid: "2608.20335"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2608.20335.png"
-generated: "2026-08-21T19:00:17+05:30"
+generated: "2026-08-23T23:27:56+05:30"
 ---
 
 4DAnyone reconstructs 4D humans from monocular video by generating multiview-consistent videos and lifting them into 4D Gaussian Splatting, using reference and target context designs to overcome scaling bottlenecks.

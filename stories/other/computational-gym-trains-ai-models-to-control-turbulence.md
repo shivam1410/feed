@@ -8,7 +8,7 @@ date: "2026-08-19"
 score: ""
 guid: "10.1038/d41586-026-02375-x"
 image: ""
-generated: "2026-08-21T19:00:17+05:30"
+generated: "2026-08-23T23:27:56+05:30"
 ---
 
 The HydroGym computational environment teaches agents strategies for fluid-flow control that can be applied to scenarios they have not encountered before.

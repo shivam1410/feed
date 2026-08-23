@@ -8,7 +8,7 @@ date: "2026-08-18T20:00:00.000Z"
 score: ""
 guid: "2608.18565"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2608.18565.png"
-generated: "2026-08-21T19:00:17+05:30"
+generated: "2026-08-23T23:27:56+05:30"
 ---
 
 SemaPLC is a verification-gated agent harness that validates generated PLC logic through external compilation and live runtime execution, achieving higher verified pass rates than baseline methods.

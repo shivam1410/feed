@@ -8,7 +8,7 @@ date: "2026-08-20T04:02:55.000Z"
 score: ""
 guid: "2608.19758"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2608.19758.png"
-generated: "2026-08-21T19:00:17+05:30"
+generated: "2026-08-23T23:27:56+05:30"
 ---
 
 FlashPrefill V2 improves long-context serving via mean-corrected sparse attention, optimized GPU operators, and framework integration, achieving large speedups over dense baselines.

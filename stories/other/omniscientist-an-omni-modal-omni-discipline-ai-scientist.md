@@ -8,7 +8,7 @@ date: "2026-08-12T20:00:00.000Z"
 score: ""
 guid: "2608.13558"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2608.13558.png"
-generated: "2026-08-21T19:00:17+05:30"
+generated: "2026-08-23T23:27:56+05:30"
 ---
 
 OmniScientist is an end-to-end omni-modal AI scientist that performs multidisciplinary research directly from heterogeneous raw evidence using autonomous agents and lifecycle-wide perception, improving evidence-grounded discovery across diverse scientific modalities.

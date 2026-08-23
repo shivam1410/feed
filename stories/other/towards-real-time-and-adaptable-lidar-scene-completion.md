@@ -8,7 +8,7 @@ date: "2026-08-16T20:00:00.000Z"
 score: ""
 guid: "2608.16490"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2608.16490.png"
-generated: "2026-08-21T19:00:17+05:30"
+generated: "2026-08-23T23:27:56+05:30"
 ---
 
 RapidLiDAR learns adaptive spatial displacements to initialize LiDAR scenes and refines them via multi-scale voxel and BEV features for real-time completion.

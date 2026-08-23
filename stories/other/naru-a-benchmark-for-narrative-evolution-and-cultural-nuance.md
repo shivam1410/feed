@@ -8,7 +8,7 @@ date: "2026-08-12T20:00:00.000Z"
 score: ""
 guid: "2608.13210"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2608.13210.png"
-generated: "2026-08-21T19:00:17+05:30"
+generated: "2026-08-23T23:27:56+05:30"
 ---
 
 NARU is a Japanese long-form video benchmark evaluating narrative evolution and cultural reasoning through a hierarchical annotation pipeline and extensive native-speaker verification.

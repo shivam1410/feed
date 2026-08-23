@@ -8,7 +8,7 @@ date: "2026-08-13T20:00:00.000Z"
 score: ""
 guid: "2608.13947"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2608.13947.png"
-generated: "2026-08-21T19:00:17+05:30"
+generated: "2026-08-23T23:27:56+05:30"
 ---
 
 A framework that separates thematic seeds from genre-form controls generates diverse, high-quality creative writing data across 13 genres and improves LLM creative writing performance.

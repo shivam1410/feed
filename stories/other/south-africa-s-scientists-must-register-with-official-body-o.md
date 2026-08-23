@@ -8,7 +8,7 @@ date: "2026-08-19"
 score: ""
 guid: "10.1038/d41586-026-02516-2"
 image: ""
-generated: "2026-08-21T19:00:17+05:30"
+generated: "2026-08-23T23:27:56+05:30"
 ---
 
 Many researchers are unaware of an upcoming law that will require them to register with a regulatory body, as is the case for engineers and health-care professionals.

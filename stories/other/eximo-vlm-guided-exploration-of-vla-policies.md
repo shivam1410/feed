@@ -8,7 +8,7 @@ date: "2026-08-19T20:00:00.000Z"
 score: ""
 guid: "2608.19891"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2608.19891.png"
-generated: "2026-08-21T19:00:17+05:30"
+generated: "2026-08-23T23:27:56+05:30"
 ---
 
 EXIMO efficiently fine-tunes large vision-language-action robot policies by combining VLM-guided exploration, imitation on orchestrated data, and residual off-policy reinforcement learning.

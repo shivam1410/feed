@@ -8,7 +8,7 @@ date: "2026-08-18T20:00:00.000Z"
 score: ""
 guid: "2608.18701"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2608.18701.png"
-generated: "2026-08-21T19:00:17+05:30"
+generated: "2026-08-23T23:27:56+05:30"
 ---
 
 SoftVTBench introduces a synchronized visuo-tactile dataset and deformation-aware benchmark for evaluating physical interaction quality during deformable-object manipulation.

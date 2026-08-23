@@ -8,7 +8,7 @@ date: "2026-08-20"
 score: ""
 guid: "10.1038/d41586-026-02574-6"
 image: ""
-generated: "2026-08-21T19:00:17+05:30"
+generated: "2026-08-23T23:27:56+05:30"
 ---
 
-The US science-funding agency is withholding $1 billion of its budget so that the money can go to a special White House project.
+The National Science Foundation is awarding the lowest number of new research grants in four decades after withholding $1 billion for a White House special project. This sharp reduction in competitive research funding means fewer research projects can be funded, fewer students supported, and scientific progress constrained across multiple disciplines. The policy decision significantly impacts the US research enterprise during a period of global scientific competition, with potential long-term effects on research capacity and scientific talent retention.

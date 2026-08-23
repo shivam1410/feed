@@ -8,7 +8,7 @@ date: "2026-08-20"
 score: ""
 guid: "10.1038/d41586-026-02455-y"
 image: ""
-generated: "2026-08-21T19:00:17+05:30"
+generated: "2026-08-23T23:27:56+05:30"
 ---
 
-Studying a condition after being diagnosed with it can be rewarding but also presents some ethical and psychological challenges.
+Some scientists pursue research on diseases they personally have been diagnosed with, blending patient experience with scientific expertise. This dual role can be deeply rewarding, providing intimate knowledge of the condition's impact. However, it also presents ethical and psychological challenges that researchers must carefully navigate.

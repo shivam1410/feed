@@ -8,7 +8,7 @@ date: "2026-08-19"
 score: ""
 guid: "10.1038/s41586-026-10904-x"
 image: ""
-generated: "2026-08-21T19:00:17+05:30"
+generated: "2026-08-23T23:27:56+05:30"
 ---
 
-Measurements on an array of optically trapped neutral atoms at a quantum phase transition provide a direct observation of the universal excitation spectrum predicted by conformal field theory.
+Scientists used an array of optically trapped neutral atoms at a quantum phase transition to directly observe the universal excitation spectrum predicted by conformal field theory—a longstanding theoretical prediction. This experimental achievement demonstrates the power of quantum simulators to test fundamental physics principles and could deepen understanding of critical phenomena in quantum systems.

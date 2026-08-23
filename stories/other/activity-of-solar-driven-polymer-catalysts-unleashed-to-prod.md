@@ -8,7 +8,7 @@ date: "2026-08-19"
 score: ""
 guid: "10.1038/d41586-026-02373-z"
 image: ""
-generated: "2026-08-21T19:00:17+05:30"
+generated: "2026-08-23T23:27:56+05:30"
 ---
 
 Engineering of polymer crystals has vastly increased the activity of these materials as catalysts for producing hydrogen fuel from water, using only sunlight.

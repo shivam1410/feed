@@ -8,7 +8,7 @@ date: "2026-08-18T09:09:03.000Z"
 score: ""
 guid: "2608.17744"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2608.17744.png"
-generated: "2026-08-21T19:00:17+05:30"
+generated: "2026-08-23T23:27:56+05:30"
 ---
 
 Fine-tuning large mixture-of-experts models on a low-resource language shifts reasoning into that language without harming accuracy, while reinforcement learning with verifiable rewards fixes formatting and leakage defects.

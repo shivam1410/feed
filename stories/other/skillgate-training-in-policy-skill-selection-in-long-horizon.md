@@ -8,7 +8,7 @@ date: "2026-08-18T20:00:00.000Z"
 score: ""
 guid: "2608.18852"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2608.18852.png"
-generated: "2026-08-21T19:00:17+05:30"
+generated: "2026-08-23T23:27:56+05:30"
 ---
 
 SkillGate fixes selector credit starvation in agent skill selection by separating outcome credit for execution tokens from local advantage for skill-naming tokens, improving success rates and reducing misleading skill exposure.

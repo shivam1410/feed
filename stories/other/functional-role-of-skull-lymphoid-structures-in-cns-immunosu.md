@@ -8,7 +8,7 @@ date: "2026-08-19"
 score: ""
 guid: "10.1038/s41586-026-10951-4"
 image: ""
-generated: "2026-08-21T19:00:17+05:30"
+generated: "2026-08-23T23:27:56+05:30"
 ---
 
-Functional lymphoid structures within the skull bone marrow enable central nervous system immunosurveillance and shape immune responses to brain disease.
+Scientists discovered functional lymphoid structures located within skull bone marrow that perform a critical role in immune surveillance of the central nervous system. These structures regulate immune responses to brain diseases. The finding reveals a previously underappreciated immune defense mechanism protecting the brain and has implications for understanding brain-related immune conditions.

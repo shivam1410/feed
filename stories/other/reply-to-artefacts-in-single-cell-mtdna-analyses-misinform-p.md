@@ -8,7 +8,7 @@ date: "2026-08-19"
 score: ""
 guid: "10.1038/s41586-026-10776-1"
 image: ""
-generated: "2026-08-21T19:00:17+05:30"
+generated: "2026-08-23T23:27:56+05:30"
 ---
 
-Reply to: Artefacts in single-cell mtDNA analyses misinform phylogenies
+Researchers provide a response regarding artifacts in single-cell mitochondrial DNA analyses that can produce misleading evolutionary relationships. Addressing such methodological flaws is essential for accurate phylogenetic reconstruction.

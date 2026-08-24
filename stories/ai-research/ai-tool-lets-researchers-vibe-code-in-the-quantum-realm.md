@@ -1,0 +1,14 @@
+---
+title: "AI tool lets researchers ‘vibe code’ in the quantum realm"
+category: "AI Research"
+source: "Nature"
+url: "https://www.nature.com/articles/d41586-026-02495-4"
+authors: ["Davide Castelvecchi"]
+date: "2026-08-19"
+score: 65
+guid: "10.1038/d41586-026-02495-4"
+image: ""
+generated: "2026-08-24T19:08:17+05:30"
+---
+
+An autonomous AI agent can write and execute quantum computing code, but it sometimes needs a human touch.

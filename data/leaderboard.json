@@ -1,106 +1,106 @@
 {
-  "generatedAt": "2026-08-23T23:28:38+05:30",
+  "generatedAt": "2026-08-24T19:08:45+05:30",
   "source": "Hugging Face — trending models",
   "models": [
     {
       "id": "Qwen/Qwen3.8-27B",
       "task": "image-text-to-text",
-      "likes": 12267,
-      "downloads": 2358347,
+      "likes": 12429,
+      "downloads": 2645226,
       "library": "transformers",
       "createdAt": "2026-08-05T08:22:59.000Z",
       "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
-      "summary": "Native vision-language model supporting images and videos with flexible thinking control for complex, multi-step tasks"
+      "summary": "27B dense vision-language model with thinking control for complex reasoning, coding, and agentic tasks."
     },
     {
       "id": "unsloth/Qwen3.8-27B-GGUF",
       "task": null,
-      "likes": 2712,
-      "downloads": 6674515,
+      "likes": 2786,
+      "downloads": 7009063,
       "library": null,
       "createdAt": "2026-08-13T08:28:40.000Z",
       "url": "https://huggingface.co/unsloth/Qwen3.8-27B-GGUF",
-      "summary": "GGUF-quantized Qwen3.8-27B with Unsloth Dynamic 3.0 for efficient local inference"
+      "summary": "GGUF-quantized Qwen3.8-27B with Dynamic v3.0 for efficient local inference on consumer hardware."
     },
     {
       "id": "orcarouter/Qwen3.8-27B-Uncensored-MLX",
       "task": "image-text-to-text",
-      "likes": 932,
-      "downloads": 47098,
+      "likes": 1000,
+      "downloads": 57947,
       "library": "mlx",
       "createdAt": "2026-08-17T14:10:50.000Z",
       "url": "https://huggingface.co/orcarouter/Qwen3.8-27B-Uncensored-MLX",
-      "summary": "Refusal-removed MLX-quantized Qwen3.8-27B for Apple Silicon in 2/4/6/8-bit precisions"
-    },
-    {
-      "id": "orcarouter/Qwen3.8-27B-Uncensored-FP8",
-      "task": "image-text-to-text",
-      "likes": 1027,
-      "downloads": 190062,
-      "library": "transformers",
-      "createdAt": "2026-08-15T05:45:04.000Z",
-      "url": "https://huggingface.co/orcarouter/Qwen3.8-27B-Uncensored-FP8",
-      "summary": "FP8-quantized, refusal-removed Qwen3.8-27B vision-language model for efficient inference"
+      "summary": "Refusal-removed MLX quantization of Qwen3.8-27B for Apple Silicon with 2/4/6/8-bit options."
     },
     {
       "id": "OBLITERATUS/Qwen3.8-27B-OBLITERATED",
       "task": "text-generation",
-      "likes": 607,
-      "downloads": 244834,
+      "likes": 673,
+      "downloads": 312627,
       "library": "mlx",
       "createdAt": "2026-08-19T14:53:08.000Z",
       "url": "https://huggingface.co/OBLITERATUS/Qwen3.8-27B-OBLITERATED",
-      "summary": "Deeply uncensored Qwen3.8-27B designed to answer restricted queries without safety deflections"
+      "summary": "Abliterated Qwen3.8-27B with iterative safety removal for direct answers without refusal behavior."
+    },
+    {
+      "id": "orcarouter/Qwen3.8-27B-Uncensored-FP8",
+      "task": "image-text-to-text",
+      "likes": 1071,
+      "downloads": 224114,
+      "library": "transformers",
+      "createdAt": "2026-08-15T05:45:04.000Z",
+      "url": "https://huggingface.co/orcarouter/Qwen3.8-27B-Uncensored-FP8",
+      "summary": "FP8-quantized refusal-removed Qwen3.8-27B for efficient deployment."
     },
     {
       "id": "HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF",
       "task": "image-text-to-text",
-      "likes": 524,
-      "downloads": 676697,
+      "likes": 560,
+      "downloads": 761975,
       "library": null,
       "createdAt": "2026-08-17T15:15:19.000Z",
       "url": "https://huggingface.co/HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF",
-      "summary": "GGUF-quantized uncensored Qwen3.8-27B with FastMTP acceleration for faster document and reasoning generation"
+      "summary": "Aggressive uncensored Qwen3.8-27B GGUF with FastMTP acceleration for up to 3x faster document processing."
     },
     {
       "id": "Lightricks/LTX-2.5",
       "task": "image-to-video",
-      "likes": 1617,
-      "downloads": 738345,
+      "likes": 1688,
+      "downloads": 790378,
       "library": "diffusion-single-file",
       "createdAt": "2026-07-23T07:55:24.000Z",
       "url": "https://huggingface.co/Lightricks/LTX-2.5",
-      "summary": "Multimodal diffusion model generating videos from images, text, audio, and video inputs"
-    },
-    {
-      "id": "JonathanColetti/Qwen3.8-27B-Uncensored-GGUF",
-      "task": "text-generation",
-      "likes": 641,
-      "downloads": 1334820,
-      "library": "llama.cpp",
-      "createdAt": "2026-08-14T03:43:36.000Z",
-      "url": "https://huggingface.co/JonathanColetti/Qwen3.8-27B-Uncensored-GGUF",
-      "summary": "GGUF-quantized Qwen3.8-27B with multi-token prediction and reduced refusal behavior for inference"
-    },
-    {
-      "id": "MiniMaxAI/MiniMax-Music3",
-      "task": "text-to-audio",
-      "likes": 1198,
-      "downloads": 17421,
-      "library": "diffusers",
-      "createdAt": "2026-08-07T12:23:29.000Z",
-      "url": "https://huggingface.co/MiniMaxAI/MiniMax-Music3",
-      "summary": "Music generation model creating complete songs up to five minutes from lyrics and music descriptions"
+      "summary": "Multimodal model for video generation from images, text, audio with video-to-video and audio transformations."
     },
     {
       "id": "ornith-ai/Ornith-1.5-35B-A3B",
       "task": "text-generation",
-      "likes": 355,
-      "downloads": 23516,
+      "likes": 377,
+      "downloads": 60294,
       "library": "transformers",
       "createdAt": "2026-08-18T06:24:38.000Z",
       "url": "https://huggingface.co/ornith-ai/Ornith-1.5-35B-A3B",
-      "summary": "Mixture-of-experts model activating ~3B parameters per token, excelling at coding and agentic tasks"
+      "summary": "35B mixture-of-experts model activating ~3B parameters per token, outperforming similar-sized peers on coding."
+    },
+    {
+      "id": "JonathanColetti/Qwen3.8-27B-Uncensored-GGUF",
+      "task": "text-generation",
+      "likes": 668,
+      "downloads": 1456700,
+      "library": "llama.cpp",
+      "createdAt": "2026-08-14T03:43:36.000Z",
+      "url": "https://huggingface.co/JonathanColetti/Qwen3.8-27B-Uncensored-GGUF",
+      "summary": "GGUF-quantized Qwen3.8-27B with reduced refusal behavior and retained multi-token prediction head."
+    },
+    {
+      "id": "MiniMaxAI/MiniMax-Music3",
+      "task": "text-to-audio",
+      "likes": 1218,
+      "downloads": 18065,
+      "library": "diffusers",
+      "createdAt": "2026-08-07T12:23:29.000Z",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-Music3",
+      "summary": "Music generation model creating complete songs up to five minutes conditioned on lyrics and music descriptions."
     }
   ]
 }

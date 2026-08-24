@@ -1,0 +1,14 @@
+---
+title: "Asymmetric prefrontal representations for leader–follower dynamics"
+category: "Neuroscience & Mind"
+source: "Nature"
+url: "https://www.nature.com/articles/s41586-026-10900-1"
+authors: ["Yuan Cheng", "Yusi Chen", "Myungji Kwak", "Ross P. Kempner", "Rudramani Singha", "Jared Winslow", "Runqi Liu", "Umais Khan", "Tessa Spangler", "Alvi Khan", "Talmo Pereira", "Matthew Whiteway", "Evan S. Schaffer", "Nuttida Rungratsameetaweemana", "Nan Yang", "Herbert Zheng Wu"]
+date: "2026-08-19"
+score: 70
+guid: "10.1038/s41586-026-10900-1"
+image: ""
+generated: "2026-08-24T19:08:17+05:30"
+---
+
+Mice spontaneously form leader and follower roles during cooperation, and the medial prefrontal cortex encodes these role dynamics and an egocentric social value map of the partner’s position.

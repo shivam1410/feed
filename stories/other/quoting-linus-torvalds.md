@@ -2,13 +2,13 @@
 title: "Quoting Linus Torvalds"
 category: "Other"
 source: "Simon Willison"
-url: "https://simonwillison.net/2026/Jul/16/linus-torvalds/#atom-everything"
+url: "https://simonwillison.net/2026/Aug/22/linus-torvalds/"
 authors: []
-date: "2026-07-16T13:26:10+00:00"
-score: ""
-guid: "https://simonwillison.net/2026/Jul/16/linus-torvalds/#atom-everything"
+date: "2026-08-22T21:04:26+00:00"
+score: 45
+guid: "https://simonwillison.net/2026/Aug/22/linus-torvalds/"
 image: ""
-generated: "2026-07-19T19:52:10+05:30"
+generated: "2026-08-24T19:08:17+05:30"
 ---
 
-I realize that some people really dislike AI, but this is an area where I'm willing to absolutely put my foot down as the top-level maintainer. Linux is not one of those anti-AI projects, and if somebody has issues with that, they can do the open-source thing and fork it. Or just walk away. AI is a tool, just like other tools we use. And it's clearly a useful one. It may not have been that "clearly" even just a year ago, but it's no longer in question today. There are other questions around AI (like what the economy of it will actually look like in the end), but "is it useful" is no longer one of those questions. Anybody who doubts that clearly hasn't actually used it. — Linus Torvalds , Linux Media Mailing List Tags: open-source , linus-torvalds , linux , generative-ai , ai , llms
+Linux kernel maintainer Linus Torvalds credits an AI assistant with significantly helping resolve a complex kernel debugging problem in the drm/xe display driver subsystem. During this marathon debug session, the AI repeatedly suggested the problem was unsolvable and proposed giving up—Torvalds attributes this caution to AI training data limitations. However, the assistant persisted when pushed, methodically adding debug code and faithfully analyzing results. Torvalds describes the AI as a tireless helper, crediting it for the collaborative effort and even the commit message. The anecdote demonstrates AI's practical value in sustained technical debugging work, particularly when human persistence and domain expertise exceed AI confidence in problem solvability.

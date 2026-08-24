@@ -1,0 +1,14 @@
+---
+title: "TRACE-C: Rank-Calibrated Relational Anomaly Detection for Multi-Stream Operational Telemetry"
+category: "AI Research"
+source: "arXiv (cs.LG)"
+url: "https://arxiv.org/abs/2608.21251"
+authors: ["Matthew Faucher"]
+date: "Mon, 24 Aug 2026 00:00:00 -0400"
+score: 52
+guid: "oai:arXiv.org:2608.21251v1"
+image: ""
+generated: "2026-08-24T19:08:17+05:30"
+---
+
+arXiv:2608.21251v1 Announce Type: new Abstract: Operational telemetry can be jointly anomalous while every individual stream stays inside its familiar range. TRACE-C is an auditable strictly-prior rank-calibrated detector for aligned multi-stream telemetry: same-regime rolling median/MAD residuals feed three window channels -- a maximum normalized local sum, a Gaussian copula-form dependence contrast on robust-z residuals, and a worst standardized AR(1) innovation -- whose channel ranks are Fisher-aggregated and ranked against earlier aggregates. We evaluate six Great Britain grid streams with a January-April 2019 fit, July-December 2019 development evidence, and a 2020 hold-out frozen before inspection. TRACE-C ranks Storm Atiyah first among 2019 test windows, but a disclosed channel ablation attributes that rank to the local channel, not the copula-form channel: copula-only ranks Atiyah 59th. The short 9 August frequency event is ranked far lower by the fused detector (143) than by the temporal channel alone (40), and reconstruction baselines rank it first. In 2020 no window is selected, which is consistent with record-rule saturation rather than an uneventful year; the highest-ranked frozen window was later interpreted as Storm Ellen. Three interpretive limits carry throughout. The resulting p-values are selection quantities, not event probabilities. The copula-form channel is not a literal copula density: the method applies no probability-integral or normal-score transform. Empirical rank counts are diagnostics, not coverage or false-discovery proofs. Every table and figure in this paper is generated from committed machine-readable reports.

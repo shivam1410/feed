@@ -8,7 +8,7 @@ date: "2026-08-19"
 score: 70
 guid: "10.1038/s41586-026-10900-1"
 image: ""
-generated: "2026-08-24T19:08:17+05:30"
+generated: "2026-08-25T19:08:16+05:30"
 ---
 
 Mice spontaneously form leader and follower roles during cooperation, and the medial prefrontal cortex encodes these role dynamics and an egocentric social value map of the partner’s position.

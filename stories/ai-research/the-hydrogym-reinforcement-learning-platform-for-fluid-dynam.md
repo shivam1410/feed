@@ -8,7 +8,7 @@ date: "2026-08-19"
 score: 70
 guid: "10.1038/s41586-026-10917-6"
 image: ""
-generated: "2026-08-24T19:08:17+05:30"
+generated: "2026-08-25T19:08:16+05:30"
 ---
 
 HydroGym offers over 60 standardized reinforcement-learning flow-control environments and demonstrates zero-shot transfer to a 3D wing, cutting local skin friction by 38% and exploration costs by four orders of magnitude.

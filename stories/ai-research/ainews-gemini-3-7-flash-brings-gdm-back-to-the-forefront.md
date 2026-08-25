@@ -8,7 +8,7 @@ date: "Fri, 14 Aug 2026 05:30:39 GMT"
 score: 60
 guid: "https://www.latent.space/p/ainews-gemini-37-flash-brings-gdm"
 image: ""
-generated: "2026-08-24T19:08:17+05:30"
+generated: "2026-08-25T19:08:16+05:30"
 ---
 
 The most compelling chart on today’s Gemini 3.7 Flash update was this one: Where you can see the degree to which 3.5 and 3.6 Flash had fallen behind the more recent Claude 4.8+ and GPT 5.5+ series mod… Read more

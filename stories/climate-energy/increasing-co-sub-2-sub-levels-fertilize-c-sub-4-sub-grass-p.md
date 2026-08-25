@@ -8,7 +8,7 @@ date: "2026-08-19"
 score: 65
 guid: "10.1038/s41586-026-10935-4"
 image: ""
-generated: "2026-08-24T19:08:17+05:30"
+generated: "2026-08-25T19:08:16+05:30"
 ---
 
-Rising atmospheric CO2 fertilizes C4 grass production in water-limited environments, according to research combining CO2 enrichment experiments with three decades of southern African savanna observations. C4 grasses showed significantly increased biomass production under elevated CO2 specifically in dry conditions. This finding matters because C4 grasses dominate African savannas and similar semi-arid regions worldwide. As atmospheric CO2 continues rising, accurately predicting grassland responses becomes crucial for understanding future ecosystem productivity, carbon storage capacity, and vegetation shifts. Enhanced grass production could influence livestock grazing sustainability, fire regimes, and broader climate feedbacks in these economically important regions.
+By combining a meta-analysis of CO2 enrichment experiments with three decades of southern African savanna observations, an increase in biomass production by C4 grasses under rising CO2 levels in water-limited environments is revealed.

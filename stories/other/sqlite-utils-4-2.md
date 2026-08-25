@@ -5,10 +5,10 @@ source: "Simon Willison"
 url: "https://simonwillison.net/2026/Aug/13/sqlite-utils/"
 authors: []
 date: "2026-08-13T20:11:29+00:00"
-score: ""
+score: 25
 guid: "https://simonwillison.net/2026/Aug/13/sqlite-utils/"
 image: ""
-generated: "2026-08-23T23:27:56+05:30"
+generated: "2026-08-25T19:08:16+05:30"
 ---
 
-Release: sqlite-utils 4.2 Lots of improvements in this one relating to the table.transform() feature , which adds support for complex alter table operations by creating a fresh table, copying across the data and then dropping and replacing the old one. transform() now preserves a much larger array of edge-case schema definitions, including check constraints, unique constraints and even comments describing the columns. There are also new introspection properties for check constraints, and a whole lot of other smaller changes. Includes contributions from Bunlong Heng , ethanhawkes-gif , Rami Abdelrazzaq , nyxst4ck , and ikatyal2110 . (It later turned out 4.2 had a crashing bug , fixed in 4.2.1 .) Tags: releases , sqlite , sqlite-utils
+sqlite-utils 4.2 delivers major improvements to table.transform()—a feature that safely modifies database tables by creating a fresh table, copying data, then replacing the original. The update now substantially preserves complex schema details including check constraints, unique constraints, and column comments that previously caused problems during transformations. New introspection properties provide better access to check constraint information. Contributors include Bunlong Heng, ethanhawkes-gif, Rami Abdelrazzaq, nyxst4ck, and ikatyal2110. Active maintenance is evident from the rapid fix of a crashing bug discovered post-release in version 4.2.1. These enhancements enable developers to safely perform complex database modifications while preserving critical structural information.

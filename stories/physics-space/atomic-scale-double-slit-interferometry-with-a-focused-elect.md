@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/s41586-026-10914-9"
 authors: ["Koudai Tabata", "Takehito Seki", "Toma Susi", "Ryo Ishikawa", "Naoya Shibata"]
 date: "2026-08-19"
-score: 75
+score: 80
 guid: "10.1038/s41586-026-10914-9"
 image: ""
-generated: "2026-08-24T19:08:17+05:30"
+generated: "2026-08-25T19:08:16+05:30"
 ---
 
-Researchers demonstrated double-slit interference at atomic scales using a focused electron beam in scanning transmission electron microscopy. Two silicon atomic columns separated by 1.36 angstroms produced interference fringes when probed by electrons. This achievement brings quantum mechanics demonstrations down to the atomic level, directly visualizing electron wave behavior where matter interacts with individual atomic structures. The finding advances our ability to use electron microscopy for studying atomic-scale phenomena and provides visual evidence of quantum mechanics operating at the smallest scales. Double-slit experiments extend to previously inaccessible atomic dimensions.
+Using scanning transmission electron microscopy with a focused electron beam, researchers demonstrated double-slit interference at the atomic scale. An electron beam passing through two silicon atomic columns separated by 1.36 Ångströms produced observable interference fringes. This provides direct evidence of quantum wave behavior of electrons at atomic dimensions, advancing understanding of electron-matter interactions at the smallest scales.

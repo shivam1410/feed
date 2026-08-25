@@ -8,7 +8,7 @@ date: "2026-08-19"
 score: 65
 guid: "10.1038/s41586-026-10926-5"
 image: ""
-generated: "2026-08-24T19:08:17+05:30"
+generated: "2026-08-25T19:08:16+05:30"
 ---
 
-The Norwegian Mother, Father and Child Cohort Study demonstrates how family-based genomic data can disentangle direct genetic effects from confounding, improving studies of health and human development.
+The Norwegian Mother, Father and Child Cohort Study demonstrates how family-based genomic data can disentangle direct genetic effects from environmental confounding. By analyzing inherited variants across family members, researchers can distinguish genetic causation from correlation. This methodological advance improves the rigor of genetic studies of health and human development, enabling more reliable identification of causal biological mechanisms.

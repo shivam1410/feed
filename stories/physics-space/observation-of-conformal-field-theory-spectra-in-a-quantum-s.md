@@ -8,7 +8,7 @@ date: "2026-08-19"
 score: 80
 guid: "10.1038/s41586-026-10904-x"
 image: ""
-generated: "2026-08-24T19:08:17+05:30"
+generated: "2026-08-25T19:08:16+05:30"
 ---
 
-Researchers using a quantum simulator composed of optically trapped neutral atoms directly observed the universal excitation spectrum predicted by conformal field theory at a quantum phase transition. This experimental observation validates a major theoretical prediction from quantum mechanics at unprecedented precision. The achievement matters because it demonstrates quantum simulators' capacity to experimentally validate abstract theoretical physics predictions and explore quantum phenomena otherwise inaccessible to direct experimental study.
+Researchers used a quantum simulator comprising an array of optically trapped neutral atoms to directly observe the excitation spectrum predicted by conformal field theory at a quantum phase transition. The measurements confirm theoretical predictions about universal behavior in quantum systems at critical points, validating a fundamental physics theory. This represents a major experimental achievement in confirming abstract theoretical predictions using quantum simulation technology.

@@ -8,7 +8,7 @@ date: "2026-08-19"
 score: 70
 guid: "10.1038/s41586-026-10938-1"
 image: ""
-generated: "2026-08-24T19:08:17+05:30"
+generated: "2026-08-25T19:08:16+05:30"
 ---
 
-A 2,000-year-old Peruvian ice core provides the first atmospheric methane record from tropical latitudes, revealing that equatorial methane concentrations were higher than previous estimates derived solely from polar ice cores. Four-box climate modeling indicates stronger equatorial methane emissions than polar-only records suggested. This matters because methane is one of the most potent greenhouse gases, and understanding its spatial distribution and sources is critical for reconstructing past climate conditions and projecting future atmospheric changes. Tropical methane sources may have been systematically underestimated in global climate models, potentially affecting our understanding of methane cycling.
+A 2,000-year Peruvian ice core provides the first atmospheric methane record from low latitudes, filling a gap in climate data previously dominated by polar records. A four-box model analysis shows equatorial methane concentrations were higher than estimates based solely on polar ice cores. This challenges prior understanding of historical methane distribution and sources, refining estimates of past atmospheric composition relevant to climate reconstruction.

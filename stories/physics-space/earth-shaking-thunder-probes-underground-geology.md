@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/d41586-026-02596-0"
 authors: []
 date: "2026-08-21"
-score: 55
+score: 65
 guid: "10.1038/d41586-026-02596-0"
 image: ""
-generated: "2026-08-24T19:08:17+05:30"
+generated: "2026-08-25T19:08:16+05:30"
 ---
 
 Seismologists measured the varying speeds of a ‘thunderquake’ to survey an area with little seismic activity.

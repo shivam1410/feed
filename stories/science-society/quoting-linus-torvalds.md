@@ -2,13 +2,13 @@
 title: "Quoting Linus Torvalds"
 category: "Science & Society"
 source: "Simon Willison"
-url: "https://simonwillison.net/2026/Jul/16/linus-torvalds/#atom-everything"
+url: "https://simonwillison.net/2026/Aug/22/linus-torvalds/"
 authors: []
-date: "2026-07-16T13:26:10+00:00"
+date: "2026-08-22T21:04:26+00:00"
 score: 45
-guid: "https://simonwillison.net/2026/Jul/16/linus-torvalds/#atom-everything"
+guid: "https://simonwillison.net/2026/Aug/22/linus-torvalds/"
 image: ""
-generated: "2026-07-27T19:07:27+05:30"
+generated: "2026-08-25T19:08:16+05:30"
 ---
 
-I realize that some people really dislike AI, but this is an area where I'm willing to absolutely put my foot down as the top-level maintainer. Linux is not one of those anti-AI projects, and if somebody has issues with that, they can do the open-source thing and fork it. Or just walk away. AI is a tool, just like other tools we use. And it's clearly a useful one. It may not have been that "clearly" even just a year ago, but it's no longer in question today. There are other questions around AI (like what the economy of it will actually look like in the end), but "is it useful" is no longer one of those questions. Anybody who doubts that clearly hasn't actually used it. — Linus Torvalds , Linux Media Mailing List Tags: open-source , linus-torvalds , linux , generative-ai , ai , llms
+And this was a debug session from hell, enormously helped by an AI doing much of the grunt-work. I'd like to call it my tireless helper, but the AI several times stated flat out that this was impossible and unsolvable and that we should just write a report about it. I suspect those things have been trained by people who may not be quite as stubborn as I am. But while the AI was ready to give up several times, it did keep adding debug code and analyzing it faithfully when I pushed. So credit where credit is due and I let the AI write the commit message above. — Linus Torvalds , drm/xe: Don't hand out the flat CCS storage as usable VRAM Tags: linus-torvalds , linux , generative-ai , ai-assisted-programming , ai , llms

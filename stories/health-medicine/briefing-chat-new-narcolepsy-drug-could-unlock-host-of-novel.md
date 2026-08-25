@@ -8,7 +8,7 @@ date: "2026-08-21"
 score: 70
 guid: "10.1038/d41586-026-02626-x"
 image: ""
-generated: "2026-08-24T19:08:17+05:30"
+generated: "2026-08-25T19:08:16+05:30"
 ---
 
 Nature staff discuss how an FDA-approved drug for narcolepsy could have promise beyond the condition, and the longest-lived human brain organoids yet.

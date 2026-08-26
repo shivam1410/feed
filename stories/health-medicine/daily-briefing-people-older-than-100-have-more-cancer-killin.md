@@ -8,7 +8,7 @@ date: "2026-08-20"
 score: 70
 guid: "10.1038/d41586-026-02617-y"
 image: ""
-generated: "2026-08-25T19:08:16+05:30"
+generated: "2026-08-26T19:06:33+05:30"
 ---
 
 Killer T cells might help people to live to extraordinarily old ages. Plus, the longest-lived brain organoids so far and how mass genome-screening programmes for newborns might work.

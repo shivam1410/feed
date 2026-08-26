@@ -8,7 +8,7 @@ date: "2026-08-19"
 score: 50
 guid: "10.1038/s41586-026-10777-0"
 image: ""
-generated: "2026-08-25T19:08:16+05:30"
+generated: "2026-08-26T19:06:33+05:30"
 ---
 
-Research demonstrates that artifacts in single-cell mitochondrial DNA analyses can distort phylogenetic reconstructions and evolutionary tree-building, though specific examples and mechanisms are not detailed in the provided text.
+Artefacts in single-cell mtDNA analyses misinform phylogenies

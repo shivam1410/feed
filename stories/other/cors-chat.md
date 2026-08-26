@@ -5,10 +5,10 @@ source: "Simon Willison"
 url: "https://simonwillison.net/2026/Aug/15/cors-chat/"
 authors: []
 date: "2026-08-15T14:49:54+00:00"
-score: 30
+score: 38
 guid: "https://simonwillison.net/2026/Aug/15/cors-chat/"
 image: ""
-generated: "2026-08-25T19:08:16+05:30"
+generated: "2026-08-26T19:06:33+05:30"
 ---
 
-CORS Chat is a web interface for testing OpenAI-compatible chat endpoints on local hardware (LM Studio) or remote services (OpenRouter). Built with Qwen 3.8 27B, it runs on Mac (M5 MacBook Pro) and NVIDIA infrastructure. Conversations persist in-browser and export as JSON. A distinctive feature progressively renders SVG images while tokens stream, enabling real-time visualization of generated graphics. The tool addresses a practical gap for developers iterating on local models, where a shareable web UI improves debugging velocity versus command-line endpoints.
+The author created CORS Chat, a web-based UI for testing OpenAI-compatible chat endpoints, built using GPT-5.6-Sol with xhigh reasoning to evaluate Qwen 3.8 27B in LM Studio on M5 MacBook Pro and NVIDIA DGX Spark hardware. Successfully tested against both LM Studio with the --cors flag and OpenRouter, the tool supports local and remote endpoints. Conversations persist in the browser and export as JSON. A distinctive feature detects SVG images during generation and renders them progressively as tokens stream in real-time. It provides developers a practical interface for evaluating different language models across various hardware and deployment configurations.

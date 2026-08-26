@@ -8,7 +8,7 @@ date: "2026-08-25"
 score: 55
 guid: "10.1038/d41586-026-02633-y"
 image: ""
-generated: "2026-08-25T19:08:16+05:30"
+generated: "2026-08-26T19:06:33+05:30"
 ---
 
 Amend copyright licences to halt AI misuse and reassert human control

@@ -8,7 +8,7 @@ date: "2026-08-19"
 score: 70
 guid: "10.1038/s41586-026-10951-4"
 image: ""
-generated: "2026-08-25T19:08:16+05:30"
+generated: "2026-08-26T19:06:33+05:30"
 ---
 
-Lymphoid structures embedded within skull bone marrow perform critical immune surveillance functions for the central nervous system, monitoring and responding to threats affecting the brain. These anatomical features shape immune responses to brain diseases and infections, revealing a previously underappreciated immune-defense mechanism. The discovery advances understanding of how the body's immune system protects the brain, potentially enabling new therapeutic approaches for neurological and neurodegenerative conditions.
+Functional lymphoid structures within the skull bone marrow enable central nervous system immunosurveillance and shape immune responses to brain disease.

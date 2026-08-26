@@ -8,7 +8,7 @@ date: "2026-08-19"
 score: 75
 guid: "10.1038/s41586-026-10928-3"
 image: ""
-generated: "2026-08-25T19:08:16+05:30"
+generated: "2026-08-26T19:06:33+05:30"
 ---
 
-Researchers used whole-brain mapping, cell manipulations, and electrophysiology in mice to identify wake-activated neuronal populations that regulate sleep drive. These neurons control how much sleep an animal needs daily and can persistently reduce total sleep amount when manipulated. The finding reveals the cellular mechanisms governing sleep homeostasis, with implications for understanding sleep disorders and developing sleep-targeted therapeutics.
+Whole-brain activity mapping and targeted cell manipulations in mice identified wake-activated neuronal populations essential for generating sleep drive—the biological pressure to sleep. These neurons persistently reduce total daily sleep when manipulated. Discovery illuminates sleep regulation neural circuitry and suggests therapeutic targets for sleep disorders. Understanding how wake-activated neurons modulate sleep pressure could enable insomnia treatments, revealing how the brain orchestrates the fundamental need for rest.

@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/d41586-026-02382-y"
 authors: []
 date: "2026-08-25"
-score: 40
+score: 35
 guid: "10.1038/d41586-026-02382-y"
 image: ""
-generated: "2026-08-25T19:08:16+05:30"
+generated: "2026-08-26T19:06:33+05:30"
 ---
 
-Archaeologists discovered the earliest known surveying instrument used in ancient Egypt for constructing straight lines, marking an important milestone in early precision engineering and construction technology.
+The earliest known example of a tool used to build in a straight line, and remembering an early trailblazer in radio communication in this week’s pick from the Nature archive.

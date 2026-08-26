@@ -8,7 +8,7 @@ date: "2026-08-24"
 score: 40
 guid: "10.1038/d41586-026-02572-8"
 image: ""
-generated: "2026-08-25T19:08:16+05:30"
+generated: "2026-08-26T19:06:33+05:30"
 ---
 
 Governments need to keep their procurement processes as open as possible, or they will face risks of technological lock-in down the line.

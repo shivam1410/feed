@@ -5,10 +5,10 @@ source: "DeepMind"
 url: "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/running-guide-agent/"
 authors: ["Robin Dua", "Miguel de Andrés-Clavera"]
 date: "Wed, 20 May 2026 00:01:00 +0000"
-score: 65
+score: 72
 guid: "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/running-guide-agent/"
 image: "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/8cTcvsog6yGaXy5.max-600x600.format-webp.webp"
-generated: "2026-08-26T19:06:33+05:30"
+generated: "2026-08-27T20:25:46+05:30"
 ---
 
-Running Guide agent is an AI agent that provides real-time audio navigation and obstacle detection to help BLV athletes run independently.
+Running Guide is an AI agent enabling blind and low-vision athletes to run independently by providing real-time audio navigation and obstacle detection. The system removes the need for sighted running partners or guides during independent athletic activity. This application demonstrates AI's potential to restore autonomy and participation in physical activities for disabled individuals.

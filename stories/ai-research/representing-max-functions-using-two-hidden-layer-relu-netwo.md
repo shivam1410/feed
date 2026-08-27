@@ -1,0 +1,14 @@
+---
+title: "Representing MAX functions using two-hidden-layer ReLU networks"
+category: "AI Research"
+source: "arXiv (cs.LG)"
+url: "https://arxiv.org/abs/2608.25221"
+authors: ["Zhimao Wang, Amitabh Basu"]
+date: "Thu, 27 Aug 2026 00:00:00 -0400"
+score: 62
+guid: "oai:arXiv.org:2608.25221v1"
+image: ""
+generated: "2026-08-27T20:25:46+05:30"
+---
+
+arXiv:2608.25221v1 Announce Type: new Abstract: We study exact representations of $\mathrm{MAX}_N(x)=\max{x_1,\ldots,x_N}$ using two-hidden-layer ReLU neural networks. This problem has been studied in recent years in an attempt to characterize the exact number of hidden layers required to represent continuous piecewise linear functions. The best lower bound is 2, while the current upper bound is logarithmic in $N$. It remains completely open if the right answer is a constant number of hidden layers (possibly even 2!) or not. In fact, a recent breakthrough was the representation of $\mathrm{MAX}_5$ as a two-hidden-layer ReLU function obtained in [Bakaev et al., 2026], and the case of $\mathrm{MAX}_N$ was stated as open for $N\geq 6$ in that paper. Using a careful computer assisted search, we obtain two-hidden-layer ReLU representations of $\mathrm{MAX}_5, \mathrm{MAX}_6, \mathrm{MAX}_7$, and $\mathrm{MAX}_8$. We obtain these by considering rational linear combinations of terms of the form $\max\{\sum_{r=1}^{s}\max(x_{a_r},x_{b_r}),\sum_{r=1}^{s}\max(x_{c_r},x_{d_r})\}$, where $a_r,b_r,c_r,d_r\in\{1,\ldots,N\}$. Each inner maximum of two coordinates can be computed in a first hidden layer, and the outer maximum of the two side-sums can be computed in a second hidden layer. Consequently, every finite linear combination of these terms has a two-hidden-layer ReLU realization. An identity for $\mathrm{MAX}_N$ in this form therefore gives an exact two-hidden-layer ReLU representation of $\mathrm{MAX}_N$. Very recently, two-hidden-layer representations of $\mathrm{MAX}_N$ of the above form were obtained for all $N\leq 10$ in [Ruess et al., 2026]. Our representations are different and were developed independently. While our techniques share most of the high-level ideas presented in [Ruess et al., 2026], there are also some minor differences which may be of interest for future research on this problem.

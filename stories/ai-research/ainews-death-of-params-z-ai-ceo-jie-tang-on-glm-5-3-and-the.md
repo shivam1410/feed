@@ -5,10 +5,10 @@ source: "Latent Space"
 url: "https://www.latent.space/p/ainews-death-of-params-zai-ceo-jie"
 authors: []
 date: "Thu, 20 Aug 2026 05:17:12 GMT"
-score: 78
+score: 74
 guid: "https://www.latent.space/p/ainews-death-of-params-zai-ceo-jie"
 image: ""
-generated: "2026-08-24T19:08:17+05:30"
+generated: "2026-08-27T20:25:46+05:30"
 ---
 
-Parameter count alone is insufficient to evaluate model capability, according to researcher Jie Tang. Model performance depends equally on data volume available for training, where compute budget is allocated, deployment context, and task-specific requirements. GLM-5.3's performance improvements came not from scaling parameters but from reinforcement learning applied to diverse, realistic production workflows including multi-day engineering and research tasks. Traditional scaling laws like Chinchilla assumed fixed mathematical relationships that do not hold in the modern inference-optimized era where reasoning capability, task diversity, and deployment conditions matter. This insight reveals that industry shorthand of measuring model size by parameter count alone is outdated and misleading for evaluating actual capability and real-world performance.
+Parameter count alone no longer meaningfully describes model capabilities. GLM-5.3's improvements came solely from reinforcement learning on long-horizon production workflows—tasks spanning days of engineering work. The model's scaling dynamics now depend on data depth, compute allocation, and deployment conditions alongside parameter count. With 2–3 trillion-parameter models available and Fable estimated at 3–7 trillion, GLM-5.3 demonstrates that post-training on high-quality reasoning tasks—not raw memorization data—drives modern capability gains. This marks a fundamental shift in scaling laws beyond the fixed parameter-to-data ratios of earlier eras.

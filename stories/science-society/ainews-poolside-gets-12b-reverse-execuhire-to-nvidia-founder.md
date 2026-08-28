@@ -5,10 +5,10 @@ source: "Latent Space"
 url: "https://www.latent.space/p/ainews-poolside-gets-12b-reverse"
 authors: []
 date: "Fri, 21 Aug 2026 05:45:21 GMT"
-score: 76
+score: 75
 guid: "https://www.latent.space/p/ainews-poolside-gets-12b-reverse"
 image: ""
-generated: "2026-08-27T20:25:46+05:30"
+generated: "2026-08-28T20:11:00+05:30"
 ---
 
-NVIDIA completed an unusual reverse-execuhire deal with Poolside for $12 billion total: founders received $1 billion golden parachute while employees got $6 billion, with NVIDIA hiring 109 technical staff. This reversal from typical acquisition structure shows founders pivoting aggressively while employees remain. Poolside's Model Factory, which built capable models with only 70–115 people across engineering and research, attracted NVIDIA's interest. The deal values the small, high-impact team structure despite founders exiting, highlighting the efficiency of compact AI research teams.
+NVIDIA licensed Poolside's Model Factory and hired approximately 109 technical employees in an unusual reverse-execuhire structure valued at $12 billion. Founders retained control receiving $1 billion while the broader technical team received $6 billion. This inverts typical acquisition models where executives depart while employees remain with the company.

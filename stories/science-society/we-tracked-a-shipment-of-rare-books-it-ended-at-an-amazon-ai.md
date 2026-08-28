@@ -5,10 +5,10 @@ source: "Simon Willison"
 url: "https://simonwillison.net/2026/Aug/17/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-tra/"
 authors: []
 date: "2026-08-17T15:21:29+00:00"
-score: 77
+score: 75
 guid: "https://simonwillison.net/2026/Aug/17/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-tra/"
 image: ""
-generated: "2026-08-26T19:06:33+05:30"
+generated: "2026-08-28T20:11:00+05:30"
 ---
 
-404 Media tracked a shipment of approximately 1,000 rare books ordered through Biblio marketplace to determine the buyer's identity, suspected to be acquiring books for AI training data. Using an AirTag hidden in one book, journalists discovered the shipment arrived at the VGT3 section of the LAS8 Amazon facility in northeast Las Vegas. Amazon facility workers confirmed this location destructively scans large volumes of books. The finding extends previous reporting about AI companies like Anthropic acquiring books at scale for training data. The investigation highlights concerns about how AI companies source training data and the potential destruction of valuable rare books in the process.
+Amazon appears to be acquiring bulk shipments of rare books for AI training through anonymous marketplace purchases, according to an investigation by 404 Media. Journalists tracked a ~1,000-book order on Biblio using an Apple AirTag hidden inside one volume. The shipment was delivered to Amazon's VGT3 facility in Las Vegas, marked with a dinosaur-with-book logo. Amazon workers confirmed the facility performs destructive scanning of large book volumes. This follows similar reporting on Anthropic's book acquisitions (June 2025). The findings raise questions about how AI companies source training data and whether copyright and author compensation are adequately addressed in large-scale model development.

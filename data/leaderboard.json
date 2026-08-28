@@ -1,106 +1,106 @@
 {
-  "generatedAt": "2026-08-27T20:26:17+05:30",
+  "generatedAt": "2026-08-28T20:11:44+05:30",
   "source": "Hugging Face — trending models",
   "models": [
     {
       "id": "Qwen/Qwen3.8-Flash-Next",
       "task": "image-text-to-text",
-      "likes": 3872,
+      "likes": 4074,
       "downloads": 4810,
       "library": "transformers",
       "createdAt": "2026-08-24T08:24:59.000Z",
       "url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next",
-      "summary": "Experimental preview of Qwen4 architecture with hybrid attention, handling image and text inputs for conversational tasks."
+      "summary": "Experimental multimodal model using hybrid attention with QSA for efficient long-context agentic tasks."
     },
     {
       "id": "zai-org/GLM-5.3-Flash",
       "task": "text-generation",
-      "likes": 1223,
+      "likes": 1440,
       "downloads": 34,
       "library": "transformers",
       "createdAt": "2026-08-25T06:43:14.000Z",
       "url": "https://huggingface.co/zai-org/GLM-5.3-Flash",
-      "summary": "Efficient multimodal model with 320B parameters (18B active) delivering near-Opus performance on coding and agentic tasks."
+      "summary": "Multimodal model with 320B total and 18B active parameters using hybrid sparse-linear attention."
     },
     {
       "id": "Qwen/Qwen3.8-27B",
       "task": "image-text-to-text",
-      "likes": 12982,
+      "likes": 13092,
       "downloads": 3457687,
       "library": "transformers",
       "createdAt": "2026-08-05T08:22:59.000Z",
       "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
-      "summary": "Dense 27B multimodal model with vision-language capabilities for coding, professional work, and complex agentic tasks."
+      "summary": "27B native vision-language model with thinking control for complex multimodal reasoning and agentic tasks."
     },
     {
       "id": "unsloth/Qwen3.8-27B-GGUF",
       "task": null,
-      "likes": 3042,
+      "likes": 3110,
       "downloads": 7758790,
       "library": null,
       "createdAt": "2026-08-13T08:28:40.000Z",
       "url": "https://huggingface.co/unsloth/Qwen3.8-27B-GGUF",
-      "summary": "Optimized GGUF quantization of Qwen3.8-27B with Unsloth Dynamic v3.0 for efficient local deployment."
-    },
-    {
-      "id": "OBLITERATUS/Qwen3.8-27B-OBLITERATED",
-      "task": "text-generation",
-      "likes": 831,
-      "downloads": 509270,
-      "library": "mlx",
-      "createdAt": "2026-08-19T14:53:08.000Z",
-      "url": "https://huggingface.co/OBLITERATUS/Qwen3.8-27B-OBLITERATED",
-      "summary": "Refusal-removed variant of Qwen3.8-27B providing unfiltered responses with minimal safety constraints."
+      "summary": "GGUF-quantized vision-language model based on Qwen3.8-27B with tool-calling and efficient deployment."
     },
     {
       "id": "unsloth/Qwen3.8-Flash-Next-GGUF",
       "task": "image-text-to-text",
-      "likes": 425,
+      "likes": 491,
       "downloads": 4354,
       "library": null,
       "createdAt": "2026-08-26T12:29:32.000Z",
       "url": "https://huggingface.co/unsloth/Qwen3.8-Flash-Next-GGUF",
-      "summary": "GGUF-optimized quantization of Qwen3.8-Flash-Next for efficient local inference with multimodal capabilities."
+      "summary": "GGUF-quantized experimental multimodal architecture with hybrid attention and thinking control."
+    },
+    {
+      "id": "OBLITERATUS/Qwen3.8-27B-OBLITERATED",
+      "task": "text-generation",
+      "likes": 873,
+      "downloads": 509270,
+      "library": "mlx",
+      "createdAt": "2026-08-19T14:53:08.000Z",
+      "url": "https://huggingface.co/OBLITERATUS/Qwen3.8-27B-OBLITERATED",
+      "summary": "Refusal-removed variant of Qwen3.8-27B that answers unrestricted queries without safety deflections."
     },
     {
       "id": "orcarouter/Qwen3.8-27B-Uncensored-FP8",
       "task": "image-text-to-text",
-      "likes": 1198,
+      "likes": 1217,
       "downloads": 273577,
       "library": "transformers",
       "createdAt": "2026-08-15T05:45:04.000Z",
       "url": "https://huggingface.co/orcarouter/Qwen3.8-27B-Uncensored-FP8",
-      "summary": "FP8-quantized uncensored variant of Qwen3.8-27B for efficient multimodal inference."
-    },
-    {
-      "id": "orcarouter/Qwen3.8-27B-Uncensored-MLX",
-      "task": "image-text-to-text",
-      "likes": 1157,
-      "downloads": 83352,
-      "library": "mlx",
-      "createdAt": "2026-08-17T14:10:50.000Z",
-      "url": "https://huggingface.co/orcarouter/Qwen3.8-27B-Uncensored-MLX",
-      "summary": "MLX-optimized 2-8 bit quantization of uncensored Qwen3.8-27B for Apple Silicon deployment."
+      "summary": "FP8-quantized variant of Qwen3.8-27B with reduced safety alignment for efficient deployment."
     },
     {
       "id": "Lightricks/LTX-2.5",
       "task": "image-to-video",
-      "likes": 1908,
+      "likes": 1968,
       "downloads": 912729,
       "library": "diffusion-single-file",
       "createdAt": "2026-07-23T07:55:24.000Z",
       "url": "https://huggingface.co/Lightricks/LTX-2.5",
-      "summary": "Multimodal model for video generation from images, text, video, and audio inputs."
+      "summary": "Multimodal model for generating video and audio from text, images, and audio inputs."
+    },
+    {
+      "id": "orcarouter/Qwen3.8-27B-Uncensored-MLX",
+      "task": "image-text-to-text",
+      "likes": 1177,
+      "downloads": 83352,
+      "library": "mlx",
+      "createdAt": "2026-08-17T14:10:50.000Z",
+      "url": "https://huggingface.co/orcarouter/Qwen3.8-27B-Uncensored-MLX",
+      "summary": "MLX-quantized uncensored variant of Qwen3.8-27B for Apple Silicon with multiple precisions."
     },
     {
       "id": "HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF",
       "task": "image-text-to-text",
-      "likes": 675,
+      "likes": 706,
       "downloads": 938219,
       "library": null,
       "createdAt": "2026-08-17T15:15:19.000Z",
       "url": "https://huggingface.co/HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF",
-      "summary": "Uncensored Qwen3.8-27B GGUF with FastMTP acceleration providing unfiltered responses and enhanced throughput."
+      "summary": "GGUF-quantized uncensored Qwen3.8-27B with FastMTP acceleration for increased throughput."
     }
   ]
 }

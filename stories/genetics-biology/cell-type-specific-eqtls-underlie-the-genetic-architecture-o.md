@@ -8,7 +8,7 @@ date: "2026-08-26"
 score: 75
 guid: "10.1038/s41586-026-10577-6"
 image: ""
-generated: "2026-08-28T20:11:00+05:30"
+generated: "2026-08-29T20:15:31+05:30"
 ---
 
-Single-cell RNA sequencing reveals that cell-type-specific expression quantitative trait loci (eQTLs)—genetic variants affecting how genes are expressed in particular cells—drive much of the genetic architecture underlying complex human traits and diseases. This finding shows that genes shape traits through cell-type-specific regulation: identical genetic variants may boost gene expression in one cell type while suppressing it in another. This crucial nuance explains why connecting genetic variants to disease has proven remarkably difficult—effects depend entirely on which cell types carry the variant. Understanding cell-specific regulation accelerates identification of disease mechanisms and therapeutic targets.
+Using single-cell RNA sequencing, researchers identified that cell-type-specific gene expression patterns drive much of the genetic basis for complex traits. Rather than genes affecting all cell types equally, expression quantitative trait loci vary dramatically by cell type. This finding reveals that understanding how genetic variants influence complex diseases and traits requires examining cell-specific gene regulation. The research highlights that genetic architecture is far more nuanced than previously understood, with cell identity critically determining how variants manifest.

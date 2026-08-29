@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/s41586-026-10893-x"
 authors: ["Alexander Berne", "Nicholas Wagner", "Isamu Matsuyama", "Sander Goossens", "Antonio Genova", "Marc Rovira-Navarro", "Amirhossein Bagheri", "Chuan Qin", "Angela Marusiak", "Douglas Hemingway", "Harriet C. P. Lau", "Kar Wai Cheng", "Shijie Zhong", "Francis Nimmo"]
 date: "2026-08-26"
-score: 75
+score: 65
 guid: "10.1038/s41586-026-10893-x"
 image: ""
-generated: "2026-08-28T20:11:00+05:30"
+generated: "2026-08-29T20:15:31+05:30"
 ---
 
-Analysis of gravity tracking data from Mars orbiters reveals a significant thermal anomaly—a zone of intense heat—in Mars's interior. The anomaly measures 200–400°C in temperature and extends beneath the southern highlands, within the mantle below the crustal dichotomy (the geological boundary between Mars's heavily cratered southern highlands and its younger, smoother northern lowlands). This finding indicates that substantial heat persists in Mars's interior in the present day, influencing planetary geology, interior chemistry, and potential volcanic activity. The discovery refines models of Mars's thermal evolution and internal structure.
+Analysis of Mars orbiter tracking data using tidal tomography reveals a preserved thermal anomaly in Mars's mantle beneath the southern highlands. The temperature gradient, ranging 200–400°C, underlies the planet's crustal dichotomy—the stark difference between northern lowlands and southern highlands. This subsurface thermal signature provides geological evidence for sustained internal heat sources. The findings illuminate Mars's interior structure and thermal evolution, offering insights into how planetary differentiation shapes surface features across billions of years.

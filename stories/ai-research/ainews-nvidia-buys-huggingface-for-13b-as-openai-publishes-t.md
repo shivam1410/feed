@@ -8,7 +8,7 @@ date: "Thu, 27 Aug 2026 01:50:54 GMT"
 score: 80
 guid: "https://www.latent.space/p/ainews-nvidia-buys-huggingface-for"
 image: ""
-generated: "2026-08-28T20:11:00+05:30"
+generated: "2026-08-29T20:15:31+05:30"
 ---
 
-NVIDIA is acquiring HuggingFace for approximately $13 billion, roughly 80 times HuggingFace's $150 million annual revenue and nearly double NVIDIA's initial January 2026 offer. HuggingFace doubled its customer base in 2026 before acquisition. The deal reflects consolidation in AI infrastructure amid competition from emerging open-weight models like GLM-5.3-Flash and Qwen.
+NVIDIA is acquiring HuggingFace for $13 billion, approximately 80 times HuggingFace's $150 million annual recurring revenue and double NVIDIA's initial $7 billion offer from January 2026. HuggingFace has doubled its customer base in 2026. The acquisition occurs amid intense open-source AI competition, with Z.ai's GLM-5.3-Flash and Qwen releasing competitive models on Chinese chips. This signals NVIDIA's strategic emphasis on AI infrastructure and ecosystem control as the frontier shifts toward efficiency and localization.

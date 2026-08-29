@@ -8,7 +8,7 @@ date: "2026-08-27"
 score: 50
 guid: "10.1038/d41586-026-02679-y"
 image: ""
-generated: "2026-08-28T20:11:00+05:30"
+generated: "2026-08-29T20:15:31+05:30"
 ---
 
 In many countries, female engineers are barred from entering deep mines to carry out studies. Differentiating risks can increase access while protecting safety.

@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/d41586-026-02480-x"
 authors: []
 date: "2026-08-26"
-score: 70
+score: 65
 guid: "10.1038/d41586-026-02480-x"
 image: ""
-generated: "2026-08-28T20:11:00+05:30"
+generated: "2026-08-29T20:15:31+05:30"
 ---
 
-Meta-analysis of 70 experimental studies and 32 years of continuous field observations reveals that rising atmospheric CO2 significantly enhances growth of C4 grasses during water-limited conditions—contrary to the long-held assumption that these grasses respond weakly to CO2 changes. This finding identifies a major overlooked driver of ecosystem change across the world's savannas. As atmospheric CO2 continues rising, savanna vegetation productivity may increase despite drought conditions, reshaping fire regimes, herbivore dynamics, and ecosystem structure across vast regions. The research has implications for understanding global vegetation shifts and projecting future savanna responses to climate change.
+Analysis of 70 experiments and 32 years of field observations reveals that elevated CO₂ levels enhance growth of C4 savannah grasses even under water limitation. This challenges the assumption that C4 photosynthesis is insensitive to CO₂ changes and explains a previously overlooked driver of ecosystem shifts across global savannahs as atmospheric carbon dioxide rises.

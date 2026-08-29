@@ -8,7 +8,7 @@ date: "2026-08-26"
 score: 70
 guid: "10.1038/s41586-026-10932-7"
 image: ""
-generated: "2026-08-28T20:11:00+05:30"
+generated: "2026-08-29T20:15:31+05:30"
 ---
 
 Comparative and functional analyses of Myotis bats uncover unique patterns of adaptation in virus-interacting proteins and longevity-associated pathways, linking two hallmarks of bat biology.

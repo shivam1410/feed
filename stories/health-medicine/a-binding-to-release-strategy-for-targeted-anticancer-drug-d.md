@@ -8,7 +8,7 @@ date: "2026-08-26"
 score: 75
 guid: "10.1038/s41586-026-10971-0"
 image: ""
-generated: "2026-08-28T20:11:00+05:30"
+generated: "2026-08-29T20:15:31+05:30"
 ---
 
-A new drug conjugate strategy enables targeted release of anticancer payloads without requiring cellular internalization—traditionally the essential mechanism where chemotherapy drugs must penetrate cancer cell membranes to work. Instead, the drug binds to tumor-surface targets and releases its payload externally, outside the cell. This approach improves tumor specificity and therapeutic efficacy while dramatically expanding the therapeutic targets to include proteins and epitopes previously considered undruggable because drugs couldn't reach them inside cells. The strategy opens entirely new possibilities for cancer treatment against tumors expressing cell-surface proteins.
+A new drug conjugate strategy achieves tumor-targeted therapy by binding to cancer cells and releasing payload without requiring cellular internalization. Traditional anticancer conjugates rely on cells engulfing the entire drug-carrier complex; this binding-to-release approach separates targeting from payload delivery. The strategy improves tumor specificity and efficacy while expanding treatment options beyond conventional drug conjugates. This innovation represents an advance in precision oncology, enabling more selective destruction of cancer cells while minimizing off-target toxicity to healthy tissue.

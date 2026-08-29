@@ -8,7 +8,7 @@ date: "2026-08-26"
 score: 70
 guid: "10.1038/s41586-026-10967-w"
 image: ""
-generated: "2026-08-28T20:11:00+05:30"
+generated: "2026-08-29T20:15:31+05:30"
 ---
 
-Research reveals that endocannabinoids—signaling molecules the brain produces on-demand—dynamically regulate motivation through retrograde signaling within circuits connecting the thalamus and striatum. During reward-seeking behavior, these molecules are released backward from their target cells, modulating activity to control gain: essentially tuning how strongly the brain responds to reward opportunities. This retrograde control mechanism enables the brain to flexibly adjust engagement levels based on expected value and context. Understanding this circuit illuminates how the brain weighs whether pursuing a reward is worth the effort required, with direct implications for addiction and motivation disorders.
+Endocannabinoids—naturally produced neuromodulators in the brain—facilitate reward-seeking behavior through retrograde signaling within thalamostriatal circuits. When animals pursue rewards, endocannabinoids are released backward across synapses, dynamically modulating information flow and promoting sustained engagement. This retrograde gain control mechanism fine-tunes motivated behavior, enhancing the brain's ability to focus on rewarding stimuli. The findings elucidate how the endocannabinoid system orchestrates behavioral motivation, with implications for understanding reward circuits and potential therapeutic targets for motivation-related disorders.

@@ -5,10 +5,10 @@ source: "HF Trending Papers"
 url: "https://huggingface.co/papers/2608.23172"
 authors: ["Abhilash Nandy", "Rahul Seetharaman", "Aman Bansal", "Rounak Saha", "Manav Nitin Kapadnis", "Millon Madhur Das", "Pawan Goyal", "Niloy Ganguly"]
 date: "2026-08-23T20:00:00.000Z"
-score: 60
+score: 58
 guid: "2608.23172"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2608.23172.png"
-generated: "2026-08-29T20:15:31+05:30"
+generated: "2026-08-31T03:16:07+05:30"
 ---
 
 CaRGo-T improves multimodal humor understanding by modeling causal relationships as graph-based reasoning structures interpreted by vision-language models.

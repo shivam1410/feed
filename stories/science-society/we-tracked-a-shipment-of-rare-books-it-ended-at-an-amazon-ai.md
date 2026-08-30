@@ -5,10 +5,10 @@ source: "Simon Willison"
 url: "https://simonwillison.net/2026/Aug/17/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-tra/"
 authors: []
 date: "2026-08-17T15:21:29+00:00"
-score: 75
+score: 72
 guid: "https://simonwillison.net/2026/Aug/17/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-tra/"
 image: ""
-generated: "2026-08-29T20:15:31+05:30"
+generated: "2026-08-31T03:16:07+05:30"
 ---
 
-Amazon appears to be covertly acquiring large volumes of rare books for AI training data. After a bookseller received a 1,000-book order in July on Biblio, a major book marketplace, 404 Media placed an AirTag in one book to track its destination. The shipment arrived at the VGT3 section of Amazon's LAS8 facility in northeast Las Vegas, which warehouse workers confirmed destructively scans books in bulk. This investigation adds compelling evidence to reports that major tech companies—including Anthropic—have been systematically purchasing rare and copyrighted books to train AI models, raising significant concerns about intellectual property rights and the sourcing of training data.
+A 404 Media investigation tracked rare book purchases to Amazon's Las Vegas facility, confirming long-held suspicions that AI companies systematically acquire training data through bulk book acquisitions. Using an AirTag planted in a 1,000-book order from Biblio marketplace, reporters traced the shipment to the VGT3 section of Amazon's LAS8 facility in northeastern Las Vegas, where workers confirmed the facility destructively scans large volumes of books. This discovery follows previous reporting about Anthropic acquiring books for AI training in mid-2025, providing concrete evidence that major AI companies source copyrighted materials through marketplace purchases for language model training without apparent author consent.

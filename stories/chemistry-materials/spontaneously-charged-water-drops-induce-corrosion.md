@@ -8,7 +8,7 @@ date: "2026-08-26"
 score: 55
 guid: "10.1038/s41586-026-10941-6"
 image: ""
-generated: "2026-08-29T20:15:31+05:30"
+generated: "2026-08-31T03:16:07+05:30"
 ---
 
-Experiments demonstrate that spontaneously charged water droplets can initiate corrosion by damaging protective metal coatings. This simple environmental phenomenon reveals a previously underappreciated corrosion pathway, with practical implications for metallic structures exposed to moisture, including infrastructure and industrial equipment where coatings fail unexpectedly.
+Experiments demonstrate that spontaneously charged water droplets can corrode metal surfaces by damaging protective coatings. This finding reveals a previously underappreciated mechanism of corrosion that could have practical implications for protecting metals exposed to water in various environments. The charged-water mechanism expands our understanding of corrosion beyond traditional oxidation pathways.

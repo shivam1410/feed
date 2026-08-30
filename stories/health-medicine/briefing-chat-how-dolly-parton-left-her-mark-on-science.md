@@ -8,7 +8,7 @@ date: "2026-08-28"
 score: 70
 guid: "10.1038/d41586-026-02732-w"
 image: ""
-generated: "2026-08-29T20:15:31+05:30"
+generated: "2026-08-31T03:16:07+05:30"
 ---
 
 Nature reporters discuss the country-music icon's advocacy for vaccines and public health — plus, promising trial results for an mRNA cancer therapy.

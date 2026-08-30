@@ -8,7 +8,7 @@ date: "2026-08-26"
 score: 75
 guid: "10.1038/s41586-026-10577-6"
 image: ""
-generated: "2026-08-29T20:15:31+05:30"
+generated: "2026-08-31T03:16:07+05:30"
 ---
 
-Using single-cell RNA sequencing, researchers identified that cell-type-specific gene expression patterns drive much of the genetic basis for complex traits. Rather than genes affecting all cell types equally, expression quantitative trait loci vary dramatically by cell type. This finding reveals that understanding how genetic variants influence complex diseases and traits requires examining cell-specific gene regulation. The research highlights that genetic architecture is far more nuanced than previously understood, with cell identity critically determining how variants manifest.
+Single-cell RNA-sequencing shows that cell-type-specific expression quantitative trait loci drive much of complex trait heritability, highlighting cell-type-specific gene regulation as key to linking genetic variants with traits.

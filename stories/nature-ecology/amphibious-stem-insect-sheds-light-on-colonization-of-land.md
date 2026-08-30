@@ -8,7 +8,7 @@ date: "2026-08-26"
 score: 70
 guid: "10.1038/s41586-026-10961-2"
 image: ""
-generated: "2026-08-28T20:11:00+05:30"
+generated: "2026-08-31T03:16:07+05:30"
 ---
 
-Researchers restudy a challenging fossil using cross-polarized light imaging and phylogenetic reconstruction, identifying Chosha praecursor as a probable early-diverging insect. This discovery bridges a major evolutionary gap—the 'hexapod gap'—illuminating the transition of arthropods from aquatic to terrestrial environments. The fossil exhibits intermediate anatomical characteristics connecting stem-insects to modern hexapods. Filling this important gap clarifies how insects colonized land, diversified explosively, and became the most abundant and successful animals on Earth. The finding refines our understanding of animal evolution, patterns of adaptation to new environments, and terrestrial ecosystem assembly.
+Restudy of a challenging fossil using cross-polarized light imaging and phylogenetic reconstruction identifies Chosha praecursor, a probable early-diverging insect, helping to bridge the longstanding ‘hexapod gap’ in the fossil record.

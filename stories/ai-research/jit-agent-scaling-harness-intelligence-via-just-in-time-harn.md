@@ -8,7 +8,7 @@ date: "2026-08-25T20:00:00.000Z"
 score: 70
 guid: "2608.25593"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2608.25593.png"
-generated: "2026-08-29T20:15:31+05:30"
+generated: "2026-08-31T03:16:07+05:30"
 ---
 
 JIT-Agent is a trainable model that synthesizes adaptive agent harnesses for off-the-shelf LLMs, improving performance across diverse models and tasks.

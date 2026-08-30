@@ -8,7 +8,7 @@ date: "2026-08-26"
 score: 65
 guid: "10.1038/d41586-026-02480-x"
 image: ""
-generated: "2026-08-29T20:15:31+05:30"
+generated: "2026-08-31T03:16:07+05:30"
 ---
 
-Analysis of 70 experiments and 32 years of field observations reveals that elevated CO₂ levels enhance growth of C4 savannah grasses even under water limitation. This challenges the assumption that C4 photosynthesis is insensitive to CO₂ changes and explains a previously overlooked driver of ecosystem shifts across global savannahs as atmospheric carbon dioxide rises.
+Analysis of 70 experiments and 32 years of field observations shows that rising CO₂ levels substantially boost the growth of C4 grasses during dry periods. This contradicts the longstanding assumption that C4 grasses respond only weakly to CO₂ changes. The finding reveals an overlooked driver of vegetation shifts across the world's savannahs and has implications for predicting how these ecosystems will transform under future climate conditions.

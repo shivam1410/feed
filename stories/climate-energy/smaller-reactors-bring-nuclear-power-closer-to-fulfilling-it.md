@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/d41586-026-02506-4"
 authors: ["Neil Savage"]
 date: "2026-08-26"
-score: 65
+score: 70
 guid: "10.1038/d41586-026-02506-4"
 image: ""
-generated: "2026-08-29T20:15:31+05:30"
+generated: "2026-08-31T03:16:07+05:30"
 ---
 
 Shadowed by past disasters, nuclear engineers are developing different types of reactor, fuel, coolant and material that could help to make fission the zero-carbon energy technology of choice.

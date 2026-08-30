@@ -8,7 +8,7 @@ date: "2026-08-26"
 score: 70
 guid: "10.1038/s41586-026-10975-w"
 image: ""
-generated: "2026-08-29T20:15:31+05:30"
+generated: "2026-08-31T03:16:07+05:30"
 ---
 
 Malva enables ultrafast, reference-free searching of raw single-cell sequences across millions of cells, transforming static transcriptomic atlases into dynamic resources for understanding the functions of sequences.

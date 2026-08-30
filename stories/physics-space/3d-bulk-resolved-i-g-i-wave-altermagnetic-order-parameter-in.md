@@ -8,7 +8,7 @@ date: "2026-08-26"
 score: 60
 guid: "10.1038/s41586-026-10902-z"
 image: ""
-generated: "2026-08-29T20:15:31+05:30"
+generated: "2026-08-31T03:16:07+05:30"
 ---
 
 Quantum oscillation measurements map the g-wave altermagnetic order parameter in CrSb, establishing it as a prototypical unconventional magnet with momentum-dependent spin splitting.

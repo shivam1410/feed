@@ -8,7 +8,7 @@ date: "2026-08-26"
 score: 60
 guid: "10.1038/s41586-026-10927-4"
 image: ""
-generated: "2026-08-29T20:15:31+05:30"
+generated: "2026-08-31T03:16:07+05:30"
 ---
 
-Researchers solved the cryo-electron microscopy structure of UGCG, the gatekeeper enzyme controlling glycosphingolipid diversity in human cells. UGCG uses a novel metal-independent catalytic mechanism driven by an arginine network, challenging assumptions about enzymatic catalysis. This structural insight opens avenues for understanding and potentially modulating lipid signaling pathways that affect cell communication and disease.
+High-resolution cryo-electron microscopy revealed the full-length structure of UGCG, a critical enzyme that controls the diversity of glycosphingolipids—important molecules on cell surfaces. The structure shows UGCG employs an unusual metal-independent catalytic mechanism powered by an arginine network. This structural insight helps explain how cells regulate the composition and scale of glycosphingolipid diversity.

@@ -5,10 +5,10 @@ source: "HF Trending Papers"
 url: "https://huggingface.co/papers/2608.21832"
 authors: ["Md Abrar Jahin", "Md Rizwan Parvez"]
 date: "2026-08-21T20:00:00.000Z"
-score: 65
+score: 60
 guid: "2608.21832"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2608.21832.png"
-generated: "2026-08-29T20:15:31+05:30"
+generated: "2026-08-31T03:16:07+05:30"
 ---
 
 A benchmark of contrastive GUI instructions reveals that vision-language models mostly fail to localize interface elements rather than misunderstand spatial relations, though marking candidates substantially improves selection.

@@ -8,7 +8,7 @@ date: "2026-08-26"
 score: 70
 guid: "10.1038/s41586-026-10964-z"
 image: ""
-generated: "2026-08-29T20:15:31+05:30"
+generated: "2026-08-31T03:16:07+05:30"
 ---
 
-Research into Alzheimer's disease pathology reveals that aberrant ERBB4 signaling in excitatory neurons promotes disease progression, with neuroinflammation alone being dispensable for early synapse loss. This finding challenges the prevailing view that inflammation drives initial neurodegeneration. Instead, cell-autonomous mechanisms in neurons appear central to early Alzheimer's pathology. The discovery suggests therapeutic strategies should target neuronal signaling pathways directly rather than solely focusing on reducing brain inflammation, potentially redirecting treatment development.
+A study suggests that neuroinflammation—previously considered central to Alzheimer's disease—may be dispensable for the early synapse loss characteristic of the disease. Instead, aberrant ERBB4 signaling in excitatory neurons emerges as a direct promoter of AD pathology. This challenges the long-held assumption that immune activation drives early neurodegeneration and points to neuron-intrinsic mechanisms as a primary driver.

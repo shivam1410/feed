@@ -5,10 +5,10 @@ source: "Latent Space"
 url: "https://www.latent.space/p/ainews-death-of-params-zai-ceo-jie"
 authors: []
 date: "Thu, 20 Aug 2026 05:17:12 GMT"
-score: 77
+score: 80
 guid: "https://www.latent.space/p/ainews-death-of-params-zai-ceo-jie"
 image: ""
-generated: "2026-08-31T03:16:07+05:30"
+generated: "2026-09-01T19:06:31+05:30"
 ---
 
-GLM-5.3's capability gains come entirely from post-training reinforcement learning on long-horizon executable tasks, not from larger base models, signaling a shift in scaling laws. Parameter count alone is now meaningless without considering data volume, compute budget allocation, and deployment conditions. This redefines model development: reasoning prefers post-training depth while memorization prefers more parameters.
+Z.ai CEO Jie Tang argues parameter count alone is insufficient for evaluating modern models—context must include data volume, compute allocation, and deployment conditions. GLM-5.3's capability gains came entirely from scaled reinforcement learning on long-horizon executable tasks, not model size increases. Training covers diverse production workflows including multi-day engineering tasks, indicating post-training data depth and reasoning now outweigh raw parameter counts in capability gains.

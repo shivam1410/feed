@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/s41586-026-10936-3"
 authors: ["L. A. Derry", "K. Maher", "O. A. Chadwick"]
 date: "2026-08-26"
-score: 50
+score: 60
 guid: "10.1038/s41586-026-10936-3"
 image: ""
-generated: "2026-08-31T03:16:07+05:30"
+generated: "2026-09-01T19:06:31+05:30"
 ---
 
 Observations from natural volcanic watersheds demonstrate attenuation of alkalinity fluxes along the complete reactive pathways from soil to river that lead to reductions in exported alkalinity, indicating the limiting effects of critical zone processes.

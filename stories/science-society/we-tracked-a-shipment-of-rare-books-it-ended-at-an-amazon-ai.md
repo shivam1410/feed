@@ -5,10 +5,10 @@ source: "Simon Willison"
 url: "https://simonwillison.net/2026/Aug/17/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-tra/"
 authors: []
 date: "2026-08-17T15:21:29+00:00"
-score: 72
+score: 68
 guid: "https://simonwillison.net/2026/Aug/17/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-tra/"
 image: ""
-generated: "2026-08-31T03:16:07+05:30"
+generated: "2026-09-01T19:06:31+05:30"
 ---
 
-A 404 Media investigation tracked rare book purchases to Amazon's Las Vegas facility, confirming long-held suspicions that AI companies systematically acquire training data through bulk book acquisitions. Using an AirTag planted in a 1,000-book order from Biblio marketplace, reporters traced the shipment to the VGT3 section of Amazon's LAS8 facility in northeastern Las Vegas, where workers confirmed the facility destructively scans large volumes of books. This discovery follows previous reporting about Anthropic acquiring books for AI training in mid-2025, providing concrete evidence that major AI companies source copyrighted materials through marketplace purchases for language model training without apparent author consent.
+We Tracked a Shipment of Rare Books. It Ended at an Amazon AI Training Facility Excellent piece of reporting from 404 Media. For a while now there have been stories of book dealers receiving orders for large volumes of books from apparently price-insensitive anonymous customers, widely suspected to be companies looking to scan them for AI training (see my previous coverage of Anthropic's book scanning from June 2025.) 404 Media investigated with an AirTag! In July, one bookseller told me they received a very large order of around 1,000 books on Biblio, one of these marketplaces. The seller agreed to put an Apple AirTag provided by 404 Media in one of the books included in this order so we could see where the book was going. And by extension, which company, AI or otherwise, was behind this massive order. The book ended up delivered to the VGT3 corner of the LAS8 Amazon facility in the north east of Las Vegas, where the entrance carried this on-the-nose logo of a dinosaur with a book! Photo credit: 404 Media Online forum discussions between Amazon workers confirmed that VGT3 destructively scans large volumes of books. Tags: amazon , journalism , ai , training-data , ai-ethics , 404-media

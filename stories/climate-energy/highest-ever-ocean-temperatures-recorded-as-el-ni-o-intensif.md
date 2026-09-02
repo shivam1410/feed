@@ -8,7 +8,7 @@ date: "2026-08-26"
 score: 75
 guid: "10.1038/d41586-026-02681-4"
 image: ""
-generated: "2026-09-01T19:06:31+05:30"
+generated: "2026-09-02T19:06:18+05:30"
 ---
 
-Record-breaking ocean temperatures during the recent El Niño event carry serious implications for the global climate system. Extreme warmth is expected to reduce the ocean's carbon absorption capacity, thereby weakening this critical planetary carbon sink. Additionally, emerging research suggests mitochondrial injections may offer new therapeutic approaches for treating vision loss. These discoveries highlight both concerning climate impacts and promising biotechnology developments.
+Ocean temperatures have reached record highs as El Niño conditions intensify, with projections that these extremes will weaken the ocean's natural carbon-absorption capacity. The piece also covers mitochondrial injection technology for treating vision loss. Rising ocean heat threatens a critical planetary cooling mechanism, potentially amplifying future climate warming.

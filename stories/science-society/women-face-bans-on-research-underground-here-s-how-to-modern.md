@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/d41586-026-02679-y"
 authors: ["Linqi Huang"]
 date: "2026-08-27"
-score: 55
+score: 45
 guid: "10.1038/d41586-026-02679-y"
 image: ""
-generated: "2026-09-01T19:06:31+05:30"
+generated: "2026-09-02T19:06:18+05:30"
 ---
 
 In many countries, female engineers are barred from entering deep mines to carry out studies. Differentiating risks can increase access while protecting safety.

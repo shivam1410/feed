@@ -8,7 +8,7 @@ date: "2026-09-01"
 score: 65
 guid: "10.1038/d41586-026-02735-7"
 image: ""
-generated: "2026-09-01T19:06:31+05:30"
+generated: "2026-09-02T19:06:18+05:30"
 ---
 
 When AI does science, who is accountable for mistakes?

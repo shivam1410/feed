@@ -1,0 +1,14 @@
+---
+title: "Counterfactual Fragility Certificates: Exposing High-Confidence Brittleness under Structured Evidence Failure"
+category: "AI Research"
+source: "arXiv (cs.LG)"
+url: "https://arxiv.org/abs/2609.00366"
+authors: ["Filippo Cenacchi, Longbing Cao, Runze Yang"]
+date: "Wed, 02 Sep 2026 00:00:00 -0400"
+score: 60
+guid: "oai:arXiv.org:2609.00366v1"
+image: ""
+generated: "2026-09-02T19:06:18+05:30"
+---
+
+arXiv:2609.00366v1 Announce Type: new Abstract: High test accuracy and good aggregate calibration do not show whether an individual prediction is structurally supported by its evidence. In tabular decision systems, failures often occur when a feature family becomes unavailable, delayed, noisy, stale, or low-trust while the model remains highly confident. Existing calibration, uncertainty, selective-prediction, explanation, and perturbation methods provide scalar scores or attribution maps, but not a recomputable audit object answering: under a declared evidence-failure protocol, what trajectory makes this prediction lose support? We introduce Counterfactual Fragility Certificates (CFC), a model-agnostic protocol-level audit certificate-not a formal robustness certificate-that maps each prediction into an ordered evidence-failure trajectory summarized by greedy flip budget, normalized margin-collapse area, degradation thresholds, and fragility dominance score. Across seven tabular benchmarks and strong linear, tree-based, boosting, and neural baselines, CFC-FDS identifies independently brittle high-confidence cases with 0.915 AUROC, improving over the strongest non-certificate score by +0.405. The advantage persists across perturbation, permutation-importance, group-SHAP, baseline-choice, seed-variance, budgeted-review, and naturalistic field-unavailability checks. Under a 20% review budget, CFC-FDS captures 88.9% of brittle high-confidence cases, compared with 31.8-37.4% for confidence and energy scores. We also evaluate fragility-aware regularization and brittleness-aware temperature correction as secondary uses. CFC provides a concrete reliability framework for exposing high-confidence brittleness missed by ordinary score-centric evaluation.

@@ -1,106 +1,106 @@
 {
-  "generatedAt": "2026-09-01T19:06:56+05:30",
+  "generatedAt": "2026-09-02T19:06:52+05:30",
   "source": "Hugging Face — trending models",
   "models": [
     {
-      "id": "Qwen/Qwen3.8-Flash-Next",
-      "task": "image-text-to-text",
-      "likes": 4581,
-      "downloads": 207941,
-      "library": "transformers",
-      "createdAt": "2026-08-24T08:24:59.000Z",
-      "url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next",
-      "summary": "Multimodal conversational model with innovative hybrid attention architecture for efficient long-context processing."
-    },
-    {
       "id": "zai-org/GLM-5.3-Flash",
       "task": "image-text-to-text",
-      "likes": 1852,
+      "likes": 1929,
       "downloads": 441348,
       "library": "transformers",
       "createdAt": "2026-08-25T06:43:14.000Z",
       "url": "https://huggingface.co/zai-org/GLM-5.3-Flash",
-      "summary": "Efficient multimodal model with 320B total and 18B active parameters combining sparse and linear attention."
+      "summary": "Multimodal conversational model with 320B parameters (18B active), hybrid sparse/linear attention for efficient long-context processing and strong coding."
+    },
+    {
+      "id": "Qwen/Qwen3.8-Flash-Next",
+      "task": "image-text-to-text",
+      "likes": 4699,
+      "downloads": 207941,
+      "library": "transformers",
+      "createdAt": "2026-08-24T08:24:59.000Z",
+      "url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next",
+      "summary": "Experimental Qwen4 preview using hybrid Gated DeltaNet and sparse attention for efficient multimodal reasoning at scale."
     },
     {
       "id": "zai-org/GLM-5.3",
       "task": "text-generation",
-      "likes": 1445,
+      "likes": 1490,
       "downloads": 94403,
       "library": "transformers",
       "createdAt": "2026-08-25T06:42:50.000Z",
       "url": "https://huggingface.co/zai-org/GLM-5.3",
-      "summary": "Open-weights text model with strong coding capabilities and improved long-horizon task performance."
+      "summary": "Text-generation model excelling at complex coding and long-horizon tasks with 50% improvement over GLM-5.2 on coding benchmarks."
     },
     {
       "id": "Qwen/Qwen3.8-27B",
       "task": "image-text-to-text",
-      "likes": 13528,
+      "likes": 13646,
       "downloads": 4960483,
       "library": "transformers",
       "createdAt": "2026-08-05T08:22:59.000Z",
       "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
-      "summary": "Compact vision-language model with flexible thinking control for complex multi-step task reasoning."
+      "summary": "Compact 27B vision-language model with flexible thinking control for complex multimodal understanding and multi-step task execution."
     },
     {
       "id": "unsloth/Qwen3.8-Flash-Next-GGUF",
       "task": "image-text-to-text",
-      "likes": 650,
+      "likes": 705,
       "downloads": 431339,
       "library": null,
       "createdAt": "2026-08-26T12:29:32.000Z",
       "url": "https://huggingface.co/unsloth/Qwen3.8-Flash-Next-GGUF",
-      "summary": "Quantized version of Qwen3.8-Flash-Next optimized for local inference with Unsloth framework."
+      "summary": "GGUF-quantized Qwen3.8-Flash-Next optimized for local inference with hybrid sparse attention architecture for agentic tasks."
     },
     {
       "id": "deepseek-ai/DeepSeek-V4-Flash-Vision-Exp",
       "task": "image-text-to-text",
-      "likes": 423,
+      "likes": 480,
       "downloads": 17893,
       "library": "transformers",
       "createdAt": "2026-08-31T06:16:18.000Z",
       "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-Vision-Exp",
-      "summary": "Experimental multimodal agent model extending DeepSeek-V4-Flash with visual understanding capabilities."
+      "summary": "Experimental multimodal DeepSeek-V4 variant with visual modules for strong text and image understanding in agent applications."
     },
     {
       "id": "tencent/Hy4-preview",
       "task": "text-generation",
-      "likes": 373,
+      "likes": 393,
       "downloads": 3516,
       "library": "transformers",
       "createdAt": "2026-08-27T08:52:40.000Z",
       "url": "https://huggingface.co/tencent/Hy4-preview",
-      "summary": "Mixture-of-experts flagship model with 770B parameters and 49B active per token for efficient scaling."
-    },
-    {
-      "id": "unsloth/Qwen3.8-27B-GGUF",
-      "task": null,
-      "likes": 3310,
-      "downloads": 9354057,
-      "library": null,
-      "createdAt": "2026-08-13T08:28:40.000Z",
-      "url": "https://huggingface.co/unsloth/Qwen3.8-27B-GGUF",
-      "summary": "Quantized version of Qwen3.8-27B for efficient local inference with Unsloth framework."
+      "summary": "MoE text model with 770B parameters (49B active per token) using sparse attention and speculative decoding for efficiency."
     },
     {
       "id": "Lightricks/LTX-2.5",
       "task": "image-to-video",
-      "likes": 2415,
+      "likes": 2518,
       "downloads": 1232274,
       "library": "diffusion-single-file",
       "createdAt": "2026-07-23T07:55:24.000Z",
       "url": "https://huggingface.co/Lightricks/LTX-2.5",
-      "summary": "Multimodal model supporting image-to-video, text-to-video, audio conversion, and combined modalities."
+      "summary": "Generative model supporting cross-modal conversions: image-to-video, text-to-video, audio, and combinations thereof."
+    },
+    {
+      "id": "unsloth/Qwen3.8-27B-GGUF",
+      "task": null,
+      "likes": 3366,
+      "downloads": 9354057,
+      "library": null,
+      "createdAt": "2026-08-13T08:28:40.000Z",
+      "url": "https://huggingface.co/unsloth/Qwen3.8-27B-GGUF",
+      "summary": "GGUF-quantized Qwen3.8-27B with improved tool calling and developer role support for agentic local inference."
     },
     {
       "id": "unsloth/GLM-5.3-Flash-GGUF",
       "task": "text-generation",
-      "likes": 317,
+      "likes": 330,
       "downloads": 63718,
       "library": null,
       "createdAt": "2026-08-26T14:21:15.000Z",
       "url": "https://huggingface.co/unsloth/GLM-5.3-Flash-GGUF",
-      "summary": "Quantized version of GLM-5.3-Flash for efficient local inference with optimized performance."
+      "summary": "GGUF-quantized GLM-5.3-Flash with sparse/linear hybrid attention for efficient multimodal local inference and strong reasoning."
     }
   ]
 }

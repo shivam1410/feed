@@ -1,0 +1,14 @@
+---
+title: "Stochastic complexity of vectors containing cluster structure"
+category: "AI Research"
+source: "arXiv (cs.LG)"
+url: "https://arxiv.org/abs/2609.00084"
+authors: ["Daniel Nicorici, Olli Yli-Harja, Jaakko Astola"]
+date: "Wed, 02 Sep 2026 00:00:00 -0400"
+score: 45
+guid: "oai:arXiv.org:2609.00084v1"
+image: ""
+generated: "2026-09-02T19:06:18+05:30"
+---
+
+arXiv:2609.00084v1 Announce Type: new Abstract: This paper studies the problem of computing the stochastic probability (shortest code length) of the encoded vectors containing cluster structure using Normalized Maximum Likelihood (NML) model. This is of great theoretical and practical importance in data clustering based on Minimum Description Length (MDL) principle, such as for estimating the best number of clusters and best cluster structure for the data. Straightforward computation of the shortest code length of the vector containing cluster structure based on the NML model requires polynomial time with respect to the size of the vector and number of clusters. We show that this is a tractable problem by introducing a recursion formula for the efficient computation of normalizing constant from the NML model. The time complexity of the new formula is linear opposed to previous polynomial time with respect to the size of the vector and number of clusters.

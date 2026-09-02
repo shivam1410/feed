@@ -8,7 +8,7 @@ date: "2026-08-30"
 score: 70
 guid: "10.1038/d41586-026-02684-1"
 image: ""
-generated: "2026-09-01T19:06:31+05:30"
+generated: "2026-09-02T19:06:18+05:30"
 ---
 
 Spread of diseases between humans and animals is an issue around the world. But AI models can be used to monitor their progress.

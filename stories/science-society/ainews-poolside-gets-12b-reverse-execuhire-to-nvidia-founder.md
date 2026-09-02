@@ -8,7 +8,7 @@ date: "Fri, 21 Aug 2026 05:45:21 GMT"
 score: 75
 guid: "https://www.latent.space/p/ainews-poolside-gets-12b-reverse"
 image: ""
-generated: "2026-08-28T20:11:00+05:30"
+generated: "2026-09-02T19:06:18+05:30"
 ---
 
-NVIDIA licensed Poolside's Model Factory and hired approximately 109 technical employees in an unusual reverse-execuhire structure valued at $12 billion. Founders retained control receiving $1 billion while the broader technical team received $6 billion. This inverts typical acquisition models where executives depart while employees remain with the company.
+NVIDIA completed a reverse-execuhire of Poolside: the 109 technical employees transfer to NVIDIA, while founders receive $1 billion and employees $6 billion in compensation. This unique structure leaves founders steering the company's pivot while the bulk of technical staff joins NVIDIA, representing the first major reverse-execuhire where founders stay but the company transforms completely.

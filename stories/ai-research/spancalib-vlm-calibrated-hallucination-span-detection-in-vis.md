@@ -8,7 +8,7 @@ date: "2026-08-29T20:00:00.000Z"
 score: 70
 guid: "2608.29974"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2608.29974.png"
-generated: "2026-09-01T19:06:31+05:30"
+generated: "2026-09-02T19:06:18+05:30"
 ---
 
 A hybrid system combining a multimodal sequence tagger and a generative vision-language model improves hallucination span detection and calibration through union-calibrated fusion.

@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/d41586-026-02717-9"
 authors: ["James Dinneen"]
 date: "2026-08-27"
-score: 80
+score: 75
 guid: "10.1038/d41586-026-02717-9"
 image: ""
-generated: "2026-09-01T19:06:31+05:30"
+generated: "2026-09-02T19:06:18+05:30"
 ---
 
-A thousand-year reconstruction of Pacific Ocean sea surface temperatures, derived from detailed coral analysis, provides evidence that human-caused climate change is intensifying El Niño weather phenomena. The extended historical record enables scientists to distinguish natural climate variability from anthropogenic warming effects with greater precision than before. These findings strengthen scientific understanding of how global warming amplifies El Niño patterns and their cascading global consequences.
+A 1,000-year reconstruction of Pacific Ocean temperatures from coral records demonstrates that human-caused climate warming intensifies El Niño events. The analysis adds evidence that anthropogenic greenhouse gas emissions amplify these major weather patterns. Understanding what drives El Niño strength is essential for predicting regional climate impacts on agriculture, weather, and ocean systems across the Pacific basin.

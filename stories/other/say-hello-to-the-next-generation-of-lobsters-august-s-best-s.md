@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/d41586-026-02597-z"
 authors: ["Dhruv Shenai"]
 date: "2026-09-02"
-score: 35
+score: 20
 guid: "10.1038/d41586-026-02597-z"
 image: ""
-generated: "2026-09-02T19:06:18+05:30"
+generated: "2026-09-03T19:07:18+05:30"
 ---
 
-Nature's photography team has curated August's best science images, featuring next-generation lobsters and other striking scientific subjects. The monthly gallery showcases visually compelling scientific photographs across diverse research disciplines selected by Nature's photo team.
+The month’s sharpest science shots, selected by Nature’s photo team.

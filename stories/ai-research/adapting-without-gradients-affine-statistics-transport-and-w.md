@@ -1,14 +1,14 @@
 ---
 title: "Adapting Without Gradients: Affine Statistics Transport and What Its Certificate Can Tell You"
 category: "AI Research"
-source: "arXiv (cs.LG)"
-url: "https://arxiv.org/abs/2609.00374"
-authors: ["Salim Khazem, Ibrahim Mohamed Serouis"]
-date: "Wed, 02 Sep 2026 00:00:00 -0400"
-score: 55
-guid: "oai:arXiv.org:2609.00374v1"
-image: ""
-generated: "2026-09-02T19:06:18+05:30"
+source: "HF Trending Papers"
+url: "https://huggingface.co/papers/2609.00374"
+authors: ["Salim Khazem", "Ibrahim Mohamed Serouis"]
+date: "2026-08-30T20:00:00.000Z"
+score: 72
+guid: "2609.00374"
+image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.00374.png"
+generated: "2026-09-03T19:07:18+05:30"
 ---
 
-arXiv:2609.00374v1 Announce Type: new Abstract: Test-time adaptation (TTA) typically assumes that model parameters can be updated at inference time. This assumption is restrictive for inference-only accelerators, frozen or third-party models, and memory-constrained deployments, and standard BatchNorm-based TTA configurations may also become inactive on architectures without BatchNorm. We study adaptation when the learned model must remain frozen. We introduce CASTER, a gradient-free method that stores source class statistics in a discriminative subspace, estimates a class-shared affine transformation from target-batch moments, and analytically transports the source class distributions before classification. CASTER requires no backward pass, optimizer state, or stored source feature bank. Across four backbones and seven datasets, it outperforms k-NN on identical frozen features in 27 of 28 backbone-dataset settings while retaining a median of 18x less state. Affine transport is not always reliable. On ImageNet-C, where batches contain only 64 samples for 1000 classes, unconditional transport loses 21.2 top-1 points. We therefore introduce an empirical residual-to-margin transportability certificate. Across 307 evaluation cells, every transport losing more than 10 points has certificate value above 3.9, although benign and destructive regimes are not perfectly separated. Gating converts an average $-3.35$-point effect of unconditional transport into a +1.69-point gain, and performance remains within 0.3 points of the best threshold over a broad threshold range. Finally, we show that this certificate is mechanism-specific: when applied to Tent, it accepts only $4.3\%$ of updates and preserves 0.6% of Tent's available gain. These results position CASTER as a lightweight adaptation mechanism for frozen-model deployment, together with an explicit account of when its safety signal is informative and when it is not.
+CASTER enables gradient-free test-time adaptation for frozen models by transporting source class distributions via affine transformations in a discriminative subspace, with a transportability certificate to gate unreliable updates.

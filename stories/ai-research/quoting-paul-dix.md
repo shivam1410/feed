@@ -5,10 +5,10 @@ source: "Simon Willison"
 url: "https://simonwillison.net/2026/Aug/26/paul-dix/"
 authors: []
 date: "2026-08-26T08:07:55+00:00"
-score: 80
+score: 50
 guid: "https://simonwillison.net/2026/Aug/26/paul-dix/"
 image: ""
-generated: "2026-09-02T19:06:18+05:30"
+generated: "2026-09-03T19:07:18+05:30"
 ---
 
-AI-generated code can achieve production quality at scale. An AI system wrote 1 million lines of code for Bun, then iteratively refined it over months until it became reliable software now running on millions of developer machines. While some argue this was simplified by using code comparison as a reference, Paul Dix contends this underestimates the accomplishment. With proper verification systems and clear direction, AI can produce sophisticated, complex software that continues improving until it works reliably in production environments.
+The fact that AI wrote 1M LOC and then refined it over the course of the next couple of months to produce a reliable piece of software that is currently running on millions of developer machines is absolutely mind blowing. And you can say, “well it’s not that impressive because they had an oracle to compare against, so it was simple to go from one language to another”, but I think that’s selling this entire thing short. If you can build a verification system and give proper direction, AI can produce a highly complex, highly sophisticated piece of software and it can continue to refine it until it just works. — Paul Dix , The end of programming Tags: coding-agents , ai-assisted-programming , generative-ai , bun , ai , llms

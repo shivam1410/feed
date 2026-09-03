@@ -5,10 +5,10 @@ source: "Latent Space"
 url: "https://www.latent.space/p/simile"
 authors: []
 date: "Fri, 21 Aug 2026 23:37:38 GMT"
-score: 85
+score: 78
 guid: "https://www.latent.space/p/simile"
 image: ""
-generated: "2026-09-02T19:06:18+05:30"
+generated: "2026-09-03T19:07:18+05:30"
 ---
 
-Simile AI's $2 billion Series B funds foundation models of human behavior built from long-form interviews, behavioral data, and causal modeling. The company runs tens of millions of simulations for Fortune 100 clients like CVS, achieving 85–99% accuracy versus human focus groups. This represents the second wave of simulation-based scaling, extending from generative agents (Smallville, 2023) to digital twins, positioning simulation as a complement to traditional model scaling.
+Simile AI raised $2 billion to scale digital twins modeling human behavior, achieving 85–99% accuracy matching human focus group responses across Fortune 100 clients like CVS. Using long-form interviews, observational data, randomized trials, and post-training on causal decision-making mechanisms, Simile builds population and individual-level behavior models. This enables companies to simulate decisions before executing them, extending AI from prediction to optimization.

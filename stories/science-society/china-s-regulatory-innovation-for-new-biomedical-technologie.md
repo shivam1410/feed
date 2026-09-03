@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/d41586-026-02737-5"
 authors: ["Yuan Fang", "Siying Guo", "Jun Du", "Ning Li"]
 date: "2026-09-01"
-score: 45
+score: 50
 guid: "10.1038/d41586-026-02737-5"
 image: ""
-generated: "2026-09-02T19:06:18+05:30"
+generated: "2026-09-03T19:07:18+05:30"
 ---
 
 China’s regulatory innovation for new biomedical technologies

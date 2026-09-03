@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/d41586-026-02414-7"
 authors: ["Erin Cullen"]
 date: "2026-09-02"
-score: 15
+score: 5
 guid: "10.1038/d41586-026-02414-7"
 image: ""
-generated: "2026-09-02T19:06:18+05:30"
+generated: "2026-09-03T19:07:18+05:30"
 ---
 
 Home is where you end up.

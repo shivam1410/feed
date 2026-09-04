@@ -8,7 +8,7 @@ date: "Wed, 29 Jul 2026 16:00:00 +0000"
 score: 60
 guid: "https://blog.google/innovation-and-ai/models-and-research/google-labs/lyria-3-5/"
 image: "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Lyria3.5_social.max-600x600.format-webp.webp"
-generated: "2026-09-03T19:07:18+05:30"
+generated: "2026-09-04T23:32:20+05:30"
 ---
 
 Our newest music generation model, Lyria 3.5, delivers significant advancements across musicality, lyrics, and vocal quality, empowering you to craft richer tracks. We’r…

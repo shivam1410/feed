@@ -5,10 +5,10 @@ source: "Simon Willison"
 url: "https://simonwillison.net/2026/Aug/31/andrew-digby/"
 authors: []
 date: "2026-08-31T22:25:02+00:00"
-score: 65
+score: 58
 guid: "https://simonwillison.net/2026/Aug/31/andrew-digby/"
 image: ""
-generated: "2026-09-03T19:07:18+05:30"
+generated: "2026-09-04T23:32:20+05:30"
 ---
 
-The kākāpō, a critically endangered New Zealand parrot, reached 325 individuals after a record breeding season, with chicks now counted in the population. The species had collapsed to 51 birds in 1995. Andrew Digby's report demonstrates that sustained conservation effort reverses severe decline. This matters because it proves species recovery is possible with decades of commitment, offering evidence for other critically endangered populations.
+New Zealand's kākāpō, a critically endangered flightless parrot, recovered to 325 individuals from just 51 in 1995. This year's record breeding season produced chicks now reaching juvenile status and added to the population. The three-decade recovery required intensive captive breeding, habitat management, and genetic monitoring. The success demonstrates that species on the brink of extinction can rebound given adequate resources, scientific expertise, and sustained long-term commitment, offering hope for other critically endangered populations.

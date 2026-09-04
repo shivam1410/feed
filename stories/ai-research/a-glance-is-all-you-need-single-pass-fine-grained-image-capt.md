@@ -5,10 +5,10 @@ source: "HF Trending Papers"
 url: "https://huggingface.co/papers/2609.00591"
 authors: ["Suryaansh Jain", "Rahasya Barkur", "Vishal G", "Ryan Rossi", "Franck Dernoncourt", "Jack Wang", "Koustava Goswami", "Nedim Lipka", "Puneet Mathur", "Samyadeep Basu", "Seunghyun Yoon"]
 date: "2026-08-31T20:00:00.000Z"
-score: 66
+score: 65
 guid: "2609.00591"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.00591.png"
-generated: "2026-09-03T19:07:18+05:30"
+generated: "2026-09-04T23:32:20+05:30"
 ---
 
 SimLoss uses embedding-space contrastive supervision to enable single-pass fine-grained image captioning that matches multi-stage quality at much lower latency.

@@ -8,7 +8,7 @@ date: "2026-09-01T20:00:00.000Z"
 score: 68
 guid: "2609.02812"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.02812.png"
-generated: "2026-09-03T19:07:18+05:30"
+generated: "2026-09-04T23:32:20+05:30"
 ---
 
 A streaming, LLM-based end-to-end model unifies speaker-attributed speech recognition and diarization for low-latency real-time applications.

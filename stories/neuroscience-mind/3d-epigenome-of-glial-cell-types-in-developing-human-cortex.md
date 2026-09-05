@@ -8,7 +8,7 @@ date: "2026-09-02"
 score: 70
 guid: "10.1038/s41586-026-10987-6"
 image: ""
-generated: "2026-09-03T19:07:18+05:30"
+generated: "2026-09-05T19:51:07+05:30"
 ---
 
-Researchers mapped three-dimensional epigenetic structure of four glial cell types in the mid-gestation human cortex, identifying cell-type-specific regulatory elements and chromatin interactions. These regulatory patterns illuminate how non-coding DNA variants contribute to neuropsychiatric disorders and distinguish human brain development from other species. Understanding glial regulation is crucial for comprehending both disease vulnerability and uniquely human neural evolution.
+Three-dimensional epigenomic profiling of four glial cell types from mid-gestation human cortex reveals cell-type-specific regulatory elements and chromatin interactions. Glial cells are essential brain support cells whose developmental roles in disease remain incompletely understood. This mapping shows how regulatory DNA elements organize in three-dimensional space during brain development. Findings help explain genetic contributions to psychiatric disorders and reveal mechanisms underlying human-specific cortical evolution, offering foundations for future therapeutic interventions targeting developmental brain disorders.

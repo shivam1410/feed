@@ -5,10 +5,10 @@ source: "Simon Willison"
 url: "https://simonwillison.net/2026/Aug/31/andrew-digby/"
 authors: []
 date: "2026-08-31T22:25:02+00:00"
-score: 58
+score: 70
 guid: "https://simonwillison.net/2026/Aug/31/andrew-digby/"
 image: ""
-generated: "2026-09-04T23:32:20+05:30"
+generated: "2026-09-05T19:51:07+05:30"
 ---
 
-New Zealand's kākāpō, a critically endangered flightless parrot, recovered to 325 individuals from just 51 in 1995. This year's record breeding season produced chicks now reaching juvenile status and added to the population. The three-decade recovery required intensive captive breeding, habitat management, and genetic monitoring. The success demonstrates that species on the brink of extinction can rebound given adequate resources, scientific expertise, and sustained long-term commitment, offering hope for other critically endangered populations.
+New Zealand's kākāpō population has reached 325 individuals following a record 2025 breeding season, with chicks now added as juveniles to the total count. This recovery is extraordinary: only 51 kākāpō remained in 1995, representing a gain of 274 birds over 31 years. The success demonstrates that sustained, dedicated conservation effort can recover critically endangered species from near-extinction, offering a proof-of-concept for endangered species recovery worldwide.

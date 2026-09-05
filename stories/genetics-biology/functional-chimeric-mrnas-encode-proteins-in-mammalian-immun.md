@@ -8,7 +8,7 @@ date: "2026-09-02"
 score: 70
 guid: "10.1038/s41586-026-10982-x"
 image: ""
-generated: "2026-09-03T19:07:18+05:30"
+generated: "2026-09-05T19:51:07+05:30"
 ---
 
-Inflammation triggers DNA segments from different chromosomes to physically interact, creating chimeric messenger RNAs that encode functional immune proteins. These hybrid transcripts produce physiologically relevant proteins during immune responses. The discovery reveals how inflammation expands the immune system's protein diversity through novel RNA combinations, generating molecular tools beyond traditional gene expression patterns.
+Inflammation triggers interchromosomal DNA interactions that bring distant genes into close physical proximity, enabling formation of chimeric mRNAs encoding functional immune proteins. This discovery reveals a previously unknown mechanism by which the immune system generates molecular diversity during inflammatory responses. The physiologically relevant proteins produced play active immune roles. This finding expands understanding of how genetic information reorganizes during immune responses, suggesting cells employ sophisticated mechanisms beyond standard gene expression to adapt to challenges.

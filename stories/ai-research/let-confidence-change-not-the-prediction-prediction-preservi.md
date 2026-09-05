@@ -5,10 +5,10 @@ source: "HF Trending Papers"
 url: "https://huggingface.co/papers/2609.01072"
 authors: ["Daehwan Kim", "Haejun Chung", "Ikbeom Jang"]
 date: "2026-09-01T20:00:00.000Z"
-score: 70
+score: 60
 guid: "2609.01072"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.01072.png"
-generated: "2026-09-04T23:32:20+05:30"
+generated: "2026-09-05T19:51:07+05:30"
 ---
 
 CORD is a post-fit adapter that repairs calibrated probability vectors to exactly preserve original top-1 predictions while maintaining calibration quality.

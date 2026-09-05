@@ -8,7 +8,7 @@ date: "2026-09-02"
 score: 70
 guid: "10.1038/s41586-026-10937-2"
 image: ""
-generated: "2026-09-03T19:07:18+05:30"
+generated: "2026-09-05T19:51:07+05:30"
 ---
 
-During replisome assembly of monkeypox virus, the hexameric helicase–primase E5 undergoes large-scale conformational changes that allow two of its primase domains to interact with the polymerase F8 thumb domain and A22 subunit, activating the helicase–primase.
+Researchers have revealed how monkeypox virus assembles its replication machinery. During assembly, the viral protein E5—a hexameric complex with both helicase and primase functions—undergoes major shape changes that allow its primase domains to interact with the polymerase enzyme F8 and another protein called A22. These interactions activate the helicase-primase complex, enabling the virus to replicate its genome. Understanding this molecular mechanism is important because it identifies potential targets for antiviral drugs and deepens knowledge of how large DNA viruses operate at the molecular level.

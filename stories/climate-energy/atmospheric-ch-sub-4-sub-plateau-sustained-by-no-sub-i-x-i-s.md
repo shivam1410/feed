@@ -8,7 +8,7 @@ date: "2026-09-02"
 score: 65
 guid: "10.1038/s41586-026-10983-w"
 image: ""
-generated: "2026-09-03T19:07:18+05:30"
+generated: "2026-09-05T19:51:07+05:30"
 ---
 
-The atmospheric methane plateau results from increased tropical hydroxyl radicals that break down methane, driven by global rise and southward redistribution of nitrogen oxide emissions toward developing regions and ocean areas. Higher nitrogen oxide concentrations enhance hydroxyl formation despite continued methane releases from agriculture and energy production. This explains the paradoxical methane stability despite rising emissions sources.
+Rising global nitrogen oxide emissions, redistributed southward toward developing regions and ocean areas, drive enhanced tropical hydroxyl radical production explaining the atmospheric methane plateau. Hydroxyl radicals destroy atmospheric methane through chemical oxidation; the plateau's causes were previously incompletely understood. This research clarifies the chemistry underlying recent climate observations and identifies how regional emission patterns affect global atmospheric composition. Understanding these mechanisms informs climate policy by revealing that controlling nitrogen oxide emissions could help manage methane levels.

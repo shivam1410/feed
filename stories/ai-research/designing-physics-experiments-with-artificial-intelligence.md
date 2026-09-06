@@ -8,7 +8,7 @@ date: "2026-09-02"
 score: 75
 guid: "10.1038/s41586-026-10898-6"
 image: ""
-generated: "2026-09-05T19:51:07+05:30"
+generated: "2026-09-06T19:06:55+05:30"
 ---
 
-Artificial intelligence explores physics experimental design by searching vast spaces of hardware configurations and proposing entirely new experimental layouts, rather than merely tuning existing parameters. This approach leverages machine learning to discover optimal configurations humans might overlook. Traditional experimental design relies on researcher intuition and incremental adjustment. AI-driven optimization could identify unexpected hardware arrangements yielding better measurements or revealing new physics, potentially accelerating discoveries across experimental sciences from quantum mechanics to materials characterization.
+Artificial intelligence in physics experimental design is explored on the basis of searching for optima over a vast space of hardware configurations and proposing entirely new experimental layouts, rather than tuning a handful of parameters.

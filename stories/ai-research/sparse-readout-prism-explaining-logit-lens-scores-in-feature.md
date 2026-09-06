@@ -5,10 +5,10 @@ source: "HF Trending Papers"
 url: "https://huggingface.co/papers/2609.01936"
 authors: ["Matteo He", "William F. Shen", "Xinchi Qiu", "Nicholas D. Lane"]
 date: "2026-08-31T20:00:00.000Z"
-score: 70
+score: 55
 guid: "2609.01936"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.01936.png"
-generated: "2026-09-05T19:51:07+05:30"
+generated: "2026-09-06T19:06:55+05:30"
 ---
 
 Sparse Readout Prism decomposes language model readouts into sparse features to isolate readout structure from corpus-dependent lens artifacts.

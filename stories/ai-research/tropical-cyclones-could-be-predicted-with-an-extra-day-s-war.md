@@ -8,7 +8,7 @@ date: "2026-09-04"
 score: 75
 guid: "10.1038/d41586-026-02643-w"
 image: ""
-generated: "2026-09-05T19:51:07+05:30"
+generated: "2026-09-06T19:06:55+05:30"
 ---
 
-An artificial intelligence model predicts tropical cyclone track and intensity with high accuracy, potentially providing an extra day of warning before storms strike. This forecasting improvement could help protect lives by giving communities additional preparation time. Machine learning enhances severe weather prediction, addressing a critical need as tropical cyclones continue posing major risks to coastal populations. Responsible global deployment of this technology could significantly improve emergency response capabilities and save lives through better advance warning systems.
+An artificial intelligence model can predict tropical cyclone tracks and intensity with high accuracy, potentially providing one additional day of advance warning. This breakthrough could significantly protect lives worldwide if the technology is shared responsibly and deployed globally. Tropical cyclones cause thousands of deaths annually, making improved predictive capabilities crucial for emergency preparedness and evacuation planning.

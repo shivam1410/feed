@@ -8,7 +8,7 @@ date: "2026-09-03"
 score: 70
 guid: "10.1038/d41586-026-02744-6"
 image: ""
-generated: "2026-09-05T19:51:07+05:30"
+generated: "2026-09-06T19:06:55+05:30"
 ---
 
 Study shows that psilocybin acts on nerves to prevent the painful condition called peripheral neuropathy.

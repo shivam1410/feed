@@ -8,7 +8,7 @@ date: "2026-09-02"
 score: 60
 guid: "10.1038/s41586-026-10818-8"
 image: ""
-generated: "2026-09-05T19:51:07+05:30"
+generated: "2026-09-06T19:06:55+05:30"
 ---
 
 Polarization and quantum entanglement measurements of baryon semileptonic decay greatly enhance single-event sensitivity, and combined with lattice quantum chromodynamics calculations enable determination of the |Vus| element of the Cabibbo–Kobayashi–Maskawa matrix, providing an independent test of the standard model.

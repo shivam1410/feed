@@ -5,10 +5,10 @@ source: "HF Trending Papers"
 url: "https://huggingface.co/papers/2609.00834"
 authors: ["Yeonseok Jeong", "Soyoung Yoon", "Seongjun Lee", "Seung-won Hwang"]
 date: "2026-08-31T20:00:00.000Z"
-score: 65
+score: 60
 guid: "2609.00834"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.00834.png"
-generated: "2026-09-05T19:51:07+05:30"
+generated: "2026-09-06T19:06:55+05:30"
 ---
 
 MaP-SQL improves listwise Text-to-SQL selection without fine-tuning by using structured memory retrieval and permutation-based ranking aggregation.

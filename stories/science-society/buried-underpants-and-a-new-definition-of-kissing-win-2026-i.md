@@ -8,7 +8,7 @@ date: "2026-09-04"
 score: 40
 guid: "10.1038/d41586-026-02650-x"
 image: ""
-generated: "2026-09-05T19:51:07+05:30"
+generated: "2026-09-06T19:06:55+05:30"
 ---
 
 The awards highlight weird, funny and improbable research that also makes you think.

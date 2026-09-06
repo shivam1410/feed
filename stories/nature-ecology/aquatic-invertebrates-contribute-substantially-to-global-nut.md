@@ -8,7 +8,7 @@ date: "2026-09-02"
 score: 65
 guid: "10.1038/d41586-026-02541-1"
 image: ""
-generated: "2026-09-05T19:51:07+05:30"
+generated: "2026-09-06T19:06:55+05:30"
 ---
 
-An analysis of the nutritional content of aquatic invertebrate species suggests that their global production is a rich source of nutrients that are crucial for human health. The work provides a foundation for better recognition of these valuable invertebrate nutrients and incorporate them into conservation, management and policy efforts.
+Nutritional analysis shows aquatic invertebrates like insects and crustaceans are a substantial global source of essential nutrients for human health. Their worldwide production represents an underrecognized nutritional resource. The research provides scientific foundation for incorporating these invertebrates into conservation strategies, resource management frameworks, and policy decisions that currently overlook their nutritional value and ecological importance.

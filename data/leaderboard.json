@@ -1,106 +1,106 @@
 {
-  "generatedAt": "2026-09-05T19:51:56+05:30",
+  "generatedAt": "2026-09-06T19:07:28+05:30",
   "source": "Hugging Face — trending models",
   "models": [
     {
       "id": "deepseek-ai/DeepSeek-V4-Flash-Vision-Exp",
       "task": "image-text-to-text",
-      "likes": 643,
-      "downloads": 184542,
+      "likes": 709,
+      "downloads": 209191,
       "library": "transformers",
       "createdAt": "2026-08-31T06:16:18.000Z",
       "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-Vision-Exp",
-      "summary": "DeepSeek-V4-Flash multimodal variant adding visual understanding to text-only model for improved agentic capabilities."
+      "summary": "Experimental multimodal model in the DeepSeek-V4 family combining visual understanding with text capabilities for image-text tasks."
     },
     {
       "id": "Qwen/Qwen3.8-27B",
       "task": "image-text-to-text",
-      "likes": 13997,
-      "downloads": 6024467,
+      "likes": 14077,
+      "downloads": 6190807,
       "library": "transformers",
       "createdAt": "2026-08-05T08:22:59.000Z",
       "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
-      "summary": "Dense 27B-parameter vision-language model from Qwen designed for coding, reasoning, and complex multi-step agentic tasks."
-    },
-    {
-      "id": "Qwen/Qwen3.8-Flash-Next",
-      "task": "image-text-to-text",
-      "likes": 4898,
-      "downloads": 401327,
-      "library": "transformers",
-      "createdAt": "2026-08-24T08:24:59.000Z",
-      "url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next",
-      "summary": "Experimental preview of Qwen4 architecture featuring hybrid attention and Gated DeltaNet for efficient vision-language understanding."
+      "summary": "Compact 27B vision-language model understanding images and videos with flexible thinking control for complex multi-step agentic tasks."
     },
     {
       "id": "XHToken/Spark-X2.5-4B",
       "task": "text-generation",
-      "likes": 506,
-      "downloads": 4755,
+      "likes": 577,
+      "downloads": 5477,
       "library": "transformers",
       "createdAt": "2026-08-24T06:34:34.000Z",
       "url": "https://huggingface.co/XHToken/Spark-X2.5-4B",
-      "summary": "Compact 4B-parameter dense model supporting 1M-token native context for coding, reasoning, and agentic task workflows."
+      "summary": "Compact 4B text generation model excelling at conversation, coding, reasoning, and agentic workflows with native 1M token context."
     },
     {
-      "id": "zai-org/GLM-5.3-Flash",
+      "id": "Qwen/Qwen3.8-Flash-Next",
       "task": "image-text-to-text",
-      "likes": 2068,
-      "downloads": 727610,
+      "likes": 4932,
+      "downloads": 432966,
       "library": "transformers",
-      "createdAt": "2026-08-25T06:43:14.000Z",
-      "url": "https://huggingface.co/zai-org/GLM-5.3-Flash",
-      "summary": "First natively multimodal GLM model combining sparse and linear hybrid attention with 18B active parameters out of 320B."
+      "createdAt": "2026-08-24T08:24:59.000Z",
+      "url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next",
+      "summary": "Experimental preview of Qwen4 architecture with hybrid attention design rethinking how LLM components interact for efficiency."
     },
     {
       "id": "google/timesfm-3.0-pytorch",
       "task": "time-series-forecasting",
-      "likes": 441,
-      "downloads": 123025,
+      "likes": 480,
+      "downloads": 144455,
       "library": null,
       "createdAt": "2026-08-24T22:05:51.000Z",
       "url": "https://huggingface.co/google/timesfm-3.0-pytorch",
-      "summary": "Google's pretrained time-series foundation model using stacked mixing transformers with variate attention for forecasting tasks."
-    },
-    {
-      "id": "zai-org/GLM-5.3",
-      "task": "text-generation",
-      "likes": 1713,
-      "downloads": 370417,
-      "library": "transformers",
-      "createdAt": "2026-08-25T06:42:50.000Z",
-      "url": "https://huggingface.co/zai-org/GLM-5.3",
-      "summary": "Open-weight GLM model achieving state-of-the-art performance on coding benchmarks and complex long-horizon reasoning and exploitation tasks."
-    },
-    {
-      "id": "Lightricks/LTX-2.5",
-      "task": "image-to-video",
-      "likes": 2840,
-      "downloads": 1484329,
-      "library": "diffusion-single-file",
-      "createdAt": "2026-07-23T07:55:24.000Z",
-      "url": "https://huggingface.co/Lightricks/LTX-2.5",
-      "summary": "Diffusion-based video generation model supporting text, image, audio, and video inputs for multimodal video synthesis."
+      "summary": "Google's pretrained time-series foundation model using stacked mixing transformers for forecasting with variate attention mechanisms."
     },
     {
       "id": "ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF",
       "task": "image-text-to-text",
-      "likes": 363,
-      "downloads": 297493,
+      "likes": 444,
+      "downloads": 348389,
       "library": "gguf",
       "createdAt": "2026-08-28T18:38:03.000Z",
       "url": "https://huggingface.co/ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF",
-      "summary": "GGUF quantization of Qwen3.8-27B using non-uniform per-tensor precision and gradient-based search for efficient local deployment."
+      "summary": "Quantized GGUF version of Qwen3.8-27B with vision projector using non-uniform quantization for multimodal inference."
+    },
+    {
+      "id": "Lightricks/LTX-2.5",
+      "task": "image-to-video",
+      "likes": 2921,
+      "downloads": 1526928,
+      "library": "diffusion-single-file",
+      "createdAt": "2026-07-23T07:55:24.000Z",
+      "url": "https://huggingface.co/Lightricks/LTX-2.5",
+      "summary": "Multimodal diffusion model supporting conversions between images, videos, text, and audio in multiple directions."
+    },
+    {
+      "id": "zai-org/GLM-5.3-Flash",
+      "task": "image-text-to-text",
+      "likes": 2091,
+      "downloads": 761364,
+      "library": "transformers",
+      "createdAt": "2026-08-25T06:43:14.000Z",
+      "url": "https://huggingface.co/zai-org/GLM-5.3-Flash",
+      "summary": "Natively multimodal GLM-5.3 with 320B parameters and 18B active, using hybrid attention for efficient long-context inference."
+    },
+    {
+      "id": "zai-org/GLM-5.3",
+      "task": "text-generation",
+      "likes": 1729,
+      "downloads": 410074,
+      "library": "transformers",
+      "createdAt": "2026-08-25T06:42:50.000Z",
+      "url": "https://huggingface.co/zai-org/GLM-5.3",
+      "summary": "Advanced text generation model excelling at complex coding and long-horizon tasks with state-of-the-art coding performance."
     },
     {
       "id": "unsloth/Qwen3.8-27B-GGUF",
       "task": null,
-      "likes": 3528,
-      "downloads": 10157510,
+      "likes": 3563,
+      "downloads": 10311462,
       "library": null,
       "createdAt": "2026-08-13T08:28:40.000Z",
       "url": "https://huggingface.co/unsloth/Qwen3.8-27B-GGUF",
-      "summary": "Unsloth's highly-optimized GGUF quantization of Qwen3.8-27B delivering superior accuracy for efficient local inference and deployment."
+      "summary": "GGUF quantization of Qwen3.8-27B with Unsloth Dynamic 3.0 optimization for accurate inference and fine-tuning."
     }
   ]
 }

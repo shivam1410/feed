@@ -8,7 +8,7 @@ date: "2026-09-01T20:00:00.000Z"
 score: 75
 guid: "2609.02887"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.02887.png"
-generated: "2026-09-05T19:51:07+05:30"
+generated: "2026-09-06T19:06:55+05:30"
 ---
 
-Researchers developed open-vocabulary mutual information as a unified metric for evaluating speech brain-computer interfaces. This metric enables fair comparison across systems with different vocabulary sizes and operating conditions—a previously missing standard. The analysis reveals fundamental trade-offs: systems supporting larger vocabularies show reduced decoding accuracy per word. This metric provides researchers a common framework for progress measurement in brain-computer interface technology.
+Researchers have developed open-vocabulary mutual information as a unified metric for comparing speech brain-computer interfaces across different systems, vocabularies, and operating conditions. The metric reveals fundamental trade-offs between vocabulary size and decoding accuracy. This standardized measure enables fair comparison between disparate BCI systems and guides design decisions.

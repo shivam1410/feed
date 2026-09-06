@@ -8,7 +8,7 @@ date: "2026-09-03"
 score: 75
 guid: "10.1038/d41586-026-02765-1"
 image: ""
-generated: "2026-09-05T19:51:07+05:30"
+generated: "2026-09-06T19:06:55+05:30"
 ---
 
-A modified virus delivered in a small trial instructed the immune system to eliminate disease-causing cells in multiple sclerosis patients, offering a novel therapeutic approach. This engineered therapy reprograms immune responses inside the body rather than using traditional external treatments. This strategy harnesses the body's own defense mechanisms fundamentally differently than conventional approaches. If results scale to larger trials, this could provide transformative MS treatment, potentially altering disease progression in ways existing therapies cannot achieve.
+A small clinical trial demonstrates that a genetically modified virus can treat multiple sclerosis by instructing the immune system to destroy disease-causing cells. Delivered directly into the body, this innovative therapy represents a distinct approach to MS management compared to conventional external immunotherapies. The engineered viral vector works from within to reprogram immune function, potentially offering patients a new treatment option.

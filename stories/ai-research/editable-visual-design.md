@@ -8,7 +8,7 @@ date: "2026-09-02T20:00:00.000Z"
 score: 65
 guid: "2609.04034"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.04034.png"
-generated: "2026-09-06T19:06:55+05:30"
+generated: "2026-09-07T19:08:00+05:30"
 ---
 
 A coding agent guided by a vision-language model generates editable layered designs by synthesizing isolated visual assets and iteratively refining native HTML/CSS layouts.

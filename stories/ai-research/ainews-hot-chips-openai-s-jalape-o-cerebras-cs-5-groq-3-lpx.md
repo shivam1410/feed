@@ -5,10 +5,10 @@ source: "Latent Space"
 url: "https://www.latent.space/p/ainews-hot-chips-openais-jalapeno"
 authors: []
 date: "Thu, 27 Aug 2026 01:31:22 GMT"
-score: 82
+score: 85
 guid: "https://www.latent.space/p/ainews-hot-chips-openais-jalapeno"
 image: ""
-generated: "2026-08-31T03:16:07+05:30"
+generated: "2026-09-07T19:08:00+05:30"
 ---
 
-OpenAI's custom inference chip Jalapeño delivers 1.5–1.9× more work per watt and 1.7–3.6× lower end-to-end latency than NVIDIA's GB200/GB300 systems on real model workloads, with 2.1–4.1× higher performance on interactive tasks. Rated at 700W but operating at or below 550W in tests, Jalapeño marks OpenAI's shift from training-focused chips to inference optimization, with deployment beginning by year-end and Gen 2 already in development.
+OpenAI announced Jalapeño, a custom inference chip exceeding NVIDIA Blackwell efficiency. Jalapeño delivers 1.5–1.9× more work per watt at peak throughput and 1.7–3.6× lower end-to-end latency versus GB200/GB300 systems. For interactive workloads, it achieves 2.1–4.1× higher performance. Rated at 700W, it used only 550W during testing. Deployment begins by year-end. This shift prioritizes efficiency over raw throughput, addressing growing AI inference costs and signaling consolidation toward custom silicon.

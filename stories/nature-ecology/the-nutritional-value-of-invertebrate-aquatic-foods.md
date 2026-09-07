@@ -8,7 +8,7 @@ date: "2026-09-02"
 score: 65
 guid: "10.1038/s41586-026-10908-7"
 image: ""
-generated: "2026-09-05T19:51:07+05:30"
+generated: "2026-09-07T19:08:00+05:30"
 ---
 
-Aquatic invertebrates are exceptionally nutrient-dense foods containing high concentrations of vitamin B12 and selenium. Analysis shows they could supply annual requirements for these critical nutrients to over 5 billion people globally. This finding is significant because aquatic invertebrates—including small crustaceans and other creatures—are abundant, renewable, and efficient protein sources compared to traditional livestock. Their potential addresses growing global food security challenges and nutritional gaps, particularly in regions lacking access to expensive animal proteins. Developing sustainable harvesting and production of aquatic invertebrates could provide both environmental benefits through reduced land use and economic opportunities for food production.
+Aquatic invertebrates are exceptionally nutrient-dense food sources, capable of supplying the combined annual vitamin B12 and selenium needs of over 5 billion people through global production. These organisms—including crustaceans, insects, and mollusks—contain critical micronutrients often deficient in human diets. This matters because it demonstrates that aquatic invertebrate production could address widespread micronutrient deficiencies, particularly in developing regions with limited access to conventional protein sources, while reducing pressure on land-based agriculture and supporting food security goals.

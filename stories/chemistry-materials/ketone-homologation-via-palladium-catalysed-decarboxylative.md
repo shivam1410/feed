@@ -8,7 +8,7 @@ date: "2026-09-03"
 score: 55
 guid: "10.1038/s41586-026-11091-5"
 image: ""
-generated: "2026-09-06T19:06:55+05:30"
+generated: "2026-09-07T19:08:00+05:30"
 ---
 
-Chemists developed a palladium-catalyzed decarboxylative rearrangement method for ketone homologation, which extends carbon chains in organic molecules. This synthetic chemistry technique could enable new pathways in pharmaceutical and materials synthesis.
+This research describes a palladium-catalyzed chemical transformation enabling ketone homologation through decarboxylative rearrangement—a synthetic technique for extending carbon chains in ketone molecules. This method adds a new tool to organic chemists' toolkit for building complex molecules with controlled structure.

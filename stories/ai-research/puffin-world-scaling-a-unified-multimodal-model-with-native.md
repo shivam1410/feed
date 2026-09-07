@@ -8,7 +8,7 @@ date: "2026-09-02T20:00:00.000Z"
 score: 80
 guid: "2609.04196"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.04196.png"
-generated: "2026-09-06T19:06:55+05:30"
+generated: "2026-09-07T19:08:00+05:30"
 ---
 
-Puffin-World introduces a unified multimodal framework that jointly models physics, geometry, and appearance to generate, reconstruct, and interactively explore 3D worlds while maintaining physical consistency. By consolidating generation, reconstruction, and closed-loop exploration into one system, Puffin-World ensures realistic environments where visual and physical properties remain coupled. The framework's joint modeling of physics alongside geometry and appearance prevents the visual-physical misalignment common in separate 3D systems. This unification addresses a core challenge in multimodal AI: creating 3D environments that behave consistently under interaction. Applications span robotics simulation, virtual environment design, and scientific visualization where physical plausibility directly impacts usefulness.
+Puffin-World is a unified multimodal framework for three-dimensional scene understanding that jointly learns physics, geometry, and appearance. This integrated approach enables physically consistent 3D world generation, conversion of images to 3D models via reconstruction, and closed-loop exploration allowing agents to plan and interact with environments. The unified design improves consistency across tasks, enabling AI systems to reason about and manipulate 3D environments more naturally and accurately.

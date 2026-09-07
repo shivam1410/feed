@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/s41586-026-10986-7"
 authors: ["Xiao-Yu Li", "Yu-Chen Cai", "Zhao-Dong Meng", "Ze-Tong Jia", "Yu-Chen Sun", "Jin-Yu Ye", "Na Tian", "Zhi-You Zhou", "Jun Huang", "Junxiang Chen", "Shi-Gang Sun", "Tao Wang"]
 date: "2026-09-02"
-score: 65
+score: 60
 guid: "10.1038/s41586-026-10986-7"
 image: ""
-generated: "2026-09-06T19:06:55+05:30"
+generated: "2026-09-07T19:08:00+05:30"
 ---
 
-Researchers developed a combined experimental and computational framework to track ions and water molecules at electrode interfaces, enabling observation of electrical double layer molecular structure and evolution far from equilibrium. This molecular-scale understanding of electrochemical processes is fundamental to battery, fuel cell, and catalyst development, providing unprecedented insight into dynamic charged interface behavior.
+Scientists developed a new framework combining experimental and computational methods to track ions and water at electrode interfaces, revealing previously unknown molecular structures and how electrical double layers evolve far from equilibrium. This understanding of electrical double layers—the charged layers at electrode interfaces—is significant because it reveals molecular-scale mechanisms in electrochemical systems. The framework shows that combining experimental measurements with computational modeling unlocks detailed knowledge of complex interfacial chemistry under conditions far from equilibrium, enabling better understanding and control of electrochemical processes.

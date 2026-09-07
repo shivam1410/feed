@@ -8,7 +8,7 @@ date: "2026-09-02"
 score: 50
 guid: "10.1038/s41586-026-10672-8"
 image: ""
-generated: "2026-09-06T19:06:55+05:30"
+generated: "2026-09-07T19:08:00+05:30"
 ---
 
 The therapeutic landscape and advances in biomarkers for metabolic dysfunction-associated steatohepatitis are reviewed.

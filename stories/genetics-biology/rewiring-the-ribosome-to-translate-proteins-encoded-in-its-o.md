@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/s41586-026-10962-1"
 authors: ["Kasra Alizadeh", "Dorota Klepacki", "Nora Vázquez-Laslop", "Alexander S. Mankin"]
 date: "2026-09-02"
-score: 80
+score: 75
 guid: "10.1038/s41586-026-10962-1"
 image: ""
-generated: "2026-09-06T19:06:55+05:30"
+generated: "2026-09-07T19:08:00+05:30"
 ---
 
-Bacterial ribosomes can synthesize proteins encoded within their own ribosomal RNA, revealing unexpected self-referential capabilities in translation machinery. This discovery suggests novel forms of genetic regulation within ribosomes, challenging conventional understanding of how these molecular machines function.
+Researchers engineered bacterial ribosomes to synthesize proteins from genetic instructions encoded within the ribosome's own RNA molecule, rather than exclusively translating external messenger RNA templates. This unusual capability expands the functional repertoire of ribosomes beyond their traditional role in decoding external genetic information.

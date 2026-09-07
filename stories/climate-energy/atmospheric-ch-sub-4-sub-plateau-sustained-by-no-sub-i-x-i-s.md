@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/s41586-026-10983-w"
 authors: ["Yu Zhu", "Lu Shen", "Gang Liu", "Kelvin H. Bates", "Yuxin Cai", "Shushi Peng"]
 date: "2026-09-02"
-score: 70
+score: 65
 guid: "10.1038/s41586-026-10983-w"
 image: ""
-generated: "2026-09-06T19:06:55+05:30"
+generated: "2026-09-07T19:08:00+05:30"
 ---
 
-The plateau in atmospheric methane concentration can be explained by enhanced tropical hydroxyl radicals, primarily driven by rising global nitrogen oxide emissions and their spatial redistribution toward developing regions and ocean areas. This clarifies mechanisms controlling atmospheric methane dynamics and the role of emissions redistribution in climate gas behavior. Understanding these coupled emission patterns is essential for predicting future atmospheric composition.
+The atmospheric methane plateau can be explained by tropical hydroxyl radical enhancement primarily driven by a global rise and spatial redistribution of nitrogen oxides emissions towards developing regions and the oceans.

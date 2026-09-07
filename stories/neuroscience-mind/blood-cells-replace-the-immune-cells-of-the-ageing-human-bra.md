@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/d41586-026-02694-z"
 authors: []
 date: "2026-09-02"
-score: 75
+score: 80
 guid: "10.1038/d41586-026-02694-z"
 image: ""
-generated: "2026-09-06T19:06:55+05:30"
+generated: "2026-09-07T19:08:00+05:30"
 ---
 
-New cell lineage studies overturn decades of neuroscience doctrine: the brain's immune cells, called microglia, were thought to persist unchanged throughout life, but circulating immune cells from the body actually replace them during aging. This reveals an unexpected and continuous interaction between the brain and immune system over the human lifespan. Understanding this replacement process could illuminate aging mechanisms and brain-body immunity interactions previously hidden from research.
+The brain's resident immune cells, called microglia, were long thought to remain unchanged throughout life, persisting from birth without replacement. New cell lineage tracing studies reveal this assumption is wrong: microglia are actually replaced by circulating immune cells during aging. This discovery matters because it reveals an unexpected interaction between the brain's immune system and the rest of the body's immunity. Understanding this replacement process could illuminate how immune aging contributes to neurodegenerative diseases and cognitive decline.

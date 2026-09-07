@@ -8,7 +8,7 @@ date: "2026-09-01T20:00:00.000Z"
 score: 70
 guid: "2609.03153"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.03153.png"
-generated: "2026-09-06T19:06:55+05:30"
+generated: "2026-09-07T19:08:00+05:30"
 ---
 
 VeriPhy verifies generated video by compiling prompts into typed physical obligations, executing frozen expert analyses with provenance tracking, and mapping evidence to auditable three-valued verdicts.

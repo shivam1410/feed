@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/d41586-026-02799-5"
 authors: ["Max Kozlov"]
 date: "2026-09-04"
-score: 55
+score: 50
 guid: "10.1038/d41586-026-02799-5"
 image: ""
-generated: "2026-09-06T19:06:55+05:30"
+generated: "2026-09-07T19:08:00+05:30"
 ---
 
 An agreement paves the way for hundreds of millions of dollars’ worth of projects to be transferred from the NIH’s institute for infectious diseases to the Department of Defense.

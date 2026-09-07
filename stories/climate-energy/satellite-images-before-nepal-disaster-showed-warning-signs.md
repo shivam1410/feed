@@ -8,7 +8,7 @@ date: "2026-09-02"
 score: 70
 guid: "10.1038/d41586-026-02746-4"
 image: ""
-generated: "2026-09-02T19:06:18+05:30"
+generated: "2026-09-07T19:08:00+05:30"
 ---
 
-Images revealed the accelerated movement of a glacier–rock mass just days before it collapsed, triggering a deadly flash flood.
+Satellite images captured accelerated movement of a glacier-rock mass just days before it collapsed and triggered a deadly flash flood in Nepal. The visual evidence reveals that remote sensing can detect dangerous precursor movements ahead of major geological disasters. This matters because earlier detection could enable evacuation warnings and save lives in mountainous regions vulnerable to glacier-related hazards, demonstrating the critical value of satellite monitoring for disaster prevention and response in areas with limited ground-based infrastructure.

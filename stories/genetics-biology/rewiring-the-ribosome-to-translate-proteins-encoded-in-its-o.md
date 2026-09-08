@@ -8,7 +8,7 @@ date: "2026-09-02"
 score: 75
 guid: "10.1038/s41586-026-10962-1"
 image: ""
-generated: "2026-09-07T19:08:00+05:30"
+generated: "2026-09-08T19:05:47+05:30"
 ---
 
-Researchers engineered bacterial ribosomes to synthesize proteins from genetic instructions encoded within the ribosome's own RNA molecule, rather than exclusively translating external messenger RNA templates. This unusual capability expands the functional repertoire of ribosomes beyond their traditional role in decoding external genetic information.
+Researchers discovered that bacterial ribosomes can synthesize proteins encoded within their own RNA. This self-referential capability—where the molecular machine translating genetic code reads instructions from its own genetic sequence—challenges conventional understanding of ribosomal function. The finding reveals unexpected flexibility in one of biology's most fundamental processes, suggesting ribosomes may have capabilities not previously recognized.

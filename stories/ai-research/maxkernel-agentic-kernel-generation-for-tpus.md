@@ -8,7 +8,7 @@ date: "2026-09-02T20:00:00.000Z"
 score: 70
 guid: "2609.04523"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.04523.png"
-generated: "2026-09-07T19:08:00+05:30"
+generated: "2026-09-08T19:05:47+05:30"
 ---
 
 MaxKernel is a multi-agent system that automates TPU kernel development through collaborative, autonomous, and graph-based search paradigms, achieving expert-level performance on diverse benchmarks.

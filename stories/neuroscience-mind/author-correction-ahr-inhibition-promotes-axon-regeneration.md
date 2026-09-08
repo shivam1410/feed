@@ -8,7 +8,7 @@ date: "2026-09-07"
 score: 20
 guid: "10.1038/s41586-026-11103-4"
 image: ""
-generated: "2026-09-07T19:08:00+05:30"
+generated: "2026-09-08T19:05:47+05:30"
 ---
 
 Author Correction: AhR inhibition promotes axon regeneration via a stress–growth switch

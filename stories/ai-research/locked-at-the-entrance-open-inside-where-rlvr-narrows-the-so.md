@@ -5,10 +5,10 @@ source: "HF Trending Papers"
 url: "https://huggingface.co/papers/2608.29188"
 authors: ["Qiancheng Zhou", "Ruizhe Li"]
 date: "2026-08-28T20:00:00.000Z"
-score: 65
+score: 58
 guid: "2608.29188"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2608.29188.png"
-generated: "2026-09-07T19:08:00+05:30"
+generated: "2026-09-08T19:05:47+05:30"
 ---
 
 Reinforcement learning with verifiable rewards narrows reasoning diversity primarily at the initial solution step rather than during execution, and targeted interventions can restore coverage without sacrificing accuracy.

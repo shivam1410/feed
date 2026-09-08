@@ -5,10 +5,10 @@ source: "Simon Willison"
 url: "https://simonwillison.net/2026/Aug/31/andrew-digby/"
 authors: []
 date: "2026-08-31T22:25:02+00:00"
-score: 70
+score: 60
 guid: "https://simonwillison.net/2026/Aug/31/andrew-digby/"
 image: ""
-generated: "2026-09-07T19:08:00+05:30"
+generated: "2026-09-08T19:05:47+05:30"
 ---
 
-The kākāpō, a critically endangered New Zealand parrot, has rebounded to 325 individuals, including this year's record-breeding chicks now classified as juveniles. In 1995, just 51 remained. This recovery demonstrates that species restoration is achievable through sustained long-term conservation effort, even in seemingly dire circumstances.
+The kākāpō population reached 325 individuals following this year's record breeding season, up from just 51 birds in 1995—a 537-percent recovery. Chicks from this breeding season matured to juveniles and joined the population count. The kākāpō's three-decade recovery trajectory provides concrete evidence that critically endangered species extinction can be reversed through sustained conservation effort and dedicated resource commitment. This success demonstrates feasibility of species recovery programs and offers a replicable template for conservation efforts addressing similar population crises globally.

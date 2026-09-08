@@ -8,7 +8,7 @@ date: "2026-09-02"
 score: 65
 guid: "10.1038/s41586-026-10983-w"
 image: ""
-generated: "2026-09-07T19:08:00+05:30"
+generated: "2026-09-08T19:05:47+05:30"
 ---
 
-The atmospheric methane plateau can be explained by tropical hydroxyl radical enhancement primarily driven by a global rise and spatial redistribution of nitrogen oxides emissions towards developing regions and the oceans.
+Earth's atmospheric methane has plateaued rather than continuing to rise, puzzling scientists. Research reveals the plateau results from increased tropical hydroxyl radical abundance, which destroys methane. Enhancement stems from two factors: global nitrogen oxide (NOx) emissions rise and geographic redistribution toward tropical developing regions and oceans. This shift concentrates NOx sources where they most efficiently enhance hydroxyl formation, maximizing methane destruction. Understanding this mechanism is crucial for climate modeling and predicting how future emission patterns will affect atmospheric methane levels and global warming.

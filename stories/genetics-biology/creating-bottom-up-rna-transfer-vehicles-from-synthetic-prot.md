@@ -8,7 +8,7 @@ date: "2026-09-02"
 score: 75
 guid: "10.1038/s41586-026-10952-3"
 image: ""
-generated: "2026-09-06T19:06:55+05:30"
+generated: "2026-09-08T19:05:47+05:30"
 ---
 
-Synthetic virus-like protein assemblies designed by artificial intelligence demonstrate superior RNA delivery into cells compared to naturally evolved viruses. By overcoming the evolutionary constraints that limit natural viral evolution, these engineered structures provide an improved platform for therapeutic RNA delivery. This breakthrough combines computational protein design with evolution-transcending engineering to advance gene therapy and RNA-based medicine applications.
+Artificial intelligence has designed synthetic protein architectures that outperform natural viruses at delivering RNA into cells. These AI-engineered structures mimic virus-like assembly but overcome evolutionary constraints limiting viral vehicles. Natural viruses face trade-offs between replication, immune evasion, and cellular entry. By engineering proteins without these constraints, researchers created superior RNA delivery vehicles. This breakthrough could advance RNA-based therapeutics, including gene therapies and mRNA vaccines, by enabling more efficient and reliable cellular cargo delivery with superior performance.

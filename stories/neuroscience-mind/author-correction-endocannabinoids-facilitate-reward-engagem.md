@@ -8,7 +8,7 @@ date: "2026-09-02"
 score: 20
 guid: "10.1038/s41586-026-11104-3"
 image: ""
-generated: "2026-09-07T19:08:00+05:30"
+generated: "2026-09-08T19:05:47+05:30"
 ---
 
 Author Correction: Endocannabinoids facilitate reward engagement through retrograde gain control

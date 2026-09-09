@@ -8,7 +8,7 @@ date: "Fri, 07 Aug 2026 14:00:00 +0000"
 score: 40
 guid: "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-builders/"
 image: "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Omni_hero.max-600x600.format-webp.webp"
-generated: "2026-09-08T19:05:47+05:30"
+generated: "2026-09-09T19:07:26+05:30"
 ---
 
 Gemini Omni makes creating videos as easy as having a conversation. Here’s how five people use it to edit videos and visualize ideas.

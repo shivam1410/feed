@@ -8,7 +8,7 @@ date: "2026-09-02"
 score: 70
 guid: "10.1038/s41586-026-10982-x"
 image: ""
-generated: "2026-09-08T19:05:47+05:30"
+generated: "2026-09-09T19:07:26+05:30"
 ---
 
-Researchers discovered that inflammatory signaling induces physical interactions between DNA segments on different chromosomes, bringing distant genes into close proximity. This proximity enables the formation of chimeric mRNAs—messenger RNAs encoding proteins with components from multiple parent genes. These newly formed proteins play functional roles in immune responses. The discovery reveals an unexpected mechanism by which inflammation can generate protein diversity and immune flexibility. This interchromosomal interaction process challenges the traditional understanding of how genes are expressed and suggests the genome is more dynamically organized during immune activation.
+Inflammation induces interchromosomal DNA interactions that bring parent genes into close proximity, facilitating the formation of chimeric mRNAs that encode physiologically relevant, functional proteins.

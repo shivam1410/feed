@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/d41586-026-02650-x"
 authors: ["Chris Simms"]
 date: "2026-09-04"
-score: 40
+score: 35
 guid: "10.1038/d41586-026-02650-x"
 image: ""
-generated: "2026-09-08T19:05:47+05:30"
+generated: "2026-09-09T19:07:26+05:30"
 ---
 
 The awards highlight weird, funny and improbable research that also makes you think.

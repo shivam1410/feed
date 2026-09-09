@@ -8,7 +8,7 @@ date: "2026-09-06T23:57:40+00:00"
 score: 75
 guid: "https://simonwillison.net/2026/Sep/6/research-acceleration-the-view-inside-openai/"
 image: ""
-generated: "2026-09-08T19:05:47+05:30"
+generated: "2026-09-09T19:07:26+05:30"
 ---
 
-OpenAI is pursuing Recursive Self-Improvement (RSI) as its AGI pathway, with 2026 marking accelerated adoption of agentic engineering internally. OpenAI's research teams now leverage coding agents extensively, visualized in significant spending increases. A notable spike in AI spend per researcher in late July coincides with internal employee access to GPT-6 Astra. This strategic pivot toward autonomous agents as research tools fundamentally changes how OpenAI's teams operate and signals confidence that agentic systems can accelerate progress toward AGI-scale capabilities at scale.
+Research acceleration: The view inside OpenAI Apparently today is RSI day at OpenAI, for Recursive Self-Improvement - I think it's their new AGI. Both this piece and the new essay An Alien Mind (by Chief Scientist Jakub Pachocki) talk about it, and this one doesn't even bother to expand the acronym. Included are details on how OpenAI's own research team are using coding agents. Like pretty much everyone else 2026 has been the year that agentic engineering really took off at OpenAI, best illustrated by this chart: I'm intrigued at what caused that significant acceleration in AI spend per researcher in late July - my best guess is that's when internal employees gained access to the model later released as GPT-6 Astra. Tags: ai , openai , generative-ai , chatgpt , llms , coding-agents , november-2025-inflection , recursive-self-improvement

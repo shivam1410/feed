@@ -8,7 +8,7 @@ date: "2026-09-04"
 score: 40
 guid: "10.1038/d41586-026-02800-1"
 image: ""
-generated: "2026-09-07T19:08:00+05:30"
+generated: "2026-09-09T19:07:26+05:30"
 ---
 
 Nature staff discuss the winners of the 2026 Ig Nobel prizes — plus, the isolated energy flash that could be the first glimpse of dark matter.

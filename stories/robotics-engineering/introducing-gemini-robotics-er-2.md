@@ -8,7 +8,7 @@ date: "Thu, 30 Jul 2026 15:00:00 +0000"
 score: 75
 guid: "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/gemini-robotics-er-2/"
 image: "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-robotics-2__blog__cover.max-600x600.format-webp.webp"
-generated: "2026-09-08T19:05:47+05:30"
+generated: "2026-09-09T19:07:26+05:30"
 ---
 
-Gemini Robotics ER 2 represents a significant advancement integrating three critical robotic capabilities: advanced video understanding enabling perception of complex visual scenes, sophisticated tool orchestration allowing selection and coordination of multiple tools for complex tasks, and multi-robot collaboration enabling multiple robots to work seamlessly on shared objectives. The combination of these integrated capabilities advances autonomous, adaptive, and collaborative robotic systems capable of tackling complex real-world tasks, enabling robots to operate more independently in dynamic, unstructured environments.
+Gemini Robotics ER 2 represents a significant advance in video understanding, tool orchestration, and multi-robot collaboration capabilities. The system improves robots' ability to interpret visual information, coordinate tool use, and work together in groups. These enhancements expand the range of complex tasks robots can perform reliably.

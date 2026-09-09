@@ -8,7 +8,7 @@ date: "2026-09-08"
 score: 35
 guid: "10.1038/d41586-026-02807-8"
 image: ""
-generated: "2026-09-08T19:05:47+05:30"
+generated: "2026-09-09T19:07:26+05:30"
 ---
 
 Governments should invest to develop all types of capital, and not just income, to improve the lives of future citizens and to protect the planet.

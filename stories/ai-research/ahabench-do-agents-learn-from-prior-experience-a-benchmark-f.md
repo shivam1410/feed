@@ -1,0 +1,14 @@
+---
+title: "AhaBench: Do Agents Learn from Prior Experience? A Benchmark for Long-Horizon Continual Learning"
+category: "AI Research"
+source: "arXiv (cs.LG)"
+url: "https://arxiv.org/abs/2609.05435"
+authors: ["Zerui Cheng, Jiawei Xu, Huacan Chai, Jiayang Sun, Pramod Viswanath, Maxm Pan"]
+date: "Wed, 09 Sep 2026 00:00:00 -0400"
+score: 68
+guid: "oai:arXiv.org:2609.05435v1"
+image: ""
+generated: "2026-09-09T19:07:26+05:30"
+---
+
+arXiv:2609.05435v1 Announce Type: new Abstract: Modern language agents are expected to operate over long horizons: they ask follow-up questions, reuse worked examples, handle tool feedback, and adapt to delayed consequences. Most evaluations still reset the agent after a prompt or score only the final state of one trajectory. AhaBench asks a more operational question: when a fixed model receives useful experience, does its later behavior improve under a related evaluation condition where the obvious support has been removed, changed, or delayed? The suite contains three components. Aha-Puzzle tests no-hint exploration after solved hidden-state puzzles; Aha-Euler turns Project-Euler-style mathematical ideas into generated taught/held-out tasks with exact validators; and Aha-Vending, an open-source implementation inspired by Vending-Bench, tests whether a simulated vending agent remains profitable while handling delayed feedback and operational incidents. AhaBench reports a three-part scorecard: Initial Score measures starting competence, Post-Experience Score measures the later empirical outcome, and Learning Lift is their difference. This decomposition is the main empirical message: models that use visible support well, models that reach high post-experience scores, and models that improve most during a run are not always the same. On the common eight-model panel, Claude Opus 4.6 leads aggregate Post-Experience Score at 64.3 and aggregate Learning Lift at +25.8, with Gemini 3.1 Pro close behind at 63.4. The component results explain the split: puzzle traces raise supported scores but often fail to become no-hint exploration behavior; Aha-Euler full teaching reaches 78.6-100.0% while answer-only transfer ranges from 0.0 to 73.9%; and Aha-Vending separates profitable incident handling from bankruptcy and no-order failure. We release benchmark tasks, rubrics, validators, simulator code, and interfaces for evaluating new agents.

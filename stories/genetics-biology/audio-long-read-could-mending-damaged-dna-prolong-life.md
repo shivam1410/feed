@@ -8,7 +8,7 @@ date: "2026-09-02"
 score: 55
 guid: "10.1038/d41586-026-02762-4"
 image: ""
-generated: "2026-09-08T19:05:47+05:30"
+generated: "2026-09-09T19:07:26+05:30"
 ---
 
 Researchers are hunting for ways to enhance DNA repair with the hopes that this will keep people healthier for longer.

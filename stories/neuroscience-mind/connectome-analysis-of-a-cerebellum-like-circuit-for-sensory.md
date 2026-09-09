@@ -8,7 +8,7 @@ date: "2026-09-02"
 score: 70
 guid: "10.1038/s41586-026-10690-6"
 image: ""
-generated: "2026-09-08T19:05:47+05:30"
+generated: "2026-09-09T19:07:26+05:30"
 ---
 
-Electric fish neural circuits reveal how sensory learning works across multiple brain layers. Using connectomics, electrophysiology, and computational modeling, researchers discovered that distributed synaptic plasticity—learning throughout the network rather than in single neurons—enables cooperation across layers. This approach creates fast, accurate, and noise-robust sensory prediction despite environmental interference. The findings illuminate core mechanisms of neural learning likely extending beyond fish, showing how distributed computation across networks enables robust information processing in biological systems.
+Connectomics, electrophysiology, and computational modeling of electric fish neural circuits revealed how distributed synaptic plasticity across multiple network layers cooperates to enable fast, accurate, noise-robust sensory learning. This findings explain how biological neural systems achieve robust predictive processing through distributed learning mechanisms.

@@ -5,10 +5,10 @@ source: "Latent Space"
 url: "https://www.latent.space/p/ainews-openai-reports-navier-stokes"
 authors: []
 date: "Wed, 09 Sep 2026 05:04:51 GMT"
-score: 84
+score: 85
 guid: "https://www.latent.space/p/ainews-openai-reports-navier-stokes"
 image: ""
-generated: "2026-09-09T19:07:26+05:30"
+generated: "2026-09-10T19:06:15+05:30"
 ---
 
-OpenAI deployed ~10,000 agents working ~88 hours using 130B tokens (>$40M compute) on a potential Navier–Stokes problem, a candidate for a Millennium Prize. Multi-agent reinforcement learning enabled massive parallel test-time compute where models self-organized problem solving. Authorship and validity remain disputed, but the scale and result represent an unprecedented approach to foundational mathematics.
+OpenAI deployed approximately 10,000 agents using 130B tokens (cost >$40M) over 88 hours to tackle a Navier-Stokes singularity problem, a candidate for the Millennium Prize. The achievement is verified by OpenAI and the paper authors, though debate persists over the development process. This matters because it demonstrates how massive parallelism and agent collaboration can address fundamental mathematical problems at unprecedented scale.

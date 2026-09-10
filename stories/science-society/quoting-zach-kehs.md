@@ -5,10 +5,10 @@ source: "Simon Willison"
 url: "https://simonwillison.net/2026/Sep/6/zach-kehs/"
 authors: []
 date: "2026-09-06T08:42:49+00:00"
-score: 20
+score: 35
 guid: "https://simonwillison.net/2026/Sep/6/zach-kehs/"
 image: ""
-generated: "2026-09-09T19:07:26+05:30"
+generated: "2026-09-10T19:06:15+05:30"
 ---
 
 If you continue to add floors and rooms to a building forever, it will collapse. Software faces no such constraint. The code can always get worse. There can always be a new layer of indirection or a reduction in performance. — Zach Kehs , There's No Limit to How Bad Code Can Get Tags: technical-debt

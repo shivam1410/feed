@@ -5,10 +5,10 @@ source: "HF Trending Papers"
 url: "https://huggingface.co/papers/2609.08965"
 authors: ["Yuan Gao", "Sebastian Müller", "Mattia Piccinini", "Marc Kaufeld", "Yuchen Zhang", "Finn Rasmus Schäfer", "Qunying Song", "Johannes Betz"]
 date: "2026-09-07T20:00:00.000Z"
-score: 72
+score: 75
 guid: "2609.08965"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.08965.png"
-generated: "2026-09-10T19:06:15+05:30"
+generated: "2026-09-11T19:04:49+05:30"
 ---
 
-PlannerForge is an LLM-agent framework that automates scenario-based testing for autonomous driving systems by unifying generation, selection, modification, and planning stages. The framework improves performance across both commercial and open-source motion planning models. This matters because systematic, AI-driven testing can accelerate the validation of autonomous vehicle safety—a critical bottleneck in real-world deployment.
+PlannerForge is an LLM-agent framework that unifies all stages of scenario-based autonomous driving testing and improves generation, selection, modification, and planning performance across commercial and open-source models.

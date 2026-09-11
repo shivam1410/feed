@@ -5,10 +5,10 @@ source: "HF Trending Papers"
 url: "https://huggingface.co/papers/2609.06490"
 authors: ["Shubhashis Roy Dipta", "Sourajit Saha", "Shaswati Saha", "Nobin Sarwar"]
 date: "2026-09-05T20:00:00.000Z"
-score: 62
+score: 60
 guid: "2609.06490"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.06490.png"
-generated: "2026-09-10T19:06:15+05:30"
+generated: "2026-09-11T19:04:49+05:30"
 ---
 
 OracleZoom improves recursive super-resolution by combining trajectory-based training with cross-scale supervision and a latent prior to reduce hallucinations at extreme magnifications.

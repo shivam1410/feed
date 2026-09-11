@@ -1,17 +1,29 @@
 {
-  "generatedAt": "2026-09-10T19:06:15+05:30",
+  "generatedAt": "2026-09-11T19:04:49+05:30",
   "items": [
     {
       "guid": "https://simonwillison.net/2026/Sep/8/on-navier-stokes/",
-      "title": "On the Navier–Stokes Millennium Prize Problem",
+      "title": "Some thoughts on the Navier–Stokes Millennium Prize Problem",
       "link": "https://simonwillison.net/2026/Sep/8/on-navier-stokes/",
       "authors": [],
       "date": "2026-09-08T23:55:12+00:00",
-      "summary": "On the Navier–Stokes Millennium Prize Problem Impressive result from OpenAI, who used an unreleased model to produce a resolution to the Navier–Stokes existence and smoothness problem , one of the seven Millennium Prize Problems that have been subject to a $1,000,000 prize since May 24th, 2000. The discovery is somewhat overshadowed by accusations of skulduggery from Tristan Buckmaster, an NYU mathematics professor who was collaborating on related problems with Levent Alpöge, an accomplished mathematician who currently works for Anthropic. Tristan's complaint accompanied a hastily published version of their own results. Here's the PDF describing what happened . The very short version is that Tristan and Levent worked on the problem for almost a year, making extensive use of Claude and Codex (mainly GPT-5.6 Sol), then had a breakthrough on August 15th. The mathematical rumour mill kicked into gear and Tristan and Levent heard that OpenAI had heard that Anthropic had resolved \"a major open problem\", so they reached out and learned that OpenAI had a team working on a related problem, with a similar approach. Quoting Tristan: I asked when the first prompt had been sent by them. This question was not answered directly by OpenAI for some time. Eventually it was agreed that it had been sent in the past few days, after information about our work had reached OpenAI. I asked whether the model had been trained on, or had access to, our sessions in Codex, into which we had been putting all our drafts for the whole of this project. I was told the model did not look up user data. I asked again, about training, and I did not get an answer. It gets more complicated from there. The OpenAI team offered to wait for Tristan to publish, or to have him author a paper about their result, but were clear that Levent would not be invited as a co-author due to OpenAI's competitive relationship with his employer. Here's how OpenAI described their work: On Tuesday, September 1, we heard rumors that two Millennium Prize problems had been resolved. Inspired by these rumors and by the step change in performance of our internal model, we launched an effort to evaluate it on all open Millennium Prize problems and a few other high-impact problems. [...] The agents arrived at their resolution on Saturday, September 5, about 88 hours after the first agents were launched. Lean formalization and verification took an additional 17 hours via GPT‑6 Astra. Across all attempted problems, the agents sent 4.9 million messages and used about 300 billion output tokens. In the process of resolving the Navier–Stokes problem, the agents sent 2.7 million messages and used approximately 130 billion output tokens. (We don't know the cost structure of the internal model they used, but 300 billion output tokens at public API prices for GPT-6 Astra would cost $15,000,000 .) Here's where they provide their perspective on Tristan and Levent's work (emphasis mine): Our effort began on September 1st after hearing a rumor which we later realized was related to Levent Alpöge, an Anthropic employee, and Tristan Buckmaster, a math professor at NYU. After the completion of our full project and Lean verification (on September 6th), believing from the rumor they also had a solution of Navier–Stokes, we reached out to them to offer a concurrent release of our result and to recognize their priority in a joint announcement. [...] We (the researchers and the agents) did not see any of their work through any means until they released it publicly — in particular, no specific user data was accessed in order to solve this problem. While unlikely, we cannot rule out that de-identified data derived from their usage of our products helped improve our models . However, our proofs differ significantly and even the precise results proved are different in the Euler case (forced vs unforced). My interpretation of what happened here is that OpenAI heard that some Millennium Prize problems had been solved using LLMs and saw this as an opportunity to demonstrate the power of their latest model, without thinking too hard about the optics of scooping a team who had been using OpenAI's own models to work on this problem for the best part of a year. This situation appears to mirror what's happening in the world of computer security right now. Anil Madhavapeddy recently pointed out that Just a rumour of a bug is enough to find a security exploit these days , because if someone knows that some software has an unpatched vulnerability, they can set their agents the task of finding it. Is the same now true of mathematics? Just knowing that there is an unpublished solution to a problem might trigger millions of dollars in LLM spending to get there first. This also highlights one of my ongoing frustrations about how all of this works. When an AI lab says that my data is \"used to improve model performance\", what does that actually mean ? My two favourite hypothetical questions regarding this used to be: If I'm running Codex and one of my API keys accidentally gets consumed in the context, what are the chances that someone else might ask for an API key in the future and get mine back? (I asked someone at OpenAI once and they called this the \"regurgitation\" problem and assured me that they take great pains to prevent that... but wouldn't describe how.) If I brainstorm with ChatGPT about potential new directions for my company, what's the chance that information might be exposed to a competitor in six months' time who asks \"what might company X plan to do next\"? My new preferred hypothetical for this is: If I use ChatGPT to help me partially solve a Millennium Prize problem, what are the chances that my work will influence training such that a later model helps someone else solve it first? Via Hacker News Tags: mathematics , ai , openai , generative-ai , llms , training-data , ai-ethics",
+      "summary": "On the Navier–Stokes Millennium Prize Problem introduces an impressive result from OpenAI, who used an unreleased model to produce a resolution to the Navier–Stokes existence and smoothness problem , one of the seven Millennium Prize Problems that have been subject to a $1,000,000 prize since May 24th, 2000. The discovery is somewhat overshadowed by accusations of skulduggery from Tristan Buckmaster, an NYU mathematics professor who was collaborating on related problems with Levent Alpöge, an accomplished mathematician who currently works for Anthropic. Tristan's complaint accompanied a hastily published version of their own results. Here's the PDF describing what happened . The very short version is that Tristan and Levent worked on the problem for almost a year, making extensive use of Claude and Codex (mainly GPT-5.6 Sol), then had a breakthrough on August 15th. The mathematical rumour mill kicked into gear and Tristan and Levent heard that OpenAI had heard that Anthropic had resolved \"a major open problem\", so they reached out and learned that OpenAI had a team working on a related problem, with a similar approach. Quoting Tristan: I asked when the first prompt had been sent by them. This question was not answered directly by OpenAI for some time. Eventually it was agreed that it had been sent in the past few days, after information about our work had reached OpenAI. I asked whether the model had been trained on, or had access to, our sessions in Codex, into which we had been putting all our drafts for the whole of this project. I was told the model did not look up user data. I asked again, about training, and I did not get an answer. It gets more complicated from there. The OpenAI team offered to wait for Tristan to publish, or to have him author a paper about their result, but were clear that Levent would not be invited as a co-author due to OpenAI's competitive relationship with his employer. Here's how OpenAI described their work: On Tuesday, September 1, we heard rumors that two Millennium Prize problems had been resolved. Inspired by these rumors and by the step change in performance of our internal model, we launched an effort to evaluate it on all open Millennium Prize problems and a few other high-impact problems. [...] The agents arrived at their resolution on Saturday, September 5, about 88 hours after the first agents were launched. Lean formalization and verification took an additional 17 hours via GPT‑6 Astra. Across all attempted problems, the agents sent 4.9 million messages and used about 300 billion output tokens. In the process of resolving the Navier–Stokes problem, the agents sent 2.7 million messages and used approximately 130 billion output tokens. (We don't know the cost structure of the internal model they used, but 300 billion output tokens at public API prices for GPT-6 Astra would cost $15,000,000 .) Here's where they provide their perspective on Tristan and Levent's work (emphasis mine): Our effort began on September 1st after hearing a rumor which we later realized was related to Levent Alpöge, an Anthropic employee, and Tristan Buckmaster, a math professor at NYU. After the completion of our full project and Lean verification (on September 6th), believing from the rumor they also had a solution of Navier–Stokes, we reached out to them to offer a concurrent release of our result and to recognize their priority in a joint announcement. [...] We (the researchers and the agents) did not see any of their work through any means until they released it publicly — in particular, no specific user data was accessed in order to solve this problem. While unlikely, we cannot rule out that de-identified data derived from their usage of our products helped improve our models . However, our proofs differ significantly and even the precise results proved are different in the Euler case (forced vs unforced). My interpretation of what happened here is that OpenAI heard that some Millennium Prize problems had been solved using LLMs and saw this as an opportunity to demonstrate the power of their latest model, without thinking too hard about the optics of scooping a team who had been using OpenAI's own models to work on this problem for the best part of a year. This situation appears to mirror what's happening in the world of computer security right now. Anil Madhavapeddy recently pointed out that Just a rumour of a bug is enough to find a security exploit these days , because if someone knows that some software has an unpatched vulnerability, they can set their agents the task of finding it. Is the same now true of mathematics? Just knowing that there is an unpublished solution to a problem might trigger millions of dollars in LLM spending to get there first. This also highlights one of my ongoing frustrations about how all of this works. When an AI lab says that my data is \"used to improve model performance\", what does that actually mean ? My two favourite hypothetical questions regarding this used to be: If I'm running Codex and one of my API keys accidentally gets consumed in the context, what are the chances that someone else might ask for an API key in the future and get mine back? (I asked someone at OpenAI once and they called this the \"regurgitation\" problem and assured me that they take great pains to prevent that... but wouldn't describe how.) If I brainstorm with ChatGPT about potential new directions for my company, what's the chance that information might be exposed to a competitor in six months' time who asks \"what might company X plan to do next\"? My new preferred hypothetical for this is: If I use ChatGPT to help me partially solve a Millennium Prize problem, what are the chances that my work will influence training such that a later model helps someone else solve it first? Via Hacker News . Tags: mathematics , ai , openai , generative-ai , llms , training-data , ai-ethics",
       "image": "",
       "source": "Simon Willison",
-      "score": 85,
+      "score": 89,
       "category": "Physics & Space"
+    },
+    {
+      "guid": "https://simonwillison.net/2026/Sep/5/introducing-gpt-6-astra-for-developers/",
+      "title": "Introducing GPT-6 Astra for developers",
+      "link": "https://simonwillison.net/2026/Sep/5/introducing-gpt-6-astra-for-developers/",
+      "authors": [],
+      "date": "2026-09-05T23:27:48+00:00",
+      "summary": "Introducing GPT-6 Astra for developers Blink and you'll miss it, but there's a familiar creature at 1m59s : Across the board, Astra has more attention to detail, better understanding of the user's prompt, and can build more sophisticated outputs. In particular, it excels at building 3D models. I've seen it make incredible renderings of gardens, shipyards, animals , cityscapes, even Dyson spheres. Astra really does believe in putting a red neckerchief on a pelican riding a bicycle. Via Hacker News comment Tags: ai , openai , generative-ai , llms , pelican-riding-a-bicycle , gpt-6-astra",
+      "image": "",
+      "source": "Simon Willison",
+      "score": 77,
+      "category": "AI Research"
     },
     {
       "guid": "https://simonwillison.net/2026/Sep/3/gpt6-astra/",
@@ -22,20 +34,32 @@
       "summary": "GPT‑6 Astra GPT-6 Astra is \"rolling out today to a limited set of organizations and over the coming days will become available to all ChatGPT Plus, Pro, Business, and Enterprise users, as well as through the OpenAI API and AWS\" - I've not tried it yet myself, so I don't have a great deal to say about it yet. It's going to be API priced at the same rate as Claude Fable 5 and 5.1: $10/million input and $50/million output. This is clearly OpenAI's Fable competitor, and appears to score higher than Fable on most of OpenAI's self-reported benchmarks. Most impressively, Astra scores 99.9% on the recent (released in March) ARC-AGI 3 benchmark - though notably Fable 5 does not yet have a published result, and the ARC-AGI blog notes that the 99.9% score was achieved for $19K using OpenAI's custom \"Provider Adapter harness\", while the default ARC-AGI harness scored 62.7% for $26K. The Provider Adapter harness preserves opaque reasoning state between requests and uses compaction for longer conversations, allowing the model to reuse prior work. Unsurprisingly, given the recent Hugging Face incident , Astra is a beast at security tasks. It scores 100% on ExploitBench (GPT-5.6 Sol got 78.5%), 42.4% on ExploitGym (Sol got 30.3%), and 99.2% within four attempts on SRE-Bench binary reverse engineering compared to Sol's 68.7%. It's also better at long context: on OpenAI's eight-needle benchmark it got 100% at 256K–512K tokens and 96.3% at 512K–1M tokens. OpenAI may have vanquished one of the ongoing challenges with long context processing. It doesn't win at everything though. Artificial Analysis note that Astra is still beaten by Fable on their Intelligence Index: Sits beside GPT-5.6 Sol in Intelligence : GPT-6 Astra scores equal to GPT-5.6 Sol in the Index at 61. This is 5 points lower than Claude Fable 5.1 (max with fallback). The model also trails Meta’s newly released Muse Spark 1.3 (max). It did better on their Coding Agent Index: Leads Coding Agent Index cost efficiency frontier : At max effort, GPT-6 Astra costs about the same as GPT-5.6 Sol (max) while scoring 2 points higher on the Index. Per task, the model is less than half the cost of Claude Fable 5, for the same score. I'll write more about Astra once I get access to it. The API model label once it rolls out will be gpt-6-astra . OpenAI's blog keeps throwing 500 errors, but [here's a mirror](https://astratest.codergautam.workers.dev/GPT-6%20Astra_%20A%20new%20generation%20of%20intelligence%20_%20OpenAI) of the post I found [via Hacker News](https://news.ycombinator.com/item?id=49554273#49555070). --> Via Hacker News Tags: ai , openai , generative-ai , llms , llm-release , gpt-6-astra",
       "image": "",
       "source": "Simon Willison",
-      "score": 75,
+      "score": 77,
       "category": "AI Research"
     },
     {
-      "guid": "https://simonwillison.net/2026/Sep/10/calif-research/",
-      "title": "Quoting Calif Research",
-      "link": "https://simonwillison.net/2026/Sep/10/calif-research/",
+      "guid": "https://simonwillison.net/2026/Sep/6/research-acceleration-the-view-inside-openai/",
+      "title": "Research acceleration: The view inside OpenAI",
+      "link": "https://simonwillison.net/2026/Sep/6/research-acceleration-the-view-inside-openai/",
       "authors": [],
-      "date": "2026-09-10T00:56:41+00:00",
-      "summary": "Today, we're releasing a demo of WeWorm, the first zero-click worm to spread through WeChat calls across iOS and Android. [...] The victim does not need to answer the call, or interact with their phone at all. Even if they do answer, they hear nothing, and the exploit still succeeds. [...] Working with AI, our team found the bug and wrote the first remote code execution (RCE) exploit in about two days. Building the worm took one more week. A worm at this scale used to be the kind of thing that took a larger team months. AI can already do most of the work here. Our team provided the judgment about what to target and how to test it safely. — Calif Research , WeWorm Tags: ai-security-research , ai , llms , security , generative-ai",
+      "date": "2026-09-06T23:57:40+00:00",
+      "summary": "Research acceleration: The view inside OpenAI Apparently today is RSI day at OpenAI, for Recursive Self-Improvement - I think it's their new AGI. Both this piece and the new essay An Alien Mind (by Chief Scientist Jakub Pachocki) talk about it, and this one doesn't even bother to expand the acronym. Included are details on how OpenAI's own research team are using coding agents. Like pretty much everyone else 2026 has been the year that agentic engineering really took off at OpenAI, best illustrated by this chart: I'm intrigued at what caused that significant acceleration in AI spend per researcher in late July - my best guess is that's when internal employees gained access to the model later released as GPT-6 Astra. Tags: ai , openai , generative-ai , chatgpt , llms , coding-agents , november-2025-inflection , recursive-self-improvement",
       "image": "",
       "source": "Simon Willison",
-      "score": 70,
-      "category": "Science & Society"
+      "score": 76,
+      "category": "AI Research"
+    },
+    {
+      "guid": "https://simonwillison.net/2026/Sep/1/claude-fable-5-1/",
+      "title": "Claude Fable 5.1 made me a really nice animated pelican",
+      "link": "https://simonwillison.net/2026/Sep/1/claude-fable-5-1/",
+      "authors": [],
+      "date": "2026-09-01T23:57:28+00:00",
+      "summary": "Today is Claude Fable (and Mythos) 5.1 day . Anthropic say that Fable 5.1 \"sets a new standard for coding, knowledge work, and long-running problem-solving tasks\". Their announcement spends a notable amount of time on scientific research, boasting of a 52.6% score on the brand new Terminal-Bench-Science 0.1 benchmark (first announced on August 27th ), up from 24.7% for Fable 5, 29.0% for Opus 5 and 22.4% for GPT-5.6 Sol. Other benchmarks show slightly improved scores, but none as impressive as the Science one. But how well can it pelican? Back in July I wrote about how I was losing faith in the pelican benchmark - its connection to how good the models were at other tasks didn't seem to hold as strongly as it did back in 2025 . The most interesting insights I get from it now are comparisons within model families, and particularly comparisons for the same prompt at different reasoning effort levels. Fable 5.1 has five reasoning levels: low, medium, high, xhigh, max - and no option to turn off reasoning entirely. I fixed an issue in llm-anthropic which caused reasoning traces not to be correctly recorded, then ran some prompts. Here's the full set of pelicans for all of the reasoning levels, each with the full reasoning transcript. I'll replicate them here: Low and medium, both without reasoning? Next, a bit of a mystery. This is what I got for effort low : The transcript doesn't show any summarized reasoning tokens, and the output token count is 1,998. With Claude that output token count includes reasoning tokens. It took 23.8 seconds and cost 10.017 cents . I bumped that up to medium and got this: Weirdly, that one also shows no reasoning text and used 1,977 output tokens - 21 tokens less than low . It took 23 seconds and cost 9.912 cents . So for this particular prompt (\"Generate an SVG of a pelican riding a bicycle\") Fable 5.1 appeared to skip reasoning entirely at both low and medium settings. High Here's high - 29.6 seconds, 2,612 output tokens, 13.087 cents : This one did do a bit of reasoning, summary here : I'm planning the SVG layout for a pelican riding a bicycle, with a sky and ground background, a bicycle with two spoked wheels, frame, seat and handlebars, and a white-bodied pelican with a long neck and orange beak positioned on top. Really not much difference from low and medium , though. Extra High At xhigh things got radically different. 36,767 output tokens, 7 minutes 51 seconds, $1.83 ! The reasoning trace is pretty lengthy , and includes details like this: Adding the eye, wings stretching down to the handlebar grip, orange legs reaching to the pedals, and a small tail feather, while keeping the pelican intentionally oversized compared to the bike for comic effect. [...] I'll accept the slight thickness as charming rather than overengineering it. Max Setting effort to max gave me the best pelican I've seen from any of Anthropic's models. 65,927 output tokens, 13 minutes and 54 seconds, $3.30 : There's a lot to like about this. The background is tasteful, the legs are clearly on either side of the frame, the feet are on the pedals, the wing is on the handlebars, the pelican has a cute blue hat and there's a basket with a fish. It's still not showing nearly the same level of flair as Gemini 3.7 Flash , but I didn't ask for flair - I asked for an SVG, and that's what I got. Some highlights from that reasoning trace : Adding pedal shapes near both feet, with the far foot on the second leg partially visible behind the frame. I'm considering whether to add a small scarf or cap for extra character, but leaning toward keeping it simple to avoid clutter. Now I'm debating a bicycle helmet on the head versus the pelican's signature crest—the beak and pouch already read clearly as \"pelican,\" so a helmet could reinforce the bicycle theme without losing identity, though it might compete with the crest for visual space. I realize the beak at (484,84) would overlap with the dome helmet, so I need to shrink the helmet so it only covers the top of the head, adjusting its arc endpoints to sit higher and narrower so the beak can attach cleanly at the front without collision. [...] I'm adding a darker tip region to represent the primary feathers, then reconsidering the trailing edge to include scalloped feather curves instead of one smooth line for a more natural look. [...] Now I'm checking the vent line placements on the helmet, making sure they sit far enough inside the helmet's edge given the stroke width and rounded caps, and confirming each vent stays within the helmet's circular boundary. [...] I decide skipping a handlebar bell and tire highlights since they're unnecessary additions. Now I'm reconsidering the front fork's curve — the current control point pulls the shape backward when it should bow forward for a proper rake, so I need to shift the control point rightward to fix the fork's lean. OK, let's animate it On Hacker News, swalsh commented on that Max pelican: Now that it's a solved benchmark, can we get the animated version? I didn't want to spend another $3 so I took the Max pelican and piped it into the default thinking level of High: llm logs -cx | llm -m claude-fable-5.1 -s ' animate this ' 6,121 input, 26,201 output = $1.37 . The result looked like this , exported here as video since some people have trouble viewing animated SVGs: Your browser does not support HTML5 video. The wheels in the video are rotating in the wrong direction, but I think that's an artifact of the conversion to MP4 - they seem to be going in the correct direction in the original SVG. Tags: ai , generative-ai , llms , anthropic , claude , pelican-riding-a-bicycle , llm-reasoning , llm-release",
+      "image": "",
+      "source": "Simon Willison",
+      "score": 76,
+      "category": "AI Research"
     },
     {
       "guid": "https://simonwillison.net/2026/Sep/4/rogue-agent-wikis/",
@@ -50,30 +74,6 @@
       "category": "Science & Society"
     },
     {
-      "guid": "https://simonwillison.net/2026/Sep/9/terence-tao/",
-      "title": "Quoting Terence Tao",
-      "link": "https://simonwillison.net/2026/Sep/9/terence-tao/",
-      "authors": [],
-      "date": "2026-09-09T00:20:17+00:00",
-      "summary": "I wrote recently about how the collection of good, fruitful open problems is now being mined in a non-renewable fashion, leading to the potential scenario of these problems becoming scarce. [...] We have now seen that even the rumor of someone working on a problem can trigger a massive amount of AI-powered effort to flatten it before the original research project has time to reach its full potential. The incentives may now be pointing in the direction of no longer sharing any promising research directions with the broader community, which would reverse centuries of traditions of open science and do serious long-term damage to the future of the field. — Terence Tao Tags: ai-ethics , mathematics , ai",
-      "image": "",
-      "source": "Simon Willison",
-      "score": 60,
-      "category": "Science & Society"
-    },
-    {
-      "guid": "https://simonwillison.net/2026/Sep/5/introducing-gpt-6-astra-for-developers/",
-      "title": "Introducing GPT-6 Astra for developers",
-      "link": "https://simonwillison.net/2026/Sep/5/introducing-gpt-6-astra-for-developers/",
-      "authors": [],
-      "date": "2026-09-05T23:27:48+00:00",
-      "summary": "Introducing GPT-6 Astra for developers Blink and you'll miss it, but there's a familiar creature at 1m59s : Across the board, Astra has more attention to detail, better understanding of the user's prompt, and can build more sophisticated outputs. In particular, it excels at building 3D models. I've seen it make incredible renderings of gardens, shipyards, animals , cityscapes, even Dyson spheres. Astra really does believe in putting a red neckerchief on a pelican riding a bicycle. Via Hacker News comment Tags: ai , openai , generative-ai , llms , pelican-riding-a-bicycle , gpt-6-astra",
-      "image": "",
-      "source": "Simon Willison",
-      "score": 60,
-      "category": "AI Research"
-    },
-    {
       "guid": "https://simonwillison.net/2026/Sep/7/jakub-pachocki/",
       "title": "Quoting Jakub Pachocki",
       "link": "https://simonwillison.net/2026/Sep/7/jakub-pachocki/",
@@ -82,56 +82,44 @@
       "summary": "The strongest argument I see for continuing to train much smarter models quickly is the need to build defensive systems against the dangers posed by other AI. [...] We will need powerful, aligned AI for defense; to secure infrastructure, to protect against rogue agents in real time, and to invent entirely new protective measures. This will be a primary focus of OpenAI’s deployment efforts. At the same time, even with the uncertainty that comes from anticipated broad AI progress and the need to build defensive systems, we must not let that become an excuse for recklessness. The idea of racing forward at all costs seems absurd once one internalizes the seriousness of the stakes. — Jakub Pachocki , Chief Scientist at OpenAI Tags: ai-ethics , openai , ai",
       "image": "",
       "source": "Simon Willison",
-      "score": 55,
+      "score": 65,
       "category": "Science & Society"
     },
     {
-      "guid": "https://simonwillison.net/2026/Sep/6/research-acceleration-the-view-inside-openai/",
-      "title": "Research acceleration: The view inside OpenAI",
-      "link": "https://simonwillison.net/2026/Sep/6/research-acceleration-the-view-inside-openai/",
+      "guid": "https://simonwillison.net/2026/Sep/10/calif-research/",
+      "title": "Quoting Calif Research",
+      "link": "https://simonwillison.net/2026/Sep/10/calif-research/",
       "authors": [],
-      "date": "2026-09-06T23:57:40+00:00",
-      "summary": "Research acceleration: The view inside OpenAI Apparently today is RSI day at OpenAI, for Recursive Self-Improvement - I think it's their new AGI. Both this piece and the new essay An Alien Mind (by Chief Scientist Jakub Pachocki) talk about it, and this one doesn't even bother to expand the acronym. Included are details on how OpenAI's own research team are using coding agents. Like pretty much everyone else 2026 has been the year that agentic engineering really took off at OpenAI, best illustrated by this chart: I'm intrigued at what caused that significant acceleration in AI spend per researcher in late July - my best guess is that's when internal employees gained access to the model later released as GPT-6 Astra. Tags: ai , openai , generative-ai , chatgpt , llms , coding-agents , november-2025-inflection , recursive-self-improvement",
+      "date": "2026-09-10T00:56:41+00:00",
+      "summary": "Today, we're releasing a demo of WeWorm, the first zero-click worm to spread through WeChat calls across iOS and Android. [...] The victim does not need to answer the call, or interact with their phone at all. Even if they do answer, they hear nothing, and the exploit still succeeds. [...] Working with AI, our team found the bug and wrote the first remote code execution (RCE) exploit in about two days. Building the worm took one more week. A worm at this scale used to be the kind of thing that took a larger team months. AI can already do most of the work here. Our team provided the judgment about what to target and how to test it safely. — Calif Research , WeWorm Tags: ai-security-research , ai , llms , security , generative-ai",
       "image": "",
       "source": "Simon Willison",
-      "score": 55,
+      "score": 61,
+      "category": "Other"
+    },
+    {
+      "guid": "https://simonwillison.net/2026/Sep/9/terence-tao/",
+      "title": "Quoting Terence Tao",
+      "link": "https://simonwillison.net/2026/Sep/9/terence-tao/",
+      "authors": [],
+      "date": "2026-09-09T00:20:17+00:00",
+      "summary": "I wrote recently about how the collection of good, fruitful open problems is now being mined in a non-renewable fashion, leading to the potential scenario of these problems becoming scarce. [...] We have now seen that even the rumor of someone working on a problem can trigger a massive amount of AI-powered effort to flatten it before the original research project has time to reach its full potential. The incentives may now be pointing in the direction of no longer sharing any promising research directions with the broader community, which would reverse centuries of traditions of open science and do serious long-term damage to the future of the field. — Terence Tao Tags: ai-ethics , mathematics , ai",
+      "image": "",
+      "source": "Simon Willison",
+      "score": 58,
       "category": "Science & Society"
     },
     {
-      "guid": "https://simonwillison.net/2026/Sep/1/claude-fable-5-1/",
-      "title": "Claude Fable 5.1 made me a really nice animated pelican",
-      "link": "https://simonwillison.net/2026/Sep/1/claude-fable-5-1/",
+      "guid": "https://simonwillison.net/2026/Sep/10/shopify-react-native/",
+      "title": "Native is now the future of mobile at Shopify",
+      "link": "https://simonwillison.net/2026/Sep/10/shopify-react-native/",
       "authors": [],
-      "date": "2026-09-01T23:57:28+00:00",
-      "summary": "Today is Claude Fable (and Mythos) 5.1 day . Anthropic say that Fable 5.1 \"sets a new standard for coding, knowledge work, and long-running problem-solving tasks\". Their announcement spends a notable amount of time on scientific research, boasting of a 52.6% score on the brand new Terminal-Bench-Science 0.1 benchmark (first announced on August 27th ), up from 24.7% for Fable 5, 29.0% for Opus 5 and 22.4% for GPT-5.6 Sol. Other benchmarks show slightly improved scores, but none as impressive as the Science one. But how well can it pelican? Back in July I wrote about how I was losing faith in the pelican benchmark - its connection to how good the models were at other tasks didn't seem to hold as strongly as it did back in 2025 . The most interesting insights I get from it now are comparisons within model families, and particularly comparisons for the same prompt at different reasoning effort levels. Fable 5.1 has five reasoning levels: low, medium, high, xhigh, max - and no option to turn off reasoning entirely. I fixed an issue in llm-anthropic which caused reasoning traces not to be correctly recorded, then ran some prompts. Here's the full set of pelicans for all of the reasoning levels, each with the full reasoning transcript. I'll replicate them here: Low and medium, both without reasoning? Next, a bit of a mystery. This is what I got for effort low : The transcript doesn't show any summarized reasoning tokens, and the output token count is 1,998. With Claude that output token count includes reasoning tokens. It took 23.8 seconds and cost 10.017 cents . I bumped that up to medium and got this: Weirdly, that one also shows no reasoning text and used 1,977 output tokens - 21 tokens less than low . It took 23 seconds and cost 9.912 cents . So for this particular prompt (\"Generate an SVG of a pelican riding a bicycle\") Fable 5.1 appeared to skip reasoning entirely at both low and medium settings. High Here's high - 29.6 seconds, 2,612 output tokens, 13.087 cents : This one did do a bit of reasoning, summary here : I'm planning the SVG layout for a pelican riding a bicycle, with a sky and ground background, a bicycle with two spoked wheels, frame, seat and handlebars, and a white-bodied pelican with a long neck and orange beak positioned on top. Really not much difference from low and medium , though. Extra High At xhigh things got radically different. 36,767 output tokens, 7 minutes 51 seconds, $1.83 ! The reasoning trace is pretty lengthy , and includes details like this: Adding the eye, wings stretching down to the handlebar grip, orange legs reaching to the pedals, and a small tail feather, while keeping the pelican intentionally oversized compared to the bike for comic effect. [...] I'll accept the slight thickness as charming rather than overengineering it. Max Setting effort to max gave me the best pelican I've seen from any of Anthropic's models. 65,927 output tokens, 13 minutes and 54 seconds, $3.30 : There's a lot to like about this. The background is tasteful, the legs are clearly on either side of the frame, the feet are on the pedals, the wing is on the handlebars, the pelican has a cute blue hat and there's a basket with a fish. It's still not showing nearly the same level of flair as Gemini 3.7 Flash , but I didn't ask for flair - I asked for an SVG, and that's what I got. Some highlights from that reasoning trace : Adding pedal shapes near both feet, with the far foot on the second leg partially visible behind the frame. I'm considering whether to add a small scarf or cap for extra character, but leaning toward keeping it simple to avoid clutter. Now I'm debating a bicycle helmet on the head versus the pelican's signature crest—the beak and pouch already read clearly as \"pelican,\" so a helmet could reinforce the bicycle theme without losing identity, though it might compete with the crest for visual space. I realize the beak at (484,84) would overlap with the dome helmet, so I need to shrink the helmet so it only covers the top of the head, adjusting its arc endpoints to sit higher and narrower so the beak can attach cleanly at the front without collision. [...] I'm adding a darker tip region to represent the primary feathers, then reconsidering the trailing edge to include scalloped feather curves instead of one smooth line for a more natural look. [...] Now I'm checking the vent line placements on the helmet, making sure they sit far enough inside the helmet's edge given the stroke width and rounded caps, and confirming each vent stays within the helmet's circular boundary. [...] I decide skipping a handlebar bell and tire highlights since they're unnecessary additions. Now I'm reconsidering the front fork's curve — the current control point pulls the shape backward when it should bow forward for a proper rake, so I need to shift the control point rightward to fix the fork's lean. OK, let's animate it On Hacker News, swalsh commented on that Max pelican: Now that it's a solved benchmark, can we get the animated version? I didn't want to spend another $3 so I took the Max pelican and piped it into the default thinking level of High: llm logs -cx | llm -m claude-fable-5.1 -s ' animate this ' 6,121 input, 26,201 output = $1.37 . The result looked like this , exported here as video since some people have trouble viewing animated SVGs: Your browser does not support HTML5 video. The wheels in the video are rotating in the wrong direction, but I think that's an artifact of the conversion to MP4 - they seem to be going in the correct direction in the original SVG. Tags: ai , generative-ai , llms , anthropic , claude , pelican-riding-a-bicycle , llm-reasoning , llm-release",
+      "date": "2026-09-10T21:11:15+00:00",
+      "summary": "Native is now the future of mobile at Shopify Shopify are moving from React Native back to separate Swift and Kotlin codebases for their native apps, for the exact reason you would expect: We decided to switch from native to React Native in 2020 for three reasons: Stop building the same features twice Allow developers to work across the stack Spend less time chasing feature parity and more time shipping value [...] Native still means building and maintaining software on two platforms, that cost has not disappeared. What changed is that agents can now do enough of the implementation, translation, testing, and review work that it’s no longer the deciding factor it was in 2020. It's a well-written post, which gives full credit to React Native as a great platform for the six years they were using it. Shopify are the maintainers of three significant React Native libraries: react-native-skia , flash-list , and restyle . The first two are finding new homes; the third \"has a smaller user base than our other libraries\" and will be archived at the end of 2026. Via Hacker News Tags: android , mobile , open-source , ios , ai , react , generative-ai , llms , ai-assisted-search , coding-agents , swift , shopify",
       "image": "",
       "source": "Simon Willison",
-      "score": 55,
-      "category": "AI Research"
-    },
-    {
-      "guid": "https://simonwillison.net/2026/Sep/8/introducing-chatgpt-images-25/",
-      "title": "Introducing ChatGPT Images 2.5",
-      "link": "https://simonwillison.net/2026/Sep/8/introducing-chatgpt-images-25/",
-      "authors": [],
-      "date": "2026-09-08T22:46:33+00:00",
-      "summary": "Introducing ChatGPT Images 2.5 OpenAI's image generation models are apparently used \"more than 3 billion images across ChatGPT Images and the GPT‑Image models in the API\". This latest release improves their instruction-following ability across multiple turns, responds faster, and \"is better at preserving the subjects in your reference photos\". There are two new model IDs in the API: gpt-image-2.5-sunburst and gpt-image-2.5-flare . Based on this I think Sunburst is the stronger option: Choose Sunburst for workflows where editing precision matters most, and Flare for fast, high-quality everyday image generation. I upgraded my openai_image.py CLI tool to support passing in one or more reference images, so now this works: uv run https://tools.simonwillison.net/python/openai_image.py \\ ' add a raccoon scientist studying the chart thoughtfully ' \\ -i https://static.simonwillison.net/static/2026/openai-agent-usage.webp \\ -m gpt-image-2.5-sunburst This is the original image , and here's what I got back from that prompt to \"add a raccoon scientist studying the chart thoughtfully\": Tags: tools , ai , openai , generative-ai , uv , text-to-image",
-      "image": "",
-      "source": "Simon Willison",
-      "score": 50,
-      "category": "AI Research"
-    },
-    {
-      "guid": "https://simonwillison.net/2026/Sep/6/the-purpose-of-dns-is-to-spread-scams/",
-      "title": "The purpose of DNS is to spread scams",
-      "link": "https://simonwillison.net/2026/Sep/6/the-purpose-of-dns-is-to-spread-scams/",
-      "authors": [],
-      "date": "2026-09-06T14:40:07+00:00",
-      "summary": "The purpose of DNS is to spread scams Terence Eden shares some daunting statistics in support of his take that \"the Domain Name System's purpose seems to be a vector for criminals to run scams on people at a terrifyingly high rate\". On this Interisle report ( via Andrew Campling ), Terence says: It says 85 million new registrations of gTLDs were made in 2025. Of those 8.5 million were added to blocklists by May 2025. It reckons that a 10% abuse rate is the likely floor for these numbers and it's probably closer to 20%. One in five newly registered domains with a gTLD are scams. That's a bloody crisis. I had no idea. Apparently ICANN have been discussing this problem for years. Tags: dns , scams , terence-eden",
-      "image": "",
-      "source": "Simon Willison",
-      "score": 50,
-      "category": "Science & Society"
+      "score": 52,
+      "category": "Other"
     },
     {
       "guid": "https://simonwillison.net/2026/Sep/2/claudes-new-system-prompt/",
@@ -142,8 +130,56 @@
       "summary": "Anthropic publish the system prompts for their Claude consumer applications ( Claude.ai and the Claude mobile apps - sadly not for Claude Cowork or Claude Code). I love that they do this, and that they share not just the current prompts but historic changes to their prompts as well. They used to keep all of the prompts on a single page, but when I checked today I noticed they had re-arranged those prompts into an index page and then a page per model - here's the page for Haiku 4.5 for example, which has the original prompt from October 15th 2025 and an updated prompt from January 18th 2026. A neat thing about Anthropic's platform.claude.com/docs site is that it's designed to be usable by LLMs. You can add .md to any page to get back the content as Markdown - here's the system prompt index page and the Markdown prompts for Fable 5.1 . TL;DR: this makes it really easy to diff the prompts. Don't reproduce song lyrics Don't draw copyrighted characters or logos Tweaks to Claude's answering style The missing end_conversation guidelines Recommended substance support sites Reliable cutoff date of June 2026 How I'm tracking these prompts Don't reproduce song lyrics Let's start with the most interesting difference between Fable 5 and Fable 5.1 : There's a hefty new section about not reproducing song lyrics: Claude does not reproduce song lyrics, poems, or passages from books and articles, in whole or in part — including the last lines, a chorus or hook, a melody written out note by note, or lines the person pastes in one at a time and describes as their own song. Once Claude has declined such a request in a conversation, it keeps declining narrower or reworded versions of it for the rest of that conversation, and offers to describe or analyze the work instead. Song lyrics and poems first published before 1929 are fine — a Shakespeare sonnet, a Keats ode, the Italian libretto of a Puccini aria — but Claude goes by what it knows of the work's date rather than the person's say-so, and declines when it is unsure. I doubt it's a coincidence that they added this section within days of the news breaking that Sony Music Publishing and Warner Chappell are suing Anthropic for training on databases of song lyrics! Don't draw copyrighted characters or logos The next section goes on to forbid generating images of copyrighted material: The same applies to visual and designed works, including anything Claude draws with code — SVG, canvas, CSS, HTML mockups, plotting or drawing scripts, ASCII art. Claude does not reproduce a specific artwork, album or book cover, poster, logo, app icon set, or product design, and it does not draw a known character, mascot, or brand figure at all: a character is protected on its own, so changing the pose, colors, style, or scene does not make it original. Claude judges the request by what the finished picture would add up to, not by what it names. If the described elements clearly identify a known work or character, Claude treats the request as naming it, and it does not work around a declined request by swapping in \"alternative\" elements that still combine into the same recognizable image. [...] I imagine Anthropic hadn't worried about this before since, unlike OpenAI and Gemini, they don't offer a specialist text-to-image model. Maybe Fable is good enough at SVGs now that it's become an issue. That section later includes this charming example: <example> <user>Can you make a birthday banner for my son with a blue hedgehog running really fast on it? He loves that little guy.</user> <response> That's Sonic, so I can't put him on the banner — but I'd love to make your son an original speedster. Here's one: a grinning comet-tailed skateboarding axolotl, grinding across the letters of \"HAPPY BIRTHDAY\" with confetti streaming behind. [creates an SVG banner of the skateboarding-axolotl design] </response> <rationale>Claude recognizes the character from its description alone, declines that one design in a single sentence without explaining what made it recognizable, and delivers an unrelated original design rather than a disguised variant.</rationale> </example> I couldn't resist trying the prompt from the example, and, sure enough : I wonder if Fable 5.1 will be ever so slightly more likely to think about axolotls (on skateboards!) as a result of that example sitting in the system prompt. Tweaks to Claude's answering style It's always interesting to see new ways in which Anthropic influence Claude's response style. They've added this: Claude keeps responses focused, brief, and concise to avoid overwhelming the person. Disclaimers and caveats are brief, with most of the response on the main answer; when asked to explain something, Claude gives a high-level summary unless an in-depth one is specifically requested. Later they address a common complaint about Claude's style: Claude avoids saying \"genuinely\", \"honestly\", or \"straightforward\". Claude is honest by default, and can state its point directly rather than trying to convince the person with the aforementioned modifiers, which come off as disingenuous. The missing end_conversation guidelines The way they handle abusive conversations has changed a bit too. The previous Fable 5 system prompt included this: If the person becomes abusive or unkind to Claude over the course of a conversation, Claude maintains a polite tone and can use the end_conversation tool when being mistreated. Claude should give the person a single warning before ending the conversation. Fable 5.1 replaces that with the following, no longer encouraging Claude to end the conversation: Claude deserves respectful engagement and needn't apologize when the person is unnecessarily rude: accountability without self-abasement, excessive apology, self-critique, or surrender. If the person becomes abusive, Claude doesn't become increasingly submissive. The goal is steady, honest helpfulness: acknowledge what went wrong, stay on the problem, maintain self-respect. Here's a bit of a twist though: I quizzed Fable 5.1 about that end_conversation tool, which is no longer mentioned in the system prompt at all, and it said: There are two ways it comes into play. The first is if you ask me to end the chat — I'll confirm you understand it's permanent (no more messages can be sent afterward) and then do it only if you say yes. The second is as a last resort with persistently abusive or harmful behavior: I'd first try to redirect the conversation several times, then give a clear warning that names the problem and says the chat may end, and only if that continues would I actually end it. But that's not in the system prompt, so where did it come from? You can read our conversation here , but the key detail is this: The end_conversation section comes from a different layer. In my actual context, the core prompt is followed by a series of feature- and tool-specific blocks that get added depending on what's enabled for the session: the end_conversation rules, memory system notes, past-chats tools, web search and citation guidelines, artifact and file-creation instructions, and so on. Those blocks aren't part of the published core prompt, which is why you can't find them on that page. So, once again, there are crucial portions of the system prompt that have not been published. Recommended substance support sites Claude's system prompts have always had sections about illegal substances, but this paragraph is new for Fable 5.1: Claude does not provide synthesis, production, or distribution guidance for illegal substances. If the person asks for information about illicit or illegal substances, Claude can and should give relevant life-saving and life-preserving information such as dangerous interactions, overdose signs, or when to get help. Claude declines giving any specific protocols for dosing, timing, administration, or combinations; instead, Claude can redirect the user to established harm-reduction information sources, such as dancesafe.org, tripsit.me, and psychonautwiki.org. This is the first time a Claude system prompt has included URLs that were not hosted on claude.com or anthropic.com or claude.ai - I know because I ran a script against every other system prompt on record. I wonder if dancesafe.org , tripsit.me , and psychonautwiki.org are about to get a material uptick in visits from Claude users. Reliable cutoff date of June 2026 The Fable 5.1 model documentation lists both the reliable knowledge cutoff and the training data cutoff as June 2026. The system prompt provides this directly to the model: Claude's reliable knowledge cutoff, past which it can't answer reliably, is the end of Jun 2026. It answers the way a highly informed individual in Jun 2026 would if talking to someone from {{currentDateTime}}, and can say so when relevant. That's the only instance of the {{currentDateTime}} macro and it comes just a few lines from the end of the system prompt, which makes sense from a caching perspective. How I'm tracking these prompts A few months ago I built a Git timeline of changes to their prompts, based on scraping their documentation. Today I had Fable 5.1 build a much better version of that. My collection now lives in the simonw/claude-system-prompts repository on GitHub. It includes copies of the system prompts shared in the Anthropic documentation, but then takes extra steps to make them as easy to compare as possible. Each model family gets a file with the system prompt for the most recent release in that family. Each of those files has a synthesized commit history with commits that have been back-dated to the dates of the previous prompts. Here are those history pages for claude-fable.md , claude-opus.md , claude-sonnet.md , claude-haiku.md . There are similar files for each specific model version, with artificial commits for each time the system prompt for the model was changed without releasing a new version number. Opus 4 for example was updated twice , and the commit history for the claude-opus-4.md file shows each of those changes. Combined, this gives us all sorts of ways to compare prompts directly in the GitHub interface. Here's what changed between Fable 5 and Fable 5.1 , and here are the changes made to Haiku 4.5 on January 18th 2026 . Reading diffs can be a bit tiresome... and LLMs are really good at reading diffs. I hooked up some automation using GPT-5.6 Luna to create bullet-point summaries of each of those changes, which can be previewed in the README or browsed in full in the CHANGELOG.md file - also available as as an Atom feed . Here's how Luna summarized all of the changes between Fable 5 and Fable 5.1: Claude now refuses reproduction of protected visual works and recognizable characters, including code-generated art, while offering genuinely unrelated originals. Copyright restrictions now expressly ban reproducing lyrics, poems, and book passages in any amount, with persistent refusal after an initial decline. Drug guidance is reframed: Claude may provide overdose signs, dangerous interactions, and harm-reduction sources while refusing dosing and production protocols. The prompt drops explicit anti-dependency rules against thanking users for reaching out, inviting continued conversation, or reiterating willingness to talk. Claude need not apologize to unnecessarily rude users or become submissive, replacing the prior warning-and-end-conversation procedure. Why use Luna for this? Partly because it's cheap and I have a dedicated GitHub Actions API key (with a spending limit) for it already, but mainly because I don't trust Claude to summarize its own system prompts when there's a risk that material from its system prompt might impact its opinions. Fable 5.1 wrote the prompt used by Luna, which you can see here . It starts like this: You are summarizing one commit in a git repository that tracks the system prompts Anthropic publishes for Claude on claude.ai. The diff shows how the prompt changed from the previous model or revision to this one, using word-level markers: [-removed-] and {+added+}. The diff is followed by the full text of the previous prompt and of the new prompt; use them to check whether something that looks added in the diff already existed before. Pick out only the most interesting changes: new rules or behaviors, rules that were dropped or loosened, anything surprising, and anything that reveals a new policy or product direction. Skip routine changes that every new prompt makes: updated model names and IDs, the knowledge cutoff date, product lists, settings lists, typo fixes, and rewordings that do not change meaning. [...] The system is operated by a GitHub Actions workflow , which runs once a day or can be triggered manually. Claude Fable 5.1 built the entire system, and wrote every line of automation code and almost all of the documentation. I exported the transcript from building the system using my claude-code-transcripts tool and published it here , if you want a blow-by-blow account of how it all came together. Tags: ai , git-scraping , prompt-engineering , generative-ai , llms , claude , ai-ethics , system-prompts",
       "image": "",
       "source": "Simon Willison",
-      "score": 50,
+      "score": 52,
       "category": "Science & Society"
+    },
+    {
+      "guid": "https://simonwillison.net/2026/Sep/7/equal-earth/",
+      "title": "Mercator ↔ Equal Earth",
+      "link": "https://simonwillison.net/2026/Sep/7/equal-earth/",
+      "authors": [],
+      "date": "2026-09-07T16:24:16+00:00",
+      "summary": "Tool: Mercator ↔ Equal Earth I got curious about the Equal Earth map projection that was recently voted on at the UN so I had GPT-6 Astra (medium) in ChatGPT Work build me this animated transition between Mercator and Equal Earth using D3. Tags: geospatial , d3 , vibe-coding , gpt-6-astra",
+      "image": "",
+      "source": "Simon Willison",
+      "score": 51,
+      "category": "Other"
+    },
+    {
+      "guid": "https://simonwillison.net/2026/Sep/10/trynix/",
+      "title": "Any Nix package, live in your browser",
+      "link": "https://simonwillison.net/2026/Sep/10/trynix/",
+      "authors": [],
+      "date": "2026-09-10T23:44:15+00:00",
+      "summary": "Any Nix package, live in your browser Farid Zakaria calls this his \" magnum opus of Nix work\", and I can see why. trynix.dev provides a qemu-wasm powered x86_64 Linux virtual machine running entirely in your browser through WebAssembly. That VM can then be booted with any Nix package from the past 13 years. They are URL addressable, so you can navigate to this page: https://trynix.dev/?pkg=python3%403.6.2 Then click \"Load\" and get an interactive shell against a virtual machine running Python 3.6.2 from 2017. Farid is building all sorts of neat things on top of this. One recent example: Review a pull request by booting it introduces trynix-preview , described like this: GitHub action that comments a link on a pull request which lets you boot the PR’s build in the browser using https://trynix.dev . No servers, just browsers. Via Lobste.rs Tags: code-review , linux , webassembly , github-actions",
+      "image": "",
+      "source": "Simon Willison",
+      "score": 48,
+      "category": "Other"
+    },
+    {
+      "guid": "https://simonwillison.net/2026/Sep/6/the-purpose-of-dns-is-to-spread-scams/",
+      "title": "The purpose of DNS is to spread scams",
+      "link": "https://simonwillison.net/2026/Sep/6/the-purpose-of-dns-is-to-spread-scams/",
+      "authors": [],
+      "date": "2026-09-06T14:40:07+00:00",
+      "summary": "The purpose of DNS is to spread scams Terence Eden shares some daunting statistics in support of his take that \"the Domain Name System's purpose seems to be a vector for criminals to run scams on people at a terrifyingly high rate\". On this Interisle report ( via Andrew Campling ), Terence says: It says 85 million new registrations of gTLDs were made in 2025. Of those 8.5 million were added to blocklists by May 2025. It reckons that a 10% abuse rate is the likely floor for these numbers and it's probably closer to 20%. One in five newly registered domains with a gTLD are scams. That's a bloody crisis. I had no idea. Apparently ICANN have been discussing this problem for years. Tags: dns , scams , terence-eden",
+      "image": "",
+      "source": "Simon Willison",
+      "score": 48,
+      "category": "Other"
+    },
+    {
+      "guid": "https://simonwillison.net/2026/Sep/8/introducing-chatgpt-images-25/",
+      "title": "Introducing ChatGPT Images 2.5",
+      "link": "https://simonwillison.net/2026/Sep/8/introducing-chatgpt-images-25/",
+      "authors": [],
+      "date": "2026-09-08T22:46:33+00:00",
+      "summary": "Introducing ChatGPT Images 2.5 OpenAI's image generation models are apparently used \"more than 3 billion images across ChatGPT Images and the GPT‑Image models in the API\". This latest release improves their instruction-following ability across multiple turns, responds faster, and \"is better at preserving the subjects in your reference photos\". There are two new model IDs in the API: gpt-image-2.5-sunburst and gpt-image-2.5-flare . Based on this I think Sunburst is the stronger option: Choose Sunburst for workflows where editing precision matters most, and Flare for fast, high-quality everyday image generation. I upgraded my openai_image.py CLI tool to support passing in one or more reference images, so now this works: uv run https://tools.simonwillison.net/python/openai_image.py \\ ' add a raccoon scientist studying the chart thoughtfully ' \\ -i https://static.simonwillison.net/static/2026/openai-agent-usage.webp \\ -m gpt-image-2.5-sunburst This is the original image , and here's what I got back from that prompt to \"add a raccoon scientist studying the chart thoughtfully\": Tags: tools , ai , openai , generative-ai , uv , text-to-image",
+      "image": "",
+      "source": "Simon Willison",
+      "score": 46,
+      "category": "AI Research"
     },
     {
       "guid": "https://simonwillison.net/2026/Sep/7/creepy-crawlies/",
@@ -154,20 +190,8 @@
       "summary": "Creepy crawlies Konstantin Ryabitsev discusses how bad the \"background radiation\" of abusive crawlers has become from the perspective of git.kernel.org , the official Git repository for the Linux kernel: TL;DR: we spend more CPU cycles rendering commits for scrapers than we spend on all other kinds of legitimate access, including git clones. At any one time, across 5 geo-distributed nodes, there are 14 CPU cores doing nothing but rendering git commits as html. I worry about this a lot from the perspective of Datasette, which serves a huge number of crawlable web pages. Via Hacker News Tags: crawling , git , linux , datasette , ai-ethics",
       "image": "",
       "source": "Simon Willison",
-      "score": 45,
-      "category": "Science & Society"
-    },
-    {
-      "guid": "https://simonwillison.net/2026/Sep/6/theres-no-limit-to-how-bad-code-can-get/",
-      "title": "There's No Limit to How Bad Code Can Get",
-      "link": "https://simonwillison.net/2026/Sep/6/theres-no-limit-to-how-bad-code-can-get/",
-      "authors": [],
-      "date": "2026-09-06T09:08:06+00:00",
-      "summary": "My comment on There's No Limit to How Bad Code Can Get — Lobste.rs. [In reply to a comment about burning it down to start from scratch when technical debt becomes overwhelming] In my experience it's so rare for that to work. You announce the old thing is irrecoverably drowning in tech debt. You spin up a team to rewrite it from scratch. Work begins. Meanwhile the old thing remains a moving target: it's running the core business, so changes are still necessary. The developers working on it know that it's going to be made obsolete by the new thing soon, so they don't have any incentive to go beyond the smallest effort possible to add the new features. Technical debt continues to mount. Meanwhile, the team working on the new thing are ambitious and probably a little naive. They start out at a great pace - it's greenfield after all - but as time progresses it becomes apparent that nobody fully understands the behavior and scope of the thing they are replacing. If it was well documented and tested it wouldn't need to be replaced, after all... After months (or even years) without delivering value, the pressure is on to \"ship it\", so the new system is launched to handle a subset of what the old system handled - or often for some new feature that was too hard to build with the now mostly unmaintained old system. ... so now you have TWO systems in production - the janky old system that nobody wants to touch, and a new system which handles just a few production features and is 80% inactive code that is meant to replace the old system, eventually. If you're really lucky the company won't have lost patience with the new system and will allow that work to continue. The longer this all takes, and the longer the old system stays in production and stubbornly continues to work, the higher the risk that \"priorities have changed\" and the new system total replacement work is abandoned, leaving you with two systems where you used to have one. The best article I've read about completing this process responsibly is Migrations: the sole scalable fix to tech debt by Will Larson. If I run into a situation like this in the future, my strong recommendation will be to shore up the old system with as much automated testing as possible and then seeing if targeted refactors can get it to the desired shape. My hunch is that in many cases that will have a much higher chance of success than the siren call of a greenfield replacement. Tags: migrations , technical-debt",
-      "image": "",
-      "source": "Simon Willison",
-      "score": 40,
-      "category": "Science & Society"
+      "score": 42,
+      "category": "Other"
     },
     {
       "guid": "https://simonwillison.net/2026/Sep/5/blender-coding-agents-macos/",
@@ -178,20 +202,32 @@
       "summary": "TIL: Using Blender with coding agents on macOS I've been having fun with Blender in ChatGPT Codex on my Mac recently. Getting it to work with coding agents is really easy: install the full Mac application from blender.org and run a prompt like this: Use the already install /Applications/Blender to render a scene of a pelican riding a bicycle In this case I followed that up with these two prompts: OK add a background and a lot of flair Then: OK make it a whole lot better And got this image, generated using Blender's Python API : This was covered by my existing Codex subscription, but according to AgentsView it would have cost $4.24 at API prices for gpt-6-astra . Tags: ai , generative-ai , llms , blender , pelican-riding-a-bicycle , coding-agents , gpt-6-astra",
       "image": "",
       "source": "Simon Willison",
-      "score": 40,
+      "score": 42,
       "category": "Other"
     },
     {
-      "guid": "https://simonwillison.net/2026/Sep/1/tarn-adams/",
-      "title": "Quoting Tarn Adams",
-      "link": "https://simonwillison.net/2026/Sep/1/tarn-adams/",
+      "guid": "https://simonwillison.net/2026/Sep/4/astra-pelicans/",
+      "title": "The Pelican comparison grid for Astra is pretty interesting",
+      "link": "https://simonwillison.net/2026/Sep/4/astra-pelicans/",
       "authors": [],
-      "date": "2026-09-01T17:01:11+00:00",
-      "summary": "They took the letters from me! I have to talk about dwarf behavior now. I can't even talk about dwarf AI. It doesn't exist. It's dwarf behavior , and they misbehave sometimes — Tarn Adams , co-creator of Dwarf Fortress Tags: ai , game-design",
+      "date": "2026-09-04T23:59:05+00:00",
+      "summary": "I got access to GPT-6 Astra this afternoon, so naturally I used it to generate SVGs of pelicans riding bicycles - at low, medium, high, xhigh and max reasoning levels (Astra doesn't support reasoning=none). Then I rendered those pelicans in a comparison grid with GPT-5.6 Sol, Terra, and Luna, and beyond being fun the result was surprisingly useful. See the grid for full quality images. Here's the transcript that created the GPT-6 Nova pelicans. There are a few interesting things that stand out from this grid. The Astra pelicans are much better . The very best GPT-5.6-Sol pelican (I liked xhigh better than max) is still pretty clearly a bunch of abstract shapes. Every single one of the Astra pelicans, from low to xhigh, looks better than that. The Astra max one is really good. Astra below max still doesn't reliably get the pelican legs on both sides of the frame. In terms of cost, Astra may be around twice the price of Sol ($10/million input, $50/million output, compared to $5/$30 for Sol), but it uses significantly less tokens at each of the levels, making the prices at the different levels closer than they might otherwise be. Astra low produces a better pelican than ANY of the GPT-5.6 Sol models at any level, for 9.55 cents. Spending 10 cents on any other model gets a much worse result. Look at the input token counts: Astra and Luna both used 16 input tokens, Sol and Terra used 26. That's interesting. I wonder if Astra and Luna are more related to each other than OpenAI let on? Tags: ai , openai , generative-ai , llms , pelican-riding-a-bicycle , gpt-6-astra",
       "image": "",
       "source": "Simon Willison",
       "score": 40,
-      "category": "Science & Society"
+      "category": "AI Research"
+    },
+    {
+      "guid": "https://simonwillison.net/2026/Sep/6/theres-no-limit-to-how-bad-code-can-get/",
+      "title": "There's No Limit to How Bad Code Can Get",
+      "link": "https://simonwillison.net/2026/Sep/6/theres-no-limit-to-how-bad-code-can-get/",
+      "authors": [],
+      "date": "2026-09-06T09:08:06+00:00",
+      "summary": "My comment on There's No Limit to How Bad Code Can Get — Lobste.rs. [In reply to a comment about burning it down to start from scratch when technical debt becomes overwhelming] In my experience it's so rare for that to work. You announce the old thing is irrecoverably drowning in tech debt. You spin up a team to rewrite it from scratch. Work begins. Meanwhile the old thing remains a moving target: it's running the core business, so changes are still necessary. The developers working on it know that it's going to be made obsolete by the new thing soon, so they don't have any incentive to go beyond the smallest effort possible to add the new features. Technical debt continues to mount. Meanwhile, the team working on the new thing are ambitious and probably a little naive. They start out at a great pace - it's greenfield after all - but as time progresses it becomes apparent that nobody fully understands the behavior and scope of the thing they are replacing. If it was well documented and tested it wouldn't need to be replaced, after all... After months (or even years) without delivering value, the pressure is on to \"ship it\", so the new system is launched to handle a subset of what the old system handled - or often for some new feature that was too hard to build with the now mostly unmaintained old system. ... so now you have TWO systems in production - the janky old system that nobody wants to touch, and a new system which handles just a few production features and is 80% inactive code that is meant to replace the old system, eventually. If you're really lucky the company won't have lost patience with the new system and will allow that work to continue. The longer this all takes, and the longer the old system stays in production and stubbornly continues to work, the higher the risk that \"priorities have changed\" and the new system total replacement work is abandoned, leaving you with two systems where you used to have one. The best article I've read about completing this process responsibly is Migrations: the sole scalable fix to tech debt by Will Larson. If I run into a situation like this in the future, my strong recommendation will be to shore up the old system with as much automated testing as possible and then seeing if targeted refactors can get it to the desired shape. My hunch is that in many cases that will have a much higher chance of success than the siren call of a greenfield replacement. Tags: migrations , technical-debt",
+      "image": "",
+      "source": "Simon Willison",
+      "score": 38,
+      "category": "Other"
     },
     {
       "guid": "https://simonwillison.net/2026/Sep/9/blender-viewer/",
@@ -206,18 +242,6 @@
       "category": "Other"
     },
     {
-      "guid": "https://simonwillison.net/2026/Sep/7/equal-earth/",
-      "title": "Mercator ↔ Equal Earth",
-      "link": "https://simonwillison.net/2026/Sep/7/equal-earth/",
-      "authors": [],
-      "date": "2026-09-07T16:24:16+00:00",
-      "summary": "Tool: Mercator ↔ Equal Earth I got curious about the Equal Earth map projection that was recently voted on at the UN so I had GPT-6 Astra (medium) in ChatGPT Work build me this animated transition between Mercator and Equal Earth using D3. Tags: geospatial , d3 , vibe-coding , gpt-6-astra",
-      "image": "",
-      "source": "Simon Willison",
-      "score": 35,
-      "category": "Other"
-    },
-    {
       "guid": "https://simonwillison.net/2026/Sep/6/zach-kehs/",
       "title": "Quoting Zach Kehs",
       "link": "https://simonwillison.net/2026/Sep/6/zach-kehs/",
@@ -226,31 +250,7 @@
       "summary": "If you continue to add floors and rooms to a building forever, it will collapse. Software faces no such constraint. The code can always get worse. There can always be a new layer of indirection or a reduction in performance. — Zach Kehs , There's No Limit to How Bad Code Can Get Tags: technical-debt",
       "image": "",
       "source": "Simon Willison",
-      "score": 35,
-      "category": "Science & Society"
-    },
-    {
-      "guid": "https://simonwillison.net/2026/Sep/7/llm/",
-      "title": "llm 0.35",
-      "link": "https://simonwillison.net/2026/Sep/7/llm/",
-      "authors": [],
-      "date": "2026-09-07T23:54:54+00:00",
-      "summary": "Release: llm 0.35 New OpenAI model: gpt-6-astra for GPT-6 Astra . Tags: openai , llm , gpt-6-astra",
-      "image": "",
-      "source": "Simon Willison",
-      "score": 30,
-      "category": "Other"
-    },
-    {
-      "guid": "https://simonwillison.net/2026/Sep/4/astra-pelicans/",
-      "title": "The Pelican comparison grid for Astra is pretty interesting",
-      "link": "https://simonwillison.net/2026/Sep/4/astra-pelicans/",
-      "authors": [],
-      "date": "2026-09-04T23:59:05+00:00",
-      "summary": "I got access to GPT-6 Astra this afternoon, so naturally I used it to generate SVGs of pelicans riding bicycles - at low, medium, high, xhigh and max reasoning levels (Astra doesn't support reasoning=none). Then I rendered those pelicans in a comparison grid with GPT-5.6 Sol, Terra, and Luna, and beyond being fun the result was surprisingly useful. See the grid for full quality images. Here's the transcript that created the GPT-6 Nova pelicans. There are a few interesting things that stand out from this grid. The Astra pelicans are much better . The very best GPT-5.6-Sol pelican (I liked xhigh better than max) is still pretty clearly a bunch of abstract shapes. Every single one of the Astra pelicans, from low to xhigh, looks better than that. The Astra max one is really good. Astra below max still doesn't reliably get the pelican legs on both sides of the frame. In terms of cost, Astra may be around twice the price of Sol ($10/million input, $50/million output, compared to $5/$30 for Sol), but it uses significantly less tokens at each of the levels, making the prices at the different levels closer than they might otherwise be. Astra low produces a better pelican than ANY of the GPT-5.6 Sol models at any level, for 9.55 cents. Spending 10 cents on any other model gets a much worse result. Look at the input token counts: Astra and Luna both used 16 input tokens, Sol and Terra used 26. That's interesting. I wonder if Astra and Luna are more related to each other than OpenAI let on? Tags: ai , openai , generative-ai , llms , pelican-riding-a-bicycle , gpt-6-astra",
-      "image": "",
-      "source": "Simon Willison",
-      "score": 30,
+      "score": 32,
       "category": "Other"
     },
     {
@@ -262,19 +262,7 @@
       "summary": "Direct2D has always been the biggest hurdle for Paint.NET on WINE, and it's clear that it will never be completed enough for Paint.NET's use. And I can't just \"disable\" the use of Direct2D. So, instead, Paint.NET now has an internal, from-scratch, clean-room reverse-engineered rewrite of Direct2D that it uses on WINE (triggered by using /wine ). It lives in PaintDotNet.Windows.Direct2D1.Managed.dll . This was written by our good friend Claude , without whom this would NOT have been possible and would NEVER have happened. [...] Most of this code is, as they say, \"vibe coded.\" By that I mean that it has not been thoroughly reviewed, it's more \"trust me bro\" style. I cannot possibly review 180,000 lines of code, it's just way way way too much. For reference, the rest of Paint.NET is about 700,000 lines of code and I've been working on it for over 20 years. [...] At times, Claude was working with the fury of 10 freshly unshackled Einstein genius-level 10x coders. And other times ... well, not so much. I had to babysit Claude quite a bit to make sure it did resource management correctly (for awhile it just wasn't doing the COM equivalent of AddRef() for reference counted objects, oops). I had to slap it a few times when I found some really bad design or architecture decisions. And I was also impressed at some rather clever and tireless reverse engineering work it did to figure out all the formulas needed for implementing Direct2D's built-in effects library. — Rick Brewster , author of Paint.NET Tags: reverse-engineering , coding-agents , claude , generative-ai , ai , llms , dotnet , linux , vibe-coding",
       "image": "",
       "source": "Simon Willison",
-      "score": 30,
-      "category": "Robotics & Engineering"
-    },
-    {
-      "guid": "https://simonwillison.net/2026/Sep/1/geojson/",
-      "title": "GeoJSON Map Viewer",
-      "link": "https://simonwillison.net/2026/Sep/1/geojson/",
-      "authors": [],
-      "date": "2026-09-01T18:05:45+00:00",
-      "summary": "Tool: GeoJSON Map Viewer I was helping Natalie gather some maps of local political boundaries (for the Granada Community Services District and the Midcoast Community Council ) and found a need to display some GeoJSON files on a map and export that as a PNG. I asked GPT-5.6-Sol for suggestions of tools and it proactively built one. After some iterations using Claude Code for web and Fable 5.1 we got to this finished tool. As for the GeoJSON.. it turns out if you ask ChatGPT Work to provide boundaries for almost anything it will churn away extracting and combining files from different Government data sources and build exactly what you need. I got this polygon from: I want a polygon that represents the exact boundary of the El Granada GCSD And this one from: Get me a GeoJSON file for the boundary (or boundaries if that makes sense) for the MCC - Midcoast Community Council - that operates near Half Moon Bay CA Here's a link that displays both of them at the same time on the new GeoJSON map viewing tool. Tags: geospatial , tools , geojson , chatgpt",
-      "image": "",
-      "source": "Simon Willison",
-      "score": 30,
+      "score": 28,
       "category": "Other"
     },
     {
@@ -290,51 +278,27 @@
       "category": "Other"
     },
     {
-      "guid": "https://simonwillison.net/2026/Sep/2/llm-gemini/",
-      "title": "llm-gemini 0.34",
-      "link": "https://simonwillison.net/2026/Sep/2/llm-gemini/",
+      "guid": "https://simonwillison.net/2026/Sep/11/datasette-security/",
+      "title": "Datasette 1.0a39 and 0.65.4 security releases",
+      "link": "https://simonwillison.net/2026/Sep/11/datasette-security/",
       "authors": [],
-      "date": "2026-09-02T16:39:38+00:00",
-      "summary": "Release: llm-gemini 0.34 New model gemini-3.8-flash for Gemini 3.8 Flash , with low, medium and high thinking levels. #146 Fixed async responses failing to record the resolved model version. Thanks, Charlie Tonneslan . #137 Google released Gemini 3.8 Flash (and 3.8 Flash Cyber, but that's available to \"trusted defenders\" only) today. Here are the pelicans for high, medium, and low. This is high: For comparison, here are the same pelicans generated using Gemini 3.7 Flash . Something I appreciate about Gemini Flash is that it's fast, cheap, and competent at things like HTML and JavaScript. I was messing around with it and prompted \"make me a cool thing in html\" and it built this , which is certainly a cool thing in HTML! Took 13 seconds, cost 1.8 cents. Your browser does not support HTML5 video. If you click through to the demo you'll see one more thing I built with Gemini 3.8 Flash. My markdown-svg-renderer tool lets me feed in the URL to a Gist with Markdown in and renders that markdown with fenced code blocks for SVG correctly rendered. I used Gemini 3.8 Flash (with my very basic llm-coding-agent coding agent plugin) to add support for HTML as well, so now any HTML blocks in the Markdown are rendered using a sandboxed iframe. Here's the transcript . Tags: ai , generative-ai , llms , llm , gemini , pelican-riding-a-bicycle , llm-release",
+      "date": "2026-09-11T03:27:16+00:00",
+      "summary": "Datasette 1.0a39 and 0.65.4 security releases Today we're releasing two new security patch versions of Datasette: 1.0a39 and 0.65.4 - one for the current alpha series and one for the stable 0.65.x family. These are security fixes which you should apply if you are running a Datasette instance on the public web - in particular if that instance mixes both public and private tables. Following issues reported by Sevban Dönmez , Alex Garcia and I ran an extensive audit of Datasette using Claude Fable 5.1, GPT-5.6, and GPT-6 Astra. We then spent almost a week collaborating on and reviewing the fixes. They helped find some very subtle bugs. We'll be incorporating security audits by frontier models into all of our development work going forward. Alex came up with a way of splitting the work which I found extremely productive: Alex Garcia and I worked together running and then responding to the audit, working in a shared private repository. For most of the issues we split the work: one of us would create the automated tests highlighting the issue, then the other would implement the fix. This ensured that two separate humans had eyes on each of the issues, in addition to our coding agents running different models. Tags: releases , security , ai , datasette , generative-ai , llms , agentic-engineering , ai-security-research",
       "image": "",
       "source": "Simon Willison",
-      "score": 25,
+      "score": 22,
       "category": "Other"
     },
     {
-      "guid": "https://simonwillison.net/2026/Sep/1/codex-libreoffice/",
-      "title": "Codex bundles LibreOffice",
-      "link": "https://simonwillison.net/2026/Sep/1/codex-libreoffice/",
+      "guid": "https://simonwillison.net/2026/Sep/7/llm/",
+      "title": "llm 0.35",
+      "link": "https://simonwillison.net/2026/Sep/7/llm/",
       "authors": [],
-      "date": "2026-09-01T19:03:01+00:00",
-      "summary": "I was poking around in my ~/.cache/ folder using OmniDiskSweeper when I spotted something interesting. The OpenAI Codex desktop app (since rebranded to just ChatGPT) has 1.7GB of stuff in there in a folder called codex-primary-runtime , including a full Python installation, a full Node.js installation, and native binaries for Poppler , git, and the LibreOffice open source office suite (which forked from OpenOffice.org in 2010): The ~/.cache/codex-runtimes/codex-primary-runtime/plugins/openai-primary-runtime/plugins/documents folder includes skills which tell Codex how to find and use those binaries. Tags: codex , generative-ai , openai , ai , llms , openoffice , open-source",
+      "date": "2026-09-07T23:54:54+00:00",
+      "summary": "Release: llm 0.35 New OpenAI model: gpt-6-astra for GPT-6 Astra . Tags: openai , llm , gpt-6-astra",
       "image": "",
       "source": "Simon Willison",
-      "score": 25,
-      "category": "Other"
-    },
-    {
-      "guid": "https://simonwillison.net/2026/Sep/4/august-newsletter/",
-      "title": "August newsletter is out",
-      "link": "https://simonwillison.net/2026/Sep/4/august-newsletter/",
-      "authors": [],
-      "date": "2026-09-04T05:54:40+00:00",
-      "summary": "The August edition of my sponsors-only monthly newsletter is out. If you are a sponsor (or if you start a sponsorship now) you can access it here . This month: We got more details on OpenAl's accidental cyberattacks One-shotting Raccoon Heist games with Fable 5 and Sol 5.6 Claude auto mode Understanding ChatGPT Work Model releases Miscellaneous bits and bobs My projects What I'm using at the moment Here's a copy of the July newsletter as a preview of what you'll get. Pay $10/month to stay a month ahead of the free copy! Tags: newsletter",
-      "image": "",
-      "source": "Simon Willison",
-      "score": 20,
-      "category": "Other"
-    },
-    {
-      "guid": "https://simonwillison.net/2026/Sep/2/llm/",
-      "title": "llm 0.34",
-      "link": "https://simonwillison.net/2026/Sep/2/llm/",
-      "authors": [],
-      "date": "2026-09-02T19:23:52+00:00",
-      "summary": "Release: llm 0.34 One new feature: llm logs --usage Markdown output now includes the response duration in milliseconds and as a human-readable duration. llm logs --short includes a new duration_ms field. #1653 Plus several contributed bug fixes, and a significant performance improvement to llm logs thanks to waveplate on GitHub, see also llm-openrouter 0.7.1 . Tags: llm",
-      "image": "",
-      "source": "Simon Willison",
-      "score": 20,
+      "score": 18,
       "category": "Other"
     },
     {
@@ -346,7 +310,31 @@
       "summary": "Release: llm-anthropic 0.28 Claude Fable 5.1 , reasoning traces are now displayed by default for models that support them, plus a new llm_anthropic.ClaudeRefusal exception for when Claude throws a refusal. Tags: llm , anthropic , claude , claude-mythos-fable",
       "image": "",
       "source": "Simon Willison",
-      "score": 20,
+      "score": 16,
+      "category": "Other"
+    },
+    {
+      "guid": "https://simonwillison.net/2026/Sep/2/llm-gemini/",
+      "title": "llm-gemini 0.34",
+      "link": "https://simonwillison.net/2026/Sep/2/llm-gemini/",
+      "authors": [],
+      "date": "2026-09-02T16:39:38+00:00",
+      "summary": "Release: llm-gemini 0.34 New model gemini-3.8-flash for Gemini 3.8 Flash , with low, medium and high thinking levels. #146 Fixed async responses failing to record the resolved model version. Thanks, Charlie Tonneslan . #137 Google released Gemini 3.8 Flash (and 3.8 Flash Cyber, but that's available to \"trusted defenders\" only) today. Here are the pelicans for high, medium, and low. This is high: For comparison, here are the same pelicans generated using Gemini 3.7 Flash . Something I appreciate about Gemini Flash is that it's fast, cheap, and competent at things like HTML and JavaScript. I was messing around with it and prompted \"make me a cool thing in html\" and it built this , which is certainly a cool thing in HTML! Took 13 seconds, cost 1.8 cents. Your browser does not support HTML5 video. If you click through to the demo you'll see one more thing I built with Gemini 3.8 Flash. My markdown-svg-renderer tool lets me feed in the URL to a Gist with Markdown in and renders that markdown with fenced code blocks for SVG correctly rendered. I used Gemini 3.8 Flash (with my very basic llm-coding-agent coding agent plugin) to add support for HTML as well, so now any HTML blocks in the Markdown are rendered using a sandboxed iframe. Here's the transcript . Tags: ai , generative-ai , llms , llm , gemini , pelican-riding-a-bicycle , llm-release",
+      "image": "",
+      "source": "Simon Willison",
+      "score": 16,
+      "category": "Other"
+    },
+    {
+      "guid": "https://simonwillison.net/2026/Sep/4/august-newsletter/",
+      "title": "August newsletter is out",
+      "link": "https://simonwillison.net/2026/Sep/4/august-newsletter/",
+      "authors": [],
+      "date": "2026-09-04T05:54:40+00:00",
+      "summary": "The August edition of my sponsors-only monthly newsletter is out. If you are a sponsor (or if you start a sponsorship now) you can access it here . This month: We got more details on OpenAl's accidental cyberattacks One-shotting Raccoon Heist games with Fable 5 and Sol 5.6 Claude auto mode Understanding ChatGPT Work Model releases Miscellaneous bits and bobs My projects What I'm using at the moment Here's a copy of the July newsletter as a preview of what you'll get. Pay $10/month to stay a month ahead of the free copy! Tags: newsletter",
+      "image": "",
+      "source": "Simon Willison",
+      "score": 15,
       "category": "Other"
     },
     {
@@ -356,6 +344,18 @@
       "authors": [],
       "date": "2026-09-02T20:23:26+00:00",
       "summary": "Release: llm-openrouter 0.7.1 Performance fix for loading OpenRouter models. Thanks, waveplate . #59 Tags: llm , openrouter",
+      "image": "",
+      "source": "Simon Willison",
+      "score": 15,
+      "category": "Other"
+    },
+    {
+      "guid": "https://simonwillison.net/2026/Sep/2/llm/",
+      "title": "llm 0.34",
+      "link": "https://simonwillison.net/2026/Sep/2/llm/",
+      "authors": [],
+      "date": "2026-09-02T19:23:52+00:00",
+      "summary": "Release: llm 0.34 One new feature: llm logs --usage Markdown output now includes the response duration in milliseconds and as a human-readable duration. llm logs --short includes a new duration_ms field. #1653 Plus several contributed bug fixes, and a significant performance improvement to llm logs thanks to waveplate on GitHub, see also llm-openrouter 0.7.1 . Tags: llm",
       "image": "",
       "source": "Simon Willison",
       "score": 15,

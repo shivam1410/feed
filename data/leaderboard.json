@@ -1,106 +1,106 @@
 {
-  "generatedAt": "2026-09-10T19:06:43+05:30",
+  "generatedAt": "2026-09-11T19:05:24+05:30",
   "source": "Hugging Face — trending models",
   "models": [
     {
       "id": "deepseek-ai/DeepSeek-V4.1-Flash",
       "task": "image-text-to-text",
-      "likes": 922,
-      "downloads": 6,
+      "likes": 1666,
+      "downloads": 75774,
       "library": "transformers",
       "createdAt": "2026-09-10T02:17:58.000Z",
       "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash",
-      "summary": "Multimodal MoE model that processes images and text with efficient KV cache compression for agentic workloads."
+      "summary": "Multimodal MoE model processing images and text with efficient KV cache compression for million-token contexts and agentic tasks."
     },
     {
       "id": "openbmb/MiniCPM5-2B",
       "task": "text-generation",
-      "likes": 1044,
-      "downloads": 42289,
+      "likes": 1161,
+      "downloads": 67550,
       "library": "transformers",
       "createdAt": "2026-09-06T11:12:19.000Z",
       "url": "https://huggingface.co/openbmb/MiniCPM5-2B",
-      "summary": "Compact 2B-parameter dense model optimized for on-device deployment with tool-calling and long-context capabilities."
+      "summary": "Dense 2B model optimized for on-device deployment with long-context and tool-use capabilities, competitive with larger models."
     },
     {
       "id": "XHToken/Spark-X2.5-4B",
       "task": "text-generation",
-      "likes": 1038,
-      "downloads": 15930,
+      "likes": 1086,
+      "downloads": 17712,
       "library": "transformers",
       "createdAt": "2026-08-24T06:34:34.000Z",
       "url": "https://huggingface.co/XHToken/Spark-X2.5-4B",
-      "summary": "Efficient 4B language model with hybrid attention, 1M token context, and support for 200+ languages and agentic workflows."
-    },
-    {
-      "id": "ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF",
-      "task": "image-text-to-text",
-      "likes": 764,
-      "downloads": 614850,
-      "library": "gguf",
-      "createdAt": "2026-08-28T18:38:03.000Z",
-      "url": "https://huggingface.co/ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF",
-      "summary": "GGUF-quantized multimodal model using gradient-based per-tensor precision assignment for efficient inference."
+      "summary": "Efficient 4B model with native 1M-token context supporting conversation, coding, and agentic workflows across 200+ languages."
     },
     {
       "id": "Qwen/Qwen3.8-27B",
       "task": "image-text-to-text",
-      "likes": 14581,
-      "downloads": 7322476,
+      "likes": 14710,
+      "downloads": 7563763,
       "library": "transformers",
       "createdAt": "2026-08-05T08:22:59.000Z",
       "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
-      "summary": "Dense 27B multimodal model with flexible thinking control designed for complex multi-step agentic tasks."
+      "summary": "Vision-language model with flexible thinking control for complex multi-step tasks including coding, research, and agentic workflows."
     },
     {
       "id": "nex-agi/Nex-N2.5-mini",
       "task": "text-generation",
-      "likes": 628,
-      "downloads": 2444,
+      "likes": 676,
+      "downloads": 3121,
       "library": "transformers",
       "createdAt": "2026-09-08T05:08:43.000Z",
       "url": "https://huggingface.co/nex-agi/Nex-N2.5-mini",
-      "summary": "Agentic model for long-horizon real-world tasks with computer use, web browsing, and visual grounding capabilities."
+      "summary": "Multimodal agentic model with computer use and web browsing for long-horizon tasks using visual feedback to self-correct."
+    },
+    {
+      "id": "ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF",
+      "task": "image-text-to-text",
+      "likes": 819,
+      "downloads": 682187,
+      "library": "gguf",
+      "createdAt": "2026-08-28T18:38:03.000Z",
+      "url": "https://huggingface.co/ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF",
+      "summary": "Non-uniform GGUF quantization of Qwen3.8-27B with vision projector for efficient multimodal inference in llama.cpp."
     },
     {
       "id": "nex-agi/Nex-N2.5-Pro",
       "task": "text-generation",
-      "likes": 577,
-      "downloads": 3,
+      "likes": 591,
+      "downloads": 12260,
       "library": "transformers",
       "createdAt": "2026-09-08T11:01:41.000Z",
       "url": "https://huggingface.co/nex-agi/Nex-N2.5-Pro",
-      "summary": "Upcoming agentic model for long-horizon tasks with computer use and visually grounded capabilities."
+      "summary": "Agentic model with enhanced computer use and web browsing capabilities for long-horizon real-world tasks."
     },
     {
       "id": "Lightricks/LTX-2.5",
       "task": "image-to-video",
-      "likes": 3326,
-      "downloads": 1740572,
+      "likes": 3433,
+      "downloads": 1669564,
       "library": "diffusion-single-file",
       "createdAt": "2026-07-23T07:55:24.000Z",
       "url": "https://huggingface.co/Lightricks/LTX-2.5",
-      "summary": "Diffusion model supporting multiple input/output modalities for video generation from images, text, or audio."
-    },
-    {
-      "id": "google/timesfm-3.0-pytorch",
-      "task": "time-series-forecasting",
-      "likes": 704,
-      "downloads": 483787,
-      "library": null,
-      "createdAt": "2026-08-24T22:05:51.000Z",
-      "url": "https://huggingface.co/google/timesfm-3.0-pytorch",
-      "summary": "Foundation model for time-series forecasting using stacked mixing transformer architecture with variate attention."
+      "summary": "Diffusion model for multimodal generation tasks including image-to-video, text-to-video, and audio-video conversions."
     },
     {
       "id": "unsloth/Qwen3.8-27B-GGUF",
       "task": null,
-      "likes": 3814,
-      "downloads": 11127203,
+      "likes": 3875,
+      "downloads": 11339637,
       "library": null,
       "createdAt": "2026-08-13T08:28:40.000Z",
       "url": "https://huggingface.co/unsloth/Qwen3.8-27B-GGUF",
-      "summary": "GGUF-quantized Qwen3.8-27B achieving improved accuracy with dynamic quantization and enhanced tool-calling for agents."
+      "summary": "Unsloth GGUF quantization of Qwen3.8-27B with optimized accuracy, fine-tuning support, and improved tool calling."
+    },
+    {
+      "id": "dealignai/GLM-5.3-CYBERSECURITY-FP8",
+      "task": "text-generation",
+      "likes": 378,
+      "downloads": 28328,
+      "library": null,
+      "createdAt": "2026-08-30T10:46:54.000Z",
+      "url": "https://huggingface.co/dealignai/GLM-5.3-CYBERSECURITY-FP8",
+      "summary": "Cybersecurity-focused GLM 5.3 model in FP8 format with reasoning control and long-context support for pentest tasks."
     }
   ]
 }

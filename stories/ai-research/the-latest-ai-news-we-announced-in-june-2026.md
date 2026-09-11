@@ -5,10 +5,10 @@ source: "DeepMind"
 url: "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-june-2026/"
 authors: ["News from Google Team"]
 date: "Wed, 01 Jul 2026 18:15:00 +0000"
-score: 25
+score: 15
 guid: "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-june-2026/"
 image: "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/260701_ICYMI-June-AI_Thumb.max-600x600.format-webp.webp"
-generated: "2026-09-09T19:07:26+05:30"
+generated: "2026-09-11T19:04:49+05:30"
 ---
 
 Here are Google’s latest AI updates from June 2026.

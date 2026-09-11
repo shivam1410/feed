@@ -5,10 +5,10 @@ source: "DeepMind"
 url: "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/alphagenome-atlas/"
 authors: ["Pushmeet Kohli", "Žiga Avsec"]
 date: "Tue, 08 Sep 2026 14:00:00 +0000"
-score: 85
+score: 82
 guid: "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/alphagenome-atlas/"
 image: "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AlphaGenome_Atlas_herosocial.max-600x600.format-webp.webp"
-generated: "2026-09-10T19:06:15+05:30"
+generated: "2026-09-11T19:04:49+05:30"
 ---
 
-DeepMind has unveiled AlphaGenome Atlas, a database predicting the functional consequences of every possible single nucleotide variant in the human genome. This high-resolution genetic map enables researchers to understand how specific DNA variations contribute to disease susceptibility and treatment response. Rather than studying genetic effects one variant at a time, the database provides genome-wide predictions of variant impact. This breakthrough accelerates discovery of disease-causing mutations and enables personalized medicine approaches tailored to individual genetic profiles. The resource fundamentally changes how scientists approach genetic disease understanding and intervention.
+DeepMind introduced AlphaGenome Atlas, a database predicting the effects of every possible single nucleotide variant—the smallest unit of genetic variation—in the human genome. This comprehensive resource enables systematic understanding of how DNA sequence changes affect traits and disease risk. Rather than studying variants one at a time, researchers can now access predictions for all potential variants at scale. This matters because understanding variant effects accelerates disease discovery, informs personalized medicine, and provides a foundation for genetic research across populations.

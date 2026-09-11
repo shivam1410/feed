@@ -8,7 +8,7 @@ date: "2026-09-09"
 score: 65
 guid: "10.1038/s41586-026-11008-2"
 image: ""
-generated: "2026-09-10T19:06:15+05:30"
+generated: "2026-09-11T19:04:49+05:30"
 ---
 
-An electrochemical cell with molten hydroxide and a Pd membrane actively extracts H2 and thereby boosts ammonia and methylcyclohexane conversion, while also delivering purified H2 ready for use.
+An electrochemical cell featuring a palladium membrane actively extracts hydrogen gas, thereby enhancing chemical conversion efficiency in ammonia and methylcyclohexane synthesis. The system uses molten hydroxide electrolyte and the Pd membrane's selective hydrogen permeability to drive the reaction forward and remove products. Hydrogen extraction simultaneously yields purified hydrogen gas suitable for direct use. This matters because it improves thermochemical dehydrogenation efficiency, increases fuel production rates, and simplifies hydrogen purification, making hydrogen generation and chemical synthesis more economically competitive and energy-efficient.

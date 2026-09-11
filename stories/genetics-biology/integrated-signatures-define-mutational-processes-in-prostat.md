@@ -8,7 +8,7 @@ date: "2026-09-09"
 score: 65
 guid: "10.1038/s41586-026-10468-w"
 image: ""
-generated: "2026-09-10T19:06:15+05:30"
+generated: "2026-09-11T19:04:49+05:30"
 ---
 
 Eight integrated mutational footprints collectively explain the mutational processes in 85% of primary prostate cancer genomes.

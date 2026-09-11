@@ -8,7 +8,7 @@ date: "2026-09-09"
 score: 75
 guid: "10.1038/s41586-026-11025-1"
 image: ""
-generated: "2026-09-10T19:06:15+05:30"
+generated: "2026-09-11T19:04:49+05:30"
 ---
 
-A generative framework reconstructs rare biomolecular transition pathways without predefined variables or intensive computational sampling. The committor-guided path-sampling method reveals underlying thermodynamics and kinetics of biomolecular changes at acceptable computational cost. This approach overcomes traditional limitations studying rare conformational transitions critical to understanding protein function, drug binding, and biochemical processes. The framework scales efficiently, enabling exploration of biomolecular dynamics previously considered too computationally demanding.
+A generative committor-guided path-sampling framework reconstructs rare biomolecular transition pathways and reveals the underlying thermodynamics and kinetics without using predefined collective variables or brute-force sampling, at an acceptable computational cost.

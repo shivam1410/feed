@@ -8,7 +8,7 @@ date: "2026-09-06T20:00:00.000Z"
 score: 80
 guid: "2609.06931"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.06931.png"
-generated: "2026-09-11T19:04:49+05:30"
+generated: "2026-09-12T19:07:27+05:30"
 ---
 
-CARDEA is a vision-language model for coronary angiography interpretation that provides auditable diagnoses. It uses chain-of-box reasoning—explaining decisions through spatial evidence—and reinforcement learning with verifiable rewards to improve reasoning quality. The system generates accurate angiography reports and explains its conclusions. This matters because medical AI must be interpretable and trustworthy; auditable reasoning builds clinician confidence and enables verification of AI-assisted diagnoses before clinical use.
+CARDEA is a unified vision-language model specialized for coronary angiography interpretation that provides explainable medical diagnoses through chain-of-box reasoning and reinforcement learning trained with verifiable, interpretable rewards. The chain-of-box approach creates logical reasoning steps through spatial regions of interest, enabling clinicians to validate and audit diagnostic decisions. Reinforcement learning with verifiable rewards ensures the model learns reasoning patterns that align with medical standards. The system improves zero-shot report generation without task-specific fine-tuning. This architecture directly addresses clinical AI's critical requirement for transparency and trustworthiness, allowing physicians to understand how diagnoses were derived.

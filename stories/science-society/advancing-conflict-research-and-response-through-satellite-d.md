@@ -8,7 +8,7 @@ date: "2026-09-09"
 score: 55
 guid: "10.1038/s41586-026-11004-6"
 image: ""
-generated: "2026-09-11T19:04:49+05:30"
+generated: "2026-09-12T19:07:27+05:30"
 ---
 
 Integrating satellite-derived war-damage data with text-based fatality records through improvement, enrichment and fusion mitigates limitations inherent in each source, revealing complex violence dynamics beyond fatality-centric paradigms, as case studies from Ukraine and Myanmar illustrate.

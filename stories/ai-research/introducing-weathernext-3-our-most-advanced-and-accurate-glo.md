@@ -8,7 +8,7 @@ date: "Thu, 03 Sep 2026 15:00:00 +0000"
 score: 72
 guid: "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/introducing-weathernext-3/"
 image: "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/WeatherNext3_Title.max-600x600.format-webp.webp"
-generated: "2026-09-11T19:04:49+05:30"
+generated: "2026-09-12T19:07:27+05:30"
 ---
 
 WeatherNext 3, our most advanced global weather AI model, is now in Search, Gemini, Maps, Google Maps Platform, and Cloud.

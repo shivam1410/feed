@@ -8,7 +8,7 @@ date: "2026-09-07T20:00:00.000Z"
 score: 65
 guid: "2609.09264"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.09264.png"
-generated: "2026-09-11T19:04:49+05:30"
+generated: "2026-09-12T19:07:27+05:30"
 ---
 
 StochBench introduces 450 graduate-level stochastic processes problems in Lean 4 to benchmark formal theorem proving on domain-specific applied mathematics.

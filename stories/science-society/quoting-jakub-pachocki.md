@@ -5,10 +5,10 @@ source: "Simon Willison"
 url: "https://simonwillison.net/2026/Sep/7/jakub-pachocki/"
 authors: []
 date: "2026-09-07T22:26:25+00:00"
-score: 65
+score: 40
 guid: "https://simonwillison.net/2026/Sep/7/jakub-pachocki/"
 image: ""
-generated: "2026-09-11T19:04:49+05:30"
+generated: "2026-09-12T19:07:27+05:30"
 ---
 
-Jakub Pachocki, OpenAI's Chief Scientist, argues for continued rapid scaling of AI models as necessary for building defensive systems against threats posed by other advanced AI. He emphasizes the need for powerful, aligned AI to secure infrastructure, detect rogue agents in real time, and develop protective measures—positioning this as OpenAI's primary deployment focus. While acknowledging uncertainty around AI progress, he warns against using safety concerns as an excuse for recklessness. This frames the AI safety debate around security-driven rationale for capability advancement.
+The strongest argument I see for continuing to train much smarter models quickly is the need to build defensive systems against the dangers posed by other AI. [...] We will need powerful, aligned AI for defense; to secure infrastructure, to protect against rogue agents in real time, and to invent entirely new protective measures. This will be a primary focus of OpenAI’s deployment efforts. At the same time, even with the uncertainty that comes from anticipated broad AI progress and the need to build defensive systems, we must not let that become an excuse for recklessness. The idea of racing forward at all costs seems absurd once one internalizes the seriousness of the stakes. — Jakub Pachocki , Chief Scientist at OpenAI Tags: ai-ethics , openai , ai

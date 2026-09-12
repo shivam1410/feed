@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/d41586-026-02846-1"
 authors: ["Marc Schmitt"]
 date: "2026-09-09"
-score: 42
+score: 36
 guid: "10.1038/d41586-026-02846-1"
 image: ""
-generated: "2026-09-11T19:04:49+05:30"
+generated: "2026-09-12T19:07:27+05:30"
 ---
 
 As artificial-intelligence tools become crucial collaborators in science, universities must teach students to challenge such systems and assess their ability to do so.

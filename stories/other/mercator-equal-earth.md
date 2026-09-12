@@ -5,10 +5,10 @@ source: "Simon Willison"
 url: "https://simonwillison.net/2026/Sep/7/equal-earth/"
 authors: []
 date: "2026-09-07T16:24:16+00:00"
-score: 51
+score: 25
 guid: "https://simonwillison.net/2026/Sep/7/equal-earth/"
 image: ""
-generated: "2026-09-11T19:04:49+05:30"
+generated: "2026-09-12T19:07:27+05:30"
 ---
 
-Following the UN's recent vote to favor the Equal Earth map projection, a developer used GPT-6 Astra to build an interactive animated D3 visualization transitioning between Mercator and Equal Earth projections. The tool lets users explore how the two projections distort geographic area and scale differently. This exemplifies rapid exploratory tooling—using AI to build one-off visualizations without extensive manual coding. While a simple example, it demonstrates how AI reduces friction for curiosity-driven exploration tasks that would previously require significant development effort.
+A developer created an interactive animated tool using D3 that shows the transition between Mercator and Equal Earth map projections. Built with the assistance of GPT-6 Astra through ChatGPT Work, the tool enables users to visualize and explore how these two projection methods represent the world differently. Equal Earth, which was recently voted on by the UN, offers an alternative approach to traditional cartographic representation. The animation helps viewers see the dramatic visual differences between the two projections, clearly showing how the choice of projection fundamentally affects how we perceive global geography, landmass sizes, and spatial relationships. This visualization underscores why projection selection matters.

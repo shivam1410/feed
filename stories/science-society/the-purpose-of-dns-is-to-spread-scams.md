@@ -5,10 +5,10 @@ source: "Simon Willison"
 url: "https://simonwillison.net/2026/Sep/6/the-purpose-of-dns-is-to-spread-scams/"
 authors: []
 date: "2026-09-06T14:40:07+00:00"
-score: 50
+score: 35
 guid: "https://simonwillison.net/2026/Sep/6/the-purpose-of-dns-is-to-spread-scams/"
 image: ""
-generated: "2026-09-10T19:06:15+05:30"
+generated: "2026-09-12T19:07:27+05:30"
 ---
 
 The purpose of DNS is to spread scams Terence Eden shares some daunting statistics in support of his take that "the Domain Name System's purpose seems to be a vector for criminals to run scams on people at a terrifyingly high rate". On this Interisle report ( via Andrew Campling ), Terence says: It says 85 million new registrations of gTLDs were made in 2025. Of those 8.5 million were added to blocklists by May 2025. It reckons that a 10% abuse rate is the likely floor for these numbers and it's probably closer to 20%. One in five newly registered domains with a gTLD are scams. That's a bloody crisis. I had no idea. Apparently ICANN have been discussing this problem for years. Tags: dns , scams , terence-eden

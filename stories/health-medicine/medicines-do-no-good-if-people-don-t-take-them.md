@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/d41586-026-02658-3"
 authors: ["Laura Vargas-Parada"]
 date: "2026-09-09"
-score: 44
+score: 50
 guid: "10.1038/d41586-026-02658-3"
 image: ""
-generated: "2026-09-11T19:04:49+05:30"
+generated: "2026-09-12T19:07:27+05:30"
 ---
 
 Health psychologist Rob Horne explains why medication non-adherence is such a problem, and how behavioural science can help to address it.

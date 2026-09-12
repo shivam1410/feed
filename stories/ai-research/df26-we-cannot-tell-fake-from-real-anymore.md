@@ -8,7 +8,7 @@ date: "2026-09-06T20:00:00.000Z"
 score: 75
 guid: "2609.07369"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.07369.png"
-generated: "2026-09-11T19:04:49+05:30"
+generated: "2026-09-12T19:07:27+05:30"
 ---
 
 A new benchmark for AI-generated public-speaking videos reveals that both humans and current detectors perform near chance, underscoring the need for robustness to modern generative distribution shifts.

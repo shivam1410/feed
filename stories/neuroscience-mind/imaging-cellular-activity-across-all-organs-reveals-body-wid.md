@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/s41586-026-10979-6"
 authors: ["Virginie M. S. Ruetten", "Wei Zheng", "Igor Siwanowicz", "Brett D. Mensh", "Mark Eddison", "Amy Hu", "Yunfeng Chi", "Andrew L. Lemire", "Caiying Guo", "Mykola Kadobianskyi", "Marc Renz", "Sara Lelek-Greskovic", "Yisheng He", "Kari Close", "Gudrun Ihrke", "Aparna Dev", "Alyson Petruncio", "Yinan Wan", "Rongwei Zhang", "Mark C. Fishman", "Florian Engert", "Benjamin Judkewitz", "Mikail Rubinov", "Philipp J. Keller", "Chie Satou", "Guoqiang Yu", "Paul W. Tillberg", "Maneesh Sahani", "Misha B. Ahrens"]
 date: "2026-09-09"
-score: 76
+score: 80
 guid: "10.1038/s41586-026-10979-6"
 image: ""
-generated: "2026-09-11T19:04:49+05:30"
+generated: "2026-09-12T19:07:27+05:30"
 ---
 
-A whole-body imaging system recorded cellular activity throughout entire zebrafish organisms, revealing multiple distributed biological circuits operating across different organs. The technology captures real-time cellular dynamics and organ-level interactions, enabling scientists to visualize how different tissues communicate and coordinate. The approach identified previously unknown body-wide functional networks. This matters because it demonstrates how multi-organ circuit mapping can reveal systemic coordination mechanisms, advancing understanding of how organism-level physiology emerges from cellular activity and potentially identifying therapeutic intervention points for disease affecting multiple organs.
+A novel whole-body imaging system records cellular activity simultaneously across all organs of zebrafish, revealing organ-wide dynamics and distributed neural circuits. By capturing activity from thousands of neurons across multiple organs, the system identifies how different body regions coordinate through interconnected cellular networks. Zebrafish transparency enables unprecedented optical access, and the imaging reveals circuits controlling behavior, physiology, and organ function. This technology opens new avenues for understanding systems-level biology and how distributed circuits integrate information across the organism.

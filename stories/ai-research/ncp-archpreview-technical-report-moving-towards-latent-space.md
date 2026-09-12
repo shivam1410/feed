@@ -8,7 +8,7 @@ date: "2026-09-08T20:00:00.000Z"
 score: 75
 guid: "2609.10715"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.10715.png"
-generated: "2026-09-11T19:04:49+05:30"
+generated: "2026-09-12T19:07:27+05:30"
 ---
 
 NCP-ArchPreview is a large latent-space language model that jointly trains next-token and next-concept prediction to improve pretraining efficiency and downstream performance.

@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/s41586-026-10979-6"
 authors: ["Virginie M. S. Ruetten", "Wei Zheng", "Igor Siwanowicz", "Brett D. Mensh", "Mark Eddison", "Amy Hu", "Yunfeng Chi", "Andrew L. Lemire", "Caiying Guo", "Mykola Kadobianskyi", "Marc Renz", "Sara Lelek-Greskovic", "Yisheng He", "Kari Close", "Gudrun Ihrke", "Aparna Dev", "Alyson Petruncio", "Yinan Wan", "Rongwei Zhang", "Mark C. Fishman", "Florian Engert", "Benjamin Judkewitz", "Mikail Rubinov", "Philipp J. Keller", "Chie Satou", "Guoqiang Yu", "Paul W. Tillberg", "Maneesh Sahani", "Misha B. Ahrens"]
 date: "2026-09-09"
-score: 80
+score: 78
 guid: "10.1038/s41586-026-10979-6"
 image: ""
-generated: "2026-09-12T19:07:27+05:30"
+generated: "2026-09-13T19:06:35+05:30"
 ---
 
-A novel whole-body imaging system records cellular activity simultaneously across all organs of zebrafish, revealing organ-wide dynamics and distributed neural circuits. By capturing activity from thousands of neurons across multiple organs, the system identifies how different body regions coordinate through interconnected cellular networks. Zebrafish transparency enables unprecedented optical access, and the imaging reveals circuits controlling behavior, physiology, and organ function. This technology opens new avenues for understanding systems-level biology and how distributed circuits integrate information across the organism.
+An advanced imaging system simultaneously captures cellular activity across an entire zebrafish body, revealing how organs and tissues communicate through distributed neural circuits. The whole-organism imaging approach identifies body-wide functional networks connecting multiple organs, discovering interconnections invisible to conventional local imaging methods. These distributed circuits coordinate physiology across organs, and the imaging system reveals their architecture and dynamics. This capability transforms understanding of multi-organ coordination and inter-organ signaling crucial for integrated physiological function.

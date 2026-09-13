@@ -5,10 +5,10 @@ source: "HF Trending Papers"
 url: "https://huggingface.co/papers/2609.05779"
 authors: ["Andrej Andrejev"]
 date: "2026-09-04T20:00:00.000Z"
-score: 58
+score: 51
 guid: "2609.05779"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.05779.png"
-generated: "2026-09-12T19:07:27+05:30"
+generated: "2026-09-13T19:06:35+05:30"
 ---
 
 Diff-based code editing underperforms direct generation overall but excels only on short, localized edits such as refactoring and error fixes, a property termed task locality.

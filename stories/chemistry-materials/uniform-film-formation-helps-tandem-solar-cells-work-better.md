@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/d41586-026-02709-9"
 authors: []
 date: "2026-09-09"
-score: 70
+score: 68
 guid: "10.1038/d41586-026-02709-9"
 image: ""
-generated: "2026-09-11T19:04:49+05:30"
+generated: "2026-09-13T19:06:35+05:30"
 ---
 
-Adding a specialized molecule that selectively binds bromide-bound lead synchronizes crystallization rates in mixed-halide perovskite solar cell films, eliminating defects and improving performance. Bromide-rich and iodide-rich domains normally crystallize at different speeds, creating structural flaws. The targeted additive molecule equalizes these rates, producing uniform films with better stability and higher efficiency in perovskite-organic tandem solar cells. This matters because it addresses a fundamental manufacturing challenge, increasing perovskite cell reliability and performance toward commercial viability, while demonstrating how molecular-level understanding of crystallization can optimize next-generation photovoltaics.
+When manufacturing mixed-halide perovskite films for solar cells, researchers discovered that bromide-rich domains crystallize faster than iodide-rich ones, creating structural defects that reduce efficiency and stability. Scientists solved this problem by adding a molecule engineered to bind selectively to bromide-bound lead, synchronizing crystallization rates across the film. This approach produces uniform perovskite films with superior operating stability and improved energy conversion efficiency. By combining this optimized perovskite layer with an organic solar cell, researchers created high-performing tandem devices, demonstrating how precise control of crystallization kinetics can significantly enhance solar cell performance and durability.

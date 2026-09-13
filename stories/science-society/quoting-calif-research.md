@@ -5,10 +5,10 @@ source: "Simon Willison"
 url: "https://simonwillison.net/2026/Sep/10/calif-research/"
 authors: []
 date: "2026-09-10T00:56:41+00:00"
-score: 55
+score: 80
 guid: "https://simonwillison.net/2026/Sep/10/calif-research/"
 image: ""
-generated: "2026-09-12T19:07:27+05:30"
+generated: "2026-09-13T19:06:35+05:30"
 ---
 
-Today, we're releasing a demo of WeWorm, the first zero-click worm to spread through WeChat calls across iOS and Android. [...] The victim does not need to answer the call, or interact with their phone at all. Even if they do answer, they hear nothing, and the exploit still succeeds. [...] Working with AI, our team found the bug and wrote the first remote code execution (RCE) exploit in about two days. Building the worm took one more week. A worm at this scale used to be the kind of thing that took a larger team months. AI can already do most of the work here. Our team provided the judgment about what to target and how to test it safely. — Calif Research , WeWorm Tags: ai-security-research , ai , llms , security , generative-ai
+Researchers at Calif demonstrated WeWorm, a zero-click worm spreading through WeChat calls on iOS and Android devices. Victims need not answer calls or interact with their phones—the exploit succeeds silently. Using AI assistance, the team identified the underlying vulnerability and developed a working remote code execution exploit in approximately two days, with the complete worm finished in one additional week. This represents substantial acceleration compared to traditional efforts, which required larger teams several months. The research underscores AI's emerging capability in security research and exploit development while simultaneously raising critical concerns about reducing barriers to sophisticated cyberattacks.

@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/d41586-026-02866-x"
 authors: []
 date: "2026-09-10"
-score: 55
+score: 62
 guid: "10.1038/d41586-026-02866-x"
 image: ""
-generated: "2026-09-12T19:07:27+05:30"
+generated: "2026-09-13T19:06:35+05:30"
 ---
 
-Rivers carry unexpectedly large quantities of microplastics to the ocean, with pollution levels spiking dramatically during intense rainfall events. Poor waste management combined with heavy precipitation drives these surges, mobilizing plastics from land into aquatic systems. The finding reveals that river systems are major pathways for microplastic transport to marine environments, not minor contributors as previously thought. Understanding these episodic pollution events is critical for protecting ocean health and marine life, and highlights how climate-driven extreme weather interacts with inadequate waste infrastructure to amplify environmental damage.
+Rivers transport unexpectedly large quantities of microplastics to the ocean, driven by intense rainfall and poor waste management practices. When heavy rains occur in regions lacking adequate waste infrastructure, microplastic pollution spikes dramatically in river systems. This finding highlights how extreme weather combined with waste system failures creates acute pollution pulses. Reducing marine microplastic pollution requires improvements to both waste management infrastructure and climate-resilience planning in vulnerable regions.

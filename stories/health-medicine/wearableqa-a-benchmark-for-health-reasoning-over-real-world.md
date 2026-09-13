@@ -5,10 +5,10 @@ source: "HF Trending Papers"
 url: "https://huggingface.co/papers/2609.05405"
 authors: ["Ji Soo Lee", "Xilun Chen", "Pierce Chuang", "Ashish Shenoy", "Jason Wei", "Dohwan Ko", "Hyunwoo J. Kim", "Benoit Corda"]
 date: "2026-09-03T20:00:00.000Z"
-score: 68
+score: 63
 guid: "2609.05405"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.05405.png"
-generated: "2026-09-12T19:07:27+05:30"
+generated: "2026-09-13T19:06:35+05:30"
 ---
 
 WearableQA is a benchmark of multiple-choice questions derived from real longitudinal wearable data that evaluates large language model reasoning across data and health dimensions.

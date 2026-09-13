@@ -5,10 +5,10 @@ source: "Latent Space"
 url: "https://www.latent.space/p/ainews-openai-reports-navier-stokes"
 authors: []
 date: "Wed, 09 Sep 2026 05:04:51 GMT"
-score: 85
+score: 90
 guid: "https://www.latent.space/p/ainews-openai-reports-navier-stokes"
 image: ""
-generated: "2026-09-12T19:07:27+05:30"
+generated: "2026-09-13T19:06:35+05:30"
 ---
 
-OpenAI reports using approximately 10,000 coordinated AI agents and 130 billion tokens (representing over $40 million in computational costs) to produce a potential solution to the Navier–Stokes existence and smoothness problem, one of seven unsolved Millennium Prize Problems. The effort employed multi-agent reinforcement learning allowing models to self-organize and collaboratively tackle the mathematical problem through massive parallel test-time compute. The announcement triggered significant controversy regarding research attribution, with NYU mathematician Tristan Buckmaster and Anthropic researcher Levent Alpöge claiming OpenAI incorporated insights from their year-long related research without proper acknowledgment.
+Multi-agent reasoning solves Millennium Prize mathematics: OpenAI deployed ~10,000 collaborating agents using 130 billion tokens over 88 hours (estimated cost exceeding $40 million) to solve a Navier-Stokes singularity problem. If verified, this achievement qualifies as a contender for the second Millennium Prize. The effort demonstrates how scaled multi-agent reasoning applied to mathematical problems can tackle previously intractable theoretical challenges.

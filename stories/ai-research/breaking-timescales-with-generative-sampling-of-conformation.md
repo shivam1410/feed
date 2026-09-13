@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/s41586-026-11025-1"
 authors: ["Chenyu Tang", "Mayank Prakash Pandey", "Cheng Giuseppe Chen", "Alberto Megías", "François Dehez", "Christophe Chipot"]
 date: "2026-09-09"
-score: 75
+score: 78
 guid: "10.1038/s41586-026-11025-1"
 image: ""
-generated: "2026-09-11T19:04:49+05:30"
+generated: "2026-09-13T19:06:35+05:30"
 ---
 
-A generative committor-guided path-sampling framework reconstructs rare biomolecular transition pathways and reveals the underlying thermodynamics and kinetics without using predefined collective variables or brute-force sampling, at an acceptable computational cost.
+A novel computational framework reconstructs rare transitions between biomolecular conformations through a generative committor-guided path-sampling approach. The method reveals thermodynamic and kinetic details of rare events without predefined collective variables or expensive brute-force sampling, operating at acceptable computational cost. This advance accelerates understanding of protein dynamics and conformational changes critical for biological function and drug design, revealing molecular mechanisms underlying important biological processes.

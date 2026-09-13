@@ -5,10 +5,10 @@ source: "HF Trending Papers"
 url: "https://huggingface.co/papers/2609.09264"
 authors: ["Idan Davidovich", "Debargha Ganguly", "Vikash Singh", "Vipin Chaudhary"]
 date: "2026-09-07T20:00:00.000Z"
-score: 65
+score: 54
 guid: "2609.09264"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.09264.png"
-generated: "2026-09-12T19:07:27+05:30"
+generated: "2026-09-13T19:06:35+05:30"
 ---
 
 StochBench introduces 450 graduate-level stochastic processes problems in Lean 4 to benchmark formal theorem proving on domain-specific applied mathematics.

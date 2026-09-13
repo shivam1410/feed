@@ -1,106 +1,106 @@
 {
-  "generatedAt": "2026-09-12T19:07:56+05:30",
+  "generatedAt": "2026-09-13T19:07:02+05:30",
   "source": "Hugging Face — trending models",
   "models": [
     {
       "id": "deepseek-ai/DeepSeek-V4.1-Flash",
       "task": "image-text-to-text",
-      "likes": 1912,
-      "downloads": 140636,
+      "likes": 2116,
+      "downloads": 244457,
       "library": "transformers",
       "createdAt": "2026-09-10T02:17:58.000Z",
       "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash",
-      "summary": "A 552B multimodal MoE model supporting 1M-token context with efficient KV cache compression for input-heavy agentic workloads."
+      "summary": "Multimodal 552B MoE model with 1M context and optimized KV cache compression for cost-efficient inference on input-heavy workloads."
     },
     {
       "id": "openbmb/MiniCPM5-2B",
       "task": "text-generation",
-      "likes": 1229,
-      "downloads": 102334,
+      "likes": 1297,
+      "downloads": 150110,
       "library": "transformers",
       "createdAt": "2026-09-06T11:12:19.000Z",
       "url": "https://huggingface.co/openbmb/MiniCPM5-2B",
-      "summary": "A 2B-class dense transformer built for on-device deployment with competitive performance in coding, math, and long-context tasks."
+      "summary": "Dense 2B Transformer optimized for on-device deployment with strong performance in coding, math, long-context, and tool-use tasks."
+    },
+    {
+      "id": "Edge0/Edge0-35B-A3B-preview",
+      "task": "text-generation",
+      "likes": 706,
+      "downloads": 3552,
+      "library": "mlx",
+      "createdAt": "2026-09-08T13:56:18.000Z",
+      "url": "https://huggingface.co/Edge0/Edge0-35B-A3B-preview",
+      "summary": "35B sparse MoE LLM running in phone-class memory under 3GB via streaming inference with int4 quantization and LoRA adapters."
     },
     {
       "id": "nex-agi/Nex-N2.5-mini",
       "task": "text-generation",
-      "likes": 706,
-      "downloads": 3581,
+      "likes": 750,
+      "downloads": 3970,
       "library": "transformers",
       "createdAt": "2026-09-08T05:08:43.000Z",
       "url": "https://huggingface.co/nex-agi/Nex-N2.5-mini",
-      "summary": "A multimodal agentic model optimized for long-horizon tasks with computer use, web browsing, and visual feedback capabilities."
-    },
-    {
-      "id": "XHToken/Spark-X2.5-4B",
-      "task": "text-generation",
-      "likes": 1129,
-      "downloads": 19733,
-      "library": "transformers",
-      "createdAt": "2026-08-24T06:34:34.000Z",
-      "url": "https://huggingface.co/XHToken/Spark-X2.5-4B",
-      "summary": "A 4B general-purpose LLM with 1M-token context, hybrid attention architecture, and strong coding and agent capabilities."
+      "summary": "Multimodal agentic model optimized for long-horizon tasks with computer use, browser operation, and visual feedback capabilities."
     },
     {
       "id": "Qwen/Qwen3.8-27B",
       "task": "image-text-to-text",
-      "likes": 14811,
-      "downloads": 7726687,
+      "likes": 14913,
+      "downloads": 7768964,
       "library": "transformers",
       "createdAt": "2026-08-05T08:22:59.000Z",
       "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
-      "summary": "A 27B vision-language model with flexible thinking control, designed for complex multi-step tasks with image and video understanding."
+      "summary": "27B vision-language model with flexible thinking for coding, research, and complex multi-step agentic tasks with image/video understanding."
     },
     {
-      "id": "ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF",
-      "task": "image-text-to-text",
-      "likes": 858,
-      "downloads": 729683,
-      "library": "gguf",
-      "createdAt": "2026-08-28T18:38:03.000Z",
-      "url": "https://huggingface.co/ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF",
-      "summary": "Non-uniform GGUF quantizations of Qwen3.8-27B using gradient-based precision allocation with vision projector for multimodal inference."
+      "id": "XHToken/Spark-X2.5-4B",
+      "task": "text-generation",
+      "likes": 1149,
+      "downloads": 21336,
+      "library": "transformers",
+      "createdAt": "2026-08-24T06:34:34.000Z",
+      "url": "https://huggingface.co/XHToken/Spark-X2.5-4B",
+      "summary": "4B general-purpose LLM with native 1M context, hybrid attention, and strong coding and agentic capabilities across 200+ languages."
     },
     {
       "id": "nex-agi/Nex-N2.5-Pro",
       "task": "text-generation",
-      "likes": 608,
-      "downloads": 30081,
+      "likes": 620,
+      "downloads": 30289,
       "library": "transformers",
       "createdAt": "2026-09-08T11:01:41.000Z",
       "url": "https://huggingface.co/nex-agi/Nex-N2.5-Pro",
-      "summary": "A professional-grade multimodal agentic model with computer use, web browsing, and visual feedback for autonomous task execution."
+      "summary": "Multimodal pro-tier agentic model for long-horizon tasks with computer operation, web browsing, and visual self-correction capabilities."
+    },
+    {
+      "id": "ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF",
+      "task": "image-text-to-text",
+      "likes": 936,
+      "downloads": 769557,
+      "library": "gguf",
+      "createdAt": "2026-08-28T18:38:03.000Z",
+      "url": "https://huggingface.co/ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF",
+      "summary": "Non-uniform GGUF quantizations of Qwen3.8-27B with per-tensor precision assignment for efficient multimodal inference in llama.cpp."
     },
     {
       "id": "Lightricks/LTX-2.5",
       "task": "image-to-video",
-      "likes": 3560,
-      "downloads": 1601007,
+      "likes": 3675,
+      "downloads": 1548442,
       "library": "diffusion-single-file",
       "createdAt": "2026-07-23T07:55:24.000Z",
       "url": "https://huggingface.co/Lightricks/LTX-2.5",
-      "summary": "A multimodal video generation model supporting text-to-video, image-to-video, video-to-video, and audio combinations."
+      "summary": "Multimodal video generation model supporting image-to-video, text-to-video, audio-to-video, and related video transformation tasks."
     },
     {
-      "id": "unsloth/Qwen3.8-27B-GGUF",
-      "task": null,
-      "likes": 3924,
-      "downloads": 11529203,
+      "id": "m-a-p/YuE2-3B",
+      "task": "text-to-audio",
+      "likes": 375,
+      "downloads": 3707,
       "library": null,
-      "createdAt": "2026-08-13T08:28:40.000Z",
-      "url": "https://huggingface.co/unsloth/Qwen3.8-27B-GGUF",
-      "summary": "Optimized GGUF quantizations of Qwen3.8-27B with improved tool calling and support for agentic applications."
-    },
-    {
-      "id": "WarmBloodAban/Minimax-h3_Singularity",
-      "task": "image-to-video",
-      "likes": 331,
-      "downloads": 114141,
-      "library": "minimax-h3",
-      "createdAt": "2026-09-05T18:51:01.000Z",
-      "url": "https://huggingface.co/WarmBloodAban/Minimax-h3_Singularity",
-      "summary": "A fine-tuned Minimax-H3 video generation model supporting text-to-video, image-to-video, and reference-to-video with enhanced motion dynamics."
+      "createdAt": "2026-09-09T18:30:33.000Z",
+      "url": "https://huggingface.co/m-a-p/YuE2-3B",
+      "summary": "Open music generation model producing frontier-quality songs with editable symbolic scores and agentic melody/chord editing capabilities."
     }
   ]
 }

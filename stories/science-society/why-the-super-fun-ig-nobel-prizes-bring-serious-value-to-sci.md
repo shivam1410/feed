@@ -8,7 +8,7 @@ date: "2026-09-09"
 score: 38
 guid: "10.1038/d41586-026-02793-x"
 image: ""
-generated: "2026-09-12T19:07:27+05:30"
+generated: "2026-09-13T19:06:35+05:30"
 ---
 
 Awards that celebrate humour, curiosity and irreverence are a balm in hard times.

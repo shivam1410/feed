@@ -8,7 +8,7 @@ date: "2026-09-09"
 score: 72
 guid: "10.1038/s41586-026-10998-3"
 image: ""
-generated: "2026-09-12T19:07:27+05:30"
+generated: "2026-09-13T19:06:35+05:30"
 ---
 
-TRI-611 induces the degradation of ALK fusion proteins via a previously undescribed CRBN recruitment motif, and its preclinical anti-tumour activity highlights TRI-611 as a potential new way of treating ALK-positive non-small-cell lung cancer.
+TRI-611 is a selective, brain-penetrant small-molecule compound that degrades ALK fusion proteins, oncogenic drivers of certain lung cancers. The molecule recruits a key cellular degradation pathway through a previously unknown molecular interaction with CRBN. Preclinical studies demonstrate robust anti-tumor activity and suggest TRI-611 could provide more effective treatment for ALK-positive non-small-cell lung cancer than existing therapies. This represents a novel degradation mechanism with potential clinical implications for precision cancer treatment.

@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/d41586-026-02416-5"
 authors: ["Carol Scheina"]
 date: "2026-09-09"
-score: 22
+score: ""
 guid: "10.1038/d41586-026-02416-5"
 image: ""
-generated: "2026-09-13T19:06:35+05:30"
+generated: "2026-09-14T19:00:19+05:30"
 ---
 
 Thinking small.

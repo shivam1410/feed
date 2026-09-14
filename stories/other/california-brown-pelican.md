@@ -2,13 +2,13 @@
 title: "California Brown Pelican"
 category: "Other"
 source: "Simon Willison"
-url: "https://simonwillison.net/2026/Jun/2/sighting-367841339/#atom-everything"
+url: "https://simonwillison.net/2026/Sep/12/sighting-399708714/"
 authors: []
-date: "2026-06-02T18:17:03+00:00"
-score: 5
-guid: "https://simonwillison.net/2026/Jun/2/sighting-367841339/#atom-everything"
+date: "2026-09-12T21:16:09+00:00"
+score: ""
+guid: "https://simonwillison.net/2026/Sep/12/sighting-399708714/"
 image: ""
-generated: "2026-06-11T19:06:09+05:30"
+generated: "2026-09-14T19:00:19+05:30"
 ---
 
-California Brown Pelican, in Fort Mason, CA, US I'm at the Microsoft Build conference today, held at Fort Mason in San Francisco. There are California Brown Pelicans diving into the water directly behind venue! Tags: microsoft , ai , generative-ai , llms , llm-release
+California Brown Pelican, in San Mateo County, CA, US The Pacifica Pier shut down at the start of June after a crack in the concrete walkway made access to the pier unsafe. It has since been entirely taken over by pelicans! Tags: wildlife

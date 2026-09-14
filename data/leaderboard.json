@@ -1,106 +1,96 @@
 {
-  "generatedAt": "2026-09-13T19:07:02+05:30",
+  "generatedAt": "2026-09-14T19:00:28+05:30",
   "source": "Hugging Face — trending models",
   "models": [
     {
       "id": "deepseek-ai/DeepSeek-V4.1-Flash",
       "task": "image-text-to-text",
-      "likes": 2116,
-      "downloads": 244457,
+      "likes": 2358,
+      "downloads": 288414,
       "library": "transformers",
       "createdAt": "2026-09-10T02:17:58.000Z",
-      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash",
-      "summary": "Multimodal 552B MoE model with 1M context and optimized KV cache compression for cost-efficient inference on input-heavy workloads."
-    },
-    {
-      "id": "openbmb/MiniCPM5-2B",
-      "task": "text-generation",
-      "likes": 1297,
-      "downloads": 150110,
-      "library": "transformers",
-      "createdAt": "2026-09-06T11:12:19.000Z",
-      "url": "https://huggingface.co/openbmb/MiniCPM5-2B",
-      "summary": "Dense 2B Transformer optimized for on-device deployment with strong performance in coding, math, long-context, and tool-use tasks."
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash"
     },
     {
       "id": "Edge0/Edge0-35B-A3B-preview",
       "task": "text-generation",
-      "likes": 706,
-      "downloads": 3552,
+      "likes": 1552,
+      "downloads": 8109,
       "library": "mlx",
       "createdAt": "2026-09-08T13:56:18.000Z",
-      "url": "https://huggingface.co/Edge0/Edge0-35B-A3B-preview",
-      "summary": "35B sparse MoE LLM running in phone-class memory under 3GB via streaming inference with int4 quantization and LoRA adapters."
+      "url": "https://huggingface.co/Edge0/Edge0-35B-A3B-preview"
+    },
+    {
+      "id": "openbmb/MiniCPM5-2B",
+      "task": "text-generation",
+      "likes": 1370,
+      "downloads": 206774,
+      "library": "transformers",
+      "createdAt": "2026-09-06T11:12:19.000Z",
+      "url": "https://huggingface.co/openbmb/MiniCPM5-2B"
     },
     {
       "id": "nex-agi/Nex-N2.5-mini",
       "task": "text-generation",
-      "likes": 750,
-      "downloads": 3970,
+      "likes": 776,
+      "downloads": 4543,
       "library": "transformers",
       "createdAt": "2026-09-08T05:08:43.000Z",
-      "url": "https://huggingface.co/nex-agi/Nex-N2.5-mini",
-      "summary": "Multimodal agentic model optimized for long-horizon tasks with computer use, browser operation, and visual feedback capabilities."
+      "url": "https://huggingface.co/nex-agi/Nex-N2.5-mini"
     },
     {
       "id": "Qwen/Qwen3.8-27B",
       "task": "image-text-to-text",
-      "likes": 14913,
-      "downloads": 7768964,
+      "likes": 15084,
+      "downloads": 7703400,
       "library": "transformers",
       "createdAt": "2026-08-05T08:22:59.000Z",
-      "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
-      "summary": "27B vision-language model with flexible thinking for coding, research, and complex multi-step agentic tasks with image/video understanding."
-    },
-    {
-      "id": "XHToken/Spark-X2.5-4B",
-      "task": "text-generation",
-      "likes": 1149,
-      "downloads": 21336,
-      "library": "transformers",
-      "createdAt": "2026-08-24T06:34:34.000Z",
-      "url": "https://huggingface.co/XHToken/Spark-X2.5-4B",
-      "summary": "4B general-purpose LLM with native 1M context, hybrid attention, and strong coding and agentic capabilities across 200+ languages."
+      "url": "https://huggingface.co/Qwen/Qwen3.8-27B"
     },
     {
       "id": "nex-agi/Nex-N2.5-Pro",
       "task": "text-generation",
-      "likes": 620,
-      "downloads": 30289,
+      "likes": 630,
+      "downloads": 30489,
       "library": "transformers",
       "createdAt": "2026-09-08T11:01:41.000Z",
-      "url": "https://huggingface.co/nex-agi/Nex-N2.5-Pro",
-      "summary": "Multimodal pro-tier agentic model for long-horizon tasks with computer operation, web browsing, and visual self-correction capabilities."
+      "url": "https://huggingface.co/nex-agi/Nex-N2.5-Pro"
     },
     {
       "id": "ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF",
       "task": "image-text-to-text",
-      "likes": 936,
-      "downloads": 769557,
+      "likes": 1000,
+      "downloads": 819784,
       "library": "gguf",
       "createdAt": "2026-08-28T18:38:03.000Z",
-      "url": "https://huggingface.co/ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF",
-      "summary": "Non-uniform GGUF quantizations of Qwen3.8-27B with per-tensor precision assignment for efficient multimodal inference in llama.cpp."
+      "url": "https://huggingface.co/ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF"
     },
     {
-      "id": "Lightricks/LTX-2.5",
-      "task": "image-to-video",
-      "likes": 3675,
-      "downloads": 1548442,
-      "library": "diffusion-single-file",
-      "createdAt": "2026-07-23T07:55:24.000Z",
-      "url": "https://huggingface.co/Lightricks/LTX-2.5",
-      "summary": "Multimodal video generation model supporting image-to-video, text-to-video, audio-to-video, and related video transformation tasks."
+      "id": "XHToken/Spark-X2.5-4B",
+      "task": "text-generation",
+      "likes": 1164,
+      "downloads": 24084,
+      "library": "transformers",
+      "createdAt": "2026-08-24T06:34:34.000Z",
+      "url": "https://huggingface.co/XHToken/Spark-X2.5-4B"
     },
     {
       "id": "m-a-p/YuE2-3B",
       "task": "text-to-audio",
-      "likes": 375,
-      "downloads": 3707,
+      "likes": 443,
+      "downloads": 5186,
       "library": null,
       "createdAt": "2026-09-09T18:30:33.000Z",
-      "url": "https://huggingface.co/m-a-p/YuE2-3B",
-      "summary": "Open music generation model producing frontier-quality songs with editable symbolic scores and agentic melody/chord editing capabilities."
+      "url": "https://huggingface.co/m-a-p/YuE2-3B"
+    },
+    {
+      "id": "Lightricks/LTX-2.5",
+      "task": "image-to-video",
+      "likes": 3817,
+      "downloads": 1559653,
+      "library": "diffusion-single-file",
+      "createdAt": "2026-07-23T07:55:24.000Z",
+      "url": "https://huggingface.co/Lightricks/LTX-2.5"
     }
   ]
 }

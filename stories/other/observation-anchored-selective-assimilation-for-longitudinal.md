@@ -1,0 +1,14 @@
+---
+title: "Observation-Anchored Selective Assimilation for Longitudinal Tumor-State Proxy Forecasting in Post-Treatment Glioma"
+category: "Other"
+source: "arXiv (cs.LG)"
+url: "https://arxiv.org/abs/2609.12435"
+authors: ["Yeonjae Jung, Minwoo Shin"]
+date: "Mon, 14 Sep 2026 00:00:00 -0400"
+score: ""
+guid: "oai:arXiv.org:2609.12435v1"
+image: ""
+generated: "2026-09-14T19:00:19+05:30"
+---
+
+arXiv:2609.12435v1 Announce Type: new Abstract: Post-treatment MRI in patients with glioma provides serial observations for updating patient-specific tumor-state proxy estimates, but variable appearances and trajectories complicate forecasting. We formulate forecasting as an observation-aware digital-twin update in which an intermediate observation anchors the patient-specific state. Among 203 patients and 594 follow-up time points, a predefined no-new-treatment criterion retained 120 of 236 candidate triplets, split into 81/24/15 training/validation/test triplets at the patient level. Each time point was represented by a continuous voxel-wise tumor-state proxy map in [0,1] derived from MRI lesion labels. A SegMamba-based single-step forecaster predicted update proposals from multimodal source-state tensors. Observation-Anchored Selective Assimilation (OASA) retained the observed intermediate proxy as the state anchor and selectively applied updates through a validation-selected tiered case-level rule and voxel-wise soft gate. We compared initial-scan forecasting, rollout without assimilation, latest-observation persistence, direct prediction, OASA, OASA + calibration, and morphological dilation. Checkpoints, OASA rules, and calibration thresholds were selected using validation data only. Across three seeds on 15 held-out test triplets, OASA maintained Dice at $\tau$ = 0.2 comparable to persistence (0.6071 $\pm$ 0.0025 vs. 0.6070) while yielding numerically higher Dice at $\tau$ = 0.5 (0.4269 $\pm$ 0.0079 vs. 0.3981), with a small RMSE increase. Calibration increased Dice at $\tau$ = 0.2 to 0.6178 $\pm$ 0.0025, increased false-positive (FP) support (11,836$\rightarrow$18,663), and reduced false-negative (FN) support (22,107$\rightarrow$17,536). This reflects near-threshold support calibration rather than improved biological predictive capability. Code is publicly available at https://github.com/jsudg436/longitudinal-proxy-forecasting.

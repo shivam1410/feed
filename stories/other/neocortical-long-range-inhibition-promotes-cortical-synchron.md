@@ -8,7 +8,7 @@ date: "2026-09-09"
 score: ""
 guid: "10.1038/s41586-026-10876-y"
 image: ""
-generated: "2026-09-14T19:00:19+05:30"
+generated: "2026-09-15T19:00:21+05:30"
 ---
 
 In mice, a sparse population of sleep-active long-range inhibitory neurons in the neocortex promote widespread cortical synchronization and sleep, revealing a cortical mechanism that contributes to the regulation of sleep.

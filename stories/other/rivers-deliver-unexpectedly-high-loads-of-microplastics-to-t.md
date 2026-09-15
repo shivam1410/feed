@@ -8,7 +8,7 @@ date: "2026-09-10"
 score: ""
 guid: "10.1038/d41586-026-02866-x"
 image: ""
-generated: "2026-09-14T19:00:19+05:30"
+generated: "2026-09-15T19:00:21+05:30"
 ---
 
 Intense rains coupled with poor waste management cause big spikes in pollution.

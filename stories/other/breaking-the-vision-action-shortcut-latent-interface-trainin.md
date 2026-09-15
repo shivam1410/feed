@@ -8,7 +8,7 @@ date: "2026-09-10T20:00:00.000Z"
 score: ""
 guid: "2609.12641"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.12641.png"
-generated: "2026-09-14T19:00:19+05:30"
+generated: "2026-09-15T19:00:21+05:30"
 ---
 
 LIT improves robot action generalization by first training pose-conditioned action priors without images, then constraining visual inputs through a pose-supervised latent interface that preserves spatial goal information.

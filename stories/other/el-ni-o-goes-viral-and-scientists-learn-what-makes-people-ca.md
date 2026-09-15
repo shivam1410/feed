@@ -8,7 +8,7 @@ date: "2026-09-11"
 score: ""
 guid: "10.1038/d41586-026-02763-3"
 image: ""
-generated: "2026-09-14T19:00:19+05:30"
+generated: "2026-09-15T19:00:21+05:30"
 ---
 
 Evoking emotions is more likely to prompt people to engage with climate efforts than are data alone.

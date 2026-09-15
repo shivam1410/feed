@@ -8,7 +8,7 @@ date: "2026-09-09"
 score: ""
 guid: "10.1038/s41586-026-11002-8"
 image: ""
-generated: "2026-09-14T19:00:19+05:30"
+generated: "2026-09-15T19:00:21+05:30"
 ---
 
 SERPINE1 and SERPINB2-driven fibrin-rich niches locally programme immunosuppressive macrophages and exclude T cells, enabling spatially organized immune evasion in pancreatic ductal carcinoma.

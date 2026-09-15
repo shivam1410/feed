@@ -8,7 +8,7 @@ date: "2026-09-09T20:00:00.000Z"
 score: ""
 guid: "2609.11115"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.11115.png"
-generated: "2026-09-14T19:00:19+05:30"
+generated: "2026-09-15T19:00:21+05:30"
 ---
 
 Benchmark Radar is a searchable living database and discovery engine for AI evaluation benchmarks that aggregates sources, score histories, and evidence to support benchmark selection and comparison.

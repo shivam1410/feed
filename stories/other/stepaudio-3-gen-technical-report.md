@@ -8,7 +8,7 @@ date: "2026-09-10T20:00:00.000Z"
 score: ""
 guid: "2609.12945"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.12945.png"
-generated: "2026-09-14T19:00:19+05:30"
+generated: "2026-09-15T19:00:21+05:30"
 ---
 
 StepAudio 3 Gen is a discrete autoregressive audio generation model that uses residual vector quantization tokens and a shared code space to unify text-to-speech, voice design, sound effects, and music within a single framework.

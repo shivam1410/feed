@@ -8,7 +8,7 @@ date: "2026-09-09"
 score: ""
 guid: "10.1038/s41586-026-11118-x"
 image: ""
-generated: "2026-09-14T19:00:19+05:30"
+generated: "2026-09-15T19:00:21+05:30"
 ---
 
 Highly efficient base editing at PCSK9 and normal human embryo development

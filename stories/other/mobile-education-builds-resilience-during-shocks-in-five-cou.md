@@ -8,7 +8,7 @@ date: "2026-09-09"
 score: ""
 guid: "10.1038/s41586-026-10990-x"
 image: ""
-generated: "2026-09-14T19:00:19+05:30"
+generated: "2026-09-15T19:00:21+05:30"
 ---
 
 Remote phone-based targeted tutoring in five countries produced large, cost-effective learning gains during school closures, outperforming text messaging and working effectively when delivered by governments or non-governmental organizations to strengthen education resilience.

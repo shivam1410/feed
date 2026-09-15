@@ -8,7 +8,7 @@ date: "2026-09-09"
 score: ""
 guid: "10.1038/s41586-026-10976-9"
 image: ""
-generated: "2026-09-14T19:00:19+05:30"
+generated: "2026-09-15T19:00:21+05:30"
 ---
 
 Identification and proteomic analysis of bone fragments and teeth from an excavation in Southwest China provide insight into the evolution and phenotype of Denisovans and fill a geographical gap in their documented distribution.

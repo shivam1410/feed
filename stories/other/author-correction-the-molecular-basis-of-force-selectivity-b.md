@@ -8,7 +8,7 @@ date: "2026-09-10"
 score: ""
 guid: "10.1038/s41586-026-11079-1"
 image: ""
-generated: "2026-09-14T19:00:19+05:30"
+generated: "2026-09-15T19:00:21+05:30"
 ---
 
 Author Correction: The molecular basis of force selectivity by PIEZO2

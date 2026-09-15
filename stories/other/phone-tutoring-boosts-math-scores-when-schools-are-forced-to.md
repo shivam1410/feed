@@ -8,7 +8,7 @@ date: "2026-09-09"
 score: ""
 guid: "10.1038/d41586-026-02843-4"
 image: ""
-generated: "2026-09-14T19:00:19+05:30"
+generated: "2026-09-15T19:00:21+05:30"
 ---
 
 Evidence suggests that regular calls can keep kids learning when schooling is disrupted — plus, why a familiar world map may be about to change.

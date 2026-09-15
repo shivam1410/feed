@@ -8,7 +8,7 @@ date: "2026-09-07T20:00:00.000Z"
 score: ""
 guid: "2609.08418"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.08418.png"
-generated: "2026-09-14T19:00:19+05:30"
+generated: "2026-09-15T19:00:21+05:30"
 ---
 
 A data-centric framework with specialized systems for reasoning analysis, cost reduction, and execution verification enables small teams to train open-weight cyber agents that achieve top-tier performance on benchmark suites.

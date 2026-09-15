@@ -8,7 +8,7 @@ date: "2026-09-09"
 score: ""
 guid: "10.1038/s41586-026-10954-1"
 image: ""
-generated: "2026-09-14T19:00:19+05:30"
+generated: "2026-09-15T19:00:21+05:30"
 ---
 
 A specific population of macrophages that express high levels of the enzyme PLA2G2D in tumour-draining lymph nodes is associated with poor prognosis in patients, and inhibiting PLA2G2D improves anti-tumour immunity in mouse models.

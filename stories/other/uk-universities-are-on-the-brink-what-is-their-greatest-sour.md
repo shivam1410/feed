@@ -8,7 +8,7 @@ date: "2026-09-14"
 score: ""
 guid: "10.1038/d41586-026-02608-z"
 image: ""
-generated: "2026-09-14T19:00:19+05:30"
+generated: "2026-09-15T19:00:21+05:30"
 ---
 
 Nature asked eight leaders in higher education what they thought about the state of UK institutions. Here’s how they answered.

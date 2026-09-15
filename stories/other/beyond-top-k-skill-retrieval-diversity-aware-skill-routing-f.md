@@ -8,7 +8,7 @@ date: "2026-09-04T20:00:00.000Z"
 score: ""
 guid: "2609.05824"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.05824.png"
-generated: "2026-09-14T19:00:19+05:30"
+generated: "2026-09-15T19:00:21+05:30"
 ---
 
 Diverse Skill Routing improves LLM agent skill selection by balancing relevance with non-redundancy via a determinantal point process, boosting multi-skill coverage.

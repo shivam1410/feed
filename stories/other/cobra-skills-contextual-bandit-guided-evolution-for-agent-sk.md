@@ -8,7 +8,7 @@ date: "2026-09-09T20:00:00.000Z"
 score: ""
 guid: "2609.11682"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.11682.png"
-generated: "2026-09-14T19:00:19+05:30"
+generated: "2026-09-15T19:00:21+05:30"
 ---
 
 COBRA-Skills improves LLM agent skill optimization by using contextual-bandit prioritization and evidence-based evolution to cut evaluation costs while maintaining high performance.

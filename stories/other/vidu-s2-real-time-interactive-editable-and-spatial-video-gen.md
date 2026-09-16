@@ -8,7 +8,7 @@ date: "2026-09-09T20:00:00.000Z"
 score: ""
 guid: "2609.11638"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.11638.png"
-generated: "2026-09-15T19:00:21+05:30"
+generated: "2026-09-16T19:00:23+05:30"
 ---
 
 Vidu S2 introduces real-time interactive avatar and video editing models that support high-resolution spatial video generation and dynamic reference updates.

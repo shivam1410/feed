@@ -8,7 +8,7 @@ date: "2026-09-10T20:00:00.000Z"
 score: ""
 guid: "2609.13356"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.13356.png"
-generated: "2026-09-15T19:00:21+05:30"
+generated: "2026-09-16T19:00:23+05:30"
 ---
 
 ZGCM-1 is a 7B open foundation model that combines internal reasoning with external tool use, trained via efficient architecture-system co-design, progressive long-context scaling, and autonomous agent workflows to achieve strong reasoning and efficiency.

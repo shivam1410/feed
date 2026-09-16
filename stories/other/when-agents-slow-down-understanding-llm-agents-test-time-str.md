@@ -8,7 +8,7 @@ date: "2026-09-13T20:00:00.000Z"
 score: ""
 guid: "2609.15309"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.15309.png"
-generated: "2026-09-15T19:00:21+05:30"
+generated: "2026-09-16T19:00:23+05:30"
 ---
 
 Elo-per-token analysis reveals that LLM agents initially scale faster than independent sampling but eventually slow, while parallel short sessions improve performance over single long runs.

@@ -8,7 +8,7 @@ date: "2026-09-14"
 score: ""
 guid: "10.1038/d41586-026-02895-6"
 image: ""
-generated: "2026-09-15T19:00:21+05:30"
+generated: "2026-09-16T19:00:23+05:30"
 ---
 
 A neural device uses artificial intelligence to read brain activity for intended words and gestures simultaneously.

@@ -8,7 +8,7 @@ date: "2026-09-11"
 score: ""
 guid: "10.1038/d41586-026-02892-9"
 image: ""
-generated: "2026-09-15T19:00:21+05:30"
+generated: "2026-09-16T19:00:23+05:30"
 ---
 
 The major funder of basic science has not said how its new initiatives will be funded — but staff worry that streamlined approach will further squeeze cash for core sciences.

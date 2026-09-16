@@ -8,7 +8,7 @@ date: "2026-09-09T20:00:00.000Z"
 score: ""
 guid: "2609.13318"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.13318.png"
-generated: "2026-09-15T19:00:21+05:30"
+generated: "2026-09-16T19:00:23+05:30"
 ---
 
 Attention-DP3 improves 3D diffusion policies by injecting object-level geometric cues via attention to stabilize performance under heavy clutter.

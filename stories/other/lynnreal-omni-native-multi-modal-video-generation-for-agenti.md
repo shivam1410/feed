@@ -8,7 +8,7 @@ date: "2026-09-13T20:00:00.000Z"
 score: ""
 guid: "2609.15863"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.15863.png"
-generated: "2026-09-15T19:00:21+05:30"
+generated: "2026-09-16T19:00:23+05:30"
 ---
 
 LynnReal-Omni is a unified multimodal video diffusion framework that integrates agentic visual controls with high-fidelity generation and real-time acceleration.

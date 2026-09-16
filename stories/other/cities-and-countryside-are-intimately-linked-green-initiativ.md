@@ -8,7 +8,7 @@ date: "2026-09-15"
 score: ""
 guid: "10.1038/d41586-026-02853-2"
 image: ""
-generated: "2026-09-15T19:00:21+05:30"
+generated: "2026-09-16T19:00:23+05:30"
 ---
 
 Urban areas depend on resources from the land that surrounds them. Managing regions in their entirety is the best way to avoid rural decline.

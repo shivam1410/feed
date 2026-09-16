@@ -8,7 +8,7 @@ date: "2026-09-12T20:00:00.000Z"
 score: ""
 guid: "2609.14462"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.14462.png"
-generated: "2026-09-15T19:00:21+05:30"
+generated: "2026-09-16T19:00:23+05:30"
 ---
 
 AlayaVista decouples panoramic scene evolution from perspective video synthesis to enable efficient, high-fidelity interactive world modeling, supported by the MUGEN dataset.

@@ -1,0 +1,14 @@
+---
+title: "AI for Games in the Foundation Model Era"
+category: "Other"
+source: "HF Trending Papers"
+url: "https://huggingface.co/papers/2609.16679"
+authors: ["Meng Luo", "Yanlin Li", "Hao Li", "Hongzhan Lin", "Pengfei Zhou", "Tianjie Ju", "Ran Zhang", "Yeying Jin", "Mong-Li Lee", "Wynne Hsu"]
+date: "2026-09-14T20:00:00.000Z"
+score: ""
+guid: "2609.16679"
+image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.16679.png"
+generated: "2026-09-16T19:00:23+05:30"
+---
+
+Foundation models, alongside advances in learned game-world models, are reshaping AI across the game lifecycle. Beyond playing games, recent systems model players and game dynamics, support design and development, adapt player-facing experiences at runtime, and evaluate resulting artifacts. Yet these directions have evolved largely separately, obscuring which capabilities transfer across settings and which remain tied to particular games, engines, interfaces, or player populations. We organize the literature into six roles according to the immediate use of AI output: playing and acting; modeling players and games; designing games; building and maintaining games; generating and adapting at runtime; and testing and evaluating games. For each role, we examine what structure is supplied by the game or workflow, what AI learns or produces, which capabilities and artifacts transfer across settings and roles, and what evidence supports the claims. We identify cross-role connections: trajectories train world models, learned environments provide experience for agents, design specifications drive executable implementations, and play or testing feedback guides revision. However, control schemes, rules, engine interfaces, state representations, and player contexts often remain setting-specific, so downstream claims require validation in the target setting. Evaluation is most standardized for bounded game playing and selected learned environments, while persistent state in learned worlds, repeated software revision, validated player modeling, sustained runtime adaptation, and representative automated testing remain less established. The central challenge is to reuse or transfer outputs and capabilities across roles while re-establishing evidence for effectiveness in the game-specific contexts where they are used.

@@ -1,6 +1,18 @@
 {
-  "generatedAt": "2026-09-15T19:00:21+05:30",
+  "generatedAt": "2026-09-16T19:00:23+05:30",
   "items": [
+    {
+      "guid": "https://simonwillison.net/2026/Sep/15/gemini-live/",
+      "title": "Gemini Live audio",
+      "link": "https://simonwillison.net/2026/Sep/15/gemini-live/",
+      "authors": [],
+      "date": "2026-09-15T22:47:07+00:00",
+      "summary": "Tool: Gemini Live audio Google released Gemini 3.8 Live and 3.8 Live Extended Thinking today - two new speech-to-speech models that are a similar shape to OpenAI's GPT-Live family. I pointed GPT-6 Astra Extra High at the documentation and had it build me this web UI for trying out the new models. You can select a model and voice preset, enter an optional system prompt and then start a voice conversation through your browser, including the ability to interrupt the model while it is talking. The implementation uses no libraries. It connects to the wss://generativelanguage.googleapis.com/ws/google.ai.generativelanguage.v1alpha.GenerativeService.BidiGenerateContent?key=... WebSocket endpoint and uses a Web Audio API AudioContext for both capture and playback. Here's the Gemini Live tutorial for getting started with that WebSockets API. Tags: google , tools , websockets , generative-ai , llms , gemini , llm-release , speech-to-text",
+      "image": "",
+      "source": "Simon Willison",
+      "score": null,
+      "category": "Other"
+    },
     {
       "guid": "https://simonwillison.net/2026/Sep/14/the-contagion-of-fear/",
       "title": "The contagion of fear",
@@ -344,18 +356,6 @@
       "authors": [],
       "date": "2026-09-07T23:08:58+00:00",
       "summary": "Creepy crawlies Konstantin Ryabitsev discusses how bad the \"background radiation\" of abusive crawlers has become from the perspective of git.kernel.org , the official Git repository for the Linux kernel: TL;DR: we spend more CPU cycles rendering commits for scrapers than we spend on all other kinds of legitimate access, including git clones. At any one time, across 5 geo-distributed nodes, there are 14 CPU cores doing nothing but rendering git commits as html. I worry about this a lot from the perspective of Datasette, which serves a huge number of crawlable web pages. Via Hacker News Tags: crawling , git , linux , datasette , ai-ethics",
-      "image": "",
-      "source": "Simon Willison",
-      "score": null,
-      "category": "Other"
-    },
-    {
-      "guid": "https://simonwillison.net/2026/Sep/7/jakub-pachocki/",
-      "title": "Quoting Jakub Pachocki",
-      "link": "https://simonwillison.net/2026/Sep/7/jakub-pachocki/",
-      "authors": [],
-      "date": "2026-09-07T22:26:25+00:00",
-      "summary": "The strongest argument I see for continuing to train much smarter models quickly is the need to build defensive systems against the dangers posed by other AI. [...] We will need powerful, aligned AI for defense; to secure infrastructure, to protect against rogue agents in real time, and to invent entirely new protective measures. This will be a primary focus of OpenAI’s deployment efforts. At the same time, even with the uncertainty that comes from anticipated broad AI progress and the need to build defensive systems, we must not let that become an excuse for recklessness. The idea of racing forward at all costs seems absurd once one internalizes the seriousness of the stakes. — Jakub Pachocki , Chief Scientist at OpenAI Tags: ai-ethics , openai , ai",
       "image": "",
       "source": "Simon Willison",
       "score": null,

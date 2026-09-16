@@ -8,7 +8,7 @@ date: "2026-09-10T20:00:00.000Z"
 score: ""
 guid: "2609.13053"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.13053.png"
-generated: "2026-09-15T19:00:21+05:30"
+generated: "2026-09-16T19:00:23+05:30"
 ---
 
 A shared trajectory model unifies goal and dynamics prediction with action generation for language-conditioned robot control, improving adaptation and success through joint denoising and test-time scaling.

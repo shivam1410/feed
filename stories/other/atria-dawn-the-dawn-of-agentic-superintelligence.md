@@ -8,7 +8,7 @@ date: "2026-09-13T20:00:00.000Z"
 score: ""
 guid: "2609.15818"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.15818.png"
-generated: "2026-09-15T19:00:21+05:30"
+generated: "2026-09-16T19:00:23+05:30"
 ---
 
 Atria Dawn Preview is a foundation agentic language model trained through verified tool interactions that achieves strong benchmark results and demonstrates a shift toward human-AI project-level collaboration in scientific research.

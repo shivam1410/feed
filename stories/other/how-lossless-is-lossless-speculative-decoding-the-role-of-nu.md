@@ -8,7 +8,7 @@ date: "2026-09-13T20:00:00.000Z"
 score: ""
 guid: "2609.15504"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.15504.png"
-generated: "2026-09-15T19:00:21+05:30"
+generated: "2026-09-16T19:00:23+05:30"
 ---
 
 Orthrus achieves lossless speculative decoding only under high numerical precision, with trajectory divergence under BF16 that does not impair downstream benchmarks.

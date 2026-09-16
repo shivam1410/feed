@@ -8,7 +8,7 @@ date: "2026-09-13T20:00:00.000Z"
 score: ""
 guid: "2609.15635"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.15635.png"
-generated: "2026-09-15T19:00:21+05:30"
+generated: "2026-09-16T19:00:23+05:30"
 ---
 
 A paired image-swap audit reveals that report availability substantially reduces vision-language model sensitivity to image changes in radiology question answering.

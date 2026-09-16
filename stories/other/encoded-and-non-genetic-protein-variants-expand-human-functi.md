@@ -8,7 +8,7 @@ date: "2026-09-14"
 score: ""
 guid: "10.1038/s41586-026-11124-z"
 image: ""
-generated: "2026-09-15T19:00:21+05:30"
+generated: "2026-09-16T19:00:23+05:30"
 ---
 
 Encoded and non-genetic protein variants expand human functional proteome

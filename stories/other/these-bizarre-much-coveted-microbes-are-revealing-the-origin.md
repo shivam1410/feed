@@ -8,7 +8,7 @@ date: "2026-09-16"
 score: ""
 guid: "10.1038/d41586-026-02849-y"
 image: ""
-generated: "2026-09-16T19:00:23+05:30"
+generated: "2026-09-17T19:00:24+05:30"
 ---
 
 Researchers are racing to culture a menagerie of exotic organisms and finding lots of surprises along the way.

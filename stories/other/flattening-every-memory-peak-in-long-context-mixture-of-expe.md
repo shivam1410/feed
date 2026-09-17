@@ -1,0 +1,14 @@
+---
+title: "Flattening Every Memory Peak in Long-Context Mixture-of-Experts Training"
+category: "Other"
+source: "HF Trending Papers"
+url: "https://huggingface.co/papers/2609.14306"
+authors: ["Shrey Pandit", "Xuan-Phi Nguyen", "Yiran Zhao", "Shafiq Joty"]
+date: "2026-09-12T20:00:00.000Z"
+score: ""
+guid: "2609.14306"
+image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.14306.png"
+generated: "2026-09-17T19:00:24+05:30"
+---
+
+Training a Mixture-of-Experts (MoE) model at long context or large batch size fails as soon as any one component's peak allocation exceeds device memory, so the target is every peak at once, not the average footprint. Four are left unbounded by the parallelism plans in common use, and each grows differently: expert dispatch with the routing matrix, the vocabulary projection with tokens times vocabulary, gradient checkpoint boundaries with depth times sequence length, and optimizer state with parameter count. Which one runs out first changes with the model, the context length, and the device count, so lowering the largest only exposes the next. We bound all four with schedules whose GPU working set is fixed at launch: PipelinedLLEP extends least-loaded expert parallelism with a cap on the tokens each source contributes to a dispatch chunk, Ring-DTP circulates activations or weight shards around a ring at the vocabulary projection and folds each block of logits into an online log-sum-exp, Selective checkpoint offload (SCO) keeps the one long-lived tensor of each checkpoint boundary in CPU memory, and OffloadStreamAdamW turns the serial CPU Adam update of optimizer offload into a bucket pipeline. All four change only the order and granularity of computation and data movement, so the loss and gradients stay exact. In matched component tests, they cut the MoE dispatch peak by up to 59.3% without losing throughput, the vocabulary projection peak by 86.6%, and the offloaded optimizer step by 2.05times faster. Composed on MoE models from 120B to 667B parameters, they train at 1M context length, 8--32times the reach of a tuned FSDP2 baseline, and up to 10.4times its throughput.

@@ -8,7 +8,7 @@ date: "2026-09-09T20:00:00.000Z"
 score: ""
 guid: "2609.11873"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.11873.png"
-generated: "2026-09-16T19:00:23+05:30"
+generated: "2026-09-17T19:00:24+05:30"
 ---
 
 The abstract outlines a roadmap for recursive self-improvement in AI, from autonomy stages to meta-improvement, across domains like scientific discovery and software engineering, while identifying practical challenges.

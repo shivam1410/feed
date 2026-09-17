@@ -8,7 +8,7 @@ date: "2026-09-11T20:00:00.000Z"
 score: ""
 guid: "2609.14011"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.14011.png"
-generated: "2026-09-16T19:00:23+05:30"
+generated: "2026-09-17T19:00:24+05:30"
 ---
 
 Few-shot in-context learning (ICL), the capacity of a model to infer abstract patterns from input-output examples provided in its prompt and apply them to new inputs, has been extensively studied in large language models trained for next-token prediction on human text. Recently, few-shot ICL has been demonstrated in autoregressive genomic models as well. This raises a question: does ICL emerge broadly across domains, and if so, what common structure is shared?

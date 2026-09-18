@@ -8,7 +8,7 @@ date: "2026-09-16"
 score: ""
 guid: "10.1038/s41586-026-11014-4"
 image: ""
-generated: "2026-09-17T19:00:24+05:30"
+generated: "2026-09-18T20:52:59+05:30"
 ---
 
 MEIS2, encoding a transcription factor linked to intellectual disability and autism spectrum disorder, is a key hub of a retinoic-acid-associated gene regulatory network.

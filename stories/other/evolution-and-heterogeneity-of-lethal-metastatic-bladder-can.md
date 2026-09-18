@@ -8,7 +8,7 @@ date: "2026-09-16"
 score: ""
 guid: "10.1038/s41586-026-11035-z"
 image: ""
-generated: "2026-09-17T19:00:24+05:30"
+generated: "2026-09-18T20:52:59+05:30"
 ---
 
 A rapid autopsy programme provides valuable resources to enable detailed molecular and genetic analyses of the temporal evolution of aggressive histological subtypes and therapy resistance in metastatic bladder cancer.

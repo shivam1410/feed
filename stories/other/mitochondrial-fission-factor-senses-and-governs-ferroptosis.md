@@ -8,7 +8,7 @@ date: "2026-09-16"
 score: ""
 guid: "10.1038/s41586-026-11020-6"
 image: ""
-generated: "2026-09-17T19:00:24+05:30"
+generated: "2026-09-18T20:52:59+05:30"
 ---
 
 The mitochondrial–peroxisomal fission adaptor MFF is identified as a selective pro-ferroptotic mediator, and the newly developed MFF–SPARK sensor enables high-content screening of ferroptosis-sensitizing compounds and the discovery of upstream regulators of MFF.

@@ -1,0 +1,14 @@
+---
+title: "Machine-Learning Assessment of the Predictive Value of Inflammatory Biomarkers for Cognitive Impairment in an Older Hispanic Adult Cohort"
+category: "Other"
+source: "arXiv (cs.LG)"
+url: "https://arxiv.org/abs/2609.19374"
+authors: ["Antony Garcia, Gabrielle Britton, Alcibiades Villarreal, Diana Oviedo, Giselle Rangel, Xinming Huang"]
+date: "Fri, 18 Sep 2026 00:00:00 -0400"
+score: ""
+guid: "oai:arXiv.org:2609.19374v1"
+image: ""
+generated: "2026-09-18T20:52:59+05:30"
+---
+
+arXiv:2609.19374v1 Announce Type: new Abstract: Small clinical tabular datasets require interpretable machine learning because deep learning is often impractical and ensemble models can be difficult to inspect. A key pitfall is that statistical significance does not necessarily imply predictive utility. Using data from the Panama Aging Research Initiative--Health Disparities (PARI-HD) cohort (n=165), we implemented a leakage-safe threshold-likelihood Bernoulli/Categorical Naive Bayes (BNB/CNB) classifier. Within every training fold, each continuous predictor was reduced to a supervised chi-square-derived state, while income entered the model through a categorical likelihood. All data-dependent steps were performed within repeated stratified 10-fold cross-validation with 30 repeats. The demographic baseline achieved a ROC-AUC of 0.630 +/- 0.017. I-309 (CCL1) was the dominant incremental feature, increasing AUC by 0.110, with paired DeLong tests yielding p<0.05 in 100% of repeats. In the pre-specified primary analysis, I-309 produced a fixed-partition DeLong p=0.0018, with robustness assessed across 200 random partitions, where the median p-value was 0.0011. Within the exploratory family of 18 candidate markers, I-309 achieved a Benjamini-Hochberg-adjusted q=0.032 on the frozen partition and satisfied q<0.05 in 85% of random partitions, whereas no other marker demonstrated reliable incremental predictive value. Because the fitted model is an inspectable table of thresholds and class-conditional probabilities, these results identify I-309/CCL1 as an interpretable candidate feature for tabular prediction of cognitive impairment, pending external validation.

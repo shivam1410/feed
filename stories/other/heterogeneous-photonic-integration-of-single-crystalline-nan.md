@@ -8,7 +8,7 @@ date: "2026-09-16"
 score: ""
 guid: "10.1038/s41586-026-11000-w"
 image: ""
-generated: "2026-09-17T19:00:24+05:30"
+generated: "2026-09-18T20:52:59+05:30"
 ---
 
 A framework consisting of advanced epitaxy and layer lift-off techniques uses heterogeneous photonic integration of single-crystalline nanomembranes to infuse desired functionalities into silicon and silicon nitride photonics, demonstrating ultraefficient electro-optical and magneto-optical modulation.

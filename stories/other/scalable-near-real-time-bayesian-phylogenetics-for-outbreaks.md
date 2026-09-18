@@ -8,7 +8,7 @@ date: "2026-09-16"
 score: ""
 guid: "10.1038/s41586-026-11012-6"
 image: ""
-generated: "2026-09-17T19:00:24+05:30"
+generated: "2026-09-18T20:52:59+05:30"
 ---
 
 Delphy makes near-real-time and scalable Bayesian phylogenetics possible for growing viral outbreaks, enabling public health bodies anywhere to analyse and react to their own data with state-of-the-art accuracy and minimal friction.

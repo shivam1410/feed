@@ -8,7 +8,7 @@ date: "2026-09-16"
 score: ""
 guid: "10.1038/s41586-026-11055-9"
 image: ""
-generated: "2026-09-17T19:00:24+05:30"
+generated: "2026-09-18T20:52:59+05:30"
 ---
 
 A machine-learning algorithm, PreGame, is developed to identify tumour-reactive γδ T cells from single-cell CITE sequencing data, and expansion of this cell population can be used as a biomarker of therapeutic response.

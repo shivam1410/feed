@@ -8,7 +8,7 @@ date: "Tue, 01 Sep 2026 20:45:00 +0000"
 score: ""
 guid: "https://blog.google/innovation-and-ai/technology/google-ai-updates-august-2026/"
 image: "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/August_AI_Recap_social.max-600x600.format-webp.webp"
-generated: "2026-09-17T19:00:24+05:30"
+generated: "2026-09-18T20:52:59+05:30"
 ---
 
 Here are Google’s latest AI updates from August 2026

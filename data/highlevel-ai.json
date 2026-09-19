@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-18T23:12:55+05:30",
+  "generatedAt": "2026-09-19T19:06:58+05:30",
   "summary": "2026 is HighLevel's “AI Employee” year. Conversation AI now drafts replies in the background (Auto-Suggestive mode) and understands 30+ languages; Voice AI matured to 27 languages and 340+ voices; AI Studio added role-based team permissions; and Ask AI — powered by Claude Sonnet — drives the backend by chat.",
   "topIdeas": [
     {
       "title": "Improve Voice AI realism",
-      "score": 305,
+      "score": 306,
       "product": "Voice AI",
       "url": "https://ideas.gohighlevel.com/voice-ai"
     },
@@ -21,6 +21,24 @@
       "url": "https://ideas.gohighlevel.com/voice-ai"
     },
     {
+      "title": "🤖Combine Voice AI and Conversation AI Together �",
+      "score": 259,
+      "product": "AI Employee",
+      "url": "https://ideas.gohighlevel.com/ai-employee"
+    },
+    {
+      "title": "Add Gemini LLM Model in conversation AI",
+      "score": 206,
+      "product": "Conversation AI",
+      "url": "https://ideas.gohighlevel.com/conversation-ai"
+    },
+    {
+      "title": "GHL AI Assistant (For users - NOT for customers)",
+      "score": 205,
+      "product": "Ask AI",
+      "url": "https://ideas.gohighlevel.com/ask-ai"
+    },
+    {
       "title": "Add AI Studio websites to Website Analytics",
       "score": 183,
       "product": "AI Studio",
@@ -33,34 +51,16 @@
       "url": "https://ideas.gohighlevel.com/voice-ai"
     },
     {
-      "title": "Add database like loveable",
-      "score": 133,
-      "product": "AI Studio",
-      "url": "https://ideas.gohighlevel.com/ai-studio"
+      "title": "Allow Bot Training to be either per bot or shared",
+      "score": 147,
+      "product": "AI Employee",
+      "url": "https://ideas.gohighlevel.com/ai-employee"
     },
     {
-      "title": "AI Studio Website",
-      "score": 122,
-      "product": "AI Studio",
-      "url": "https://ideas.gohighlevel.com/ai-studio"
-    },
-    {
-      "title": "Analytics for vibe coded sites, landing pages, and activity",
-      "score": 97,
-      "product": "AI Studio",
-      "url": "https://ideas.gohighlevel.com/ai-studio"
-    },
-    {
-      "title": "Sub-account integration with AI studio projects as a backend through API",
-      "score": 88,
-      "product": "AI Studio",
-      "url": "https://ideas.gohighlevel.com/ai-studio"
-    },
-    {
-      "title": "Allow AI Studio Websites to Be Continued in Sites or Exported",
-      "score": 80,
-      "product": "AI Studio",
-      "url": "https://ideas.gohighlevel.com/ai-studio"
+      "title": "Anthropic models on Conversation AI",
+      "score": 139,
+      "product": "Conversation AI",
+      "url": "https://ideas.gohighlevel.com/conversation-ai"
     }
   ],
   "products": [
@@ -68,15 +68,29 @@
       "name": "Conversation AI",
       "url": "https://ideas.gohighlevel.com/conversation-ai",
       "what": "AI agents that handle automated chats across every messaging channel, drafting replies in the background while a human stays in control.",
-      "ideas": [],
-      "summary": ""
+      "ideas": [
+        "Add Gemini LLM Model in conversation AI",
+        "Anthropic models on Conversation AI",
+        "Please Give Conversational AI the ability to use MCP servers",
+        "Direct Webhook Integration in Conversations AI",
+        "Allow Custom Field Values to Be Overwritten and Updated in Conversation AI",
+        "Pause Conversational AI when a native Instagram/Facebook reply is detected"
+      ],
+      "summary": "Users request more LLM options, deeper integrations (webhooks, MCP), and better control over conversation automation and custom data handling."
     },
     {
       "name": "AI Employee",
       "url": "https://ideas.gohighlevel.com/ai-employee",
       "what": "The bundled AI suite (Voice AI + Conversation AI + Content AI), launched May 2026 — a virtual employee that talks, texts, and creates.",
-      "ideas": [],
-      "summary": ""
+      "ideas": [
+        "🤖Combine Voice AI and Conversation AI Together �",
+        "Allow Bot Training to be either per bot or shared",
+        "Just let the AI ChatBot replies what the original AI answer is!",
+        "Separar las opciones de que el Empleado IA se detenga cuando envio un mensaje de cuando se activa un worflow",
+        "We use Grok. Can we have Grok added to the AI Agent LLM model list?",
+        "AI CRM EXECUTIVE ASSISTANT (GoHighLevel + WhatsApp)"
+      ],
+      "summary": "Users seek additional LLM models, unified voice-plus-conversation capabilities, configurable automation triggers, and CRM integration for enterprise workflows."
     },
     {
       "name": "AI Studio",
@@ -90,14 +104,21 @@
         "Sub-account integration with AI studio projects as a backend through API",
         "Allow AI Studio Websites to Be Continued in Sites or Exported"
       ],
-      "summary": ""
+      "summary": "Users want analytics for AI-generated sites, database backends like Loveable, API-driven sub-account integration, and project export functionality."
     },
     {
       "name": "Ask AI",
       "url": "https://ideas.gohighlevel.com/ask-ai",
       "what": "A Claude Sonnet-powered assistant that runs your HighLevel backend by chat — content, courses, scheduling, automations.",
-      "ideas": [],
-      "summary": ""
+      "ideas": [
+        "GHL AI Assistant (For users - NOT for customers)",
+        "Give Ask AI Access to Workflows, Funnels/Websites, Products, Courses, and more.",
+        "Allow File & Image Uploads to Ask AI (Photos, Code, Documents etc.)",
+        "Centralized Agency Billing for Ask AI in Done-For-You Sub-Accounts",
+        "Ask AI — Remember and Persist Sidebar State",
+        "Make GHL Meetings a True Zoom Replacement for Coaching Programs and Communities"
+      ],
+      "summary": "Users want Ask AI to access more GHL features, support file uploads, enable agency billing, and include meeting capabilities."
     },
     {
       "name": "Voice AI",
@@ -111,8 +132,14 @@
         "Use Call Transcripts to Train AI",
         "Ability for Voice AI to Book Appointments on \"New\" Service Calendar"
       ],
-      "summary": ""
+      "summary": "Users seek improved voice realism, embeddable widgets, custom voice cloning, transcript-based AI training, and appointment booking integration."
     }
   ],
-  "changelog": []
+  "changelog": [
+    {
+      "title": "Ask AI now lives in WhatsApp",
+      "link": "https://ideas.gohighlevel.com/changelog/ask-ai-now-lives-in-whatsapp",
+      "date": "Fri, 18 Sep 2026 13:47:30 GMT"
+    }
+  ]
 }

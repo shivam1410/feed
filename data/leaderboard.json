@@ -1,96 +1,106 @@
 {
-  "generatedAt": "2026-09-17T19:00:35+05:30",
+  "generatedAt": "2026-09-19T19:06:31+05:30",
   "source": "Hugging Face — trending models",
   "models": [
     {
-      "id": "Edge0/Edge0-35B-A3B-preview",
+      "id": "prism-ml/Ternary-Bonsai-2-27B-gguf",
       "task": "text-generation",
-      "likes": 3269,
-      "downloads": 37131,
-      "library": "mlx",
-      "createdAt": "2026-09-08T13:56:18.000Z",
-      "url": "https://huggingface.co/Edge0/Edge0-35B-A3B-preview"
+      "likes": 1085,
+      "downloads": 1516960,
+      "library": "llama.cpp",
+      "createdAt": "2026-09-16T23:40:56.000Z",
+      "url": "https://huggingface.co/prism-ml/Ternary-Bonsai-2-27B-gguf",
+      "summary": "A 27B ternary-quantized language model compressed to 5.9GB that runs on consumer hardware while retaining 98.2% of full-precision performance."
     },
     {
       "id": "deepseek-ai/DeepSeek-V4.1-Flash",
       "task": "image-text-to-text",
-      "likes": 2945,
-      "downloads": 390657,
+      "likes": 3256,
+      "downloads": 482270,
       "library": "transformers",
       "createdAt": "2026-09-10T02:17:58.000Z",
-      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash"
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash",
+      "summary": "A 552-billion-parameter multimodal mixture-of-experts model that processes images and text with efficient token-level activation and million-token context support."
     },
     {
       "id": "Qwen/Qwen3.8-27B",
       "task": "image-text-to-text",
-      "likes": 15484,
-      "downloads": 7456257,
+      "likes": 15705,
+      "downloads": 7365368,
       "library": "transformers",
       "createdAt": "2026-08-05T08:22:59.000Z",
-      "url": "https://huggingface.co/Qwen/Qwen3.8-27B"
+      "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
+      "summary": "A 27-billion-parameter vision-language model supporting images and videos with flexible thinking for complex multi-step reasoning and agentic tasks."
     },
     {
       "id": "m-a-p/YuE2-3B",
       "task": "text-to-audio",
-      "likes": 686,
-      "downloads": 11626,
+      "likes": 846,
+      "downloads": 15446,
       "library": null,
       "createdAt": "2026-09-09T18:30:33.000Z",
-      "url": "https://huggingface.co/m-a-p/YuE2-3B"
+      "url": "https://huggingface.co/m-a-p/YuE2-3B",
+      "summary": "A 3-billion-parameter music generation model that creates complete songs from lyrics and style, with editable scores for melody and chord control."
     },
     {
-      "id": "openbmb/MiniCPM5-2B",
+      "id": "XingChen-AGI/Xing4.0-29B-A4B",
       "task": "text-generation",
-      "likes": 1529,
-      "downloads": 329713,
+      "likes": 588,
+      "downloads": 7278,
       "library": "transformers",
-      "createdAt": "2026-09-06T11:12:19.000Z",
-      "url": "https://huggingface.co/openbmb/MiniCPM5-2B"
+      "createdAt": "2026-09-16T06:44:40.000Z",
+      "url": "https://huggingface.co/XingChen-AGI/Xing4.0-29B-A4B",
+      "summary": "A 29-billion-parameter sparse mixture-of-experts model with only 4B active parameters per token, native 256K context, and tool-calling support for agents."
     },
     {
       "id": "ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF",
       "task": "image-text-to-text",
-      "likes": 1233,
-      "downloads": 1027602,
+      "likes": 1387,
+      "downloads": 1154265,
       "library": "gguf",
       "createdAt": "2026-08-28T18:38:03.000Z",
-      "url": "https://huggingface.co/ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF"
-    },
-    {
-      "id": "Lightricks/LTX-2.5",
-      "task": "image-to-video",
-      "likes": 4175,
-      "downloads": 1602865,
-      "library": "diffusion-single-file",
-      "createdAt": "2026-07-23T07:55:24.000Z",
-      "url": "https://huggingface.co/Lightricks/LTX-2.5"
-    },
-    {
-      "id": "TokenRhythm/NeoHorse-1-4B",
-      "task": "text-generation",
-      "likes": 2205,
-      "downloads": 19789,
-      "library": "transformers",
-      "createdAt": "2026-09-05T08:21:53.000Z",
-      "url": "https://huggingface.co/TokenRhythm/NeoHorse-1-4B"
-    },
-    {
-      "id": "DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
-      "task": "image-text-to-text",
-      "likes": 826,
-      "downloads": 1116038,
-      "library": null,
-      "createdAt": "2026-09-01T07:01:09.000Z",
-      "url": "https://huggingface.co/DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF"
+      "url": "https://huggingface.co/ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF",
+      "summary": "A non-uniformly quantized GGUF version of Qwen3.8-27B that allocates per-tensor precision for efficient multimodal inference on CPU and GPU."
     },
     {
       "id": "ukisai/Swift-Qwen3.8-27b",
       "task": "image-text-to-text",
-      "likes": 359,
-      "downloads": 3221,
+      "likes": 466,
+      "downloads": 8761,
       "library": "transformers",
       "createdAt": "2026-09-08T13:35:21.000Z",
-      "url": "https://huggingface.co/ukisai/Swift-Qwen3.8-27b"
+      "url": "https://huggingface.co/ukisai/Swift-Qwen3.8-27b",
+      "summary": "A fine-tuned variant of Qwen3.8-27B that reduces reasoning tokens by 58% while maintaining performance and achieving 1.95x speedup."
+    },
+    {
+      "id": "Lightricks/LTX-2.5",
+      "task": "image-to-video",
+      "likes": 4386,
+      "downloads": 1607815,
+      "library": "diffusion-single-file",
+      "createdAt": "2026-07-23T07:55:24.000Z",
+      "url": "https://huggingface.co/Lightricks/LTX-2.5",
+      "summary": "A diffusion-based model supporting multiple modalities including image-to-video, text-to-video, video transformation, and audio-video generation."
+    },
+    {
+      "id": "harshatheg/Qwen-2.5-1B-RLCD",
+      "task": "text-generation",
+      "likes": 412,
+      "downloads": 0,
+      "library": "mlx",
+      "createdAt": "2026-09-16T01:35:33.000Z",
+      "url": "https://huggingface.co/harshatheg/Qwen-2.5-1B-RLCD",
+      "summary": "A 1.5-billion-parameter model optimized for structured generation on Apple Silicon, delivering 5-7x speedup for JSON schema and classification tasks."
+    },
+    {
+      "id": "DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
+      "task": "image-text-to-text",
+      "likes": 938,
+      "downloads": 1256962,
+      "library": null,
+      "createdAt": "2026-09-01T07:01:09.000Z",
+      "url": "https://huggingface.co/DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
+      "summary": "A fine-tuned Qwen3.8-27B variant that reduces thinking tokens by up to 90% while maintaining reasoning quality and achieving higher benchmark scores."
     }
   ]
 }

@@ -8,7 +8,7 @@ date: "2026-09-17"
 score: 55
 guid: "10.1038/d41586-026-02896-5"
 image: ""
-generated: "2026-09-19T19:06:02+05:30"
+generated: "2026-09-20T21:43:11+05:30"
 ---
 
 Modelling shows a link between feeding programmes and higher potential earning in five African nations.

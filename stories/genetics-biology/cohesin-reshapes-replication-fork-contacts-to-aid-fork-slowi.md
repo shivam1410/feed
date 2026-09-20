@@ -8,7 +8,7 @@ date: "2026-09-16"
 score: 65
 guid: "10.1038/s41586-026-11034-0"
 image: ""
-generated: "2026-09-19T19:06:02+05:30"
+generated: "2026-09-20T21:43:11+05:30"
 ---
 
 Cohesin-mediated loop extrusion limits sister-fork coupling and tethers nearby replication forks under replication stress, promoting fork reversal and slowing fork progression to safeguard genome stability.

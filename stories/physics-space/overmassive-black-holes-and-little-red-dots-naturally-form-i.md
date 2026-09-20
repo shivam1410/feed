@@ -8,7 +8,7 @@ date: "2026-09-16"
 score: 80
 guid: "10.1038/s41586-026-10985-8"
 image: ""
-generated: "2026-09-19T19:06:02+05:30"
+generated: "2026-09-20T21:43:11+05:30"
 ---
 
-James Webb Space Telescope observations revealed an unexpectedly abundant population of massive black holes and mysterious "little red dots" in the early universe. Cosmological radiation-hydrodynamic simulations confirm these objects form naturally under early-universe conditions, contradicting previous theoretical predictions. This finding reshapes understanding of black hole formation timescales and early cosmic evolution. JWST's unprecedented sensitivity provides the first observational confirmation of phenomena that models suggested but observations had not previously revealed.
+James Webb Space Telescope observations reveal an unexpectedly large population of "little red dots"—distant galaxies—and overmassive black holes in the early universe. These observations contradict earlier expectations about black hole prevalence in early cosmic epochs. Fully cosmological radiation-hydrodynamic simulations now reproduce these unexpected abundances, validating the observations and suggesting current theoretical models require refinement to explain the universe's early black hole demographics.

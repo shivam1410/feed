@@ -8,7 +8,7 @@ date: "2026-09-16"
 score: 70
 guid: "10.1038/s41586-026-10948-z"
 image: ""
-generated: "2026-09-19T19:06:02+05:30"
+generated: "2026-09-20T21:43:11+05:30"
 ---
 
-Using mass photometry combined with a single-molecule trapping method allows real-time monitoring of the assembly of individual virus-like particles with molecular resolution, enabling observation and quantification of their self-assembly pathways and dynamics.
+Mass photometry combined with single-molecule trapping techniques enabled researchers to observe individual virus-like particles self-assembling in real time at molecular resolution. This breakthrough allows quantification and characterization of assembly pathways and dynamics for viral structures. Understanding viral self-assembly mechanisms has implications for developing vaccines, antivirals, and synthetic nanoparticles based on viral capsid architectures.

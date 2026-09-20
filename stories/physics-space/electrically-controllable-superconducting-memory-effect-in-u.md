@@ -8,7 +8,7 @@ date: "2026-09-16"
 score: 75
 guid: "10.1038/s41586-026-11015-3"
 image: ""
-generated: "2026-09-19T19:06:02+05:30"
+generated: "2026-09-20T21:43:11+05:30"
 ---
 
-A memory effect has been observed in UTe₂, a candidate p-wave superconductor, with properties that can be controlled electrically. By varying the strength and duration of applied electrical stimuli, researchers can precisely modulate the memory response. This discovery reveals new physics in unconventional superconductors where electrons pair asymmetrically, differing from conventional superconductors. Memory effects in such materials suggest exotic quantum states and potential technological applications in computing and information storage. The electrical control of quantum memory states represents an advance in understanding p-wave superconductivity and may enable novel devices that exploit memory-like behaviors in quantum systems operating at extremely low temperatures.
+Researchers discovered a memory effect in UTe2, a candidate p-wave superconductor. The memory effect can be precisely controlled by varying the strength and duration of electrically applied stimuli. This finding enables new superconductor-based applications where electrical signals program material behavior.

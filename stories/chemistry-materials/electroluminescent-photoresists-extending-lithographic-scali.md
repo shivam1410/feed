@@ -8,7 +8,7 @@ date: "2026-09-16"
 score: 65
 guid: "10.1038/s41586-026-11042-0"
 image: ""
-generated: "2026-09-19T19:06:02+05:30"
+generated: "2026-09-20T21:43:11+05:30"
 ---
 
-New electroluminescent photoresists synthesized via atom transfer radical polymerization enable precise patterning of organic light-emitting diode displays at smaller scales. These photoresists can be directly patterned using ultraviolet and electron-beam lithography to fabricate monolithic, multicolor OLED micro-pixel arrays. This advancement extends lithographic manufacturing capabilities to create higher-resolution, more complex OLED displays, potentially enabling next-generation display technologies with improved resolution and color precision.
+Electroluminescent photoresists synthesized via atom transfer radical polymerization can be directly patterned by ultraviolet and electron-beam lithography, and used to fabricate monolithic, multicolour organic-light-emitting-diode micro-pixel arrays.

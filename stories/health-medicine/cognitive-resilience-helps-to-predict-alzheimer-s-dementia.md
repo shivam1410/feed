@@ -8,7 +8,7 @@ date: "2026-09-18"
 score: 70
 guid: "10.1038/d41586-026-02897-4"
 image: ""
-generated: "2026-09-19T19:06:02+05:30"
+generated: "2026-09-20T21:43:11+05:30"
 ---
 
 The trait could explain why symptoms vary in severity between people with similar brain pathology.

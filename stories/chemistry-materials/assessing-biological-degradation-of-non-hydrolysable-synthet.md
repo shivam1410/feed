@@ -8,7 +8,7 @@ date: "2026-09-16"
 score: 60
 guid: "10.1038/s41586-026-10918-5"
 image: ""
-generated: "2026-09-19T19:06:02+05:30"
+generated: "2026-09-20T21:43:11+05:30"
 ---
 
 The evidence for biological degradation of non-hydrolysable synthetic polymers is critically evaluated to propose best-practice principles for experimental design that should promote reproducibility and impact across this field.

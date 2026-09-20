@@ -1,106 +1,106 @@
 {
-  "generatedAt": "2026-09-19T19:06:31+05:30",
+  "generatedAt": "2026-09-20T21:43:38+05:30",
   "source": "Hugging Face — trending models",
   "models": [
     {
       "id": "prism-ml/Ternary-Bonsai-2-27B-gguf",
       "task": "text-generation",
-      "likes": 1085,
-      "downloads": 1516960,
+      "likes": 1413,
+      "downloads": 1908396,
       "library": "llama.cpp",
       "createdAt": "2026-09-16T23:40:56.000Z",
       "url": "https://huggingface.co/prism-ml/Ternary-Bonsai-2-27B-gguf",
-      "summary": "A 27B ternary-quantized language model compressed to 5.9GB that runs on consumer hardware while retaining 98.2% of full-precision performance."
+      "summary": "27B text-generation model with ternary weights achieving 9.3x compression while retaining 98.2% intelligence, optimized for llama.cpp."
     },
     {
       "id": "deepseek-ai/DeepSeek-V4.1-Flash",
       "task": "image-text-to-text",
-      "likes": 3256,
-      "downloads": 482270,
+      "likes": 3394,
+      "downloads": 496684,
       "library": "transformers",
       "createdAt": "2026-09-10T02:17:58.000Z",
       "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash",
-      "summary": "A 552-billion-parameter multimodal mixture-of-experts model that processes images and text with efficient token-level activation and million-token context support."
+      "summary": "Multimodal MoE model with 552B parameters supporting 1M token context, processes images and text for agentic workloads efficiently."
     },
     {
-      "id": "Qwen/Qwen3.8-27B",
-      "task": "image-text-to-text",
-      "likes": 15705,
-      "downloads": 7365368,
+      "id": "convaiinnovations/laya",
+      "task": "text-classification",
+      "likes": 897,
+      "downloads": 0,
       "library": "transformers",
-      "createdAt": "2026-08-05T08:22:59.000Z",
-      "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
-      "summary": "A 27-billion-parameter vision-language model supporting images and videos with flexible thinking for complex multi-step reasoning and agentic tasks."
-    },
-    {
-      "id": "m-a-p/YuE2-3B",
-      "task": "text-to-audio",
-      "likes": 846,
-      "downloads": 15446,
-      "library": null,
-      "createdAt": "2026-09-09T18:30:33.000Z",
-      "url": "https://huggingface.co/m-a-p/YuE2-3B",
-      "summary": "A 3-billion-parameter music generation model that creates complete songs from lyrics and style, with editable scores for melody and chord control."
+      "createdAt": "2026-09-18T05:05:55.000Z",
+      "url": "https://huggingface.co/convaiinnovations/laya",
+      "summary": "Non-autoregressive text classifier returning calibrated probabilities across 100+ languages in a single forward pass without generating text."
     },
     {
       "id": "XingChen-AGI/Xing4.0-29B-A4B",
       "task": "text-generation",
-      "likes": 588,
-      "downloads": 7278,
+      "likes": 814,
+      "downloads": 12617,
       "library": "transformers",
       "createdAt": "2026-09-16T06:44:40.000Z",
       "url": "https://huggingface.co/XingChen-AGI/Xing4.0-29B-A4B",
-      "summary": "A 29-billion-parameter sparse mixture-of-experts model with only 4B active parameters per token, native 256K context, and tool-calling support for agents."
+      "summary": "29B text-generation model with 4B activated parameters per token, supporting 256K context and agentic multi-step planning."
+    },
+    {
+      "id": "Qwen/Qwen3.8-27B",
+      "task": "image-text-to-text",
+      "likes": 15836,
+      "downloads": 7331932,
+      "library": "transformers",
+      "createdAt": "2026-08-05T08:22:59.000Z",
+      "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
+      "summary": "Multimodal vision-language model supporting images and videos with flexible thinking control for complex multi-step agentic tasks."
+    },
+    {
+      "id": "m-a-p/YuE2-3B",
+      "task": "text-to-audio",
+      "likes": 902,
+      "downloads": 17403,
+      "library": null,
+      "createdAt": "2026-09-09T18:30:33.000Z",
+      "url": "https://huggingface.co/m-a-p/YuE2-3B",
+      "summary": "Music generation model converting lyrics to complete songs with editable melody and chords via symbolic planning."
     },
     {
       "id": "ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF",
       "task": "image-text-to-text",
-      "likes": 1387,
-      "downloads": 1154265,
+      "likes": 1464,
+      "downloads": 1217204,
       "library": "gguf",
       "createdAt": "2026-08-28T18:38:03.000Z",
       "url": "https://huggingface.co/ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF",
-      "summary": "A non-uniformly quantized GGUF version of Qwen3.8-27B that allocates per-tensor precision for efficient multimodal inference on CPU and GPU."
-    },
-    {
-      "id": "ukisai/Swift-Qwen3.8-27b",
-      "task": "image-text-to-text",
-      "likes": 466,
-      "downloads": 8761,
-      "library": "transformers",
-      "createdAt": "2026-09-08T13:35:21.000Z",
-      "url": "https://huggingface.co/ukisai/Swift-Qwen3.8-27b",
-      "summary": "A fine-tuned variant of Qwen3.8-27B that reduces reasoning tokens by 58% while maintaining performance and achieving 1.95x speedup."
-    },
-    {
-      "id": "Lightricks/LTX-2.5",
-      "task": "image-to-video",
-      "likes": 4386,
-      "downloads": 1607815,
-      "library": "diffusion-single-file",
-      "createdAt": "2026-07-23T07:55:24.000Z",
-      "url": "https://huggingface.co/Lightricks/LTX-2.5",
-      "summary": "A diffusion-based model supporting multiple modalities including image-to-video, text-to-video, video transformation, and audio-video generation."
+      "summary": "Non-uniform GGUF quantized Qwen3.8-27B with per-tensor gradient-based precision allocation for efficient multimodal inference."
     },
     {
       "id": "harshatheg/Qwen-2.5-1B-RLCD",
       "task": "text-generation",
-      "likes": 412,
+      "likes": 468,
       "downloads": 0,
       "library": "mlx",
       "createdAt": "2026-09-16T01:35:33.000Z",
       "url": "https://huggingface.co/harshatheg/Qwen-2.5-1B-RLCD",
-      "summary": "A 1.5-billion-parameter model optimized for structured generation on Apple Silicon, delivering 5-7x speedup for JSON schema and classification tasks."
+      "summary": "Apple Silicon inference engine for structured JSON extraction using parallel constrained decoding with 5.6–7x latency improvement."
     },
     {
-      "id": "DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
+      "id": "Lightricks/LTX-2.5",
+      "task": "image-to-video",
+      "likes": 4515,
+      "downloads": 1609559,
+      "library": "diffusion-single-file",
+      "createdAt": "2026-07-23T07:55:24.000Z",
+      "url": "https://huggingface.co/Lightricks/LTX-2.5",
+      "summary": "Multimodal video generation model supporting image-to-video, text-to-video, and audio-video conversion in diffusion architecture."
+    },
+    {
+      "id": "ukisai/Swift-Qwen3.8-27b",
       "task": "image-text-to-text",
-      "likes": 938,
-      "downloads": 1256962,
-      "library": null,
-      "createdAt": "2026-09-01T07:01:09.000Z",
-      "url": "https://huggingface.co/DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
-      "summary": "A fine-tuned Qwen3.8-27B variant that reduces thinking tokens by up to 90% while maintaining reasoning quality and achieving higher benchmark scores."
+      "likes": 502,
+      "downloads": 10962,
+      "library": "transformers",
+      "createdAt": "2026-09-08T13:35:21.000Z",
+      "url": "https://huggingface.co/ukisai/Swift-Qwen3.8-27b",
+      "summary": "Efficient reasoning derivative of Qwen3.8-27B using 58.3% fewer thinking tokens for 1.95x speedup with minimal performance loss."
     }
   ]
 }

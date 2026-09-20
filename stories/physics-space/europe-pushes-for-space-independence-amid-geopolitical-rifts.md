@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/d41586-026-02919-1"
 authors: ["Jonathan O’Callaghan"]
 date: "2026-09-18"
-score: 55
+score: 60
 guid: "10.1038/d41586-026-02919-1"
 image: ""
-generated: "2026-09-19T19:06:02+05:30"
+generated: "2026-09-20T21:43:11+05:30"
 ---
 
 The European Union is easing its reliance on US space infrastructure — and is seeking to grow its satellite and launch operations.

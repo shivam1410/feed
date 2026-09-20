@@ -5,10 +5,10 @@ source: "HF Trending Papers"
 url: "https://huggingface.co/papers/2609.17172"
 authors: ["Amirhossein Kazemipour", "Hehui Zheng", "Robert Katzschmann"]
 date: "2026-09-14T20:00:00.000Z"
-score: 70
+score: 76
 guid: "2609.17172"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.17172.png"
-generated: "2026-09-19T19:06:02+05:30"
+generated: "2026-09-20T21:43:11+05:30"
 ---
 
-A robotic anthropomorphic hand learned to use its fingers for both locomotion and object manipulation through reinforcement learning. Trained in a simulator calibrated to hardware, the system deployed on physical hardware to perform untethered crawling, steering, fall recovery, and targeted object manipulation. This compact approach reuses the same fingers for movement and interaction, eliminating the need for separate locomotion mechanisms—a breakthrough in mobile manipulation design efficiency.
+Researchers developed a compact anthropomorphic robotic hand that learns to walk, crawl, steer, and manipulate objects simultaneously using the same fingers. Trained via reinforcement learning with a simulator calibrated from hardware measurements, the self-contained platform with onboard power and computation achieves faster locomotion than baseline rewards originally designed for quadrupeds. In hardware trials, the hand demonstrates untethered crawling and steering, recovers from falls, executes successive keyboard commands without vision, and pushes objects to target locations using overhead visual feedback. All locomotion and manipulation use the same finger structure without requiring a separate locomotion mechanism.

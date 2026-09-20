@@ -8,7 +8,7 @@ date: "2026-09-16"
 score: 65
 guid: "10.1038/s41586-026-11045-x"
 image: ""
-generated: "2026-09-19T19:06:02+05:30"
+generated: "2026-09-20T21:43:11+05:30"
 ---
 
 xvr makes pan-anatomical 2D/3D rigid registration accessible to broad clinical and research communities.

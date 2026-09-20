@@ -5,10 +5,10 @@ source: "DeepMind"
 url: "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/introducing-weathernext-3/"
 authors: ["The WeatherNext team"]
 date: "Thu, 03 Sep 2026 15:00:00 +0000"
-score: 75
+score: 70
 guid: "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/introducing-weathernext-3/"
 image: "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/WeatherNext3_Title.max-600x600.format-webp.webp"
-generated: "2026-09-19T19:06:02+05:30"
+generated: "2026-09-20T21:43:11+05:30"
 ---
 
-WeatherNext 3, Google DeepMind's most advanced global weather AI model, has been deployed across multiple platforms including Search, Gemini, Maps, Google Maps Platform, and Cloud services. This represents significant expansion of AI weather prediction into widely-used consumer and professional tools. Advanced AI models substantially improve forecast accuracy and can provide predictions with finer temporal and spatial resolution than traditional meteorological methods. Broader deployment across platforms increases the real-world impact and accessibility of weather prediction technology. Making superior forecasting available through multiple platforms enhances access for individuals, businesses, and emergency services who rely on accurate weather information for planning and safety decisions.
+Google DeepMind released WeatherNext 3, an advanced global weather prediction AI model now integrated into Search, Gemini, Maps, Google Maps Platform, and Cloud. The expanded deployment makes improved weather forecasts available to billions of users.

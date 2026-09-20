@@ -8,7 +8,7 @@ date: "2026-09-16"
 score: 75
 guid: "10.1038/d41586-026-02878-7"
 image: ""
-generated: "2026-09-19T19:06:02+05:30"
+generated: "2026-09-20T21:43:11+05:30"
 ---
 
-A DNA-based computer operates by allowing molecular reactions to naturally relax toward thermodynamic equilibrium rather than being externally driven through each computation step. Tested on ten molecular programs, the system completed computations in as little as one minute, with some programs rerun 25 times using different inputs while maintaining accuracy. Scaling computations to 100-bit problems was possible but substantially slowed execution. This approach leverages fundamental physics principles rather than fighting them, suggesting a new computing paradigm. Molecular computers harnessing equilibrium dynamics could eventually operate inside biological systems or in minimal-resource environments where traditional computation proves impractical, advancing biocomputing and distributed processing.
+A DNA-based computer operating via thermodynamic equilibrium completed ten molecular programs, some in one minute. Researchers reran programs up to 25 times with different inputs and scaled others to 100-bit computations, though larger problems slowed execution substantially. This molecular computer demonstrates that biological computation need not require active energy at each step but can harness physical chemistry naturally, offering an energy-efficient computing route.

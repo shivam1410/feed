@@ -8,7 +8,7 @@ date: "2026-09-16"
 score: 50
 guid: "10.1038/s41586-026-11018-0"
 image: ""
-generated: "2026-09-19T19:06:02+05:30"
+generated: "2026-09-20T21:43:11+05:30"
 ---
 
 Explicit support for white nationalism is uncommon overall, but higher among young white men, disadvantaged and politically disaffected white people, conservatives, Republicans, and those with primarily online friendships.

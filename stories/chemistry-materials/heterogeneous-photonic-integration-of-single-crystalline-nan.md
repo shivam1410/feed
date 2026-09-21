@@ -8,7 +8,7 @@ date: "2026-09-16"
 score: 70
 guid: "10.1038/s41586-026-11000-w"
 image: ""
-generated: "2026-09-20T21:43:11+05:30"
+generated: "2026-09-21T19:05:57+05:30"
 ---
 
-Heterogeneous photonic integration using single-crystalline nanomembranes layered onto silicon and silicon-nitride platforms enables ultraefficient electro-optical and magneto-optical modulation. The technique combines advanced epitaxy and layer lift-off methods to incorporate desired optical functionalities into commercial silicon photonic platforms. This advancement promises practical improvements in optical modulation efficiency, critical for next-generation photonic integrated circuits used in communications and sensing.
+A new framework combines advanced epitaxy and layer lift-off techniques to integrate single-crystalline nanomembranes into silicon and silicon nitride photonic devices through heterogeneous photonic integration. This approach adds desired functionalities to standard photonic platforms beyond their native capabilities. The integrated devices demonstrate ultraefficient electro-optical modulation converting electrical signals to light and magneto-optical modulation controlled by magnetic fields. Nanomembrane integration expands what photonic systems can achieve compared to silicon and silicon nitride alone. These advances improve efficiency and functionality of photonic devices used in telecommunications, data centers, and sensing applications. The technology enables construction of more capable integrated photonic circuits with enhanced performance characteristics.

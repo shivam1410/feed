@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/s41586-026-11134-x"
 authors: ["Prasenjit Dey", "Joelle Baddour", "Florian Muller", "Chia Chin Wu", "Huamin Wang", "Wen-Ting Liao", "Zangdao Lan", "Alina Chen", "Tony Gutschner", "Yaan Kang", "Jason Fleming", "Nikunj Satani", "Di Zhao", "Abhinav Achreja", "Lifeng Yang", "Jiyoon Lee", "Edward Chang", "Giannicola Genovese", "Andrea Viale", "Haoqiang Ying", "Giulio Draetta", "Anirban Maitra", "Y. Alan Wang", "Deepak Nagrath", "Ronald A. DePinho"]
 date: "2026-09-17"
-score: 20
+score: 15
 guid: "10.1038/s41586-026-11134-x"
 image: ""
-generated: "2026-09-20T21:43:11+05:30"
+generated: "2026-09-21T19:05:57+05:30"
 ---
 
 Author Correction: Genomic deletion of malic enzyme 2 confers collateral lethality in pancreatic cancer

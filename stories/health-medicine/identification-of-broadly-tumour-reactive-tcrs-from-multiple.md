@@ -8,7 +8,7 @@ date: "2026-09-16"
 score: 75
 guid: "10.1038/s41586-026-11055-9"
 image: ""
-generated: "2026-09-20T21:43:11+05:30"
+generated: "2026-09-21T19:05:57+05:30"
 ---
 
-Researchers developed PreGame, a machine-learning algorithm identifying tumor-fighting gamma-delta T cells from single-cell CITE sequencing data. The system pinpoints which immune cells recognize cancer by analyzing cellular protein and transcriptome signatures. Expansion of these identified cell populations serves as a biomarker indicating treatment success. This capability enables better immunotherapy monitoring and personalized cancer care by revealing which patients' immune systems effectively target tumors.
+PreGame, a machine-learning algorithm, identifies tumor-reactive gamma-delta T cells from single-cell CITE sequencing data in multiple myeloma patients. Gamma-delta T cells represent an immune cell type with therapeutic potential for cancer treatment. PreGame analyzes high-dimensional single-cell data to identify which specific cells recognize cancer cells. Expansion of identified tumor-reactive gamma-delta T cells correlates with therapeutic response—patients whose immune systems expanded these cells showed better treatment outcomes. This validates gamma-delta T cells as biomarkers predicting patient treatment benefit. The discovery enables personalized medicine approaches where immune cell responses guide treatment selection and monitoring in cancer therapy.

@@ -8,7 +8,7 @@ date: "2026-09-16"
 score: 80
 guid: "10.1038/s41586-026-11024-2"
 image: ""
-generated: "2026-09-20T21:43:11+05:30"
+generated: "2026-09-21T19:05:57+05:30"
 ---
 
-Scientists have developed prime assembly, a genetic engineering technique that integrates DNA sequences into living human cells without triggering dangerous double-strand breaks. The method works on medium-to-large DNA segments and enables normal cell cycle progression. Prime assembly supports complex genetic edits including exon recoding, transgene insertion, and rearrangements spanning millions of base pairs. This approach is safer and more efficient than traditional CRISPR-based genome editing, which creates breaks that cells must repair—a process prone to errors and triggering harmful DNA damage responses.
+Prime assembly enables RNA-guided integration of medium-to-large DNA sequences directly into human cell genomes without requiring double-strand breaks or cell cycle progression. The method supports exon recoding to alter protein sequences, transgene insertion for therapeutic purposes, and megabase-scale chromosomal rearrangements. Unlike traditional CRISPR-Cas9 gene editing, prime assembly avoids creating dangerous DNA breaks that trigger cell death or cancer-related mutations. This safer approach expands genetic medicine possibilities, allowing precise therapeutic modifications without associated risks. Prime assembly represents an important advance in controlled genome engineering for human therapeutic applications, offering new possibilities for treating genetic diseases and disorders safely.

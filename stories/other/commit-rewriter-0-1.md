@@ -8,7 +8,7 @@ date: "2026-09-14T00:28:10+00:00"
 score: 15
 guid: "https://simonwillison.net/2026/Sep/14/commit-rewriter/"
 image: ""
-generated: "2026-09-19T19:06:02+05:30"
+generated: "2026-09-21T19:05:57+05:30"
 ---
 
 Release: commit-rewriter 0.1 I built this little web app the other day to help edit the commit messages for the Datasette security releases . The initial commits were full of coding agent cruft and references to issue IDs from our private repository, so they weren't fit for publication. If you want to edit the commit messages for a repository you can run it like this: uvx commit-rewriter path/to/repo Omit the path if you are already in the directory for that repo. When you submit your edits the tool creates a timestamped branch of your current repo state - to allow you to revert if you need to - and then rewrites every commit from the first one you edited to the most recent. Tags: git , projects , python , ai-assisted-programming

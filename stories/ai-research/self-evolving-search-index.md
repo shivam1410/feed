@@ -5,10 +5,10 @@ source: "HF Trending Papers"
 url: "https://huggingface.co/papers/2609.19656"
 authors: ["Sangam Lee", "Wonjae Lee", "Sunghwan Kim", "Deogyong Kim", "Jaehoon Kim", "Daye Nam", "SeongKu Kang", "Dongha Lee"]
 date: "2026-09-16T20:00:00.000Z"
-score: 67
+score: 62
 guid: "2609.19656"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.19656.png"
-generated: "2026-09-20T21:43:11+05:30"
+generated: "2026-09-21T19:05:57+05:30"
 ---
 
 Information retrieval is increasingly important as LLM agents tackle complex tasks involving diverse information needs. Because retrieval relies on an index that represents each document through index keys, retrieval quality depends heavily on how effectively these keys expose the knowledge contained in each document. However, effective index representations vary across retrieval environments, making it difficult for any fixed optimization strategy to perform consistently. Yet evolving an index to its retrieval environment remains largely human-driven, requiring humans to diagnose retrieval failures, refine the optimization strategy, and reprocess the index accordingly. We propose SELF-INDEX, a framework that enables an index to self-evolve without human intervention. Its Optimizer autonomously diagnoses retrieval shortfalls, selectively revises the responsible index keys, and validates each revision before updating the index. Beyond reacting to observed retrieval demands, SELF-INDEX proactively explores additional demands through a Query Simulator, allowing the index to evolve beyond the queries already available for optimization. Across diverse corpora and retrievers, SELF-INDEX consistently improves retrieval performance while outperforming existing index optimization methods. We further show that these benefits extend to downstream applications, improving the effectiveness and efficiency of search agents and helping agent memory systems retrieve useful past interactions.

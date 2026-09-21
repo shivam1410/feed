@@ -8,7 +8,7 @@ date: "2026-09-16"
 score: 55
 guid: "10.1038/s41586-026-11013-5"
 image: ""
-generated: "2026-09-20T21:43:11+05:30"
+generated: "2026-09-21T19:05:57+05:30"
 ---
 
 An approach to improve efficiency and establish a background expectation for ligand potency optimization is described.

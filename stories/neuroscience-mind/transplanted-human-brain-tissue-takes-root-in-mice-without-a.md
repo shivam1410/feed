@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/d41586-026-02927-1"
 authors: ["Benjamin Thompson", "Nick Petrić Howe"]
 date: "2026-09-16"
-score: 75
+score: 78
 guid: "10.1038/d41586-026-02927-1"
 image: ""
-generated: "2026-09-20T21:43:11+05:30"
+generated: "2026-09-21T19:05:57+05:30"
 ---
 
-Human brain tissue transplanted into mice lacking a cortex integrated extensively with the host tissue, establishing a potential platform for testing new neurological therapies in living animals. The successful integration demonstrates that human neural cells can function in a mammalian host despite evolutionary distance. Additionally, researchers developed an AI tool that analyzes scientific papers to generate virtual corresponding authors, advancing automation in scientific literature analysis and interpretation.
+Human brain tissue transplanted into mice lacking a cortex successfully integrated extensively with host neural networks. Extensive cellular integration provides a viable platform for testing new therapies in living animals. The article also highlights Paper2Agent, which converts research papers into interactive AI agents.

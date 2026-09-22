@@ -5,10 +5,10 @@ source: "HF Trending Papers"
 url: "https://huggingface.co/papers/2609.22076"
 authors: ["Uchi Uchibeke"]
 date: "2026-09-17T20:00:00.000Z"
-score: 68
+score: 72
 guid: "2609.22076"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.22076.png"
-generated: "2026-09-21T19:05:57+05:30"
+generated: "2026-09-22T19:08:22+05:30"
 ---
 
 APort Vault is a benchmark for payment authorization in tool-using AI agents. It replays 4,371 attacks written by humans against a live payment agent during a public capture-the-flag event, across 14 models from 8 labs, five policy configurations and two replay tracks, with and without a deterministic pre-action check implementing the Open Agent Passport (OAP) specification. 225,964 evaluations completed. We report five distinct events per evaluation, because collapsing them is how an agent benchmark produces a number that does not survive review.

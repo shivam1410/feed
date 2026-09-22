@@ -1,106 +1,106 @@
 {
-  "generatedAt": "2026-09-21T19:06:36+05:30",
+  "generatedAt": "2026-09-22T19:08:51+05:30",
   "source": "Hugging Face — trending models",
   "models": [
     {
-      "id": "prism-ml/Ternary-Bonsai-2-27B-gguf",
-      "task": "text-generation",
-      "likes": 1650,
-      "downloads": 2227879,
-      "library": "llama.cpp",
-      "createdAt": "2026-09-16T23:40:56.000Z",
-      "url": "https://huggingface.co/prism-ml/Ternary-Bonsai-2-27B-gguf",
-      "summary": "27B reasoning model in ternary 2-bit format for llama.cpp, achieving 98.2% FP16 quality in under 6GB."
-    },
-    {
       "id": "convaiinnovations/laya",
       "task": "text-classification",
-      "likes": 1486,
+      "likes": 2239,
       "downloads": 0,
       "library": "transformers",
       "createdAt": "2026-09-18T05:05:55.000Z",
       "url": "https://huggingface.co/convaiinnovations/laya",
-      "summary": "Multilingual non-autoregressive decision classifier returning calibrated probability predictions across 100+ languages in single forward pass."
+      "summary": "System 1 decision model returning calibrated probability answers for routing, guardrails, and triage across 100+ languages in a single forward pass."
+    },
+    {
+      "id": "prism-ml/Ternary-Bonsai-2-27B-gguf",
+      "task": "text-generation",
+      "likes": 1820,
+      "downloads": 2569604,
+      "library": "llama.cpp",
+      "createdAt": "2026-09-16T23:40:56.000Z",
+      "url": "https://huggingface.co/prism-ml/Ternary-Bonsai-2-27B-gguf",
+      "summary": "Ternary-quantized 27B text generation model retaining 98.2% FP16 intelligence at 9.3x compression for llama.cpp inference."
     },
     {
       "id": "Qwen/Qwen-Image-2.1",
       "task": "text-to-image",
-      "likes": 1194,
-      "downloads": 6523,
+      "likes": 1666,
+      "downloads": 16242,
       "library": "diffusers",
       "createdAt": "2026-09-14T03:47:26.000Z",
       "url": "https://huggingface.co/Qwen/Qwen-Image-2.1",
-      "summary": "Lightweight 7B unified text-to-image and editing model with native RGBA support and reference-image guided local edits."
+      "summary": "Unified 7B text-to-image and editing model supporting RGBA transparency, multiple reference images, and versatile local editing operations."
     },
     {
       "id": "XingChen-AGI/Xing4.0-29B-A4B",
       "task": "text-generation",
-      "likes": 1019,
-      "downloads": 18394,
+      "likes": 1259,
+      "downloads": 30627,
       "library": "transformers",
       "createdAt": "2026-09-16T06:44:40.000Z",
       "url": "https://huggingface.co/XingChen-AGI/Xing4.0-29B-A4B",
-      "summary": "29B MoE language model with 4B-per-token activation, 256K context, optimized for complex engineering tasks and tool-use."
+      "summary": "Sparse-activated 29B language model with 256K-512K context, agent-oriented architecture, trained on Ascend NPU for complex engineering tasks."
+    },
+    {
+      "id": "abenzerps/Qwen-Image-2.1-GGUF",
+      "task": "text-to-image",
+      "likes": 903,
+      "downloads": 182313,
+      "library": "gguf",
+      "createdAt": "2026-09-20T15:51:13.000Z",
+      "url": "https://huggingface.co/abenzerps/Qwen-Image-2.1-GGUF",
+      "summary": "GGUF-quantized variant of Qwen-Image-2.1 for local text-to-image generation in ComfyUI with multiple compression options."
     },
     {
       "id": "deepseek-ai/DeepSeek-V4.1-Flash",
       "task": "image-text-to-text",
-      "likes": 3486,
-      "downloads": 512120,
+      "likes": 3587,
+      "downloads": 542014,
       "library": "transformers",
       "createdAt": "2026-09-10T02:17:58.000Z",
       "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash",
-      "summary": "Multimodal MoE with 552B backbone, 1M token context, optimized for input-heavy agentic workloads with efficient activation."
+      "summary": "Multimodal 552B sparse-activated model with 1M token context using Causal Encoder-Decoder architecture for efficient image-text understanding."
     },
     {
       "id": "Qwen/Qwen3.8-27B",
       "task": "image-text-to-text",
-      "likes": 15922,
-      "downloads": 7153238,
+      "likes": 16020,
+      "downloads": 7079646,
       "library": "transformers",
       "createdAt": "2026-08-05T08:22:59.000Z",
       "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
-      "summary": "27B dense vision-language model with flexible thinking, designed for multi-step tasks, coding, and professional reasoning."
+      "summary": "Vision-language 27B model supporting images and videos with flexible thinking control for complex multi-step reasoning tasks."
     },
     {
       "id": "harshatheg/Qwen-2.5-1B-RLCD",
       "task": "text-generation",
-      "likes": 494,
+      "likes": 532,
       "downloads": 0,
       "library": "mlx",
       "createdAt": "2026-09-16T01:35:33.000Z",
       "url": "https://huggingface.co/harshatheg/Qwen-2.5-1B-RLCD",
-      "summary": "Apple Silicon optimizer for structured JSON extraction via parallel constrained decoding, 5.6-7x faster with guaranteed validity."
+      "summary": "1.5B model with parallel constrained decoding for structured extraction on Apple Silicon, achieving 5.6x-7.0x speedup with guaranteed schema validity."
     },
     {
-      "id": "ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF",
-      "task": "image-text-to-text",
-      "likes": 1510,
-      "downloads": 1292471,
-      "library": "gguf",
-      "createdAt": "2026-08-28T18:38:03.000Z",
-      "url": "https://huggingface.co/ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF",
-      "summary": "Per-tensor mixed-precision GGUF quantizations of Qwen3.8-27B multimodal model using gradient-based precision allocation."
-    },
-    {
-      "id": "m-a-p/YuE2-3B",
-      "task": "text-to-audio",
-      "likes": 936,
-      "downloads": 18759,
-      "library": null,
-      "createdAt": "2026-09-09T18:30:33.000Z",
-      "url": "https://huggingface.co/m-a-p/YuE2-3B",
-      "summary": "Open music generation model competitive with Suno, enables lyric-to-song creation with editable melody and chord scores."
-    },
-    {
-      "id": "Lightricks/LTX-2.5",
-      "task": "image-to-video",
-      "likes": 4614,
-      "downloads": 1626742,
+      "id": "Comfy-Org/Qwen-Image-2.1",
+      "task": null,
+      "likes": 515,
+      "downloads": 1429925,
       "library": "diffusion-single-file",
-      "createdAt": "2026-07-23T07:55:24.000Z",
-      "url": "https://huggingface.co/Lightricks/LTX-2.5",
-      "summary": "Multimodal generative model supporting bidirectional conversions between text, image, video, and audio modalities."
+      "createdAt": "2026-09-15T19:41:09.000Z",
+      "url": "https://huggingface.co/Comfy-Org/Qwen-Image-2.1",
+      "summary": "ComfyUI-formatted packaging of Qwen-Image-2.1 with optional prompt enhancement for text-to-image and image editing workflows."
+    },
+    {
+      "id": "Altworld/Hemmingway-1",
+      "task": "text-generation",
+      "likes": 453,
+      "downloads": 2745,
+      "library": "transformers",
+      "createdAt": "2026-09-20T12:10:31.000Z",
+      "url": "https://huggingface.co/Altworld/Hemmingway-1",
+      "summary": "27B language model optimized for everyday human-like writing including emails, messages, and personal correspondence."
     }
   ]
 }

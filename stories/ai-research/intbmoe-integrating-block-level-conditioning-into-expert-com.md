@@ -1,14 +1,14 @@
 ---
 title: "IntBMoE: Integrating Block-Level Conditioning into Expert Composition for Full-Participation Mixture-of-Experts"
 category: "AI Research"
-source: "arXiv (cs.LG)"
-url: "https://arxiv.org/abs/2609.21346"
-authors: ["Ran Cheng, Longfei Xu, Zheng Liu, Kaikui Liu, Xiangxiang Chu"]
-date: "Mon, 21 Sep 2026 00:00:00 -0400"
-score: 55
-guid: "oai:arXiv.org:2609.21346v1"
-image: ""
-generated: "2026-09-21T19:05:57+05:30"
+source: "HF Trending Papers"
+url: "https://huggingface.co/papers/2609.21346"
+authors: ["Ran Cheng", "Longfei Xu", "Zheng Liu", "Kaikui Liu", "Xiangxiang Chu"]
+date: "2026-09-17T20:00:00.000Z"
+score: 72
+guid: "2609.21346"
+image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.21346.png"
+generated: "2026-09-22T19:08:22+05:30"
 ---
 
-arXiv:2609.21346v1 Announce Type: new Abstract: Mixture-of-Experts (MoE) scales capacity, but existing designs cannot set three quantities independently. For a single token, participation is how many experts contribute knowledge to its output, execution is how many are actually computed (compute cost), and materialization is how many expert-sized parameter sets must be built and stored (memory cost). Sparse routing keeps execution and materialization low, but shrinks participation: for each token, only a few experts contribute. Dense output-mixing restores full participation, but its execution grows with the number of experts. Parameter-merging keeps execution at one expert, but its materialization grows with the number of routing decisions. We propose IntBMoE, a block-conditioned MoE that decouples all three by pairing dense expert composition with sparse block execution. Its blocks come from a small learned codebook, one per entry. At each internal layer, a lightweight hypernetwork merges all expert bases in that layer's pool into one composed expert. Participation is full, because every composed expert draws on the entire pool. Execution stays sparse, because a router sends each token to only a few blocks. Materialization is bounded, because the codebook, not the input, fixes how many blocks exist. Dual-Path Residual Gating (DPRG) further couples two independently composed paths through multiplicative gating. Experiments on image classification show consistent gains over representative sparse and dense MoE baselines. Additional experiments on language modeling and sequential recommendation validate its generalization beyond vision. IntBMoE is fully deployed in AMap's generative recommendation system, serving hundreds of millions of users under a 60ms latency budget, with a 2.4% relative UVCTR gain in online A/B testing. Our code is available at https://github.com/AMAP-ML/DreamX-Rec/.
+Mixture-of-Experts (MoE) scales capacity, but existing designs cannot set three quantities independently. For a single token, participation is how many experts contribute knowledge to its output, execution is how many are actually computed (compute cost), and materialization is how many expert-sized parameter sets must be built and stored (memory cost). Sparse routing keeps execution and materialization low, but shrinks participation: for each token, only a few experts contribute. Dense output-mixing restores full participation, but its execution grows with the number of experts. Parameter-merging keeps execution at one expert, but its materialization grows with the number of routing decisions. We propose IntBMoE, a block-conditioned MoE that decouples all three by pairing dense expert composition with sparse block execution. Its blocks come from a small learned codebook, one per entry. At each internal layer, a lightweight hypernetwork merges all expert bases in that layer's pool into one composed expert. Participation is full, because every composed expert draws on the entire pool. Execution stays sparse, because a router sends each token to only a few blocks. Materialization is bounded, because the codebook, not the input, fixes how many blocks exist. Dual-Path Residual Gating (DPRG) further couples two independently composed paths through multiplicative gating. Experiments on image classification show consistent gains over representative sparse and dense MoE baselines. Additional experiments on language modeling and sequential recommendation validate its generalization beyond vision. IntBMoE is fully deployed in AMap's generative recommendation system, serving hundreds of millions of users under a 60ms latency budget, with a 2.4% relative UVCTR gain in online A/B testing. Our code is available at https://github.com/AMAP-ML/DreamX-Rec/.

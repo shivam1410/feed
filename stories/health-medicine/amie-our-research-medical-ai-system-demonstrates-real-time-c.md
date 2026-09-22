@@ -5,10 +5,10 @@ source: "DeepMind"
 url: "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-video-consultations/"
 authors: ["Anil Palepu"]
 date: "Tue, 11 Aug 2026 17:00:00 +0000"
-score: 70
+score: 80
 guid: "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-video-consultations/"
 image: "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AIME_SIZZLE_THUMBNAIL.Aug10.max-600x600.format-webp.webp"
-generated: "2026-09-20T21:43:11+05:30"
+generated: "2026-09-22T19:08:22+05:30"
 ---
 
-Google introduces AMIE for real-time clinical video consultations in simulated settings.
+Google introduces AMIE, an AI system capable of conducting real-time clinical video consultations in simulated settings. This marks a first-of-its-kind study demonstrating AI ability to engage in interactive medical consultations similar to human physicians. The research explores how AI can support healthcare delivery through realistic consultation scenarios, potentially expanding access to medical expertise.

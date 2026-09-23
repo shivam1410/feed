@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/d41586-026-02896-5"
 authors: []
 date: "2026-09-17"
-score: 55
+score: 40
 guid: "10.1038/d41586-026-02896-5"
 image: ""
-generated: "2026-09-21T19:05:57+05:30"
+generated: "2026-09-23T19:07:00+05:30"
 ---
 
 Modelling shows a link between feeding programmes and higher potential earning in five African nations.

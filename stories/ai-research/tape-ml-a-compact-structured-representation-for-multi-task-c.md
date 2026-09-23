@@ -1,0 +1,15 @@
+---
+title: "TAPe+ML: A Compact Structured Representation for Multi-Task Computer Vision"
+category: "AI Research"
+source: "HF Trending Papers"
+url: "https://huggingface.co/papers/2609.20869"
+authors: ["Sergey Kurinov", "Alexey Upatov"]
+date: "2026-09-14T20:00:00.000Z"
+score: 55
+guid: "2609.20869"
+image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.20869.png"
+generated: "2026-09-23T19:07:00+05:30"
+---
+
+We present TAPe+ML v3, a compact computer vision system based on TAPe (Theory of Active Perception), a structured representation that encodes relations among perceptual elements before recognition. Instead of operating directly on pixel tensors, the system uses a shared TAPe representation and a modular recognition architecture for image classification, object detection, and instance segmentation.
+  TAPe+ML v3 combines background and contour processing, local object localization, prototype-based classification, and a coordinator for specialized submodels. Across the reported experiments, it uses fewer than 100,000 parameters. On COCO object detection, it obtains 84.7 mAP50 and 65.3 mAP50-95. On COCO instance segmentation, it obtains 80.7 mask mAP50 and 58.4 mask mAP50-95. In classification experiments, it reaches 92 percent validation accuracy on Imagenette under an identical-training comparison with a raw-pixel baseline, and 89.9 percent Top-1 accuracy on ImageNet-Real. We also evaluate compactness in video scene detection and adaptation under distribution shift in an industrial pilot. The results suggest that shifting part of the modeling burden from network parameters to a structured input representation can support compact multi-task vision systems with reduced data, memory, and compute requirements.

@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/d41586-026-02928-0"
 authors: ["Manasi  Kumar"]
 date: "2026-09-21"
-score: 55
+score: 45
 guid: "10.1038/d41586-026-02928-0"
 image: ""
-generated: "2026-09-21T19:05:57+05:30"
+generated: "2026-09-23T19:07:00+05:30"
 ---
 
-Climate change impacts extend far beyond property and income loss to include intangible losses to ways of life and cultural practices. Policymakers lack standardized methods to assess and quantify what communities value and stand to lose. Developing measurement frameworks for these less-tangible damages is essential for informed climate policy and equitable compensation.
+Climate losses extend beyond property and income. Policymakers need ways to assess what people value, experience and ultimately stand to lose.

@@ -5,10 +5,10 @@ source: "HF Trending Papers"
 url: "https://huggingface.co/papers/2609.24220"
 authors: ["Uday Allu", "Abhivanth Sivaprakash", "Pratik Singh", "Aman Manocha"]
 date: "2026-09-20T20:00:00.000Z"
-score: 72
+score: 65
 guid: "2609.24220"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.24220.png"
-generated: "2026-09-22T19:08:22+05:30"
+generated: "2026-09-23T19:07:00+05:30"
 ---
 
 Retrieval-Augmented Generation (RAG) systems over enterprise knowledge bases must ingest heterogeneous document formats -- PDFs, Word documents, presentations, and scans -- whose content is locked inside complex visual layouts, multi-column pages, and dense tables. Rule-based extraction and OCR destroy reading order, flatten tables, and lose heading hierarchy, while fully agentic chunking over extracted text incurs high token costs and hallucination risk. We present Document Retrieval-Aware Chunking (D-RAC), an extension of our Web Retrieval-Aware Chunking (W-RAC) framework to arbitrary document formats. D-RAC first normalizes any input document into PDF, exploiting the fact that virtually every format has a faithful, deterministic PDF rendering. A single multimodal LLM pass then converts rendered pages into retrieval-optimized Markdown -- rewriting tables as self-contained prose statements and preserving heading hierarchy -- after which chunking proceeds exactly as in W-RAC: deterministic parsing into ID-addressable units followed by lightweight LLM-based chunk planning over identifiers rather than text. Source text is never regenerated during chunking, preserving W-RAC's cost, determinism, and observability benefits while unlocking every renderable format as a first-class input. On the 236-document, 795-page PDF subset of the RAG-Multi-Corpus benchmark spanning five enterprise domains, D-RAC converts and chunks the entire corpus in 72 minutes with zero errors, producing 1,748 retrieval-ready chunks. Compared to agentic chunking with frontier LLMs, D-RAC reduces chunking-stage output tokens by 95.7%, cutting chunking cost by 77.8% (GPT-4.1 pricing) to 85.6% (Gemini 2.5 Pro pricing) and chunking time by 75%. D-RAC scales linearly to documents of 500+ pages.

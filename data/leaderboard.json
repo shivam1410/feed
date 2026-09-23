@@ -1,106 +1,106 @@
 {
-  "generatedAt": "2026-09-22T19:08:51+05:30",
+  "generatedAt": "2026-09-23T19:07:37+05:30",
   "source": "Hugging Face — trending models",
   "models": [
     {
       "id": "convaiinnovations/laya",
       "task": "text-classification",
-      "likes": 2239,
+      "likes": 2905,
       "downloads": 0,
       "library": "transformers",
       "createdAt": "2026-09-18T05:05:55.000Z",
       "url": "https://huggingface.co/convaiinnovations/laya",
-      "summary": "System 1 decision model returning calibrated probability answers for routing, guardrails, and triage across 100+ languages in a single forward pass."
-    },
-    {
-      "id": "prism-ml/Ternary-Bonsai-2-27B-gguf",
-      "task": "text-generation",
-      "likes": 1820,
-      "downloads": 2569604,
-      "library": "llama.cpp",
-      "createdAt": "2026-09-16T23:40:56.000Z",
-      "url": "https://huggingface.co/prism-ml/Ternary-Bonsai-2-27B-gguf",
-      "summary": "Ternary-quantized 27B text generation model retaining 98.2% FP16 intelligence at 9.3x compression for llama.cpp inference."
+      "summary": "Multilingual System 1 classifier returning calibrated probability answers via single forward pass; no text generation, optimized for guardrails."
     },
     {
       "id": "Qwen/Qwen-Image-2.1",
       "task": "text-to-image",
-      "likes": 1666,
-      "downloads": 16242,
+      "likes": 1940,
+      "downloads": 28407,
       "library": "diffusers",
       "createdAt": "2026-09-14T03:47:26.000Z",
       "url": "https://huggingface.co/Qwen/Qwen-Image-2.1",
-      "summary": "Unified 7B text-to-image and editing model supporting RGBA transparency, multiple reference images, and versatile local editing operations."
+      "summary": "7B-parameter unified text-to-image and image editor generating regular or transparent RGBA images with support for reference images."
+    },
+    {
+      "id": "prism-ml/Ternary-Bonsai-2-27B-gguf",
+      "task": "text-generation",
+      "likes": 1920,
+      "downloads": 2815979,
+      "library": "llama.cpp",
+      "createdAt": "2026-09-16T23:40:56.000Z",
+      "url": "https://huggingface.co/prism-ml/Ternary-Bonsai-2-27B-gguf",
+      "summary": "27B ternary language model at 5.9GB retaining 98.2% FP16 intelligence; runs full reasoning on laptops via llama.cpp."
     },
     {
       "id": "XingChen-AGI/Xing4.0-29B-A4B",
       "task": "text-generation",
-      "likes": 1259,
-      "downloads": 30627,
+      "likes": 1446,
+      "downloads": 39009,
       "library": "transformers",
       "createdAt": "2026-09-16T06:44:40.000Z",
       "url": "https://huggingface.co/XingChen-AGI/Xing4.0-29B-A4B",
-      "summary": "Sparse-activated 29B language model with 256K-512K context, agent-oriented architecture, trained on Ascend NPU for complex engineering tasks."
+      "summary": "29B MoE text generator with 4B active parameters, 256K context, agent-oriented architecture supporting tool calling and planning."
     },
     {
-      "id": "abenzerps/Qwen-Image-2.1-GGUF",
+      "id": "abenzerps/Qwen-Image-2.1-Uncensored-GGUF",
       "task": "text-to-image",
-      "likes": 903,
-      "downloads": 182313,
+      "likes": 1327,
+      "downloads": 350678,
       "library": "gguf",
       "createdAt": "2026-09-20T15:51:13.000Z",
-      "url": "https://huggingface.co/abenzerps/Qwen-Image-2.1-GGUF",
-      "summary": "GGUF-quantized variant of Qwen-Image-2.1 for local text-to-image generation in ComfyUI with multiple compression options."
+      "url": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-GGUF",
+      "summary": "Quantized GGUF version of Qwen-Image-2.1 for local image generation available in multiple precision levels."
     },
     {
       "id": "deepseek-ai/DeepSeek-V4.1-Flash",
       "task": "image-text-to-text",
-      "likes": 3587,
-      "downloads": 542014,
+      "likes": 3648,
+      "downloads": 570909,
       "library": "transformers",
       "createdAt": "2026-09-10T02:17:58.000Z",
       "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash",
-      "summary": "Multimodal 552B sparse-activated model with 1M token context using Causal Encoder-Decoder architecture for efficient image-text understanding."
-    },
-    {
-      "id": "Qwen/Qwen3.8-27B",
-      "task": "image-text-to-text",
-      "likes": 16020,
-      "downloads": 7079646,
-      "library": "transformers",
-      "createdAt": "2026-08-05T08:22:59.000Z",
-      "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
-      "summary": "Vision-language 27B model supporting images and videos with flexible thinking control for complex multi-step reasoning tasks."
-    },
-    {
-      "id": "harshatheg/Qwen-2.5-1B-RLCD",
-      "task": "text-generation",
-      "likes": 532,
-      "downloads": 0,
-      "library": "mlx",
-      "createdAt": "2026-09-16T01:35:33.000Z",
-      "url": "https://huggingface.co/harshatheg/Qwen-2.5-1B-RLCD",
-      "summary": "1.5B model with parallel constrained decoding for structured extraction on Apple Silicon, achieving 5.6x-7.0x speedup with guaranteed schema validity."
+      "summary": "552B multimodal MoE supporting 1M-token context with 8–16B active parameters; efficiently processes images and text."
     },
     {
       "id": "Comfy-Org/Qwen-Image-2.1",
       "task": null,
-      "likes": 515,
-      "downloads": 1429925,
+      "likes": 605,
+      "downloads": 2220609,
       "library": "diffusion-single-file",
       "createdAt": "2026-09-15T19:41:09.000Z",
       "url": "https://huggingface.co/Comfy-Org/Qwen-Image-2.1",
-      "summary": "ComfyUI-formatted packaging of Qwen-Image-2.1 with optional prompt enhancement for text-to-image and image editing workflows."
+      "summary": "ComfyUI-packaged version of Qwen-Image-2.1 diffusion model with text encoders and VAE for image generation."
+    },
+    {
+      "id": "Qwen/Qwen3.8-27B",
+      "task": "image-text-to-text",
+      "likes": 16112,
+      "downloads": 6912469,
+      "library": "transformers",
+      "createdAt": "2026-08-05T08:22:59.000Z",
+      "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
+      "summary": "27B vision-language model processing images and videos with flexible thinking for complex multi-step agentic reasoning."
     },
     {
       "id": "Altworld/Hemmingway-1",
       "task": "text-generation",
-      "likes": 453,
-      "downloads": 2745,
+      "likes": 537,
+      "downloads": 3787,
       "library": "transformers",
       "createdAt": "2026-09-20T12:10:31.000Z",
       "url": "https://huggingface.co/Altworld/Hemmingway-1",
-      "summary": "27B language model optimized for everyday human-like writing including emails, messages, and personal correspondence."
+      "summary": "27B model optimized for human-like everyday writing—messages, emails—outperforming larger models in naturalness."
+    },
+    {
+      "id": "AlexWortega/openjev",
+      "task": "text-classification",
+      "likes": 499,
+      "downloads": 0,
+      "library": "transformers",
+      "createdAt": "2026-09-16T18:25:10.000Z",
+      "url": "https://huggingface.co/AlexWortega/openjev",
+      "summary": "Cross-encoder reading premise–hypothesis pairs to output entailment/neutral/contradiction for zero-shot reranking, content guarding, and game logic."
     }
   ]
 }

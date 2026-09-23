@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/d41586-026-02946-y"
 authors: ["Xiaoying You"]
 date: "2026-09-18"
-score: 45
+score: 40
 guid: "10.1038/d41586-026-02946-y"
 image: ""
-generated: "2026-09-21T19:05:57+05:30"
+generated: "2026-09-23T19:07:00+05:30"
 ---
 
 Affected Chinese companies adjusted their sources of knowledge to stay competitive.

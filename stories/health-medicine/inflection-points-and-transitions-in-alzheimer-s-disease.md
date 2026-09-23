@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/s41586-026-11110-5"
 authors: ["Bart De Strooper", "Eric Karran"]
 date: "2026-09-16"
-score: 70
+score: 40
 guid: "10.1038/s41586-026-11110-5"
 image: ""
-generated: "2026-09-21T19:05:57+05:30"
+generated: "2026-09-23T19:07:00+05:30"
 ---
 
 Inflection points and transitions in Alzheimer’s disease

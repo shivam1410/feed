@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/d41586-026-02945-z"
 authors: ["Rachel Fieldhouse"]
 date: "2026-09-18"
-score: 80
+score: 85
 guid: "10.1038/d41586-026-02945-z"
 image: ""
-generated: "2026-09-21T19:05:57+05:30"
+generated: "2026-09-23T19:07:00+05:30"
 ---
 
-A patient with rare motor-neuron disease showed clinical improvement after receiving RNA-targeted gene therapy. This first-patient success demonstrates the potential to extend gene-targeting treatments to other rare ALS variants, opening new therapeutic options for previously untreatable conditions.
+A patient with rare motor-neuron disease improved after receiving RNA therapy that targets and corrects disease-causing genes. This represents the first successful RNA therapeutic application for rare ALS variants, offering hope for patients with diverse motor-neuron conditions.

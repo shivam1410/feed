@@ -1,0 +1,14 @@
+---
+title: "Exposing Blind Spots in Deep Imbalanced Regression Evaluation"
+category: "AI Research"
+source: "arXiv (cs.LG)"
+url: "https://arxiv.org/abs/2609.25152"
+authors: ["Noah C. Puetz, Jens U. Brandt, Marc Hilbert, Elena Raponi, Thomas B\\\"ack, Thomas Bartz-Beielstein"]
+date: "Wed, 23 Sep 2026 00:00:00 -0400"
+score: 40
+guid: "oai:arXiv.org:2609.25152v1"
+image: ""
+generated: "2026-09-23T19:07:00+05:30"
+---
+
+arXiv:2609.25152v1 Announce Type: new Abstract: Deep Imbalanced Regression (DIR) addresses a common failure mode of regression models: target distributions are highly non-uniform, causing models to perform best in densely populated target regions even when reliable performance is required across the full target range. Despite rapid methodological progress, DIR evaluation remains constrained by three blind spots: it is dominated by image-based benchmarks, its standard many-/medium-/few-shot protocol is diagnostic but not decision-complete, and tail-region stability across random seeds has not been systematically evaluated. We revisit DIR evaluation along these three axes. First, we broaden the data domain by evaluating DIR on a multimodal virtual sensing benchmark (\textsc{MuViS}) with nine time-series extrinsic regression tasks across six physical domains, where rare target values often correspond to operationally meaningful regimes. Second, we adopt balanced MAE (\emph{bMAE}) and introduce balanced Mean Absolute Scaled Error (\emph{bMASE}), a scale-normalized metric for decision-complete comparison across methods and datasets. Third, through a repeated reevaluation of six representative DIR methods across multiple random seeds, we show that the tail regions targeted by DIR exhibit particularly high sensitivity to seed-level variability. Our results show that standard virtual-sensing models exhibit substantial tail degradation hidden by global MAE, that existing DIR methods can improve balanced performance but transfer unevenly to multimodal time-series data, and that tail-region instability remains a largely hidden failure mode under current DIR evaluation practice. Together, these findings and our publicly available code provide a reproducible basis for future DIR research toward regression systems that capture rare target regimes as reliably as common ones.

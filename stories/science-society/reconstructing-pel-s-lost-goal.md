@@ -8,7 +8,7 @@ date: "Tue, 14 Jul 2026 13:00:00 +0000"
 score: 35
 guid: "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/reconstructing-peles-lost-goal/"
 image: "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Screenshot_2026-07-13_at_7.18.4.max-600x600.format-webp.webp"
-generated: "2026-09-21T19:05:57+05:30"
+generated: "2026-09-23T19:07:00+05:30"
 ---
 
 See how Google DeepMind AI technology reconstructed Pelé’s legendary 1959 lost goal at Rua Javari in our new mini-documentary.

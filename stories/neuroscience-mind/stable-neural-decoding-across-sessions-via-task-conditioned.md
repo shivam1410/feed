@@ -1,0 +1,14 @@
+---
+title: "Stable Neural Decoding Across Sessions via Task-Conditioned Latent Alignment for Brain-Machine Interfaces"
+category: "Neuroscience & Mind"
+source: "arXiv (cs.LG)"
+url: "https://arxiv.org/abs/2609.27441"
+authors: ["Canyang Zhao, Bolin Peng, J. Patrick Mayo, Ce Ju, Bing Liu"]
+date: "Thu, 24 Sep 2026 00:00:00 -0400"
+score: 70
+guid: "oai:arXiv.org:2609.27441v1"
+image: ""
+generated: "2026-09-24T19:24:37+05:30"
+---
+
+arXiv:2609.27441v1 Announce Type: new Abstract: Achieving stable long-term neural decoding in invasive brain-machine interfaces (BMIs) remains challenging due to variations in recorded neural populations across sessions. Current latent alignment approaches may overlook task-dependent structure during cross-session adaptation. We propose Task-Conditioned Latent Alignment (TCLA), a framework that stabilizes neural decoding by learning a shared latent space. TCLA learns a low-dimensional source representation using neural reconstruction and continuous behavioral supervision. During target-session adaptation, the shared representation is fixed, while target neural activity is mapped into the source latent space by aligning source and target distributions separately for each task condition. We evaluated TCLA on seven nonhuman primate datasets spanning multiple tasks. In long-term cross-session evaluation, TCLA achieved a mean $R^2$ of $0.476\pm0.014$ with a negative $R^2$ failure rate of only 6.8\%. Across 1,356 within-subject session pairs, TCLA achieved a mean $R^2$ of $0.371\pm0.009$ with a failure rate of 6.8\%. Across 2,134 cross-subject session pairs, TCLA achieved a mean $R^2$ of $0.218\pm0.004$ with a failure rate of 12.9\%, substantially better than those of the comparison methods. These results demonstrate that by preserving behaviorally relevant and task-dependent latent structure, TCLA improves the robustness of neural decoding across recording sessions and subjects. The source code is publicly available at \href{https://github.com/FAMD-CASIA/TCLA}{https://github.com/FAMD-CASIA/TCLA}.

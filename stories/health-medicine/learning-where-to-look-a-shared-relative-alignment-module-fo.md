@@ -1,0 +1,14 @@
+---
+title: "Learning Where to Look: A Shared Relative-Alignment Module for Time-Series Forecasting and PPG-to-Vital-Sign Reconstruction"
+category: "Health & Medicine"
+source: "arXiv (cs.LG)"
+url: "https://arxiv.org/abs/2609.27473"
+authors: ["Ragamayi Puli, Shunya Nagashima"]
+date: "Thu, 24 Sep 2026 00:00:00 -0400"
+score: 60
+guid: "oai:arXiv.org:2609.27473v1"
+image: ""
+generated: "2026-09-24T19:24:37+05:30"
+---
+
+arXiv:2609.27473v1 Announce Type: new Abstract: PPG-to-vital-sign reconstruction turns a wrist-worn photoplethysmogram into clinical waveforms such as the ECG. Long-horizon multivariate time-series forecasting underpins planning in energy, weather, and traffic. Both generate a target sequence from a condition sequence, and current models hard-code where each target position reads it, as a same-position copy or seasonal recurrence, so neither transfers between tasks. We propose ROOSTER, one conditioning module that handles vital-sign reconstruction and time-series forecasting alike by learning this correspondence. Its core is a periodic-comb bias over the target-condition offset whose center, period, and sharpness are learned per head, so one module settles on the identity alignment or a seasonal lag and reports which it found. On vital-sign reconstruction from PPG, ROOSTER outperformed the published baselines on four heart-rate and respiratory-rate benchmarks. On multivariate time-series forecasting, it achieved the best horizon-averaged MSE on four benchmarks and outperformed the forecasting model it extends on 20 of 24 dataset-horizon settings under matched three-seed training. An ablation study indicated that the relative bias, not content matching, carried the alignment.

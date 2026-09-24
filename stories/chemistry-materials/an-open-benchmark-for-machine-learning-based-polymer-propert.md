@@ -1,0 +1,14 @@
+---
+title: "An open benchmark for machine learning-based polymer property prediction"
+category: "Chemistry & Materials"
+source: "arXiv (cs.LG)"
+url: "https://arxiv.org/abs/2609.27036"
+authors: ["Robert W. Learsch, Nicholas Liesen, Daniel S. Levine, Anna M. Hiszpanski, Evan R. Antoniuk"]
+date: "Thu, 24 Sep 2026 00:00:00 -0400"
+score: 65
+guid: "oai:arXiv.org:2609.27036v1"
+image: ""
+generated: "2026-09-24T19:24:37+05:30"
+---
+
+arXiv:2609.27036v1 Announce Type: new Abstract: Polymer property prediction lacks open, standardized benchmarks that enable rigorous comparison of machine-learning methods, with existing resources covering only a narrow fraction of polymer architectures, such as homopolymers. We introduce Polymer Benchmark 2026 (PolyBench26), an open dataset comprising nearly 250,000 polymer-property datapoints across eight physical properties, including data from experimental measurements, density functional theory, and molecular dynamics. The benchmark supports four evaluation tasks across homopolymers and alternating, random, and block copolymers: in-distribution property prediction, dataset-size scaling, repeat-unit complexity, and transfer to held-out polymer architectures. We compare language model, graph-based, and descriptor-based approaches and find graph-based models provide the lowest errors in property prediction, retain their advantage across the evaluated training-set sizes, and remain robust to increasing repeat-unit complexity. PolyBench26 provides a reproducible foundation for developing models for the increasingly complex polymer design space. The PolyBench26 benchmark is available open-source at https://github.com/rlearsch/PolymerBenchmark2026.

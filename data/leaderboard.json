@@ -1,106 +1,106 @@
 {
-  "generatedAt": "2026-09-23T19:07:37+05:30",
+  "generatedAt": "2026-09-24T19:25:07+05:30",
   "source": "Hugging Face — trending models",
   "models": [
     {
       "id": "convaiinnovations/laya",
       "task": "text-classification",
-      "likes": 2905,
+      "likes": 3290,
       "downloads": 0,
       "library": "transformers",
       "createdAt": "2026-09-18T05:05:55.000Z",
       "url": "https://huggingface.co/convaiinnovations/laya",
-      "summary": "Multilingual System 1 classifier returning calibrated probability answers via single forward pass; no text generation, optimized for guardrails."
+      "summary": "System 1 decision model returning calibrated probabilities for text routing/classification across 100+ languages in ~33ms single pass."
     },
     {
       "id": "Qwen/Qwen-Image-2.1",
       "task": "text-to-image",
-      "likes": 1940,
-      "downloads": 28407,
+      "likes": 2139,
+      "downloads": 37618,
       "library": "diffusers",
       "createdAt": "2026-09-14T03:47:26.000Z",
       "url": "https://huggingface.co/Qwen/Qwen-Image-2.1",
-      "summary": "7B-parameter unified text-to-image and image editor generating regular or transparent RGBA images with support for reference images."
+      "summary": "Lightweight text-to-image and editing model supporting image generation, transparency (RGBA), and reference-guided editing with 7B visual parameters."
     },
     {
       "id": "prism-ml/Ternary-Bonsai-2-27B-gguf",
       "task": "text-generation",
-      "likes": 1920,
-      "downloads": 2815979,
+      "likes": 1991,
+      "downloads": 2991233,
       "library": "llama.cpp",
       "createdAt": "2026-09-16T23:40:56.000Z",
       "url": "https://huggingface.co/prism-ml/Ternary-Bonsai-2-27B-gguf",
-      "summary": "27B ternary language model at 5.9GB retaining 98.2% FP16 intelligence; runs full reasoning on laptops via llama.cpp."
+      "summary": "27B-class reasoning model compressed to ternary weights (~5.9GB) retaining 98.2% FP16 performance for llama.cpp on consumer hardware."
     },
     {
       "id": "XingChen-AGI/Xing4.0-29B-A4B",
       "task": "text-generation",
-      "likes": 1446,
-      "downloads": 39009,
+      "likes": 1641,
+      "downloads": 41923,
       "library": "transformers",
       "createdAt": "2026-09-16T06:44:40.000Z",
       "url": "https://huggingface.co/XingChen-AGI/Xing4.0-29B-A4B",
-      "summary": "29B MoE text generator with 4B active parameters, 256K context, agent-oriented architecture supporting tool calling and planning."
+      "summary": "29B MoE model with 4B active per token, agent-oriented architecture supporting 256K context, complex reasoning and tool calling."
     },
     {
       "id": "abenzerps/Qwen-Image-2.1-Uncensored-GGUF",
       "task": "text-to-image",
-      "likes": 1327,
-      "downloads": 350678,
+      "likes": 1568,
+      "downloads": 575697,
       "library": "gguf",
       "createdAt": "2026-09-20T15:51:13.000Z",
       "url": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-GGUF",
-      "summary": "Quantized GGUF version of Qwen-Image-2.1 for local image generation available in multiple precision levels."
-    },
-    {
-      "id": "deepseek-ai/DeepSeek-V4.1-Flash",
-      "task": "image-text-to-text",
-      "likes": 3648,
-      "downloads": 570909,
-      "library": "transformers",
-      "createdAt": "2026-09-10T02:17:58.000Z",
-      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash",
-      "summary": "552B multimodal MoE supporting 1M-token context with 8–16B active parameters; efficiently processes images and text."
+      "summary": "GGUF quantizations of Qwen-Image-2.1 for local text-to-image generation in ComfyUI with multiple precision levels from Q4 to BF16."
     },
     {
       "id": "Comfy-Org/Qwen-Image-2.1",
       "task": null,
-      "likes": 605,
-      "downloads": 2220609,
+      "likes": 655,
+      "downloads": 2858923,
       "library": "diffusion-single-file",
       "createdAt": "2026-09-15T19:41:09.000Z",
       "url": "https://huggingface.co/Comfy-Org/Qwen-Image-2.1",
-      "summary": "ComfyUI-packaged version of Qwen-Image-2.1 diffusion model with text encoders and VAE for image generation."
-    },
-    {
-      "id": "Qwen/Qwen3.8-27B",
-      "task": "image-text-to-text",
-      "likes": 16112,
-      "downloads": 6912469,
-      "library": "transformers",
-      "createdAt": "2026-08-05T08:22:59.000Z",
-      "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
-      "summary": "27B vision-language model processing images and videos with flexible thinking for complex multi-step agentic reasoning."
+      "summary": "Qwen-Image-2.1 repackaged for ComfyUI with text-to-image, image editing, and optional prompt enhancement components for workflows."
     },
     {
       "id": "Altworld/Hemmingway-1",
       "task": "text-generation",
-      "likes": 537,
-      "downloads": 3787,
+      "likes": 609,
+      "downloads": 4541,
       "library": "transformers",
       "createdAt": "2026-09-20T12:10:31.000Z",
       "url": "https://huggingface.co/Altworld/Hemmingway-1",
-      "summary": "27B model optimized for human-like everyday writing—messages, emails—outperforming larger models in naturalness."
+      "summary": "27B parameter text model optimized for natural everyday writing—emails, messages, admin—outperforming larger models on real-world writing tasks."
     },
     {
-      "id": "AlexWortega/openjev",
-      "task": "text-classification",
-      "likes": 499,
-      "downloads": 0,
+      "id": "deepseek-ai/DeepSeek-V4.1-Flash",
+      "task": "image-text-to-text",
+      "likes": 3695,
+      "downloads": 606028,
       "library": "transformers",
-      "createdAt": "2026-09-16T18:25:10.000Z",
-      "url": "https://huggingface.co/AlexWortega/openjev",
-      "summary": "Cross-encoder reading premise–hypothesis pairs to output entailment/neutral/contradiction for zero-shot reranking, content guarding, and game logic."
+      "createdAt": "2026-09-10T02:17:58.000Z",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash",
+      "summary": "Multimodal MoE with 552B parameters supporting 1M context, efficient KV cache compression, image/text input for agentic workloads."
+    },
+    {
+      "id": "Qwen/Qwen3.8-27B",
+      "task": "image-text-to-text",
+      "likes": 16183,
+      "downloads": 6765008,
+      "library": "transformers",
+      "createdAt": "2026-08-05T08:22:59.000Z",
+      "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
+      "summary": "27B dense vision-language model with video support and flexible thinking control for complex multi-step agentic tasks and research."
+    },
+    {
+      "id": "TaichuAI/ZDTaichu5.0-9B",
+      "task": "image-text-to-text",
+      "likes": 1026,
+      "downloads": 8313,
+      "library": null,
+      "createdAt": "2026-09-04T02:55:48.000Z",
+      "url": "https://huggingface.co/TaichuAI/ZDTaichu5.0-9B",
+      "summary": "9B multimodal foundation model combining visual understanding with spatial reasoning and tool use for embodied AI and VLA tasks."
     }
   ]
 }

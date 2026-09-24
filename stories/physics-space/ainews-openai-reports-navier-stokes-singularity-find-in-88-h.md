@@ -5,10 +5,10 @@ source: "Latent Space"
 url: "https://www.latent.space/p/ainews-openai-reports-navier-stokes"
 authors: []
 date: "Wed, 09 Sep 2026 05:04:51 GMT"
-score: 95
+score: 90
 guid: "https://www.latent.space/p/ainews-openai-reports-navier-stokes"
 image: ""
-generated: "2026-09-22T19:08:22+05:30"
+generated: "2026-09-24T19:24:37+05:30"
 ---
 
-OpenAI orchestrated roughly 10,000 collaborative agents over 88 hours to produce a Navier-Stokes singularity result, spending over $40 million in tokens (130 billion tokens) using multiagent reinforcement learning trained over a year. The achievement demonstrates that hard mathematical problems may yield to massive parallel test-time compute with models self-organizing collaboration. The result represents a potential contender for the second-ever Millennium Prize, though authorship and process details remain disputed between OpenAI and academic partners.
+OpenAI used approximately 10,000 AI agents coordinating for 88 hours, consuming 130 billion tokens (costing over $40 million), to solve a Navier–Stokes singularity problem—a potential contender for the second Millennium Prize in mathematics. The approach employed "huge amounts of unstructured parallel test-time compute" where models self-organized through multiagent reinforcement learning trained over the past year using OpenAI's Astra-next model. While some dispute surrounds the authorship and process details, the core achievement appears real and demonstrates AI's emerging capability at solving major unsolved mathematical problems through massive coordinated agent effort.

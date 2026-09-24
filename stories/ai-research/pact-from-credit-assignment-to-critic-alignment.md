@@ -1,0 +1,14 @@
+---
+title: "PACT: From Credit Assignment to Critic Alignment"
+category: "AI Research"
+source: "HF Trending Papers"
+url: "https://huggingface.co/papers/2609.26355"
+authors: ["Jiayan Fu", "Hang Xu", "Yong Zhang", "Zhaokai Luo", "Yao Hu", "Dongyan Zhao", "Mu Chuan"]
+date: "2026-09-21T20:00:00.000Z"
+score: 65
+guid: "2609.26355"
+image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.26355.png"
+generated: "2026-09-24T19:24:37+05:30"
+---
+
+Reinforcement learning has become a central component of large language model (LLM) post-training, yet token-level credit lacks a generally accepted mathematical definition, leaving its relationship to commonly used training signals unclear. We formulate three regularity conditions, namely Completeness, Prefix Consistency, and Neutrality, and prove that they uniquely determine token-level credit. This characterization provides a unified basis for explaining phenomena across existing algorithms and guides the development of an improved actor-critic training procedure. Through this lens, an ideal teacher in On-Policy Distillation (OPD) acts as an implicit critic, yielding an expected policy gradient proportional to that induced by token-level credit. Response-level REINFORCE Leave-One-Out (RLOO) signals match the expected policy-gradient contribution of token-level credit despite their coarser granularity. We further establish approximate credit sparsity under bounded outcome rewards and show how intermediate critic errors in Generalized Advantage Estimation (GAE) can become comparable to the underlying credit. These motivate Policy Aligned Critic Training (PACT), which adopts an Actor-then-Critic update order to apply importance sampling correction to critic training and better align the critic with the updated policy. In agentic mathematical reasoning, PACT achieves 72.87% average accuracy across four benchmarks, outperforming GRPO and PPO by 8.80 and 13.16 percentage points, respectively. On SWE-bench Verified, PACT achieves a pass rate of 67.4%, outperforming PPO, GRPO, and SAO by 2.4, 2.0, and 3.8 percentage points, respectively.

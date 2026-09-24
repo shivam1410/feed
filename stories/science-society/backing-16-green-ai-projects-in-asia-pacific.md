@@ -1,0 +1,14 @@
+---
+title: "Backing 16 green AI projects in Asia-Pacific"
+category: "Science & Society"
+source: "DeepMind"
+url: "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/ai-planet-accelerator-apac/"
+authors: ["Spencer Low", "Sami Kizilbash"]
+date: "Mon, 07 Sep 2026 01:00:00 +0000"
+score: 38
+guid: "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/ai-planet-accelerator-apac/"
+image: "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/IMG_0934.JPG_1.max-600x600.format-webp.webp"
+generated: "2026-09-24T19:24:37+05:30"
+---
+
+We’re supporting 16 organizations across Asia-Pacific using frontier AI to tackle challenges in climate, agriculture, and biodiversity.

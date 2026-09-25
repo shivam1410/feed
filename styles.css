@@ -8,7 +8,7 @@
   --accent: #4f8cff;
   --new: #2ecc71;
   --radius: 12px;
-  --sidebar-w: 210px;
+  --sidebar-w: 70vw;
   --fs: 1; /* reading-text scale, adjusted by the A−/A+ control */
 }
 
@@ -586,7 +586,7 @@ button#saveProfile:hover { border-color: var(--accent); }
 
 /* Phone-only refinements */
 @media (max-width: 560px) {
-  .sidebar { width: min(210px, 82vw); }
+  .sidebar { width: 70vw; }
   .content-head { padding: 14px 16px; }
 }
 

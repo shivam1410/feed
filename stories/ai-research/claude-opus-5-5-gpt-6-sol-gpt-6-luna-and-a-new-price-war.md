@@ -8,7 +8,7 @@ date: "2026-09-22T23:46:41+00:00"
 score: 85
 guid: "https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna/"
 image: ""
-generated: "2026-09-25T19:08:22+05:30"
+generated: "2026-09-25T22:38:54+05:30"
 ---
 
-Yesterday and today, multiple AI model vendors released new models with dramatic price cuts reshaping the market. OpenAI's GPT-6 Luna costs $0.10 per million input tokens—half the price of its GPT-5.6 predecessor at $0.20/M. GPT-6 Sol underwent similar price reduction compared to GPT-5.6 Sol. Claude Opus 5.5 costs $4/M input, remaining pricier than GPT-6 models but highly competitive overall. The aggressive pricing pressure reflects intensifying competition in the LLM market. These reductions matter significantly because they could fundamentally reshape AI application development economics, making expensive model inference affordable for vastly more use cases and potentially democratizing access to advanced AI capabilities.
+Anthropic and OpenAI released new AI models with steep price cuts. GPT-6 Luna is now $0.10 per million input tokens, half the price of GPT-5.6 Luna, making it one of the cheapest models available. Claude Opus 5.5 came in at $4 per million input. The price war is making AI applications dramatically cheaper.

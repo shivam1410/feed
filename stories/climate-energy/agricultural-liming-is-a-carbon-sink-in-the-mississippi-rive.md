@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/s41586-026-11040-2"
 authors: ["Tim Jesper Suhrhoff", "Christopher T. Reinhard", "Yoshiki Kanzaki", "Samuel Shou-En Tsao", "Beck Woollen", "Tom Reershemius", "Samuel Shaheen", "James Saiers", "Shuang Zhang", "Peter A. Raymond", "Noah J. Planavsky"]
 date: "2026-09-23"
-score: 70
+score: 60
 guid: "10.1038/s41586-026-11040-2"
 image: ""
-generated: "2026-09-25T19:08:22+05:30"
+generated: "2026-09-25T22:38:54+05:30"
 ---
 
-Century-scale records show that agricultural liming in the Mississippi River Basin acted as a net carbon sink over the past century. Liming—applying crushed limestone to soil—neutralizes acidic soil and absorbed significant atmospheric carbon dioxide. This demonstrates that certain agricultural practices inadvertently sequester carbon while improving soil quality, offering insights for climate mitigation strategies.
+Agricultural liming, the practice of spreading limestone on farmland, has been quietly removing carbon from the atmosphere over the past century in the Mississippi River Basin. This treatment stabilizes soil pH while sequestering atmospheric carbon. The discovery suggests that existing farming practices could contribute to climate solutions rather than just adding to the problem.

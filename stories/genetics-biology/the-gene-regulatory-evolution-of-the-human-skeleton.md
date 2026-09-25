@@ -8,7 +8,7 @@ date: "2026-09-23"
 score: 75
 guid: "10.1038/s41586-026-11053-x"
 image: ""
-generated: "2026-09-25T19:08:22+05:30"
+generated: "2026-09-25T22:38:54+05:30"
 ---
 
-Researchers employed innovative techniques—massively parallel reporter assays and human-ape hybrid skeletal cells—to investigate how differences in gene-regulatory elements (cis-regulatory elements or CREs) drove the evolution of the human skeleton. These regulatory DNA regions, which control when and where genes are expressed, appear to have undergone significant changes during human evolution, contributing to distinctive skeletal features. By comparing regulatory patterns between human and ape cells, scientists identified specific genetic switches that shaped the composition and structure of human skeletal tissue. The findings illuminate the molecular mechanisms underlying skeletal evolution, showing that anatomical differences arise not always from changes in the genes themselves, but from alterations in the regulatory elements controlling gene expression.
+Researchers compared human and ape cells to find the gene switches that shaped our unique skeleton. They used reporter assays to test thousands of regulatory regions. This reveals how our bones diverged from our closest relatives.

@@ -8,7 +8,7 @@ date: "2026-09-23"
 score: 75
 guid: "10.1038/s41586-026-11074-6"
 image: ""
-generated: "2026-09-25T19:08:22+05:30"
+generated: "2026-09-25T22:38:54+05:30"
 ---
 
-Researchers developed layer-by-layer assembly of two-dimensional polymers on water surfaces, creating heterostructures with precise control over stacking sequences, lattice alignment (matched and intentionally mismatched), and thickness. Two-dimensional van der Waals heterostructures—layered materials held by weak van der Waals forces—are valuable for engineering novel electronic and photonic properties. This method provides a scalable route to custom-designed materials with properties tuned through controlled architectural design.
+Scientists developed a water-surface assembly method to precisely stack two-dimensional polymer sheets layer by layer, creating heterostructures with controlled alignment and thickness. They can choose whether layers match perfectly or deliberately misalign them, and specify exact stacking sequences and total thickness. This technique enables the design of custom heterostructures with properties tailored for specific applications.

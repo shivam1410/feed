@@ -5,10 +5,10 @@ source: "HF Trending Papers"
 url: "https://huggingface.co/papers/2609.30077"
 authors: ["Samuel Fernández-Menduiña", "Eduardo Pavez", "Antonio Ortega"]
 date: "2026-09-23T20:00:00.000Z"
-score: 45
+score: 42
 guid: "2609.30077"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.30077.png"
-generated: "2026-09-25T19:08:22+05:30"
+generated: "2026-09-25T22:38:54+05:30"
 ---
 
-A new video compression method uses full-reference image quality metrics (MS-SSIM, LPIPS) optimized via Hessian-based approximations to select coding parameters. On Kodak and CLIC benchmarks with VVC codec, the approach achieved 14.2-36.7% bitrate savings under target metrics with 10-30% encoding overhead. This preserves visual quality better than traditional sum-of-squared-errors methods.
+Video codec researchers approximated complex image quality metrics using Hessian estimates, letting codecs optimize for perceptual quality instead of simple pixel error. They achieved 14-37% better compression efficiency on the VVC standard with no decoder changes. This matters because perceptual quality metrics better match human vision.

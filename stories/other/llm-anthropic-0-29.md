@@ -8,7 +8,7 @@ date: "2026-09-22T17:14:55+00:00"
 score: 15
 guid: "https://simonwillison.net/2026/Sep/22/llm-anthropic/"
 image: ""
-generated: "2026-09-24T19:24:37+05:30"
+generated: "2026-09-25T22:38:54+05:30"
 ---
 
 Release: llm-anthropic 0.29 Adds support for Claude Opus 5.5 : llm -m claude-opus-5.5 "prompt goes here" Tags: llm , anthropic

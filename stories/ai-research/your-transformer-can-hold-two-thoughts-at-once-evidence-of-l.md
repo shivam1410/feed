@@ -5,10 +5,10 @@ source: "HF Trending Papers"
 url: "https://huggingface.co/papers/2609.29845"
 authors: ["Pavel Tikhonov", "Anton Korznikov", "Matvey Mikhalchuk", "Nikita Dragunov", "Temurbek Rahmatullaev", "Polina Druzhinina", "Anton Razzhigaev", "Ivan Oseledets", "Elena Tutubalina"]
 date: "2026-09-23T20:00:00.000Z"
-score: 80
+score: 75
 guid: "2609.29845"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.29845.png"
-generated: "2026-09-25T19:08:22+05:30"
+generated: "2026-09-25T22:38:54+05:30"
 ---
 
-Researchers found that Transformers exhibit linear superposition: when two distinct text streams are combined, models output a superposition of their individual next-token distributions. This linearity diminishes during training but can be restored through fine-tuning. The finding enables simultaneous generation of two coherent continuations in a single forward pass, revealing fundamental architecture properties.
+Researchers found that transformers exhibit linear superposition—when two separate text streams are combined, the model outputs a blend of what each would predict alone. They call this the Superposition Linearity Hypothesis and show it's fundamental to the architecture but fades during training. Lightweight fine-tuning restores it, enabling two coherent text continuations in a single pass. This reveals how transformers work internally.

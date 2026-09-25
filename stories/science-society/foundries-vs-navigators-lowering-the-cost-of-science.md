@@ -8,7 +8,7 @@ date: "Thu, 24 Sep 2026 15:03:16 GMT"
 score: 75
 guid: "https://www.latent.space/p/foundries-vs-navigators-lowering"
 image: ""
-generated: "2026-09-25T19:08:22+05:30"
+generated: "2026-09-25T22:38:54+05:30"
 ---
 
-AI has dramatically accelerated knowledge work like coding, but in science the bottleneck remains physical experiments taking days or weeks to verify results. The biotech industry is adapting via "foundries" like Xaira, NewLimit, Octant, and Endura that industrialize measurement through next-generation sequencing and multiplexing, generating data an order of magnitude faster.
+AI has accelerated scientific thinking through faster coding and analysis, but not physical experiments themselves. Adrian Sanborn argues biotech is adapting through two paths: Foundries that industrialize measurement using multiplexing and next-gen sequencing, and Navigators that optimize what to measure. While AI reduced thinking cost, physical experiments still take days or weeks to run.

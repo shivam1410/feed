@@ -8,7 +8,7 @@ date: "2026-09-23"
 score: 70
 guid: "10.1038/s41586-026-11028-y"
 image: ""
-generated: "2026-09-25T19:08:22+05:30"
+generated: "2026-09-25T22:38:54+05:30"
 ---
 
-ArmA from Methanobrevibacter smithii, a dominant member of the human gut microbiome, is identified and characterized as a glycosyl hydrolase specific for cleaving the cell wall of methanogens, revealing an unsuspected chemical structure of archaeal peptidoglycan that includes a previously unidentified sugar.
+An enzyme from gut bacteria revealed that archaeal cell walls contain an unexpected sugar. Scientists didn't know archaea used this chemical. The discovery rewrites what we thought we knew about how these ancient microbes protect themselves.

@@ -8,7 +8,7 @@ date: "2026-09-23"
 score: 85
 guid: "10.1038/s41586-026-10271-7"
 image: ""
-generated: "2026-09-25T19:08:22+05:30"
+generated: "2026-09-25T22:38:54+05:30"
 ---
 
-Researchers mapped gene expression patterns in the human prefrontal cortex across the entire lifespan using single-cell transcriptomics. The dorsolateral prefrontal cortex exhibits distinct patterns: dynamic remodeling during development, relative stability through midlife, and selective molecular reactivation in late adulthood, occurring in cell-type-specific manner with non-linear trajectories. Understanding these changes in this critical brain region—crucial for decision-making and impulse control—could illuminate the molecular basis of age-related cognitive changes and inform therapies for age-related neurological conditions.
+Researchers created a detailed timeline of how genes turn on and off in brain cells across an entire human lifespan. The dorsolateral prefrontal cortex stays relatively stable during middle age but shows a burst of new gene activity in late life. These dynamic shifts help explain how brains age and may underlie cognitive changes.

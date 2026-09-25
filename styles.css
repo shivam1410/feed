@@ -44,7 +44,7 @@ a:hover { text-decoration: underline; }
   flex-direction: column;
   gap: 18px;
   padding: 20px 16px;
-  background: var(--surface);
+  background: #000;
   border-right: 1px solid var(--border);
   overflow-y: auto;
 }
@@ -543,8 +543,8 @@ button#saveProfile:hover { border-color: var(--accent); }
     max-width: none;
     margin: 12px 0 0;
     padding: 0 12px;
-    height: calc(100vh - 108px); /* one-row header + dots + margins */
-    height: calc(100svh - 108px);
+    height: calc(100vh - 108px - var(--trend-h, 0px)); /* header + dots + margins + trending strip */
+    height: calc(100svh - 108px - var(--trend-h, 0px));
     overflow-x: auto;
     overflow-y: hidden;
     scroll-snap-type: x mandatory;
@@ -615,6 +615,35 @@ button#saveProfile:hover { border-color: var(--accent); }
 @media (max-width: 560px) {
   .sidebar { width: 70vw; }
   .content-head { padding: 14px 16px; }
+}
+
+/* ---------- trending strip (Home) ---------- */
+.trending {
+  display: flex; flex-wrap: wrap; align-items: center; gap: 6px;
+  max-width: 760px; margin: 10px auto 0; padding: 0 16px;
+}
+.trending[hidden] { display: none; }
+.trend-label { font-size: 12px; color: var(--text-dim); margin-right: 2px; }
+.trend-chip { display: inline-flex; align-items: center; gap: 5px; }
+.trend-n { font-size: 10px; opacity: 0.7; }
+
+/* ---------- rankings tables ---------- */
+.lb-section { width: 100%; max-width: 760px; margin: 0 auto 18px; }
+.lb-src { font-weight: 400; font-size: 12px; margin-left: 8px; }
+.lb-table { width: 100%; border-collapse: collapse; font-size: 13px; }
+.lb-table th { text-align: left; font-weight: 600; color: var(--text-dim); font-size: 11px; text-transform: uppercase; letter-spacing: 0.4px; padding: 4px 6px; }
+.lb-table td { padding: 6px; border-top: 1px solid var(--border); vertical-align: middle; }
+.lb-table .num { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; color: var(--text-dim); }
+.lb-table td.num:first-child { color: var(--text); font-weight: 700; }
+.lb-table .model a { color: var(--text); font-weight: 600; }
+.lb-sub { display: block; font-size: 11px; color: var(--text-dim); }
+.lb-table .bar-col { width: 34%; }
+.bar { height: 8px; background: rgba(154, 163, 178, 0.14); border-radius: 999px; overflow: hidden; }
+.bar span { display: block; height: 100%; background: var(--accent); border-radius: 999px; }
+.bar.closed span { background: #8a93a6; }
+@media (max-width: 560px) {
+  .lb-table .bar-col { width: 26%; }
+  .lb-table th.bar-col { font-size: 0; }
 }
 
 .deck-dots { display: none; justify-content: center; gap: 7px; padding: 14px 0 10px; }

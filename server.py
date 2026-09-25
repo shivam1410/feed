@@ -18,6 +18,7 @@ from __future__ import annotations
 
 import json
 import os
+import re
 import shutil
 import subprocess
 import sys
@@ -74,6 +75,15 @@ def compose_profile(interests: str = "", hobbies: str = "", goals: str = "") -> 
     if goals.strip():
         parts.append(f"Goals: {goals.strip()}")
     return "\n".join(parts)
+
+
+def strip_em_dashes(text: str) -> str:
+    """Replace em/en dashes used as punctuation with a comma; the reader asked for none."""
+    if not text:
+        return ""
+    out = re.sub(r"\s*[\u2014\u2013]\s*", ", ", text)
+    out = re.sub(r",\s*,", ",", out)
+    return re.sub(r"\s+([.,;:!?])", r"\1", out).strip()
 
 
 def build_prompt(items: list, profile: str, top_n: int) -> str:
@@ -258,7 +268,7 @@ class Handler(SimpleHTTPRequestHandler):
             return self.send_json(502, {"error": f"Claude CLI failed: {detail}"})
 
         # The client extracts the JSON array from this text (handles fences/prose).
-        self.send_json(200, {"text": proc.stdout})
+        self.send_json(200, {"text": strip_em_dashes(proc.stdout)})
 
     def send_json(self, code: int, obj: dict):
         body = json.dumps(obj).encode("utf-8")

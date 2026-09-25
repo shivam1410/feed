@@ -16,6 +16,7 @@ from __future__ import annotations
 
 import argparse
 import datetime
+import email.utils
 import html
 import json
 import os
@@ -26,7 +27,7 @@ import sys
 import urllib.request
 import xml.etree.ElementTree as ET
 
-from server import FEEDS, MODEL_TIERS, find_claude
+from server import FEEDS, MODEL_TIERS, find_claude, strip_em_dashes
 
 # The 10 default categories shown in the UI (+ an implicit "Other" bucket).
 # Edit this list to change what the feed is organized around.
@@ -43,6 +44,14 @@ CATEGORIES = [
     "Chemistry & Materials",
 ]
 CATEGORIZE_CHUNK = 60   # items per LLM categorization call
+HOME_MAX_AGE_DAYS = 7   # Home is a news bulletin: only items this fresh are eligible
+TRENDING_MIN_SOURCES = 2  # a topic is "trending" when >= this many sources cover it...
+TRENDING_MIN_ITEMS = 3    # ...across at least this many items
+TRENDING_BOOST = 10       # score boost per trending item (+5 more when 3+ sources)
+ARENA_URL = "https://lmarena.ai/leaderboard/text"
+ARENA_SNAPSHOT_KEY = ('"id":"leaderboard-sets/public/leaderboards/text-overall-style_control/'
+                      'leaderboard-snapshots/latest","entries":')
+OPENROUTER_USAGE_URL = "https://openrouter.ai/api/frontend/v1/rankings/models?period=week"
 BRIEF_PER_CATEGORY = 3  # top stories per category that get a full briefing
 BRIEF_GLOBAL_TOP = 22   # also brief the overall top-N by score (covers Home's top 20)
 BRIEF_BATCH = 12        # items per LLM briefing call
@@ -131,6 +140,137 @@ def split_arxiv_prefix(summary: str) -> tuple[str, str]:
     if not m:
         return "", summary or ""
     return m.group(1).lower(), summary[m.end():].strip()
+
+
+# ---------- text + date helpers ----------
+
+def parse_item_date(raw: str) -> datetime.datetime | None:
+    """RFC 2822 (RSS) or ISO 8601 (Atom / HF) → aware datetime, else None."""
+    if not raw:
+        return None
+    for parser in (email.utils.parsedate_to_datetime, lambda v: datetime.datetime.fromisoformat(v.replace("Z", "+00:00"))):
+        try:
+            d = parser(raw)
+        except Exception:
+            continue
+        if d is None:
+            continue
+        return d if d.tzinfo else d.replace(tzinfo=datetime.timezone.utc)
+    return None
+
+
+def age_days(item: dict, now: datetime.datetime | None = None) -> int | None:
+    d = parse_item_date(str(item.get("date") or ""))
+    if d is None:
+        return None
+    now = now or datetime.datetime.now(datetime.timezone.utc)
+    return max(0, (now - d).days)
+
+
+def mark_freshness(items: list[dict], max_age: int = HOME_MAX_AGE_DAYS) -> list[dict]:
+    """Stamp ageDays and fresh (eligible for Home). Undated items count as fresh."""
+    now = datetime.datetime.now(datetime.timezone.utc)
+    for it in items:
+        age = age_days(it, now)
+        it["ageDays"] = age
+        it["fresh"] = age is None or age <= max_age
+    return items
+
+
+# Words too generic to identify a topic on their own.
+TREND_STOPWORDS = {
+    "ai", "ais", "llm", "llms", "model", "models", "new", "the", "and", "for", "with", "from",
+    "into", "how", "why", "what", "when", "via", "using", "towards", "toward", "learning",
+    "language", "large", "data", "research", "paper", "study", "science", "agent", "agents",
+    "agentic", "open", "source", "introducing", "announcing", "today", "week", "daily",
+    "briefing", "ainews", "news", "update", "part", "guide", "world", "human", "humans",
+    "system", "systems", "generation", "generative", "reasoning", "training", "inference",
+    "benchmark", "benchmarks", "dataset", "datasets", "google", "openai", "anthropic",
+    "deepmind", "nature", "arxiv", "not", "much", "happened", "your", "our", "its", "all",
+    "first", "time", "more", "best", "top", "one", "two", "three", "vs", "over", "under",
+    "cell", "cells", "brain", "cancer", "gene", "genes", "protein", "proteins", "quantum",
+    "robot", "robots", "robotics", "vision", "video", "image", "images", "code", "coding",
+    "release", "released", "launch", "launches", "future", "real", "deep", "neural", "network",
+    "networks", "transformer", "transformers", "diffusion", "scaling", "efficient", "fast",
+    "small", "long", "multimodal", "foundation", "self", "zero", "shot", "text", "speech",
+    "voice", "chat", "gpt", "claude", "gemini", "llama", "qwen", "mistral", "deepseek",
+    "latent", "space", "simon", "willison", "hugging", "face", "trending", "papers",
+}
+
+
+_DICT_WORDS: set[str] | None = None
+
+
+def dictionary_words() -> set[str]:
+    """Lower-cased system dictionary (macOS/Linux). Empty set when unavailable."""
+    global _DICT_WORDS
+    if _DICT_WORDS is None:
+        try:
+            with open("/usr/share/dict/words", encoding="utf-8", errors="ignore") as fh:
+                _DICT_WORDS = {w.strip().lower() for w in fh if w.strip()}
+        except OSError:
+            _DICT_WORDS = set()
+    return _DICT_WORDS
+
+
+def trend_terms(title: str) -> dict[str, str]:
+    """Distinctive tokens from a title → {lowercase term: surface form}. A term is a
+    capitalized or digit-bearing word of 3+ chars that is neither a stopword nor an
+    ordinary dictionary word, so product and model names survive ("Jev", "AlphaFold")
+    while Title-Case filler ("Joint", "Latent") does not."""
+    words = re.findall(r"[A-Za-z][A-Za-z0-9.-]{2,}", title or "")
+    out: dict[str, str] = {}
+    for w in words:
+        key = w.lower().strip(".-")
+        if key in TREND_STOPWORDS or w.isdigit() or not (w[0].isupper() or any(c.isdigit() for c in w)):
+            continue
+        if all(_is_dictionary_word(part) for part in key.split("-") if part):
+            continue
+        out.setdefault(key, w.strip(".-"))
+    return out
+
+
+def _is_dictionary_word(word: str) -> bool:
+    """True for ordinary words, including simple plural/-ing/-ed inflections."""
+    words = dictionary_words()
+    if not words:
+        return False
+    candidates = {word, word.rstrip("s")}
+    for suffix, stems in (("ing", ("", "e")), ("ed", ("", "e")), ("es", ("",)), ("ies", ("y",))):
+        if word.endswith(suffix) and len(word) > len(suffix) + 2:
+            stem = word[: -len(suffix)]
+            candidates.update(stem + st for st in stems)
+            if len(stem) > 2 and stem[-1] == stem[-2]:  # planning → plan
+                candidates.add(stem[:-1])
+    return any(c in words for c in candidates)
+
+
+def boost_trending(items: list[dict]) -> tuple[list[dict], list[dict]]:
+    """Cross-source buzz: a term named in >= TRENDING_MIN_ITEMS titles across >=
+    TRENDING_MIN_SOURCES sources marks a trending topic. Each such item gets a
+    score boost and a `trending` label; returns (items, trending topics)."""
+    per_term: dict[str, dict] = {}
+    for idx, it in enumerate(items):
+        for t, surface in trend_terms(it.get("title", "")).items():
+            rec = per_term.setdefault(t, {"sources": set(), "idx": [], "forms": {}})
+            rec["sources"].add(it.get("source", ""))
+            rec["idx"].append(idx)
+            rec["forms"][surface] = rec["forms"].get(surface, 0) + 1
+    hot = {t: r for t, r in per_term.items()
+           if len(r["sources"]) >= TRENDING_MIN_SOURCES and len(r["idx"]) >= TRENDING_MIN_ITEMS}
+    for idx, it in enumerate(items):
+        mine = [t for t in trend_terms(it.get("title", "")) if t in hot]
+        if not mine or not isinstance(it.get("score"), int):
+            continue
+        top = max(mine, key=lambda t: (len(hot[t]["sources"]), len(hot[t]["idx"])))
+        bonus = TRENDING_BOOST + (5 if len(hot[top]["sources"]) >= 3 else 0)
+        it["score"] = min(100, it["score"] + bonus)
+        it["trending"] = top
+    topics = sorted(
+        ({"term": t, "label": max(r["forms"], key=r["forms"].get), "items": len(r["idx"]),
+          "sources": sorted(x for x in r["sources"] if x)} for t, r in hot.items()),
+        key=lambda x: (-len(x["sources"]), -x["items"], x["term"]))
+    return items, topics
 
 
 def parse_rss(data: bytes, source: str) -> list[dict]:
@@ -296,16 +436,21 @@ def run_claude(prompt: str, model: str, timeout: int = 240) -> list:
     return extract_json(proc.stdout)
 
 
-def build_categorize_prompt(items: list[dict], categories: list[str]) -> str:
+def build_categorize_prompt(items: list[dict], categories: list[str], interests: str = "") -> str:
     payload = [
         {"i": i, "source": it.get("source", ""), "title": str(it.get("title", ""))[:200],
          "text": str(it.get("summary", ""))[:240]}
         for i, it in enumerate(items)
     ]
+    reader = (f"READER INTERESTS: {interests.strip()}\n\n" if interests.strip() else "")
     return (
         "You are a science-news librarian. For EACH article, choose the single "
-        'best-fitting category from the list (use "Other" if none fit) and rate its '
-        "general significance and novelty from 0-100.\n\n"
+        'best-fitting category from the list (use "Other" if none fit) and rate it '
+        "from 0-100. Weigh general significance and novelty, and give extra weight to "
+        "articles that match the reader's interests. Big product launches and results "
+        "people are actively discussing should score at least as high as institutional "
+        "press releases.\n\n"
+        + reader +
         "CATEGORIES: " + ", ".join(categories) + "\n\n"
         "Return ONLY a JSON array, one object per article: "
         '{"i": <index>, "category": "<one category or Other>", "score": <0-100>}. '
@@ -321,7 +466,7 @@ def categorize(items: list[dict], cfg: dict) -> list[dict]:
     for start in range(0, len(items), CATEGORIZE_CHUNK):
         chunk = items[start:start + CATEGORIZE_CHUNK]
         try:
-            res = run_claude(build_categorize_prompt(chunk, CATEGORIES), model, timeout=240)
+            res = run_claude(build_categorize_prompt(chunk, CATEGORIES, str(cfg.get("interests", ""))), model, timeout=240)
         except Exception as err:  # a bad chunk shouldn't sink the run
             log(f"categorize chunk @{start} failed ({err}) — defaulting to Other")
             res = []
@@ -383,8 +528,8 @@ def brief_top(items: list[dict], cfg: dict) -> list[dict]:
             o = by_i.get(j, {})
             if o.get("summary"):
                 items[gi]["origSummary"] = items[gi].get("summary", "")
-                items[gi]["summary"] = o["summary"]
-                items[gi]["why"] = o.get("why", "")
+                items[gi]["summary"] = strip_em_dashes(str(o["summary"]))
+                items[gi]["why"] = strip_em_dashes(str(o.get("why", "")))
                 items[gi]["briefed"] = True
         log(f"briefed {min(start + BRIEF_BATCH, len(to_brief))}/{len(to_brief)}")
     return items
@@ -460,13 +605,15 @@ def write_outputs(items: list[dict], by_source: dict, cfg: dict) -> None:
     os.makedirs(DATA_DIR, exist_ok=True)
     generated = datetime.datetime.now().astimezone().isoformat(timespec="seconds")
 
-    # Order by significance score (highest first; unscored last).
+    # Order by significance score (highest first; unscored last). Home additionally
+    # puts fresh items first so stale press releases never outrank this week's news.
     by_score = lambda it: (it.get("score") is not None, it.get("score") or 0)
-    items = sorted(items, key=by_score, reverse=True)
+    items = sorted(items, key=lambda it: (bool(it.get("fresh", True)),) + by_score(it), reverse=True)
 
     # The categorized feed the app reads. `categories` is the canonical list the
     # UI renders as chips. No personal profile is published.
-    feed = {"generatedAt": generated, "categories": CATEGORIES, "total": len(items), "items": items}
+    feed = {"generatedAt": generated, "categories": CATEGORIES, "total": len(items),
+            "homeMaxAgeDays": HOME_MAX_AGE_DAYS, "trending": cfg.get("trending", []), "items": items}
     write_json(os.path.join(DATA_DIR, "feed.json"), feed)
     write_json(os.path.join(DATA_DIR, "latest.json"), feed)  # back-compat
 
@@ -537,13 +684,82 @@ def build_model_summary_prompt(models: list[dict]) -> str:
     )
 
 
+def _next_flight_blob(page: str) -> str:
+    """Join the Next.js flight payload strings embedded in a page into one text blob."""
+    parts = []
+    for m in re.finditer(r'self\.__next_f\.push\(\[1,"((?:[^"\\]|\\.)*)"\]\)', page):
+        try:
+            parts.append(json.loads('"' + m.group(1) + '"'))
+        except ValueError:
+            continue
+    return "".join(parts)
+
+
+def parse_arena_entries(page: str) -> list[dict]:
+    """LMArena text leaderboard (overall, style control) rows from the page's embedded data."""
+    blob = _next_flight_blob(page)
+    i = blob.find(ARENA_SNAPSHOT_KEY)
+    if i < 0:
+        raise ValueError("arena snapshot not found in page")
+    entries, _ = json.JSONDecoder().raw_decode(blob[i + len(ARENA_SNAPSHOT_KEY):])
+    return [{
+        "rank": e.get("rank"), "name": e.get("modelDisplayName"), "rating": round(e.get("rating") or 0),
+        "votes": e.get("votes"), "org": e.get("modelOrganization"), "license": e.get("license"),
+        "open": bool(e.get("license")) and e.get("license") != "Proprietary",
+        "url": e.get("modelUrl"), "inPrice": e.get("inputPricePerMillion"), "outPrice": e.get("outputPricePerMillion"),
+    } for e in entries if isinstance(e, dict) and e.get("modelDisplayName")]
+
+
+def fetch_arena() -> dict:
+    entries = parse_arena_entries(fetch(ARENA_URL).decode("utf-8", "ignore"))
+    open_rows = [e for e in entries if e["open"]]
+    for i, e in enumerate(open_rows, 1):
+        e["openRank"] = i
+    return {"source": "LMArena text leaderboard (overall, style control)", "url": "https://lmarena.ai/leaderboard/text",
+            "overall": entries[:20], "open": open_rows[:15]}
+
+
+def aggregate_openrouter_usage(rows: list[dict], top: int = 15) -> list[dict]:
+    """Sum a week of per-day OpenRouter rows into per-model totals, highest token usage first."""
+    agg: dict[str, dict] = {}
+    for r in rows:
+        slug = r.get("model_permaslug")
+        if not slug:
+            continue
+        a = agg.setdefault(slug, {"slug": slug, "tokens": 0, "requests": 0})
+        a["tokens"] += int(r.get("total_prompt_tokens") or 0) + int(r.get("total_completion_tokens") or 0)
+        a["requests"] += int(r.get("count") or 0)
+    ranked = sorted(agg.values(), key=lambda a: -a["tokens"])[:top]
+    for i, a in enumerate(ranked, 1):
+        a["rank"] = i
+        a["name"] = re.sub(r"-\d{8}$", "", a["slug"].split("/", 1)[-1])
+        a["org"] = a["slug"].split("/", 1)[0]
+        a["url"] = "https://openrouter.ai/" + re.sub(r"-\d{8}$", "", a["slug"])
+    return ranked
+
+
+def fetch_openrouter_usage() -> dict:
+    data = json.loads(fetch(OPENROUTER_USAGE_URL))
+    rows = data.get("data") if isinstance(data, dict) else data
+    return {"source": "OpenRouter, tokens served in the last 7 days", "url": "https://openrouter.ai/rankings",
+            "models": aggregate_openrouter_usage(rows if isinstance(rows, list) else [])}
+
+
 def write_leaderboard(cfg: dict | None = None) -> None:
-    """Write the top-10 trending Hugging Face models (enriched + summarized) for the Leaderboard tab."""
+    """Write the Rankings tab data: LMArena overall + open-model ranking, OpenRouter
+    usage, and the top-10 trending Hugging Face models (enriched + summarized)."""
+    extra: dict = {}
+    for key, fn in (("arena", fetch_arena), ("usage", fetch_openrouter_usage)):
+        try:  # each block is optional — never sink the run
+            extra[key] = fn()
+            log(f"leaderboard: {key} ok")
+        except Exception as err:
+            log(f"leaderboard: {key} failed ({err})")
     try:
         rows = json.loads(fetch(LEADERBOARD_URL))
     except Exception as err:  # leaderboard is optional — never sink the run
-        log(f"leaderboard: fetch failed ({err})")
-        return
+        log(f"leaderboard: HF fetch failed ({err})")
+        rows = []
     models = []
     for r in (rows if isinstance(rows, list) else [])[:10]:
         mid = r.get("id")
@@ -581,7 +797,7 @@ def write_leaderboard(cfg: dict | None = None) -> None:
     os.makedirs(DATA_DIR, exist_ok=True)
     write_json(os.path.join(DATA_DIR, "leaderboard.json"), {
         "generatedAt": datetime.datetime.now().astimezone().isoformat(timespec="seconds"),
-        "source": "Hugging Face — trending models", "models": models,
+        "source": "Hugging Face — trending models", "models": models, **extra,
     })
     log(f"wrote leaderboard.json ({len(models)} models)")
 
@@ -759,6 +975,11 @@ def main() -> int:
         by_cat[it["category"]] = by_cat.get(it["category"], 0) + 1
     log(f"categorized {len(categorized)} items: " + ", ".join(f"{k}={v}" for k, v in sorted(by_cat.items())))
 
+    categorized = mark_freshness(categorized)
+    categorized, trending = boost_trending(categorized)
+    log(f"fresh (<= {HOME_MAX_AGE_DAYS}d): {sum(1 for it in categorized if it.get('fresh'))}/{len(categorized)}; "
+        f"trending: {', '.join(t['term'] + '(' + str(t['items']) + ')' for t in trending[:6]) or 'none'}")
+    cfg = dict(cfg, trending=trending)
     categorized = brief_top(categorized, cfg)
     log(f"briefed {sum(1 for it in categorized if it.get('briefed'))} top stories")
 

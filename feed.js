@@ -69,6 +69,7 @@ const el = {
   closeNav: document.getElementById("closeNav"),
   categoryChips: document.getElementById("categoryChips"),
   topicsSection: document.getElementById("topicsSection"),
+  trending: document.getElementById("trending"),
   pNotionUrl: document.getElementById("pNotionUrl"),
   saveNotionUrl: document.getElementById("saveNotionUrl"),
   notionUrlMsg: document.getElementById("notionUrlMsg"),
@@ -112,6 +113,8 @@ let renderedById = {};
 let deckIndex = 0;
 let allCategories = DEFAULT_CATEGORIES.slice();
 let selectedCats = loadSelectedCats(); // Set; empty = show all
+let lastTrending = [];   // [{term, items, sources}] from the daily digest
+let trendFilter = "";    // active trending chip (term) or ""
 
 /* ---------- category selection ---------- */
 
@@ -692,6 +695,40 @@ function fmtNum(n) {
   return String(n);
 }
 
+function fmtTokens(n) {
+  if (typeof n !== "number") return "—";
+  if (n >= 1e12) return (n / 1e12).toFixed(1) + "T";
+  if (n >= 1e9) return (n / 1e9).toFixed(0) + "B";
+  return fmtNum(n);
+}
+// One ranking as a compact table: rank, model, org, a bar for the metric, and the
+// metric value. Bars are scaled to the spread of the rows shown so gaps are visible.
+function rankingTable(title, rows, meta, metric, showOverall = false) {
+  const vals = rows.map((r) => r[metric] || 0);
+  const max = Math.max(...vals), min = Math.min(...vals);
+  const floor = metric === "rating" ? min - (max - min) * 0.35 : 0; // keep ratings from all reading 100%
+  const pct = (v) => Math.max(4, Math.round(((v - floor) / ((max - floor) || 1)) * 100));
+  const label = metric === "rating" ? "Arena score" : "Tokens (7d)";
+  return `
+    <section class="lb-section">
+      <h3 class="lb-heading">${safe(title)} <a class="lb-src" href="${safe(meta.url)}" target="_blank" rel="noopener">${safe(meta.source)} ↗</a></h3>
+      <table class="lb-table">
+        <thead><tr><th>#</th><th>Model</th><th class="bar-col">${label}</th><th class="num">${metric === "rating" ? "Score" : "Tokens"}</th></tr></thead>
+        <tbody>${rows.map((r) => `
+          <tr>
+            <td class="num">${showOverall ? r.openRank : r.rank}</td>
+            <td class="model">
+              <a href="${safe(r.url || meta.url)}" target="_blank" rel="noopener">${safe(r.name)}</a>
+              <span class="lb-sub">${safe(r.org || "")}${showOverall && r.rank ? ` · overall #${r.rank}` : ""}${r.license && r.license !== "Proprietary" ? ` · ${safe(r.license)}` : ""}${r.requests ? ` · ${fmtNum(r.requests)} req` : ""}</span>
+            </td>
+            <td class="bar-col"><div class="bar${r.open === false ? " closed" : ""}"><span style="width:${pct(r[metric] || 0)}%"></span></div></td>
+            <td class="num">${metric === "rating" ? safe(String(r.rating)) : fmtTokens(r.tokens)}</td>
+          </tr>`).join("")}
+        </tbody>
+      </table>
+    </section>`;
+}
+
 async function renderLeaderboard() {
   el.sectionTitle.textContent = "Rankings";
   el.meta.textContent = "";
@@ -702,12 +739,20 @@ async function renderLeaderboard() {
   } catch { /* show links only */ }
 
   let html = "";
+  const wd = data?.generatedAt ? new Date(data.generatedAt) : null;
+  const when = wd && !isNaN(wd)
+    ? wd.toLocaleString("en-US", { year: "numeric", month: "short", day: "2-digit", hour: "numeric", minute: "2-digit" })
+    : "";
+  if (data?.arena?.overall?.length) {
+    html += `<div class="curate-banner">🏆 Model rankings${when ? " · " + safe(when) : ""}</div>`;
+    html += rankingTable("Overall ranking", data.arena.overall, data.arena, "rating");
+    html += rankingTable("Open models", data.arena.open, data.arena, "rating", true);
+  }
+  if (data?.usage?.models?.length) {
+    html += rankingTable("Most used this week", data.usage.models, data.usage, "tokens");
+  }
   if (data && Array.isArray(data.models) && data.models.length) {
-    const wd = data.generatedAt ? new Date(data.generatedAt) : null;
-    const when = wd && !isNaN(wd)
-      ? wd.toLocaleString("en-US", { year: "numeric", month: "short", day: "2-digit", hour: "numeric", minute: "2-digit" })
-      : "";
-    html += `<div class="curate-banner">🏆 Top trending models on Hugging Face${when ? " · " + safe(when) : ""}</div>`;
+    html += `<h3 class="lb-heading">Trending on Hugging Face</h3>`;
     html += data.models.map((m, i) => {
       const stats = [
         m.downloads != null ? `⬇ ${fmtNum(m.downloads)} downloads` : "",
@@ -867,6 +912,9 @@ async function load() {
         renderCategoryChips();
       }
       lastItems = data.items;
+      lastTrending = Array.isArray(data.trending) ? data.trending : [];
+      trendFilter = "";
+      renderTrending();
       renderItems(homeShown());
     } else {
       lastItems = await loadSourceItems(feed);
@@ -894,7 +942,9 @@ function switchSource(id) {
   localStorage.setItem("feed_active", id);
   seen = loadSeen(id);
   lastItems = [];
+  trendFilter = "";
   renderNav();
+  renderTrending();
   el.feed.innerHTML = "";
   el.meta.textContent = "";
   load();
@@ -962,9 +1012,36 @@ function selectAllCategories() {
   if (activeFeed().kind === "home" && lastItems.length) renderItems(homeShown());
 }
 
-// Top-N most relevant within the followed categories (items are pre-sorted by score).
+// Home is a news bulletin: only fresh items (sync.py stamps `fresh`; older digests
+// without the flag count as fresh), top-N by score within the followed categories.
+// A trending chip instead shows every item on that topic, regardless of rank.
+function mentions(it, term) {
+  const re = new RegExp(`\\b${term.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}\\b`, "i");
+  return re.test(it.title || "") || re.test(it.summary || "");
+}
 function homeShown() {
-  return lastItems.filter((it) => isCatShown(it.category)).slice(0, HOME_LIMIT);
+  const fresh = lastItems.filter((it) => it.fresh !== false);
+  if (trendFilter) return fresh.filter((it) => mentions(it, trendFilter));
+  return fresh.filter((it) => isCatShown(it.category)).slice(0, HOME_LIMIT);
+}
+
+function renderTrending() {
+  if (!el.trending) return;
+  const onHome = activeFeed().kind === "home";
+  const topics = onHome ? lastTrending.slice(0, 6) : [];
+  el.trending.hidden = topics.length === 0;
+  el.trending.innerHTML = topics.length
+    ? `<span class="trend-label">Trending</span>` + topics.map((t) =>
+        `<button type="button" class="chip trend-chip${t.term === trendFilter ? " active" : ""}" data-term="${safe(t.term)}" title="${safe(t.sources.join(", "))}">${safe(t.label || t.term)} <span class="trend-n">${t.items}</span></button>`
+      ).join("")
+    : "";
+  // The reading deck is sized to the viewport; leave room for the strip.
+  document.documentElement.style.setProperty("--trend-h", `${el.trending.hidden ? 0 : el.trending.offsetHeight}px`);
+}
+function toggleTrend(term) {
+  trendFilter = trendFilter === term ? "" : term;
+  renderTrending();
+  if (lastItems.length) renderItems(homeShown());
 }
 
 function openNav() { el.app.classList.add("nav-open"); }
@@ -980,6 +1057,12 @@ el.tabbar.addEventListener("click", (e) => {
   const btn = e.target.closest(".tab");
   if (btn) switchSource(btn.dataset.id);
 });
+if (el.trending) {
+  el.trending.addEventListener("click", (e) => {
+    const chip = e.target.closest(".trend-chip");
+    if (chip) toggleTrend(chip.dataset.term);
+  });
+}
 el.categoryChips.addEventListener("click", (e) => {
   const chip = e.target.closest(".chip");
   if (!chip) return;

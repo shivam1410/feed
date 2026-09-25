@@ -118,6 +118,21 @@ def html_to_text(raw: str) -> str:
     return re.sub(r"\s+", " ", html.unescape(text)).strip()
 
 
+# arXiv RSS descriptions open with "arXiv:2609.28603v1 Announce Type: new Abstract: ...".
+# The ID and announce type are metadata, not prose — split them off so the
+# reader (and the briefing prompt) only see the abstract.
+ARXIV_PREFIX_RE = re.compile(
+    r"^\s*arXiv:\s*[\w./-]+\s+Announce Type:\s*([a-z-]+)\s*(?:Abstract:\s*)?", re.I)
+
+
+def split_arxiv_prefix(summary: str) -> tuple[str, str]:
+    """Return (announce_type, clean_summary). announce_type is '' when absent."""
+    m = ARXIV_PREFIX_RE.match(summary or "")
+    if not m:
+        return "", summary or ""
+    return m.group(1).lower(), summary[m.end():].strip()
+
+
 def parse_rss(data: bytes, source: str) -> list[dict]:
     """Parse RSS 1.0/2.0 (<item>) and Atom (<entry>) feeds."""
     root = ET.fromstring(data)
@@ -164,10 +179,11 @@ def parse_rss(data: bytes, source: str) -> list[dict]:
                 doi = txt
         if not link:
             link = el.get("{http://www.w3.org/1999/02/22-rdf-syntax-ns#}about") or guid
+        announce, summary = split_arxiv_prefix(summary)
         items.append({
             "guid": doi or guid or link, "title": title or "(untitled)", "link": link,
             "authors": [a for a in authors if a], "date": date, "summary": summary,
-            "image": image, "source": source,
+            "image": image, "source": source, "announce": announce,
         })
     return items
 

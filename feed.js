@@ -368,14 +368,31 @@ function listenLabel(playing) {
   return (playing ? STOP_ICON + " Stop" : LISTEN_ICON + " Listen");
 }
 
+// arXiv RSS descriptions open with "arXiv:<id> Announce Type: new Abstract: …".
+// Split that metadata off so cards show only the abstract and the type as a tag.
+// Applied at render time so digests published before this change are cleaned too.
+const ARXIV_PREFIX_RE = /^\s*arXiv:\s*[\w./-]+\s+Announce Type:\s*([a-z-]+)\s*(?:Abstract:\s*)?/i;
+const ANNOUNCE_LABELS = { new: "New paper", replace: "Revised", cross: "Cross-listed", "replace-cross": "Revised cross-list" };
+function splitArxivPrefix(text) {
+  const m = ARXIV_PREFIX_RE.exec(text || "");
+  if (!m) return { announce: "", text: text || "" };
+  return { announce: m[1].toLowerCase(), text: text.slice(m[0].length).trim() };
+}
+function announceLabel(kind) {
+  return kind ? (ANNOUNCE_LABELS[kind] || kind) : "";
+}
+
 function cardHTML(item, isNew, linkable) {
   const byline = [item.source, item.extra, fmtAuthors(item.authors)].filter(Boolean).join(" · ");
   const date = fmtDate(item.date);
   const briefed = !!item.briefed || !!item.why;
-  const body = item.summary || "";
+  const split = splitArxivPrefix(item.summary);
+  const body = split.text;
   // Briefed cards show the full briefing + reveal the source abstract; others
   // clamp the raw summary and expand it.
-  const orig = briefed ? (item.origSummary || "") : body;
+  const origSplit = splitArxivPrefix(item.origSummary);
+  const orig = briefed ? origSplit.text : body;
+  const announce = announceLabel(item.announce || split.announce || origSplit.announce);
   const showOrig = briefed && orig && orig !== body;
   const hasMore = briefed ? showOrig : body.length > 220;
   const canSave = !!notionUrl(); // show Save only when a Notion endpoint is configured
@@ -396,6 +413,7 @@ function cardHTML(item, isNew, linkable) {
         </div>
         <div class="tags">
           ${item.category ? `<span class="cat-tag">${safe(item.category)}</span>` : ""}
+          ${announce ? `<span class="cat-tag type-tag">${safe(announce)}</span>` : ""}
         </div>
         ${item.why ? `<p class="why">↳ ${safe(item.why)}</p>` : ""}
         ${body ? `<p class="summary${briefed ? " rich" : ""}">${lightMarkup(body)}</p>` : ""}

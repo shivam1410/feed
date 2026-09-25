@@ -5,10 +5,10 @@ source: "HF Trending Papers"
 url: "https://huggingface.co/papers/2609.29647"
 authors: ["Zhenhua Zou", "Sheng Guo", "Qiuyang Zhan", "Lepeng Zhao", "Shuo Li", "Zhuotao Liu"]
 date: "2026-08-28T20:00:00.000Z"
-score: 67
+score: 80
 guid: "2609.29647"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.29647.png"
-generated: "2026-09-25T22:38:54+05:30"
+generated: "2026-09-25T23:24:50+05:30"
 ---
 
 Modern AI agents routinely cross trust boundaries: they ingest untrusted content, combine it with privileged instructions, persist intermediate beliefs in long-term memory, and invoke privileged tools. This creates an attack surface in which malicious payloads can enter through model inputs and cause harmful tool actions. Yet current governance stacks remain application-level middleware that share a process trust boundary with the agents they monitor. We argue that agents need an operating-system substrate providing mandatory, non-bypassable services for identity, input mediation, memory governance, and execution control.

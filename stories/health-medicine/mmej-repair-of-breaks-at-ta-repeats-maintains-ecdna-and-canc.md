@@ -8,7 +8,7 @@ date: "2026-09-23"
 score: 70
 guid: "10.1038/s41586-026-11048-8"
 image: ""
-generated: "2026-09-25T22:38:54+05:30"
+generated: "2026-09-25T23:15:27+05:30"
 ---
 
 Stability of extrachromosomal DNA (ecDNA) relies on microhomology-mediated end joining at fragile TA-rich sites, with FANCM suppressing break formation, suggesting that Polθ disruption may destabilize ecDNA and sensitize ecDNA-driven tumours to therapeutic intervention.

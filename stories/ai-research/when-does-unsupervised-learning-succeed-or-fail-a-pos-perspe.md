@@ -8,7 +8,7 @@ date: "Fri, 25 Sep 2026 00:00:00 -0400"
 score: 40
 guid: "oai:arXiv.org:2609.28832v1"
 image: ""
-generated: "2026-09-25T22:38:54+05:30"
+generated: "2026-09-25T23:24:50+05:30"
 ---
 
 Reconstruction-based unsupervised learning can fail in two opposing ways: a model may reconstruct anomalies too accurately or discard valid nominal variation. Using the Pursuit of Subspaces hypothesis, we characterize these failures through the meet, union, and join geometries induced by the nominal components. Excess learned range produces join blindness, while insufficient capacity produces meet preference and loss of nominal fidelity. We show that the compact nominal union is optimal among nominal faithful ranges and generally requires a nonlinear reconstruction map. Based on this geometry, we introduce Dynamic Push and Pull, which learns from controlled perturbations without anomaly labels, and nested manifold carving, which applies the same principle recursively in latent space. Experiments confirm the predicted changes in latent geometry across every tested Push and Pull configuration. The proposed methods improve reconstruction-based anomaly detection across standard benchmarks and unseen image degradations, while also improving pretrained ECG representations for downstream classification. These results connect reconstruction failures to identifiable geometric conditions and provide practical mechanisms for learning compact representations.

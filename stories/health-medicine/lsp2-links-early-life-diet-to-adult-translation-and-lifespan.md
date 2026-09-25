@@ -1,0 +1,14 @@
+---
+title: "Lsp2 links early-life diet to adult translation and lifespan in <i>Drosophila</i>"
+category: "Health & Medicine"
+source: "Nature"
+url: "https://www.nature.com/articles/s41586-026-11031-3"
+authors: ["Hina Kosakamoto", "Rina Okada", "Clive S. Barker", "Ayako Isomura-Matoba", "Jun Seita", "Naoshi Dohmae", "Koshi Imami", "Fumiaki Obata"]
+date: "2026-09-23"
+score: 70
+guid: "10.1038/s41586-026-11031-3"
+image: ""
+generated: "2026-09-25T23:24:50+05:30"
+---
+
+Isotope tracing is used to determine the fate of larval dietary amino acids in adult flies, and identifies Lsp2 as a key regulator of translation and lifespan that forms the molecular basis of the effects of early-life protein restriction.

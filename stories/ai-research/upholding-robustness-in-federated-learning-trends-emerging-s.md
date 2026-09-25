@@ -5,10 +5,10 @@ source: "arXiv (cs.LG)"
 url: "https://arxiv.org/abs/2609.28722"
 authors: ["Pravija Raj P V, Ashish Gupta, Andrea Augello, Sajal K. Das"]
 date: "Fri, 25 Sep 2026 00:00:00 -0400"
-score: 35
+score: 40
 guid: "oai:arXiv.org:2609.28722v1"
 image: ""
-generated: "2026-09-25T22:38:54+05:30"
+generated: "2026-09-25T23:24:50+05:30"
 ---
 
 While Federated Learning (FL) has been widely adopted for protecting user privacy in machine learning, it remains vulnerable to various robustness challenges, including performance-impairment risks, information-stealing threats, and aggregation vulnerabilities. This work offers a holistic synthesis of FL robustness along three tightly coupled angles: (i) a threat-centric view of robustness that categorizes the multifaceted attack surfaces, (ii) a structured taxonomy of robust aggregation strategies distinguishing outcome-centric approaches from security-centric strategies, and (iii) a layered taxonomy of defensive strategies. We rigorously examine current evaluation practices for FL robustness and identify major applications and open research challenges to guide future research.

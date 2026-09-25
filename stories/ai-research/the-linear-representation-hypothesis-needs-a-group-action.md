@@ -8,7 +8,7 @@ date: "2026-09-21T20:00:00.000Z"
 score: 60
 guid: "2609.27158"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.27158.png"
-generated: "2026-09-25T22:38:54+05:30"
+generated: "2026-09-25T23:24:50+05:30"
 ---
 
 To make claims about representations that generalize beyond a particular trained model, we need to specify when two representations should count as equivalent. The Linear Representation Hypothesis is often discussed without making this equivalence explicit. Different notions of equivalence preserve different structures, so metrics, probes, and interventions that appear to study the same representation may in fact correspond to different hypotheses. We therefore argue that the Linear Representation Hypothesis is not one hypothesis but a family of claims distinguished by representation equivalence. We formalize this idea using group actions, specifying the representation object, the procedure that produces it, and the property ultimately asserted, while accounting for equivalences imposed by the model architecture. This framework clarifies how assumptions can change across metrics, reading points, and analysis stages, and we use it to audit common representation quantities and recent interpretability analyses.

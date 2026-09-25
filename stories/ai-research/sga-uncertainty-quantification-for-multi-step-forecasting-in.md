@@ -5,10 +5,10 @@ source: "arXiv (cs.LG)"
 url: "https://arxiv.org/abs/2609.28582"
 authors: ["Xin-Yu Hu, Shuang Liang, Cheng Feng, Shao-Qun Zhang"]
 date: "Fri, 25 Sep 2026 00:00:00 -0400"
-score: 45
+score: 46
 guid: "oai:arXiv.org:2609.28582v1"
 image: ""
-generated: "2026-09-25T22:38:54+05:30"
+generated: "2026-09-25T23:24:50+05:30"
 ---
 
 The recent emergence of Time Series Foundation Models (TSFMs) has significantly advanced multi-step forecasting performance, enabling accurate predictions over extended future horizons. However, existing TSFMs often suffer from significantly inherent uncertainty, which typically manifests as derived forecast branches emerging at each time step and spreading to subsequent steps; different forecast branches often exhibit varying forecasting performance, thereby undermining the credibility of TSFM forecasts. In this paper, we propose the Slicing-Graphing-Alignment (SGA) method to quantify the uncertainty of multi-step TSFM forecasts. The proposed SGA first characterizes the topology of all potential forecast branches using a directed acyclic graph, such that the graph complexity bounds the uncertainty of multi-step forecasts, and then precisely measures the graph complexity by integrating both topological information and TSFM-inherent stochasticity. Experimental results conducted on 11 TSFMs and 27 datasets demonstrate that (i) SGA achieves the best performance when ranking predictive errors with uncertainty estimates; (ii) SGA works with a more extensive and more precise sampling coverage than those of existing UQ methods, deriving a quantification mechanism fundamentally different from those of established ones; and (iii) larger model scales of TSFMs correlate with lower uncertainty estimates of multi-step forecasts, suggesting another empirical scaling law for uncertainty quantification of multi-step TSFM forecasts.

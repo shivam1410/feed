@@ -5,10 +5,10 @@ source: "arXiv (cs.LG)"
 url: "https://arxiv.org/abs/2609.28605"
 authors: ["Xinchen Xiao"]
 date: "Fri, 25 Sep 2026 00:00:00 -0400"
-score: 25
+score: 28
 guid: "oai:arXiv.org:2609.28605v1"
 image: ""
-generated: "2026-09-25T22:38:54+05:30"
+generated: "2026-09-25T23:24:50+05:30"
 ---
 
 The Factivity Inference Evaluation 2026 (FIE2026) classifies Chinese context-hypothesis pairs into nine ordered factivity intervals. Its evaluation metric rewards both exact predictions and proximity to the correct interval, while 64.1% of the 566 training examples belong to a single class. In preliminary experiments, several mDeBERTa classification models predominantly predict the dominant class, whereas a Huber-regression baseline produces more predictions near the correct interval but fewer exact matches. We introduce Utility-Oriented Factivity Inference (UO-FIE), a parameter-efficient system that combines exact-label supervision with graded utility. UO-FIE predicts a distribution over the nine classes and combines hard-label supervision, utility-based soft targets, scheduled class weights, and an ordinal loss. We evaluate expected-utility decoding in controlled comparisons and use ordinal calibration selected on out-of-fold predictions for the submitted system. Based on Qwen3.5-9B with LoRA, UO-FIE ranks first in the fine-tuning track with a macro utility of 0.8316. A separate prompt-based ensemble ranks third in the non-fine-tuning track with a macro utility of 0.8450.

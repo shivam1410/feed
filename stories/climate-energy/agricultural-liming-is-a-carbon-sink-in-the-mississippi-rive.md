@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/s41586-026-11040-2"
 authors: ["Tim Jesper Suhrhoff", "Christopher T. Reinhard", "Yoshiki Kanzaki", "Samuel Shou-En Tsao", "Beck Woollen", "Tom Reershemius", "Samuel Shaheen", "James Saiers", "Shuang Zhang", "Peter A. Raymond", "Noah J. Planavsky"]
 date: "2026-09-23"
-score: 60
+score: 85
 guid: "10.1038/s41586-026-11040-2"
 image: ""
-generated: "2026-09-25T22:38:54+05:30"
+generated: "2026-09-25T23:24:50+05:30"
 ---
 
-Agricultural liming, the practice of spreading limestone on farmland, has been quietly removing carbon from the atmosphere over the past century in the Mississippi River Basin. This treatment stabilizes soil pH while sequestering atmospheric carbon. The discovery suggests that existing farming practices could contribute to climate solutions rather than just adding to the problem.
+Farm lime absorbs carbon from the air. Farmers spread lime on fields to lower soil acidity, and century-long records from the Mississippi River Basin show this practice pulled more carbon from air than it released. The effect is net negative for emissions. This matters because it's an unexpected carbon sink hidden in routine farming.

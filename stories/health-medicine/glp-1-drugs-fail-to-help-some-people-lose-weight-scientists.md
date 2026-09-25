@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/d41586-026-03020-3"
 authors: ["Mariana Lenharo"]
 date: "2026-09-24"
-score: 70
+score: 60
 guid: "10.1038/d41586-026-03020-3"
 image: ""
-generated: "2026-09-25T22:38:54+05:30"
+generated: "2026-09-25T23:24:50+05:30"
 ---
 
 Understanding why some people see no benefits from potent anti-obesity medications could lead to new therapies and personalized weight-loss regimens.

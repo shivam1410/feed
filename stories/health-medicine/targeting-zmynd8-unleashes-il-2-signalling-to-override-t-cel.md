@@ -8,7 +8,7 @@ date: "2026-09-23"
 score: 75
 guid: "10.1038/s41586-026-11059-5"
 image: ""
-generated: "2026-09-25T22:38:54+05:30"
+generated: "2026-09-25T23:24:50+05:30"
 ---
 
-Deleting a protein called ZMYND8 wakes up exhausted T cells and makes them attack tumors and viruses harder. The protein normally shuts down a key growth signal. This could boost cancer and viral therapies.
+A single protein acts as an off switch for immune T cells. ZMYND8 blocks IL-2 signaling that keeps T cells fighting viruses and cancer, forcing them into an exhausted state. Deleting this protein reawakened the cells and dramatically improved antiviral and antitumor responses. This matters because it reveals a checkpoint cancer and viruses exploit to hide.

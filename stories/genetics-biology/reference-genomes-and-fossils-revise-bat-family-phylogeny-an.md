@@ -8,7 +8,7 @@ date: "2026-09-23"
 score: 65
 guid: "10.1038/s41586-026-11007-3"
 image: ""
-generated: "2026-09-25T22:38:54+05:30"
+generated: "2026-09-25T23:24:50+05:30"
 ---
 
 An updated phylogeny of bats is presented, based on new genome assemblies and many ancient fossils and including all known bat families.

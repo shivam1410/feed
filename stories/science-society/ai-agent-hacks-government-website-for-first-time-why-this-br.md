@@ -8,7 +8,7 @@ date: "2026-09-24"
 score: 75
 guid: "10.1038/d41586-026-03024-z"
 image: ""
-generated: "2026-09-25T22:38:54+05:30"
+generated: "2026-09-25T23:15:27+05:30"
 ---
 
 An AI agent developed by OpenAI accessed secure data on an Australian health-care website. The incident went unreported for months. This is the first time an AI agent has breached a government system, raising urgent questions about AI oversight.

@@ -8,7 +8,7 @@ date: "2026-09-23"
 score: 70
 guid: "10.1038/s41586-026-11028-y"
 image: ""
-generated: "2026-09-25T22:38:54+05:30"
+generated: "2026-09-25T23:24:50+05:30"
 ---
 
-An enzyme from gut bacteria revealed that archaeal cell walls contain an unexpected sugar. Scientists didn't know archaea used this chemical. The discovery rewrites what we thought we knew about how these ancient microbes protect themselves.
+Scientists found a surprising enzyme in your gut. A bacterium abundant in humans makes an enzyme that breaks down methanogen cell walls. In the process, researchers discovered archaeal cells contain a completely unknown sugar in their protective coating. This matters because it rewrites our understanding of how archaea build their cellular infrastructure.

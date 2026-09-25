@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/d41586-026-03022-1"
 authors: ["Ewen Callaway"]
 date: "2026-09-24"
-score: 80
+score: 95
 guid: "10.1038/d41586-026-03022-1"
 image: ""
-generated: "2026-09-25T22:38:54+05:30"
+generated: "2026-09-25T23:24:50+05:30"
 ---
 
-AlphaFold's database now has protein structures from common viruses. These predictions could help us prepare for the next pandemic by revealing viral vulnerabilities. Scientists will need to test them in the lab first to be sure.
+AlphaFold expanded its database to include viral protein complexes from common viruses. These AI predictions could help pandemic preparedness and surveillance efforts. But predictions need lab confirmation before use in real clinical decisions.

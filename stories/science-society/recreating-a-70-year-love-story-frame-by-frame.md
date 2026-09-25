@@ -8,7 +8,7 @@ date: "Wed, 09 Sep 2026 16:00:00 +0000"
 score: 35
 guid: "https://blog.google/innovation-and-ai/technology/ai/love-rendered-film/"
 image: "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/LOVE_RENDERED_HERO_BLOG_SANS_LO.max-600x600.format-webp.webp"
-generated: "2026-09-25T22:38:54+05:30"
+generated: "2026-09-25T23:15:27+05:30"
 ---
 
 Discover how filmmakers and Google DeepMind used AI to recreate a couple's unrecorded past in the short film "Love, Rendered."

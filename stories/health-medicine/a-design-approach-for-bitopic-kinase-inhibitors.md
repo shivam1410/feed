@@ -8,7 +8,7 @@ date: "2026-09-23"
 score: 65
 guid: "10.1038/s41586-026-11056-8"
 image: ""
-generated: "2026-09-25T22:38:54+05:30"
+generated: "2026-09-25T23:15:27+05:30"
 ---
 
 Detailed analyses of ligand choice, linkage vector and linker length enabled the development of bitopic inhibitors of ABL1 and EGFR kinases, including an ABL1 inhibitor with enhanced activity against resistance mutations and reduced off-target toxicity.

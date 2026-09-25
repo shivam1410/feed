@@ -8,7 +8,7 @@ date: "Fri, 21 Aug 2026 16:00:00 +0000"
 score: 25
 guid: "https://blog.google/innovation-and-ai/models-and-research/gemini-models/what-full-stack-development-means/"
 image: "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/thumbnail_BfIj9lP.max-600x600.format-webp.webp"
-generated: "2026-09-25T22:38:54+05:30"
+generated: "2026-09-25T23:15:27+05:30"
 ---
 
 A Google DeepMind engineer breaks full-stack development into five simple layers and explains how it affects everyday users.

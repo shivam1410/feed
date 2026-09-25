@@ -8,7 +8,7 @@ date: "2026-09-23"
 score: 65
 guid: "10.1038/s41586-026-11029-x"
 image: ""
-generated: "2026-09-25T22:38:54+05:30"
+generated: "2026-09-25T23:15:27+05:30"
 ---
 
 In Drosophila, the protein Lsp2, which is induced by dietary essential amino acids, is a key physiological effector of mTORC1, and mutant flies that lack the Lsp2 gene exhibit reduced translation of TOP mRNAs and improved longevity.

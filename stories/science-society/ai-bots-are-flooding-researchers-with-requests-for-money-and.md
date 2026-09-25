@@ -8,7 +8,7 @@ date: "2026-09-25"
 score: 50
 guid: "10.1038/d41586-026-03005-2"
 image: ""
-generated: "2026-09-25T22:38:54+05:30"
+generated: "2026-09-25T23:15:27+05:30"
 ---
 
 Many scientists use artificial intelligence in their work, but agents are increasingly soliciting researchers for collaborations.

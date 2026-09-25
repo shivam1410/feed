@@ -1,36 +1,36 @@
 {
-  "generatedAt": "2026-09-25T22:39:41+05:30",
+  "generatedAt": "2026-09-25T23:25:33+05:30",
   "source": "Hugging Face — trending models",
   "models": [
     {
       "id": "convaiinnovations/laya",
       "task": "text-classification",
-      "likes": 3612,
+      "likes": 3623,
       "downloads": 0,
       "library": "transformers",
       "createdAt": "2026-09-18T05:05:55.000Z",
       "url": "https://huggingface.co/convaiinnovations/laya",
-      "summary": "Fast, multilingual System 1 classifier returning calibrated probabilities for typed questions on text/documents in ~33ms."
+      "summary": "Non-autoregressive System 1 decision model for text classification that returns calibrated probabilities across 100+ languages in single forward pass."
     },
     {
       "id": "Qwen/Qwen-Image-2.1",
       "task": "text-to-image",
-      "likes": 2294,
+      "likes": 2300,
       "downloads": 42469,
       "library": "diffusers",
       "createdAt": "2026-09-14T03:47:26.000Z",
       "url": "https://huggingface.co/Qwen/Qwen-Image-2.1",
-      "summary": "7B-parameter text-to-image and image-editing model supporting RGBA transparency, multi-reference images, and local edit annotations."
+      "summary": "Unified 7B text-to-image and image editing model supporting RGBA generation, multi-reference editing, and local mask-based edits."
     },
     {
       "id": "abenzerps/Qwen-Image-2.1-Uncensored-GGUF",
       "task": "text-to-image",
-      "likes": 1744,
+      "likes": 1751,
       "downloads": 715906,
       "library": "gguf",
       "createdAt": "2026-09-20T15:51:13.000Z",
       "url": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-GGUF",
-      "summary": "GGUF quantized Qwen-Image-2.1 for local text-to-image generation with multiple precision options from Q4 to BF16."
+      "summary": "GGUF quantized versions of Qwen-Image-2.1 for local text-to-image generation with various size and quality trade-offs."
     },
     {
       "id": "XingChen-AGI/Xing4.0-29B-A4B",
@@ -40,17 +40,17 @@
       "library": "transformers",
       "createdAt": "2026-09-16T06:44:40.000Z",
       "url": "https://huggingface.co/XingChen-AGI/Xing4.0-29B-A4B",
-      "summary": "29B mixture-of-experts language model with 4B active parameters, 256K native context, optimized for multi-step reasoning and tool use."
+      "summary": "29B parameter MoE model with 4B activated per token, 256K native context, agent-oriented architecture for planning and tool use."
     },
     {
       "id": "prism-ml/Ternary-Bonsai-2-27B-gguf",
       "task": "text-generation",
-      "likes": 2078,
+      "likes": 2079,
       "downloads": 3109078,
       "library": "llama.cpp",
       "createdAt": "2026-09-16T23:40:56.000Z",
       "url": "https://huggingface.co/prism-ml/Ternary-Bonsai-2-27B-gguf",
-      "summary": "27B-class ternary-quantized language model at 5.9GB maintaining 98.2% FP16 performance for llama.cpp inference."
+      "summary": "Ternary quantized 27B reasoning model at ~5.9GB retaining 98.2% FP16 intelligence with 262K context for on-device inference."
     },
     {
       "id": "Comfy-Org/Qwen-Image-2.1",
@@ -60,47 +60,633 @@
       "library": "diffusion-single-file",
       "createdAt": "2026-09-15T19:41:09.000Z",
       "url": "https://huggingface.co/Comfy-Org/Qwen-Image-2.1",
-      "summary": "Qwen-Image-2.1 repackaged for ComfyUI with text-to-image, image-editing, and prompt-enhancement workflows included."
+      "summary": "ComfyUI-packaged Qwen-Image-2.1 text-to-image model files with integrated prompt enhancement for local deployment."
     },
     {
       "id": "Altworld/Hemmingway-1",
       "task": "text-generation",
-      "likes": 659,
+      "likes": 661,
       "downloads": 4978,
       "library": "transformers",
       "createdAt": "2026-09-20T12:10:31.000Z",
       "url": "https://huggingface.co/Altworld/Hemmingway-1",
-      "summary": "27B language model specialized for conversational, everyday writing that reads naturally in personal and professional contexts."
+      "summary": "27B creative writing model optimized for everyday personal and professional writing like messages and emails."
     },
     {
       "id": "Edge0/Audio8-ASR-Infinite",
       "task": "automatic-speech-recognition",
-      "likes": 546,
+      "likes": 549,
       "downloads": 2853,
       "library": "transformers",
       "createdAt": "2026-09-21T15:03:21.000Z",
       "url": "https://huggingface.co/Edge0/Audio8-ASR-Infinite",
-      "summary": "Streaming speech-recognition model with rolling KV cache for unlimited 24/7 transcription, semantic VAD, and bilingual support."
+      "summary": "Streaming speech recognition model with semantic VAD and rolling KV cache for unlimited-length 24/7 transcription in Chinese and English."
     },
     {
       "id": "XiaomiMiMo/MiMo-V2.6-Pro-RL",
       "task": "text-generation",
-      "likes": 491,
+      "likes": 493,
       "downloads": 42062,
       "library": "transformers",
       "createdAt": "2026-09-21T15:39:33.000Z",
       "url": "https://huggingface.co/XiaomiMiMo/MiMo-V2.6-Pro-RL",
-      "summary": "Omnimodal language model with 1M-token context trained with reinforcement learning across coding, vision, and agentic tasks."
+      "summary": "Omnimodal agent model supporting text, image, video, audio with 1M context and unified RL training across coding and visual reasoning."
     },
     {
       "id": "TaichuAI/ZDTaichu5.0-9B",
       "task": "image-text-to-text",
-      "likes": 1045,
+      "likes": 1046,
       "downloads": 9498,
       "library": null,
       "createdAt": "2026-09-04T02:55:48.000Z",
       "url": "https://huggingface.co/TaichuAI/ZDTaichu5.0-9B",
-      "summary": "9B vision-language model supporting any-resolution images and video with spatial reasoning, agent capabilities, and embodied-AI support."
+      "summary": "9B multimodal model combining Qwen3.5 and C-RADIO vision encoder for general vision, spatial reasoning, and embodied agent tasks."
     }
-  ]
+  ],
+  "arena": {
+    "source": "LMArena text leaderboard (overall, style control)",
+    "url": "https://lmarena.ai/leaderboard/text",
+    "overall": [
+      {
+        "rank": 1,
+        "name": "claude-fable-5-high",
+        "rating": 1506,
+        "votes": 30057,
+        "org": "Anthropic",
+        "license": "Proprietary",
+        "open": false,
+        "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
+        "inPrice": 10,
+        "outPrice": 50
+      },
+      {
+        "rank": 2,
+        "name": "claude-opus-4-6-high",
+        "rating": 1505,
+        "votes": 71993,
+        "org": "Anthropic",
+        "license": "Proprietary",
+        "open": false,
+        "url": "https://www.anthropic.com/news/claude-opus-4-6",
+        "inPrice": 5,
+        "outPrice": 25
+      },
+      {
+        "rank": 3,
+        "name": "claude-opus-4-7-high",
+        "rating": 1502,
+        "votes": 60002,
+        "org": "Anthropic",
+        "license": "Proprietary",
+        "open": false,
+        "url": "https://www.anthropic.com/news/claude-opus-4-7",
+        "inPrice": 5,
+        "outPrice": 25
+      },
+      {
+        "rank": 4,
+        "name": "muse-spark-1.2 (xHigh)",
+        "rating": 1500,
+        "votes": 3227,
+        "org": "Meta",
+        "license": "Proprietary",
+        "open": false,
+        "url": "https://developer.meta.com/ai/models/muse-spark/",
+        "inPrice": 1.25,
+        "outPrice": 4.25
+      },
+      {
+        "rank": 5,
+        "name": "claude-fable-5.1-max",
+        "rating": 1498,
+        "votes": 5783,
+        "org": "Anthropic",
+        "license": "Proprietary",
+        "open": false,
+        "url": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
+        "inPrice": 10,
+        "outPrice": 50
+      },
+      {
+        "rank": 6,
+        "name": "claude-opus-4-6",
+        "rating": 1497,
+        "votes": 75878,
+        "org": "Anthropic",
+        "license": "Proprietary",
+        "open": false,
+        "url": "https://www.anthropic.com/news/claude-opus-4-6",
+        "inPrice": 5,
+        "outPrice": 25
+      },
+      {
+        "rank": 7,
+        "name": "claude-opus-4-7",
+        "rating": 1494,
+        "votes": 61128,
+        "org": "Anthropic",
+        "license": "Proprietary",
+        "open": false,
+        "url": "https://www.anthropic.com/news/claude-opus-4-7",
+        "inPrice": 5,
+        "outPrice": 25
+      },
+      {
+        "rank": 8,
+        "name": "muse-spark-1.3-max",
+        "rating": 1493,
+        "votes": 4723,
+        "org": "Meta",
+        "license": "Proprietary",
+        "open": false,
+        "url": "https://developer.meta.com/ai/models/muse-spark/",
+        "inPrice": null,
+        "outPrice": null
+      },
+      {
+        "rank": 9,
+        "name": "gemini-3.8-flash-high",
+        "rating": 1493,
+        "votes": 5076,
+        "org": "Google",
+        "license": "Proprietary",
+        "open": false,
+        "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/",
+        "inPrice": 0.75,
+        "outPrice": 3.75
+      },
+      {
+        "rank": 10,
+        "name": "claude-opus-5-high",
+        "rating": 1493,
+        "votes": 42617,
+        "org": "Anthropic",
+        "license": "Proprietary",
+        "open": false,
+        "url": "https://www.anthropic.com/news/claude-opus-5",
+        "inPrice": 5,
+        "outPrice": 25
+      },
+      {
+        "rank": 11,
+        "name": "muse-spark-1.1",
+        "rating": 1493,
+        "votes": 27615,
+        "org": "Meta",
+        "license": "Proprietary",
+        "open": false,
+        "url": "https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/",
+        "inPrice": 1.25,
+        "outPrice": 4.25
+      },
+      {
+        "rank": 12,
+        "name": "gemini-3.7-flash-high",
+        "rating": 1490,
+        "votes": 5640,
+        "org": "Google",
+        "license": "Proprietary",
+        "open": false,
+        "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/",
+        "inPrice": 0.75,
+        "outPrice": 3.75
+      },
+      {
+        "rank": 13,
+        "name": "muse-spark",
+        "rating": 1488,
+        "votes": 13565,
+        "org": "Meta",
+        "license": "Proprietary",
+        "open": false,
+        "url": "https://ai.meta.com/blog/introducing-muse-spark-msl/",
+        "inPrice": null,
+        "outPrice": null
+      },
+      {
+        "rank": 14,
+        "name": "claude-opus-5-max",
+        "rating": 1487,
+        "votes": 20706,
+        "org": "Anthropic",
+        "license": "Proprietary",
+        "open": false,
+        "url": "https://www.anthropic.com/news/claude-opus-5",
+        "inPrice": 5,
+        "outPrice": 25
+      },
+      {
+        "rank": 15,
+        "name": "gemini-3.1-pro-preview",
+        "rating": 1487,
+        "votes": 106951,
+        "org": "Google",
+        "license": "Proprietary",
+        "open": false,
+        "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-pro/",
+        "inPrice": 1,
+        "outPrice": 6
+      },
+      {
+        "rank": 16,
+        "name": "gemini-3-pro",
+        "rating": 1485,
+        "votes": 40654,
+        "org": "Google",
+        "license": "Proprietary",
+        "open": false,
+        "url": "http://aistudio.google.com/app/prompts/new_chat?model=gemini-3-pro-preview",
+        "inPrice": 2,
+        "outPrice": 12
+      },
+      {
+        "rank": 17,
+        "name": "kimi-k3-max",
+        "rating": 1485,
+        "votes": 20987,
+        "org": "Moonshot",
+        "license": "Kimi K3 license",
+        "open": true,
+        "url": "https://platform.kimi.ai/docs/guide/kimi-k3-quickstart",
+        "inPrice": null,
+        "outPrice": null,
+        "openRank": 1
+      },
+      {
+        "rank": 18,
+        "name": "gpt-5.6-sol-xhigh",
+        "rating": 1483,
+        "votes": 27069,
+        "org": "OpenAI",
+        "license": "Proprietary",
+        "open": false,
+        "url": "https://openai.com/index/gpt-5-6/",
+        "inPrice": 4,
+        "outPrice": 20
+      },
+      {
+        "rank": 19,
+        "name": "glm-5.3-max",
+        "rating": 1483,
+        "votes": 10960,
+        "org": "Z.ai",
+        "license": "MIT",
+        "open": true,
+        "url": "https://z.ai/blog/glm-5.3",
+        "inPrice": 1.4,
+        "outPrice": 4.4,
+        "openRank": 2
+      },
+      {
+        "rank": 20,
+        "name": "gpt-5.5-high",
+        "rating": 1482,
+        "votes": 64924,
+        "org": "OpenAI",
+        "license": "Proprietary",
+        "open": false,
+        "url": "https://openai.com/index/introducing-gpt-5-5/",
+        "inPrice": 5,
+        "outPrice": 30
+      }
+    ],
+    "open": [
+      {
+        "rank": 17,
+        "name": "kimi-k3-max",
+        "rating": 1485,
+        "votes": 20987,
+        "org": "Moonshot",
+        "license": "Kimi K3 license",
+        "open": true,
+        "url": "https://platform.kimi.ai/docs/guide/kimi-k3-quickstart",
+        "inPrice": null,
+        "outPrice": null,
+        "openRank": 1
+      },
+      {
+        "rank": 19,
+        "name": "glm-5.3-max",
+        "rating": 1483,
+        "votes": 10960,
+        "org": "Z.ai",
+        "license": "MIT",
+        "open": true,
+        "url": "https://z.ai/blog/glm-5.3",
+        "inPrice": 1.4,
+        "outPrice": 4.4,
+        "openRank": 2
+      },
+      {
+        "rank": 29,
+        "name": "glm-5.3-flash",
+        "rating": 1475,
+        "votes": 10038,
+        "org": "Z.ai",
+        "license": "MIT",
+        "open": true,
+        "url": "https://z.ai/blog/glm-5.3",
+        "inPrice": 0.06,
+        "outPrice": 0.2,
+        "openRank": 3
+      },
+      {
+        "rank": 38,
+        "name": "glm-5.2-max",
+        "rating": 1472,
+        "votes": 36798,
+        "org": "Z.ai",
+        "license": "MIT",
+        "open": true,
+        "url": "https://huggingface.co/zai-org/GLM-5.2",
+        "inPrice": 1.4,
+        "outPrice": 4.4,
+        "openRank": 4
+      },
+      {
+        "rank": 44,
+        "name": "mimo-v2.5-pro",
+        "rating": 1467,
+        "votes": 60919,
+        "org": "Xiaomi",
+        "license": "MIT",
+        "open": true,
+        "url": "https://mimo.xiaomi.com/mimo-v2-5-pro/",
+        "inPrice": 0.435,
+        "outPrice": 0.87,
+        "openRank": 5
+      },
+      {
+        "rank": 47,
+        "name": "glm-5.1",
+        "rating": 1466,
+        "votes": 48901,
+        "org": "Z.ai",
+        "license": "MIT",
+        "open": true,
+        "url": "https://huggingface.co/zai-org/GLM-5.1",
+        "inPrice": 1.4,
+        "outPrice": 4.4,
+        "openRank": 6
+      },
+      {
+        "rank": 50,
+        "name": "deepseek-v4-pro-high-20260813",
+        "rating": 1463,
+        "votes": 9008,
+        "org": "DeepSeek",
+        "license": "MIT",
+        "open": true,
+        "url": "https://api-docs.deepseek.com/updates/#date-2026-08-13",
+        "inPrice": 1.32,
+        "outPrice": 3.96,
+        "openRank": 7
+      },
+      {
+        "rank": 52,
+        "name": "kimi-k2.6",
+        "rating": 1460,
+        "votes": 37502,
+        "org": "Moonshot",
+        "license": "Modified MIT",
+        "open": true,
+        "url": "https://www.kimi.com/blog/kimi-k2-6",
+        "inPrice": 0.95,
+        "outPrice": 4,
+        "openRank": 8
+      },
+      {
+        "rank": 56,
+        "name": "glm-5",
+        "rating": 1458,
+        "votes": 27605,
+        "org": "Z.ai",
+        "license": "MIT",
+        "open": true,
+        "url": "https://huggingface.co/zai-org/GLM-5",
+        "inPrice": 1,
+        "outPrice": 3.2,
+        "openRank": 9
+      },
+      {
+        "rank": 57,
+        "name": "deepseek-v4-pro",
+        "rating": 1457,
+        "votes": 54130,
+        "org": "DeepSeek",
+        "license": "MIT",
+        "open": true,
+        "url": "https://api-docs.deepseek.com/news/news260424",
+        "inPrice": 1.32,
+        "outPrice": 3.96,
+        "openRank": 10
+      },
+      {
+        "rank": 60,
+        "name": "hy3",
+        "rating": 1456,
+        "votes": 8047,
+        "org": "Tencent",
+        "license": "Apache 2.0",
+        "open": true,
+        "url": "https://huggingface.co/tencent/Hy3",
+        "inPrice": 0.132,
+        "outPrice": 0.528,
+        "openRank": 11
+      },
+      {
+        "rank": 66,
+        "name": "deepseek-v4-pro-high-preview",
+        "rating": 1455,
+        "votes": 51485,
+        "org": "DeepSeek",
+        "license": "MIT",
+        "open": true,
+        "url": "https://api-docs.deepseek.com/news/news260424",
+        "inPrice": 1.32,
+        "outPrice": 3.96,
+        "openRank": 12
+      },
+      {
+        "rank": 68,
+        "name": "gemma-4-31b",
+        "rating": 1451,
+        "votes": 5894,
+        "org": "Google",
+        "license": "Apache 2.0",
+        "open": true,
+        "url": "https://aistudio.google.com/app/prompts/new_chat?model=gemma-4-31b-it",
+        "inPrice": 0.99,
+        "outPrice": 1.49,
+        "openRank": 13
+      },
+      {
+        "rank": 69,
+        "name": "kimi-k2.5-thinking",
+        "rating": 1450,
+        "votes": 70513,
+        "org": "Moonshot",
+        "license": "Modified MIT",
+        "open": true,
+        "url": "https://www.kimi.com/blog/kimi-k2-5.html",
+        "inPrice": 0.6,
+        "outPrice": 3,
+        "openRank": 14
+      },
+      {
+        "rank": 82,
+        "name": "qwen3.5-397b-a17b",
+        "rating": 1442,
+        "votes": 77007,
+        "org": "Alibaba",
+        "license": "Apache 2.0",
+        "open": true,
+        "url": "https://huggingface.co/Qwen/Qwen3.5-397B-A17B",
+        "inPrice": 0.55,
+        "outPrice": 3.5,
+        "openRank": 15
+      }
+    ]
+  },
+  "usage": {
+    "source": "OpenRouter, tokens served in the last 7 days",
+    "url": "https://openrouter.ai/rankings",
+    "models": [
+      {
+        "slug": "z-ai/glm-5.3-flash-20260826",
+        "tokens": 19037623490205,
+        "requests": 396353004,
+        "rank": 1,
+        "name": "glm-5.3-flash",
+        "org": "z-ai",
+        "url": "https://openrouter.ai/z-ai/glm-5.3-flash"
+      },
+      {
+        "slug": "deepseek/deepseek-v4.1-flash-20260910",
+        "tokens": 18906130198394,
+        "requests": 320482837,
+        "rank": 2,
+        "name": "deepseek-v4.1-flash",
+        "org": "deepseek",
+        "url": "https://openrouter.ai/deepseek/deepseek-v4.1-flash"
+      },
+      {
+        "slug": "tencent/hy4-preview-20260827",
+        "tokens": 12348399990295,
+        "requests": 108000911,
+        "rank": 3,
+        "name": "hy4-preview",
+        "org": "tencent",
+        "url": "https://openrouter.ai/tencent/hy4-preview"
+      },
+      {
+        "slug": "deepseek/deepseek-v4-flash-20260731",
+        "tokens": 9390072214218,
+        "requests": 553186967,
+        "rank": 4,
+        "name": "deepseek-v4-flash",
+        "org": "deepseek",
+        "url": "https://openrouter.ai/deepseek/deepseek-v4-flash"
+      },
+      {
+        "slug": "openai/gpt-5.6-luna-20260709",
+        "tokens": 8711913564198,
+        "requests": 302573019,
+        "rank": 5,
+        "name": "gpt-5.6-luna",
+        "org": "openai",
+        "url": "https://openrouter.ai/openai/gpt-5.6-luna"
+      },
+      {
+        "slug": "nvidia/nemotron-3-ultra-550b-a55b-20260604",
+        "tokens": 5008938610478,
+        "requests": 38445835,
+        "rank": 6,
+        "name": "nemotron-3-ultra-550b-a55b",
+        "org": "nvidia",
+        "url": "https://openrouter.ai/nvidia/nemotron-3-ultra-550b-a55b"
+      },
+      {
+        "slug": "xiaomi/mimo-v2.5-20260422",
+        "tokens": 4927651664129,
+        "requests": 69437942,
+        "rank": 7,
+        "name": "mimo-v2.5",
+        "org": "xiaomi",
+        "url": "https://openrouter.ai/xiaomi/mimo-v2.5"
+      },
+      {
+        "slug": "tencent/hy3-20260706",
+        "tokens": 3557049434396,
+        "requests": 54369426,
+        "rank": 8,
+        "name": "hy3",
+        "org": "tencent",
+        "url": "https://openrouter.ai/tencent/hy3"
+      },
+      {
+        "slug": "deepseek/deepseek-v4-flash-20260423",
+        "tokens": 3407851200552,
+        "requests": 363531370,
+        "rank": 9,
+        "name": "deepseek-v4-flash",
+        "org": "deepseek",
+        "url": "https://openrouter.ai/deepseek/deepseek-v4-flash"
+      },
+      {
+        "slug": "z-ai/glm-5.3-20260816",
+        "tokens": 3203057992634,
+        "requests": 40496608,
+        "rank": 10,
+        "name": "glm-5.3",
+        "org": "z-ai",
+        "url": "https://openrouter.ai/z-ai/glm-5.3"
+      },
+      {
+        "slug": "stealth/space-bunny-alpha",
+        "tokens": 2943615452038,
+        "requests": 26166343,
+        "rank": 11,
+        "name": "space-bunny-alpha",
+        "org": "stealth",
+        "url": "https://openrouter.ai/stealth/space-bunny-alpha"
+      },
+      {
+        "slug": "google/gemini-3.8-flash-20260902",
+        "tokens": 2127382603842,
+        "requests": 63166138,
+        "rank": 12,
+        "name": "gemini-3.8-flash",
+        "org": "google",
+        "url": "https://openrouter.ai/google/gemini-3.8-flash"
+      },
+      {
+        "slug": "meta/muse-spark-1.3-contributor-20260902",
+        "tokens": 2001422663192,
+        "requests": 44235768,
+        "rank": 13,
+        "name": "muse-spark-1.3-contributor",
+        "org": "meta",
+        "url": "https://openrouter.ai/meta/muse-spark-1.3-contributor"
+      },
+      {
+        "slug": "typesafe/jev-1.13-20260917",
+        "tokens": 1852964575393,
+        "requests": 578073350,
+        "rank": 14,
+        "name": "jev-1.13",
+        "org": "typesafe",
+        "url": "https://openrouter.ai/typesafe/jev-1.13"
+      },
+      {
+        "slug": "xiaomi/mimo-v2.6-flash-20260921",
+        "tokens": 1825054687476,
+        "requests": 22685713,
+        "rank": 15,
+        "name": "mimo-v2.6-flash",
+        "org": "xiaomi",
+        "url": "https://openrouter.ai/xiaomi/mimo-v2.6-flash"
+      }
+    ]
+  }
 }

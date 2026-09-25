@@ -8,7 +8,7 @@ date: "2026-09-23"
 score: 65
 guid: "10.1038/s41586-026-11056-8"
 image: ""
-generated: "2026-09-25T19:08:22+05:30"
+generated: "2026-09-25T23:24:50+05:30"
 ---
 
-Detailed analyses of ligand choice, linkage vector and linker length enabled the development of bitopic inhibitors of ABL1 and EGFR kinases, including an ABL1 inhibitor with enhanced activity against resistance mutations and reduced off-target toxicity.
+Researchers designed cancer drugs that hit two targets on the same enzyme. By tuning ligand choice and linker length, they created ABL1 inhibitors that work even when cancer cells develop resistance mutations. The dual-site approach also slashed off-target toxicity. This matters because drug resistance is the main way cancers evade treatment.

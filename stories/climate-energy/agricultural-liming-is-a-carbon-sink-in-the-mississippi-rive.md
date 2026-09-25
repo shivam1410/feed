@@ -8,7 +8,7 @@ date: "2026-09-23"
 score: 70
 guid: "10.1038/s41586-026-11040-2"
 image: ""
-generated: "2026-09-24T19:24:37+05:30"
+generated: "2026-09-25T19:08:22+05:30"
 ---
 
-Century-scale records for the Mississippi River Basin demonstrate agricultural liming—adding lime to soil to reduce acidity—has functioned as a net carbon sink over the past 100 years. The chemical neutralization process absorbs atmospheric CO2. This identifies an overlooked anthropogenic mechanism removing carbon from the atmosphere, suggesting agricultural practices could contribute to climate mitigation strategies.
+Century-scale records show that agricultural liming in the Mississippi River Basin acted as a net carbon sink over the past century. Liming—applying crushed limestone to soil—neutralizes acidic soil and absorbed significant atmospheric carbon dioxide. This demonstrates that certain agricultural practices inadvertently sequester carbon while improving soil quality, offering insights for climate mitigation strategies.

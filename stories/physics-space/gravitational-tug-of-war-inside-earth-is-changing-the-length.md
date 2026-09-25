@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/d41586-026-03018-x"
 authors: ["James Dinneen"]
 date: "2026-09-23"
-score: 71
+score: 70
 guid: "10.1038/d41586-026-03018-x"
 image: ""
-generated: "2026-09-24T19:24:37+05:30"
+generated: "2026-09-25T19:08:22+05:30"
 ---
 
 A battle of forces, driven by the motion of Earth’s core, can explain small variations in the planet’s rotation, study finds.

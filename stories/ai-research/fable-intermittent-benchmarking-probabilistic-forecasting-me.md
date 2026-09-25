@@ -1,0 +1,14 @@
+---
+title: "fable.intermittent: benchmarking probabilistic forecasting methods for intermittent time series"
+category: "AI Research"
+source: "arXiv (cs.LG)"
+url: "https://arxiv.org/abs/2609.28607"
+authors: ["Stefano Damato, Lorenzo Zambon, Giorgio Corani, Dario Azzimonti"]
+date: "Fri, 25 Sep 2026 00:00:00 -0400"
+score: 55
+guid: "oai:arXiv.org:2609.28607v1"
+image: ""
+generated: "2026-09-25T19:08:22+05:30"
+---
+
+arXiv:2609.28607v1 Announce Type: new Abstract: Intermittent time series are common in spare-parts demand and retail sales. Since the cost of forecast errors is typically asymmetric, decisions such as inventory control require the full predictive distribution rather than a point forecast. Many probabilistic forecasting methods have been proposed; their implementations, however, are scattered across different software frameworks, making it difficult to compare them systematically. We introduce fable.intermittent, an R package that implements several probabilistic forecasting methods for intermittent series within the fable framework. The package allows several models to be fitted and evaluated on a collection of time series through a single, simple forecasting pipeline. We also introduce TWEES, a new exponential smoothing model with a Tweedie predictive distribution. Fitting TWEES requires repeated evaluation of the computationally demanding Tweedie density. We also release the R package tweedieDistr, whose implementation of the Tweedie distribution is substantially faster than the existing one while preserving the same numerical accuracy. We evaluate the methods implemented in fable.intermittent on four datasets, also released in the package.

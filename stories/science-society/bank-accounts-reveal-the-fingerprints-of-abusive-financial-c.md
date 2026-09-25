@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/d41586-026-03021-2"
 authors: ["Benjamin Thompson", "Nick Petrić Howe"]
 date: "2026-09-23"
-score: 50
+score: 60
 guid: "10.1038/d41586-026-03021-2"
 image: ""
-generated: "2026-09-24T19:24:37+05:30"
+generated: "2026-09-25T19:08:22+05:30"
 ---
 
 Analysis of anonymized banking data could help inform strategies to support victim-survivors of financial abuse — plus, how opposing forces within the Earth can alter the length of a day.

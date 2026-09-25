@@ -5,10 +5,10 @@ source: "HF Trending Papers"
 url: "https://huggingface.co/papers/2609.27656"
 authors: ["Jisong Cai", "Yao Mu", "Ganlin Yang", "Zhe Cao", "Zhangzheng Tu", "Xing Gao", "Kailin Li", "Xinyu Zhan", "Lixin Yang", "Yangkun Zhu", "Haoxiang Ma", "Ming Zhou", "Qiaojun Yu", "Yufei Xue", "Liqun He", "Yifei Yao", "Yifan Zhu", "Long Ling", "Bingqi Jiang", "Haoyu Guo", "Xueyue Zhu", "Bowen Zhou", "Bin Zhao", "Tianfan Xue", "Chunhua Shen", "Weinan Zhang"]
 date: "2026-09-22T20:00:00.000Z"
-score: 75
+score: 76
 guid: "2609.27656"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.27656.png"
-generated: "2026-09-24T19:24:37+05:30"
+generated: "2026-09-25T19:08:22+05:30"
 ---
 
-InternW0, a physical world model from Shanghai AI Laboratory, jointly predicts visual dynamics and robot control using asymmetric video and action experts. Trained on approximately 7,200 hours of heterogeneous robot data including a 275-hour laboratory egocentric dataset, it succeeds on complex real-world tasks: metal-organic framework synthesis and force-aware dexterous manipulation.
+InternW0 is a physical world model trained on 7,200 hours of robot and egocentric video data, including a new 275-hour real-laboratory EgoLab dataset. It combines visual prediction and robot control via asymmetric video and action experts. Evaluation spans simulation and real-world tasks including 15-stage chemical synthesis and force-aware dexterous manipulation.

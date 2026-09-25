@@ -100,7 +100,7 @@ def build_prompt(items: list, profile: str, top_n: int) -> str:
         '  "summary": 60-90 words in plain English, short sentences. Open with what '
         "they found or built, in one line, the way you'd say it out loud. Then give "
         "one or two concrete specifics from the text (a number, a method, a result). "
-        "Finish with one sentence on why it matters. No jargon unless the text "
+        "Finish with one sentence on why it matters. No em dashes; use commas or full stops. No jargon unless the text "
         "explains it; no filler like 'this paper presents'. Use ONLY facts present in "
         "the provided title and text; never invent figures, names or claims. If the "
         "source text is thin, write less rather than pad.\n"

@@ -423,8 +423,8 @@ function cardHTML(item, isNew, linkable) {
         </div>
         ${item.why ? `<p class="why">↳ ${safe(item.why)}</p>` : ""}
         ${body ? `<p class="summary${briefed ? " rich" : ""}">${lightMarkup(body)}</p>` : ""}
+        ${showOrig ? `<div class="full auto"><span class="full-label">From the source:</span> ${lightMarkup(orig)}</div>` : ""}
         ${hasMore ? `<button type="button" class="readmore" data-more="${briefed ? "Source abstract ▾" : "Read more ▾"}" data-less="${briefed ? "Hide abstract ▴" : "Show less ▴"}">${briefed ? "Source abstract ▾" : "Read more ▾"}</button>` : ""}
-        ${showOrig ? `<div class="full"><span class="full-label">From the source:</span> ${lightMarkup(orig)}</div>` : ""}
         ${byline ? `<div class="byline">${safe(byline)}</div>` : ""}
         <div class="card-foot">
           <span class="date">${safe(date)}</span>
@@ -592,15 +592,24 @@ function renderItems(items) {
 
 // Deck cards clamp the summary to the space left on screen. Show "Read more"
 // only where text is actually cut off, and flag those summaries for the fade.
+// Briefed cards show the source abstract under the briefing in the deck, so the
+// clipped block is the abstract there and the summary everywhere else.
 function trimReadMore() {
   if (!el.feed.classList.contains("deck")) return;
   el.feed.querySelectorAll(".card").forEach((card) => {
-    const sum = card.querySelector(".summary");
+    const block = card.querySelector(".full.auto") || card.querySelector(".summary");
     const btn = card.querySelector(".readmore");
-    if (!sum || card.classList.contains("expanded")) return;
-    const cut = sum.scrollHeight > sum.clientHeight + 1;
-    sum.classList.toggle("overflowing", cut);
-    if (btn && !btn.dataset.more.startsWith("Source")) btn.style.display = cut ? "" : "none";
+    if (!block || card.classList.contains("expanded")) return;
+    const cut = block.scrollHeight > block.clientHeight + 1;
+    block.classList.toggle("overflowing", cut);
+    if (btn) {
+      if (block.classList.contains("full")) { // deck wording: it's just "more of the card"
+        btn.dataset.more = "Read more ▾";
+        btn.dataset.less = "Show less ▴";
+        btn.textContent = btn.dataset.more;
+      }
+      btn.style.display = cut ? "" : "none";
+    }
   });
 }
 let trimTimer = 0;

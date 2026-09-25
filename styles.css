@@ -597,6 +597,21 @@ button#saveProfile:hover { border-color: var(--accent); }
     mask-image: linear-gradient(#000 80%, transparent);
   }
   .feed.deck .card.expanded .summary { flex: none; overflow: visible; }
+  /* Briefed cards: the short briefing sits at natural height and the source
+     abstract fills the rest of the screen, clipped with the same fade. */
+  .feed.deck .card:has(.full.auto) .summary.rich { flex: none; overflow: visible; }
+  .feed.deck .full.auto {
+    display: block;
+    flex: 1 1 0;
+    min-height: 0;
+    overflow: hidden;
+    margin-bottom: 4px;
+  }
+  .feed.deck .card:not(.expanded) .full.auto.overflowing {
+    -webkit-mask-image: linear-gradient(#000 80%, transparent);
+    mask-image: linear-gradient(#000 80%, transparent);
+  }
+  .feed.deck .card.expanded .full.auto { flex: none; overflow: visible; }
   .feed.deck .card-foot {
     margin-top: auto;
     padding-top: 12px;

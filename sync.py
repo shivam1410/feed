@@ -342,14 +342,16 @@ def build_brief_prompt(items: list[dict]) -> str:
         for i, it in enumerate(items)
     ]
     return (
-        "You are a science writer. For EACH article write a self-contained briefing "
-        "a reader can absorb in one to two minutes.\n\n"
+        "You are a science writer explaining new research to a curious friend. "
+        "For EACH article write a short, conversational briefing.\n\n"
         "For each, return an object: "
-        '{"i": <index>, "summary": "a 100-160 word plain-language briefing — open '
-        "with the key finding, then the specifics (concrete numbers, methods or "
-        "results that appear in the text), then why it matters. Use ONLY facts "
-        "present in the title and text; never invent figures or claims. If the text "
-        'is thin, write a shorter accurate summary rather than padding it.", '
+        '{"i": <index>, "summary": "60-90 words in plain English, short sentences. '
+        "Open with what they found or built, in one line, the way you'd say it out "
+        "loud. Then give one or two concrete specifics from the text (a number, a "
+        "method, a result). Finish with one sentence on why it matters. No jargon "
+        "unless the text explains it; no filler like 'this paper presents'. Use ONLY "
+        "facts present in the title and text; never invent figures or claims. If the "
+        'text is thin, write less rather than pad.", '
         '"why": "<=8 word takeaway"}.\n'
         "Return ONLY a valid JSON array — escape quotes, no line breaks inside "
         "strings, no prose.\n\nARTICLES:\n" + json.dumps(payload, ensure_ascii=False)

@@ -68,6 +68,7 @@ const el = {
   sidebar: document.getElementById("sidebar"),
   closeNav: document.getElementById("closeNav"),
   categoryChips: document.getElementById("categoryChips"),
+  topicsSection: document.getElementById("topicsSection"),
   pNotionUrl: document.getElementById("pNotionUrl"),
   saveNotionUrl: document.getElementById("saveNotionUrl"),
   notionUrlMsg: document.getElementById("notionUrlMsg"),
@@ -394,7 +395,9 @@ function cardHTML(item, isNew, linkable) {
   const orig = briefed ? origSplit.text : body;
   const announce = announceLabel(item.announce || split.announce || origSplit.announce);
   const showOrig = briefed && orig && orig !== body;
-  const hasMore = briefed ? showOrig : body.length > 220;
+  // Deck cards clamp by available height, so always emit the toggle there and
+  // let trimReadMore() hide it when nothing is cut off.
+  const hasMore = briefed ? showOrig : (deckMQL.matches || body.length > 220);
   const canSave = !!notionUrl(); // show Save only when a Notion endpoint is configured
   const isRead = linkable && item.guid && read.has(item.guid); // read/visited state (list feeds only)
   const imgTag = item.image
@@ -573,6 +576,7 @@ function renderItems(items) {
   el.meta.textContent = "";
   firstLoad[activeId] = false;
   setupDeck();
+  trimReadMore();
   if (!el.feed.classList.contains("deck")) {
     // List view: treat everything shown as seen (baseline for NEW).
     let changed = false;
@@ -582,6 +586,22 @@ function renderItems(items) {
   // Deck marks seen as you swipe past cards (handled in the scroll listener).
   restorePosition(items);
 }
+
+// Deck cards clamp the summary to the space left on screen. Show "Read more"
+// only where text is actually cut off, and flag those summaries for the fade.
+function trimReadMore() {
+  if (!el.feed.classList.contains("deck")) return;
+  el.feed.querySelectorAll(".card").forEach((card) => {
+    const sum = card.querySelector(".summary");
+    const btn = card.querySelector(".readmore");
+    if (!sum || card.classList.contains("expanded")) return;
+    const cut = sum.scrollHeight > sum.clientHeight + 1;
+    sum.classList.toggle("overflowing", cut);
+    if (btn && !btn.dataset.more.startsWith("Source")) btn.style.display = cut ? "" : "none";
+  });
+}
+let trimTimer = 0;
+window.addEventListener("resize", () => { clearTimeout(trimTimer); trimTimer = setTimeout(trimReadMore, 150); });
 
 // A feed is "headline-only" when almost none of its items carry a summary
 // (e.g. a source whose article text is unavailable). Such feeds are tedious as
@@ -890,6 +910,8 @@ function renderNav() {
   };
   const isTop = (f) => ["home", "saved", "leaderboard"].includes(f.kind);
   el.nav.innerHTML = FEEDS.filter(isTop).map(item).join("");
+  // Topics only filter Home, so hide the picker on source tabs / Saved / Rankings.
+  if (el.topicsSection) el.topicsSection.hidden = activeFeed().kind !== "home";
   updateHeadNav();
   renderTabbar();
 }

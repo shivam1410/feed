@@ -88,21 +88,22 @@ def build_prompt(items: list, profile: str, top_n: int) -> str:
     ]
     profile_block = profile.strip() or "(no profile given — judge by general scientific significance and novelty)"
     return (
-        "You are a research-feed curator and science writer. Score each article from "
-        "0-100 for how well it fits the reader's profile below, then write a "
-        "self-contained briefing for the best ones that a reader can absorb in one to "
-        "two minutes. Favor genuine relevance to the profile, plus novelty and "
+        "You are a research-feed curator and science writer explaining new research "
+        "to a curious friend. Score each article from 0-100 for how well it fits the "
+        "reader's profile below, then write a short, conversational briefing for the "
+        "best ones. Favor genuine relevance to the profile, plus novelty and "
         "significance.\n\n"
         f"READER PROFILE:\n{profile_block}\n\n"
         f"Select the {top_n} best-matching articles. For each, return an object with:\n"
         '  "i": the article index (integer),\n'
         '  "score": integer 0-100 for fit to the profile,\n'
-        '  "summary": a 100-160 word plain-language briefing. Open with the key '
-        "finding or news, then give the specifics — concrete numbers, methods, "
-        "datasets or results that appear in the source text. Close with why it "
-        "matters. Use ONLY facts present in the provided title and text; never invent "
-        "figures, names or claims. If the source text is thin, write a shorter "
-        "accurate summary rather than padding it.\n"
+        '  "summary": 60-90 words in plain English, short sentences. Open with what '
+        "they found or built, in one line, the way you'd say it out loud. Then give "
+        "one or two concrete specifics from the text (a number, a method, a result). "
+        "Finish with one sentence on why it matters. No jargon unless the text "
+        "explains it; no filler like 'this paper presents'. Use ONLY facts present in "
+        "the provided title and text; never invent figures, names or claims. If the "
+        "source text is thin, write less rather than pad.\n"
         '  "why": a phrase of 8 words or fewer on why it fits the profile.\n\n'
         "Order by score, highest first. Return ONLY a valid JSON array — escape "
         "quotes, no line breaks inside string values, no prose outside the array.\n\n"

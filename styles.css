@@ -130,6 +130,8 @@ select.profile-input { cursor: pointer; }
 
 /* category following */
 .following { border-top: 1px solid var(--border); padding-top: 16px; display: flex; flex-direction: column; gap: 8px; }
+.topics { display: flex; flex-direction: column; gap: 8px; }
+.topics[hidden] { display: none; }
 .following-head { display: flex; align-items: baseline; justify-content: space-between; }
 .following h2 { margin: 0; font-size: 14px; }
 .chips { display: flex; flex-direction: column; align-items: flex-start; gap: 6px; }
@@ -576,6 +578,22 @@ button#saveProfile:hover { border-color: var(--accent); }
     width: 100%;
     margin-inline: auto;
   }
+  /* Reading deck: the summary fills whatever height is left between the tags
+     and the footer, and is cut there (with a fade) — the screen is the limit.
+     "Read more" releases it and the card scrolls. */
+  .feed.deck > .card > .card-body { flex: 1 1 auto; min-height: 0; }
+  .feed.deck .summary {
+    display: block;
+    -webkit-line-clamp: unset;
+    flex: 1 1 0;
+    min-height: 0;
+    overflow: hidden;
+  }
+  .feed.deck .card:not(.expanded) .summary.overflowing {
+    -webkit-mask-image: linear-gradient(#000 80%, transparent);
+    mask-image: linear-gradient(#000 80%, transparent);
+  }
+  .feed.deck .card.expanded .summary { flex: none; overflow: visible; }
   .feed.deck .card-foot {
     margin-top: auto;
     padding-top: 12px;

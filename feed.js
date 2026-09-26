@@ -1053,9 +1053,9 @@ function renderTrending() {
   const topics = onHome ? lastTrending.filter((t) => !dismissedTrends.has(t.term)).slice(0, 6) : [];
   el.trending.hidden = topics.length === 0;
   el.trending.innerHTML = topics.length
-    ? `<span class="trend-label">Trending</span><span class="trend-chips">` + topics.map((t) => `
+    ? `<span class="trend-n">${topics.reduce((n, t) => n + t.items, 0)}</span><span class="trend-label">Trending</span><span class="trend-chips">` + topics.map((t) => `
         <span class="trend-chip${t.term === trendFilter ? " active" : ""}" data-term="${safe(t.term)}" title="${safe(t.sources.join(", "))}">
-          <button type="button" class="trend-pick"><span class="trend-n">${t.items}</span>${safe(t.label || t.term)}</button>
+          <button type="button" class="trend-pick">${safe(t.label || t.term)}</button>
           <button type="button" class="trend-x" aria-label="Dismiss ${safe(t.label || t.term)}">×</button>
         </span>`).join("") + `</span>`
     : "";

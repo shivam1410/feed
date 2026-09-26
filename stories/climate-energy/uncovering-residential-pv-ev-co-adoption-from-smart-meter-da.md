@@ -5,10 +5,10 @@ source: "arXiv (cs.LG)"
 url: "https://arxiv.org/abs/2609.28578"
 authors: ["Jack Zheng, Hao Wang"]
 date: "Sat, 26 Sep 2026 00:00:00 -0400"
-score: 70
+score: 65
 guid: "oai:arXiv.org:2609.28578v1"
 image: ""
-generated: "2026-09-26T20:37:01+05:30"
+generated: "2026-09-26T22:52:50+05:30"
 ---
 
 The increasing adoption of electric vehicles (EVs) and rooftop photovoltaic (PV) systems is reshaping residential electricity demand and creating new challenges for demand-side management (DSM), tariff design, and low-voltage network planning. Much of the existing literature examines EV charging or PV generation in isolation, leaving the behavioral dynamics of household co-adoption less understood. We develop an integrated, two-part workflow to analyze advanced metering infrastructure (AMI) data. A discovery component applies dynamic time warping (DTW) k-means with DTW barycenter averaging to cluster daily import or export profiles into interpretable behavioral archetypes, while a predictive component trains a bidirectional long short-term memory (BiLSTM) model on 21-day windows and benchmarks it against tabular baselines for PV/EV activity detection. The EV activity labels are inferred from charging-like load signatures because charger measurements are unavailable. Using half-hourly AusNet residential data from Victoria, Australia, the clustering uncovers distinct patterns across PV-only, EV-only, co-adoption, and neither cohorts; for co-adopters, a midday-centered weekday export archetype accounts for approximately 50% of days. At validation-tuned thresholds, both BiLSTM and XGBoost achieve strong discrimination. BiLSTM obtains 0.991 for the area under the receiver operating characteristic curve (AUROC), 0.906 for macro-F1, and the highest recall on the most difficult class (0.836 for EV-only recall). Tree-based baselines remain competitive. Performance remains stable across plausible labeling rules (macro-F1: 0.894--0.914) and strictly forward temporal splits (macro-F1: 0.894--0.906).

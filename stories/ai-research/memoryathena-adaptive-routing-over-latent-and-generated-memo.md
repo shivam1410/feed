@@ -5,10 +5,10 @@ source: "HF Trending Papers"
 url: "https://huggingface.co/papers/2609.25853"
 authors: ["Mingyuan Li", "Guangsheng Yu", "Juyuan Zhang", "Xu Wang", "Zhibo Man", "Haonan Zhang", "Shaoxiong Ji"]
 date: "2026-09-21T20:00:00.000Z"
-score: 84
+score: 68
 guid: "2609.25853"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.25853.png"
-generated: "2026-09-26T20:37:01+05:30"
+generated: "2026-09-26T22:52:50+05:30"
 ---
 
-MemoryAthena generates memory in three ways: direct retrieval, generation from retrieved cues, and generation from network states. It learned when to blend generated memory with direct retrieval, raising question-answering scores from 37.65 to 39.28 and general NLP from 76.73 to 79.13. Generated memory acts as selective correction to direct lookup.
+Learned-memory methods store information in an explicit table and consume it through a separate reader, allowing addressing, storage, and reading to be modified independently. We study whether useful memory can also be generated rather than only retrieved. MemoryAthena uses three pathways: direct Engram retrieval (E), generation from retrieved Engram cues (GE), and generation from causal backbone states without consulting the memory table (GH). Generated memory is conditionally useful: it can complement E in one context but interfere with it in another. MemoryAthena therefore treats E as an anchor and learns when a generated representation should intervene. With the backbone, memory, generators, and readers frozen, a lightweight causal routing head is trained from counterfactual future-token likelihood advantages of GE and GH relative to E. At inference time, an admitted candidate modifies the E residual through bounded interpolation, while rejection recovers the direct pathway exactly. On question answering, MemoryAthena raises the five-task average from 37.65 to 39.28 over the direct pathway of the same checkpoint, while the six-task general-NLP average increases from 76.73 to 79.13. The complete memory-side system contains approximately 201M parameters, excluding the frozen backbone. Further analyses show complementary strengths among E, GE, and GH across tasks and inputs. These results support generated memory as a selective correction to direct retrieval and highlight routing when, which, and how strongly to intervene as the central challenge.

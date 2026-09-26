@@ -5,10 +5,10 @@ source: "Simon Willison"
 url: "https://simonwillison.net/2026/Sep/21/jev/"
 authors: []
 date: "2026-09-21T23:09:20+00:00"
-score: 100
+score: 96
 guid: "https://simonwillison.net/2026/Sep/21/jev/"
 image: ""
-generated: "2026-09-26T20:37:01+05:30"
+generated: "2026-09-26T22:52:50+05:30"
 ---
 
-Jev is a decision model that outputs probabilities rather than text, handling yes/no questions, ratings, or category classifications through floating point scores. It costs $0.042 per million input tokens with free output, cheaper than GPT-5 Nano. Confidence scores accompany each decision. This matters because it inverts the cost structure, rewarding high-volume decisions over deep reasoning.
+Simon Willison explains that Jev is a decision model accepting text inputs and returning floating-point scores for yes-no questions, ratings, and categories. Priced at $0.042 per million input tokens with free output, cheaper than GPT-5 Nano. Designed to answer questions about unstructured text or semi-structured records. This matters because it inverts the LLM model: instead of generating tokens, it classifies, making it faster and cheaper.

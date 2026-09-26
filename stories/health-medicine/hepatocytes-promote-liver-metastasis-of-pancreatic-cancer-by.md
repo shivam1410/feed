@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/s41586-026-11051-z"
 authors: ["Koelina Ganguly", "Keisuke Yamamoto", "Jason Rodencal", "Joel Encarnacion-Rosado", "Albert S. W. Sohn", "Douglas E. Biancur", "Elaine Y. Lin", "Ruohong Wang", "Carolina Alcantara Hirsch", "Anthony Sorrentino", "Elshaddai Z. White", "Paul M. Grandgenett", "Michael A. Hollingsworth", "Miwako Kakiuchi", "Richard Possemato", "Dafna Bar-Sagi", "Mitsuhiro Fujishiro", "Alec C. Kimmelman"]
 date: "2026-09-23"
-score: 60
+score: 42
 guid: "10.1038/s41586-026-11051-z"
 image: ""
-generated: "2026-09-26T20:37:01+05:30"
+generated: "2026-09-26T22:52:50+05:30"
 ---
 
-Pancreatic cancer that spreads to the liver can reprogram liver cells to produce serine, an essential amino acid the cancer cells need for growth and survival. Metastatic tumors that lack the enzyme to synthesize serine on their own hijack the surrounding hepatocytes and force them to supply this critical nutrient. This discovery reveals how aggressive cancers actively manipulate their new environment to ensure their own continued survival and expansion.
+Pancreatic cancer cells that spread to the liver reprogram nearby liver cells to produce an amino acid they need. This allows tumours to survive and grow in a new organ. Understanding this could lead to new treatments.

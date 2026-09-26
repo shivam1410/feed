@@ -5,10 +5,10 @@ source: "HF Trending Papers"
 url: "https://huggingface.co/papers/2609.23087"
 authors: ["Chenyu Zhu", "Ruoyu Zhao", "Zhichao Lu"]
 date: "2026-09-18T20:00:00.000Z"
-score: 62
+score: 50
 guid: "2609.23087"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.23087.png"
-generated: "2026-09-26T20:37:01+05:30"
+generated: "2026-09-26T22:52:50+05:30"
 ---
 
 Modern Transformer design and compression both reduce to allocating capacity under a budget. The standard scalars for these decisions, #Params and #FLOPs, capture size and compute but not architectural structure: two architectures with identical parameter budgets but different depth-width, head, or FFN allocations receive identical scores yet behave differently. We propose Neural Spectral Capacity (NSC), a closed-form scalar grounded in the singular-value spectrum of each weight matrix. Under standard random initialization, the Marchenko-Pastur law renders NSC computable from the architectural specification alone, with no model instantiation, data, or gradients. Its layer-wise additive structure admits NSC-DP, an exact dynamic-programming solver returning the architecture globally maximizing NSC under resource constraints in seconds on a CPU -- a guarantee that black-box search over existing training-free proxies cannot provide. Empirically, NSC outperforms #Params, #FLOPs, and representative training-free proxies in ranking across seven Transformer and CNN families (on FlexiBERT, τ= 0.505 on pairs differing in #Params by less than 10%, where #Params collapses to 0.082); NSC-DP discovers a Transformer-XL architecture on WikiText-103 that beats the human-designed baseline in 2 seconds; and prunes LLaMA-7B to the best 5.7B model across eight commonsense reasoning tasks without any calibration data, about 5900x faster than the strongest training-free proxy baseline.

@@ -5,10 +5,10 @@ source: "arXiv (cs.LG)"
 url: "https://arxiv.org/abs/2609.29087"
 authors: ["Zhuo Zhang, Shun Zou, Canqun Yang, Xi Yang"]
 date: "Sat, 26 Sep 2026 00:00:00 -0400"
-score: 70
+score: 57
 guid: "oai:arXiv.org:2609.29087v1"
 image: ""
-generated: "2026-09-26T20:37:01+05:30"
+generated: "2026-09-26T22:52:50+05:30"
 ---
 
-Researchers built TM4FF, a physics-constrained deep learning model for solving fluid dynamics equations. It combines a denoising layer, transformer attention mechanism, and physics-informed loss functions that enforce Navier-Stokes equations. Tests on four CFD datasets showed high accuracy and robust generalization. This matters because existing deep learning methods struggle with noise and physical consistency.
+A team created TM4FF, a physics-informed neural network for fluid dynamics that combines a wavelet denoising layer, transformer attention, and Fourier derivatives to enforce Navier-Stokes equations. Tests on four CFD datasets showed high accuracy and robustness across varying flow conditions. This matters because existing methods like PINNs often fail on noisy data or when conditions change from training.

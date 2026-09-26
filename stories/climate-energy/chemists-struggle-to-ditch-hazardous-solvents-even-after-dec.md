@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/d41586-026-03023-0"
 authors: ["Mark Peplow"]
 date: "2026-09-25"
-score: 60
+score: 65
 guid: "10.1038/d41586-026-03023-0"
 image: ""
-generated: "2026-09-26T20:37:01+05:30"
+generated: "2026-09-26T22:52:50+05:30"
 ---
 
 Laboratories are still using dangerous and carbon-intensive liquids much more often than environmentally friendly ones, according to a 40-year survey of patents.

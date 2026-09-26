@@ -1039,15 +1039,25 @@ function homeShown() {
   return fresh.filter((it) => isCatShown(it.category)).slice(0, HOME_LIMIT);
 }
 
+// Dismissed trending topics (× on the chip). In-memory only: a reload brings them back.
+const dismissedTrends = new Set();
+function dismissTrend(term) {
+  dismissedTrends.add(term);
+  if (trendFilter === term) trendFilter = "";
+  renderTrending();
+  if (lastItems.length) renderItems(homeShown());
+}
 function renderTrending() {
   if (!el.trending) return;
   const onHome = activeFeed().kind === "home";
-  const topics = onHome ? lastTrending.slice(0, 6) : [];
+  const topics = onHome ? lastTrending.filter((t) => !dismissedTrends.has(t.term)).slice(0, 6) : [];
   el.trending.hidden = topics.length === 0;
   el.trending.innerHTML = topics.length
-    ? `<span class="trend-label">Trending</span>` + topics.map((t) =>
-        `<button type="button" class="chip trend-chip${t.term === trendFilter ? " active" : ""}" data-term="${safe(t.term)}" title="${safe(t.sources.join(", "))}">${safe(t.label || t.term)} <span class="trend-n">${t.items}</span></button>`
-      ).join("")
+    ? `<span class="trend-label">Trending</span>` + topics.map((t) => `
+        <span class="trend-chip${t.term === trendFilter ? " active" : ""}" data-term="${safe(t.term)}" title="${safe(t.sources.join(", "))}">
+          <button type="button" class="trend-pick">${safe(t.label || t.term)} <span class="trend-n">${t.items}</span></button>
+          <button type="button" class="trend-x" aria-label="Dismiss ${safe(t.label || t.term)}">×</button>
+        </span>`).join("")
     : "";
   // The reading deck is sized to the viewport; leave room for the strip.
   document.documentElement.style.setProperty("--trend-h", `${el.trending.hidden ? 0 : el.trending.offsetHeight}px`);
@@ -1074,7 +1084,9 @@ el.tabbar.addEventListener("click", (e) => {
 if (el.trending) {
   el.trending.addEventListener("click", (e) => {
     const chip = e.target.closest(".trend-chip");
-    if (chip) toggleTrend(chip.dataset.term);
+    if (!chip) return;
+    if (e.target.closest(".trend-x")) dismissTrend(chip.dataset.term);
+    else toggleTrend(chip.dataset.term);
   });
 }
 el.categoryChips.addEventListener("click", (e) => {

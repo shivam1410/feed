@@ -8,7 +8,7 @@ date: "2026-09-18T20:00:00.000Z"
 score: 85
 guid: "2609.22682"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.22682.png"
-generated: "2026-09-25T23:24:50+05:30"
+generated: "2026-09-26T20:22:03+05:30"
 ---
 
-Self-Organizing Agent Teams learn how to collaborate and organize roles without fixed instructions, adapting from prior work. Trained on only 15 math and 25 knowledge problems, these teams averaged 66.7 percent accuracy versus 48.8 percent for the strongest individual agent, beating even a perfect routing system by 13.4 points on AIME 2026. Teams outperform individuals through learned teamwork.
+Agent teams learn to organize themselves, developing specialized roles and communication patterns from experience. Teams averaged 66.7% accuracy versus 48.8% for the strongest individual member, exceeding a perfect router on AIME 2026 by 13.4 points. This matters because agents discover useful collaboration strategies without explicit task decomposition.

@@ -5,10 +5,10 @@ source: "DeepMind"
 url: "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-for-disease-management-in-nature/"
 authors: ["Mike Schaekermann"]
 date: "Wed, 17 Jun 2026 15:00:00 +0000"
-score: 60
+score: 75
 guid: "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-for-disease-management-in-nature/"
 image: "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AMIE_Mx_Nature_Social_Visual_Va.max-600x600.format-webp.webp"
-generated: "2026-09-25T23:24:50+05:30"
+generated: "2026-09-26T20:22:03+05:30"
 ---
 
-Research in “Nature” shows our conversational AI system matches primary care physicians in complex disease management.
+AMIE, a conversational medical AI, matched primary care physicians' performance in managing complex diseases, according to Nature research. This suggests AI could support doctor-patient interactions for health condition management.

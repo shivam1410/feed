@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/d41586-026-02990-8"
 authors: ["Kaia Glickman"]
 date: "2026-09-24"
-score: 85
+score: 70
 guid: "10.1038/d41586-026-02990-8"
 image: ""
-generated: "2026-09-25T23:24:50+05:30"
+generated: "2026-09-26T20:22:03+05:30"
 ---
 
-A new AI platform allows lab devices that normally can't communicate to talk with each other and be controlled by a single AI agent. This bridges isolation between instruments. Streamlined coordination cuts research time and workload.
+Platform allows disparate machines to communicate and to be controlled by an artificial-intelligence agent.

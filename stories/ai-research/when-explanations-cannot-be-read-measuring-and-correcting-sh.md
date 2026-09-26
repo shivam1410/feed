@@ -4,11 +4,11 @@ category: "AI Research"
 source: "arXiv (cs.LG)"
 url: "https://arxiv.org/abs/2609.28565"
 authors: ["Rameesha Zia, Muhammad Shahid Iqbal Malik"]
-date: "Fri, 25 Sep 2026 00:00:00 -0400"
-score: 32
+date: "Sat, 26 Sep 2026 00:00:00 -0400"
+score: 40
 guid: "oai:arXiv.org:2609.28565v1"
 image: ""
-generated: "2026-09-25T23:24:50+05:30"
+generated: "2026-09-26T20:22:03+05:30"
 ---
 
 Post hoc explanation methods such as SHAP and LIME are widely used to interpret text classifiers, but their visualizations are mainly designed for left-to-right languages. When applied to right-to-left (RTL) languages such as Urdu, Arabic, Persian, and Hebrew, the attribution values remain mathematically valid, while their visual presentation fails. Tokens appear out of sequence, connected letterforms break apart, and plot layouts do not follow the natural reading direction. This study addresses this gap as a visualization problem rather than a limitation of the explanation methods themselves. We present SHAP-RTL, a rendering layer that corrects reading direction and script shaping in SHAP and LIME visualizations, with per-language font selection, while preserving the original attribution values, feature ordering, and model outputs. The approach is evaluated on Urdu, Arabic, Hebrew, and Persian hate and offensive-language datasets using TF-IDF and logistic regression classifiers. Rendering correctness is measured by an OCR round trip over 200 feature words per language. Default rendering yields character error rates of 0.820 to 0.979, meaning the label no longer carries its token; the common reshape-and-reorder workaround fails for Urdu at 0.998, worse than no correction; and the Matplotlib 3.11.0 text rewrite inverts that workaround, while SHAP-RTL remains correct under both versions. The framework also verbalizes the same attributions as short contextual explanations in the reader's language, constrained to the identified features. Evaluation in this paper concerns rendering correctness; assessment of the generated explanations is left to future work. The study highlights the importance of language-aware visualization in making post hoc explainability more accessible across different writing systems.

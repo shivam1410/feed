@@ -5,10 +5,10 @@ source: "Latent Space"
 url: "https://www.latent.space/p/ainews-here-are-6-clones-of-jev-in"
 authors: []
 date: "Sat, 19 Sep 2026 05:48:28 GMT"
-score: 85
+score: 92
 guid: "https://www.latent.space/p/ainews-here-are-6-clones-of-jev-in"
 image: ""
-generated: "2026-09-25T23:24:50+05:30"
+generated: "2026-09-26T20:22:03+05:30"
 ---
 
-Jev's launch video got 36 million views in two days, and teams immediately began building their own versions. Best guesses for the clones use ModernBERT or diffusion approaches. The launch triggered the fastest replication of a new model architecture the market has seen.
+Jev launched and went viral, reaching 36 million views in two days and 13 percent of teams. Multiple clones appeared within the same period as researchers guessed the architecture. Speculation pointed to ModernBert, diffusion-based approaches, and other novel designs. Matters because rapid cloning shows the design space is accessible and competition will accelerate.

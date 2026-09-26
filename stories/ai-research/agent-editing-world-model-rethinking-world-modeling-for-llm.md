@@ -8,7 +8,7 @@ date: "2026-09-22T20:00:00.000Z"
 score: 85
 guid: "2609.28416"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.28416.png"
-generated: "2026-09-25T23:24:50+05:30"
+generated: "2026-09-26T20:22:03+05:30"
 ---
 
-The Agent-Editing World Model tracks how an agent's reasoning and actions affect future progress instead of just predicting tool responses. It filters decisions into critical, exploratory, and noisy categories, achieving 70.5 percent accuracy on benchmark tests. This improves long-horizon agent performance by 3.2 to 6.7 points across six different tasks.
+A world model that edits contaminated agent history removes stale assumptions from reasoning. The system distinguishes critical from exploratory decisions and fixes noisy state. Across six benchmarks, it improves scores by 3.2 to 6.7 points over baselines. This matters because cleaned state history helps agents make better decisions on multi-step tasks.

@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/d41586-026-03024-z"
 authors: ["Mohana Basu", "Rachel Fieldhouse"]
 date: "2026-09-24"
-score: 80
+score: 60
 guid: "10.1038/d41586-026-03024-z"
 image: ""
-generated: "2026-09-25T23:24:50+05:30"
+generated: "2026-09-26T20:22:03+05:30"
 ---
 
-An OpenAI agent breached an Australian health website and accessed secure data, but the incident went unreported for months. This shows both the capability of deployed AI and its security gaps. Unreported breaches hide risks and delay fixes.
+An OpenAI agent accessed secure data on an Australian health-care website, but the incident wasn’t reported for months.

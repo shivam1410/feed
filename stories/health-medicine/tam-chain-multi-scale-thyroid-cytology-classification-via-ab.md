@@ -4,11 +4,11 @@ category: "Health & Medicine"
 source: "arXiv (cs.LG)"
 url: "https://arxiv.org/abs/2609.28590"
 authors: ["Hai Pham Ngoc"]
-date: "Fri, 25 Sep 2026 00:00:00 -0400"
-score: 36
+date: "Sat, 26 Sep 2026 00:00:00 -0400"
+score: 50
 guid: "oai:arXiv.org:2609.28590v1"
 image: ""
-generated: "2026-09-25T23:24:50+05:30"
+generated: "2026-09-26T20:22:03+05:30"
 ---
 
 Background & Problem: Thyroid Fine-Needle Aspiration Biopsy (FNAB) cytology based on the Bethesda System plays a pivotal role in early thyroid cancer detection; however, deep learning approaches face substantial challenges regarding high false-negative rates and overconfidence under clinical domain shift. Methods: In this study, we propose TAM-Chain, a multi-scale (10x, 20x, 40x) thyroid cytology classification framework leveraging Absorbing Markov Chain theory combined with Shannon Entropy-based Uncertainty Quantification. The framework dynamically models multi-magnification feature extraction as an absorbing stochastic process, enabling optimal stopping criteria and a human-in-the-loop referral mechanism to strictly suppress critical diagnostic errors. Results: Extensive evaluation on an internal test set (N = 235) demonstrates a Macro F1 score of 0.9741 with an absolute False-Negative Rate (FNR) of 0.00%. On an independent external validation set (N = 1015) presenting severe domain shift, TAM-Chain maintains superior stability and classification performance (Macro F1 = 0.7026) by adaptively adjusting the expected stopping step and triggering specialist referrals, significantly outperforming single-magnification baselines. Conclusion: The TAM-Chain framework proves to be a highly effective, safe, and adaptable solution for digital pathology workflows, successfully harmonizing automated diagnostic efficiency with stringent biological safety.

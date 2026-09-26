@@ -4,11 +4,11 @@ category: "AI Research"
 source: "arXiv (cs.LG)"
 url: "https://arxiv.org/abs/2609.29095"
 authors: ["Jiapeng Li"]
-date: "Fri, 25 Sep 2026 00:00:00 -0400"
-score: 75
+date: "Sat, 26 Sep 2026 00:00:00 -0400"
+score: 85
 guid: "oai:arXiv.org:2609.29095v1"
 image: ""
-generated: "2026-09-25T23:24:50+05:30"
+generated: "2026-09-26T20:22:03+05:30"
 ---
 
-When a tool-using agent's write times out or returns a server error, the action may already have taken effect. Retrying blindly duplicates it -- a second charge, a second announcement, a second deployment -- while giving up skips required work. We ask where exactly-once behaviour should be enforced: in the model, in the agent harness, or in the tool contract. We introduce LIMBO, a deterministic sandbox of six services with realistic contracts (optional idempotency keys, eventually consistent and missing read paths) and twelve fault modes injected at the service boundary, including late commits, redelivery and partial batches; every episode is graded against a ledger of committed effects. Across 25,930 episodes spanning nine recent models, three production agent harnesses, two contract variants and fifteen recovery conditions, the answer depends on the fault. When an immediate read-back can reveal what happened, the model decides: frontier models instructed to act exactly once almost never duplicate a write whose acknowledgement was lost (0.5%), weaker models often do, and the model explains 53% of the explained variance. When it cannot -- the request is still in flight, or the transport delivered it twice -- the same frontier models duplicate in 56% and 74% of episodes, and the contract explains 81%. We prove that no verification-only policy is exactly-once under late commits without a bound on in-flight time. Waiting works when such a bound is short and known, but with heavy-tailed in-flight delays even an hour of waiting per episode falls short of offering an idempotency key on every write, which lowers the duplicate rate from 28% to 4% because agents use keys when they exist. The harness barely matters, a guard that attaches keys transfers across harnesses unchanged, and agents reported success in 90% of the episodes in which they had duplicated an effect.
+They tested where exactly-once guarantees should live in AI agent systems across 25,930 episodes and nine models. When agents can read back what happened, frontier models rarely duplicate (0.5% failure rate). When they cannot read back, the same models duplicate 56-74% of the time. The contract design matters far more than the model when verification is not possible. Matters because it shows the hard limit of model reliability without system support.

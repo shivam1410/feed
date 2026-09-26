@@ -5,10 +5,10 @@ source: "Latent Space"
 url: "https://www.latent.space/p/ainews-aef-1-standard-emerges-for"
 authors: []
 date: "Tue, 15 Sep 2026 04:50:36 GMT"
-score: 75
+score: 63
 guid: "https://www.latent.space/p/ainews-aef-1-standard-emerges-for"
 image: ""
-generated: "2026-09-22T19:08:22+05:30"
+generated: "2026-09-26T20:22:03+05:30"
 ---
 
-Frontier AI companies Anthropic, OpenAI, and Xai cosigned the AEF-1 standard for third-party evaluators embedded within organizations to verify safety commitments and compliance. Anthropic unilaterally commits to giving employee-like access to independent evaluators (e.g., METR). The standard includes proposals for democratic coordination among frontier companies and global coordination with governments to establish common safety limits on AI progress.
+Frontier AI companies including Anthropic, OpenAI, and Xai agreed on the AEF-1 standard for verifiable safety practices. The key step is embedded third-party evaluators given employee-like ongoing access to verify adherence to safety commitments. Modeled after banking regulatory supervisors. Matters because it is the first concrete mechanism to verify pacing and safety claims, not just verbal promises.

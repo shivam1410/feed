@@ -5,10 +5,10 @@ source: "DeepMind"
 url: "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/gemini-robotics-er-2/"
 authors: ["Steven Hansen", "Peng Xu"]
 date: "Thu, 30 Jul 2026 15:00:00 +0000"
-score: 65
+score: 82
 guid: "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/gemini-robotics-er-2/"
 image: "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-robotics-2__blog__cover.max-600x600.format-webp.webp"
-generated: "2026-09-25T23:24:50+05:30"
+generated: "2026-09-26T20:22:03+05:30"
 ---
 
-Gemini Robotics ER 2 is a step change in video understanding, tool orchestration, and multi-robot collaboration for robotic applications.
+Gemini Robotics ER 2 represents a major advance in robot AI capabilities. It excels at understanding video, coordinating tools, and enabling multiple robots to work together on complex tasks.

@@ -123,3 +123,16 @@ class LeaderboardParsersTest(unittest.TestCase):
         self.assertEqual([(r["rank"], r["name"], r["tokens"], r["requests"]) for r in ranked],
                          [(1, "y", 100, 1), (2, "x", 30, 3)])
         self.assertEqual(ranked[1]["url"], "https://openrouter.ai/a/x")
+
+
+from sync import html_to_text
+
+
+class HtmlToTextTest(unittest.TestCase):
+    def test_attribute_containing_gt_does_not_leak(self):
+        raw = ('<p>Before.</p><div data-attrs="{&quot;text&quot;:&quot;a -> b&quot;,'
+               '&quot;user&quot;:&quot;x&quot;}" data-component-name="Twitter2ToDOM"></div><p>After.</p>')
+        self.assertEqual(html_to_text(raw), "Before. After.")
+
+    def test_plain_markup(self):
+        self.assertEqual(html_to_text("<p>Hi <b>there</b> &amp; bye</p>"), "Hi there & bye")

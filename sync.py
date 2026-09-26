@@ -123,7 +123,10 @@ def html_to_text(raw: str) -> str:
     first_p = re.search(r"<p>(.*?)</p>", raw, re.S | re.I)
     if first_p and re.search(r"Published online|doi:", first_p.group(1), re.I):
         raw = raw[: first_p.start()] + raw[first_p.end():]
-    text = re.sub(r"<[^>]+>", " ", raw)
+    # Strip tags while honouring quoted attribute values, so a ">" inside an
+    # attribute (Substack embeds carry tweet JSON in data-attrs) doesn't leak
+    # the rest of the tag into the text.
+    text = re.sub(r"""<[^>"']*(?:"[^"]*"[^>"']*|'[^']*'[^>"']*)*>""", " ", raw)
     return re.sub(r"\s+", " ", html.unescape(text)).strip()
 
 

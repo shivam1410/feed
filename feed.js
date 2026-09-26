@@ -1052,6 +1052,7 @@ function renderTrending() {
   const onHome = activeFeed().kind === "home";
   const topics = onHome ? lastTrending.filter((t) => !dismissedTrends.has(t.term)).slice(0, 6) : [];
   el.trending.hidden = topics.length === 0;
+  el.trending.classList.toggle("active", !!trendFilter);
   el.trending.innerHTML = topics.length
     ? `<span class="trend-n">${topics.reduce((n, t) => n + t.items, 0)}</span><span class="trend-label">Trending</span><span class="trend-chips">` + topics.map((t) => `
         <span class="trend-chip${t.term === trendFilter ? " active" : ""}" data-term="${safe(t.term)}" title="${safe(t.sources.join(", "))}">
@@ -1082,11 +1083,13 @@ el.tabbar.addEventListener("click", (e) => {
   if (btn) switchSource(btn.dataset.id);
 });
 if (el.trending) {
+  // The whole banner toggles the topic (the first one when several are shown);
+  // a specific chip toggles that topic; × dismisses.
   el.trending.addEventListener("click", (e) => {
     const chip = e.target.closest(".trend-chip");
-    if (!chip) return;
-    if (e.target.closest(".trend-x")) dismissTrend(chip.dataset.term);
-    else toggleTrend(chip.dataset.term);
+    if (chip && e.target.closest(".trend-x")) return dismissTrend(chip.dataset.term);
+    const term = chip ? chip.dataset.term : el.trending.querySelector(".trend-chip")?.dataset.term;
+    if (term) toggleTrend(term);
   });
 }
 el.categoryChips.addEventListener("click", (e) => {

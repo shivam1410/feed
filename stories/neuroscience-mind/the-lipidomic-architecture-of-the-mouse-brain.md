@@ -8,7 +8,7 @@ date: "2026-09-23"
 score: 65
 guid: "10.1038/s41586-026-11050-0"
 image: ""
-generated: "2026-09-26T20:22:03+05:30"
+generated: "2026-09-26T20:37:01+05:30"
 ---
 
-Scientists mapped lipid distributions across the mouse brain and identified over 500 distinct biochemical zones. These territories align with known cell types and neural connections, and they change during pregnancy. This reveals how lipids organize the brain's structure and function.
+A detailed spatial lipidomic atlas of the mouse brain revealed the presence of more than 500 distinct biochemical territories that precisely correspond to different cell types and patterns of neural connectivity throughout the brain. These lipid-defined regions accurately capture oligodendrocyte heterogeneity and brain layer organization, and they undergo dynamic remodeling during pregnancy. This comprehensive atlas provides an entirely new chemical perspective on how the brain organizes itself at the molecular level.

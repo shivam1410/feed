@@ -8,7 +8,7 @@ date: "2026-09-24"
 score: 70
 guid: "10.1038/d41586-026-02990-8"
 image: ""
-generated: "2026-09-26T20:22:03+05:30"
+generated: "2026-09-26T20:37:01+05:30"
 ---
 
 Platform allows disparate machines to communicate and to be controlled by an artificial-intelligence agent.

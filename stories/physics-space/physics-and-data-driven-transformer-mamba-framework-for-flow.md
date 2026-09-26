@@ -4,11 +4,11 @@ category: "Physics & Space"
 source: "arXiv (cs.LG)"
 url: "https://arxiv.org/abs/2609.29087"
 authors: ["Zhuo Zhang, Shun Zou, Canqun Yang, Xi Yang"]
-date: "Fri, 25 Sep 2026 00:00:00 -0400"
-score: 50
+date: "Sat, 26 Sep 2026 00:00:00 -0400"
+score: 70
 guid: "oai:arXiv.org:2609.29087v1"
 image: ""
-generated: "2026-09-25T23:24:50+05:30"
+generated: "2026-09-26T20:37:01+05:30"
 ---
 
-While deep learning accelerates expensive partial differential equation solving in computational fluid dynamics (CFD), existing methods like PINNs and FNOs often struggle with generalization, noise robustness, and physical consistency. We introduce the Transformer-Mamba for Flow Field (TM4FF) framework, a physics-constrained operator learning model with three key innovations: a Residual Wavelet Mamba (RWM) layer for feature denoising, a Transformer-based attention mechanism for enhanced feature fusion, and a physics-informed loss using Fourier derivatives to enforce the Navier-Stokes equations. Experiments on four CFD datasets show TM4FF achieves high accuracy and robust generalization across varying flow conditions.
+Researchers built TM4FF, a physics-constrained deep learning model for solving fluid dynamics equations. It combines a denoising layer, transformer attention mechanism, and physics-informed loss functions that enforce Navier-Stokes equations. Tests on four CFD datasets showed high accuracy and robust generalization. This matters because existing deep learning methods struggle with noise and physical consistency.

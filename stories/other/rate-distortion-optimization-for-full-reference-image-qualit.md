@@ -5,10 +5,10 @@ source: "HF Trending Papers"
 url: "https://huggingface.co/papers/2609.30077"
 authors: ["Samuel Fernández-Menduiña", "Eduardo Pavez", "Antonio Ortega"]
 date: "2026-09-23T20:00:00.000Z"
-score: 25
+score: 38
 guid: "2609.30077"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.30077.png"
-generated: "2026-09-26T20:22:03+05:30"
+generated: "2026-09-26T20:37:01+05:30"
 ---
 
-Video codecs can now use perceptually-aligned quality metrics like MS-SSIM instead of just pixel differences. This approach achieves 14-37% compression gains in real codecs with 10-30% encoding overhead. This matters because optimizing for human perception improves video quality at the same file size.
+Researchers adapted visual quality metrics used by humans (like MS-SSIM) to video compression by approximating them with Hessian estimates from automatic differentiation. Video encoding normally cannot use these metrics because they do not decompose block-by-block. The method achieved 14-37% better compression while optimizing for perceived quality. This aligns compression with human perception instead of just minimizing mathematical error.

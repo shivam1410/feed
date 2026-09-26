@@ -8,7 +8,7 @@ date: "2026-09-22T23:46:41+00:00"
 score: 85
 guid: "https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna/"
 image: ""
-generated: "2026-09-25T23:24:50+05:30"
+generated: "2026-09-26T20:37:01+05:30"
 ---
 
-OpenAI released GPT-6 Luna and Sol at half the price of their GPT-5.6 counterparts. GPT-6 Luna costs $0.10 input and $0.50 output versus $0.20 and $1.20 before. Anthropic released Claude Opus 5.5 at $4 input and $20 output. Model pricing is plummeting across the board.
+Model pricing entered a price war as multiple systems launched simultaneously. GPT-6 Luna costs $0.10/$0.50 per million tokens, half the price of GPT-5.6 Luna. Grok 4.7, MiMo v2.6, Claude Opus 5.5, and OpenAI's Sol and Luna models all launched within days at steep discounts. This matters because frontier model capabilities become accessible for anyone building applications.

@@ -8,7 +8,7 @@ date: "2026-09-23"
 score: 60
 guid: "10.1038/s41586-026-11031-3"
 image: ""
-generated: "2026-09-26T20:22:03+05:30"
+generated: "2026-09-26T20:37:01+05:30"
 ---
 
-Isotope tracing is used to determine the fate of larval dietary amino acids in adult flies, and identifies Lsp2 as a key regulator of translation and lifespan that forms the molecular basis of the effects of early-life protein restriction.
+Early-life protein restriction in fruit fly larvae sets the stage for longer lifespans in adulthood by affecting a protein called Lsp2. Using isotope tracing techniques, researchers carefully tracked the fate of dietary amino acids from the larval stage into adult metabolism. This molecular mechanism demonstrates how childhood nutrition becomes deeply embedded in the body's capacity for protein translation and directly determines an organism's longevity.

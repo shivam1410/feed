@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/s41586-026-11040-2"
 authors: ["Tim Jesper Suhrhoff", "Christopher T. Reinhard", "Yoshiki Kanzaki", "Samuel Shou-En Tsao", "Beck Woollen", "Tom Reershemius", "Samuel Shaheen", "James Saiers", "Shuang Zhang", "Peter A. Raymond", "Noah J. Planavsky"]
 date: "2026-09-23"
-score: 65
+score: 75
 guid: "10.1038/s41586-026-11040-2"
 image: ""
-generated: "2026-09-26T20:22:03+05:30"
+generated: "2026-09-26T20:37:01+05:30"
 ---
 
 Century-scale records of agricultural liming and anthropogenic acidity inputs for the Mississippi River Basin show that agricultural liming has acted as a net carbon sink over the past century.

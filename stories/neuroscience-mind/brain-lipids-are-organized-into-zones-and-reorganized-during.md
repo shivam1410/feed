@@ -8,7 +8,7 @@ date: "2026-09-23"
 score: 60
 guid: "10.1038/d41586-026-02772-2"
 image: ""
-generated: "2026-09-26T20:22:03+05:30"
+generated: "2026-09-26T20:37:01+05:30"
 ---
 
 A map of fats across the whole mouse brain reveals a spatial architecture that differs from that seen in gene-expression and protein atlases.

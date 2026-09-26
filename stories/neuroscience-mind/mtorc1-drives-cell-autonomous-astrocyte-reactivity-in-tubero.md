@@ -8,7 +8,7 @@ date: "2026-09-23"
 score: 60
 guid: "10.1038/s41586-026-11054-w"
 image: ""
-generated: "2026-09-26T20:22:03+05:30"
+generated: "2026-09-26T20:37:01+05:30"
 ---
 
 Reactive astrocytes emerge as a primary consequence of TSC2 loss in tuberous sclerosis complex, implicating glial dysfunction as a primary driver of pathogenesis and highlighting the astrocytes as potential therapeutic targets for tuberous sclerosis complex-related neuropathology.

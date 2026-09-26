@@ -5,10 +5,10 @@ source: "arXiv (cs.LG)"
 url: "https://arxiv.org/abs/2609.29024"
 authors: ["Weiyun Xu, Jiamu Liu"]
 date: "Sat, 26 Sep 2026 00:00:00 -0400"
-score: 45
+score: 60
 guid: "oai:arXiv.org:2609.29024v1"
 image: ""
-generated: "2026-09-26T20:22:03+05:30"
+generated: "2026-09-26T20:37:01+05:30"
 ---
 
-Natural load-bearing and transport networks are not assembled in a single step; they emerge through a temporally ordered process of growth, branching, reinforcement, and loop formation. Inspired by this developmental logic, this work introduces a morphogenetic graph-generation framework for mechanical lattices in which a discrete dot matrix provides potential nodes and the final architecture is created by sequential cross-layer and intra-layer growth. The same rule is visualized in two dimensions as a leaf-vein-like developmental sequence and implemented in three dimensions on a 3x3x3 nodal matrix containing 27 candidate nodes. A dataset of distinct three-dimensional lattices was evaluated by beam-based finite element analysis and represented directly as graphs. A graph convolutional neural network (GCNN) with three graph-convolution layers and dual global pooling learns the topology-property mapping and predicts effective compressive stiffness. Coupling the GCNN surrogate with rapid structural sampling enables inverse design: for a target stiffness of 1000 MPa, the selected design was predicted at 1042.43 MPa and validated by finite element analysis at 1027.49 MPa. Beyond straight members, the framework has also been extended to parameterized horseshoe-shaped curved beams made of nonlinear materials, enabling topology-geometry design toward prescribed deformation shapes. Our work provides a paradigm for augmenting the database of mechanical metamaterials, and the resulting perspective links biological morphogenesis, graph learning, and nonlinear shape programming in a unified generative design framework for architected materials.
+A growth-inspired framework generates mechanical lattices by sequentially adding nodes and connections on a 3D grid. A graph neural network learned the topology-stiffness mapping and enabled inverse design: targeting 1000 MPa yielded 1027.49 MPa in validation. Extended to curved beams and nonlinear materials.

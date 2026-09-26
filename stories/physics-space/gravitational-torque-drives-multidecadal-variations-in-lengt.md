@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/s41586-026-10999-2"
 authors: ["Huifeng Zhang", "Mathieu Dumberry"]
 date: "2026-09-23"
-score: 45
+score: 50
 guid: "10.1038/s41586-026-10999-2"
 image: ""
-generated: "2026-09-26T20:22:03+05:30"
+generated: "2026-09-26T20:37:01+05:30"
 ---
 
-Gravitational torque from celestial bodies drives multidecadal shifts in how long Earth takes to rotate. These fluctuations are resisted by electromagnetic and topographic forces, revealing new details about our planet's deep interior.
+Multidecadal fluctuations in Earth’s length of day are shown to be driven by gravitational torque and resisted by electromagnetic and topographic forces, improving our understanding of the material properties and dynamics of Earth’s deep interior.

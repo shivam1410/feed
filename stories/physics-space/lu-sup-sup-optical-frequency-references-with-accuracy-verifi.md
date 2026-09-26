@@ -8,7 +8,7 @@ date: "2026-09-23"
 score: 50
 guid: "10.1038/s41586-026-11072-8"
 image: ""
-generated: "2026-09-26T20:22:03+05:30"
+generated: "2026-09-26T20:37:01+05:30"
 ---
 
-Two separate 176Lu+ atomic clocks achieved record precision with uncertainties around one part in ten quintillion and perfect agreement between them. This breakthrough advances atomic timekeeping toward new applications in fundamental physics.
+Two independent 176Lu+ single-ion optical clocks achieve fractional frequency uncertainties near 10−19 and agree at 5.7 × 10−19, advancing precision timekeeping.

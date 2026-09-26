@@ -8,7 +8,7 @@ date: "2026-09-23"
 score: 50
 guid: "10.1038/s41586-026-11056-8"
 image: ""
-generated: "2026-09-26T20:22:03+05:30"
+generated: "2026-09-26T20:37:01+05:30"
 ---
 
-Researchers designed bitopic kinase inhibitors that hit ABL1 and EGFR more effectively, including versions that resist drug-resistant mutations while reducing off-target toxicity. This design approach could improve cancer therapies.
+Detailed analyses of ligand choice, linkage vector and linker length enabled the development of bitopic inhibitors of ABL1 and EGFR kinases, including an ABL1 inhibitor with enhanced activity against resistance mutations and reduced off-target toxicity.

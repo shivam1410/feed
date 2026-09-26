@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/d41586-026-03020-3"
 authors: ["Mariana Lenharo"]
 date: "2026-09-24"
-score: 65
+score: 50
 guid: "10.1038/d41586-026-03020-3"
 image: ""
-generated: "2026-09-26T20:22:03+05:30"
+generated: "2026-09-26T20:37:01+05:30"
 ---
 
-Some people don't lose weight on powerful GLP-1 medications despite their proven effectiveness in most patients. Scientists are investigating these non-responders to develop alternative treatments and personalized weight-loss approaches.
+Understanding why some people see no benefits from potent anti-obesity medications could lead to new therapies and personalized weight-loss regimens.

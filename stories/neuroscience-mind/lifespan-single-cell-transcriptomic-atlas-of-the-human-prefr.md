@@ -8,7 +8,7 @@ date: "2026-09-23"
 score: 65
 guid: "10.1038/s41586-026-10271-7"
 image: ""
-generated: "2026-09-26T20:22:03+05:30"
+generated: "2026-09-26T20:37:01+05:30"
 ---
 
-A genetic atlas of the human prefrontal cortex across a lifetime shows that gene activity doesn't age uniformly. Early and late life involve rapid changes, while midlife stays relatively stable. Late adulthood brings selective reactivation of certain genes, suggesting new molecular activity in aging brains.
+The dorsolateral prefrontal cortex exhibits distinct, non-linear gene activity patterns across the entire human lifespan, with patterns varying significantly between different cell types. Gene expression shows dramatic changes during brain development, remains relatively stable and steady through the midlife years, then undergoes selective molecular reactivation again in late adulthood. This complex, non-linear trajectory across different cell types and ages helps explain why brain aging follows highly variable and unpredictable paths in different people.

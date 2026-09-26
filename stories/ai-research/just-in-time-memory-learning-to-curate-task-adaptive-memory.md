@@ -5,10 +5,10 @@ source: "HF Trending Papers"
 url: "https://huggingface.co/papers/2609.27334"
 authors: ["Yefan Zhou", "Yang Li", "Zeyu Leo Liu", "Semih Yavuz", "Shafiq Joty"]
 date: "2026-09-22T20:00:00.000Z"
-score: 88
+score: 87
 guid: "2609.27334"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.27334.png"
-generated: "2026-09-26T20:22:03+05:30"
+generated: "2026-09-26T20:37:01+05:30"
 ---
 
-Instead of summarizing experience at write time, this system keeps raw trajectories and curates memory when needed for each new task. Just-in-Time Memory improves by 16 points on ALFWorld and WebShop over agents with no memory. This matters because task-specific curation preserves relevant details that fixed summaries would discard.
+Just-in-Time Memory keeps raw task trajectories and curates them at read time instead of write time. This avoids early decisions about what matters and allows training from immediate task success. It improved ALFWorld by 16.2 points, WebShop by 16.3, and tau-squared-bench by 3.9 over baseline methods.

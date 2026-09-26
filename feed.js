@@ -712,6 +712,7 @@ function fmtTokens(n) {
 }
 // One ranking as a compact table: rank, model, org, a bar for the metric, and the
 // metric value. Bars are scaled to the spread of the rows shown so gaps are visible.
+const RANK_PREVIEW = 10; // rows shown before "Show all"
 function rankingTable(title, rows, meta, metric, showOverall = false) {
   const vals = rows.map((r) => r[metric] || 0);
   const max = Math.max(...vals), min = Math.min(...vals);
@@ -726,8 +727,8 @@ function rankingTable(title, rows, meta, metric, showOverall = false) {
       </div>
       <table class="rank-table">
         <thead><tr><th>#</th><th>Model</th><th class="bar-col">${label}</th><th class="num">${metric === "rating" ? "Score" : "Tokens"}</th></tr></thead>
-        <tbody>${rows.map((r) => `
-          <tr>
+        <tbody>${rows.map((r, i) => `
+          <tr${i >= RANK_PREVIEW ? ' class="rank-extra" hidden' : ""}>
             <td class="num">${showOverall ? r.openRank : r.rank}</td>
             <td class="model">
               <a href="${safe(r.url || meta.url)}" target="_blank" rel="noopener">${safe(r.name)}</a>
@@ -738,6 +739,7 @@ function rankingTable(title, rows, meta, metric, showOverall = false) {
           </tr>`).join("")}
         </tbody>
       </table>
+      ${rows.length > RANK_PREVIEW ? `<button type="button" class="readmore rank-more" data-more="Show all ${rows.length} ▾" data-less="Show top ${RANK_PREVIEW} ▴">Show all ${rows.length} ▾</button>` : ""}
     </section>`;
 }
 
@@ -1179,6 +1181,14 @@ document.body.addEventListener("click", (e) => {
   if (save) {
     const item = renderedById[save.closest(".card")?.getAttribute("data-guid")];
     if (item) saveToNotion(item, save);
+    return;
+  }
+  const rankMore = e.target.closest(".rank-more");
+  if (rankMore) {
+    const sec = rankMore.closest(".lb-section");
+    const open = sec.classList.toggle("all");
+    sec.querySelectorAll(".rank-extra").forEach((tr) => { tr.hidden = !open; });
+    rankMore.textContent = open ? rankMore.dataset.less : rankMore.dataset.more;
     return;
   }
   const more = e.target.closest(".readmore");

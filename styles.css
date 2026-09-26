@@ -648,6 +648,8 @@ button#saveProfile:hover { border-color: var(--accent); }
 .rank-head .lb-heading { margin: 0; font-size: 15px; color: var(--text); }
 .lb-src { font-size: 12px; white-space: nowrap; }
 .rank-table { width: 100%; border-collapse: collapse; font-size: 13px; }
+.rank-table tr[hidden] { display: none; }
+.rank-more { display: block; margin: 8px auto 0; }
 .rank-table th { text-align: left; font-weight: 600; color: var(--text-dim); font-size: 11px; text-transform: uppercase; letter-spacing: 0.4px; padding: 4px 6px; }
 .rank-table td { padding: 6px; border-top: 1px solid var(--border); vertical-align: middle; }
 .rank-table .num { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; color: var(--text-dim); }

@@ -720,8 +720,11 @@ function rankingTable(title, rows, meta, metric, showOverall = false) {
   const label = metric === "rating" ? "Arena score" : "Tokens (7d)";
   return `
     <section class="lb-section">
-      <h3 class="lb-heading">${safe(title)} <a class="lb-src" href="${safe(meta.url)}" target="_blank" rel="noopener">${safe(meta.source)} ↗</a></h3>
-      <table class="lb-table">
+      <div class="rank-head">
+        <h3 class="lb-heading">${safe(title)}</h3>
+        <a class="lb-src" href="${safe(meta.url)}" target="_blank" rel="noopener">${safe(String(meta.source || "").split(/[,(]/)[0].trim())} ↗</a>
+      </div>
+      <table class="rank-table">
         <thead><tr><th>#</th><th>Model</th><th class="bar-col">${label}</th><th class="num">${metric === "rating" ? "Score" : "Tokens"}</th></tr></thead>
         <tbody>${rows.map((r) => `
           <tr>

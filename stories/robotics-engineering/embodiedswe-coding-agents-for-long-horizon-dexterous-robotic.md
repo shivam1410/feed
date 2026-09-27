@@ -8,7 +8,7 @@ date: "2026-09-22T20:00:00.000Z"
 score: 82
 guid: "2609.27308"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.27308.png"
-generated: "2026-09-26T22:52:50+05:30"
+generated: "2026-09-27T20:11:44+05:30"
 ---
 
-Coding agents solved long-horizon robot tasks, some lasting half an hour, involving complex manipulation and deformable objects. One agent's verified solution trained a vision-language model that completed real-world tasks on an actual robot. The agent-generated demonstrations improve generalization when made more diverse. This shows a path: AI solves verified symbolic problems, then those solutions become supervision for training embodied robot policies at scale.
+EmbodiedSWE uses coding agents to solve long-horizon dexterous robot tasks, then expands verified solutions into diverse synthetic trajectories for training vision-language-action robots. Agent-generated demonstrations include contact-rich manipulation and deformable-object handling requiring up to half an hour of continuous interaction. A VLA trained only on agent-generated demonstrations completed a long-horizon task on real robot. This matters because it shows agents can bootstrap embodied learning without human demonstrations.

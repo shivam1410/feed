@@ -5,10 +5,10 @@ source: "HF Trending Papers"
 url: "https://huggingface.co/papers/2609.29429"
 authors: ["Ruoqi Guo", "Yi Liu", "Gelei Deng", "Yuekang Li", "Lida Zhao", "Yutao Wu", "Simin Chen", "Ying Zhang", "Leo Yu Zhang"]
 date: "2026-09-23T20:00:00.000Z"
-score: 83
+score: 73
 guid: "2609.29429"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.29429.png"
-generated: "2026-09-26T22:52:50+05:30"
+generated: "2026-09-27T20:11:44+05:30"
 ---
 
-A model called Jev, trained with reinforcement learning for calibrated decisions, can spot when AI systems fail in dangerous ways. In a new benchmark testing ten alignment failures like deception and jailbreaks across 44 tests, a single generic question reached 0.886 AUROC zero-shot, beating supervised detectors. Jev answers many questions about one input in one pass with calibrated confidence scores. This offers a faster way to screen deployed models for problems.
+Jev is a model trained to answer many alignment-failure questions about a single input, all with calibrated probabilities in one call. They tested it on RLCDAlignBench across 44 benchmarks for ten failure types like jailbreaks, hallucination, and sycophancy. A single generic question hit median AUROC of 0.886 zero-shot, beating supervised baselines. It matters because deploying language models safely requires screening them fast.

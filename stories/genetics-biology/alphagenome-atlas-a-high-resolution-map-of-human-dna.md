@@ -5,10 +5,10 @@ source: "DeepMind"
 url: "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/alphagenome-atlas/"
 authors: ["Pushmeet Kohli", "Žiga Avsec"]
 date: "Tue, 08 Sep 2026 14:00:00 +0000"
-score: 85
+score: 78
 guid: "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/alphagenome-atlas/"
 image: "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AlphaGenome_Atlas_herosocial.max-600x600.format-webp.webp"
-generated: "2026-09-23T19:07:00+05:30"
+generated: "2026-09-27T20:11:44+05:30"
 ---
 
-DeepMind introduced AlphaGenome Atlas, a comprehensive database predicting functional effects of every possible single nucleotide variant in the human genome. This resource enables researchers to understand how individual DNA changes impact genes and proteins genome-wide. The database could accelerate disease research, support drug discovery, and help interpret the clinical significance of genetic variations found in patients.
+DeepMind created AlphaGenome Atlas, a massive database that predicts what happens when you change any single DNA letter. It catalogs every possible single nucleotide variant across the entire human genome. Researchers can now instantly look up whether a genetic change causes disease or remains harmless, potentially accelerating discovery of disease mechanisms and enabling personalized medicine precisely tailored to each person's unique genetic makeup.

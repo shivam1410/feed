@@ -5,12 +5,10 @@ source: "HF Trending Papers"
 url: "https://huggingface.co/papers/2609.29647"
 authors: ["Zhenhua Zou", "Sheng Guo", "Qiuyang Zhan", "Lepeng Zhao", "Shuo Li", "Zhuotao Liu"]
 date: "2026-08-28T20:00:00.000Z"
-score: 76
+score: 75
 guid: "2609.29647"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.29647.png"
-generated: "2026-09-26T22:52:50+05:30"
+generated: "2026-09-27T20:11:44+05:30"
 ---
 
-Modern AI agents routinely cross trust boundaries: they ingest untrusted content, combine it with privileged instructions, persist intermediate beliefs in long-term memory, and invoke privileged tools. This creates an attack surface in which malicious payloads can enter through model inputs and cause harmful tool actions. Yet current governance stacks remain application-level middleware that share a process trust boundary with the agents they monitor. We argue that agents need an operating-system substrate providing mandatory, non-bypassable services for identity, input mediation, memory governance, and execution control.
-  We introduce AgentKernel, a trust-native agent operating system built around the premise that security must be a first-class design constraint. AgentKernel wraps the agent lifecycle in a mandatory enforcement boundary organized into four pillars: Identity, Perception, Cognition, and Execution. Each pillar adapts classical OS security principles to failures at the semantic plane, including delegation abuse, prompt injection, memory poisoning, and tool misuse.
-  AgentKernel treats structural security as a capability multiplier. Kernel-managed identity supports trustworthy cross-organization collaboration; graduated perception replaces brittle single-point filters; information-flow-controlled memory improves retrieval fidelity while limiting poisoning; and semantic-to-kernel enforcement permits broader tool privileges behind a non-bypassable boundary. We position AgentKernel as the missing OS layer beneath orchestration frameworks, agent runtimes, governance platforms, and execution sandboxes, and use systematic comparison and security analysis to show how a single integrated architecture can enforce security across the full agent lifecycle.
+AgentKernel is an operating system for AI agents that enforces mandatory security across identity, input sensing, memory, and execution. Unlike existing application-level middleware, the kernel creates a non-bypassable boundary against prompt injection, memory poisoning, delegation abuse, and tool misuse. It treats security as a capability multiplier. This matters because agents that cross trust boundaries need OS-level guarantees, not just middleware.

@@ -5,10 +5,10 @@ source: "Latent Space"
 url: "https://www.latent.space/p/jev"
 authors: []
 date: "Mon, 21 Sep 2026 22:13:49 GMT"
-score: 83
+score: 69
 guid: "https://www.latent.space/p/jev"
 image: ""
-generated: "2026-09-26T22:52:50+05:30"
+generated: "2026-09-27T20:11:44+05:30"
 ---
 
-Diogo Almeida, who coauthored InstructGPT, launched Jev, a model that outputs decisions instead of text for classification, routing, and scoring. Jev is over 100 times faster and 200 times cheaper than frontier models and was trained via RLCD, calibrated decisions. This matters because it splits inference into two layers: fast deterministic decisions and slow reasoning, matching how humans often think.
+TypeSafe AI released Jev, a new model that answers yes-no questions and rates things instead of generating text. It runs over 100 times faster and costs more than 200 times less than current frontier models. Jev was trained via RLCD, a method that optimizes accurate decision-making rather than fluent language output. This matters because many real problems just need a decision or score, not paragraphs of generated text.

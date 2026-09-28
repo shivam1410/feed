@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/s41586-026-11059-5"
 authors: ["Yan Wang", "Hao Shi", "Nicole M. Chapman", "Anil KC", "Renqiang Sun", "Hao Song", "Xiaoxi Meng", "Xiang Sun", "Hongbo Chi"]
 date: "2026-09-23"
-score: 60
+score: 35
 guid: "10.1038/s41586-026-11059-5"
 image: ""
-generated: "2026-09-26T20:37:01+05:30"
+generated: "2026-09-28T20:49:59+05:30"
 ---
 
-A protein called ZMYND8 suppresses immune responses by forcing exhaustion in CD8+ T cells, severely weakening their ability to fight viruses and tumors. Deleting ZMYND8 removes this critical brake mechanism, restoring effector-like states in T cells and dramatically boosting both antiviral and antitumor immune responses. This important finding points to a promising new therapeutic strategy for reviving exhausted immune cells in cancer and persistent infection.
+ZMYND8 suppresses IL-2R–STAT5 signalling by inhibiting p300-mediated transcriptional activation of Il2ra to enforce CD8+ T cell terminal exhaustion, and its deletion boosts effector-like states and markedly enhances antiviral and antitumour immunity.

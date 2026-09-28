@@ -5,10 +5,10 @@ source: "Simon Willison"
 url: "https://simonwillison.net/2026/Sep/26/kakapo-party/"
 authors: []
 date: "2026-09-26T23:39:06+00:00"
-score: 65
+score: 60
 guid: "https://simonwillison.net/2026/Sep/26/kakapo-party/"
 image: ""
-generated: "2026-09-27T20:11:44+05:30"
+generated: "2026-09-28T20:49:59+05:30"
 ---
 
-Simon Willison used Claude Opus 5.5 to create a pixel-art animation of 20-plus kākāpō parrots dancing with confetti for a keynote. He then used Claude Code to load the HTML in a browser, trigger effects by clicking, and record a 15-second video via Playwright. The result became his final slide. This shows how AI can quickly produce custom animations and video assets for presentations without touching traditional video editing tools.
+Claude Opus 5.5 created an animated pixel-art scene of 20+ dancing kakapo with confetti on HTML5 canvas from three reference photos. The author used Claude Code and Playwright to automatically record it as a video for a conference keynote. The entire pipeline, from AI generation to automated video capture, worked without manual intervention for a closing slide presentation.

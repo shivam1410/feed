@@ -5,10 +5,10 @@ source: "Latent Space"
 url: "https://www.latent.space/p/ainews-jev-a-system-one-model-that"
 authors: []
 date: "Wed, 16 Sep 2026 11:09:53 GMT"
-score: 86
+score: 97
 guid: "https://www.latent.space/p/ainews-jev-a-system-one-model-that"
 image: ""
-generated: "2026-09-27T20:11:44+05:30"
+generated: "2026-09-28T20:49:59+05:30"
 ---
 
-TypeSafe AI announced Jev, which classifies, routes, and scores instead of generating text. It costs $0.042 per million input tokens with free output, roughly 1,200 times cheaper than typical LLM output pricing. Trained via RLCD for calibrated decisions without hallucination. This matters because much AI work needs fast scoring and routing, not generation, so a purpose-built decision model is vastly more efficient than adapting text generators.
+Jev is a new category: System One models output classifications and scores, not text. Trained via RLCD (Reinforcement Learning Calibrated Decisions), it delivers parallel sampling, zero hallucination, and reliable confidence scores. At 100x faster and 200x cheaper than small frontier LLMs, it targets tasks like routing and scoring, not reasoning.

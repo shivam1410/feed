@@ -5,10 +5,10 @@ source: "Latent Space"
 url: "https://www.latent.space/p/foundries-vs-navigators-lowering"
 authors: ["Adrian Sanborn"]
 date: "Thu, 24 Sep 2026 15:03:16 GMT"
-score: 68
+score: 80
 guid: "https://www.latent.space/p/foundries-vs-navigators-lowering"
 image: ""
-generated: "2026-09-27T20:11:44+05:30"
+generated: "2026-09-28T20:49:59+05:30"
 ---
 
-AI is transforming science in two ways. Foundries industrialize measurement using new technology to generate data far faster. Navigators optimize the thinking and planning around experiments. The catch is that AI made the thinking work cheap through faster coding, but physical experiments that take days or weeks to run remain unchanged. Most productivity gains sit in knowledge work before or after the bench, not in the bench itself.
+AI made scientific thinking dirt cheap, but experiments still take weeks. Biotech is adapting two ways: foundries like Endura industrialize measurement with next-gen sequencing to generate data orders of magnitude faster, while navigators use AI to plan smarter experiments. The real constraint isn't thinking anymore, it's the speed of doing actual experiments.

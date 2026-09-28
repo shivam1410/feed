@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/s41586-026-10999-2"
 authors: ["Huifeng Zhang", "Mathieu Dumberry"]
 date: "2026-09-23"
-score: 22
+score: 25
 guid: "10.1038/s41586-026-10999-2"
 image: ""
-generated: "2026-09-26T22:52:50+05:30"
+generated: "2026-09-28T20:49:59+05:30"
 ---
 
-Multidecadal fluctuations in Earth’s length of day are shown to be driven by gravitational torque and resisted by electromagnetic and topographic forces, improving our understanding of the material properties and dynamics of Earth’s deep interior.
+Gravitational torque drives the way Earth's day length fluctuates dramatically over many decades, while electromagnetic and topographic forces actively resist these changes. This discovery gives scientists a much clearer picture of what's actually happening deep inside our planet, far below the surface. Understanding these dynamics and forces helps researchers map Earth's internal structure and gain key insights into the planet's behavior over long timescales.

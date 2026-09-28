@@ -8,7 +8,7 @@ date: "2026-09-24"
 score: 35
 guid: "10.1038/d41586-026-03020-3"
 image: ""
-generated: "2026-09-26T22:52:50+05:30"
+generated: "2026-09-28T20:49:59+05:30"
 ---
 
 Understanding why some people see no benefits from potent anti-obesity medications could lead to new therapies and personalized weight-loss regimens.

@@ -8,7 +8,7 @@ date: "2026-09-23"
 score: 35
 guid: "10.1038/s41586-026-11102-5"
 image: ""
-generated: "2026-09-26T22:52:50+05:30"
+generated: "2026-09-28T20:49:59+05:30"
 ---
 
 RAIBO2, an energy-efficient quadruped robot, completed a full marathon in 4 hours, 19 minutes and 52 seconds on a single battery charge, achieving a total cost of transport of 0.25 that surpasses the human benchmark of 0.37.

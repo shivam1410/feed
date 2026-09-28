@@ -8,7 +8,7 @@ date: "Sat, 19 Sep 2026 05:48:28 GMT"
 score: 93
 guid: "https://www.latent.space/p/ainews-here-are-6-clones-of-jev-in"
 image: ""
-generated: "2026-09-26T22:52:50+05:30"
+generated: "2026-09-28T20:49:59+05:30"
 ---
 
-Within two days of Jev's launch, six clones appeared: Laya using ModernBERT, DiffusionGemmaJev using diffusion, Bespoke Nimble using Qwen LoRA, SemIf using an NLI classifier, Jevlike as lightweight attention, and Kev-0.5B as a tiny adapter. All aimed to replicate Jev's decision-output format with similar or slightly lower performance. This matters because rapid iteration shows interest, but lack of openness invites reimplementation.
+After Jev's 36M-view launch without open-source code, engineers reverse-engineered six variants within two days. ModernBERT used PPO scoring, others tried diffusion-based approaches or LoRA finetunes of Qwen. Everyone achieved close benchmark performance, though nobody captured exact details. The explosion of clones proves the architecture works and matters.

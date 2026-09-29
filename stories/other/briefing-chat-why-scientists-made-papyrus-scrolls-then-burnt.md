@@ -8,7 +8,7 @@ date: "2026-09-25"
 score: 15
 guid: "10.1038/d41586-026-03041-y"
 image: ""
-generated: "2026-09-26T22:52:50+05:30"
+generated: "2026-09-29T19:09:35+05:30"
 ---
 
-Scientists developed a technique to read burnt Herculaneum scrolls. They also discussed a biodegradable edible battery. Reading these charred documents could unlock lost ancient knowledge.
+Nature staff discuss a technique that could help researchers read charred Herculaneum scrolls — plus, a biodegradeable, edible battery.

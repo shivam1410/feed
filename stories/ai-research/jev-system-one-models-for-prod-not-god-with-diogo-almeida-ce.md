@@ -8,7 +8,7 @@ date: "Mon, 21 Sep 2026 22:13:49 GMT"
 score: 80
 guid: "https://www.latent.space/p/jev"
 image: ""
-generated: "2026-09-28T20:49:59+05:30"
+generated: "2026-09-29T19:09:35+05:30"
 ---
 
-TypeSafe AI launched Jev, a System One model that outputs decisions instead of text: scores, yes-no answers, ratings with confidence numbers. The 40M-view launch video introduced a completely different shape of LLM from autoregressive chat models. Unlike traditional models, Jev can't reason deeply or code, but runs 100x faster and costs 200x less for decision tasks.
+Diogo Almeida's TypeSafe AI launched Jev, a System One model designed to classify, route, and score instead of reasoning or generating text. Its launch video got 40 million views. Jev works alongside slower System Two models, making decisions in parallel without hallucination while costing over 100 times less than frontier models for specific classification tasks.

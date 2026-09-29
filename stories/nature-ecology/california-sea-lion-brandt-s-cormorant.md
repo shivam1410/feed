@@ -5,10 +5,10 @@ source: "Simon Willison"
 url: "https://simonwillison.net/2026/Sep/19/sighting-401567341/"
 authors: []
 date: "2026-09-19T17:10:08+00:00"
-score: 58
+score: 40
 guid: "https://simonwillison.net/2026/Sep/19/sighting-401567341/"
 image: ""
-generated: "2026-09-28T20:49:59+05:30"
+generated: "2026-09-29T19:09:35+05:30"
 ---
 
-A photo from Pillar Point Harbor capturing a California Sea Lion and Brandt's Cormorant, with Morris the Northern Gannet peeking out from behind a sign post in the background.
+California Sea Lion, Brandt's Cormorant, in Pillar Point Harbor, CA, US I only noticed this after I had taken the photo: Morris the Northern Gannet is peeking out from behind the base of the sign. Tags: wildlife

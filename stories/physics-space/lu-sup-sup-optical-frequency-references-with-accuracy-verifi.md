@@ -8,7 +8,7 @@ date: "2026-09-23"
 score: 20
 guid: "10.1038/s41586-026-11072-8"
 image: ""
-generated: "2026-09-28T20:49:59+05:30"
+generated: "2026-09-29T19:09:35+05:30"
 ---
 
 Two independent 176Lu+ single-ion optical clocks achieve fractional frequency uncertainties near 10−19 and agree at 5.7 × 10−19, advancing precision timekeeping.

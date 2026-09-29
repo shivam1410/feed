@@ -8,7 +8,7 @@ date: "2026-09-24"
 score: 15
 guid: "10.1038/d41586-026-02989-1"
 image: ""
-generated: "2026-09-28T20:49:59+05:30"
+generated: "2026-09-29T19:09:35+05:30"
 ---
 
 University students who are highly motivated to watch sports online do not report higher participation in exercise.

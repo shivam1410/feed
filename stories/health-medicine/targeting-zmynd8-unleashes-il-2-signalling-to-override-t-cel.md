@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/s41586-026-11059-5"
 authors: ["Yan Wang", "Hao Shi", "Nicole M. Chapman", "Anil KC", "Renqiang Sun", "Hao Song", "Xiaoxi Meng", "Xiang Sun", "Hongbo Chi"]
 date: "2026-09-23"
-score: 35
+score: 55
 guid: "10.1038/s41586-026-11059-5"
 image: ""
-generated: "2026-09-28T20:49:59+05:30"
+generated: "2026-09-29T19:09:35+05:30"
 ---
 
-ZMYND8 suppresses IL-2R–STAT5 signalling by inhibiting p300-mediated transcriptional activation of Il2ra to enforce CD8+ T cell terminal exhaustion, and its deletion boosts effector-like states and markedly enhances antiviral and antitumour immunity.
+Blocking ZMYND8 reactivates exhausted immune cells by restoring IL-2 signaling and T cell function. Deletion of ZMYND8 enhanced both antiviral and antitumor immune responses in laboratory tests. Exhausted CD8+ T cells normally fail to fight cancer and chronic infections. This matters because finding ways to reactivate exhausted immune cells could improve cancer immunotherapy effectiveness and help patients fight chronic infections.

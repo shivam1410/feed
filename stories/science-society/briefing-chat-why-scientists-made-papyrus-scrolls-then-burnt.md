@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/d41586-026-03041-y"
 authors: ["Benjamin Thompson", "Shamini Bundell"]
 date: "2026-09-25"
-score: 20
+score: 52
 guid: "10.1038/d41586-026-03041-y"
 image: ""
-generated: "2026-09-28T20:49:59+05:30"
+generated: "2026-09-30T19:08:55+05:30"
 ---
 
 Nature staff discuss a technique that could help researchers read charred Herculaneum scrolls — plus, a biodegradeable, edible battery.

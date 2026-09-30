@@ -1,0 +1,14 @@
+---
+title: "Hyperspherical Semantic Trajectory Analysis: Mapping Technological Diffusion across Academic Preprints, Patent Signals, and Compute Scaling"
+category: "Science & Society"
+source: "HF Trending Papers"
+url: "https://huggingface.co/papers/2609.35845"
+authors: ["Muhammad Sukri Bin Ramli"]
+date: "2026-09-24T20:00:00.000Z"
+score: 15
+guid: "2609.35845"
+image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.35845.png"
+generated: "2026-09-30T19:08:55+05:30"
+---
+
+Macroeconomic productivity metrics, such as Total Factor Productivity, register technological breakthroughs with multi-year reporting lags due to administrative survey intervals and national accounting conventions. This paper introduces Hyperspherical Semantic Trajectory Analysis (HSTA), an unsupervised quantitative methodology that tracks technology diffusion directly from unstructured scientific and commercial text streams. We analyze 30,000 filtered document records spanning academic preprints from arXiv and patent application records from the USPTO. By projecting high-dimensional Transformer sentence embeddings onto unit hyperspheres using Spherical K-Means clustering across eight primary sub-topics and UMAP manifold reductions, HSTA formalizes two quantitative metrics: (1) Semantic Centroid Vector Drift, which tracks vocabulary shifts between temporal sub-corpora to identify structural paradigm transformations; and (2) Commercialization Offset, which evaluates cross-corpus peak density alignments between scientific discovery and intellectual property filings. Linking quarterly topic volume velocity with physical hardware metrics from the Epoch AI database, Vector Autoregressive F-tests demonstrate that quarterly paper volume velocity alone does not Granger-cause frontier compute allocation surges at conventional statistical significance levels, highlighting the necessity of conditioning textual signals on physical capital constraints. Empirical results reveal that sub-topics covering Large Language Models (with a drift metric of 0.332) and Artificial Intelligence Systems (with a drift metric of 0.234) undergo the highest rate of semantic evolution, offering an objective, real-time mechanism to complement traditional economic statistics.

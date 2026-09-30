@@ -5,10 +5,10 @@ source: "Latent Space"
 url: "https://www.latent.space/p/ainews-jev-a-system-one-model-that"
 authors: []
 date: "Wed, 16 Sep 2026 11:09:53 GMT"
-score: 85
+score: 100
 guid: "https://www.latent.space/p/ainews-jev-a-system-one-model-that"
 image: ""
-generated: "2026-09-29T19:09:35+05:30"
+generated: "2026-09-30T19:08:55+05:30"
 ---
 
-TypeSafe launched Jev, a System One model that classifies, routes, and scores instead of generating text or reasoning. It's over 100 times faster and 200 times cheaper than small frontier models. The team trained it using RLCD, a new training method for building calibrated decision systems without hallucinations, making Jev useful for parallel sampling.
+Jev achieves its speed and cost through RLCD, reinforcement learning with calibrated decisions, which removes hallucination from the output. It runs over 100 times faster and costs 200 times less than small frontier models, because it outputs probability scores, not text, and parallelizes easily. The trade-off is clear: it can't code or reason deeply, but it excels at fast, reliable classification at massive scale.

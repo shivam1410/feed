@@ -5,10 +5,10 @@ source: "Simon Willison"
 url: "https://simonwillison.net/2026/Sep/24/harder/"
 authors: []
 date: "2026-09-24T23:31:08+00:00"
-score: 90
+score: 72
 guid: "https://simonwillison.net/2026/Sep/24/harder/"
 image: ""
-generated: "2026-09-29T19:09:35+05:30"
+generated: "2026-09-30T19:08:55+05:30"
 ---
 
-Simon Willison reflected that coding agents ultimately make software engineering more difficult, not easier, despite enabling amazing capabilities and new productivity possibilities. Using them effectively requires extraordinary discipline and deep technical knowledge of systems, patterns, and software design. His observation highlights the hidden complexity and challenges that emerge when development becomes agent-driven, contrasting with simpler narratives.
+The more time I spend working with coding agents, the more convinced I am that they make software engineering even harder. We can do amazing things with them, but unlocking their full potential requires extraordinary discipline and knowledge. Tags: coding-agents , ai , llms

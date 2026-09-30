@@ -4,11 +4,11 @@ category: "Climate & Energy"
 source: "arXiv (cs.LG)"
 url: "https://arxiv.org/abs/2609.31648"
 authors: ["Lyes Saad Saoud, Oualid Doukhi, Ehsan Reihani, Saeed Sepasi, Deok Jin Lee, Moussa Ayyash, Reza Ghorbani"]
-date: "Tue, 29 Sep 2026 00:00:00 -0400"
-score: 78
+date: "Wed, 30 Sep 2026 00:00:00 -0400"
+score: 80
 guid: "oai:arXiv.org:2609.31648v1"
 image: ""
-generated: "2026-09-29T19:09:35+05:30"
+generated: "2026-09-30T19:08:55+05:30"
 ---
 
-Researchers built EVLA, a benchmark for testing AI on home battery scheduling using images, numbers, and natural language. They generated 6.5 million training examples and found language instructions matter twice as much as vision data: removing language doubled prediction error, while removing vision barely changed it. This shows what modalities actually help machines manage home energy.
+A multimodal benchmark where agents interpret energy-field images and language instructions to schedule battery discharge over 16 steps. Built from 6.5 million instances of residential electrical data, removing language raises prediction error from 0.39 to 0.86. This matters because it tests how agents balance visual and linguistic clues for energy management.

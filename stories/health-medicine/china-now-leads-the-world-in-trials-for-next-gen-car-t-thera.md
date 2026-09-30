@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/d41586-026-03004-3"
 authors: ["Rachel Fieldhouse"]
 date: "2026-09-28"
-score: 45
+score: 72
 guid: "10.1038/d41586-026-03004-3"
 image: ""
-generated: "2026-09-29T19:09:35+05:30"
+generated: "2026-09-30T19:08:55+05:30"
 ---
 
-China tests these therapies faster than the rest of the world but regulatory changes could slow the progress.
+China currently leads the world in testing next-generation CAR-T cell therapies, which reprogram immune cells to fight cancer. However, upcoming regulatory changes could slow this progress. This reflects both China's research momentum and evolving global oversight of advanced cell therapies.

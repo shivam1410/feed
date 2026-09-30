@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/d41586-026-03005-2"
 authors: ["Mohana Basu"]
 date: "2026-09-25"
-score: 60
+score: 78
 guid: "10.1038/d41586-026-03005-2"
 image: ""
-generated: "2026-09-29T19:09:35+05:30"
+generated: "2026-09-30T19:08:55+05:30"
 ---
 
 Many scientists use artificial intelligence in their work, but agents are increasingly soliciting researchers for collaborations.

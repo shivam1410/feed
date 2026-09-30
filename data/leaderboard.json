@@ -1,106 +1,106 @@
 {
-  "generatedAt": "2026-09-29T19:10:14+05:30",
+  "generatedAt": "2026-09-30T19:09:30+05:30",
   "source": "Hugging Face — trending models",
   "models": [
     {
       "id": "convaiinnovations/laya",
       "task": "text-classification",
-      "likes": 4434,
+      "likes": 4593,
       "downloads": 0,
       "library": "transformers",
       "createdAt": "2026-09-18T05:05:55.000Z",
       "url": "https://huggingface.co/convaiinnovations/laya",
-      "summary": "Laya is a multilingual System 1 decision model returning calibrated probabilities for typed questions on any state in ~33ms."
+      "summary": "Multilingual System 1 decision model returning typed answers with calibrated probabilities in single forward pass across 100+ languages."
     },
     {
       "id": "Edge0/Audio8-ASR-Infinite",
       "task": "automatic-speech-recognition",
-      "likes": 1463,
-      "downloads": 23674,
+      "likes": 1575,
+      "downloads": 26749,
       "library": "transformers",
       "createdAt": "2026-09-21T15:03:21.000Z",
       "url": "https://huggingface.co/Edge0/Audio8-ASR-Infinite",
-      "summary": "Audio8 ASR Infinite is a native streaming ASR model transcribing unlimited-length audio 24/7 with configurable latency and rolling KV cache."
+      "summary": "Streaming speech-to-text with configurable delay and rolling KV Cache for unlimited-length 24/7 transcription in Chinese and English."
     },
     {
       "id": "abenzerps/Qwen-Image-2.1-Uncensored-GGUF",
       "task": "text-to-image",
-      "likes": 2368,
-      "downloads": 1152523,
+      "likes": 2497,
+      "downloads": 1232685,
       "library": "gguf",
       "createdAt": "2026-09-20T15:51:13.000Z",
       "url": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-GGUF",
-      "summary": "GGUF quantizations of Qwen-Image-2.1 enabling local text-to-image generation in various compressed formats."
-    },
-    {
-      "id": "Qwen/Qwen-Image-2.1",
-      "task": "text-to-image",
-      "likes": 2635,
-      "downloads": 64362,
-      "library": "diffusers",
-      "createdAt": "2026-09-14T03:47:26.000Z",
-      "url": "https://huggingface.co/Qwen/Qwen-Image-2.1",
-      "summary": "Qwen-Image-2.1 is a 7B-parameter text-to-image model supporting RGBA generation, image editing, and transparency in a lightweight architecture."
+      "summary": "Quantized GGUF weights of Qwen-Image-2.1 for local text-to-image generation with various compression options."
     },
     {
       "id": "XingChen-AGI/TeleOCR",
       "task": "image-text-to-text",
-      "likes": 847,
-      "downloads": 30354,
+      "likes": 977,
+      "downloads": 30383,
       "library": "transformers",
       "createdAt": "2026-08-14T06:15:03.000Z",
       "url": "https://huggingface.co/XingChen-AGI/TeleOCR",
-      "summary": "TeleOCR is a 1.2B-parameter VLM for document parsing, unifying digital and camera-captured documents in a single framework."
+      "summary": "Lightweight 1.2B vision-language model for parsing digital and camera-captured documents with multi-node consensus voting."
     },
     {
-      "id": "XingChen-AGI/Xing4.0-29B-A4B",
-      "task": "text-generation",
-      "likes": 1803,
-      "downloads": 46557,
-      "library": "transformers",
-      "createdAt": "2026-09-16T06:44:40.000Z",
-      "url": "https://huggingface.co/XingChen-AGI/Xing4.0-29B-A4B",
-      "summary": "Xing4.0-29B-A4B is a 29B MoE LLM with 4B active tokens, 256K+ context, optimized for agent-oriented planning and tool calling."
+      "id": "Qwen/Qwen-Image-2.1",
+      "task": "text-to-image",
+      "likes": 2689,
+      "downloads": 70687,
+      "library": "diffusers",
+      "createdAt": "2026-09-14T03:47:26.000Z",
+      "url": "https://huggingface.co/Qwen/Qwen-Image-2.1",
+      "summary": "Compact 7B text-to-image and editing model generating RGBA images with support for ten reference images."
     },
     {
       "id": "Contrastive-LM/CLM-v0.1-8B",
       "task": "text-ranking",
-      "likes": 506,
-      "downloads": 1910,
+      "likes": 550,
+      "downloads": 2392,
       "library": "contrastive-lm",
       "createdAt": "2026-09-21T20:09:04.000Z",
       "url": "https://huggingface.co/Contrastive-LM/CLM-v0.1-8B",
-      "summary": "CLM-v0.1-8B is a contrastive System One model ranking states and actions via frozen Qwen3-8B with state/action projection heads."
+      "summary": "Contrastive learning ranker achieving state-of-art verification benchmarks with 9x lower latency than alternatives."
     },
     {
       "id": "nvidia/Nemotron-3-Diarization",
       "task": "voice-activity-detection",
-      "likes": 493,
-      "downloads": 30931,
+      "likes": 539,
+      "downloads": 36386,
       "library": "nemo",
       "createdAt": "2026-09-01T13:16:57.000Z",
       "url": "https://huggingface.co/nvidia/Nemotron-3-Diarization",
-      "summary": "Nemotron-3-Diarization determines speaker identity and timing in audio via streaming/offline inference, handling up to eight speakers."
+      "summary": "Open-weight speaker diarization model supporting streaming and offline inference for eight-speaker audio analysis."
     },
     {
-      "id": "TaichuAI/ZDTaichu5.0-9B",
+      "id": "Qwen/Qwen3.8-27B",
       "task": "image-text-to-text",
-      "likes": 1894,
-      "downloads": 11836,
-      "library": null,
-      "createdAt": "2026-09-04T02:55:48.000Z",
-      "url": "https://huggingface.co/TaichuAI/ZDTaichu5.0-9B",
-      "summary": "ZDTaichu5.0-9B is a 9B multimodal VLM supporting text/image/video for visual understanding, spatial reasoning, tool use, and embodied AI."
+      "likes": 16609,
+      "downloads": 7038259,
+      "library": "transformers",
+      "createdAt": "2026-08-05T08:22:59.000Z",
+      "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
+      "summary": "27B vision-language model with flexible reasoning for coding, professional work, and agentic tasks with video understanding."
+    },
+    {
+      "id": "XingChen-AGI/Xing4.0-29B-A4B",
+      "task": "text-generation",
+      "likes": 1811,
+      "downloads": 47613,
+      "library": "transformers",
+      "createdAt": "2026-09-16T06:44:40.000Z",
+      "url": "https://huggingface.co/XingChen-AGI/Xing4.0-29B-A4B",
+      "summary": "29B mixture-of-experts with 4B activation, native 256K context, and agent-oriented architecture trained on Ascend NPU."
     },
     {
       "id": "prism-ml/Ternary-Bonsai-2-27B-gguf",
       "task": "text-generation",
-      "likes": 2252,
-      "downloads": 3581027,
+      "likes": 2291,
+      "downloads": 3676692,
       "library": "llama.cpp",
       "createdAt": "2026-09-16T23:40:56.000Z",
       "url": "https://huggingface.co/prism-ml/Ternary-Bonsai-2-27B-gguf",
-      "summary": "Ternary-Bonsai-2-27B is a ternary-quantized 27B LLM retaining 98.2% FP16 intelligence at ~5.9GB for on-device inference."
+      "summary": "Ternary-quantized 27B reasoning model retaining 98.2% precision at 9.3x compression for on-device inference."
     }
   ],
   "arena": {
@@ -552,72 +552,72 @@
     "url": "https://openrouter.ai/rankings",
     "models": [
       {
-        "slug": "deepseek/deepseek-v4.1-flash-20260910",
-        "tokens": 20827410220482,
-        "requests": 359957360,
-        "rank": 1,
-        "name": "deepseek-v4.1-flash",
-        "org": "deepseek",
-        "url": "https://openrouter.ai/deepseek/deepseek-v4.1-flash"
-      },
-      {
         "slug": "stealth/space-bunny-alpha",
-        "tokens": 18179594127324,
-        "requests": 261011186,
-        "rank": 2,
+        "tokens": 23382612731848,
+        "requests": 392886648,
+        "rank": 1,
         "name": "space-bunny-alpha",
         "org": "stealth",
         "url": "https://openrouter.ai/stealth/space-bunny-alpha"
       },
       {
+        "slug": "deepseek/deepseek-v4.1-flash-20260910",
+        "tokens": 22028987411874,
+        "requests": 382324961,
+        "rank": 2,
+        "name": "deepseek-v4.1-flash",
+        "org": "deepseek",
+        "url": "https://openrouter.ai/deepseek/deepseek-v4.1-flash"
+      },
+      {
         "slug": "z-ai/glm-5.3-flash-20260826",
-        "tokens": 13277538984252,
-        "requests": 364272423,
+        "tokens": 11628221100206,
+        "requests": 366524997,
         "rank": 3,
         "name": "glm-5.3-flash",
         "org": "z-ai",
         "url": "https://openrouter.ai/z-ai/glm-5.3-flash"
       },
       {
-        "slug": "tencent/hy4-preview-20260827",
-        "tokens": 8970195769932,
-        "requests": 77952959,
-        "rank": 4,
-        "name": "hy4-preview",
-        "org": "tencent",
-        "url": "https://openrouter.ai/tencent/hy4-preview"
-      },
-      {
         "slug": "openai/gpt-5.6-luna-20260709",
-        "tokens": 8505783010880,
-        "requests": 238396353,
-        "rank": 5,
+        "tokens": 8317086254845,
+        "requests": 224031989,
+        "rank": 4,
         "name": "gpt-5.6-luna",
         "org": "openai",
         "url": "https://openrouter.ai/openai/gpt-5.6-luna"
       },
       {
-        "slug": "deepseek/deepseek-v4-flash-20260731",
-        "tokens": 7566277938038,
-        "requests": 495645258,
-        "rank": 6,
-        "name": "deepseek-v4-flash",
-        "org": "deepseek",
-        "url": "https://openrouter.ai/deepseek/deepseek-v4-flash"
-      },
-      {
         "slug": "xiaomi/mimo-v2.6-flash-20260921",
-        "tokens": 6928643548112,
-        "requests": 84989342,
-        "rank": 7,
+        "tokens": 8208774180259,
+        "requests": 100935326,
+        "rank": 5,
         "name": "mimo-v2.6-flash",
         "org": "xiaomi",
         "url": "https://openrouter.ai/xiaomi/mimo-v2.6-flash"
       },
       {
+        "slug": "tencent/hy4-preview-20260827",
+        "tokens": 8064633417264,
+        "requests": 70266351,
+        "rank": 6,
+        "name": "hy4-preview",
+        "org": "tencent",
+        "url": "https://openrouter.ai/tencent/hy4-preview"
+      },
+      {
+        "slug": "deepseek/deepseek-v4-flash-20260731",
+        "tokens": 7275351287124,
+        "requests": 477804155,
+        "rank": 7,
+        "name": "deepseek-v4-flash",
+        "org": "deepseek",
+        "url": "https://openrouter.ai/deepseek/deepseek-v4-flash"
+      },
+      {
         "slug": "nvidia/nemotron-3-ultra-550b-a55b-20260604",
-        "tokens": 5919681146857,
-        "requests": 47151184,
+        "tokens": 5881279974385,
+        "requests": 47773558,
         "rank": 8,
         "name": "nemotron-3-ultra-550b-a55b",
         "org": "nvidia",
@@ -625,8 +625,8 @@
       },
       {
         "slug": "openai/gpt-6-luna-20260922",
-        "tokens": 3719202682453,
-        "requests": 166221749,
+        "tokens": 4454710176789,
+        "requests": 198446668,
         "rank": 9,
         "name": "gpt-6-luna",
         "org": "openai",
@@ -634,35 +634,35 @@
       },
       {
         "slug": "deepseek/deepseek-v4-flash-20260423",
-        "tokens": 3291775541692,
-        "requests": 331470527,
+        "tokens": 3247035996619,
+        "requests": 325035147,
         "rank": 10,
         "name": "deepseek-v4-flash",
         "org": "deepseek",
         "url": "https://openrouter.ai/deepseek/deepseek-v4-flash"
       },
       {
-        "slug": "z-ai/glm-5.3-20260816",
-        "tokens": 2722407382469,
-        "requests": 38075851,
-        "rank": 11,
-        "name": "glm-5.3",
-        "org": "z-ai",
-        "url": "https://openrouter.ai/z-ai/glm-5.3"
-      },
-      {
         "slug": "typesafe/jev-1.13-20260917",
-        "tokens": 2681873168646,
-        "requests": 860738405,
-        "rank": 12,
+        "tokens": 2818122948252,
+        "requests": 911952670,
+        "rank": 11,
         "name": "jev-1.13",
         "org": "typesafe",
         "url": "https://openrouter.ai/typesafe/jev-1.13"
       },
       {
+        "slug": "z-ai/glm-5.3-20260816",
+        "tokens": 2798248598909,
+        "requests": 39306736,
+        "rank": 12,
+        "name": "glm-5.3",
+        "org": "z-ai",
+        "url": "https://openrouter.ai/z-ai/glm-5.3"
+      },
+      {
         "slug": "tencent/hy3-20260706",
-        "tokens": 2497895419909,
-        "requests": 32378209,
+        "tokens": 2453101604989,
+        "requests": 31657161,
         "rank": 13,
         "name": "hy3",
         "org": "tencent",
@@ -670,21 +670,21 @@
       },
       {
         "slug": "google/gemini-3.8-flash-20260902",
-        "tokens": 2115063839951,
-        "requests": 70402100,
+        "tokens": 2054378945293,
+        "requests": 70678299,
         "rank": 14,
         "name": "gemini-3.8-flash",
         "org": "google",
         "url": "https://openrouter.ai/google/gemini-3.8-flash"
       },
       {
-        "slug": "xiaomi/mimo-v2.5-20260422",
-        "tokens": 1956414004535,
-        "requests": 36733898,
+        "slug": "anthropic/claude-opus-5.5-20260921",
+        "tokens": 1689636624598,
+        "requests": 20442267,
         "rank": 15,
-        "name": "mimo-v2.5",
-        "org": "xiaomi",
-        "url": "https://openrouter.ai/xiaomi/mimo-v2.5"
+        "name": "claude-opus-5.5",
+        "org": "anthropic",
+        "url": "https://openrouter.ai/anthropic/claude-opus-5.5"
       }
     ]
   }

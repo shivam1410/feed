@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/d41586-026-02964-w"
 authors: ["Heidi Ledford"]
 date: "2026-09-28"
-score: 60
+score: 82
 guid: "10.1038/d41586-026-02964-w"
 image: ""
-generated: "2026-09-29T19:09:35+05:30"
+generated: "2026-09-30T19:08:55+05:30"
 ---
 
-Gene-editing techniques could enable researchers to replace entire genes and engineer complex cellular circuits. The critical barrier is delivering these powerful tools safely into living cells without harming them. These new capabilities would significantly expand the scope of what genetic medicine can accomplish. This matters because more capable gene-editing approaches could provide additional therapeutic options for patients with various genetic diseases.
+Advanced genome editors are emerging that could replace entire genes or engineer complex cellular circuits, going well beyond CRISPR's capabilities. The main challenge is safely delivering these systems into cells without triggering immune responses. Success could unlock new therapeutic options for inherited genetic diseases.

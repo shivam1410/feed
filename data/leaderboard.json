@@ -1,106 +1,106 @@
 {
-  "generatedAt": "2026-09-30T19:09:30+05:30",
+  "generatedAt": "2026-10-02T21:40:48+05:30",
   "source": "Hugging Face — trending models",
   "models": [
     {
       "id": "convaiinnovations/laya",
       "task": "text-classification",
-      "likes": 4593,
+      "likes": 4927,
       "downloads": 0,
       "library": "transformers",
       "createdAt": "2026-09-18T05:05:55.000Z",
       "url": "https://huggingface.co/convaiinnovations/laya",
-      "summary": "Multilingual System 1 decision model returning typed answers with calibrated probabilities in single forward pass across 100+ languages."
-    },
-    {
-      "id": "Edge0/Audio8-ASR-Infinite",
-      "task": "automatic-speech-recognition",
-      "likes": 1575,
-      "downloads": 26749,
-      "library": "transformers",
-      "createdAt": "2026-09-21T15:03:21.000Z",
-      "url": "https://huggingface.co/Edge0/Audio8-ASR-Infinite",
-      "summary": "Streaming speech-to-text with configurable delay and rolling KV Cache for unlimited-length 24/7 transcription in Chinese and English."
-    },
-    {
-      "id": "abenzerps/Qwen-Image-2.1-Uncensored-GGUF",
-      "task": "text-to-image",
-      "likes": 2497,
-      "downloads": 1232685,
-      "library": "gguf",
-      "createdAt": "2026-09-20T15:51:13.000Z",
-      "url": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-GGUF",
-      "summary": "Quantized GGUF weights of Qwen-Image-2.1 for local text-to-image generation with various compression options."
+      "summary": "Multilingual non-autoregressive System 1 model that classifies text and returns calibrated probability decisions in 100+ languages without generating text."
     },
     {
       "id": "XingChen-AGI/TeleOCR",
       "task": "image-text-to-text",
-      "likes": 977,
-      "downloads": 30383,
+      "likes": 1261,
+      "downloads": 32675,
       "library": "transformers",
       "createdAt": "2026-08-14T06:15:03.000Z",
       "url": "https://huggingface.co/XingChen-AGI/TeleOCR",
-      "summary": "Lightweight 1.2B vision-language model for parsing digital and camera-captured documents with multi-node consensus voting."
+      "summary": "Lightweight 1.2B-parameter vision-language model for unified document parsing across digital and camera-captured documents using multimodal understanding."
     },
     {
-      "id": "Qwen/Qwen-Image-2.1",
+      "id": "abenzerps/Qwen-Image-2.1-Uncensored-GGUF",
       "task": "text-to-image",
-      "likes": 2689,
-      "downloads": 70687,
-      "library": "diffusers",
-      "createdAt": "2026-09-14T03:47:26.000Z",
-      "url": "https://huggingface.co/Qwen/Qwen-Image-2.1",
-      "summary": "Compact 7B text-to-image and editing model generating RGBA images with support for ten reference images."
+      "likes": 2786,
+      "downloads": 1376248,
+      "library": "gguf",
+      "createdAt": "2026-09-20T15:51:13.000Z",
+      "url": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-GGUF",
+      "summary": "GGUF-quantized Qwen-Image-2.1 enabling local text-to-image generation with multiple quantization options ranging from INT8 to BF16."
+    },
+    {
+      "id": "Cloudflare/clef",
+      "task": "image-text-to-text",
+      "likes": 647,
+      "downloads": 824,
+      "library": "transformers",
+      "createdAt": "2026-09-30T21:15:35.000Z",
+      "url": "https://huggingface.co/Cloudflare/clef",
+      "summary": "27B multimodal decision model that scores typed options from text, JSON, images, or video without generating free-form text."
     },
     {
       "id": "Contrastive-LM/CLM-v0.1-8B",
       "task": "text-ranking",
-      "likes": 550,
-      "downloads": 2392,
+      "likes": 639,
+      "downloads": 2951,
       "library": "contrastive-lm",
       "createdAt": "2026-09-21T20:09:04.000Z",
       "url": "https://huggingface.co/Contrastive-LM/CLM-v0.1-8B",
-      "summary": "Contrastive learning ranker achieving state-of-art verification benchmarks with 9x lower latency than alternatives."
+      "summary": "8B contrastive learning model for text ranking and verification with state/action caching, enabling efficient agentic decision-making."
     },
     {
-      "id": "nvidia/Nemotron-3-Diarization",
-      "task": "voice-activity-detection",
-      "likes": 539,
-      "downloads": 36386,
-      "library": "nemo",
-      "createdAt": "2026-09-01T13:16:57.000Z",
-      "url": "https://huggingface.co/nvidia/Nemotron-3-Diarization",
-      "summary": "Open-weight speaker diarization model supporting streaming and offline inference for eight-speaker audio analysis."
+      "id": "Qwen/Qwen-Image-2.1",
+      "task": "text-to-image",
+      "likes": 2818,
+      "downloads": 81738,
+      "library": "diffusers",
+      "createdAt": "2026-09-14T03:47:26.000Z",
+      "url": "https://huggingface.co/Qwen/Qwen-Image-2.1",
+      "summary": "7B unified text-to-image and image editing model supporting RGBA transparency, versatile editing with reference images, and refined aesthetics."
+    },
+    {
+      "id": "Lightricks/LTX-2.5",
+      "task": "image-to-video",
+      "likes": 5922,
+      "downloads": 1584129,
+      "library": "diffusion-single-file",
+      "createdAt": "2026-07-23T07:55:24.000Z",
+      "url": "https://huggingface.co/Lightricks/LTX-2.5",
+      "summary": "Multimodal video generation model supporting image-to-video, text-to-video, audio-to-video, and cross-modal conversions in a unified framework."
     },
     {
       "id": "Qwen/Qwen3.8-27B",
       "task": "image-text-to-text",
-      "likes": 16609,
-      "downloads": 7038259,
+      "likes": 16762,
+      "downloads": 6934867,
       "library": "transformers",
       "createdAt": "2026-08-05T08:22:59.000Z",
       "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
-      "summary": "27B vision-language model with flexible reasoning for coding, professional work, and agentic tasks with video understanding."
+      "summary": "27B vision-language model with flexible thinking control designed for complex multi-step tasks, understanding both images and video inputs."
     },
     {
-      "id": "XingChen-AGI/Xing4.0-29B-A4B",
-      "task": "text-generation",
-      "likes": 1811,
-      "downloads": 47613,
-      "library": "transformers",
-      "createdAt": "2026-09-16T06:44:40.000Z",
-      "url": "https://huggingface.co/XingChen-AGI/Xing4.0-29B-A4B",
-      "summary": "29B mixture-of-experts with 4B activation, native 256K context, and agent-oriented architecture trained on Ascend NPU."
+      "id": "SupersonicLabs/Julia-1",
+      "task": "text-classification",
+      "likes": 355,
+      "downloads": 2909,
+      "library": "pytorch",
+      "createdAt": "2026-09-23T15:29:46.000Z",
+      "url": "https://huggingface.co/SupersonicLabs/Julia-1",
+      "summary": "144.3M multilingual decision model that converts state, question, and options into typed classifications and scores without text generation."
     },
     {
-      "id": "prism-ml/Ternary-Bonsai-2-27B-gguf",
-      "task": "text-generation",
-      "likes": 2291,
-      "downloads": 3676692,
-      "library": "llama.cpp",
-      "createdAt": "2026-09-16T23:40:56.000Z",
-      "url": "https://huggingface.co/prism-ml/Ternary-Bonsai-2-27B-gguf",
-      "summary": "Ternary-quantized 27B reasoning model retaining 98.2% precision at 9.3x compression for on-device inference."
+      "id": "Viggle/Qwen-Image-2.1-viggle-turbo",
+      "task": "text-to-image",
+      "likes": 522,
+      "downloads": 240660,
+      "library": "diffusers",
+      "createdAt": "2026-09-22T04:14:56.000Z",
+      "url": "https://huggingface.co/Viggle/Qwen-Image-2.1-viggle-turbo",
+      "summary": "Distilled 6-step text-to-image model delivering ~5× speedup over base Qwen-Image-2.1 with instruction-driven editing and reference image support."
     }
   ],
   "arena": {
@@ -109,21 +109,21 @@
     "overall": [
       {
         "rank": 1,
-        "name": "claude-opus-5.5-high",
-        "rating": 1509,
-        "votes": 2307,
-        "org": "Anthropic",
+        "name": "gemini-4-argon-high",
+        "rating": 1525,
+        "votes": 4942,
+        "org": "Google",
         "license": "Proprietary",
         "open": false,
-        "url": "https://www.anthropic.com/claude-opus-5-5",
-        "inPrice": 4,
-        "outPrice": 20
+        "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+        "inPrice": 2,
+        "outPrice": 10
       },
       {
         "rank": 2,
         "name": "claude-opus-4-6-high",
         "rating": 1505,
-        "votes": 76518,
+        "votes": 77193,
         "org": "Anthropic",
         "license": "Proprietary",
         "open": false,
@@ -134,8 +134,8 @@
       {
         "rank": 3,
         "name": "claude-fable-5-high",
-        "rating": 1504,
-        "votes": 36462,
+        "rating": 1505,
+        "votes": 37900,
         "org": "Anthropic",
         "license": "Proprietary",
         "open": false,
@@ -145,9 +145,21 @@
       },
       {
         "rank": 4,
+        "name": "claude-opus-5.5-high",
+        "rating": 1504,
+        "votes": 3932,
+        "org": "Anthropic",
+        "license": "Proprietary",
+        "open": false,
+        "url": "https://www.anthropic.com/claude-opus-5-5",
+        "inPrice": 4,
+        "outPrice": 20
+      },
+      {
+        "rank": 5,
         "name": "claude-opus-4-7-high",
         "rating": 1502,
-        "votes": 64007,
+        "votes": 64607,
         "org": "Anthropic",
         "license": "Proprietary",
         "open": false,
@@ -156,10 +168,10 @@
         "outPrice": 25
       },
       {
-        "rank": 5,
+        "rank": 6,
         "name": "claude-fable-5.1-max",
         "rating": 1501,
-        "votes": 9942,
+        "votes": 11241,
         "org": "Anthropic",
         "license": "Proprietary",
         "open": false,
@@ -168,10 +180,10 @@
         "outPrice": 50
       },
       {
-        "rank": 6,
+        "rank": 7,
         "name": "claude-opus-4-6",
-        "rating": 1498,
-        "votes": 80836,
+        "rating": 1497,
+        "votes": 81769,
         "org": "Anthropic",
         "license": "Proprietary",
         "open": false,
@@ -180,10 +192,10 @@
         "outPrice": 25
       },
       {
-        "rank": 7,
-        "name": "muse-spark-1.2 (xHigh)",
-        "rating": 1496,
-        "votes": 3422,
+        "rank": 8,
+        "name": "muse-spark-1.3-max",
+        "rating": 1495,
+        "votes": 11698,
         "org": "Meta",
         "license": "Proprietary",
         "open": false,
@@ -192,10 +204,10 @@
         "outPrice": 4.25
       },
       {
-        "rank": 8,
+        "rank": 9,
         "name": "claude-opus-4-7",
-        "rating": 1495,
-        "votes": 65051,
+        "rating": 1494,
+        "votes": 65705,
         "org": "Anthropic",
         "license": "Proprietary",
         "open": false,
@@ -204,10 +216,10 @@
         "outPrice": 25
       },
       {
-        "rank": 9,
-        "name": "muse-spark-1.3-max",
+        "rank": 10,
+        "name": "muse-spark-1.2 (xHigh)",
         "rating": 1494,
-        "votes": 10036,
+        "votes": 3833,
         "org": "Meta",
         "license": "Proprietary",
         "open": false,
@@ -216,10 +228,10 @@
         "outPrice": 4.25
       },
       {
-        "rank": 10,
+        "rank": 11,
         "name": "gemini-3.8-flash-high",
-        "rating": 1492,
-        "votes": 21728,
+        "rating": 1494,
+        "votes": 24828,
         "org": "Google",
         "license": "Proprietary",
         "open": false,
@@ -228,22 +240,10 @@
         "outPrice": 3.75
       },
       {
-        "rank": 11,
-        "name": "claude-opus-5-high",
-        "rating": 1491,
-        "votes": 55063,
-        "org": "Anthropic",
-        "license": "Proprietary",
-        "open": false,
-        "url": "https://www.anthropic.com/news/claude-opus-5",
-        "inPrice": 5,
-        "outPrice": 25
-      },
-      {
         "rank": 12,
         "name": "muse-spark-1.1",
-        "rating": 1491,
-        "votes": 34760,
+        "rating": 1492,
+        "votes": 36558,
         "org": "Meta",
         "license": "Proprietary",
         "open": false,
@@ -253,21 +253,21 @@
       },
       {
         "rank": 13,
-        "name": "muse-spark",
-        "rating": 1489,
-        "votes": 14131,
-        "org": "Meta",
+        "name": "claude-opus-5-high",
+        "rating": 1491,
+        "votes": 58380,
+        "org": "Anthropic",
         "license": "Proprietary",
         "open": false,
-        "url": "https://ai.meta.com/blog/introducing-muse-spark-msl/",
-        "inPrice": null,
-        "outPrice": null
+        "url": "https://www.anthropic.com/news/claude-opus-5",
+        "inPrice": 5,
+        "outPrice": 25
       },
       {
         "rank": 14,
         "name": "claude-opus-5-max",
-        "rating": 1488,
-        "votes": 26760,
+        "rating": 1489,
+        "votes": 28351,
         "org": "Anthropic",
         "license": "Proprietary",
         "open": false,
@@ -277,9 +277,21 @@
       },
       {
         "rank": 15,
+        "name": "muse-spark",
+        "rating": 1489,
+        "votes": 14128,
+        "org": "Meta",
+        "license": "Proprietary",
+        "open": false,
+        "url": "https://ai.meta.com/blog/introducing-muse-spark-msl/",
+        "inPrice": null,
+        "outPrice": null
+      },
+      {
+        "rank": 16,
         "name": "gemini-3.7-flash-high",
         "rating": 1488,
-        "votes": 19044,
+        "votes": 20851,
         "org": "Google",
         "license": "Proprietary",
         "open": false,
@@ -288,10 +300,10 @@
         "outPrice": 3.75
       },
       {
-        "rank": 16,
+        "rank": 17,
         "name": "kimi-k3-max",
         "rating": 1488,
-        "votes": 26400,
+        "votes": 27719,
         "org": "Moonshot",
         "license": "Kimi K3 license",
         "open": true,
@@ -301,10 +313,10 @@
         "openRank": 1
       },
       {
-        "rank": 17,
+        "rank": 18,
         "name": "gemini-3.1-pro-preview",
         "rating": 1487,
-        "votes": 119196,
+        "votes": 121225,
         "org": "Google",
         "license": "Proprietary",
         "open": false,
@@ -313,10 +325,10 @@
         "outPrice": 6
       },
       {
-        "rank": 18,
+        "rank": 19,
         "name": "gemini-3-pro",
         "rating": 1485,
-        "votes": 41921,
+        "votes": 41910,
         "org": "Google",
         "license": "Proprietary",
         "open": false,
@@ -325,36 +337,24 @@
         "outPrice": 12
       },
       {
-        "rank": 19,
+        "rank": 20,
         "name": "gpt-5.6-sol-xhigh",
-        "rating": 1483,
-        "votes": 34258,
+        "rating": 1484,
+        "votes": 36002,
         "org": "OpenAI",
         "license": "Proprietary",
         "open": false,
         "url": "https://openai.com/index/gpt-5-6/",
         "inPrice": 4,
         "outPrice": 20
-      },
-      {
-        "rank": 20,
-        "name": "gemini-3.6-flash-high",
-        "rating": 1482,
-        "votes": 33739,
-        "org": "Google",
-        "license": "Proprietary",
-        "open": false,
-        "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/",
-        "inPrice": 0.75,
-        "outPrice": 3.75
       }
     ],
     "open": [
       {
-        "rank": 16,
+        "rank": 17,
         "name": "kimi-k3-max",
         "rating": 1488,
-        "votes": 26400,
+        "votes": 27719,
         "org": "Moonshot",
         "license": "Kimi K3 license",
         "open": true,
@@ -364,10 +364,10 @@
         "openRank": 1
       },
       {
-        "rank": 23,
+        "rank": 25,
         "name": "mimo-v2.6-pro",
         "rating": 1480,
-        "votes": 4026,
+        "votes": 4074,
         "org": "Xiaomi",
         "license": "MIT",
         "open": true,
@@ -377,10 +377,10 @@
         "openRank": 2
       },
       {
-        "rank": 24,
+        "rank": 26,
         "name": "glm-5.3-max",
-        "rating": 1480,
-        "votes": 15904,
+        "rating": 1479,
+        "votes": 17268,
         "org": "Z.ai",
         "license": "MIT",
         "open": true,
@@ -390,49 +390,49 @@
         "openRank": 3
       },
       {
-        "rank": 29,
-        "name": "deepseek-v4.1-flash-max",
-        "rating": 1477,
-        "votes": 6630,
-        "org": "DeepSeek",
-        "license": "MIT",
-        "open": true,
-        "url": "https://www.deepseek.com/en/news/deepseek-v4-1-flash/",
-        "inPrice": 0.3,
-        "outPrice": 1.2,
-        "openRank": 4
-      },
-      {
-        "rank": 31,
+        "rank": 32,
         "name": "glm-5.2-max",
-        "rating": 1476,
-        "votes": 43570,
+        "rating": 1475,
+        "votes": 44949,
         "org": "Z.ai",
         "license": "MIT",
         "open": true,
         "url": "https://huggingface.co/zai-org/GLM-5.2",
         "inPrice": 1.4,
         "outPrice": 4.4,
-        "openRank": 5
+        "openRank": 4
       },
       {
-        "rank": 35,
+        "rank": 38,
         "name": "glm-5.3-flash",
         "rating": 1474,
-        "votes": 19103,
+        "votes": 21644,
         "org": "Z.ai",
         "license": "MIT",
         "open": true,
         "url": "https://z.ai/blog/glm-5.3",
         "inPrice": 0.06,
         "outPrice": 0.2,
+        "openRank": 5
+      },
+      {
+        "rank": 40,
+        "name": "deepseek-v4.1-flash-max",
+        "rating": 1473,
+        "votes": 8125,
+        "org": "DeepSeek",
+        "license": "MIT",
+        "open": true,
+        "url": "https://www.deepseek.com/en/news/deepseek-v4-1-flash/",
+        "inPrice": 0.3,
+        "outPrice": 1.2,
         "openRank": 6
       },
       {
-        "rank": 46,
+        "rank": 48,
         "name": "mimo-v2.5-pro",
         "rating": 1467,
-        "votes": 69225,
+        "votes": 70317,
         "org": "Xiaomi",
         "license": "MIT",
         "open": true,
@@ -442,10 +442,10 @@
         "openRank": 7
       },
       {
-        "rank": 49,
+        "rank": 54,
         "name": "glm-5.1",
         "rating": 1465,
-        "votes": 56463,
+        "votes": 57877,
         "org": "Z.ai",
         "license": "MIT",
         "open": true,
@@ -455,10 +455,10 @@
         "openRank": 8
       },
       {
-        "rank": 53,
+        "rank": 55,
         "name": "deepseek-v4-pro-high-20260813",
         "rating": 1464,
-        "votes": 9857,
+        "votes": 9825,
         "org": "DeepSeek",
         "license": "MIT",
         "open": true,
@@ -468,10 +468,10 @@
         "openRank": 9
       },
       {
-        "rank": 55,
+        "rank": 57,
         "name": "kimi-k2.6",
         "rating": 1461,
-        "votes": 39971,
+        "votes": 39950,
         "org": "Moonshot",
         "license": "Modified MIT",
         "open": true,
@@ -481,10 +481,10 @@
         "openRank": 10
       },
       {
-        "rank": 59,
+        "rank": 62,
         "name": "deepseek-v4-pro",
         "rating": 1458,
-        "votes": 57564,
+        "votes": 57549,
         "org": "DeepSeek",
         "license": "MIT",
         "open": true,
@@ -494,10 +494,10 @@
         "openRank": 11
       },
       {
-        "rank": 61,
+        "rank": 63,
         "name": "glm-5",
-        "rating": 1457,
-        "votes": 29152,
+        "rating": 1458,
+        "votes": 29203,
         "org": "Z.ai",
         "license": "MIT",
         "open": true,
@@ -507,10 +507,10 @@
         "openRank": 12
       },
       {
-        "rank": 62,
+        "rank": 64,
         "name": "hy3",
         "rating": 1457,
-        "votes": 9839,
+        "votes": 10239,
         "org": "Tencent",
         "license": "Apache 2.0",
         "open": true,
@@ -520,10 +520,10 @@
         "openRank": 13
       },
       {
-        "rank": 69,
+        "rank": 71,
         "name": "deepseek-v4-pro-high-preview",
         "rating": 1455,
-        "votes": 54884,
+        "votes": 54823,
         "org": "DeepSeek",
         "license": "MIT",
         "open": true,
@@ -533,10 +533,10 @@
         "openRank": 14
       },
       {
-        "rank": 71,
+        "rank": 73,
         "name": "mimo-v2.6-flash",
         "rating": 1454,
-        "votes": 4067,
+        "votes": 5465,
         "org": "Xiaomi",
         "license": "MIT",
         "open": true,
@@ -553,8 +553,8 @@
     "models": [
       {
         "slug": "stealth/space-bunny-alpha",
-        "tokens": 23382612731848,
-        "requests": 392886648,
+        "tokens": 30937307808403,
+        "requests": 549044946,
         "rank": 1,
         "name": "space-bunny-alpha",
         "org": "stealth",
@@ -562,8 +562,8 @@
       },
       {
         "slug": "deepseek/deepseek-v4.1-flash-20260910",
-        "tokens": 22028987411874,
-        "requests": 382324961,
+        "tokens": 23499721967531,
+        "requests": 409555616,
         "rank": 2,
         "name": "deepseek-v4.1-flash",
         "org": "deepseek",
@@ -571,53 +571,53 @@
       },
       {
         "slug": "z-ai/glm-5.3-flash-20260826",
-        "tokens": 11628221100206,
-        "requests": 366524997,
+        "tokens": 10155732296490,
+        "requests": 347345052,
         "rank": 3,
         "name": "glm-5.3-flash",
         "org": "z-ai",
         "url": "https://openrouter.ai/z-ai/glm-5.3-flash"
       },
       {
-        "slug": "openai/gpt-5.6-luna-20260709",
-        "tokens": 8317086254845,
-        "requests": 224031989,
-        "rank": 4,
-        "name": "gpt-5.6-luna",
-        "org": "openai",
-        "url": "https://openrouter.ai/openai/gpt-5.6-luna"
-      },
-      {
         "slug": "xiaomi/mimo-v2.6-flash-20260921",
-        "tokens": 8208774180259,
-        "requests": 100935326,
-        "rank": 5,
+        "tokens": 9336923900569,
+        "requests": 113906084,
+        "rank": 4,
         "name": "mimo-v2.6-flash",
         "org": "xiaomi",
         "url": "https://openrouter.ai/xiaomi/mimo-v2.6-flash"
       },
       {
-        "slug": "tencent/hy4-preview-20260827",
-        "tokens": 8064633417264,
-        "requests": 70266351,
-        "rank": 6,
-        "name": "hy4-preview",
-        "org": "tencent",
-        "url": "https://openrouter.ai/tencent/hy4-preview"
+        "slug": "openai/gpt-5.6-luna-20260709",
+        "tokens": 6960978494166,
+        "requests": 224676975,
+        "rank": 5,
+        "name": "gpt-5.6-luna",
+        "org": "openai",
+        "url": "https://openrouter.ai/openai/gpt-5.6-luna"
       },
       {
         "slug": "deepseek/deepseek-v4-flash-20260731",
-        "tokens": 7275351287124,
-        "requests": 477804155,
-        "rank": 7,
+        "tokens": 6826162758988,
+        "requests": 448884739,
+        "rank": 6,
         "name": "deepseek-v4-flash",
         "org": "deepseek",
         "url": "https://openrouter.ai/deepseek/deepseek-v4-flash"
       },
       {
+        "slug": "tencent/hy4-preview-20260827",
+        "tokens": 6813454909029,
+        "requests": 59157759,
+        "rank": 7,
+        "name": "hy4-preview",
+        "org": "tencent",
+        "url": "https://openrouter.ai/tencent/hy4-preview"
+      },
+      {
         "slug": "nvidia/nemotron-3-ultra-550b-a55b-20260604",
-        "tokens": 5881279974385,
-        "requests": 47773558,
+        "tokens": 6217733682437,
+        "requests": 50353245,
         "rank": 8,
         "name": "nemotron-3-ultra-550b-a55b",
         "org": "nvidia",
@@ -625,8 +625,8 @@
       },
       {
         "slug": "openai/gpt-6-luna-20260922",
-        "tokens": 4454710176789,
-        "requests": 198446668,
+        "tokens": 5750265715735,
+        "requests": 235615915,
         "rank": 9,
         "name": "gpt-6-luna",
         "org": "openai",
@@ -634,8 +634,8 @@
       },
       {
         "slug": "deepseek/deepseek-v4-flash-20260423",
-        "tokens": 3247035996619,
-        "requests": 325035147,
+        "tokens": 3206800810452,
+        "requests": 322539293,
         "rank": 10,
         "name": "deepseek-v4-flash",
         "org": "deepseek",
@@ -643,8 +643,8 @@
       },
       {
         "slug": "typesafe/jev-1.13-20260917",
-        "tokens": 2818122948252,
-        "requests": 911952670,
+        "tokens": 3004546225551,
+        "requests": 952274526,
         "rank": 11,
         "name": "jev-1.13",
         "org": "typesafe",
@@ -652,8 +652,8 @@
       },
       {
         "slug": "z-ai/glm-5.3-20260816",
-        "tokens": 2798248598909,
-        "requests": 39306736,
+        "tokens": 2557877271551,
+        "requests": 36685526,
         "rank": 12,
         "name": "glm-5.3",
         "org": "z-ai",
@@ -661,8 +661,8 @@
       },
       {
         "slug": "tencent/hy3-20260706",
-        "tokens": 2453101604989,
-        "requests": 31657161,
+        "tokens": 2200457059222,
+        "requests": 28435754,
         "rank": 13,
         "name": "hy3",
         "org": "tencent",
@@ -670,8 +670,8 @@
       },
       {
         "slug": "google/gemini-3.8-flash-20260902",
-        "tokens": 2054378945293,
-        "requests": 70678299,
+        "tokens": 2134276410951,
+        "requests": 74625471,
         "rank": 14,
         "name": "gemini-3.8-flash",
         "org": "google",
@@ -679,8 +679,8 @@
       },
       {
         "slug": "anthropic/claude-opus-5.5-20260921",
-        "tokens": 1689636624598,
-        "requests": 20442267,
+        "tokens": 2069587947650,
+        "requests": 23641315,
         "rank": 15,
         "name": "claude-opus-5.5",
         "org": "anthropic",

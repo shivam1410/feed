@@ -1,0 +1,14 @@
+---
+title: "Contingent Exposure Routing for Financial AI: Outage Risk and the Cost of Indivisible Decisions"
+category: "Science & Society"
+source: "arXiv (cs.LG)"
+url: "https://arxiv.org/abs/2610.00239"
+authors: ["Shivam Gupta"]
+date: "Fri, 02 Oct 2026 00:00:00 -0400"
+score: 50
+guid: "oai:arXiv.org:2610.00239v1"
+image: ""
+generated: "2026-10-02T21:40:09+05:30"
+---
+
+Model failover restores availability, but changes which financial institutions share decision errors. We formulate outage-contingent routing through a local market-impact response matrix and study expected squared price displacement. A symmetric construction shows that a shared backup can leave an order-one concentration floor as the number of primary endpoints grows, while balanced fallback risk decreases inversely with the surviving endpoint count. For indivisible decisions, we derive the exact second moment of independent randomized routing and an effective-exposure granularity that determines its gap from fractional allocation. Conditional-expectation rounding gives a finite-agent bound without coupled quotas; a separate swap procedure preserves endpoint counts and is assessed against dual lower bounds. Across 60 synthetic portfolio networks and 11,340 scenario evaluations, the latter reduces risk by 6.57% and 10.53% for single and double endpoint removals at the central feedback setting with independent errors. A replay of 1,024 recorded API responses on constructed rebalancing tasks gives a smaller held-out reduction of 3.30% (paired bootstrap interval 2.07--4.57%). Strongly aligned errors, inferior endpoints, and indivisibility limit diversification. The contribution is an auditable routing stress test and implementation analysis, not an estimate of real-market crash probabilities.

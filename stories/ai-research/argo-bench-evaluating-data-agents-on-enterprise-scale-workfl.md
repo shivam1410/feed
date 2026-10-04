@@ -5,10 +5,10 @@ source: "HF Trending Papers"
 url: "https://huggingface.co/papers/2610.02122"
 authors: ["Gabriel Tomitsuka", "Arman Raayatsanati", "Emma Xing", "Duke Gand", "Joseph J Ma"]
 date: "2026-09-30T20:00:00.000Z"
-score: 82
+score: 81
 guid: "2610.02122"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.02122.png"
-generated: "2026-10-02T21:40:09+05:30"
+generated: "2026-10-04T19:07:43+05:30"
 ---
 
-Argo-Bench tests data agents on 210 realistic enterprise analytics and data science tasks. It simulates a food delivery company at realistic scale with 81 million orders in a 235-table warehouse modeled on the Oracle schema. Actions are scored by their consequences in the simulator. Top frontier models score 95 or higher on only 34.8% of tasks, much harder than standard SQL benchmarks.
+Researchers built Argo-Bench, a data analytics benchmark with 210 real enterprise tasks. It simulates a food delivery platform at true scale with 81 million orders, 235 warehouse tables, and 7.5 billion rows. The strongest models score 95 or higher on only 34.8 percent of tasks. Real enterprise workflows are vastly harder than existing text-to-SQL benchmarks because agents must navigate complex schemas and act on reconstructed facts.

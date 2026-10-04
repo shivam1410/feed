@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/s41586-026-11068-4"
 authors: ["Jungmin Kim", "Hosung Ki", "Seonggon Lee", "Alekos Segalina", "Yunbeom Lee", "Hyotcherl Ihee"]
 date: "2026-09-30"
-score: 50
+score: 65
 guid: "10.1038/s41586-026-11068-4"
 image: ""
-generated: "2026-10-02T21:40:09+05:30"
+generated: "2026-10-04T19:07:43+05:30"
 ---
 
-Scientists filmed azobenzene molecules changing shape during chemical reactions using time-resolved X-ray liquidography. The technique captures atomic-scale detail of how molecules rearrange in real time as they transform from one form to another. This method reveals reaction mechanisms with unprecedented precision, showing exactly how molecular structures shift and reorganize their atoms during chemical transformations.
+Scientists captured movie-like footage of a molecule transforming in real time using X-ray beams, revealing atomic-scale detail never seen before. They filmed azobenzene flipping from its trans form to its cis form with unprecedented precision. This technique shows how molecular machinery actually moves and changes shape during chemical reactions, not just its starting and ending points.

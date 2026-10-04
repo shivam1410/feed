@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/s41586-026-11061-x"
 authors: ["Sofia Lövestam", "Aki Shimozawa", "Airi Tarutani", "Reiko Ohtani", "Masami Masuda-Suzukake", "Kazuko Hasegawa", "Andrew C. Robinson", "Yuko Saito", "Shigeo Murayama", "Mari Yoshida", "Hisaomi Suzuki", "Mitsumoto Onaya", "Masato Hasegawa", "Michel Goedert", "Sjors H. W. Scheres"]
 date: "2026-09-30"
-score: 65
+score: 76
 guid: "10.1038/s41586-026-11061-x"
 image: ""
-generated: "2026-10-02T21:40:09+05:30"
+generated: "2026-10-04T19:07:43+05:30"
 ---
 
-Scientists showed that tau proteins from Alzheimer's disease and related neurological disorders spread through mouse brains while keeping their original shapes intact. Different disease strains each had a distinct structure that was copied faithfully each time they were transmitted. This helps us understand how tau diseases spread between cells and why different strains cause different symptoms.
+When Alzheimer's and corticobasal degeneration tau proteins misfold, they keep their distinct structures intact as they spread through mouse brains. Each disease's tau retains its own molecular signature, like a fingerprint that marks it as different. This discovery explains why the same misfolded tau protein causes two different diseases with distinct symptoms and patterns of brain cell damage in patients, based on which structure it assumes.

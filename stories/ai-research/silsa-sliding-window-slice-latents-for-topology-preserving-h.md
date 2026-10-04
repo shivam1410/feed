@@ -5,10 +5,10 @@ source: "HF Trending Papers"
 url: "https://huggingface.co/papers/2610.02201"
 authors: ["Tianjiao Yu", "Xinzhuo Li", "Yifan Shen", "Ying Shen", "Kiet A. Nguyen", "Adheesh Sunil Juvekar", "Ismini Lourentzou"]
 date: "2026-09-30T20:00:00.000Z"
-score: 62
+score: 50
 guid: "2610.02201"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.02201.png"
-generated: "2026-10-02T21:40:09+05:30"
+generated: "2026-10-04T19:07:43+05:30"
 ---
 
 High-resolution 3D generation increasingly relies on voxel latents and multi-stage pipelines that first predict active structure and then synthesize local geometry. While effective, this design fragments continuous surfaces into many local tokens, inflates generation cost, and often weakens topological consistency for thin or highly connected shapes. We introduce SILSA, a topology-aware 3D generation framework that represents shapes with compact sliding-window slice latents. Instead of generating expensive voxel tokens, SILSA uses a fixed set of overlapping slices along the three canonical axes, where each token summarizes a local depth window to preserve cross-sectional continuity and support single-stage rectified-flow generation. A Slice VAE encodes oriented surface samples into multi-axis slice latents and reconstructs them with a sparse volumetric decoder, while a Volumetric Anchor Lattice coordinates directional slice streams through a shared 3D workspace. To preserve structural correctness, we introduce slice-level topology supervision that matches persistence diagrams and aligns Betti transitions across neighboring slices. Experiments show that SILSA improves structural fidelity while substantially reducing generation cost. SILSA improves PSNR by 8.7%, coverage by 5.96 absolute points, and Betti error by 9.2% over the strongest baseline, while using 70.0% fewer tokens than the next-most compact baseline and over 98% fewer tokens than sparse or hierarchical tokenizers, effectively reducing training memory by 40.4% and inference time by 58.5%. Qualitative results further show improved preservation of thin structures, repeated components, and long-range connectivity.

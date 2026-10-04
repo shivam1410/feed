@@ -5,10 +5,10 @@ source: "Latent Space"
 url: "https://www.latent.space/p/foundries-vs-navigators-lowering"
 authors: ["Adrian Sanborn"]
 date: "Thu, 24 Sep 2026 15:03:16 GMT"
-score: 85
+score: 82
 guid: "https://www.latent.space/p/foundries-vs-navigators-lowering"
 image: ""
-generated: "2026-09-30T19:08:55+05:30"
+generated: "2026-10-04T19:07:43+05:30"
 ---
 
-Researchers found that AI speeds up thinking in science, but not physical experiments that take weeks. In biotech, companies like Xaira, NewLimit, and Endura use next-generation sequencing and multiplexing to generate data orders of magnitude faster. This reveals two strategies: foundries that industrialize measurement, and navigators that use AI to plan better experiments. When thinking gets cheap but doing is still slow, the winning move is to industrialize the measurement itself.
+Biotech companies face a paradox: AI made thinking incredibly fast, but physical experiments still take weeks to verify anything. Two approaches are emerging to fix this bottleneck. Foundries like Endura industrialize measurement using next-gen sequencing and multiplexing to generate data roughly ten times faster. Meanwhile, navigators speed up the knowledge work around experiments. The real bottleneck now is doing, not thinking.

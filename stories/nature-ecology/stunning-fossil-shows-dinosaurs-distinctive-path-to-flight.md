@@ -1,14 +1,14 @@
 ---
-title: "Stunning fossil shows dinosaurs' distinctive path to flight"
+title: "Stunning fossil shows dinosaurs’ distinctive path to flight"
 category: "Nature & Ecology"
 source: "Nature"
 url: "https://www.nature.com/articles/d41586-026-03126-8"
 authors: ["Sarah Wild"]
 date: "2026-10-02"
-score: 35
+score: 70
 guid: "10.1038/d41586-026-03126-8"
 image: ""
-generated: "2026-10-02T21:40:09+05:30"
+generated: "2026-10-04T19:07:43+05:30"
 ---
 
-Scientists found a new dinosaur species with feathery wings in China. The fossil shows dinosaurs evolved flight multiple times, each branch finding its own solution. This means flight wasn't invented once but developed independently in different lineages as they competed for air space above their prehistoric world. It challenges the idea that major innovations like flight have single origins.
+Researchers found a fossil of a previously unknown dinosaur species in China with feathery limbs, adding strong evidence that dinosaurs and birds evolved flight independently multiple times during their evolutionary history. The discovery of yet another flying dinosaur reveals this wasn't a one-time breakthrough. This matters because it shows flight was such a successful solution that evolution discovered it repeatedly.

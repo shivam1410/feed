@@ -1,0 +1,14 @@
+---
+title: "Why Does Adaptive Batching Help LLM Pretraining? A Perspective from Unbounded Variance"
+category: "AI Research"
+source: "arXiv (cs.LG)"
+url: "https://arxiv.org/abs/2610.02355"
+authors: ["Arda Fazla, Antesh Upadhyay, Ege C. Kaya, M. Berk Sahin, Abolfazl Hashemi"]
+date: "Mon, 05 Oct 2026 00:00:00 -0400"
+score: 55
+guid: "oai:arXiv.org:2610.02355v1"
+image: ""
+generated: "2026-10-05T19:10:08+05:30"
+---
+
+Increasing the batch size during training is a common practice in large language model (LLM) pretraining, yet the theoretical justification behind its success is not well understood. Analyses of stochastic optimization often assume uniformly bounded stochastic gradient variance, yet recent evidence suggests that this assumption fails in many practical nonconvex problems. The Blum--Gladyshev (BG-$0$) noise model relaxes this assumption by allowing the variance to grow quadratically with the distance from initialization, suggesting that batch size schedulers can help by controlling the variance growth during training. However, this growth can be overly conservative in practice. We empirically investigate variance growth in LLM pretraining and observe that a generalized BG model with a tunable growth exponent provides a tighter description of practical noise behavior. Motivated by this observation, we introduce the generalized BG-$a$ noise model, which interpolates between bounded variance ($a=0$) and BG-$0$ noise ($a=2$). Under $L$-smoothness, we derive an information-theoretic lower bound with growth-dependent oracle complexity $\Omega(\epsilon^{-(4+a)})$ and establish a matching upper bound in $\epsilon$-dependence by increasing the batch size as the iterates move away from initialization. Finally, we propose an adaptive batch scheduler that controls variance growth through dynamic batch size adjustments during training. In pretraining OLMo2 models of up to 1B parameters on C4, our scheduler achieves a lower validation loss than both small and large batch training under matched token budgets, while using less than 10\% of the iterations of small batch training.

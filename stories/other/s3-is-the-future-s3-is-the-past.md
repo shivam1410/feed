@@ -5,10 +5,10 @@ source: "Simon Willison"
 url: "https://simonwillison.net/2026/Sep/27/hn-49871741/"
 authors: []
 date: "2026-09-27T23:09:19+00:00"
-score: 8
+score: 35
 guid: "https://simonwillison.net/2026/Sep/27/hn-49871741/"
 image: ""
-generated: "2026-10-04T19:07:43+05:30"
+generated: "2026-10-05T19:10:08+05:30"
 ---
 
 My comment on S3 Is the Future, S3 Is the Past — Hacker News. One thing I find notable about S3 today is that, while it used to drop in price reasonably often, there hasn't been a price drop in a full decade : 2006-03-14 $0.150/GB-month 2010-11-01 $0.140/GB-month 2012-02-01 $0.125/GB-month 2012-12-01 $0.095/GB-month 2014-02-01 $0.085/GB-month 2014-04-01 $0.030/GB-month 2016-12-01 $0.023/GB-month Today it's still $0.023/GB-month. Tags: amazon-web-services , s3

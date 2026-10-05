@@ -5,10 +5,10 @@ source: "Simon Willison"
 url: "https://simonwillison.net/2026/Sep/24/harder/"
 authors: []
 date: "2026-09-24T23:31:08+00:00"
-score: 60
+score: 85
 guid: "https://simonwillison.net/2026/Sep/24/harder/"
 image: ""
-generated: "2026-10-04T19:07:43+05:30"
+generated: "2026-10-05T19:10:08+05:30"
 ---
 
-The more time I spend working with coding agents, the more convinced I am that they make software engineering even harder. We can do amazing things with them, but unlocking their full potential requires extraordinary discipline and knowledge. Tags: coding-agents , ai , llms
+Coding agents make software engineering harder, requiring extraordinary discipline and knowledge. Why it matters: raises skill floor for engineering work.

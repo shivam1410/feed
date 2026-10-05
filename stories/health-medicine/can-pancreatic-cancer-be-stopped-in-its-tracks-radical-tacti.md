@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/d41586-026-03119-7"
 authors: ["Heidi Ledford"]
 date: "2026-10-01"
-score: 76
+score: 65
 guid: "10.1038/d41586-026-03119-7"
 image: ""
-generated: "2026-10-04T19:07:43+05:30"
+generated: "2026-10-05T19:10:08+05:30"
 ---
 
 With prospects for new treatments at an all-time high, researchers are looking for ways to boost survival by treating the disease early.

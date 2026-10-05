@@ -1,106 +1,106 @@
 {
-  "generatedAt": "2026-10-04T19:08:18+05:30",
+  "generatedAt": "2026-10-05T19:10:43+05:30",
   "source": "Hugging Face — trending models",
   "models": [
     {
       "id": "Cloudflare/clef",
       "task": "image-text-to-text",
-      "likes": 1090,
-      "downloads": 4214,
+      "likes": 1324,
+      "downloads": 5416,
       "library": "transformers",
       "createdAt": "2026-09-30T21:15:35.000Z",
       "url": "https://huggingface.co/Cloudflare/clef",
-      "summary": "27B multimodal decision model that returns typed probabilities for structured questions over images, text, JSON, and video."
+      "summary": "Multimodal decision model accepting text/JSON/images/video that returns calibrated probabilities for typed question options in one pass."
     },
     {
       "id": "convaiinnovations/laya",
       "task": "text-classification",
-      "likes": 5115,
-      "downloads": 3752,
+      "likes": 5201,
+      "downloads": 11733,
       "library": "transformers",
       "createdAt": "2026-09-18T05:05:55.000Z",
       "url": "https://huggingface.co/convaiinnovations/laya",
-      "summary": "Multilingual non-autoregressive decision model returning calibrated probabilities for typed questions over text and JSON inputs."
+      "summary": "Multilingual System 1 decision model returning calibrated probabilities for typed questions in ~33ms across 100+ languages."
     },
     {
       "id": "abenzerps/Qwen-Image-2.1-Uncensored-GGUF",
       "task": "text-to-image",
-      "likes": 3014,
-      "downloads": 1553744,
+      "likes": 3198,
+      "downloads": 1638838,
       "library": "gguf",
       "createdAt": "2026-09-20T15:51:13.000Z",
       "url": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-GGUF",
-      "summary": "GGUF-quantized version of Qwen-Image-2.1 for efficient local text-to-image generation."
-    },
-    {
-      "id": "Lightricks/LTX-2.5",
-      "task": "image-to-video",
-      "likes": 6212,
-      "downloads": 1626951,
-      "library": "diffusion-single-file",
-      "createdAt": "2026-07-23T07:55:24.000Z",
-      "url": "https://huggingface.co/Lightricks/LTX-2.5",
-      "summary": "Diffusion video generation model supporting multimodal inputs including images, text, and audio for video synthesis."
-    },
-    {
-      "id": "Cloudflare/clef-flash",
-      "task": "image-text-to-text",
-      "likes": 396,
-      "downloads": 6372,
-      "library": "transformers",
-      "createdAt": "2026-09-30T21:15:36.000Z",
-      "url": "https://huggingface.co/Cloudflare/clef-flash",
-      "summary": "9B multimodal decision model returning typed probabilities for structured questions over images, text, JSON, and video."
-    },
-    {
-      "id": "Qwen/Qwen3.8-27B",
-      "task": "image-text-to-text",
-      "likes": 16907,
-      "downloads": 6821761,
-      "library": "transformers",
-      "createdAt": "2026-08-05T08:22:59.000Z",
-      "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
-      "summary": "27B vision-language model with flexible thinking control for conversational, coding, and long-context agentic tasks."
-    },
-    {
-      "id": "Qwen/Qwen-Image-2.1",
-      "task": "text-to-image",
-      "likes": 2921,
-      "downloads": 90003,
-      "library": "diffusers",
-      "createdAt": "2026-09-14T03:47:26.000Z",
-      "url": "https://huggingface.co/Qwen/Qwen-Image-2.1",
-      "summary": "7B text-to-image and image editing model with RGBA support, layer editing, and multi-reference customization."
+      "summary": "Quantized GGUF version of Qwen-Image-2.1 for local text-to-image generation."
     },
     {
       "id": "Aleph-Alpha/Kolibri-1",
       "task": "text-generation",
-      "likes": 324,
-      "downloads": 1135,
+      "likes": 532,
+      "downloads": 2453,
       "library": "vllm",
       "createdAt": "2026-10-02T05:54:02.000Z",
       "url": "https://huggingface.co/Aleph-Alpha/Kolibri-1",
-      "summary": "78B German-English MoE reasoning model with explicit reasoning mode, tool calling, and long-context support."
+      "summary": "78B mixture-of-experts reasoning model with explicit reasoning and tool calling, optimized for German, English, and long-context."
+    },
+    {
+      "id": "Lightricks/LTX-2.5",
+      "task": "image-to-video",
+      "likes": 6405,
+      "downloads": 1645444,
+      "library": "diffusion-single-file",
+      "createdAt": "2026-07-23T07:55:24.000Z",
+      "url": "https://huggingface.co/Lightricks/LTX-2.5",
+      "summary": "Multimodal model for image-to-video, text-to-video, video-to-video, and audio-video generation tasks."
+    },
+    {
+      "id": "Cloudflare/clef-flash",
+      "task": "image-text-to-text",
+      "likes": 469,
+      "downloads": 8075,
+      "library": "transformers",
+      "createdAt": "2026-09-30T21:15:36.000Z",
+      "url": "https://huggingface.co/Cloudflare/clef-flash",
+      "summary": "Lightweight 9B multimodal decision model returning probabilities for typed question options from text/JSON/images/video."
+    },
+    {
+      "id": "Venastine-Research/Xing4.0-29B-A4B-GGUF",
+      "task": "text-generation",
+      "likes": 387,
+      "downloads": 18863,
+      "library": "transformers",
+      "createdAt": "2026-09-17T18:37:31.000Z",
+      "url": "https://huggingface.co/Venastine-Research/Xing4.0-29B-A4B-GGUF",
+      "summary": "29B mixture-of-experts model with 4B active tokens, 256K context native support, for complex engineering and agentic tasks."
+    },
+    {
+      "id": "Qwen/Qwen3.8-27B",
+      "task": "image-text-to-text",
+      "likes": 16981,
+      "downloads": 6758884,
+      "library": "transformers",
+      "createdAt": "2026-08-05T08:22:59.000Z",
+      "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
+      "summary": "27B vision-language model with flexible thinking control for complex multi-step tasks using images and videos."
     },
     {
       "id": "PSRben/VisionHOPE",
       "task": "image-classification",
-      "likes": 393,
-      "downloads": 1516,
+      "likes": 415,
+      "downloads": 1654,
       "library": null,
       "createdAt": "2026-09-29T07:28:16.000Z",
       "url": "https://huggingface.co/PSRben/VisionHOPE",
-      "summary": "Visual backbone with hierarchical variants for image classification, object detection, and semantic segmentation."
+      "summary": "Visual backbone supporting ImageNet classification, COCO detection/segmentation, and ADE20K semantic segmentation tasks."
     },
     {
-      "id": "Contrastive-LM/CLM-v0.1-8B",
-      "task": "text-ranking",
-      "likes": 700,
-      "downloads": 3445,
-      "library": "contrastive-lm",
-      "createdAt": "2026-09-21T20:09:04.000Z",
-      "url": "https://huggingface.co/Contrastive-LM/CLM-v0.1-8B",
-      "summary": "8B contrastive model for text ranking and agentic verification with state-action embedding caching."
+      "id": "Qwen/Qwen-Image-2.1",
+      "task": "text-to-image",
+      "likes": 2967,
+      "downloads": 94556,
+      "library": "diffusers",
+      "createdAt": "2026-09-14T03:47:26.000Z",
+      "url": "https://huggingface.co/Qwen/Qwen-Image-2.1",
+      "summary": "7B unified text-to-image and image editing model with transparent (RGBA) generation and multi-reference editing support."
     }
   ],
   "arena": {
@@ -553,8 +553,8 @@
     "models": [
       {
         "slug": "stealth/space-bunny-alpha",
-        "tokens": 35925799850803,
-        "requests": 644380606,
+        "tokens": 38661199699827,
+        "requests": 677017362,
         "rank": 1,
         "name": "space-bunny-alpha",
         "org": "stealth",
@@ -562,8 +562,8 @@
       },
       {
         "slug": "deepseek/deepseek-v4.1-flash-20260910",
-        "tokens": 25632936806017,
-        "requests": 468944340,
+        "tokens": 25612457052035,
+        "requests": 465850858,
         "rank": 2,
         "name": "deepseek-v4.1-flash",
         "org": "deepseek",
@@ -571,8 +571,8 @@
       },
       {
         "slug": "z-ai/glm-5.3-flash-20260826",
-        "tokens": 9570478959426,
-        "requests": 325977675,
+        "tokens": 9737053776201,
+        "requests": 310437397,
         "rank": 3,
         "name": "glm-5.3-flash",
         "org": "z-ai",
@@ -580,8 +580,8 @@
       },
       {
         "slug": "xiaomi/mimo-v2.6-flash-20260921",
-        "tokens": 9535285723501,
-        "requests": 117325363,
+        "tokens": 9625490726409,
+        "requests": 116383388,
         "rank": 4,
         "name": "mimo-v2.6-flash",
         "org": "xiaomi",
@@ -589,35 +589,35 @@
       },
       {
         "slug": "tencent/hy4-preview-20260827",
-        "tokens": 6543977459913,
-        "requests": 57227083,
+        "tokens": 6509715185518,
+        "requests": 56965602,
         "rank": 5,
         "name": "hy4-preview",
         "org": "tencent",
         "url": "https://openrouter.ai/tencent/hy4-preview"
       },
       {
-        "slug": "deepseek/deepseek-v4-flash-20260731",
-        "tokens": 6082783346209,
-        "requests": 439208951,
-        "rank": 6,
-        "name": "deepseek-v4-flash",
-        "org": "deepseek",
-        "url": "https://openrouter.ai/deepseek/deepseek-v4-flash"
-      },
-      {
         "slug": "openai/gpt-6-luna-20260922",
-        "tokens": 6073943000351,
-        "requests": 262052282,
-        "rank": 7,
+        "tokens": 6236214525162,
+        "requests": 271337780,
+        "rank": 6,
         "name": "gpt-6-luna",
         "org": "openai",
         "url": "https://openrouter.ai/openai/gpt-6-luna"
       },
       {
+        "slug": "deepseek/deepseek-v4-flash-20260731",
+        "tokens": 5990763579941,
+        "requests": 421509931,
+        "rank": 7,
+        "name": "deepseek-v4-flash",
+        "org": "deepseek",
+        "url": "https://openrouter.ai/deepseek/deepseek-v4-flash"
+      },
+      {
         "slug": "nvidia/nemotron-3-ultra-550b-a55b-20260604",
-        "tokens": 5770459216017,
-        "requests": 47589717,
+        "tokens": 5675418050537,
+        "requests": 46580350,
         "rank": 8,
         "name": "nemotron-3-ultra-550b-a55b",
         "org": "nvidia",
@@ -625,8 +625,8 @@
       },
       {
         "slug": "openai/gpt-5.6-luna-20260709",
-        "tokens": 5262160916566,
-        "requests": 238032148,
+        "tokens": 4379698577277,
+        "requests": 248229160,
         "rank": 9,
         "name": "gpt-5.6-luna",
         "org": "openai",
@@ -634,8 +634,8 @@
       },
       {
         "slug": "deepseek/deepseek-v4-flash-20260423",
-        "tokens": 3249828564771,
-        "requests": 356004729,
+        "tokens": 3226806691764,
+        "requests": 376377654,
         "rank": 10,
         "name": "deepseek-v4-flash",
         "org": "deepseek",
@@ -643,8 +643,8 @@
       },
       {
         "slug": "typesafe/jev-1.13-20260917",
-        "tokens": 3059847330745,
-        "requests": 954033222,
+        "tokens": 3100048592842,
+        "requests": 946042280,
         "rank": 11,
         "name": "jev-1.13",
         "org": "typesafe",
@@ -652,8 +652,8 @@
       },
       {
         "slug": "z-ai/glm-5.3-20260816",
-        "tokens": 2834146362893,
-        "requests": 41842920,
+        "tokens": 2943848718881,
+        "requests": 44068877,
         "rank": 12,
         "name": "glm-5.3",
         "org": "z-ai",
@@ -661,8 +661,8 @@
       },
       {
         "slug": "anthropic/claude-opus-5.5-20260921",
-        "tokens": 2316510688375,
-        "requests": 24904338,
+        "tokens": 2465635599451,
+        "requests": 25787132,
         "rank": 13,
         "name": "claude-opus-5.5",
         "org": "anthropic",
@@ -670,8 +670,8 @@
       },
       {
         "slug": "google/gemini-3.8-flash-20260902",
-        "tokens": 2155413033520,
-        "requests": 74974712,
+        "tokens": 2183332801497,
+        "requests": 76205860,
         "rank": 14,
         "name": "gemini-3.8-flash",
         "org": "google",
@@ -679,8 +679,8 @@
       },
       {
         "slug": "tencent/hy3-20260706",
-        "tokens": 2145970555775,
-        "requests": 27756952,
+        "tokens": 2071622819245,
+        "requests": 26688140,
         "rank": 15,
         "name": "hy3",
         "org": "tencent",

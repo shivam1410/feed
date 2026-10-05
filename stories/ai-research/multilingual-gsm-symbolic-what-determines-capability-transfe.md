@@ -1,0 +1,15 @@
+---
+title: "Multilingual GSM-Symbolic: What determines capability transfer across languages?"
+category: "AI Research"
+source: "HF Trending Papers"
+url: "https://huggingface.co/papers/2610.03367"
+authors: ["Kenneth Enevoldsen", "Riley Herchert", "Sofie Mosegaard", "Dan Saattrup Smart", "Simon Enni", "Isaac Chung", "Sofie Bruun", "Ayush Sunil Munot", "Max Müller-Eberstein", "Adnan El-Assadi", "Elisa Bassignana", "Gianluca Barmina", "Hafsteinn Einarsson", "Iben Nyholm Debess", "Linda Freienthal", "Lukas Galke Poech", "Mike Zhang", "Nicolas Legrand", "Vladimir Salnikov", "Yevhen Kostiuk", "Zafar Hussain", "Sagandeep Kaur", "Agnes Toftgård", "Marie Mattson", "Kristoffer Nielbo"]
+date: "2026-10-01T20:00:00.000Z"
+score: 56
+guid: "2610.03367"
+image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.03367.png"
+generated: "2026-10-05T19:10:08+05:30"
+---
+
+We understand little about how capabilities acquired in one language carry over to another, or what governs this transfer: evaluations rely on incomparable, saturation-prone datasets and rarely examine its determinants jointly. Identifying what predicts transfer would let us avoid exhaustive evaluation across all language pairs and let developers target the factors that limit performance in low-resource languages. To evaluate cross-lingual capability transfer, we introduce Multilingual GSM-Symbolic, an extensible multilingual mathematical dataset covering 30,000 item-matched question-answer pairs and spanning 15 languages. It utilises symbolic templates to prevent overfitting and ensure generalisation by allowing generation of millions of high-quality variations from a single sample. Using Multilingual GSM-Symbolic, we quantify the largest determinants of capability as model size (β= 1.77), language resource level (β= 0.77), reasoning (β= 0.67) and typological distance (β= -0.25). This joint estimation allows these determinants to be expressed in terms of one another: a 32B model evaluated in Marathi performs like a 10B model in English. Our findings have important implications for model developers, showing that model size and reasoning narrow the performance gap between low- and high-resource languages (β= -0.27 and β= -0.20, respectively), while similar levers have little or no effect on typologically distant languages.
+  Overall, our analysis framework explains 92% of between-language variation, but only 23% of the model-by-language variation, and predicts a model's performance on an unseen language within 6.0pp (r=.96). Incorporating measurements from just 10 templates in the target language reduces this to 4.19pp, enabling reasonable estimates of performance with little or no downstream dataset.

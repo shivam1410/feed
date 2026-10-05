@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/d41586-026-02564-8"
 authors: ["Hannah Docter-Loeb"]
 date: "2026-10-02"
-score: 18
+score: 35
 guid: "10.1038/d41586-026-02564-8"
 image: ""
-generated: "2026-10-04T19:07:43+05:30"
+generated: "2026-10-05T19:10:08+05:30"
 ---
 
 Advocates say that delivering lectures and presentations al fresco can energize students and provide them with a complete experience.

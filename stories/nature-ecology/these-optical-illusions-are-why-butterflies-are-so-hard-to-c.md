@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/d41586-026-03124-w"
 authors: ["Nick Petrić Howe"]
 date: "2026-09-30"
-score: 62
+score: 55
 guid: "10.1038/d41586-026-03124-w"
 image: ""
-generated: "2026-10-04T19:07:43+05:30"
+generated: "2026-10-05T19:10:08+05:30"
 ---
 
-High-speed video footage reveals that butterfly wing patterns create optical illusions when the insects take off, confusing predators and making them harder to catch. The markings fool the eye into misjudging position and trajectory. This explains the evolutionary advantage of these striking and distinctive wing patterns found across butterfly species.
+High-speed cameras reveal that butterfly wing patterns use optical illusions to confuse and actively mislead predators trying to catch them. The distinctive markings trick the eye about the insect's exact movement, speed, and position in space. This clever defense explains why catching a butterfly remains surprisingly difficult despite their apparent slowness, giving them a crucial survival advantage against predators with keen eyesight and fast reflexes.

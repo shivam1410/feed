@@ -8,7 +8,7 @@ date: "2026-09-30"
 score: 65
 guid: "10.1038/s41586-026-11068-4"
 image: ""
-generated: "2026-10-04T19:07:43+05:30"
+generated: "2026-10-05T19:10:08+05:30"
 ---
 
-Scientists captured movie-like footage of a molecule transforming in real time using X-ray beams, revealing atomic-scale detail never seen before. They filmed azobenzene flipping from its trans form to its cis form with unprecedented precision. This technique shows how molecular machinery actually moves and changes shape during chemical reactions, not just its starting and ending points.
+Researchers used X-ray liquidography to film molecules transforming in real-time with atomic precision. They watched azobenzene change shape in liquid solution, capturing every atomic movement during the transformation. This technique reveals how molecular rearrangements work at the fundamental level, which helps chemists design new medicines and advanced materials based on exact structural knowledge.

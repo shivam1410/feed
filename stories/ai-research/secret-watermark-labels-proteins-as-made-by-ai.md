@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/d41586-026-03033-y"
 authors: ["Elie Dolgin"]
 date: "2026-09-30"
-score: 78
+score: 82
 guid: "10.1038/d41586-026-03033-y"
 image: ""
-generated: "2026-10-04T19:07:43+05:30"
+generated: "2026-10-05T19:10:08+05:30"
 ---
 
-An innovative safeguard could help to flag proteins devised by artificial-intelligence tools such as AlphaFold, but the digital marker can be erased.
+Scientists created a hidden digital watermark that labels proteins designed by artificial intelligence tools like AlphaFold so researchers can reliably identify them in studies. The watermark helps track which proteins came from AI rather than natural sources or human manual design. However, the watermark can be erased by those who want to hide it, which raises serious questions about whether it will actually work as a reliable long-term safeguard for science.

@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/d41586-026-02976-6"
 authors: ["Jeffrey Dennis Martin"]
 date: "2026-10-02"
-score: 8
+score: 10
 guid: "10.1038/d41586-026-02976-6"
 image: ""
-generated: "2026-10-04T19:07:43+05:30"
+generated: "2026-10-05T19:10:08+05:30"
 ---
 
 A tricky question.

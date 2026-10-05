@@ -5,10 +5,10 @@ source: "Latent Space"
 url: "https://www.latent.space/p/devday-2026"
 authors: []
 date: "Wed, 30 Sep 2026 22:23:40 GMT"
-score: 95
+score: 85
 guid: "https://www.latent.space/p/devday-2026"
 image: ""
-generated: "2026-10-04T19:07:43+05:30"
+generated: "2026-10-05T19:10:08+05:30"
 ---
 
-This podcast discusses recent progress in computer use and agents. OpenAI created a Decisions API as its answer to Jev, a competing product for fast probabilistic decisions. The piece covers debates about reinforcement learning and computer use, noting that agent development increasingly combines vision, accessibility tools, and code generation. Computer use capabilities are evolving rapidly and becoming central to agent strategy.
+Computer use by AI, where agents navigate software via screenshots, transformed in months. Agents now debug themselves and recover from failures by combining visual input with accessibility data and code. OpenAI released async tool calling, mid-turn steering, WebSockets, UltraFast inference, and Decisions API, making agent-software interaction faster and more flexible. The goal is making AI superhuman at tedious software tasks, from web research to terminal navigation.

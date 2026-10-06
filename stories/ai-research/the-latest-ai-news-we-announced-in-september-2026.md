@@ -5,10 +5,10 @@ source: "DeepMind"
 url: "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026/"
 authors: ["Blog Team"]
 date: "Fri, 02 Oct 2026 15:00:00 +0000"
-score: 65
+score: 60
 guid: "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026/"
 image: "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/September_AI_Recap_hero.max-600x600.format-webp.webp"
-generated: "2026-10-05T19:10:08+05:30"
+generated: "2026-10-06T22:55:59+05:30"
 ---
 
 Here are Google’s latest AI updates from September 2026

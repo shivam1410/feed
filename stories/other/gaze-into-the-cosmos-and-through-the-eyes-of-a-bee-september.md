@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/d41586-026-03101-3"
 authors: ["Davide Castelvecchi"]
 date: "2026-10-01"
-score: 30
+score: 25
 guid: "10.1038/d41586-026-03101-3"
 image: ""
-generated: "2026-10-05T19:10:08+05:30"
+generated: "2026-10-06T22:55:59+05:30"
 ---
 
-The month’s sharpest science shots, selected by Nature’s photo team.
+Nature's photo team selected the best science images from September, ranging from cosmic observations to close-up details like a bee's eye. These striking photos capture visual wonder from both the cosmos and the natural world. It's a monthly celebration of exceptional science photography.

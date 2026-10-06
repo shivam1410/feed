@@ -8,7 +8,7 @@ date: "2026-09-30"
 score: 80
 guid: "10.1038/d41586-026-02965-9"
 image: ""
-generated: "2026-10-05T19:10:08+05:30"
+generated: "2026-10-06T22:55:59+05:30"
 ---
 
-During a super El Niño event with extreme ocean heat, researchers are testing unconventional approaches including underwater sounds and probiotics to help coral reefs survive severe heat stress. These experiments show how desperate the situation has become as climate-driven ocean temperatures reach record levels. The work reflects the urgency of finding any method that might give corals a fighting chance against warming waters.
+Coral reefs face extreme heat stress from a super El Niño event. Scientists are testing approaches to boost survival, including playing underwater sounds and using probiotics. These experimental interventions could help preserve ecosystems facing climate-driven collapse.

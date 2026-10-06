@@ -8,7 +8,7 @@ date: "2026-09-30"
 score: 60
 guid: "10.1038/d41586-026-02963-x"
 image: ""
-generated: "2026-10-05T19:10:08+05:30"
+generated: "2026-10-06T22:55:59+05:30"
 ---
 
 The next major advancement in TB might not be a new drug, but a better understanding of how and why resistance to medicines emerges.

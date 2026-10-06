@@ -8,7 +8,7 @@ date: "2026-10-02"
 score: 30
 guid: "10.1038/d41586-026-03057-4"
 image: ""
-generated: "2026-10-05T19:10:08+05:30"
+generated: "2026-10-06T22:55:59+05:30"
 ---
 
 The Pulitzer-Prize-winning author joins us to talk about his time visiting CERN and communicating quantum physics in fiction.

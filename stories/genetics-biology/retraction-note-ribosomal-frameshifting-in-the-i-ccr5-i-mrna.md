@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/s41586-026-11149-4"
 authors: ["Ashton Trey Belew", "Arturas Meskauskas", "Sharmishtha Musalgaonkar", "Vivek M. Advani", "Sergey O. Sulima", "Wojciech K. Kasprzak", "Bruce A. Shapiro", "Jonathan D. Dinman"]
 date: "2026-10-01"
-score: 30
+score: 5
 guid: "10.1038/s41586-026-11149-4"
 image: ""
-generated: "2026-10-06T22:55:59+05:30"
+generated: "2026-10-07T19:11:01+05:30"
 ---
 
 Retraction Note: Ribosomal frameshifting in the CCR5 mRNA is regulated by miRNAs and the NMD pathway

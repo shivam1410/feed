@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/d41586-026-02967-7"
 authors: ["Marty G. Yang", "Aparna Bhaduri"]
 date: "2026-10-06"
-score: 70
+score: 45
 guid: "10.1038/d41586-026-02967-7"
 image: ""
-generated: "2026-10-06T22:55:59+05:30"
+generated: "2026-10-07T19:11:01+05:30"
 ---
 
-Human brain tissue grown in labs and grafted into mice can produce neurons that can't develop in test tubes alone. Scientists linked the grafted organoids to changes in mouse behavior after brain injury, showing how brain damage leads to behavioral changes. This bridges laboratory work and living brains, letting researchers connect brain biology to behavior in ways impossible in pure lab cultures.
+Cell-based models of the human cortex transplanted into mice produce neurons that are inaccessible in vitro, and could enable scientists to link brain injury to behaviour.

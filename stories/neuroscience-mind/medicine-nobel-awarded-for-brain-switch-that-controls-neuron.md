@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/d41586-026-03091-2"
 authors: ["Miryam Naddaf", "Ewen Callaway"]
 date: "2026-10-05"
-score: 70
+score: 60
 guid: "10.1038/d41586-026-03091-2"
 image: ""
-generated: "2026-10-06T22:55:59+05:30"
+generated: "2026-10-07T19:11:01+05:30"
 ---
 
-Karl Deisseroth, Peter Hegemann and Georg Nagel won the 2026 Nobel Prize in Medicine for optogenetics, using light to control neurons with precision. The technique lets researchers turn specific brain cells on and off instantly with light pulses. This has revolutionized neuroscience by enabling studies that weren't possible before, opening entirely new ways to understand and treat the brain.
+Karl Deisseroth, Peter Hegemann, and Georg Nagel won the Medicine Nobel for inventing optogenetics, which uses light to control neurons. The technique revolutionized neuroscience by allowing researchers to manipulate specific neural circuits with extraordinary precision. This matters because it transformed neuroscience from passive observation to direct experimental control of brain activity.

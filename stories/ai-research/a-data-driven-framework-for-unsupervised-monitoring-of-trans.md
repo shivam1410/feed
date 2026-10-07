@@ -1,0 +1,14 @@
+---
+title: "A Data-Driven Framework for Unsupervised Monitoring of Transmission Systems Using End-of-Line Testing Data: A Case Study at Ford Motor Company"
+category: "AI Research"
+source: "arXiv (cs.LG)"
+url: "https://arxiv.org/abs/2610.06980"
+authors: ["Mohammad N. Bisheh, Mehrdad Moradi, Parinaz Farajiparvar, Colin Brady, Rajesh Gupta, Xueling Li, Javad Navaei, Milad Parvaneh, Kamran Paynabar"]
+date: "Wed, 07 Oct 2026 00:00:00 -0400"
+score: 35
+guid: "oai:arXiv.org:2610.06980v1"
+image: ""
+generated: "2026-10-07T19:11:01+05:30"
+---
+
+Sensing technologies have advanced rapidly across industries ranging from energy to automotive manufacturing. These systems generate high-dimensional (HD) data characterized by complex nonlinear patterns and strong temporal dependencies. Traditional statistical monitoring methods are often limited in their ability to capture such nonlinear structure. Likewise, many analytical approaches used in End-of-Line testing rely on predefined thresholds and heuristic rules, which restrict their ability to detect informative anomaly signatures in HD temporal data. In contrast, while modern deep learning and generative AI models offer strong predictive capabilities, they are often unsuitable in applications where data are costly to collect and where the monitoring system must remain interpretable, low-latency, computationally efficient, and usable by non-technical practitioners. To overcome these limitations, we propose an advanced multivariate monitoring framework for HD data. The framework operates in two stages. In the first stage, the data are preprocessed to remove incomplete and non-informative samples and to temporally align time series data. In the second stage, nonlinear dimensionality reduction is performed, followed by anomaly detection through a control chart based phase I monitoring procedure. The framework can be used in both unsupervised and supervised settings, depending on the availability of ground truth labels during training. Moreover, its flexible and modular structure allows practitioners to adapt its components to different domains and operational requirements. We evaluate the proposed framework on real production data from an automotive manufacturing environment at Ford Motor Company. The proposed method achieves higher accuracy, recall, and F1 score than the company's existing model, improving these metrics from 0.50, 0.30, and 0.429 to 0.625, 1.00, and 0.769, respectively.

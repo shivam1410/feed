@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/d41586-026-03185-x"
 authors: ["Flora Graham"]
 date: "2026-10-05"
-score: 60
+score: 50
 guid: "10.1038/d41586-026-03185-x"
 image: ""
-generated: "2026-10-06T22:55:59+05:30"
+generated: "2026-10-07T19:11:01+05:30"
 ---
 
-Three pioneers of optogenetics have won the 2026 Nobel Prize in Physiology or Medicine. Plus, the funniest nature photography and the physics behind a new science-fiction novel.
+Three optogenetics pioneers won the 2026 Medicine Nobel Prize for groundbreaking work. Optogenetics lets researchers control neurons using light, transforming how scientists study brain circuits and map the brain. This matters because the technology has enabled unprecedented precision in manipulating neural activity and understanding how the brain actually functions.

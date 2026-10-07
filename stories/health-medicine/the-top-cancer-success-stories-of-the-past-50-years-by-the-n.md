@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/d41586-026-03157-1"
 authors: ["Heidi Ledford"]
 date: "2026-10-05"
-score: 55
+score: 30
 guid: "10.1038/d41586-026-03157-1"
 image: ""
-generated: "2026-10-06T22:55:59+05:30"
+generated: "2026-10-07T19:11:01+05:30"
 ---
 
 Outcomes have improved drastically in the United States for some forms of the disease, but those for others continue to lag.

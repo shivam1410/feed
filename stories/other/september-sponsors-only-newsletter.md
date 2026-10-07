@@ -5,10 +5,10 @@ source: "Simon Willison"
 url: "https://simonwillison.net/2026/Oct/3/newsletter/"
 authors: []
 date: "2026-10-03T22:00:31+00:00"
-score: 20
+score: 10
 guid: "https://simonwillison.net/2026/Oct/3/newsletter/"
 image: ""
-generated: "2026-10-06T22:55:59+05:30"
+generated: "2026-10-07T19:11:01+05:30"
 ---
 
-Simon Willison's September sponsor newsletter covers new Fable-class models, ongoing pricing wars, AI for 3D graphics and mathematics, cyberattacks, and database vulnerabilities. It includes software releases and personal recommendations. The value is staying one month ahead of free content.
+I just sent the September edition of my sponsors-only monthly newsletter . If you are a sponsor (or start a sponsorship now) you can access it here . This month: More Fable class models A pricing war 3D graphics, Blender, and pixel art LLMs come for mathematics So many more accidental cyberattacks The vulnapocalypse comes for Datasette What I'm using right now My software releases this month 2026 in LLMs (so far) Here's a copy of the August newsletter as a preview of what you'll get. Pay $10/month to stay a month ahead of the free copy! Tags: newsletter

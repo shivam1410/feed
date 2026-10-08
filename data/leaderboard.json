@@ -1,106 +1,106 @@
 {
-  "generatedAt": "2026-10-07T19:11:33+05:30",
+  "generatedAt": "2026-10-08T19:08:36+05:30",
   "source": "Hugging Face — trending models",
   "models": [
     {
-      "id": "Cloudflare/clef",
-      "task": "image-text-to-text",
-      "likes": 1760,
-      "downloads": 9513,
-      "library": "transformers",
-      "createdAt": "2026-09-30T21:15:35.000Z",
-      "url": "https://huggingface.co/Cloudflare/clef",
-      "summary": "27B multimodal decision model that turns states and typed-question schemas into probability scores in a single forward pass."
-    },
-    {
       "id": "autotrust/JEV-27B-VL",
       "task": "image-text-to-text",
-      "likes": 1492,
-      "downloads": 1529210,
+      "likes": 2622,
+      "downloads": 1533034,
       "library": "transformers",
       "createdAt": "2026-09-30T05:02:23.000Z",
       "url": "https://huggingface.co/autotrust/JEV-27B-VL",
-      "summary": "27B multimodal decision model ranked first on Decision Index for making typed decisions from images and text with calibration."
+      "summary": "JEV-27B-VL is a vision decision model ranked #1 on the Decision Index board, generating calibrated probability outputs for typed decisions from multimodal inputs."
+    },
+    {
+      "id": "Cloudflare/clef",
+      "task": "image-text-to-text",
+      "likes": 1862,
+      "downloads": 10874,
+      "library": "transformers",
+      "createdAt": "2026-09-30T21:15:35.000Z",
+      "url": "https://huggingface.co/Cloudflare/clef",
+      "summary": "Clef is a 27B multimodal decision model that reads state as text, JSON, images, or video and returns probabilities for all question options in one pass."
     },
     {
       "id": "autotrust/GEV-26B-Decide",
       "task": "text-classification",
-      "likes": 1000,
-      "downloads": 895867,
+      "likes": 1641,
+      "downloads": 903866,
       "library": "transformers",
       "createdAt": "2026-10-02T04:20:21.000Z",
       "url": "https://huggingface.co/autotrust/GEV-26B-Decide",
-      "summary": "26B decision model with adaptive thinking on Gemma-4 for making typed decisions with calibrated probabilities across multiple domains."
+      "summary": "GEV-26B-Decide is a 26B decision model based on Gemma4 with adaptive thinking for balanced classification, knowledge reasoning, and tool automation tasks."
     },
     {
       "id": "google/embeddinggemma-2",
       "task": "feature-extraction",
-      "likes": 802,
-      "downloads": 7562,
+      "likes": 1109,
+      "downloads": 21148,
       "library": "transformers",
       "createdAt": "2026-09-14T14:53:42.000Z",
       "url": "https://huggingface.co/google/embeddinggemma-2",
-      "summary": "740M multimodal embedding model mapping text, images, video, and audio into shared 768-dimensional vector space for semantic search."
+      "summary": "EmbeddingGemma-2 is a 740M multimodal embedding model unifying text, images, video, and audio into a shared 768-dimensional vector space for retrieval and search."
     },
     {
       "id": "Aleph-Alpha/Kolibri-1",
       "task": "text-generation",
-      "likes": 757,
-      "downloads": 5775,
+      "likes": 799,
+      "downloads": 6777,
       "library": "vllm",
       "createdAt": "2026-10-02T05:54:02.000Z",
       "url": "https://huggingface.co/Aleph-Alpha/Kolibri-1",
-      "summary": "78B mixture-of-experts reasoning model with 3.46B active parameters supporting explicit reasoning, tool calling, and long contexts in German/English."
+      "summary": "Kolibri-1 is a 78B mixture-of-experts reasoning model optimized for German and English with explicit reasoning, tool calling, and 1M-token context support."
     },
     {
       "id": "abenzerps/Qwen-Image-2.1-Uncensored-GGUF",
       "task": "text-to-image",
-      "likes": 3521,
-      "downloads": 1820627,
+      "likes": 3642,
+      "downloads": 1933066,
       "library": "gguf",
       "createdAt": "2026-09-20T15:51:13.000Z",
       "url": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-GGUF",
-      "summary": "GGUF-quantized Qwen-Image-2.1 for local text-to-image generation with multiple quantization levels ranging from Q4 to BF16 precision."
-    },
-    {
-      "id": "Venastine-Research/Xing4.0-29B-A4B-GGUF",
-      "task": "text-generation",
-      "likes": 613,
-      "downloads": 33633,
-      "library": "transformers",
-      "createdAt": "2026-09-17T18:37:31.000Z",
-      "url": "https://huggingface.co/Venastine-Research/Xing4.0-29B-A4B-GGUF",
-      "summary": "29B mixture-of-experts language model with 4B active parameters supporting 256K context, tool calling, and complex reasoning tasks."
+      "summary": "Qwen-Image-2.1 Uncensored GGUF provides quantized versions of Qwen's text-to-image model for local, efficient image generation on consumer hardware."
     },
     {
       "id": "Cloudflare/clef-flash",
       "task": "image-text-to-text",
-      "likes": 634,
-      "downloads": 15722,
+      "likes": 680,
+      "downloads": 17587,
       "library": "transformers",
       "createdAt": "2026-09-30T21:15:36.000Z",
       "url": "https://huggingface.co/Cloudflare/clef-flash",
-      "summary": "9B multimodal decision model making typed decisions with calibrated probabilities from states and schemas without text generation."
+      "summary": "Clef-Flash is a 9B lightweight multimodal decision model for converting state (text, JSON, images, video) into typed decision probabilities efficiently."
+    },
+    {
+      "id": "Venastine-Research/Xing4.0-29B-A4B-GGUF",
+      "task": "text-generation",
+      "likes": 638,
+      "downloads": 36481,
+      "library": "transformers",
+      "createdAt": "2026-09-17T18:37:31.000Z",
+      "url": "https://huggingface.co/Venastine-Research/Xing4.0-29B-A4B-GGUF",
+      "summary": "Xing4.0 is a 29B mixture-of-experts LLM with 4B active tokens, 256K context, and tool calling, optimized for Ascend NPU hardware."
+    },
+    {
+      "id": "jialinyyzz/humanizer",
+      "task": "text-generation",
+      "likes": 587,
+      "downloads": 23439,
+      "library": "gguf",
+      "createdAt": "2026-09-11T05:00:16.000Z",
+      "url": "https://huggingface.co/jialinyyzz/humanizer",
+      "summary": "Humanizer is a 12B text rewriting model that rewrites AI-generated drafts (emails, essays, reports) to sound naturally human-written while preserving facts."
     },
     {
       "id": "Lightricks/LTX-2.5",
       "task": "image-to-video",
-      "likes": 6738,
-      "downloads": 1674291,
+      "likes": 6873,
+      "downloads": 1688807,
       "library": "diffusion-single-file",
       "createdAt": "2026-07-23T07:55:24.000Z",
       "url": "https://huggingface.co/Lightricks/LTX-2.5",
-      "summary": "Video generation diffusion model supporting image-to-video, text-to-video, video-to-video, and audio-to-video conversions with text-to-audio."
-    },
-    {
-      "id": "convaiinnovations/laya",
-      "task": "text-classification",
-      "likes": 5317,
-      "downloads": 28497,
-      "library": "transformers",
-      "createdAt": "2026-09-18T05:05:55.000Z",
-      "url": "https://huggingface.co/convaiinnovations/laya",
-      "summary": "Multilingual System 1 decision model making typed decisions with calibrated probabilities in ~33ms without text generation or hallucination."
+      "summary": "LTX-2.5 is a multimodal video generation model supporting text-to-video, image-to-video, and audio-to-video conversions with flexible input combinations."
     }
   ],
   "arena": {
@@ -552,27 +552,27 @@
     "url": "https://openrouter.ai/rankings",
     "models": [
       {
-        "slug": "stealth/space-bunny-alpha",
-        "tokens": 33333910115227,
-        "requests": 529727682,
-        "rank": 1,
-        "name": "space-bunny-alpha",
-        "org": "stealth",
-        "url": "https://openrouter.ai/stealth/space-bunny-alpha"
-      },
-      {
         "slug": "deepseek/deepseek-v4.1-flash-20260910",
-        "tokens": 29579162799168,
-        "requests": 502693396,
-        "rank": 2,
+        "tokens": 33606024447486,
+        "requests": 545768577,
+        "rank": 1,
         "name": "deepseek-v4.1-flash",
         "org": "deepseek",
         "url": "https://openrouter.ai/deepseek/deepseek-v4.1-flash"
       },
       {
+        "slug": "stealth/space-bunny-alpha",
+        "tokens": 28002288288187,
+        "requests": 413996536,
+        "rank": 2,
+        "name": "space-bunny-alpha",
+        "org": "stealth",
+        "url": "https://openrouter.ai/stealth/space-bunny-alpha"
+      },
+      {
         "slug": "z-ai/glm-5.3-flash-20260826",
-        "tokens": 10192012613217,
-        "requests": 519032015,
+        "tokens": 10494164216339,
+        "requests": 544512187,
         "rank": 3,
         "name": "glm-5.3-flash",
         "org": "z-ai",
@@ -580,107 +580,107 @@
       },
       {
         "slug": "xiaomi/mimo-v2.6-flash-20260921",
-        "tokens": 9874954863152,
-        "requests": 117247991,
+        "tokens": 10095839060238,
+        "requests": 119840985,
         "rank": 4,
         "name": "mimo-v2.6-flash",
         "org": "xiaomi",
         "url": "https://openrouter.ai/xiaomi/mimo-v2.6-flash"
       },
       {
-        "slug": "openai/gpt-6-luna-20260922",
-        "tokens": 6477118550508,
-        "requests": 296845129,
-        "rank": 5,
-        "name": "gpt-6-luna",
-        "org": "openai",
-        "url": "https://openrouter.ai/openai/gpt-6-luna"
-      },
-      {
         "slug": "tencent/hy4-preview-20260827",
-        "tokens": 6418204850495,
-        "requests": 55945430,
-        "rank": 6,
+        "tokens": 6736262188645,
+        "requests": 58998961,
+        "rank": 5,
         "name": "hy4-preview",
         "org": "tencent",
         "url": "https://openrouter.ai/tencent/hy4-preview"
       },
       {
-        "slug": "deepseek/deepseek-v4-flash-20260731",
-        "tokens": 5787945192925,
-        "requests": 406222456,
-        "rank": 7,
-        "name": "deepseek-v4-flash",
-        "org": "deepseek",
-        "url": "https://openrouter.ai/deepseek/deepseek-v4-flash"
+        "slug": "openai/gpt-6-luna-20260922",
+        "tokens": 6485184211047,
+        "requests": 304257649,
+        "rank": 6,
+        "name": "gpt-6-luna",
+        "org": "openai",
+        "url": "https://openrouter.ai/openai/gpt-6-luna"
       },
       {
         "slug": "nvidia/nemotron-3-ultra-550b-a55b-20260604",
-        "tokens": 5703690043036,
-        "requests": 45550844,
-        "rank": 8,
+        "tokens": 5973165920829,
+        "requests": 47063238,
+        "rank": 7,
         "name": "nemotron-3-ultra-550b-a55b",
         "org": "nvidia",
         "url": "https://openrouter.ai/nvidia/nemotron-3-ultra-550b-a55b"
       },
       {
-        "slug": "typesafe/jev-1.13-20260917",
-        "tokens": 3341921503409,
-        "requests": 981650096,
+        "slug": "deepseek/deepseek-v4-flash-20260731",
+        "tokens": 5533230081137,
+        "requests": 403026008,
+        "rank": 8,
+        "name": "deepseek-v4-flash",
+        "org": "deepseek",
+        "url": "https://openrouter.ai/deepseek/deepseek-v4-flash"
+      },
+      {
+        "slug": "anthropic/claude-opus-5.5-20260921",
+        "tokens": 3377108704725,
+        "requests": 31679486,
         "rank": 9,
+        "name": "claude-opus-5.5",
+        "org": "anthropic",
+        "url": "https://openrouter.ai/anthropic/claude-opus-5.5"
+      },
+      {
+        "slug": "typesafe/jev-1.13-20260917",
+        "tokens": 3322569762328,
+        "requests": 981107613,
+        "rank": 10,
         "name": "jev-1.13",
         "org": "typesafe",
         "url": "https://openrouter.ai/typesafe/jev-1.13"
       },
       {
         "slug": "deepseek/deepseek-v4-flash-20260423",
-        "tokens": 3227246064181,
-        "requests": 380517552,
-        "rank": 10,
+        "tokens": 3208782683132,
+        "requests": 377912306,
+        "rank": 11,
         "name": "deepseek-v4-flash",
         "org": "deepseek",
         "url": "https://openrouter.ai/deepseek/deepseek-v4-flash"
       },
       {
         "slug": "z-ai/glm-5.3-20260816",
-        "tokens": 3063133965177,
-        "requests": 48964777,
-        "rank": 11,
+        "tokens": 3162826921834,
+        "requests": 51763578,
+        "rank": 12,
         "name": "glm-5.3",
         "org": "z-ai",
         "url": "https://openrouter.ai/z-ai/glm-5.3"
       },
       {
-        "slug": "anthropic/claude-opus-5.5-20260921",
-        "tokens": 2932017594347,
-        "requests": 28569175,
-        "rank": 12,
-        "name": "claude-opus-5.5",
-        "org": "anthropic",
-        "url": "https://openrouter.ai/anthropic/claude-opus-5.5"
-      },
-      {
-        "slug": "openai/gpt-5.6-luna-20260709",
-        "tokens": 2361483379394,
-        "requests": 244106187,
-        "rank": 13,
-        "name": "gpt-5.6-luna",
-        "org": "openai",
-        "url": "https://openrouter.ai/openai/gpt-5.6-luna"
-      },
-      {
         "slug": "google/gemini-3.8-flash-20260902",
-        "tokens": 2168998465296,
-        "requests": 78337079,
-        "rank": 14,
+        "tokens": 2130892630989,
+        "requests": 79055716,
+        "rank": 13,
         "name": "gemini-3.8-flash",
         "org": "google",
         "url": "https://openrouter.ai/google/gemini-3.8-flash"
       },
       {
+        "slug": "openai/gpt-5.6-luna-20260709",
+        "tokens": 1958521865151,
+        "requests": 226271521,
+        "rank": 14,
+        "name": "gpt-5.6-luna",
+        "org": "openai",
+        "url": "https://openrouter.ai/openai/gpt-5.6-luna"
+      },
+      {
         "slug": "openai/gpt-5.6-sol-20260709",
-        "tokens": 1770032323652,
-        "requests": 39720269,
+        "tokens": 1772408783371,
+        "requests": 39579339,
         "rank": 15,
         "name": "gpt-5.6-sol",
         "org": "openai",

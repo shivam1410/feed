@@ -5,10 +5,10 @@ source: "Latent Space"
 url: "https://www.latent.space/p/ainews-gemini-4-argon-gdms-answer"
 authors: []
 date: "Thu, 01 Oct 2026 06:45:05 GMT"
-score: 88
+score: 87
 guid: "https://www.latent.space/p/ainews-gemini-4-argon-gdms-answer"
 image: ""
-generated: "2026-10-07T19:11:01+05:30"
+generated: "2026-10-08T19:08:02+05:30"
 ---
 
-Google DeepMind released Gemini 4 Argon for coding, enterprise work, and cyber defense. It achieves state-of-the-art on 13 of 19 benchmarks. The headline feature is Long Decode Continuation, which extends output to one million tokens, an industry first. Access begins with government and security testers, with broader rollout promised soon. This marks Google's return to frontier competition.
+Google DeepMind launched Gemini 4 Argon to compete with newer models from rivals. It achieves state-of-the-art results on 13 of 19 benchmarks and introduces a 1 million token output limit, the highest in the industry. Initial access is limited to government users and cybersecurity experts through Google's Fairwind Program, with broader availability coming soon.

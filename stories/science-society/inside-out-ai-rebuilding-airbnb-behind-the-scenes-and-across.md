@@ -5,10 +5,10 @@ source: "Latent Space"
 url: "https://www.latent.space/p/airbnb"
 authors: ["Richard MacManus"]
 date: "Fri, 02 Oct 2026 14:04:49 GMT"
-score: 65
+score: 75
 guid: "https://www.latent.space/p/airbnb"
 image: ""
-generated: "2026-10-07T19:11:01+05:30"
+generated: "2026-10-08T19:08:02+05:30"
 ---
 
-Airbnb's new CTO Ahmad Al-Dahle, former Meta AI chief, is reshaping the company as AI-native. The inside-out strategy uses AI internally to accelerate product development, then deploys those capabilities externally to transform customer experience. An example: Everest, a custom internal tool, accelerated new external service launches. The challenge shifts from improving frontier models to deploying them at production scale.
+Airbnb's new CTO, who led Meta's Llama model releases, is turning Airbnb into an AI-native company using what he calls inside-out AI. The approach uses custom internal tools to speed up product development first, then translates those same capabilities into customer-facing features. His goal is pushing teams to work differently with AI and deploying systems in ways that add real value to core experiences.

@@ -5,10 +5,10 @@ source: "Latent Space"
 url: "https://www.latent.space/p/ainews-openai-devday-2026-dots-61"
 authors: []
 date: "Wed, 30 Sep 2026 05:53:10 GMT"
-score: 92
+score: 90
 guid: "https://www.latent.space/p/ainews-openai-devday-2026-dots-61"
 image: ""
-generated: "2026-10-07T19:11:01+05:30"
+generated: "2026-10-08T19:08:02+05:30"
 ---
 
-OpenAI launched Dots, always-on agents running on dedicated cloud computers connecting to over 4,000 apps and Slack. They released GPT 6.1 Sol with new ultrafast mode, plus platform updates including Decisions API, Spaces for productivity, and a Marketplace. ChatGPT reached 1.2 billion weekly active users. The announcements signal OpenAI's push into enterprise and agentic work.
+OpenAI announced multiple platform products at DevDay including Dots, always-on voice agents that run on cloud computers and connect to thousands of apps. They also released GPT-6.1 Sol with an ultrafast mode, launched ChatGPT Spaces as a productivity suite, and introduced Decisions and Agents APIs. ChatGPT now has 1.2 billion weekly active users.

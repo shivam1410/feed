@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/d41586-026-03132-w"
 authors: ["Mariana Lenharo"]
 date: "2026-10-07"
-score: 35
+score: 78
 guid: "10.1038/d41586-026-03132-w"
 image: ""
-generated: "2026-10-07T19:11:01+05:30"
+generated: "2026-10-08T19:08:02+05:30"
 ---
 
-Scientists have debated for decades whether the human brain sprouts new neurons throughout life. What would it mean if it could — and how much evidence is enough?
+For over a century scientists have argued about whether your brain makes new neurons throughout life. The evidence is mixed and researchers are still working through it. If it's true, it reshapes what we know about learning, memory, and recovery from brain injury.

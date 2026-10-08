@@ -5,10 +5,10 @@ source: "Simon Willison"
 url: "https://simonwillison.net/2026/Sep/28/claude-sonnet-5-5/"
 authors: []
 date: "2026-09-28T22:07:38+00:00"
-score: 85
+score: 40
 guid: "https://simonwillison.net/2026/Sep/28/claude-sonnet-5-5/"
 image: ""
-generated: "2026-10-07T19:11:01+05:30"
+generated: "2026-10-08T19:08:02+05:30"
 ---
 
-Anthropic released Sonnet 5.5, running 30 percent faster at the same price as Sonnet 5 while beating every benchmark. The free tier on claude.ai now uses Sonnet 5.5, giving users far more capability than ChatGPT's free Luna 5.6 tier. Sonnet 5.5 performs nearly as well as Opus 5.5 on coding tasks including viral 3D animation tricks.
+Claude Sonnet 5.5 New Sonnet model from Anthropic today. They say it "runs 30%+ faster, and costs up to 30% less for most work" - it's priced the same as Sonnet 5 but appears to beat it on every benchmark, and should be cheaper to run as well. Here are some pelicans riding bicycles . Sonnet 5.5 suffered from the same bug as Opus 5.5 : the "max" thinking effort pelican thought for 128,000 tokens (at a cost of $1.28) before running out of tokens and failing to produce an SVG. Here's the pelican it gave me for thinking effort "xhigh", at a cost of 5.74 cents and taking 41 seconds: Sonnet 5.5 appears to be almost as good as Opus 5.5 on some coding tasks, including various viral 3D animation tricks . The most interesting thing about Sonnet 5.5 is that it's now the model used for the free tier on claude.ai . OpenAI's ChatGPT free tier uses Luna 5.6, which means Anthropic currently have a much more capable free offering. I ran this prompt against that free tier: build me an HTML page that renders a three-dimensional pelican riding a bicycle using WebGL And got back this page , which is a solid effort. Anthropic's announcement reiterates that Haiku 5.5 will be available "in the coming weeks". I really hope that one is price-competitive with GPT-6 Luna! Tags: ai , generative-ai , llms , anthropic , claude , pelican-riding-a-bicycle , llm-release

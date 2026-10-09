@@ -5,10 +5,10 @@ source: "Latent Space"
 url: "https://www.latent.space/p/ainews-quasi-riemann-hypothesis-openai"
 authors: []
 date: "Wed, 07 Oct 2026 04:55:44 GMT"
-score: 92
+score: 75
 guid: "https://www.latent.space/p/ainews-quasi-riemann-hypothesis-openai"
 image: ""
-generated: "2026-10-08T19:08:02+05:30"
+generated: "2026-10-10T00:52:03+05:30"
 ---
 
-OpenAI's internal math model generated 722 mathematical papers that solved 90 of the top 500 open math problems in mathematics. The Quasi-Riemann Hypothesis result is considered potentially the biggest breakthrough in number theory in 200 years. Remarkably, these results came from just three hours of ChatGPT Pro use on average.
+OpenAI's internal frontier model solved 90 of the top 500 open mathematical problems and was published as 722 math manuscripts. The Quasi-Riemann Hypothesis solution reportedly ranks as the most significant result in 200 years of number theory, and required only three hours of ChatGPT Pro on average to generate. This marks a major milestone in AI solving long-standing open problems.

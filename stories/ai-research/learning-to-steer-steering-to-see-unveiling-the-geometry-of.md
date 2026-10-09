@@ -1,0 +1,14 @@
+---
+title: "Learning to Steer, Steering to See: Unveiling the Geometry of RLVR in Large Language Models via Trainable Vectors"
+category: "AI Research"
+source: "HF Trending Papers"
+url: "https://huggingface.co/papers/2609.34344"
+authors: ["Yuchen Cai", "Ding Cao", "Qixiang Yin", "Xin Xu", "Kai Yang", "Siye Wu", "Pengyuan Wang", "Jiaxuan Wang", "Weijie Liu", "Saiyong Yang", "Guangzhong Sun", "Guiquan Liu", "Junfeng Fang"]
+date: "2026-09-27T20:00:00.000Z"
+score: 58
+guid: "2609.34344"
+image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.34344.png"
+generated: "2026-10-10T00:52:03+05:30"
+---
+
+Reinforcement learning (RL) has become a key paradigm for enhancing the reasoning of large language models, yet the high dimensionality of parameter updates makes its training dynamics hard to analyze. We study reinforcement learning with verifiable rewards (RLVR) and use vector steering to identify a low-dimensional effective manifold in activation space associated with RL-induced gains. We uncover two geometric properties. (1) Effective Manifold Capacity: the capacity needed to reproduce RL gains can be very small but is not infinitely compressible; at extremely low capacity, intervention dimensionality and input-dependent expressiveness become key constraints, and this requirement varies with injection depth. (2) Control Manifold Separation: effective control directions lie mainly in the low-variance complement of the activation principal subspace. Within a task and base model, the learned geometry stays largely consistent across training configurations, and across tasks geometric alignment correlates with capability transfer. Experiments on 5 LLMs and 6 verifiable-reward tasks support these findings. We then propose Alpha-Stabler, a plug-and-play framework with a Predictor that monitors principal-subspace intrusion for early collapse warnings, and a Controller that removes the principal-subspace component of activation gradients during backpropagation while preserving the orthogonal complement. Alpha-Stabler stabilizes training for 2,000 steps and consistently improves RL gains, offering practical insights for robust post-training. Code: https://github.com/caiyuchen-ustc/On_Policy_Vector_Training

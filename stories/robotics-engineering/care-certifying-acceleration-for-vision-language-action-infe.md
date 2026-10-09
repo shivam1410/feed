@@ -1,0 +1,14 @@
+---
+title: "CARE: Certifying Acceleration for Vision-Language-Action Inference"
+category: "Robotics & Engineering"
+source: "HF Trending Papers"
+url: "https://huggingface.co/papers/2610.08917"
+authors: ["Rui Liu", "Tong Zheng", "Jindong Gu", "Zhipeng Wang"]
+date: "2026-10-05T20:00:00.000Z"
+score: 62
+guid: "2610.08917"
+image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.08917.png"
+generated: "2026-10-10T00:52:03+05:30"
+---
+
+While vision-language-action (VLA) models have advanced rapidly, running them at every control step remains expensive. Prior work accelerates VLA inference using techniques like action chunking and visual-token pruning, typically evaluating based on latency and average task success. However, acceleration may discard information and break tasks the original policy would solve, a risk hidden by average metrics. Measuring these failures is challenging because action deviations compound over closed-loop trajectories, meaning task failure is only observable across full episodes. We therefore define an acceleration-induced failure via paired rollouts from identical initial conditions, tracking when the reference succeeds but the accelerated policy fails. To manage this, we introduce CARE, an approach for certified accelerator selection. CARE uses paired rollouts on a calibration set to provide finite-sample guarantees that acceleration-induced failure risk stays below a user-specified budget. It deploys the fastest certified candidate, falling back to the reference if none qualify. By relying only on terminal outcomes and measured compute, CARE applies unchanged across diverse acceleration mechanisms, while sequential testing and failure-triggered reference rollouts keep certification affordable. On four LIBERO suites with OpenVLA-OFT, CARE certifies 9.0--10.8times speedups while guaranteeing (at 95% confidence) that at least 85.8% of reference-solved episodes are preserved. Under tight budgets, selectors without guarantees exceed the budget in up to 75% of trials, whereas CARE stays within budget and its sequential form uses 78.9% fewer rollouts than exhaustive evaluation. CARE further generalizes to flow-step reduction for π_{0.5}, and to Qwen3.5-9B and Llama-3.1-8B agents in Crafter.

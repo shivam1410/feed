@@ -1,0 +1,14 @@
+---
+title: "ttok 1.0"
+category: "AI Research"
+source: "Simon Willison"
+url: "https://simonwillison.net/2026/Oct/9/ttok/"
+authors: []
+date: "2026-10-09T00:34:43+00:00"
+score: 15
+guid: "https://simonwillison.net/2026/Oct/9/ttok/"
+image: ""
+generated: "2026-10-10T00:52:03+05:30"
+---
+
+Release: ttok 1.0 I released ttok 0.4 , ran uv tool upgrade ttok , piped a file into the new version... and realized that it was defaulting to the GPT-4 tokenizer when it should very clearly default to GPT-5/GPT-6 instead! I figured switching the default was a reasonable excuse to finally ship a 1.0. OpenAI haven't actually confirmed that GPT-6 uses the same tokenizer as the GPT-5 family yet - there's an angry issue about it - but I found this commit by William Liu which reports on an experiment he ran confirming that the tokenizers are likely the same: All seven GPT models (5.5, 5.6 Sol/Terra/Luna, 6 Astra/Sol/Luna) report 44,794 tokens and match each other on every one of the 31 fixtures. GPT-6 introduces no input-count change on this corpus. Tags: projects , ai , openai , generative-ai , llms , tokenization

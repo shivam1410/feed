@@ -1,0 +1,14 @@
+---
+title: "One Block, Multiple Depths: Recurrent Vision Transformers with Depth-Programmed Experts"
+category: "AI Research"
+source: "HF Trending Papers"
+url: "https://huggingface.co/papers/2610.12448"
+authors: ["Adrian Bulat", "Yassine Ouali", "Georgios Tzimiropoulos"]
+date: "2026-10-07T20:00:00.000Z"
+score: 55
+guid: "2610.12448"
+image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.12448.png"
+generated: "2026-10-10T00:52:03+05:30"
+---
+
+In this work, we show that a single Transformer block, applied recurrently, can match the accuracy of a full-depth vision encoder at comparable inference FLOPs without intermediate feature distillation. reViT restores depth-specific transformations by representing the FFN at each recurrent depth as a convex combination of a small shared expert bank. A continuous normalized-depth coordinate programs this mixture, defining a resampleable trajectory through FFN parameter space. We evaluate this design in two regimes: supervised ImageNet-1k training and distillation from a DINOv2 teacher. Across both regimes, controlled adaptations identify weight-space merging as the strongest tested MoE family at a matching one-FFN budget, ahead of the token-dispatch and output-mixture alternatives. Trained from scratch, reViT-B/16 attains DeiT III accuracy with about 70\% fewer stored parameters. An 8-experts model distilled using only the teacher's output features retains nearly all of its DINOv2 teacher's linear-probe accuracy and transfers across classification, segmentation, and depth prediction. Elastic-depth training allows one checkpoint (trained model) to operate at multiple tested depths by resampling the same normalized coordinate interval. For fixed-depth deployment, the recurrent block can be materialized as a conventional dense graph, removing online routing and merging without changing the one-FFN-per-depth compute but expanding deployment storage.

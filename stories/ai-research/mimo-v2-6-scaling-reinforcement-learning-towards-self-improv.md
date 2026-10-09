@@ -1,0 +1,14 @@
+---
+title: "MiMo-V2.6: Scaling Reinforcement Learning Towards Self-Improvement"
+category: "AI Research"
+source: "HF Trending Papers"
+url: "https://huggingface.co/papers/2610.11959"
+authors: ["Core Team", "Zongming Qiao", "Ziyue Hua", "Zirui Ou", "Zihao Yue", "Zihan Jiang", "Zhuo Huang", "Zhiyang Chen", "Zhixian Zheng", "Zhipeng Xu", "Zhengrui Ma", "Yuyang Hu", "Yuhang Dong", "Yuechen Zhang", "Yudong Wang", "Yuanxin Liu", "Yixin Yang", "Yishuo Cai", "Yikai Zhao", "Yihan Yan", "Yifan Zhang", "Yifan Song", "Xiyu Wei", "Xing Zhang", "Xin Zhang", "Xiaoqian Liu", "Xiaodong Ji", "Xiangwei Deng", "Xueyu Guo", "Wenhan Ma", "Weimin Xiong", "Weikun Wang", "Weiji Zhuang", "Shuo Liu", "Shuhuai Ren", "Shuhao Gu", "Shimao Chen", "Shijie Cao", "Shihua Yu", "Shicheng Li", "Shengjie Zhou", "Shaolei Zhang", "Rang Li", "Qiying Wang", "Qingkai Fang", "Qianli Chen", "Minzheng Wang", "Liwen Wang", "Linli Yao", "Linghao Zhang", "Liangyu Cheng", "Liang Zhao", "Lei Li", "Jinhao Dong", "Jinyu Xiang", "Jianyu Wei", "Jiangshan Duo", "Huaqiu Liu", "Huanjie Fan", "Hongyi Guan", "Hongshen Xu", "Hao Tian", "Hanyu Li", "Hailin Zhang", "Gang Wang", "Fuli Luo", "Feng Wei", "Dong Zhang", "Dawei Zhu", "Chiheng Lou", "Chenhong He", "Chenhao He", "Chenghua Liu", "Bowen Ye", "Bowen Shen", "Boshen Xu", "Bo Yang", "Bingquan Xia", "Bangjun Xiao", "Baixuan Xu", "Zhouxiang Mao", "Zhiyang Zhang", "Zhixiang Xu", "Zhenru Lin", "Zhengju Tang", "Zhaojun Huang", "Yuzhe Weng", "Yuxing Xiang", "Yuxiao Li", "Yuheng Yang", "Yuhang Wang", "Yuchen Liu", "Yuanyuan Tian", "Yuanliang Dong", "Yu Cheng", "Yongzhe He", "Yongshun Liang", "Yong Wang", "Yiyan Wang", "Yitian Gong", "Yijie Zhang", "Yanshu Xin", "Xun Zhang", "Xingjian Zhao", "Wenyu Yang", "Wenshan Huang", "Wenhao Li", "Tingwei Huang", "Tianyu Yu", "Tianyang Lu", "Taoyu Yang", "Sinan Du", "Shutong Tian", "Shulin Du", "Shengfan Wang", "Shanchuan Fang", "Qihao Zhang", "Qibin Yang", "Qian Yu", "Qian Tu", "Pengrong Xie", "Peipei Wang", "Peidian Li", "Minkun Guo", "Mingchen Shao", "Luohan Gao", "Lijie Wang", "Liang Shi", "Kaiqi Chen", "Kaiming Liu", "Kaifei Wang", "Kai Yang", "Jinlong Xue", "Jiechen Zhang", "Jiaxuan Liu", "Hongxu An", "Hao Peng", "Hanglong Lü", "Guonan Wang", "Feiyu Yang", "Fanyu Cao", "Fangyue Liu", "Fan Cui", "Cong Wang", "Chun Chen", "Chenxu Bai", "Chengxuan Zhu", "Chenghua Wang", "Boyi Zeng"]
+date: "2026-10-07T20:00:00.000Z"
+score: 86
+guid: "2610.11959"
+image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.11959.png"
+generated: "2026-10-10T00:52:03+05:30"
+---
+
+MiMo-V2.6 scales reinforcement learning for multimodal models, processing 1,568 samples and 2.7 to 3.7 billion tokens per step at context lengths up to 1 million. Training spans code, visual, and cyber domains. The work shows that bigger RL compute and diverse environments improve model self-improvement.

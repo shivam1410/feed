@@ -1,0 +1,14 @@
+---
+title: "VibeEdit: Image Editing with Canvas Instructions"
+category: "AI Research"
+source: "HF Trending Papers"
+url: "https://huggingface.co/papers/2610.12229"
+authors: ["Jinjing Zhao", "Fangyun Wei", "Yitong Wang", "Xiuyu Wu", "Yunuo Chen", "Yang Yue", "Sirui Zhang", "Wenbo Wang", "Hongyang Zhang", "Dong Chen", "Yan Lu", "Chang Xu"]
+date: "2026-10-07T20:00:00.000Z"
+score: 38
+guid: "2610.12229"
+image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.12229.png"
+generated: "2026-10-10T00:52:03+05:30"
+---
+
+In text-guided image editing, describing the desired change is often straightforward, but identifying the intended object or region can be cumbersome, especially when several objects look alike. We introduce a new image editing interface that lets users place spatial marks and optional short notes directly on the image. Together, these annotations form a canvas instruction that specifies where to edit and what to change. Our editor, VibeEdit, follows these instructions to perform object addition, removal, replacement, attribute modification, and movement without a separate text prompt. We construct 1.55 million source-target edit pairs with object masks and structured edit descriptions, from which we render canvas instructions during training. We adapt Qwen-Image-Edit with layer-decoupled conditioning that separately encodes source images and canvas instructions for image editing. We train the model with region-weighted supervised fine-tuning, followed by rubric-guided reinforcement learning to improve edit completion, local edit quality, and preservation of unedited regions. We evaluate VibeEdit on an independently constructed, human-curated benchmark of 419 cases emphasizing target selection among similar objects. VibeEdit achieves a VLM rubric score of 79.9 and an outside-region PSNR of 32.8 dB, compared with 67.4 and 24.0 dB for FireRed, the highest-scoring text-instructed baseline in our evaluation.

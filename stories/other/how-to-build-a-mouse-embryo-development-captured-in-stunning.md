@@ -8,7 +8,7 @@ date: "2026-10-08"
 score: ""
 guid: "10.1038/d41586-026-03193-x"
 image: ""
-generated: "2026-10-10T00:52:03+05:30"
+generated: "2026-10-14T19:00:21+05:30"
 ---
 
-Gene-editing technologies enabled researchers to trace the cell-by-cell development of a single fertilised mouse egg to a late-stage embryo.
+Gene-editing technologies enabled researchers to trace the cell-by-cell development of a single fertilized mouse egg to a late-stage embryo.

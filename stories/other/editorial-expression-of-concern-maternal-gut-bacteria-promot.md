@@ -8,7 +8,7 @@ date: "2026-10-08"
 score: ""
 guid: "10.1038/s41586-026-11070-w"
 image: ""
-generated: "2026-10-10T00:52:03+05:30"
+generated: "2026-10-14T19:00:21+05:30"
 ---
 
 Editorial Expression of Concern: Maternal gut bacteria promote neurodevelopmental abnormalities in mouse offspring

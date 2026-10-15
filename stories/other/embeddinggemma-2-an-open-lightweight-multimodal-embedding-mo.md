@@ -8,7 +8,7 @@ date: "Tue, 06 Oct 2026 16:00:00 +0000"
 score: ""
 guid: "https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/"
 image: "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/embeddinggemma2-banner_169.max-600x600.format-webp.webp"
-generated: "2026-10-14T19:00:21+05:30"
+generated: "2026-10-15T19:00:19+05:30"
 ---
 
 Introducing EmbeddingGemma 2, an open multimodal embedding model optimized for privacy-first use cases

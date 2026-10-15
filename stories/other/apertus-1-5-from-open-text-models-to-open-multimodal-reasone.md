@@ -1,0 +1,14 @@
+---
+title: "Apertus 1.5: From Open Text Models to Open Multimodal Reasoners"
+category: "Other"
+source: "HF Trending Papers"
+url: "https://huggingface.co/papers/2610.15542"
+authors: ["Project Apertus", "Yixuan Xu", "Yassine Turki", "Vinko Sabolčec", "Valentina Pyatkin", "Tommy Chu", "Sven Najem-Meyer", "Sean F. Carroll", "Robert Smith", "Raphael Kreft", "Oscar Alessandro Tazza", "Oleg Lavrovsky", "Nicola Irmiger", "Matteo Santelmo", "Marian Schneider", "Juan García Giraldo", "Hanna Yukhymenko", "Eduard Ďurech", "Davit Melikidze", "Dani Tamayo", "Bettina Messmer", "Aryan Ahadinia", "Anunay Yadav", "Allen Huang", "Ahmad Fraij", "Alessandro Bombarda", "Alex Padula", "Alexander Hägele", "Alexander Sternfeld", "Anna Hedström", "Anna Kosovskaia", "Arthur Wuhrmann", "Arundhati Balasubramaniam", "Badr Al Mahouri", "Barna Pasztor", "Bartosz Szostakiewicz", "Bich Ngoc Doan", "Bryan Schmid", "Burak Sezen", "Camille Challier", "Clément Charmillot", "Dana Shayakhmetova", "Daniel Perruchoud", "David Brüggemann", "David Isztl", "Elia Palme", "Emma Anastassova", "Fabian Bösch", "Faruk Zahiragić", "Fawzi Roberto Mohamed", "Fiona Panicali", "Florian Kolly", "Flynn Guerra", "Francesco Monti", "Frederike Lübeck", "Gennaro Oliva", "Haofeng Yang", "Haoliang Shang", "Helen El Khoury", "Henrique Mendonça", "Jannis Vamvas", "Jérome Landolt", "Jessica Lam", "Jingchun Xiao", "Jonathan Coles", "Joshua Oyebanji", "Khanh Nguyen", "Konstantinos Pitas", "Lasse B. Strand", "Li Mi", "Loïc Deslarzes", "Lorenzo Baggi", "Lorenzo Noci", "Luca Baumann", "Luca Sartori", "Lukas Drescher", "Marco De Negri", "Marco Passerini", "Mark Klein", "Marko Stojanovic", "Martin Majsec", "Matin Ansaripour", "Mattea Busato", "Mauro Pellonara", "Max Neuwinger", "Michael Graber", "Michal Tešnar", "Michelle Wastl", "Miguel Gila", "Mikolaj Boronski", "Morgane Magnin", "Moritz Reihs", "Mukhammadali Sayfiddinov", "Nathan Ranchin", "Nicolas Cuveillier", "Oscar Wohlfahrt", "Qianqian Zou", "Rada Kamysheva", "Rita Sevastjanova", "Roman Machacek", "Sebastian Keller", "Simon Matrenok", "Simon Pierre", "Stefano Schuppli", "Suei-Wen Chen", "Szabina Horváth-Mikulas", "Taliesin Perez", "Thilo Spinner", "Thomas Kleine Buening", "Tim Robinson", "Tymoteusz Kwiecinski", "Vilém Zouhar", "Vinzenz Thoma", "Xiaozhe Yao", "Yannick Metz", "Yuhei Fukuhara", "Yusif Askari", "Zixuan Chen", "Alexander Ilic", "Ana Klimovic", "Andreas Krause", "Andrei Kucharavy", "Elliott Ash", "Joost VandeVondele", "Martin Rajman", "Mennatallah El-Assady", "Thomas Schulthess", "Timo Kehrer", "Torsten Hoefler", "Antoine Bosselut", "Martin Jaggi", "Imanol Schlag"]
+date: "2026-10-10T20:00:00.000Z"
+score: ""
+guid: "2610.15542"
+image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.15542.png"
+generated: "2026-10-15T19:00:19+05:30"
+---
+
+Apertus 1.5 extends open multimodal language models to image and audio reasoning with long-context training, reinforcement learning, and fully open data and weights.

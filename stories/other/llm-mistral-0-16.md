@@ -8,7 +8,7 @@ date: "2026-10-06T21:32:34+00:00"
 score: ""
 guid: "https://simonwillison.net/2026/Oct/6/llm-mistral/"
 image: ""
-generated: "2026-10-14T19:00:21+05:30"
+generated: "2026-10-15T19:00:19+05:30"
 ---
 
 Release: llm-mistral 0.16 Adds support for reasoning models, such as the newly released Mistral Large 4 . Tags: llm , mistral , llm-reasoning

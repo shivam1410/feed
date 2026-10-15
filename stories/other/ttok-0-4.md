@@ -8,7 +8,7 @@ date: "2026-10-08T23:34:28+00:00"
 score: ""
 guid: "https://simonwillison.net/2026/Oct/8/ttok/"
 image: ""
-generated: "2026-10-14T19:00:21+05:30"
+generated: "2026-10-15T19:00:19+05:30"
 ---
 
 Release: ttok 0.4 ttok is my CLI tool for counting tokens, using OpenAI's open source tiktoken library. It hasn't been in updated in a couple of years, but I finally fixed a Click warning, updated CI, and added a --list-models command to list available models. It works with uvx , so you can count tokens in anything like this: cat file.txt | uvx ttok Tags: projects , ai , openai , generative-ai , llms , tokenization

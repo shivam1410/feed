@@ -8,7 +8,7 @@ date: "2026-10-14"
 score: ""
 guid: "10.1038/s41586-026-11164-5"
 image: ""
-generated: "2026-10-15T19:00:19+05:30"
+generated: "2026-10-16T19:00:16+05:30"
 ---
 
 A mouse embryo model derived from chemically induced totipotent-like stem cells progresses through key developmental milestones, including gastrulation, embryonic axis formation, haematopoiesis and early organogenesis.

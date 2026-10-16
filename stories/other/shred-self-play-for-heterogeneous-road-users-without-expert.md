@@ -1,0 +1,14 @@
+---
+title: "SHRED: Self-Play for Heterogeneous Road-Users without Expert Demonstrations"
+category: "Other"
+source: "arXiv (cs.LG)"
+url: "https://arxiv.org/abs/2610.20866"
+authors: ["Wei-Jer Chang, Zhouchonghao Wu, Akshay Rangesh, Weixin Li, Masayoshi Tomizuka, Wei Zhan"]
+date: "Fri, 16 Oct 2026 00:00:00 -0400"
+score: ""
+guid: "oai:arXiv.org:2610.20866v1"
+image: ""
+generated: "2026-10-16T19:00:16+05:30"
+---
+
+Realistic traffic simulation and autonomous planning both depend on modeling interactions among heterogeneous road users whose dynamics, constraints, and behaviors differ fundamentally. Existing approaches predominantly learn realistic interaction behavior from large-scale human driving demonstrations. In this work, we ask whether such behavior can instead emerge purely through self-play. We present SHRED, a framework that jointly trains vehicles, pedestrians, and cyclists through large-scale heterogeneous self-play from random initialization, without demonstrations or logged-trajectory replay. SHRED combines type-specific dynamics and objectives with procedural scenario generation and per-agent randomization, allowing diverse behaviors to emerge through closed-loop interaction. On the Waymo Open Sim Agents Challenge (WOSAC), SHRED jointly controls all three road-user types and outperforms both the closest demonstration-free self-play baseline and prior self-play methods that use demonstration-trained reference policies. Policies trained only on nuPlan map geometry retain comparable realism under zero-shot evaluation on Waymo. For planning, SHRED outperforms all compared planners on the interaction-heavy InterPlan benchmark. Controlled ablations show that heterogeneity in self-play improves both traffic realism and planning performance, with particularly large planning gains in interaction-heavy scenarios. Together, these results establish heterogeneous procedural self-play as a scalable, demonstration-free paradigm for learning realistic and interactive traffic behavior.

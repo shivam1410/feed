@@ -8,7 +8,7 @@ date: "Wed, 14 Oct 2026 08:00:00 +0000"
 score: ""
 guid: "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/were-powering-european-scientific-discovery-with-advanced-ai-compute-and-frontier-models/"
 image: "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/ireland-innovation-companies-st.max-600x600.format-webp.webp"
-generated: "2026-10-15T19:00:19+05:30"
+generated: "2026-10-16T19:00:16+05:30"
 ---
 
 Google DeepMind and Google Cloud are providing up to 200 top European scientific researchers with direct access to our frontier models, together with $3 million in compu…

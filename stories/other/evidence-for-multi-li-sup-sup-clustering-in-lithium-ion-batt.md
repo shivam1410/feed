@@ -8,7 +8,7 @@ date: "2026-10-14"
 score: ""
 guid: "10.1038/s41586-026-11138-7"
 image: ""
-generated: "2026-10-15T19:00:19+05:30"
+generated: "2026-10-16T19:00:16+05:30"
 ---
 
 Machine-learning-enabled atomistic simulations, spectroscopy, electrochemical data and quantum-chemical calculations reveal previously unstudied multi-lithium-ion complexes without bound anions, improving understanding of lithium-ion-battery functionality at the atomic level.

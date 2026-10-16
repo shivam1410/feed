@@ -8,7 +8,7 @@ date: "2026-10-14"
 score: ""
 guid: "10.1038/s41586-026-11065-7"
 image: ""
-generated: "2026-10-15T19:00:19+05:30"
+generated: "2026-10-16T19:00:16+05:30"
 ---
 
 The mechanical properties of medium-entropy alloys at 20 K show a plateau in tensile yield strength and fracture toughness as a function of temperature, with no apparent ductile-to-brittle transition.

@@ -8,7 +8,7 @@ date: "2026-10-14"
 score: ""
 guid: "10.1038/s41586-026-11117-y"
 image: ""
-generated: "2026-10-15T19:00:19+05:30"
+generated: "2026-10-16T19:00:16+05:30"
 ---
 
 Scanning tunnelling spectroscopy shows that the fractional spin-1/2 end states of molecular Haldane chains couple differently to a superconducting condensate depending on whether the chain contains an even or odd number of spin-1 triangulene units.

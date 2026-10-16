@@ -8,7 +8,7 @@ date: "2026-10-14"
 score: ""
 guid: "10.1038/s41586-026-11167-2"
 image: ""
-generated: "2026-10-15T19:00:19+05:30"
+generated: "2026-10-16T19:00:16+05:30"
 ---
 
 RFdiffusion methods are used to de novo design proteins with water-activating zinc-based active sites adjacent to a peptide substrate binding pocket, yielding highly active, programmable proteases with potential applications in therapeutics, biotechnology and bioremediation.

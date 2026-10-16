@@ -8,7 +8,7 @@ date: "2026-10-14"
 score: ""
 guid: "10.1038/s41586-026-11150-x"
 image: ""
-generated: "2026-10-15T19:00:19+05:30"
+generated: "2026-10-16T19:00:16+05:30"
 ---
 
 Longitudinal genomic analyses in patients with astrocytoma or oligodendrioglioma suggest that these two types of tumour differ in the mechanisms by which they become resistant to treatment, with astrocytomas accumulating copy-number alterations and chromosomal instability markers but oligodendrogliomas acquiring new driver mutations.

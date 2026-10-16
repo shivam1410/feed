@@ -8,7 +8,7 @@ date: "2026-10-14"
 score: ""
 guid: "10.1038/s41586-026-11176-1"
 image: ""
-generated: "2026-10-15T19:00:19+05:30"
+generated: "2026-10-16T19:00:16+05:30"
 ---
 
 A tetravalent nanobody-based myeloid-selective IL-10 receptor agonist recapitulates IL-10’s potent suppression of monocytes, macrophages and dendritic cells while avoiding stimulation of T cells.

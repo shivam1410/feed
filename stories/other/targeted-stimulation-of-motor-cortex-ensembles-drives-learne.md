@@ -8,7 +8,7 @@ date: "2026-10-14"
 score: ""
 guid: "10.1038/s41586-026-11174-3"
 image: ""
-generated: "2026-10-15T19:00:19+05:30"
+generated: "2026-10-16T19:00:16+05:30"
 ---
 
 Optogenetic stimulation of motor-cortex neuron ensembles shows that precisely timed activity in the primary motor cortex can generate learned neural patterns and movements, demonstrating an active role in skilled motor control.

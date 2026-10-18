@@ -8,7 +8,7 @@ date: "2026-10-08T20:00:00.000Z"
 score: ""
 guid: "2610.14232"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.14232.png"
-generated: "2026-10-16T19:00:16+05:30"
+generated: "2026-10-18T19:00:43+05:30"
 ---
 
 A convolutional-Transformer model detects 54 speech and background event classes with timestamped outputs merged into transcripts, trained on unified multi-source annotations with synthetic augmentation.

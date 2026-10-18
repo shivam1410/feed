@@ -8,7 +8,7 @@ date: "2026-10-14"
 score: ""
 guid: "10.1038/s41586-026-11171-6"
 image: ""
-generated: "2026-10-16T19:00:16+05:30"
+generated: "2026-10-18T19:00:43+05:30"
 ---
 
 R(+)2501 reverses capillary no-reflow by relaxing pericytes, restoring microvascular perfusion and improving survival in animal models of myocardial infarction and acute kidney injury.

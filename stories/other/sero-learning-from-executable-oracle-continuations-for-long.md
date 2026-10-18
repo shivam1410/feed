@@ -8,7 +8,7 @@ date: "2026-10-13T20:00:00.000Z"
 score: ""
 guid: "2610.19397"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.19397.png"
-generated: "2026-10-16T19:00:16+05:30"
+generated: "2026-10-18T19:00:43+05:30"
 ---
 
 SERO improves long-horizon agentic reinforcement learning by training on executable oracle continuations from real policy states, weighted by policy compatibility, without inference-time overhead.

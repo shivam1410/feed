@@ -8,7 +8,7 @@ date: "2026-10-14"
 score: ""
 guid: "10.1038/s41586-026-11157-4"
 image: ""
-generated: "2026-10-16T19:00:16+05:30"
+generated: "2026-10-18T19:00:43+05:30"
 ---
 
 A globally representative sample of 25 countries and territories indicates that conservation areas cover 26.81% of the land, much closer to the 30% by 2030 target than officially reported.

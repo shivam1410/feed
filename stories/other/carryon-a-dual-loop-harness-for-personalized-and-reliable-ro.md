@@ -8,7 +8,7 @@ date: "2026-10-14T20:00:00.000Z"
 score: ""
 guid: "2610.21453"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.21453.png"
-generated: "2026-10-16T19:00:16+05:30"
+generated: "2026-10-18T19:00:43+05:30"
 ---
 
 CarryOn enhances frozen vision-language-action policies with persistent personalized planning and supervised execution with recovery skills to improve safety and adaptability.

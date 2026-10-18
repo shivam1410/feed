@@ -8,7 +8,7 @@ date: "2026-10-16"
 score: ""
 guid: "10.1038/d41586-026-03195-9"
 image: ""
-generated: "2026-10-16T19:00:16+05:30"
+generated: "2026-10-18T19:00:43+05:30"
 ---
 
 The mitoproteomes of five parasites and a plant hold medical potential — and reignite the question of just when the mitochondrion evolved.

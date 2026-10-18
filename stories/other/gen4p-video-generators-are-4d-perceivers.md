@@ -8,7 +8,7 @@ date: "2026-10-14T20:00:00.000Z"
 score: ""
 guid: "2610.22371"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.22371.png"
-generated: "2026-10-16T19:00:16+05:30"
+generated: "2026-10-18T19:00:43+05:30"
 ---
 
 Gen4P repurposes a pretrained video generator into a feed-forward 4D perceiver that predicts geometry and motion from monocular video via on-demand cross-attention decoding and frozen depth priors.

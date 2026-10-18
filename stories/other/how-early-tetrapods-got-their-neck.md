@@ -8,7 +8,7 @@ date: "2026-10-14"
 score: ""
 guid: "10.1038/d41586-026-03061-8"
 image: ""
-generated: "2026-10-16T19:00:16+05:30"
+generated: "2026-10-18T19:00:43+05:30"
 ---
 
 As fish evolved into four-limbed creatures, their skull separated from their shoulders to form a neck. Now we learn that this early neck was surprisingly rigid.

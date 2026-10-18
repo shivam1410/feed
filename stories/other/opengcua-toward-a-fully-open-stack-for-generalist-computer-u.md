@@ -8,7 +8,7 @@ date: "2026-10-14T20:00:00.000Z"
 score: ""
 guid: "2610.22200"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.22200.png"
-generated: "2026-10-16T19:00:16+05:30"
+generated: "2026-10-18T19:00:43+05:30"
 ---
 
 OpenGCUA introduces an open generalist computer-use agent that integrates visual and programmatic interfaces, harness-to-model decision transfer, and code execution to improve task performance and efficiency across models.

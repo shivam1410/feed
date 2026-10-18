@@ -8,7 +8,7 @@ date: "2026-10-13T20:00:00.000Z"
 score: ""
 guid: "2610.20939"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.20939.png"
-generated: "2026-10-16T19:00:16+05:30"
+generated: "2026-10-18T19:00:43+05:30"
 ---
 
 MAI-Gym is an open platform that unifies GUI agent evaluation, data collection, and online reinforcement learning training across mobile, computer, and web environments, enabling scalable synthesis of verified tasks and training of a unified 9B agent with state-of-the-art open performance.

@@ -8,7 +8,7 @@ date: "2026-10-16"
 score: ""
 guid: "10.1038/d41586-026-03253-2"
 image: ""
-generated: "2026-10-16T19:00:16+05:30"
+generated: "2026-10-18T19:00:43+05:30"
 ---
 
 US PhD graduates who used artificial intelligence were more likely to work in industry.

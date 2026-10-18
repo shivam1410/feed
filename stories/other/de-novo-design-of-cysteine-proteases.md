@@ -8,7 +8,7 @@ date: "2026-10-14"
 score: ""
 guid: "10.1038/s41586-026-11143-w"
 image: ""
-generated: "2026-10-16T19:00:16+05:30"
+generated: "2026-10-18T19:00:43+05:30"
 ---
 
 De novo-designed enzymes use an activated cysteine nucleophile to hydrolyse polypeptide backbones in a sequence-dependent manner.

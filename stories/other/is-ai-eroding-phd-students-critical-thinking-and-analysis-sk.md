@@ -8,7 +8,7 @@ date: "2026-10-15"
 score: ""
 guid: "10.1038/d41586-026-03178-w"
 image: ""
-generated: "2026-10-16T19:00:16+05:30"
+generated: "2026-10-18T19:00:43+05:30"
 ---
 
 An expert panel debates the impact of artificial intelligence on doctoral programmes.

@@ -8,7 +8,7 @@ date: "2026-10-14"
 score: ""
 guid: "10.1038/d41586-026-03222-9"
 image: ""
-generated: "2026-10-16T19:00:16+05:30"
+generated: "2026-10-18T19:00:43+05:30"
 ---
 
 The nation is on a trajectory to lead the world in science, a development that will reshape technological advancement, innovation and the balance of global power.

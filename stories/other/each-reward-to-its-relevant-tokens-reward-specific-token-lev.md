@@ -8,7 +8,7 @@ date: "2026-10-15T03:47:04.000Z"
 score: ""
 guid: "2610.21439"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.21439.png"
-generated: "2026-10-16T19:00:16+05:30"
+generated: "2026-10-18T19:00:43+05:30"
 ---
 
 MRTPO improves multi-reward training by assigning each reward's advantage only to relevant tokens via replay-based relevance measurement, accelerating convergence and boosting performance.

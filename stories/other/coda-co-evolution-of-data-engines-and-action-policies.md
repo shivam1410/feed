@@ -8,7 +8,7 @@ date: "2026-10-14T20:00:00.000Z"
 score: ""
 guid: "2610.22362"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.22362.png"
-generated: "2026-10-16T19:00:16+05:30"
+generated: "2026-10-18T19:00:43+05:30"
 ---
 
 CoDA co-evolves a simulation engine and robot policy via shared memory of failures and progress, using vision-language diagnostics and staged potential rewards to improve out-of-distribution manipulation success.

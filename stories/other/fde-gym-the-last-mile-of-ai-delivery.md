@@ -8,7 +8,7 @@ date: "2026-10-14T20:00:00.000Z"
 score: ""
 guid: "2610.22350"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.22350.png"
-generated: "2026-10-16T19:00:16+05:30"
+generated: "2026-10-18T19:00:43+05:30"
 ---
 
 FDE-Gym evaluates AI agents on realistic customer delivery tasks requiring clarification of ambiguous requirements and discovery of unstated constraints, revealing a substantial performance gap compared to well-specified benchmarks.

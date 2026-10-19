@@ -5,10 +5,10 @@ source: "Latent Space"
 url: "https://www.latent.space/p/ainews-quasi-riemann-hypothesis-openai"
 authors: []
 date: "Wed, 07 Oct 2026 04:55:44 GMT"
-score: 75
+score: 90
 guid: "https://www.latent.space/p/ainews-quasi-riemann-hypothesis-openai"
 image: ""
-generated: "2026-10-10T00:52:03+05:30"
+generated: "2026-10-19T19:03:54+05:30"
 ---
 
-OpenAI's internal frontier model solved 90 of the top 500 open mathematical problems and was published as 722 math manuscripts. The Quasi-Riemann Hypothesis solution reportedly ranks as the most significant result in 200 years of number theory, and required only three hours of ChatGPT Pro on average to generate. This marks a major milestone in AI solving long-standing open problems.
+OpenAI published 722 math manuscripts from an unreleased internal model, all in a public GitHub repo. The newsletter says they solve 90 of the top 500 open math problems. One result, the Quasi-Riemann Hypothesis, is described as somewhere between a Fields Medal result and the biggest number theory result in 200 years. The earlier Navier-Stokes work took 88 hours and 10,000 agents. These solutions took about 3 hours of ChatGPT Pro on average. Most experts seem to agree it solves many of the top 500, though the claims need some qualifying. Why it matters: if these hold up, AI is tackling hard open math problems.

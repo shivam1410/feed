@@ -1,0 +1,14 @@
+---
+title: "Next Token or Vector? Learning How Far to Decode"
+category: "AI Research"
+source: "arXiv (cs.LG)"
+url: "https://arxiv.org/abs/2610.22788"
+authors: ["Sai Sreenivas Chintha, Chidera Biringa, Rishab Sharma, Anusha Agrawal, Prachi Badarayani, Gemma Zhang, Nigel Boachie Kumankumah, Marco Ayala, Sulaiman Vesal"]
+date: "Mon, 19 Oct 2026 00:00:00 -0400"
+score: 40
+guid: "oai:arXiv.org:2610.22788v1"
+image: ""
+generated: "2026-10-19T19:03:54+05:30"
+---
+
+Standard autoregressive decoding advances one token at a time, even when several upcoming tokens can be predicted together. We propose CADENCE (Context-Adaptive DEcoding), a generation method that learns both what to draft and how far to draft. Gaussian prediction heads represent future spans as continuous latent vectors, and a shared decoder converts the selected vector into token predictions in parallel. A learned router selects the prediction length from the model's own hidden states and predicted Gaussian parameters, adapting generation granularity to the current context with single-token generation as a fallback. The backbone verifies each proposed continuation and retains the prefix that matches its greedy predictions. Experiments with Llama-3.1-8B-Instruct on Alpaca, GSM8K, and HumanEval show that router-selected positions yield higher draft acceptance than applying the corresponding prediction length everywhere. CADENCE achieves up to 1.3x higher generation throughput than standard greedy decoding.

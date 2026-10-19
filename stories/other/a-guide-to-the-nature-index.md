@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/d41586-026-03206-9"
 authors: []
 date: "2026-10-14"
-score: ""
+score: 10
 guid: "10.1038/d41586-026-03206-9"
 image: ""
-generated: "2026-10-18T19:00:43+05:30"
+generated: "2026-10-19T19:03:54+05:30"
 ---
 
 A description of the terminology and methodology used in this supplement, and a guide to the functionality that is available free online at natureindex.com.

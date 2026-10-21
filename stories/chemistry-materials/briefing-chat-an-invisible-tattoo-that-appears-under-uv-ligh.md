@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/d41586-026-03341-3"
 authors: ["Benjamin Thompson", "Maren Hunsberger"]
 date: "2026-10-16"
-score: 35
+score: 30
 guid: "10.1038/d41586-026-03341-3"
 image: ""
-generated: "2026-10-19T19:03:54+05:30"
+generated: "2026-10-21T05:20:57+05:30"
 ---
 
-This quick briefing covers an ink that is invisible in normal light but shows up under UV, then fades away. The ink could be useful for medical tattooing. The same segment also touches on why small dogs live longer than big ones. The text is brief, so there are few details.
+Nature staff discuss a new ink that could be useful for medical tattooing — plus, an insight into why small dogs live longer than big ones.

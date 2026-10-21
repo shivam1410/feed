@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/d41586-026-03313-7"
 authors: ["Anil K. Seth", "Ned Block", "Giulio Tononi"]
 date: "2026-10-19"
-score: 72
+score: 65
 guid: "10.1038/d41586-026-03313-7"
 image: ""
-generated: "2026-10-19T19:03:54+05:30"
+generated: "2026-10-21T05:20:57+05:30"
 ---
 
-Large language models can copy thinking and feeling with uncanny skill. The article argues they are still not conscious. Its main point from neuroscience is that intelligence alone is not enough for subjective experience. The full piece gives three reasons, but this excerpt covers only the neuroscience evidence. It matters because it challenges the idea that a smarter machine will eventually feel something.
+Large language models can mimic thought and feeling with uncanny skill. But evidence from neuroscience suggests intelligence alone is not enough for subjective experience. That points against the idea that AI is conscious. The article gives three reasons, though this teaser does not list them.

@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-10-19T19:03:54+05:30",
+  "generatedAt": "2026-10-21T05:20:57+05:30",
   "items": [
     {
-      "guid": "https://simonwillison.net/2026/Oct/7/claude-haiku-5-5/",
-      "title": "Claude Haiku 5.5",
-      "link": "https://simonwillison.net/2026/Oct/7/claude-haiku-5-5/",
+      "guid": "https://simonwillison.net/2026/Oct/12/llm-meta-ai/",
+      "title": "llm-meta-ai 0.2",
+      "link": "https://simonwillison.net/2026/Oct/12/llm-meta-ai/",
       "authors": [],
-      "date": "2026-10-07T20:56:21+00:00",
-      "summary": "As previously promised , here's Anthropic's new fast, low cost model: Introducing Claude Haiku 5.5 . The previous Haiku, 4.5, was very much showing its age. It came out almost a year ago , and was priced at $1/million input and $5/million output - relatively expensive even back then, and a full 10x the price of OpenAI's GPT-6 Luna , released last month. The new Haiku exactly matches the price of GPT-6 Luna - $0.10/$0.50 - up to 100,000 tokens. Beyond 100,000 tokens the price increases 5x to $0.50/$2.50. Luna itself has a price increase at 272,000 tokens but only to $0.20/$0.75. Haiku 5.5 also uses a new, less generous tokenizer. My Claude Token Counter tool shows that the same long prompt uses around 1.25x as many tokens with Haiku 5.5 compared to Haiku 4.5, so there's a hidden price increase there. If your workloads fit in 100,000 tokens, Haiku is the same price as Luna and reports higher benchmark scores. Above 100,000 tokens, Luna looks like a much better deal. The most recent release of llm-anthropic finally fixed it so I don't need to ship a new version of that plugin for every new model. I tested the new model like this: llm install -U llm-anthropic llm anthropic refresh llm -m claude-haiku-5.5 \"Generate an SVG of a pelican riding a bicycle\" -o thinking_effort low Pelicans Here are pelicans for low, medium, high, xhigh, and max . The new Haiku doesn't let you disable reasoning, and defaults to medium . I got a good bicycle frame for everything beyond low . The low effort pelican cost 0.0936 cents and took 7 seconds. This max effort pelican (with a reasoning trace that starts \"This is the classic pelican-on-bicycle SVG test...\") took 5 minutes 9 seconds to generate, but still only cost me 3.3826 cents : (Since the reasoning trace exhibits awareness of the benchmark, here's Generate an SVG of an armadillo in fishnet tights jaywalking on Mars (on xhigh) , and the same prompt against some other recent models . Background on that .) For comparison, here's the pelican I got a year ago from Haiku 4.5 (for 0.7583 cents - Haiku 4.5 did not support reasoning levels). It sucked at drawing pelicans: And a generous API credit scheme for subscribers In addition to Haiku 5.5, Anthropic announced today that they are halving the price of cache reads for Sonnet 5.5. They've also added API credits to subscription plans: Second, this week, we’ll roll out a new monthly API credit to all Max and Team subscribers for use on the Claude Platform . Max 5x users will get $100 in credits per month, Max 20x users will get $200, and Team subscribers will receive up to $500, pooled across their users. Claiming this is pleasantly easy: navigate to Settings -> Billing and select the API organization that should benefit from the credits every month: The API credits exactly match the cost of the subscription itself. This is really generous - it makes it much easier for subscribers to use the API. Anthropic also let you disable auto-reload for the API, with the consequence that \"API requests will stop when your balance runs out\" - exactly what you want if you're planning to burn through those API credits without risk of a nasty billing surprise . Note that the monthly credits do not roll over - use them or lose them. OpenAI still allow you to use your Codex subscription for personal API use, which works out as a better deal for heavy API users. This new credit scheme goes at least some way to overcoming that difference. Tags: ai , generative-ai , llms , anthropic , claude , llm-pricing , pelican-riding-a-bicycle , llm-release",
+      "date": "2026-10-12T23:58:46+00:00",
+      "summary": "Release: llm-meta-ai 0.2 Meta AI release Muse Wonder (and Muse Wonder Full), their new \"most capable models\". These look like they may be Meta's first Fable class models - Artificial Analysis scores Muse Wonder (Max) as equivalent to GPT-6.1 Sol. I updated my llm-meta-ai plugin for the new model. Here are pelicans for Muse Wonder for the six reasoning levels: minimal, low, medium, high, xhigh, max. This is the max one: For comparison, here are pelicans for Muse 1.3 (released September 2nd) and Muse 1.2 (released August 5th). Meta AI are putting out a new model a month, and the improvements between each model (at least in terms of drawing pelicans) are material. Tags: ai , generative-ai , llms , meta , pelican-riding-a-bicycle , llm-release",
       "image": "",
       "source": "Simon Willison",
       "announce": "",
-      "score": 72,
+      "score": 55,
       "category": "AI Research"
     },
     {
@@ -24,7 +24,7 @@
       "image": "",
       "source": "Simon Willison",
       "announce": "",
-      "score": 60,
+      "score": 55,
       "category": "AI Research"
     },
     {
@@ -37,21 +37,8 @@
       "image": "",
       "source": "Simon Willison",
       "announce": "",
-      "score": 50,
-      "category": "AI Research"
-    },
-    {
-      "guid": "https://simonwillison.net/2026/Oct/12/llm-meta-ai/",
-      "title": "llm-meta-ai 0.2",
-      "link": "https://simonwillison.net/2026/Oct/12/llm-meta-ai/",
-      "authors": [],
-      "date": "2026-10-12T23:58:46+00:00",
-      "summary": "Release: llm-meta-ai 0.2 Meta AI release Muse Wonder (and Muse Wonder Full), their new \"most capable models\". These look like they may be Meta's first Fable class models - Artificial Analysis scores Muse Wonder (Max) as equivalent to GPT-6.1 Sol. I updated my llm-meta-ai plugin for the new model. Here are pelicans for Muse Wonder for the six reasoning levels: minimal, low, medium, high, xhigh, max. This is the max one: For comparison, here are pelicans for Muse 1.3 (released September 2nd) and Muse 1.2 (released August 5th). Meta AI are putting out a new model a month, and the improvements between each model (at least in terms of drawing pelicans) are material. Tags: ai , generative-ai , llms , meta , pelican-riding-a-bicycle , llm-release",
-      "image": "",
-      "source": "Simon Willison",
-      "announce": "",
-      "score": 50,
-      "category": "AI Research"
+      "score": 45,
+      "category": "Other"
     },
     {
       "guid": "https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic/",
@@ -67,6 +54,19 @@
       "category": "AI Research"
     },
     {
+      "guid": "https://simonwillison.net/2026/Oct/19/my-obituary-for-programming/",
+      "title": "My obituary for programming",
+      "link": "https://simonwillison.net/2026/Oct/19/my-obituary-for-programming/",
+      "authors": [],
+      "date": "2026-10-19T23:58:25+00:00",
+      "summary": "My obituary for programming Jeremy Scheff poignantly captures the key loss caused by coding agents for career programmers who enjoyed the puzzle of developing code: Programming turned into one of the greatest jobs you could imagine. You got paid to work on tricky little logic puzzles. The trickier the puzzle, the more you got paid. But even pretty simple puzzles were worth a lot of money because regular people just couldn't do it! No, they needed us. They would give us a problem and we would solve it the way we wanted. We set the strategy, we made the timeline, we defined what was and was not possible. If you're a programmer who thrives on building working systems and doesn't care too deeply about the problems solved along the way, LLMs are the gift that keeps on giving. If directly solving those problems was a big part of your enjoyment, the loss is very real. Via lobste.rs Tags: programming , careers , ai , generative-ai , llms , coding-agents , deep-blue",
+      "image": "",
+      "source": "Simon Willison",
+      "announce": "",
+      "score": 40,
+      "category": "Science & Society"
+    },
+    {
       "guid": "https://simonwillison.net/2026/Oct/13/llm-gemini/",
       "title": "llm-gemini 0.35",
       "link": "https://simonwillison.net/2026/Oct/13/llm-gemini/",
@@ -76,8 +76,21 @@
       "image": "",
       "source": "Simon Willison",
       "announce": "",
-      "score": 35,
+      "score": 40,
       "category": "AI Research"
+    },
+    {
+      "guid": "https://simonwillison.net/2026/Oct/9/matthew-green/",
+      "title": "Quoting Matthew Green",
+      "link": "https://simonwillison.net/2026/Oct/9/matthew-green/",
+      "authors": [],
+      "date": "2026-10-09T15:02:29+00:00",
+      "summary": "Everyone is very concerned about being respectable, so I’m going to be the goofball who raises worst-case possibilities. I think there is a 1% chance we live in Minicrypt, and a 15% chance we functionally lose confidence in our existing public-key encryption algorithms. [...] The problem here is that the speed of AI producing surprises, and the speed of human beings replacing standards (even with the very best AI assistance) are just orders of magnitude different. You only recover from a surprise like this if you do the preparation in advance. — Matthew Green , on Twitter. I looked it up and Minicrypt is Russell Impagliazzo’s hypothetical world in which public-key encryption is impossible. Tags: ai-security-research , matthew-green , cryptography , standards , llms , ai , generative-ai",
+      "image": "",
+      "source": "Simon Willison",
+      "announce": "",
+      "score": 35,
+      "category": "Other"
     },
     {
       "guid": "https://simonwillison.net/2026/Oct/14/ai-is-mass-decompiling-games/",
@@ -119,12 +132,12 @@
       "category": "AI Research"
     },
     {
-      "guid": "https://simonwillison.net/2026/Oct/9/matthew-green/",
-      "title": "Quoting Matthew Green",
-      "link": "https://simonwillison.net/2026/Oct/9/matthew-green/",
+      "guid": "https://simonwillison.net/2026/Oct/9/deno-is-joining-cloudflare/",
+      "title": "Deno is joining Cloudflare",
+      "link": "https://simonwillison.net/2026/Oct/9/deno-is-joining-cloudflare/",
       "authors": [],
-      "date": "2026-10-09T15:02:29+00:00",
-      "summary": "Everyone is very concerned about being respectable, so I’m going to be the goofball who raises worst-case possibilities. I think there is a 1% chance we live in Minicrypt, and a 15% chance we functionally lose confidence in our existing public-key encryption algorithms. [...] The problem here is that the speed of AI producing surprises, and the speed of human beings replacing standards (even with the very best AI assistance) are just orders of magnitude different. You only recover from a surprise like this if you do the preparation in advance. — Matthew Green , on Twitter. I looked it up and Minicrypt is Russell Impagliazzo’s hypothetical world in which public-key encryption is impossible. Tags: ai-security-research , matthew-green , cryptography , standards , llms , ai , generative-ai",
+      "date": "2026-10-09T22:48:37+00:00",
+      "summary": "Deno is joining Cloudflare The Deno team released the first version of celld back in August - their open source implementation of the Durable Objects pattern from Cloudflare Workers. Today, Cloudflare are acquiring Deno outright, with the goal of building on celld to \"make workerd self-hosting a first-class supported way to build and run apps using the Workers programming model\" (see the Cloudflare blog .) The bad news is that Deno itself will not be maintained by Cloudflare beyond the next year: We will support the Deno runtime for another year with monthly releases containing bug fixes and security updates. After that year we will end our development of the Deno runtime. Deno will remain open source, and we welcome others who want to continue its development. Deno (and Node.js) creator Ryan Dahl explained that decision in a comment on Hacker News: It's a joint decision and I agree with it. I'm most invested in its success and have put the most work into it - and I no longer think it's where I can do the most important work. There are some good ideas in Deno and it's well engineered - but it ultimately is not solving big problems. It has been sucked into the gravity well of node compatibility, which forces it to behave exactly as Node does. Why reimplement Node? It works. Marginal performance or UX or security benefits are not enough. I'm interested in building powerful new abstractions. celld has been working remarkably well, depending only on object storage for coordination and persistence. It is not just a slightly different API to interact with the file system or network - it's an entirely new model for server development. My favorite feature of Deno has long been the permissions system, where you can run a Deno script and specify exactly which files and folders it can read and write to, and which network hosts it can access. Node.js has a similar permissions model these days, added in Node v20.0.0 in April 2023 and declared stable in Node v22.13.0 in January 2025. They don't yet support allow-listing specific network hosts though - networking is either on or off. Via Hacker News Tags: cloudfront , javascript , nodejs , ryan-dahl , sandboxing , deno",
       "image": "",
       "source": "Simon Willison",
       "announce": "",
@@ -145,32 +158,6 @@
       "category": "AI Research"
     },
     {
-      "guid": "https://simonwillison.net/2026/Oct/12/python-3-15/",
-      "title": "Hello Python 3.15, goodbye 3.10, and now I can use 3.11",
-      "link": "https://simonwillison.net/2026/Oct/12/python-3-15/",
-      "authors": [],
-      "date": "2026-10-12T18:15:38+00:00",
-      "summary": "Python 3.15 is here ! Here's the essential What's new in Python 3.15 guide, this year curated by 3.14 and 3.15 release manager Hugo van Kemenade. As someone who builds open source software that works in every supported Python version, I get to say goodbye to Python 3.10 and start embracing features from Python 3.11. First, some highlights from Python 3.15. Explicit lazy imports I'm most excited about Explicit lazy imports from PEP 810 . These let you import modules like so: lazy import json lazy from pathlib import Path The module will then be imported the first time those symbols are used in the code that follows. My LLM CLI tool implements plugins. I had to recommend manual lazy imports in the plugin author documentation, because simply installing plugins that used heavy dependencies such as sentence_transformers could add multiple seconds to every invocation of the llm command. Lazy imports directly address this startup cost. Unpacking in comprehensions The new [*sublist for sublist in lists] unpacking syntax is neat. Here's an illustration lifted from the documentation : lists = [[ 1 , 2 ], [ 3 , 4 ], [ 5 ]] [ * L for L in lists ] # [1, 2, 3, 4, 5] # equivalent to [x for L in lists for x in L] sets = [{ 1 , 2 }, { 2 , 3 }, { 3 , 4 }] { * s for s in sets } # {1, 2, 3, 4} # equivalent to {x for s in sets for x in s} dicts = [{ 'a' : 1 }, { 'b' : 2 }, { 'a' : 3 }] { ** d for d in dicts } # {'a': 3, 'b': 2} # equivalent to {k: v for d in dicts for k,v in d.items()} PEP 798: Unpacking in Comprehensions by Adam Hartz and Erik Demaine proposed this as an extension of the unpacking syntax from PEP 448 , which landed in Python 3.5 back in 2015. A sampling profiler Python's existing tracing profiler has been renamed from cProfile to profiling.tracing , and has been joined by an exciting new sampling profiler called Tachyon, aka profiling.sampling . Sampling profilers work by periodically capturing stack traces from running processes, then using those to calculate which functions have the most time spent inside of them. They're very low overhead and can provide a deep insight into running systems, without needing to instrument those systems first. I've previously used tools like py-spy for this. Now this capability is baked into the standard library. If you have the PID of an existing Python 3.15 process you can start gathering samples by running this (I had to use sudo on macOS): sudo uv run --python 3.15 python -m profiling.sampling attach 1234 Interact with the main program a bit, then hit Ctrl+C to stop gathering and see a report, which looks something like this: It can also produce flame graphs like this and heat maps like this , and can even output a format that can be viewed in the Firefox profiler UI. 3.15 isn't much faster than 3.14 Miguel Grinberg investigated How fast is Python 3.15? the other day against the 3.15.0rc3 release and found performance to be mostly the same as 3.14, with the exception of the experimental JIT. The JIT gave a 1.2x boost over the standard 3.15 interpreter (on a Fibonacci test), the first time Miguel observed a meaningful JIT performance increase. Miguel's explorations of 3.14 last year found significant boosts against Python 3.13 across many more categories. Upgrading to Python 3.15 with uv I used the following sequence of commands to get uv to use Python 3.15 on my Mac. First I had to upgrade uv itself to ensure it knew about the new release: uv self update Then I installed the stable 3.15 release: uv python install 3.15 And told uv that I wanted that to be the default for every uv run command, unless the project itself pinned a different version: uv python pin --global 3.15 Now the following reports 3.15 as the version: uv run python --version I already have a bunch of tools installed using uv tool install . I reinstalled them to use Python 3.15 like this: uv tool upgrade datasette --python 3.15 Then I can confirm the version like this: datasette --get /-/versions.json | jq Highlights from Python 3.11 The release of 3.15 means that Python 3.10 (released in 2021) is officially no longer supported . My policy for my main open source projects is to keep them working in every supported Python version. I can now drop 3.10 and start using features that were introduced in 3.11. Here's the What's new in Python 3.11 document. I finally get to rely on tomllib being available! Datasette makes extensive use of asyncio . 3.11 adds TaskGroup and timeout() , and several more new features. datetime.UTC is a new in 3.11 alias for datetime.timezone.utc . Python's SQLite support got some significant upgrades in 3.11, including: setlimit() and getlimit() expose a mechanism for setting SQLite runtime limits from Python. create_window_function() lets us create custom window functions in Python, as a class with step() , value() , inverse() , and finalize() methods. blobopen() provides an efficient mechanism for partial reads and writes of large BLOB binary values stored in a SQLite row. You can now call set_authorizer(None) to remove a SQLite authorizer. Datasette had a workaround for this! Plus a whole bunch of improvements to Python's typing system . I plan to land Python 3.11 improvements to a bunch of my projects over the next few weeks. Here's my first Datasette PR removing that set_authorizer(None) workaround. I've also updated my click-app , datasette-plugin , python-lib , and llm-plugin cookiecutter templates to test against Python 3.11 through Python 3.15. Tags: open-source , profiling , python , sqlite , uv",
-      "image": "",
-      "source": "Simon Willison",
-      "announce": "",
-      "score": 20,
-      "category": "Other"
-    },
-    {
-      "guid": "https://simonwillison.net/2026/Oct/9/deno-is-joining-cloudflare/",
-      "title": "Deno is joining Cloudflare",
-      "link": "https://simonwillison.net/2026/Oct/9/deno-is-joining-cloudflare/",
-      "authors": [],
-      "date": "2026-10-09T22:48:37+00:00",
-      "summary": "Deno is joining Cloudflare The Deno team released the first version of celld back in August - their open source implementation of the Durable Objects pattern from Cloudflare Workers. Today, Cloudflare are acquiring Deno outright, with the goal of building on celld to \"make workerd self-hosting a first-class supported way to build and run apps using the Workers programming model\" (see the Cloudflare blog .) The bad news is that Deno itself will not be maintained by Cloudflare beyond the next year: We will support the Deno runtime for another year with monthly releases containing bug fixes and security updates. After that year we will end our development of the Deno runtime. Deno will remain open source, and we welcome others who want to continue its development. Deno (and Node.js) creator Ryan Dahl explained that decision in a comment on Hacker News: It's a joint decision and I agree with it. I'm most invested in its success and have put the most work into it - and I no longer think it's where I can do the most important work. There are some good ideas in Deno and it's well engineered - but it ultimately is not solving big problems. It has been sucked into the gravity well of node compatibility, which forces it to behave exactly as Node does. Why reimplement Node? It works. Marginal performance or UX or security benefits are not enough. I'm interested in building powerful new abstractions. celld has been working remarkably well, depending only on object storage for coordination and persistence. It is not just a slightly different API to interact with the file system or network - it's an entirely new model for server development. My favorite feature of Deno has long been the permissions system, where you can run a Deno script and specify exactly which files and folders it can read and write to, and which network hosts it can access. Node.js has a similar permissions model these days, added in Node v20.0.0 in April 2023 and declared stable in Node v22.13.0 in January 2025. They don't yet support allow-listing specific network hosts though - networking is either on or off. Via Hacker News Tags: cloudfront , javascript , nodejs , ryan-dahl , sandboxing , deno",
-      "image": "",
-      "source": "Simon Willison",
-      "announce": "",
-      "score": 20,
-      "category": "Other"
-    },
-    {
       "guid": "https://simonwillison.net/2026/Oct/18/llm-echo/",
       "title": "llm-echo 0.5",
       "link": "https://simonwillison.net/2026/Oct/18/llm-echo/",
@@ -184,12 +171,12 @@
       "category": "AI Research"
     },
     {
-      "guid": "https://simonwillison.net/2026/Oct/11/dwarf-fortress/",
-      "title": "Dwarf Fortress uses version control now",
-      "link": "https://simonwillison.net/2026/Oct/11/dwarf-fortress/",
+      "guid": "https://simonwillison.net/2026/Oct/12/python-3-15/",
+      "title": "Hello Python 3.15, goodbye 3.10, and now I can use 3.11",
+      "link": "https://simonwillison.net/2026/Oct/12/python-3-15/",
       "authors": [],
-      "date": "2026-10-11T00:52:37+00:00",
-      "summary": "I remember hearing a while ago that Dwarf Fortress didn't use version control. That fact has been lodged in my head, because given its inherent complexity I have trouble imagining a codebase that would benefit from version control more . That's art. I went looking and I'm sad to report that the days without version control appear to have ended. Quoting Tarn Adams over time: March 2013: \"I don't use version control -- I didn't like the feeling of having the code get committed into a black box thingy with no immediate upside\" March 2016: \"I don’t even use version control. If you don’t know what that is then you’re not gonna yell at me. If you even know what version control is you’re gonna be like, ‘You don’t use version control? You don’t use source control? What is wrong with you? How can you even work? I’m just not cut out for it, in a sense. It’s been 15 years, so the reasons have change over time, but that’s my current understanding of it.\" March 2023: \"I've got Discord channels to check and version control stuff to use now, so the process is definitely a little more involved\" That March 2023 quote comes from an interview about the release on Steam which made them millionaires . I'm a tiny bit sad that they gave in before they hit that milestone, but what an impressive run. Tags: version-control",
+      "date": "2026-10-12T18:15:38+00:00",
+      "summary": "Python 3.15 is here ! Here's the essential What's new in Python 3.15 guide, this year curated by 3.14 and 3.15 release manager Hugo van Kemenade. As someone who builds open source software that works in every supported Python version, I get to say goodbye to Python 3.10 and start embracing features from Python 3.11. First, some highlights from Python 3.15. Explicit lazy imports I'm most excited about Explicit lazy imports from PEP 810 . These let you import modules like so: lazy import json lazy from pathlib import Path The module will then be imported the first time those symbols are used in the code that follows. My LLM CLI tool implements plugins. I had to recommend manual lazy imports in the plugin author documentation, because simply installing plugins that used heavy dependencies such as sentence_transformers could add multiple seconds to every invocation of the llm command. Lazy imports directly address this startup cost. Unpacking in comprehensions The new [*sublist for sublist in lists] unpacking syntax is neat. Here's an illustration lifted from the documentation : lists = [[ 1 , 2 ], [ 3 , 4 ], [ 5 ]] [ * L for L in lists ] # [1, 2, 3, 4, 5] # equivalent to [x for L in lists for x in L] sets = [{ 1 , 2 }, { 2 , 3 }, { 3 , 4 }] { * s for s in sets } # {1, 2, 3, 4} # equivalent to {x for s in sets for x in s} dicts = [{ 'a' : 1 }, { 'b' : 2 }, { 'a' : 3 }] { ** d for d in dicts } # {'a': 3, 'b': 2} # equivalent to {k: v for d in dicts for k,v in d.items()} PEP 798: Unpacking in Comprehensions by Adam Hartz and Erik Demaine proposed this as an extension of the unpacking syntax from PEP 448 , which landed in Python 3.5 back in 2015. A sampling profiler Python's existing tracing profiler has been renamed from cProfile to profiling.tracing , and has been joined by an exciting new sampling profiler called Tachyon, aka profiling.sampling . Sampling profilers work by periodically capturing stack traces from running processes, then using those to calculate which functions have the most time spent inside of them. They're very low overhead and can provide a deep insight into running systems, without needing to instrument those systems first. I've previously used tools like py-spy for this. Now this capability is baked into the standard library. If you have the PID of an existing Python 3.15 process you can start gathering samples by running this (I had to use sudo on macOS): sudo uv run --python 3.15 python -m profiling.sampling attach 1234 Interact with the main program a bit, then hit Ctrl+C to stop gathering and see a report, which looks something like this: It can also produce flame graphs like this and heat maps like this , and can even output a format that can be viewed in the Firefox profiler UI. 3.15 isn't much faster than 3.14 Miguel Grinberg investigated How fast is Python 3.15? the other day against the 3.15.0rc3 release and found performance to be mostly the same as 3.14, with the exception of the experimental JIT. The JIT gave a 1.2x boost over the standard 3.15 interpreter (on a Fibonacci test), the first time Miguel observed a meaningful JIT performance increase. Miguel's explorations of 3.14 last year found significant boosts against Python 3.13 across many more categories. Upgrading to Python 3.15 with uv I used the following sequence of commands to get uv to use Python 3.15 on my Mac. First I had to upgrade uv itself to ensure it knew about the new release: uv self update Then I installed the stable 3.15 release: uv python install 3.15 And told uv that I wanted that to be the default for every uv run command, unless the project itself pinned a different version: uv python pin --global 3.15 Now the following reports 3.15 as the version: uv run python --version I already have a bunch of tools installed using uv tool install . I reinstalled them to use Python 3.15 like this: uv tool upgrade datasette --python 3.15 Then I can confirm the version like this: datasette --get /-/versions.json | jq Highlights from Python 3.11 The release of 3.15 means that Python 3.10 (released in 2021) is officially no longer supported . My policy for my main open source projects is to keep them working in every supported Python version. I can now drop 3.10 and start using features that were introduced in 3.11. Here's the What's new in Python 3.11 document. I finally get to rely on tomllib being available! Datasette makes extensive use of asyncio . 3.11 adds TaskGroup and timeout() , and several more new features. datetime.UTC is a new in 3.11 alias for datetime.timezone.utc . Python's SQLite support got some significant upgrades in 3.11, including: setlimit() and getlimit() expose a mechanism for setting SQLite runtime limits from Python. create_window_function() lets us create custom window functions in Python, as a class with step() , value() , inverse() , and finalize() methods. blobopen() provides an efficient mechanism for partial reads and writes of large BLOB binary values stored in a SQLite row. You can now call set_authorizer(None) to remove a SQLite authorizer. Datasette had a workaround for this! Plus a whole bunch of improvements to Python's typing system . I plan to land Python 3.11 improvements to a bunch of my projects over the next few weeks. Here's my first Datasette PR removing that set_authorizer(None) workaround. I've also updated my click-app , datasette-plugin , python-lib , and llm-plugin cookiecutter templates to test against Python 3.11 through Python 3.15. Tags: open-source , profiling , python , sqlite , uv",
       "image": "",
       "source": "Simon Willison",
       "announce": "",
@@ -219,6 +206,19 @@
       "image": "",
       "source": "Simon Willison",
       "announce": "",
+      "score": 15,
+      "category": "Other"
+    },
+    {
+      "guid": "https://simonwillison.net/2026/Oct/11/dwarf-fortress/",
+      "title": "Dwarf Fortress uses version control now",
+      "link": "https://simonwillison.net/2026/Oct/11/dwarf-fortress/",
+      "authors": [],
+      "date": "2026-10-11T00:52:37+00:00",
+      "summary": "I remember hearing a while ago that Dwarf Fortress didn't use version control. That fact has been lodged in my head, because given its inherent complexity I have trouble imagining a codebase that would benefit from version control more . That's art. I went looking and I'm sad to report that the days without version control appear to have ended. Quoting Tarn Adams over time: March 2013: \"I don't use version control -- I didn't like the feeling of having the code get committed into a black box thingy with no immediate upside\" March 2016: \"I don’t even use version control. If you don’t know what that is then you’re not gonna yell at me. If you even know what version control is you’re gonna be like, ‘You don’t use version control? You don’t use source control? What is wrong with you? How can you even work? I’m just not cut out for it, in a sense. It’s been 15 years, so the reasons have change over time, but that’s my current understanding of it.\" March 2023: \"I've got Discord channels to check and version control stuff to use now, so the process is definitely a little more involved\" That March 2023 quote comes from an interview about the release on Steam which made them millionaires . I'm a tiny bit sad that they gave in before they hit that milestone, but what an impressive run. Tags: version-control",
+      "image": "",
+      "source": "Simon Willison",
+      "announce": "",
       "score": 12,
       "category": "Other"
     },
@@ -229,32 +229,6 @@
       "authors": [],
       "date": "2026-10-17T13:16:49+00:00",
       "summary": "Release: web-edit 0.1a2 web-edit ( previously ) is my tiny web app for browsing and editing files in a folder. I mainly built it for editing files on different machines via Tailscale. I added a \"copy to clipboard\" option for both text and image data. I needed this because I was running pelican prompts on a laptop from my phone (here's DeepSeek 4.1 Flash 1017 ) and I wanted an easy way to copy the resulting logs into a Gist. Tags: projects , pelican-riding-a-bicycle , deepseek",
-      "image": "",
-      "source": "Simon Willison",
-      "announce": "",
-      "score": 10,
-      "category": "Other"
-    },
-    {
-      "guid": "https://simonwillison.net/2026/Oct/12/python-3-15-web-edit-profiling/",
-      "title": "Profiling web-edit with Python 3.15: flame graphs and source heatmaps",
-      "link": "https://simonwillison.net/2026/Oct/12/python-3-15-web-edit-profiling/",
-      "authors": [],
-      "date": "2026-10-12T16:58:00+00:00",
-      "summary": "Research: Profiling web-edit with Python 3.15: flame graphs and source heatmaps I put the new Python 3.15 profiler through its paces by having GPT-6 Astra Extra High in Codex run it against my new web-edit app : I need a Python 3.15 flame graph and heatmap demo of the \"web-edit\" app from PyPI - research first then make me those demos Here's the resulting example flame graph and heatmap . Tags: profiling , python , codex",
-      "image": "",
-      "source": "Simon Willison",
-      "announce": "",
-      "score": 10,
-      "category": "Other"
-    },
-    {
-      "guid": "https://simonwillison.net/2026/Oct/17/document-currentscript/",
-      "title": "Inline rendering with document​.currentScript",
-      "link": "https://simonwillison.net/2026/Oct/17/document-currentscript/",
-      "authors": [],
-      "date": "2026-10-17T21:11:12+00:00",
-      "summary": "Inline rendering with document​.currentScript Lean Rada describes a neat trick that takes advantage of the document.currentScript property. You can use that to drop in a tiny inline <script> element that replaces itself when the page loads: The year is <script> document.currentScript.replaceWith( new Date().getFullYear())</script> If you define a shortcut function like this: $=(...n)=>document.currentScript.replaceWith(...n) You get a tiny template language: The year is <script>$(new Date().getFullYear())</script> Tags: javascript",
       "image": "",
       "source": "Simon Willison",
       "announce": "",
@@ -275,6 +249,45 @@
       "category": "Other"
     },
     {
+      "guid": "https://simonwillison.net/2026/Oct/14/tree-appreciator/",
+      "title": "Tree Appreciator",
+      "link": "https://simonwillison.net/2026/Oct/14/tree-appreciator/",
+      "authors": [],
+      "date": "2026-10-14T21:23:01+00:00",
+      "summary": "Tool: Tree Appreciator Another game experiment with Claude. This one used the default Claude iPhone app (chat mode, not Claude Code mode), where I prompted Claude Opus 5.5 Max with: Build a three js game called \"Tree appreciator\" - it shows you two algorithmically generated trees and the game mechanics is about appreciating the differences between them. Think hard about how to make sure it is both fun and beautiful. Somewhat embarrassingly given my recent talk , I've found that telling Opus 5.5 \"make sure it is fun\" works uncomfortably well. In this case Claude crunched for 3 hours and 7 minutes before retuning a cosy little spot-the-difference game with music and animation and achievements that's quite compelling to play. Tags: game-design , javascript , ai , generative-ai , llms , claude , vibe-coding , three-js",
+      "image": "",
+      "source": "Simon Willison",
+      "announce": "",
+      "score": 8,
+      "category": "Other"
+    },
+    {
+      "guid": "https://simonwillison.net/2026/Oct/12/python-3-15-web-edit-profiling/",
+      "title": "Profiling web-edit with Python 3.15: flame graphs and source heatmaps",
+      "link": "https://simonwillison.net/2026/Oct/12/python-3-15-web-edit-profiling/",
+      "authors": [],
+      "date": "2026-10-12T16:58:00+00:00",
+      "summary": "Research: Profiling web-edit with Python 3.15: flame graphs and source heatmaps I put the new Python 3.15 profiler through its paces by having GPT-6 Astra Extra High in Codex run it against my new web-edit app : I need a Python 3.15 flame graph and heatmap demo of the \"web-edit\" app from PyPI - research first then make me those demos Here's the resulting example flame graph and heatmap . Tags: profiling , python , codex",
+      "image": "",
+      "source": "Simon Willison",
+      "announce": "",
+      "score": 8,
+      "category": "Other"
+    },
+    {
+      "guid": "https://simonwillison.net/2026/Oct/9/ttok/",
+      "title": "ttok 1.0",
+      "link": "https://simonwillison.net/2026/Oct/9/ttok/",
+      "authors": [],
+      "date": "2026-10-09T00:34:43+00:00",
+      "summary": "Release: ttok 1.0 I released ttok 0.4 , ran uv tool upgrade ttok , piped a file into the new version... and realized that it was defaulting to the GPT-4 tokenizer when it should very clearly default to GPT-5/GPT-6 instead! I figured switching the default was a reasonable excuse to finally ship a 1.0. OpenAI haven't actually confirmed that GPT-6 uses the same tokenizer as the GPT-5 family yet - there's an angry issue about it - but I found this commit by William Liu which reports on an experiment he ran confirming that the tokenizers are likely the same: All seven GPT models (5.5, 5.6 Sol/Terra/Luna, 6 Astra/Sol/Luna) report 44,794 tokens and match each other on every one of the 31 fixtures. GPT-6 introduces no input-count change on this corpus. Tags: projects , ai , openai , generative-ai , llms , tokenization",
+      "image": "",
+      "source": "Simon Willison",
+      "announce": "",
+      "score": 8,
+      "category": "Other"
+    },
+    {
       "guid": "https://simonwillison.net/2026/Oct/13/web-edit/",
       "title": "web-edit 0.1a1",
       "link": "https://simonwillison.net/2026/Oct/13/web-edit/",
@@ -284,33 +297,20 @@
       "image": "",
       "source": "Simon Willison",
       "announce": "",
-      "score": 8,
+      "score": 6,
       "category": "Other"
     },
     {
-      "guid": "https://simonwillison.net/2026/Oct/12/web-edit/",
-      "title": "web-edit 0.1a0",
-      "link": "https://simonwillison.net/2026/Oct/12/web-edit/",
+      "guid": "https://simonwillison.net/2026/Oct/17/document-currentscript/",
+      "title": "Inline rendering with document​.currentScript",
+      "link": "https://simonwillison.net/2026/Oct/17/document-currentscript/",
       "authors": [],
-      "date": "2026-10-12T15:54:36+00:00",
-      "summary": "Release: web-edit 0.1a0 I was working on a project from my phone using Codex Remote when I found myself wanting to edit a credentials file without round-tripping those credentials through the LLM itself. So... I had Codex and GPT-6 Astra Extra High build this Python web app which provides a web UI for viewing and editing files in a folder. It's intended to be run over Tailscale, so I can have an agent start this running and then edit files via my Tailscale network directly from my phone. Here's the interface for browsing files in a folder: Editing uses CodeMirror 6 - I was going to use Monaco but that still doesn't have a great mobile experience yet. Tags: projects , python , ai , tailscale , generative-ai , llms , codex",
+      "date": "2026-10-17T21:11:12+00:00",
+      "summary": "Inline rendering with document​.currentScript Lean Rada describes a neat trick that takes advantage of the document.currentScript property. You can use that to drop in a tiny inline <script> element that replaces itself when the page loads: The year is <script> document.currentScript.replaceWith( new Date().getFullYear())</script> If you define a shortcut function like this: $=(...n)=>document.currentScript.replaceWith(...n) You get a tiny template language: The year is <script>$(new Date().getFullYear())</script> Tags: javascript",
       "image": "",
       "source": "Simon Willison",
       "announce": "",
-      "score": 8,
-      "category": "Other"
-    },
-    {
-      "guid": "https://simonwillison.net/2026/Oct/9/built-using-my-voice/",
-      "title": "A new feature for my blog, built using my voice",
-      "link": "https://simonwillison.net/2026/Oct/9/built-using-my-voice/",
-      "authors": [],
-      "date": "2026-10-09T12:54:06+00:00",
-      "summary": "I shipped a new feature for my blog today: the Newsletters page, which offers an index of all of the newsletters I've sent out, both my free weekly Substack and my monthly sponsors-only updates. I built the feature almost entirely using my voice, chatting away to my laptop while I cooked dinner. Codex voice mode I used the ChatGPT desktop app for this, in the Codex tab, using the voice conversation mode, running against a local development environment. Here's what that looks like: I started the session against my local simonwillisonblog checkout by typing: Start dev server and open in browser This gave me a preview of the site that it would be working on, and meant that I could later ask it to show me the new pages so I could visually track its progress. Then I clicked the \"Start new voice chat\" button - that's not the microphone button, it's the one to the right of it - and set my laptop up in the kitchen so I could talk to it while I cooked. Talking to my computer I had a pretty good idea of what I wanted to build, and it's a simple enough Django feature that I was certain the model (in this case GPT-6 Astra High) would be able to do it. A new model, a migration, some view code, templates, and a couple of import functions to populate the database from external sources. Here's an extract of my voice transcript that was captured by Codex: Um, they do not. Um, this is going to be a new type of content. Um, it's not going to show up... Oh, hold on. Yeah, no- I do not want this to show up in my, um, tag pages and date archive pages and... Actually, no, I think... I don't want it on the tag pages. I don't want it on the, um, blog index page. But I think I do want it to show up on the date-based pages. You know, if you navigate to September the 19th, and I sent a newsletter on that page, I think I want that to show up. So... this is- so I think we probably need a new model. The other thing is that I want them searchable, uh the Substack ones are not searchable, because those are actually just copies of other s- on content on my blog. These monthly ones do contain unique content, and spe- and once they're... published, like once they're made public a month after they've gone out, I want them to show up on my search results. Apparently this was clear enough that the model knew what I wanted to build! You can read the full transcript, disfluencies and all, in this Gist . We went on like this for about half an hour (the time it took to cook dinner). The model would reply and occasionally ask clarifying questions, then get to work modifying the code. What we built We got a surprisingly long way entirely by voice: A new model and migration to represent imported newsletters in Django, plus Django Admin configuration for that Four working imports: The most recent Substack items via RSS Every other Substack item via their undocumented API, which GPT-6 Astra knew about (it tried /api/v1/archive directly) and then ran a search to figure out how to paginate it and found this article by Karen Spinner All of my published monthly newsletters from my simonw/monthly-newsletter-archive GitHub repository My most recent private sponsors-only newsletter from a private repository The /newsletters/ and /newsletters/2026/ public archive pages Newsletters showing up on day and month archive pages too, but not on tag pages or my homepage Weekly Substack newsletters link to Substack; archived monthly newsletters have their own pages Integration with my site search engine It was almost ready to ship. The catch was the imports: Astra offered to export data from my local copy so I could import that into production, but I wanted it to work like my other import scripts. Since some of the data lived in a private GitHub repository, this would involve creating a new API key, and for that I knew I'd have to sit at the keyboard for a while. Finishing it with a review Once I had finished cooking and judged it mostly feature-complete, I had Codex create a branch and open a pull request. I reviewed the code in the GitHub PR interface. It was nearly what I needed, except it had chosen to use Git in a subprocess for one of the import scripts. I needed one of the imports to pull from a private Git repository, so I figured the API would be a better bet. I switched to typing and had Codex swap that out for an API-based import instead. You can see the changes I made during the review in the extra commits on the PR . I fixed the import mechanism and made a few tweaks to the display of those public pages. It took an additional half hour of typing-based prompting to get to the point where I was happy to deploy it to production by landing the PR. The end result You can see the end result at the new newsletters index page , or view the page for a previous monthly newsletter . The index page shows my most recent Substack weekly newsletters and GitHub sponsors monthly newsletters mixed together in reverse chronological order. Further down the page are links to my by-year archive pages. GPT-6 Astra designed the page, and then tweaked that design based on my vocal feedback from glancing at the local preview across the kitchen. Better for multi-tasking than as a daily driver OpenAI love using voice-driven demos like this one for things like DevDay - and they do work well in that environment. I don't think this is going to be a daily driver for me though. I've written before about how much \"work\" I get done using ChatGPT voice mode on my phone while walking the dog - mostly research and brainstorming, but occasionally actual development work by having ChatGPT write and test out snippets of code. This feels different. The addition of the visual preview, plus being able to type or paste things in via the keyboard when I need to communicate something that doesn't work vocally, makes this a much more powerful way of interacting with a coding agent. I still switch back to typing once I get down to the details of things though. Being able to paste in examples and error messages, or directly highlight the code or feature that needs changing, remains more efficient than trying to describe it in words. I mainly work from home, which is good because there's no way I'd want to talk to my computer like this in a shared workspace! The killer feature for me is the ability to multi-task. I usually cook with a podcast or TikTok running; now I can actually build stuff instead. Tags: text-to-speech , ai , openai , generative-ai , llms , newsletter , coding-agents , codex , speech-to-text , site-upgrades",
-      "image": "",
-      "source": "Simon Willison",
-      "announce": "",
-      "score": 8,
+      "score": 5,
       "category": "Other"
     },
     {
@@ -327,12 +327,12 @@
       "category": "Other"
     },
     {
-      "guid": "https://simonwillison.net/2026/Oct/14/tree-appreciator/",
-      "title": "Tree Appreciator",
-      "link": "https://simonwillison.net/2026/Oct/14/tree-appreciator/",
+      "guid": "https://simonwillison.net/2026/Oct/12/web-edit/",
+      "title": "web-edit 0.1a0",
+      "link": "https://simonwillison.net/2026/Oct/12/web-edit/",
       "authors": [],
-      "date": "2026-10-14T21:23:01+00:00",
-      "summary": "Tool: Tree Appreciator Another game experiment with Claude. This one used the default Claude iPhone app (chat mode, not Claude Code mode), where I prompted Claude Opus 5.5 Max with: Build a three js game called \"Tree appreciator\" - it shows you two algorithmically generated trees and the game mechanics is about appreciating the differences between them. Think hard about how to make sure it is both fun and beautiful. Somewhat embarrassingly given my recent talk , I've found that telling Opus 5.5 \"make sure it is fun\" works uncomfortably well. In this case Claude crunched for 3 hours and 7 minutes before retuning a cosy little spot-the-difference game with music and animation and achievements that's quite compelling to play. Tags: game-design , javascript , ai , generative-ai , llms , claude , vibe-coding , three-js",
+      "date": "2026-10-12T15:54:36+00:00",
+      "summary": "Release: web-edit 0.1a0 I was working on a project from my phone using Codex Remote when I found myself wanting to edit a credentials file without round-tripping those credentials through the LLM itself. So... I had Codex and GPT-6 Astra Extra High build this Python web app which provides a web UI for viewing and editing files in a folder. It's intended to be run over Tailscale, so I can have an agent start this running and then edit files via my Tailscale network directly from my phone. Here's the interface for browsing files in a folder: Editing uses CodeMirror 6 - I was going to use Monaco but that still doesn't have a great mobile experience yet. Tags: projects , python , ai , tailscale , generative-ai , llms , codex",
       "image": "",
       "source": "Simon Willison",
       "announce": "",
@@ -340,12 +340,12 @@
       "category": "Other"
     },
     {
-      "guid": "https://simonwillison.net/2026/Oct/12/datasette-ports/",
-      "title": "datasette-ports 0.4",
-      "link": "https://simonwillison.net/2026/Oct/12/datasette-ports/",
+      "guid": "https://simonwillison.net/2026/Oct/9/built-using-my-voice/",
+      "title": "A new feature for my blog, built using my voice",
+      "link": "https://simonwillison.net/2026/Oct/9/built-using-my-voice/",
       "authors": [],
-      "date": "2026-10-12T04:57:07+00:00",
-      "summary": "Release: datasette-ports 0.4 My plugin for detecting and listing all Datasette instances on the current machine now works with the latest version, and displays the detected PID as well. Knowing the PID makes it easier to attach the new Python 3.15 profiler . Tags: datasette",
+      "date": "2026-10-09T12:54:06+00:00",
+      "summary": "I shipped a new feature for my blog today: the Newsletters page, which offers an index of all of the newsletters I've sent out, both my free weekly Substack and my monthly sponsors-only updates. I built the feature almost entirely using my voice, chatting away to my laptop while I cooked dinner. Codex voice mode I used the ChatGPT desktop app for this, in the Codex tab, using the voice conversation mode, running against a local development environment. Here's what that looks like: I started the session against my local simonwillisonblog checkout by typing: Start dev server and open in browser This gave me a preview of the site that it would be working on, and meant that I could later ask it to show me the new pages so I could visually track its progress. Then I clicked the \"Start new voice chat\" button - that's not the microphone button, it's the one to the right of it - and set my laptop up in the kitchen so I could talk to it while I cooked. Talking to my computer I had a pretty good idea of what I wanted to build, and it's a simple enough Django feature that I was certain the model (in this case GPT-6 Astra High) would be able to do it. A new model, a migration, some view code, templates, and a couple of import functions to populate the database from external sources. Here's an extract of my voice transcript that was captured by Codex: Um, they do not. Um, this is going to be a new type of content. Um, it's not going to show up... Oh, hold on. Yeah, no- I do not want this to show up in my, um, tag pages and date archive pages and... Actually, no, I think... I don't want it on the tag pages. I don't want it on the, um, blog index page. But I think I do want it to show up on the date-based pages. You know, if you navigate to September the 19th, and I sent a newsletter on that page, I think I want that to show up. So... this is- so I think we probably need a new model. The other thing is that I want them searchable, uh the Substack ones are not searchable, because those are actually just copies of other s- on content on my blog. These monthly ones do contain unique content, and spe- and once they're... published, like once they're made public a month after they've gone out, I want them to show up on my search results. Apparently this was clear enough that the model knew what I wanted to build! You can read the full transcript, disfluencies and all, in this Gist . We went on like this for about half an hour (the time it took to cook dinner). The model would reply and occasionally ask clarifying questions, then get to work modifying the code. What we built We got a surprisingly long way entirely by voice: A new model and migration to represent imported newsletters in Django, plus Django Admin configuration for that Four working imports: The most recent Substack items via RSS Every other Substack item via their undocumented API, which GPT-6 Astra knew about (it tried /api/v1/archive directly) and then ran a search to figure out how to paginate it and found this article by Karen Spinner All of my published monthly newsletters from my simonw/monthly-newsletter-archive GitHub repository My most recent private sponsors-only newsletter from a private repository The /newsletters/ and /newsletters/2026/ public archive pages Newsletters showing up on day and month archive pages too, but not on tag pages or my homepage Weekly Substack newsletters link to Substack; archived monthly newsletters have their own pages Integration with my site search engine It was almost ready to ship. The catch was the imports: Astra offered to export data from my local copy so I could import that into production, but I wanted it to work like my other import scripts. Since some of the data lived in a private GitHub repository, this would involve creating a new API key, and for that I knew I'd have to sit at the keyboard for a while. Finishing it with a review Once I had finished cooking and judged it mostly feature-complete, I had Codex create a branch and open a pull request. I reviewed the code in the GitHub PR interface. It was nearly what I needed, except it had chosen to use Git in a subprocess for one of the import scripts. I needed one of the imports to pull from a private Git repository, so I figured the API would be a better bet. I switched to typing and had Codex swap that out for an API-based import instead. You can see the changes I made during the review in the extra commits on the PR . I fixed the import mechanism and made a few tweaks to the display of those public pages. It took an additional half hour of typing-based prompting to get to the point where I was happy to deploy it to production by landing the PR. The end result You can see the end result at the new newsletters index page , or view the page for a previous monthly newsletter . The index page shows my most recent Substack weekly newsletters and GitHub sponsors monthly newsletters mixed together in reverse chronological order. Further down the page are links to my by-year archive pages. GPT-6 Astra designed the page, and then tweaked that design based on my vocal feedback from glancing at the local preview across the kitchen. Better for multi-tasking than as a daily driver OpenAI love using voice-driven demos like this one for things like DevDay - and they do work well in that environment. I don't think this is going to be a daily driver for me though. I've written before about how much \"work\" I get done using ChatGPT voice mode on my phone while walking the dog - mostly research and brainstorming, but occasionally actual development work by having ChatGPT write and test out snippets of code. This feels different. The addition of the visual preview, plus being able to type or paste things in via the keyboard when I need to communicate something that doesn't work vocally, makes this a much more powerful way of interacting with a coding agent. I still switch back to typing once I get down to the details of things though. Being able to paste in examples and error messages, or directly highlight the code or feature that needs changing, remains more efficient than trying to describe it in words. I mainly work from home, which is good because there's no way I'd want to talk to my computer like this in a shared workspace! The killer feature for me is the ability to multi-task. I usually cook with a podcast or TikTok running; now I can actually build stuff instead. Tags: text-to-speech , ai , openai , generative-ai , llms , newsletter , coding-agents , codex , speech-to-text , site-upgrades",
       "image": "",
       "source": "Simon Willison",
       "announce": "",
@@ -362,20 +362,7 @@
       "image": "",
       "source": "Simon Willison",
       "announce": "",
-      "score": 5,
-      "category": "Other"
-    },
-    {
-      "guid": "https://simonwillison.net/2026/Oct/9/ttok/",
-      "title": "ttok 1.0",
-      "link": "https://simonwillison.net/2026/Oct/9/ttok/",
-      "authors": [],
-      "date": "2026-10-09T00:34:43+00:00",
-      "summary": "Release: ttok 1.0 I released ttok 0.4 , ran uv tool upgrade ttok , piped a file into the new version... and realized that it was defaulting to the GPT-4 tokenizer when it should very clearly default to GPT-5/GPT-6 instead! I figured switching the default was a reasonable excuse to finally ship a 1.0. OpenAI haven't actually confirmed that GPT-6 uses the same tokenizer as the GPT-5 family yet - there's an angry issue about it - but I found this commit by William Liu which reports on an experiment he ran confirming that the tokenizers are likely the same: All seven GPT models (5.5, 5.6 Sol/Terra/Luna, 6 Astra/Sol/Luna) report 44,794 tokens and match each other on every one of the 31 fixtures. GPT-6 introduces no input-count change on this corpus. Tags: projects , ai , openai , generative-ai , llms , tokenization",
-      "image": "",
-      "source": "Simon Willison",
-      "announce": "",
-      "score": 5,
+      "score": 4,
       "category": "Other"
     },
     {
@@ -388,7 +375,20 @@
       "image": "",
       "source": "Simon Willison",
       "announce": "",
-      "score": 5,
+      "score": 4,
+      "category": "Other"
+    },
+    {
+      "guid": "https://simonwillison.net/2026/Oct/12/datasette-ports/",
+      "title": "datasette-ports 0.4",
+      "link": "https://simonwillison.net/2026/Oct/12/datasette-ports/",
+      "authors": [],
+      "date": "2026-10-12T04:57:07+00:00",
+      "summary": "Release: datasette-ports 0.4 My plugin for detecting and listing all Datasette instances on the current machine now works with the latest version, and displays the detected PID as well. Knowing the PID makes it easier to attach the new Python 3.15 profiler . Tags: datasette",
+      "image": "",
+      "source": "Simon Willison",
+      "announce": "",
+      "score": 3,
       "category": "Other"
     }
   ]

@@ -8,7 +8,7 @@ date: "2026-10-15"
 score: 50
 guid: "10.1038/s41586-026-11263-3"
 image: ""
-generated: "2026-10-19T19:03:54+05:30"
+generated: "2026-10-21T05:20:57+05:30"
 ---
 
-Nearly half of reef-building corals now face a higher relative risk of extinction. The text is only a single line, so it gives no method, numbers or species detail. It matters because these are the corals that build reefs.
+Nearly half of reef-building corals now face a higher relative risk of extinction. The source gives no further detail beyond that finding.

@@ -8,7 +8,7 @@ date: "2026-10-20"
 score: 45
 guid: "10.1038/d41586-026-03062-7"
 image: ""
-generated: "2026-10-21T05:20:57+05:30"
+generated: "2026-10-22T20:05:20+05:30"
 ---
 
-Butterfly wings might help explain how moving prey avoid being caught. Movement can give away camouflaged animals, so researchers have long asked whether colour patterns help prey that are on the move. The text only hints at an answer, so the details are still unclear.
+Movement can expose camouflaged prey, yet whether colour patterns help moving prey to avoid capture is a long-standing puzzle. Butterfly wings might offer an answer.

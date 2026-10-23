@@ -8,7 +8,7 @@ date: "2026-10-21"
 score: 50
 guid: "10.1038/d41586-026-03064-5"
 image: ""
-generated: "2026-10-22T20:05:20+05:30"
+generated: "2026-10-23T19:04:29+05:30"
 ---
 
-A new fabric user interface can be worn on your sleeve. It uses touch-sensitive, light-emitting yarn to show dynamic graphics and offer computing functions. The fabric bends and can be machine-washed. That turns everyday clothes into working interfaces.
+Touch-sensitive, light-emitting yarn can turn everyday clothing into washable, bendable user interfaces with dynamic graphics and versatile computing functions.

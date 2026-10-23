@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/s41586-026-11188-x"
 authors: ["Luc-Alban Vuillemenot", "Lucas G. Morales", "Calin-Mihai Dragoi", "Betheney R. Pennycook", "Edward Harris", "Liuyang C. Lin", "William A. Weston", "Jade-Ellen Brown", "Emma Graham", "Leelou Moulin", "Ivan Andrew", "Georgia Roumelioti", "Alex Montoya", "Laurence Game", "George R. Young", "Keshava K. Datta", "Pavel Shliaha", "Béla Novák", "Hiroyuki Yamano", "Alexis R. Barr"]
 date: "2026-10-21"
-score: 40
+score: 35
 guid: "10.1038/s41586-026-11188-x"
 image: ""
-generated: "2026-10-22T20:05:20+05:30"
+generated: "2026-10-23T19:04:29+05:30"
 ---
 
 Experimental and modelling data indicate that WEE1 promotes re-entry of quiescent cells into the cell cycle, potentially explaining the toxic side effects of WEE1 inhibitors in cancer therapies.

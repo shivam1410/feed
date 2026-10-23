@@ -8,7 +8,7 @@ date: "2026-10-21"
 score: 5
 guid: "10.1038/d41586-026-03110-2"
 image: ""
-generated: "2026-10-22T20:05:20+05:30"
+generated: "2026-10-23T19:04:29+05:30"
 ---
 
 A good way to learn?

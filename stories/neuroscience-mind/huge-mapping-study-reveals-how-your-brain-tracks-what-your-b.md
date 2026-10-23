@@ -8,7 +8,7 @@ date: "2026-10-21"
 score: 55
 guid: "10.1038/d41586-026-03334-2"
 image: ""
-generated: "2026-10-22T20:05:20+05:30"
+generated: "2026-10-23T19:04:29+05:30"
 ---
 
-A huge mapping study shows how the brain tracks what the body is feeling. Signals in the insula, a region deep in the brain, can make people feel hot, tingly and nauseous. The result shows how closely bodily sensations and brain activity are linked.
+A huge mapping study shows how the brain tracks what the body is feeling. Signals in the insula, a region deep in the brain, can make people feel hot, tingly and nauseous. That is a striking link between one brain region and physical sensations.

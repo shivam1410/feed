@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/s41586-026-11179-y"
 authors: ["Marina Oliva", "Tim Stuart", "Dave Tang", "Adil Khan", "Olivier Clement", "Dawid Makosa", "Daniel Poppe", "Jahnvi Pflueger", "Jafar S. Jabbari", "Scott Gigante", "Jonathan Michael Dragwidge", "Milly Petterson", "James Whelan", "Mathew G. Lewsey", "Ryan Lister"]
 date: "2026-10-21"
-score: 40
+score: 35
 guid: "10.1038/s41586-026-11179-y"
 image: ""
-generated: "2026-10-22T20:05:20+05:30"
+generated: "2026-10-23T19:04:29+05:30"
 ---
 
 An environment-regulated state is identified across multiple cell types at the root tip, revealing a shared dichotomy between cells with and without this state.

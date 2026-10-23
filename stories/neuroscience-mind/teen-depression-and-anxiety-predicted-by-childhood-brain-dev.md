@@ -4,11 +4,11 @@ category: "Neuroscience & Mind"
 source: "Nature"
 url: "https://www.nature.com/articles/d41586-026-03357-9"
 authors: ["Max Kozlov"]
-date: "2026-10-21"
-score: 60
+date: "2026-10-22"
+score: 62
 guid: "10.1038/d41586-026-03357-9"
 image: ""
-generated: "2026-10-22T20:05:20+05:30"
+generated: "2026-10-23T19:04:29+05:30"
 ---
 
-An analysis of nearly 30,000 brain scans builds a detailed timeline of how the brain matures. The study links childhood brain development to depression and anxiety in teens. It also hints at what might happen when that development is disrupted.
+Researchers analyzed nearly 30,000 brain scans to map how the brain matures. The result is a detailed timeline of that development. The study connects childhood brain development with teen depression and anxiety. It also hints at the consequences of disrupting that development.

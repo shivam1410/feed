@@ -8,7 +8,7 @@ date: "2026-10-21"
 score: 92
 guid: "10.1038/s41586-026-11205-z"
 image: ""
-generated: "2026-10-22T20:05:20+05:30"
+generated: "2026-10-23T19:04:29+05:30"
 ---
 
-A 16-billion-parameter AI model called Pinal designs functional proteins from plain-language descriptions. The designs showed experimentally validated activity. They also improved CO2-fixation product yields without iterative optimization.
+Pinal is an AI model with 16 billion parameters that designs working proteins. You describe the protein in plain language, and the model designs it. Experiments validated the designed proteins' activity. The designs also raised yields of products from CO2 fixation, without repeated optimization rounds.

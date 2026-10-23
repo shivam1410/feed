@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/d41586-026-03319-1"
 authors: []
 date: "2026-10-21"
-score: 50
+score: 40
 guid: "10.1038/d41586-026-03319-1"
 image: ""
-generated: "2026-10-22T20:05:20+05:30"
+generated: "2026-10-23T19:04:29+05:30"
 ---
 
-Despite their name, white dwarf stars are not always white. An analysis of some nearby stars found they can be pink, yellow and more. That changes how people picture these stellar remnants.
+White dwarf stars are not always white. Analysis of some nearby stars shows they can be pink, yellow and more. The finding is a surprise, given their name. It shows how much variety there is among these stars.

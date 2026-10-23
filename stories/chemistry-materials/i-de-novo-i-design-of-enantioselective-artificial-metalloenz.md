@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/s41586-026-11317-6"
 authors: ["Sandip Mishra", "Payal", "Declan Evans", "Kingsley Bortey", "Husayn Bootwala", "Giovanni Gonzalez-Gutierrez", "Ricardo Javier Vázquez", "David Baker", "Jared C. Lewis"]
 date: "2026-10-21"
-score: 55
+score: 45
 guid: "10.1038/s41586-026-11317-6"
 image: ""
-generated: "2026-10-22T20:05:20+05:30"
+generated: "2026-10-23T19:04:29+05:30"
 ---
 
-Researchers designed artificial metalloenzyme photocatalysts from scratch. The title says they are enantioselective, meaning they favour one mirror-image form of a molecule. The source gives no results or numbers beyond that. Chemists care about this because mirror-image forms of a molecule can behave differently.
+De novo design of enantioselective artificial metalloenzyme photocatalysts

@@ -8,7 +8,7 @@ date: "2026-10-21"
 score: 50
 guid: "10.1038/d41586-026-03066-3"
 image: ""
-generated: "2026-10-22T20:05:20+05:30"
+generated: "2026-10-23T19:04:29+05:30"
 ---
 
 In nematodes, a metabolite induced by the cold links low temperatures to a body-wide signal that promotes longevity. This signalling system is also seen in human cells.

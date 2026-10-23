@@ -2,13 +2,13 @@
 title: "Quoting Armin Ronacher"
 category: "Other"
 source: "Simon Willison"
-url: "https://simonwillison.net/2026/Jul/14/armin-ronacher/#atom-everything"
+url: "https://simonwillison.net/2026/Oct/22/armin-ronacher/"
 authors: []
-date: "2026-07-14T18:04:23+00:00"
-score: ""
-guid: "https://simonwillison.net/2026/Jul/14/armin-ronacher/#atom-everything"
+date: "2026-10-22T15:34:13+00:00"
+score: 25
+guid: "https://simonwillison.net/2026/Oct/22/armin-ronacher/"
 image: ""
-generated: "2026-07-19T19:52:10+05:30"
+generated: "2026-10-23T19:04:29+05:30"
 ---
 
-The shared language of a software project is not English or Python but it is the common understanding of what its concepts mean, where the boundaries are, which invariants matter, who owns what, and why the system has the shape it does. This language is rarely written down in one place. It lives partly in documentation and code, but also in code review, conversations, arguments, and the experience of having to explain a change to somebody else. Before agents, some of this shared understanding was maintained by friction. If I wanted to change your storage layer, I usually had to read your code, ask you questions, and perhaps coordinate with another team whose service depended on it. This was slow, and much of that slowness was waste but not all of it was. Some of it was the process by which your understanding became mine, and by which both of us discovered whether we still agreed about how the system worked. This friction synchronizes people. — Armin Ronacher , The Tower Keeps Rising Tags: ai , software-engineering , llms , coding-agents , ai-assisted-programming , generative-ai , armin-ronacher , agentic-engineering
+As fun as AI is, we built so much bad software over the last 30 years, and now the universe is punishing us for our sins. — Armin Ronacher Tags: security , generative-ai , armin-ronacher , ai , ai-security-research , llms

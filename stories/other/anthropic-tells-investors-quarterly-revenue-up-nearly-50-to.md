@@ -5,10 +5,10 @@ source: "Simon Willison"
 url: "https://simonwillison.net/2026/Oct/15/anthropic-tells-investors/"
 authors: []
 date: "2026-10-15T13:04:03+00:00"
-score: 55
+score: ""
 guid: "https://simonwillison.net/2026/Oct/15/anthropic-tells-investors/"
 image: ""
-generated: "2026-10-23T19:04:29+05:30"
+generated: "2026-10-24T19:15:22+05:30"
 ---
 
-Anthropic reportedly told investors that third-quarter revenue reached $16.8 billion. That is up from $11.5 billion in the second quarter and about $4.8 billion in the first. Per the FT, every $1 spent on computing power brought in $1.70 of revenue in Q3. Adjusted operating margin, excluding stock-based pay, was 11%. Anthropic also said distillation, where rival labs train on its model outputs, made up 5% to 7% of revenue. It cut that back materially in Q3. The figures come from people familiar with the matter.
+Anthropic tells investors quarterly revenue up nearly 50% to $16.8bn ahead of IPO The phrase "told investors" appears four times in this FT article, which reports on Anthropic's day of hosting investors on Wednesday. Lots of details in here from " people with knowledge of the matter ". Key things I learned from the article: Q1 revenue (Jan/Feb/Mar) was "about $4.8bn" Q2 (Apr/May/Jun) was $11.5bn Q3 (Jul/Aug/Sep) was $16.8bn In Q3: $1.70 in revenue for every $1 spent on "computing power" Adjusted operating margins (excluding stock-based compensation) were 11% This point about distillation is worth quoting in full (highlight mine): The start-up has also clamped down on “distillation” — a controversial practice whereby rival AI labs train their models on the outputs of more advanced ones. When rival companies “distil” their models from Anthropic’s models, that involves heavy usage and spending. Anthropic told investors on Wednesday distillation accounted for 5 per cent to 7 per cent of revenue and that they had cut it back “materially” in the third quarter of the year, said four people with direct knowledge of the matter. Napkin maths says that if distillation was 5% of their Q2 revenue (before they cut it back in Q3) then unnamed "other labs" spent over half a billion dollars distilling Anthropic's models in that quarter! Also notable: Anthropic appear to no longer be leaning on "annualized run-rate revenue" ( previously ) in these communications to their investors. Tags: ai , generative-ai , llms , anthropic

@@ -8,7 +8,7 @@ date: "2026-10-21"
 score: ""
 guid: "10.1038/s41586-026-11096-0"
 image: ""
-generated: "2026-10-24T19:15:22+05:30"
+generated: "2026-10-26T19:00:28+05:30"
 ---
 
 Now that hyperacute rejection of pig xenografts can be reliably prevented, subtler immune-mediated graft injuries have emerged that conventional diagnostics often miss; a multimodal precision diagnostic framework is proposed to detect these injuries earlier, guide personalized immunosuppression and inform future gene editing strategies.

@@ -8,7 +8,7 @@ date: "2026-10-21"
 score: ""
 guid: "10.1038/d41586-026-03077-0"
 image: ""
-generated: "2026-10-24T19:15:22+05:30"
+generated: "2026-10-26T19:00:28+05:30"
 ---
 
 An innovative artificial-intelligence application enhances weather forecasting in the difficult subseasonal range, providing accurate forecasts of precipitation, temperature and pressure 3–5 weeks in advance. The tool refines both physics- and AI-based weather models and improves the early prediction of extremes of heat, cold, rainfall and flooding.

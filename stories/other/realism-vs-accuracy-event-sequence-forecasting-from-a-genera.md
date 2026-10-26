@@ -8,7 +8,7 @@ date: "2026-10-07T20:00:00.000Z"
 score: ""
 guid: "2610.12586"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.12586.png"
-generated: "2026-10-24T19:15:22+05:30"
+generated: "2026-10-26T19:00:28+05:30"
 ---
 
 Event sequence forecasting is evaluated as conditional generative modeling, revealing a trade-off between accuracy and realism, and a proposed algorithm converts realism into predictive accuracy.

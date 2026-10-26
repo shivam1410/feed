@@ -8,7 +8,7 @@ date: "2026-10-21"
 score: ""
 guid: "10.1038/s41586-026-11186-z"
 image: ""
-generated: "2026-10-24T19:15:22+05:30"
+generated: "2026-10-26T19:00:28+05:30"
 ---
 
 CD51+ astrocytes promote synapse formation in the developing cortex, circuit plasticity in the hippocampus and circuit remodelling after stroke.

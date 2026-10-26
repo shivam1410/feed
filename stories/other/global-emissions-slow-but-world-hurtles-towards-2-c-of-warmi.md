@@ -8,7 +8,7 @@ date: "2026-10-21"
 score: ""
 guid: "10.1038/d41586-026-03355-x"
 image: ""
-generated: "2026-10-24T19:15:22+05:30"
+generated: "2026-10-26T19:00:28+05:30"
 ---
 
-The United Nations’ latest climate report is a stark reminder that limiting warming to the safest levels is now likely out of reach.
+The United Nations’ latest climate report is a stark reminder that limiting warming to the safest levels is now likely to be out of reach.

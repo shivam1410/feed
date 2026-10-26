@@ -8,7 +8,7 @@ date: "2026-10-21T20:00:00.000Z"
 score: ""
 guid: "2610.31668"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.31668.png"
-generated: "2026-10-24T19:15:22+05:30"
+generated: "2026-10-26T19:00:28+05:30"
 ---
 
 This survey unifies video understanding and generation through world modeling, organizing progress around inferring, synthesizing, sharing, and interacting with latent temporal states to emphasize persistent dynamics over clip-level perception.

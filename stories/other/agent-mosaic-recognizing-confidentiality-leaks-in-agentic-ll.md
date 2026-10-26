@@ -8,7 +8,7 @@ date: "2026-10-20T20:00:00.000Z"
 score: ""
 guid: "2610.30418"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.30418.png"
-generated: "2026-10-24T19:15:22+05:30"
+generated: "2026-10-26T19:00:28+05:30"
 ---
 
 LLM agents frequently leak sensitive conclusions assembled from multiple confidential documents, and common safeguards fail to eliminate this mosaic-style disclosure risk.

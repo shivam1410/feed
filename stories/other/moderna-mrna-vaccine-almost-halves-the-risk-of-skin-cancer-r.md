@@ -8,7 +8,7 @@ date: "2026-10-23"
 score: ""
 guid: "10.1038/d41586-026-03417-0"
 image: ""
-generated: "2026-10-24T19:15:22+05:30"
+generated: "2026-10-26T19:00:28+05:30"
 ---
 
-Long-awaited results from phase III trial show a huge benefit in treating treatment-resistant melanoma.
+Long-awaited results from phase III trial show huge benefits for treatment-resistant melanoma.

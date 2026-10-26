@@ -1,6 +1,32 @@
 {
-  "generatedAt": "2026-10-24T19:15:22+05:30",
+  "generatedAt": "2026-10-26T19:00:28+05:30",
   "items": [
+    {
+      "guid": "https://simonwillison.net/2026/Oct/25/seam-cutter/",
+      "title": "Seam Cutter",
+      "link": "https://simonwillison.net/2026/Oct/25/seam-cutter/",
+      "authors": [],
+      "date": "2026-10-25T15:10:19+00:00",
+      "summary": "Tool: Seam Cutter I built this weird and very specific cropping tool - it lets you create a horizontal or vertical cut across an image, then slide the two sides relative to each other. Effectively it lets you crop out a section in the middle of an image. I wanted this because I often use Tailor on my iPhone to stitch several screenshots together into lot long image, but sometimes I find myself wanting to crop out a section in the middle - to redact an irrelevant prompt from a transcript, for example. Tags: tools",
+      "image": "",
+      "source": "Simon Willison",
+      "announce": "",
+      "score": null,
+      "category": "Other"
+    },
+    {
+      "guid": "https://simonwillison.net/2026/Oct/24/battledrones/",
+      "title": "battledrones v14: Compass Rose, a four player map",
+      "link": "https://simonwillison.net/2026/Oct/24/battledrones/",
+      "authors": [],
+      "date": "2026-10-24T03:59:57+00:00",
+      "summary": "Release: battledrones v14: Compass Rose, a four player map I added four player online mode to Battledrones - previous maps were limited to two. Here's the initial prompt I used: Add a new map for a four player battle - four way rotational symmetry, up to four AI players, works with the WebSocket non-audio based multiplayer mode so up to four human players can join (any spare slots use AI) Claude Opus 5.5 added a new map called \"Compass Rose\" and modified the WebSockets multiplayer network code to support up to four players for that map, joining via share links or QR codes. The new teams use robots themed in purple and green, joining the existing blue and red designs. You can preview those colors in the updated model browser . Here's a replay link to watch a four way AI battle with the \"Goliath Armada\" mutator turned on, where each side starts with four giant Goliath mech units. Tags: game-design , projects , claude",
+      "image": "",
+      "source": "Simon Willison",
+      "announce": "",
+      "score": null,
+      "category": "Other"
+    },
     {
       "guid": "https://simonwillison.net/2026/Oct/23/quick-study-painter/",
       "title": "Quick Study",
@@ -359,32 +385,6 @@
       "authors": [],
       "date": "2026-10-12T16:58:00+00:00",
       "summary": "Research: Profiling web-edit with Python 3.15: flame graphs and source heatmaps I put the new Python 3.15 profiler through its paces by having GPT-6 Astra Extra High in Codex run it against my new web-edit app : I need a Python 3.15 flame graph and heatmap demo of the \"web-edit\" app from PyPI - research first then make me those demos Here's the resulting example flame graph and heatmap . Tags: profiling , python , codex",
-      "image": "",
-      "source": "Simon Willison",
-      "announce": "",
-      "score": null,
-      "category": "Other"
-    },
-    {
-      "guid": "https://simonwillison.net/2026/Oct/12/web-edit/",
-      "title": "web-edit 0.1a0",
-      "link": "https://simonwillison.net/2026/Oct/12/web-edit/",
-      "authors": [],
-      "date": "2026-10-12T15:54:36+00:00",
-      "summary": "Release: web-edit 0.1a0 I was working on a project from my phone using Codex Remote when I found myself wanting to edit a credentials file without round-tripping those credentials through the LLM itself. So... I had Codex and GPT-6 Astra Extra High build this Python web app which provides a web UI for viewing and editing files in a folder. It's intended to be run over Tailscale, so I can have an agent start this running and then edit files via my Tailscale network directly from my phone. Here's the interface for browsing files in a folder: Editing uses CodeMirror 6 - I was going to use Monaco but that still doesn't have a great mobile experience yet. Tags: projects , python , ai , tailscale , generative-ai , llms , codex",
-      "image": "",
-      "source": "Simon Willison",
-      "announce": "",
-      "score": null,
-      "category": "Other"
-    },
-    {
-      "guid": "https://simonwillison.net/2026/Oct/12/datasette-ports/",
-      "title": "datasette-ports 0.4",
-      "link": "https://simonwillison.net/2026/Oct/12/datasette-ports/",
-      "authors": [],
-      "date": "2026-10-12T04:57:07+00:00",
-      "summary": "Release: datasette-ports 0.4 My plugin for detecting and listing all Datasette instances on the current machine now works with the latest version, and displays the detected PID as well. Knowing the PID makes it easier to attach the new Python 3.15 profiler . Tags: datasette",
       "image": "",
       "source": "Simon Willison",
       "announce": "",

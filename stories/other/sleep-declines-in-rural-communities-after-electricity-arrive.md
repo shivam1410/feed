@@ -8,7 +8,7 @@ date: "2026-10-23"
 score: ""
 guid: "10.1038/d41586-026-03318-2"
 image: ""
-generated: "2026-10-24T19:15:22+05:30"
+generated: "2026-10-26T19:00:28+05:30"
 ---
 
 Scientists tracked the changing sleep patterns of Indigenous people in Argentina who gained access to mains electricity — and smart phones.

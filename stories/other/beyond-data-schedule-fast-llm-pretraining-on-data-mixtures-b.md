@@ -1,0 +1,14 @@
+---
+title: "Beyond Data Schedule: Fast LLM Pretraining on Data Mixtures by Loss-Reweighting"
+category: "Other"
+source: "arXiv (cs.LG)"
+url: "https://arxiv.org/abs/2610.32141"
+authors: ["Jiazheng Li, Huaqing Zhang, Jing Xu, Tianle Cai, Jingzhao Zhang"]
+date: "Mon, 26 Oct 2026 00:00:00 -0400"
+score: ""
+guid: "oai:arXiv.org:2610.32141v1"
+image: ""
+generated: "2026-10-26T19:00:28+05:30"
+---
+
+Large language models often acquire specialized capabilities through successive pretraining stages, but these gains can come at the cost of forgetting earlier knowledge. In this work, we investigate whether such trade-offs can be improved by changing how strongly each domain contributes to learning while keeping its data exposure fixed. We find that, in controlled knowledge--mathematics experiments, loss reweighting produces a single checkpoint that surpasses the best knowledge and reasoning scores attained along either stage trajectory. This reveals an independent control that data-mixture ratios alone do not capture. Building on this finding, we propose LARE (Loss-Adaptive Reweighting under fixed Exposure), which automatically adjusts domain weights from running loss statistics. Motivated by a theoretical analysis of gradient noise, its normalized inverse-square-root rule balances relative loss scales without changing the sampled mixture or requiring additional runs to search for weights. Across knowledge, mathematics, and code, \Method{} improves all five evaluated benchmarks for a 1.5B model trained on 240B tokens, averaging +7.84 pp over a matched direct mixture, including gains of +17.06 pp on GSM8K and +9.00 pp on MATH. These findings demonstrate that adjusting domain loss scales can improve joint capabilities without additional domain exposure.

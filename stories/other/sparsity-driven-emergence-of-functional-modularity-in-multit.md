@@ -1,0 +1,14 @@
+---
+title: "Sparsity-driven emergence of functional modularity in multitask neural networks"
+category: "Other"
+source: "arXiv (cs.LG)"
+url: "https://arxiv.org/abs/2610.32153"
+authors: ["Bowen Shi, Qi Ouyang, Long Qian"]
+date: "Mon, 26 Oct 2026 00:00:00 -0400"
+score: ""
+guid: "oai:arXiv.org:2610.32153v1"
+image: ""
+generated: "2026-10-26T19:00:28+05:30"
+---
+
+Neural networks can learn multiple tasks, but how learning organizes shared computation into specialized and reusable components remains poorly understood. In this work, we show that sparsity inducing regularization promotes functional modularity in multitask networks without predefined module boundaries. Using functional profiling in multilayer perceptrons and a lightweight transformer, we identified compact, task-selective subnetworks, termed functional tokens. Across rule-based task families, selectively retaining these tokens preserves their associated functions while reducing performance on other tasks. Such specialization develops preferentially in deeper layers during training, while earlier layers retain shared computation. Regularization strength and form shape module compactness and specialization, while task weighting alters functional allocation. Moreover, extracted functional tokens can be recombined through alternative pathways to reconstruct a learned composite computation without retraining, preserving their connectivity and learned weights. Our results suggest that sparsity-constrained optimization shapes not only parameter use but also the organization and reuse of learned computation.

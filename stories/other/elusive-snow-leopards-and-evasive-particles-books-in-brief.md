@@ -8,7 +8,7 @@ date: "2026-10-23"
 score: ""
 guid: "10.1038/d41586-026-03395-3"
 image: ""
-generated: "2026-10-24T19:15:22+05:30"
+generated: "2026-10-26T19:00:28+05:30"
 ---
 
 Andrew Robinson reviews five of the best science picks.

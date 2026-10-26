@@ -8,7 +8,7 @@ date: "2026-10-21T20:00:00.000Z"
 score: ""
 guid: "2610.30949"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.30949.png"
-generated: "2026-10-24T19:15:22+05:30"
+generated: "2026-10-26T19:00:28+05:30"
 ---
 
 IQuest-Q1 is a sparse Mixture-of-Experts foundation model trained via multi-stage pre-training, mid-training, and post-training to achieve strong agentic coding and general capabilities.

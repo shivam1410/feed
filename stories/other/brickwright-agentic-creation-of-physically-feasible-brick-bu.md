@@ -8,7 +8,7 @@ date: "2026-10-21T20:00:00.000Z"
 score: ""
 guid: "2610.31651"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.31651.png"
-generated: "2026-10-24T19:15:22+05:30"
+generated: "2026-10-26T19:00:28+05:30"
 ---
 
 BrickWright improves physical validity of AI-generated LEGO assemblies by providing agents with an assembly API and feasibility validator, achieving perfect validity while preserving prompt adherence.

@@ -8,7 +8,7 @@ date: "2026-10-25"
 score: ""
 guid: "10.1038/s41586-026-11328-3"
 image: ""
-generated: "2026-10-26T19:00:28+05:30"
+generated: "2026-10-27T20:42:10+05:30"
 ---
 
 ctDNA clearance and outcomes for resectable lung cancer from NeoCOAST-2

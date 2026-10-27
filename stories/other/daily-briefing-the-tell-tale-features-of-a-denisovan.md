@@ -8,7 +8,7 @@ date: "2026-10-22"
 score: ""
 guid: "10.1038/d41586-026-03438-9"
 image: ""
-generated: "2026-10-26T19:00:28+05:30"
+generated: "2026-10-27T20:42:10+05:30"
 ---
 
 See what gave Denisovans their distinct look. Plus, a vaccine trial for Ebola could kick off this week in the Democratic Republic of the Congo and what makes a great climate graphic.

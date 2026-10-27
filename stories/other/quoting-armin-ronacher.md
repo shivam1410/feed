@@ -8,7 +8,7 @@ date: "2026-10-22T15:34:13+00:00"
 score: ""
 guid: "https://simonwillison.net/2026/Oct/22/armin-ronacher/"
 image: ""
-generated: "2026-10-26T19:00:28+05:30"
+generated: "2026-10-27T20:42:10+05:30"
 ---
 
 As fun as AI is, we built so much bad software over the last 30 years, and now the universe is punishing us for our sins. — Armin Ronacher Tags: security , generative-ai , armin-ronacher , ai , ai-security-research , llms

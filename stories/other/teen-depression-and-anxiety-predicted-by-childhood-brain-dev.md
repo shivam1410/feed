@@ -8,7 +8,7 @@ date: "2026-10-22"
 score: ""
 guid: "10.1038/d41586-026-03357-9"
 image: ""
-generated: "2026-10-26T19:00:28+05:30"
+generated: "2026-10-27T20:42:10+05:30"
 ---
 
 Analysis of nearly 30,000 brain scans yields detailed timeline of how the brain matures — and hints at the consequences of disrupting it.

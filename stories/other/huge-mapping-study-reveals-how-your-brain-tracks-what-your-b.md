@@ -8,7 +8,7 @@ date: "2026-10-21"
 score: ""
 guid: "10.1038/d41586-026-03334-2"
 image: ""
-generated: "2026-10-26T19:00:28+05:30"
+generated: "2026-10-27T20:42:10+05:30"
 ---
 
 Signals in the insula region, deep in the brain, can make people feel hot, tingly and nauseous.

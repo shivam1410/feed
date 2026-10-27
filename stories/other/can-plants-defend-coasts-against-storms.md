@@ -8,7 +8,7 @@ date: "2026-10-21"
 score: ""
 guid: "10.1038/d41586-026-03063-6"
 image: ""
-generated: "2026-10-26T19:00:28+05:30"
+generated: "2026-10-27T20:42:10+05:30"
 ---
 
 Salt-marsh plants can protect inland areas against huge waves — but seemingly only up to a point, and big storms cause progressive damage.

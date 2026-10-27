@@ -4,11 +4,11 @@ category: "Other"
 source: "arXiv (cs.LG)"
 url: "https://arxiv.org/abs/2610.32142"
 authors: ["Disen Liao, Yaoliang Yu"]
-date: "Mon, 26 Oct 2026 00:00:00 -0400"
+date: "Tue, 27 Oct 2026 00:00:00 -0400"
 score: ""
 guid: "oai:arXiv.org:2610.32142v1"
 image: ""
-generated: "2026-10-26T19:00:28+05:30"
+generated: "2026-10-27T20:42:10+05:30"
 ---
 
 Low-Rank Adaptation (LoRA) is often highly sensitive to learning-rate (LR) choices. Recent empirical studies suggest that, once LRs are carefully tuned, vanilla LoRA can remain competitive with many proposed LoRA variants. This shifts the central practical question from designing ever more variants to reducing the cost and brittleness of LR selection. LoRA+ addresses this issue with asymmetric LRs, using a larger LR for the up-projection matrix $B$ than for the down-projection matrix $A$. However, the ratio $\eta_B / \eta_A$ itself becomes an additional hyperparameter: large ratios can improve adaptation, but under the standard LoRA initialization they can also cause unstable training and ratio-dependent performance collapse. We identify the source of this brittleness through a signal--noise decomposition of LoRA dynamics. Under standard \initA, the update contains an initialization-induced noise term whose magnitude can be affected by the LR for $B$, $\eta_B$, the initialization scale $\beta$, and the adapter rank $r$. In practical LLM fine-tuning, this non-vanishing noise can limit the performance gains expected from LoRA+ style asymmetric LRs. To suppress this effect, we propose \initAA, a simple initialization that scales the variance of $A$ as $\sigma_A^2 \propto n^{-2}$ while keeping $B_0=0$. Under matched rank and training time for both initializations, this reduces the initialization-noise energy by an additional factor of $1/n$, stabilizing asymmetric LoRA training while preserving zero initial adapter output. Empirically, \initAA substantially widens the stable LR region across initialization scales, adapter ranks, and LoRA update multipliers. Across tasks and models, \initAA reduces best-ratio drift, prevents the high-ratio collapse observed with standard \initA, and makes the width-based guideline $\eta_B \approx n \eta_A$ a useful starting point for finite pretrained models.

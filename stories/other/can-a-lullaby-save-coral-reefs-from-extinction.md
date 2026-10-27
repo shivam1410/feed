@@ -8,7 +8,7 @@ date: "2026-10-22"
 score: ""
 guid: "10.1038/d41586-026-03414-3"
 image: ""
-generated: "2026-10-26T19:00:28+05:30"
+generated: "2026-10-27T20:42:10+05:30"
 ---
 
 From underwater speakers to growing super-corals, scientists battle to save reefs around the world.

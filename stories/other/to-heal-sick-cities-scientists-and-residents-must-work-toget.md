@@ -8,7 +8,7 @@ date: "2026-10-21"
 score: ""
 guid: "10.1038/d41586-026-03161-5"
 image: ""
-generated: "2026-10-26T19:00:28+05:30"
+generated: "2026-10-27T20:42:10+05:30"
 ---
 
 Tolullah Oni has developed a platform to transfer the intellectual capital of African diaspora scholars back to the continent.

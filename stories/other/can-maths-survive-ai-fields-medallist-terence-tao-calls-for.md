@@ -8,7 +8,7 @@ date: "2026-10-22"
 score: ""
 guid: "10.1038/d41586-026-03389-1"
 image: ""
-generated: "2026-10-26T19:00:28+05:30"
+generated: "2026-10-27T20:42:10+05:30"
 ---
 
 As machines race ahead in solving problems, mathematicians must establish a new era that prizes human understanding over simply publishing more solutions.

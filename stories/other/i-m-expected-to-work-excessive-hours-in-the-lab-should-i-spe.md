@@ -8,7 +8,7 @@ date: "2026-10-23"
 score: ""
 guid: "10.1038/d41586-026-02582-6"
 image: ""
-generated: "2026-10-26T19:00:28+05:30"
+generated: "2026-10-27T20:42:10+05:30"
 ---
 
 What can a researcher in an overworked laboratory do to take care of themselves and their lab-mates, and how should they navigate medical disclosure?

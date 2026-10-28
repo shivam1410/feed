@@ -8,7 +8,7 @@ date: "2026-10-23"
 score: ""
 guid: "10.1038/s41586-026-11303-y"
 image: ""
-generated: "2026-10-27T20:42:10+05:30"
+generated: "2026-10-28T19:00:21+05:30"
 ---
 
 Author Correction: DYNLL1 binds to MRE11 to limit DNA end resection in BRCA1-deficient cells

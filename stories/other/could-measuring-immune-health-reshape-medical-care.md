@@ -8,7 +8,7 @@ date: "2026-10-27"
 score: ""
 guid: "10.1038/d41586-026-03396-2"
 image: ""
-generated: "2026-10-27T20:42:10+05:30"
+generated: "2026-10-28T19:00:21+05:30"
 ---
 
 Finding practical ways to analyse the state of a person’s immune system could guide treatment decisions and create opportunities for disease prevention.

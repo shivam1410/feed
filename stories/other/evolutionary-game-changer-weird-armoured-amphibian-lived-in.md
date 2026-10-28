@@ -8,7 +8,7 @@ date: "2026-10-26"
 score: ""
 guid: "10.1038/d41586-026-03440-1"
 image: ""
-generated: "2026-10-27T20:42:10+05:30"
+generated: "2026-10-28T19:00:21+05:30"
 ---
 
 The creature’s armour cladding probably enabled it to tolerate the salty seas of the Late Triassic.

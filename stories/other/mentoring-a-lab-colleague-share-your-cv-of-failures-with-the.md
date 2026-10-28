@@ -8,7 +8,7 @@ date: "2026-10-26"
 score: ""
 guid: "10.1038/d41586-026-03410-7"
 image: ""
-generated: "2026-10-27T20:42:10+05:30"
+generated: "2026-10-28T19:00:21+05:30"
 ---
 
 Melanie Stefan became a ‘poster child of failure’ after writing an article about it. Now she urges senior colleagues to be more open about career setbacks.

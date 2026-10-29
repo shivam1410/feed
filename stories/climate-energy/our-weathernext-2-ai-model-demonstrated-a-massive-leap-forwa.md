@@ -5,10 +5,10 @@ source: "DeepMind"
 url: "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/weathernext-2-cyclones/"
 authors: []
 date: "Thu, 06 Aug 2026 14:00:00 +0000"
-score: 70
+score: 60
 guid: "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/weathernext-2-cyclones/"
 image: "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/WN-cyclones_header_blog_16x9_bl.max-600x600.format-webp.webp"
-generated: "2026-10-23T19:04:29+05:30"
+generated: "2026-10-29T14:26:40+05:30"
 ---
 
-DeepMind says its WeatherNext 2 model shows state-of-the-art accuracy in cyclone prediction. The title calls it a massive leap forward. The text includes no figures, so the size of the gain is unclear. Better cyclone forecasts matter because they can give communities more time to prepare.
+Google DeepMind’s WeatherNext 2 shows state-of-the-art accuracy in cyclone prediction.

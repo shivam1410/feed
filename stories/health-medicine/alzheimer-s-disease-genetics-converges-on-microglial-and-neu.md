@@ -8,7 +8,7 @@ date: "2026-10-28"
 score: 55
 guid: "10.1038/s41586-026-11206-y"
 image: ""
-generated: "2026-10-29T14:26:40+05:30"
+generated: "2026-10-30T14:56:27+05:30"
 ---
 
-A large Alzheimer's study across many ancestries found new risk regions in the genome. Those regions point to microglia and neurons. The work suggests common genetic variants matter more than earlier estimates said. It also flags potential drug targets. These leads could guide which treatments get tested next.
+A multi-ancestry study of Alzheimer's disease found new genetic risk regions. The genes point to microglia, the brain's immune cells, and to neurons. The study also suggests common genetic variants explain more of the risk than earlier estimates. The findings flag potential drug targets to test. It matters because it widens the list of places treatments might act.

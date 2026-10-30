@@ -17,6 +17,9 @@ const FEEDS = [
   { id: "huggingface", name: "HF Trending Papers", kind: "hf" },
   { id: "simonw", name: "Simon Willison", kind: "rss" },
   { id: "latentspace", name: "Latent Space", kind: "rss" },
+  { id: "krebs", name: "Krebs on Security", kind: "rss" },
+  { id: "thehackernews", name: "The Hacker News", kind: "rss" },
+  { id: "schneier", name: "Schneier on Security", kind: "rss" },
   // Short-teaser sources next.
   { id: "nature", name: "Nature", kind: "rss" },
   { id: "deepmind", name: "DeepMind", kind: "rss" },
@@ -27,6 +30,7 @@ const DEFAULT_CATEGORIES = [
   "AI Research", "Nature & Ecology", "Health & Medicine", "Genetics & Biology",
   "Neuroscience & Mind", "Physics & Space", "Climate & Energy",
   "Robotics & Engineering", "Science & Society", "Chemistry & Materials",
+  "Cyber Security",
 ];
 const HOME_LIMIT = 20; // Home shows only the top-N most relevant (by score)
 
@@ -42,6 +46,9 @@ const TAB_FEEDS = [
   { id: "huggingface", label: "HF" },
   { id: "simonw", label: "Simon Willison" },
   { id: "latentspace", label: "Latent Space" },
+  { id: "krebs", label: "Krebs" },
+  { id: "thehackernews", label: "Hacker News" },
+  { id: "schneier", label: "Schneier" },
   { id: "nature", label: "Nature" },
   { id: "deepmind", label: "DeepMind" },
 ];
@@ -295,6 +302,9 @@ function upstreamUrl(feed) {
     case "arxiv": return "https://rss.arxiv.org/rss/cs.LG";
     case "latentspace": return "https://www.latent.space/feed";
     case "simonw": return "https://simonwillison.net/atom/everything/";
+    case "krebs": return "https://krebsonsecurity.com/feed/";
+    case "thehackernews": return "https://feeds.feedburner.com/TheHackersNews";
+    case "schneier": return "https://www.schneier.com/feed/atom/";
     default: return feed.link || "";
   }
 }

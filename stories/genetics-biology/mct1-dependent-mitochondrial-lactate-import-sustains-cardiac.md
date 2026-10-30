@@ -8,7 +8,7 @@ date: "2026-10-28"
 score: 45
 guid: "10.1038/s41586-026-11182-3"
 image: ""
-generated: "2026-10-29T14:26:40+05:30"
+generated: "2026-10-30T14:56:27+05:30"
 ---
 
 In mouse myocardium, glucose oxidation persists in the absence of the mitochondrial pyruvate carrier, with mitochondrial MCT1 importing lactate into mitochondria and LDHB oxidizing it to pyruvate and NADH, sustaining cardiac energetics and preventing stress-induced heart failure.

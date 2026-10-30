@@ -8,7 +8,7 @@ date: "2026-10-28"
 score: 40
 guid: "10.1038/s41586-026-11219-7"
 image: ""
-generated: "2026-10-29T14:26:40+05:30"
+generated: "2026-10-30T14:56:27+05:30"
 ---
 
 In systemic lupus erythematosus, aberrant splicing in neutrophils generates novel peptides that are presented on MHC I, driving CD4+ and CD8+ T cell activation, clonal expansion and IgG autoantibody responses, establishing neoantigen-driven autoimmune immunity.

@@ -8,7 +8,7 @@ date: "2026-10-28"
 score: 55
 guid: "10.1038/s41586-026-11190-3"
 image: ""
-generated: "2026-10-29T14:26:40+05:30"
+generated: "2026-10-30T14:56:27+05:30"
 ---
 
-Single-neuron sequencing of human cortical neurons looked for genome damage. Widespread genomic abnormalities are common before birth. Most are largely eliminated around birth. That points to built-in genome quality control in developing human neurons.
+Human brain cells often carry big genome errors before birth. Around birth, most of those damaged cells are largely eliminated. Single-neuron sequencing, which reads the DNA of one cell at a time, showed this pattern. It points to a built-in genome quality control step in developing neurons. That matters because it suggests the brain filters out damaged cells rather than keeping them.

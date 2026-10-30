@@ -1,106 +1,106 @@
 {
-  "generatedAt": "2026-10-29T14:27:13+05:30",
+  "generatedAt": "2026-10-30T14:56:59+05:30",
   "source": "Hugging Face — trending models",
   "models": [
     {
       "id": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
       "task": "image-text-to-text",
-      "likes": 3657,
-      "downloads": 116770,
+      "likes": 3912,
+      "downloads": 131062,
       "library": "transformers",
       "createdAt": "2026-10-17T02:40:38.000Z",
       "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
-      "summary": "DeepSeek-V4.1-Flash-1017 is a multimodal image-text-to-text model, a minor update to V4.1-Flash aimed at reasoning, coding, and agentic task performance."
+      "summary": "Minor update to DeepSeek-V4.1-Flash, a mixture-of-experts image-text-to-text model aimed at reasoning, coding, and agentic tasks."
     },
     {
       "id": "Nanbeige/Nanbeige4.3-33B",
       "task": "text-generation",
-      "likes": 746,
-      "downloads": 7412,
+      "likes": 784,
+      "downloads": 9655,
       "library": "transformers",
       "createdAt": "2026-10-24T02:49:18.000Z",
       "url": "https://huggingface.co/Nanbeige/Nanbeige4.3-33B",
-      "summary": "Nanbeige4.3-33B is a 33B-parameter text-generation LLM, the flagship teacher model for agentic coding and professional cowork tasks in the Nanbeige4.3 series."
-    },
-    {
-      "id": "RecursiveSI/flint",
-      "task": "text-generation",
-      "likes": 1215,
-      "downloads": 14047,
-      "library": "transformers",
-      "createdAt": "2026-10-21T14:20:58.000Z",
-      "url": "https://huggingface.co/RecursiveSI/flint",
-      "summary": "Flint is a 39.8B-parameter mixture-of-experts text model for coding agents, handling codebase investigation, bug fixing, and multi-turn tool use."
-    },
-    {
-      "id": "XHToken/Spark-X2.6-4B",
-      "task": "text-generation",
-      "likes": 881,
-      "downloads": 8222,
-      "library": "transformers",
-      "createdAt": "2026-10-19T03:19:51.000Z",
-      "url": "https://huggingface.co/XHToken/Spark-X2.6-4B",
-      "summary": "Spark-X2.6-4B is a 4B-parameter general-purpose text LLM for on-device use, post-trained for coding, agentic tasks, and reasoning with configurable thinking levels."
-    },
-    {
-      "id": "tencent/Hy-SimulMT-30B-A3B-FP8",
-      "task": "translation",
-      "likes": 443,
-      "downloads": 165,
-      "library": "transformers",
-      "createdAt": "2026-10-22T07:29:37.000Z",
-      "url": "https://huggingface.co/tencent/Hy-SimulMT-30B-A3B-FP8",
-      "summary": "Hy-SimulMT is a 30B-A3B FP8 translation model for real-time simultaneous Chinese-English speech translation, emitting translated text and optional speech."
+      "summary": "A ~33B-parameter open text-generation model positioned as a flagship teacher for agentic coding and professional tasks, intended for distilling smaller models."
     },
     {
       "id": "LiquidAI/LFM3-1.7B",
       "task": "text-generation",
-      "likes": 426,
-      "downloads": 8892,
+      "likes": 509,
+      "downloads": 15885,
       "library": "transformers",
       "createdAt": "2026-10-23T21:35:42.000Z",
       "url": "https://huggingface.co/LiquidAI/LFM3-1.7B",
-      "summary": "LFM3-1.7B is a 1.7B-parameter text model for on-device agents, tool calling, and structured outputs, with a 256K-token context window."
+      "summary": "A 1.7B-parameter text model from Liquid AI for local agents and tool calling, with a 256K context window and designed for edge devices and fine-tuning."
     },
     {
-      "id": "MiniMaxAI/MiniMax-M3.1-Flash",
-      "task": "image-text-to-text",
-      "likes": 470,
-      "downloads": 13247,
+      "id": "RecursiveSI/flint",
+      "task": "text-generation",
+      "likes": 1249,
+      "downloads": 16598,
       "library": "transformers",
-      "createdAt": "2026-10-17T06:37:50.000Z",
-      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M3.1-Flash",
-      "summary": "MiniMax-M3.1-Flash is a multimodal MoE model taking text, image, and video input for coding, agentic workflows, and computer use, with up to a 1M-token context window."
+      "createdAt": "2026-10-21T14:20:58.000Z",
+      "url": "https://huggingface.co/RecursiveSI/flint",
+      "summary": "Recursive's 39.8B-parameter mixture-of-experts text model for coding agents, handling codebase investigation, bug fixing, and multi-turn tool use."
     },
     {
       "id": "ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
       "task": "text-generation",
-      "likes": 458,
-      "downloads": 1377570,
+      "likes": 487,
+      "downloads": 1578937,
       "library": "gguf",
       "createdAt": "2026-10-23T09:43:05.000Z",
       "url": "https://huggingface.co/ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
-      "summary": "GGUF quantizations of DeepSeek-V4.1-Flash-1017 at 1.75 to 2.25 bits per weight, using per-tensor mixed precision for llama.cpp."
+      "summary": "Mixed-precision GGUF quantizations (IQ1_M to IQ2_XS) of DeepSeek-V4.1-Flash-1017, a 763B MoE model, for llama.cpp inference."
+    },
+    {
+      "id": "nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
+      "task": "automatic-speech-recognition",
+      "likes": 442,
+      "downloads": 4276,
+      "library": "nemo",
+      "createdAt": "2026-10-07T22:50:21.000Z",
+      "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
+      "summary": "Offline speech-language model that transcribes audio in 40 languages and handles speech translation, timestamps, and audio question answering."
+    },
+    {
+      "id": "baidu/Unlimited-OCR-2",
+      "task": "image-text-to-text",
+      "likes": 426,
+      "downloads": 18141,
+      "library": "transformers",
+      "createdAt": "2026-10-26T03:57:46.000Z",
+      "url": "https://huggingface.co/baidu/Unlimited-OCR-2",
+      "summary": "Baidu's second-generation vision-language OCR model for parsing ultra-long, multilingual documents."
     },
     {
       "id": "Lightricks/LTX-2.5",
       "task": "image-to-video",
-      "likes": 9763,
-      "downloads": 2234788,
+      "likes": 9888,
+      "downloads": 2269999,
       "library": "diffusion-single-file",
       "createdAt": "2026-07-23T07:55:24.000Z",
       "url": "https://huggingface.co/Lightricks/LTX-2.5",
-      "summary": "LTX-2.5 is a diffusion model for video generation, with tags covering image-to-video, text-to-video, and audio-related generation."
+      "summary": "Lightricks diffusion model for generating video from text, images, or audio, plus video-to-audio and audio-to-video tasks."
+    },
+    {
+      "id": "XHToken/Spark-X2.6-4B",
+      "task": "text-generation",
+      "likes": 912,
+      "downloads": 10163,
+      "library": "transformers",
+      "createdAt": "2026-10-19T03:19:51.000Z",
+      "url": "https://huggingface.co/XHToken/Spark-X2.6-4B",
+      "summary": "Compact 4B on-device general-purpose LLM from XHToken, with improved coding, agentic, and long-context ability and selectable thinking levels."
     },
     {
       "id": "black-forest-labs/flux-3-image-klein-comfy",
       "task": "image-to-image",
-      "likes": 1985,
-      "downloads": 798943,
+      "likes": 2068,
+      "downloads": 832197,
       "library": "diffusion-single-file",
       "createdAt": "2026-10-14T12:00:13.000Z",
       "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy",
-      "summary": "A ComfyUI-formatted diffusion model from Black Forest Labs for image-to-image generation and editing, based on FLUX-3 Image Klein."
+      "summary": "Black Forest Labs FLUX-family image-to-image and image-editing diffusion model packaged as a single file for ComfyUI."
     }
   ],
   "usage": {
@@ -109,8 +109,8 @@
     "models": [
       {
         "slug": "deepseek/deepseek-v4.1-flash-20261017",
-        "tokens": 39570670363956,
-        "requests": 648950774,
+        "tokens": 42415745136748,
+        "requests": 688627788,
         "rank": 1,
         "name": "deepseek-v4.1-flash",
         "org": "deepseek",
@@ -118,8 +118,8 @@
       },
       {
         "slug": "deepseek/deepseek-v4.1-flash-20260910",
-        "tokens": 16597078592528,
-        "requests": 494945730,
+        "tokens": 15895114549863,
+        "requests": 490184833,
         "rank": 2,
         "name": "deepseek-v4.1-flash",
         "org": "deepseek",
@@ -127,8 +127,8 @@
       },
       {
         "slug": "z-ai/glm-5.3-flash-20260826",
-        "tokens": 15019486682350,
-        "requests": 711547788,
+        "tokens": 15627141501102,
+        "requests": 759742568,
         "rank": 3,
         "name": "glm-5.3-flash",
         "org": "z-ai",
@@ -136,8 +136,8 @@
       },
       {
         "slug": "openai/gpt-6-luna-20260922",
-        "tokens": 9752486069851,
-        "requests": 556532854,
+        "tokens": 11511795921622,
+        "requests": 576288457,
         "rank": 4,
         "name": "gpt-6-luna",
         "org": "openai",
@@ -145,8 +145,8 @@
       },
       {
         "slug": "tencent/hy4-preview-20260827",
-        "tokens": 8956540104535,
-        "requests": 85964679,
+        "tokens": 9176139468758,
+        "requests": 88443047,
         "rank": 5,
         "name": "hy4-preview",
         "org": "tencent",
@@ -154,89 +154,89 @@
       },
       {
         "slug": "anthropic/claude-opus-5.5-20260921",
-        "tokens": 7859447792679,
-        "requests": 59107655,
+        "tokens": 7843212689815,
+        "requests": 61162093,
         "rank": 6,
         "name": "claude-opus-5.5",
         "org": "anthropic",
         "url": "https://openrouter.ai/anthropic/claude-opus-5.5"
       },
       {
-        "slug": "minimax/minimax-m3.1-flash-20261019",
-        "tokens": 6543631097435,
-        "requests": 56328776,
-        "rank": 7,
-        "name": "minimax-m3.1-flash",
-        "org": "minimax",
-        "url": "https://openrouter.ai/minimax/minimax-m3.1-flash"
-      },
-      {
         "slug": "stepfun/step-5-preview-20261008",
-        "tokens": 5388002622302,
-        "requests": 20955917,
-        "rank": 8,
+        "tokens": 5925121605840,
+        "requests": 23021427,
+        "rank": 7,
         "name": "step-5-preview",
         "org": "stepfun",
         "url": "https://openrouter.ai/stepfun/step-5-preview"
       },
       {
         "slug": "z-ai/glm-5.3-20260816",
-        "tokens": 5154856157569,
-        "requests": 69810849,
-        "rank": 9,
+        "tokens": 4899571862451,
+        "requests": 69817330,
+        "rank": 8,
         "name": "glm-5.3",
         "org": "z-ai",
         "url": "https://openrouter.ai/z-ai/glm-5.3"
       },
       {
-        "slug": "nvidia/nemotron-3-ultra-550b-a55b-20260604",
-        "tokens": 4489296524034,
-        "requests": 43109493,
-        "rank": 10,
-        "name": "nemotron-3-ultra-550b-a55b",
-        "org": "nvidia",
-        "url": "https://openrouter.ai/nvidia/nemotron-3-ultra-550b-a55b"
-      },
-      {
-        "slug": "xiaomi/mimo-v2.6-flash-20260921",
-        "tokens": 4098420176608,
-        "requests": 64110680,
-        "rank": 11,
-        "name": "mimo-v2.6-flash",
-        "org": "xiaomi",
-        "url": "https://openrouter.ai/xiaomi/mimo-v2.6-flash"
+        "slug": "minimax/minimax-m3.1-flash-20261019",
+        "tokens": 4124382174437,
+        "requests": 42970273,
+        "rank": 9,
+        "name": "minimax-m3.1-flash",
+        "org": "minimax",
+        "url": "https://openrouter.ai/minimax/minimax-m3.1-flash"
       },
       {
         "slug": "deepseek/deepseek-v4-flash-20260731",
-        "tokens": 4069702634340,
-        "requests": 319156325,
-        "rank": 12,
+        "tokens": 3993623604762,
+        "requests": 316576885,
+        "rank": 10,
         "name": "deepseek-v4-flash",
         "org": "deepseek",
         "url": "https://openrouter.ai/deepseek/deepseek-v4-flash"
       },
       {
-        "slug": "typesafe/jev-1.13-20260917",
-        "tokens": 3203103905814,
-        "requests": 951550368,
-        "rank": 13,
-        "name": "jev-1.13",
-        "org": "typesafe",
-        "url": "https://openrouter.ai/typesafe/jev-1.13"
+        "slug": "nvidia/nemotron-3-ultra-550b-a55b-20260604",
+        "tokens": 3963663273417,
+        "requests": 40695036,
+        "rank": 11,
+        "name": "nemotron-3-ultra-550b-a55b",
+        "org": "nvidia",
+        "url": "https://openrouter.ai/nvidia/nemotron-3-ultra-550b-a55b"
       },
       {
         "slug": "openai/gpt-6.1-sol-20260929",
-        "tokens": 3079713266615,
-        "requests": 60572144,
-        "rank": 14,
+        "tokens": 3756246200027,
+        "requests": 74089384,
+        "rank": 12,
         "name": "gpt-6.1-sol",
         "org": "openai",
         "url": "https://openrouter.ai/openai/gpt-6.1-sol"
       },
       {
+        "slug": "xiaomi/mimo-v2.6-flash-20260921",
+        "tokens": 3582629267920,
+        "requests": 59946019,
+        "rank": 13,
+        "name": "mimo-v2.6-flash",
+        "org": "xiaomi",
+        "url": "https://openrouter.ai/xiaomi/mimo-v2.6-flash"
+      },
+      {
+        "slug": "typesafe/jev-1.13-20260917",
+        "tokens": 3201456616370,
+        "requests": 964593481,
+        "rank": 14,
+        "name": "jev-1.13",
+        "org": "typesafe",
+        "url": "https://openrouter.ai/typesafe/jev-1.13"
+      },
+      {
         "slug": "tencent/hy3-20260706",
-        "tokens": 3049306392587,
-        "requests": 38399150,
+        "tokens": 3049069819813,
+        "requests": 38362984,
         "rank": 15,
         "name": "hy3",
         "org": "tencent",

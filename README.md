@@ -29,7 +29,7 @@ GitHub Pages   → serves the committed static site (read from anywhere)
 Save → Notion  → browser → Google Apps Script Web App (holds Notion token) → Notion
 ```
 
-Each story is tagged with one of 10 categories (edit the `CATEGORIES` list in
+Each story is tagged with one of 11 categories (edit the `CATEGORIES` list in
 `sync.py`) + a 0–100 significance score. The UI is fully static: it reads the
 committed files and filters by the categories you follow, client-side.
 
@@ -123,6 +123,9 @@ refresh is manual (plus on focus).
 | arXiv (cs.LG) | RSS | `rss.arxiv.org/rss/cs.LG`, full abstracts |
 | Latent Space | RSS | newsletter/podcast posts |
 | Simon Willison | Atom | blog posts + link commentary |
+| Krebs on Security | RSS | `krebsonsecurity.com/feed/`, full posts |
+| The Hacker News | RSS | `feeds.feedburner.com/TheHackersNews`, teasers |
+| Schneier on Security | Atom | `schneier.com/feed/atom/`, short posts |
 
 ## Home & categories (LLM)
 
@@ -136,7 +139,7 @@ How it works: `sync.py` sends every fetched story to the `claude` CLI headless
 (`claude -p … --strict-mcp-config`) in chunks, getting back
 `{i, category, score}` per item, and writes `data/feed.json`. The browser just
 reads that file and filters client-side — so categories work on a static host
-with no backend. Edit the 10 categories in the `CATEGORIES` list in `sync.py`.
+with no backend. Edit the 11 categories in the `CATEGORIES` list in `sync.py`.
 
 1. (Optional) Open **AI settings** and pick a model tier — Haiku (fast, default),
    Sonnet, or Opus.

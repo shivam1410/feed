@@ -5,10 +5,10 @@ source: "HF Trending Papers"
 url: "https://huggingface.co/papers/2610.37230"
 authors: ["Shuhuai Li", "Shengdong Ye", "Dongdong Ge", "Yinyu Ye", "Jianghao Lin"]
 date: "2026-10-26T20:00:00.000Z"
-score: 65
+score: 42
 guid: "2610.37230"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.37230.png"
-generated: "2026-10-29T14:26:40+05:30"
+generated: "2026-10-30T14:56:27+05:30"
 ---
 
-TAO is a scheduler for LLM agent services. It checks whether each session's tools are ready before placing it. Dynamic programming decides where sessions go. The result is lower latency and higher throughput. Why it matters: agent services get faster and handle more work.
+TAO improves scheduling for LLM agent services by considering tool readiness and using dynamic programming to place sessions, reducing latency and increasing throughput.

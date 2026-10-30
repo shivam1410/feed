@@ -8,7 +8,7 @@ date: "2026-10-28"
 score: 55
 guid: "10.1038/s41586-026-11170-7"
 image: ""
-generated: "2026-10-29T14:26:40+05:30"
+generated: "2026-10-30T14:56:27+05:30"
 ---
 
-Lab cultures of the archaea closest to eukaryotes show they are internally simple. Heimdallarchaeia and related Promethearchaeota keep their cell structure, form physical symbioses, and live without oxygen. They feed on peptides in partnership with other microbes. These simple, cooperative cells help pin down what the ancestor of complex life may have looked like.
+Scientists grew cultures of archaea, the closest known relatives of eukaryotes, the group that includes us. The cells turned out to be structurally simple. They eat peptides, which are protein fragments, and live in physical partnerships with other microbes. They also do not need oxygen. The cultures show these traits are shared across Heimdallarchaeia and related Promethearchaeota. It matters because real cells now exist to study how complex cells first evolved.

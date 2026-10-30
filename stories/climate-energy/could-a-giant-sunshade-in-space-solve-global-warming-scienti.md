@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/d41586-026-03415-2"
 authors: ["James Dinneen"]
 date: "2026-10-28"
-score: 70
+score: 60
 guid: "10.1038/d41586-026-03415-2"
 image: ""
-generated: "2026-10-29T14:26:40+05:30"
+generated: "2026-10-30T14:56:27+05:30"
 ---
 
-Scientists are taking the idea of a giant sunshade in space seriously. Some people call the concept complete fantasy. A detailed analysis suggests falling rocket launch costs might make it feasible in a few decades. Cheaper launches are the key shift.
+A giant sunshade in space might be workable within a few decades, according to a detailed analysis. Some people call the idea complete fantasy. The analysis suggests that falling rocket launch costs could make it feasible. It matters because it moves a bold climate idea from fantasy toward serious consideration.

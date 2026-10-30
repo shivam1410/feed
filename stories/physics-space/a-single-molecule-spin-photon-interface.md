@@ -8,7 +8,7 @@ date: "2026-10-28"
 score: 45
 guid: "10.1038/s41586-026-11147-6"
 image: ""
-generated: "2026-10-29T14:26:40+05:30"
+generated: "2026-10-30T14:56:27+05:30"
 ---
 
-A single molecule can now link its spin to light. The molecule is a triplet carbene, held in a carefully tailored crystal. It keeps its quantum state for milliseconds, a long time for a quantum state. The qubit is built by chemistry, not only by device engineering. That moves molecular qubits closer to quantum networking.
+Researchers built a quantum link from a single molecule. The molecule is a triplet carbene, held in a carefully designed crystal. It keeps its quantum state stable for milliseconds, and its spin connects to light, which is what a quantum network needs. The molecule is chemically engineered, which is the approach this work advances. It moves molecular qubits closer to use in quantum networking.

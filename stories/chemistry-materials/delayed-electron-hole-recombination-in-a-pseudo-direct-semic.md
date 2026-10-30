@@ -8,7 +8,7 @@ date: "2026-10-28"
 score: 40
 guid: "10.1038/s41586-026-11223-x"
 image: ""
-generated: "2026-10-29T14:26:40+05:30"
+generated: "2026-10-30T14:56:27+05:30"
 ---
 
 Pseudo-direct bandgap character in bismuth sulfide retards bimolecular electron–hole recombination while preserving strong light absorption.

@@ -42,6 +42,7 @@ CATEGORIES = [
     "Robotics & Engineering",
     "Science & Society",
     "Chemistry & Materials",
+    "Cyber Security",
 ]
 CATEGORIZE_CHUNK = 60   # items per LLM categorization call
 HOME_MAX_AGE_DAYS = 7   # Home is a news bulletin: only items this fresh are eligible
@@ -351,11 +352,13 @@ def parse_hf(data: bytes, source: str) -> list[dict]:
 PARSERS = {
     "nature": parse_rss, "deepmind": parse_rss, "huggingface": parse_hf,
     "arxiv": parse_rss, "latentspace": parse_rss, "simonw": parse_rss,
+    "krebs": parse_rss, "thehackernews": parse_rss, "schneier": parse_rss,
 }
 SOURCE_NAMES = {
     "nature": "Nature", "deepmind": "DeepMind", "huggingface": "HF Trending Papers",
     "arxiv": "arXiv (cs.LG)",
     "latentspace": "Latent Space", "simonw": "Simon Willison",
+    "krebs": "Krebs on Security", "thehackernews": "The Hacker News", "schneier": "Schneier on Security",
 }
 
 

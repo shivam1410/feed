@@ -5,10 +5,10 @@ source: "HF Trending Papers"
 url: "https://huggingface.co/papers/2610.33245"
 authors: ["Atharva Naik", "Vivek Chari", "Pol Llado", "Daniel Fried", "Carolyn Rosé", "Benjamin Van Durme", "Sam Thomson", "Justin Svegliato"]
 date: "2026-10-22T20:00:00.000Z"
-score: 55
+score: 42
 guid: "2610.33245"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.33245.png"
-generated: "2026-10-29T14:26:40+05:30"
+generated: "2026-10-30T14:56:27+05:30"
 ---
 
 AdaPRA improves data science agents via persistent knowledge accumulation and adaptive rubric-guided process supervision, reducing errors and boosting leaderboard performance.

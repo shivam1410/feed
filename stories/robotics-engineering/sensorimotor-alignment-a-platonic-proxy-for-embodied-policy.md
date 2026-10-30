@@ -5,10 +5,10 @@ source: "HF Trending Papers"
 url: "https://huggingface.co/papers/2610.31670"
 authors: ["Yunfei Xie", "Howard H. Qian", "Shiyi Lan", "Kaiyu Hang", "Chen Wei"]
 date: "2026-10-22T20:00:00.000Z"
-score: 40
+score: 35
 guid: "2610.31670"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.31670.png"
-generated: "2026-10-29T14:26:40+05:30"
+generated: "2026-10-30T14:56:27+05:30"
 ---
 
-Sensorimotor alignment is a shortcut for judging robot models. It measures how well sensory data matches the geometry of physical motion. The score predicts model performance offline, at low cost. Why it matters: teams can screen robot models before running costly live tests.
+Sensorimotor alignment measures how sensory representations match physical motion geometry, serving as a low-cost offline predictor of robot model performance.

@@ -8,7 +8,7 @@ date: "2026-10-28"
 score: 45
 guid: "10.1038/s41586-026-11211-1"
 image: ""
-generated: "2026-10-29T14:26:40+05:30"
+generated: "2026-10-30T14:56:27+05:30"
 ---
 
 A subset of necrotizing enterocolitis in infants is mediated specifically by the Clostridium perfringens Delta toxin.

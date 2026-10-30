@@ -5,10 +5,10 @@ source: "Simon Willison"
 url: "https://simonwillison.net/2026/Oct/19/my-obituary-for-programming/"
 authors: []
 date: "2026-10-19T23:58:25+00:00"
-score: 30
+score: 35
 guid: "https://simonwillison.net/2026/Oct/19/my-obituary-for-programming/"
 image: ""
-generated: "2026-10-29T14:26:40+05:30"
+generated: "2026-10-30T14:56:27+05:30"
 ---
 
-Jeremy Scheff's post mourns the end of paid puzzle-solving. Programmers once earned well for tricky logic puzzles, because most people could not solve them. Coding agents cause that loss. Programmers who care about building working systems find LLMs a gift. Those who loved solving the problems themselves feel a real loss. Simon Willison shares it via lobste.rs.
+Jeremy Scheff writes an obituary for the programming job many people knew. For years, programmers got paid to solve tricky logic puzzles that regular people could not solve. Coding agents change that. If you mainly want working systems and care less about the problems along the way, LLMs are a gift. If solving the problems was the fun part, the loss is very real. Simon Willison shared it via lobste.rs.

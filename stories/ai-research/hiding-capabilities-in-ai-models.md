@@ -1,0 +1,14 @@
+---
+title: "Hiding Capabilities in AI Models"
+category: "AI Research"
+source: "Schneier on Security"
+url: "https://www.schneier.com/blog/archives/2026/10/hiding-capabilities-in-ai-models.html"
+authors: ["Bruce Schneier"]
+date: "2026-10-27T11:01:32Z"
+score: 65
+guid: "https://www.schneier.com/?p=72849"
+image: ""
+generated: "2026-10-30T14:56:27+05:30"
+---
+
+Interesting research: “ AI Models Can Provably Hide Arbitrary Capabilities ” Abstract: Capability evaluations aim to surface dangerous model behaviors before deployment, but their reliability depends on the assumption that hidden capabilities can be elicited. We show this assumption does not hold under adversarial conditions by constructing backdoor attacks that embed encrypted neural networks within host model weights, decrypting and executing them only upon receiving a secret trigger. Using digital lockers, these hidden circuits remain provably hard to elicit and interpret under cryptographic assumptions, even given full access to model weights, extending prior work from hiding fixed strings to arbitrary computations. We implement our proof of concept constructions in PyTorch and evaluate elicitation through fine-tuning, weight noising, gradient-based trigger search, and latent adversarial training, using a small chemical reaction prediction task as a proxy for CBRN-relevant capabilities. Our results demonstrate resistance to these methods and, together with our cryptographic guarantees, reveal a limit of elicitation-based capability audits. We release our models to support the improvement of defenses...

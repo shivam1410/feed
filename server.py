@@ -36,6 +36,9 @@ FEEDS = {
     "arxiv": "https://rss.arxiv.org/rss/cs.LG",
     "latentspace": "https://www.latent.space/feed",
     "simonw": "https://simonwillison.net/atom/everything/",
+    "krebs": "https://krebsonsecurity.com/feed/",
+    "thehackernews": "https://feeds.feedburner.com/TheHackersNews",
+    "schneier": "https://www.schneier.com/feed/atom/",
 }
 
 # Claude CLI model tier -> alias accepted by `claude --model`.

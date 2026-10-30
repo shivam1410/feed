@@ -8,7 +8,7 @@ date: "Wed, 07 Oct 2026 14:00:00 +0000"
 score: 50
 guid: "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/synth-id-ai-content/"
 image: "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Raccoon_Video_SynthIDDetector.max-600x600.format-webp.webp"
-generated: "2026-10-29T14:26:40+05:30"
+generated: "2026-10-30T14:56:27+05:30"
 ---
 
 We’re launching a standalone platform to help you easily identify whether online content was created using Google AI or tools from our industry partners.

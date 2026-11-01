@@ -8,7 +8,7 @@ date: "2026-10-28"
 score: 45
 guid: "10.1038/d41586-026-03488-z"
 image: ""
-generated: "2026-10-30T14:56:27+05:30"
+generated: "2026-11-01T11:44:00+05:30"
 ---
 
-Dengue can return even in people who have been vaccinated. Researchers are helping answer why, a question that has troubled the development of better vaccines. The source text is short and gives no numbers. It matters because improved vaccines depend on understanding this gap.
+Researchers help to answer a question dogging the development of improved vaccines against the mosquito-borne disease.

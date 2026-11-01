@@ -1,13 +1,7 @@
 {
-  "generatedAt": "2026-10-30T14:57:32+05:30",
+  "generatedAt": "2026-11-01T11:45:41+05:30",
   "summary": "2026 is HighLevel's “AI Employee” year. Conversation AI now drafts replies in the background (Auto-Suggestive mode) and understands 30+ languages; Voice AI matured to 27 languages and 340+ voices; AI Studio added role-based team permissions; and Ask AI — powered by Claude Sonnet — drives the backend by chat.",
   "topIdeas": [
-    {
-      "title": "Improve Voice AI realism",
-      "score": 313,
-      "product": "Voice AI",
-      "url": "https://ideas.gohighlevel.com/voice-ai"
-    },
     {
       "title": "AI Voice Cloning - Train or upload a custom AI voice",
       "score": 176,
@@ -33,12 +27,6 @@
       "url": "https://ideas.gohighlevel.com/voice-ai"
     },
     {
-      "title": "Direct Webhook Integration in Conversations AI",
-      "score": 116,
-      "product": "Conversation AI",
-      "url": "https://ideas.gohighlevel.com/conversation-ai"
-    },
-    {
       "title": "🚨 Essential Feature: Let AI Send Files (JPG, PDF, Video, etc.)",
       "score": 111,
       "product": "AI Employee",
@@ -57,10 +45,22 @@
       "url": "https://ideas.gohighlevel.com/conversation-ai"
     },
     {
+      "title": "Use Call Transcripts to Train AI",
+      "score": 82,
+      "product": "Voice AI",
+      "url": "https://ideas.gohighlevel.com/voice-ai"
+    },
+    {
       "title": "Separar las opciones de que el Empleado IA se detenga cuando envio un mensaje de cuando se activa un worflow",
       "score": 72,
       "product": "AI Employee",
       "url": "https://ideas.gohighlevel.com/ai-employee"
+    },
+    {
+      "title": "Pause Conversational AI when a native Instagram/Facebook reply is detected",
+      "score": 70,
+      "product": "Conversation AI",
+      "url": "https://ideas.gohighlevel.com/conversation-ai"
     }
   ],
   "products": [
@@ -70,13 +70,13 @@
       "what": "AI agents that handle automated chats across every messaging channel, drafting replies in the background while a human stays in control.",
       "ideas": [
         "WHATSAPP MESSAGES SENT THROUGH THE COEXISTENCE SHOULD SEND THE BOT TO SLEEP AS WELL",
-        "Direct Webhook Integration in Conversations AI",
         "Conversation AI + Rentals Calendar:🚀 = Huge Step Forward 🚀",
         "Pause Conversational AI when a native Instagram/Facebook reply is detected",
         "Allow AI to Pull Multiple Choice or Selection Custom Field Data for Contact details",
-        "human-like message delivery - split responses"
+        "human-like message delivery - split responses",
+        "Conversation AI Context"
       ],
-      "summary": "Users want tighter control and integration for Conversation AI: pausing the bot when humans reply, direct webhooks, calendar and custom-field data capture, and more human-like message delivery."
+      "summary": "Users want Conversation AI to pause when humans reply natively, pull structured contact data like selections, deliver more human-like split responses, integrate with rental calendars, and keep richer context."
     },
     {
       "name": "AI Employee",
@@ -86,11 +86,11 @@
         "🚨 Essential Feature: Let AI Send Files (JPG, PDF, Video, etc.)",
         "Separar las opciones de que el Empleado IA se detenga cuando envio un mensaje de cuando se activa un worflow",
         "👉 Voice AI -> Capturing Secure Keypad Input (DTMF) from Caller 📱",
+        "Facebook Image Carousel",
         "We use Grok. Can we have Grok added to the AI Agent LLM model list?",
-        "Need supported GROK MCP access... getting authentication errors and will not sync properly",
-        "Add xAI Grok to Conversation AI (OpenAI-compatible)"
+        "Need supported GROK MCP access... getting authentication errors and will not sync properly"
       ],
-      "summary": "Users want AI to send files and rich media, support for Grok/xAI models, keypad input capture on voice calls, and finer control over when the AI pauses."
+      "summary": "Users want AI Employee to send files and media, support Facebook carousels and Grok models, capture DTMF keypad input in voice calls, and control when it stops after workflows."
     },
     {
       "name": "AI Studio",
@@ -104,7 +104,7 @@
         "Make AI Studio websites compatible with Affiliate Manager",
         "Add a Built-In Blog CMS to AI Studio"
       ],
-      "summary": "Requests center on developer and content tooling: GitHub integration, token usage display, brand board use, HighLevel blog linking, a built-in blog CMS, and affiliate manager compatibility."
+      "summary": "Users want AI Studio to add GitHub integration, display token usage, connect HighLevel blogs and a built-in CMS, use Brand Board, and work with Affiliate Manager."
     },
     {
       "name": "Ask AI",
@@ -118,21 +118,21 @@
         "Ask AI must inherit user role permissions + agency-level \"Ask AI Capabilities\" control panel",
         "Let Ask AI build custom dashboards."
       ],
-      "summary": "Users want Ask AI to act as a broader assistant: use-case guidance, OpenClaw integration, executive-consultant roles, Voice and Conversation AI links, role-based permissions with admin controls, and custom dashboards."
+      "summary": "Users want Ask AI to act as an executive assistant, integrate with Voice AI, Conversation AI and OpenClaw, respect role permissions with agency controls, and build custom dashboards."
     },
     {
       "name": "Voice AI",
       "url": "https://ideas.gohighlevel.com/voice-ai",
       "what": "AI phone agents that answer calls, qualify leads, and book appointments — 27 languages, 340+ voices.",
       "ideas": [
-        "Improve Voice AI realism",
         "AI Voice Cloning - Train or upload a custom AI voice",
         "Ability to send Call Summary and Call Recording after Call",
+        "Use Call Transcripts to Train AI",
         "Outbound \"I'm an AI Assistant\" disclaimer needs to be optional.",
-        "Service Calendar (v2) support natively in Voice AI Appointment Booking action",
-        "Increase Daily Outbound Calling Limits for Voice AI"
+        "Why is AI Voice Agent Not Available for Indian Numbers in GHL?",
+        "Service Calendar (v2) support natively in Voice AI Appointment Booking action"
       ],
-      "summary": "Requests focus on more realistic voices and custom voice cloning, post-call summaries and recordings, optional AI disclaimers, Service Calendar booking support, and higher outbound calling limits."
+      "summary": "Users want Voice AI to clone voices, send call summaries and recordings, train on transcripts, make the AI disclaimer optional, add Indian number support, and natively book Service Calendars."
     }
   ],
   "changelog": [
@@ -150,21 +150,6 @@
       "title": "Web Search Now Available in the AI Agent Action",
       "link": "https://ideas.gohighlevel.com/changelog/web-search-now-available-in-the-ai-agent-action",
       "date": "Thu, 29 Oct 2026 13:18:02 GMT"
-    },
-    {
-      "title": "AI Video Generation: New Workflow Action",
-      "link": "https://ideas.gohighlevel.com/changelog/ai-video-generation-new-workflow-action",
-      "date": "Thu, 29 Oct 2026 12:46:21 GMT"
-    },
-    {
-      "title": "Skills Now Available in the AI Agent Action in Workflows",
-      "link": "https://ideas.gohighlevel.com/changelog/skills-now-available-in-the-ai-agent-action-in-workflows",
-      "date": "Thu, 29 Oct 2026 11:47:51 GMT"
-    },
-    {
-      "title": "Workflows Now in MCP – Ask Your AI Assistant to Build, Debug and Publish Workflows",
-      "link": "https://ideas.gohighlevel.com/changelog/workflows-now-in-mcp-ask-your-ai-assistant-to-build-debug-and-publish-workflows",
-      "date": "Wed, 28 Oct 2026 20:35:51 GMT"
     }
   ]
 }

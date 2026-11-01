@@ -8,7 +8,7 @@ date: "2026-10-28"
 score: 40
 guid: "10.1038/s41586-026-11223-x"
 image: ""
-generated: "2026-10-30T14:56:27+05:30"
+generated: "2026-11-01T11:44:00+05:30"
 ---
 
-Pseudo-direct bandgap character in bismuth sulfide retards bimolecular electron–hole recombination while preserving strong light absorption.
+A material called bismuth sulfide holds on to its charges longer than expected. Its excited electrons and their missing partners, called holes, recombine more slowly. It still absorbs light strongly, which is the unusual part. The text credits a pseudo-direct bandgap for this mix. It matters because the material keeps both traits at once.

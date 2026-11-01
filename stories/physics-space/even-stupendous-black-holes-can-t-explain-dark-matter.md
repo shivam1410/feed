@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/d41586-026-03386-4"
 authors: []
 date: "2026-10-29"
-score: 45
+score: 50
 guid: "10.1038/d41586-026-03386-4"
 image: ""
-generated: "2026-10-30T14:56:27+05:30"
+generated: "2026-11-01T11:44:00+05:30"
 ---
 
-Even huge black holes can't seem to explain dark matter. The idea was that they could supply the invisible pull holding galaxies together. If they did, they would leave a bigger imprint on cosmic radiation. That imprint is the check, and they don't pass it. It matters because it narrows the search for what dark matter really is.
+Even very large black holes do not seem to explain dark matter. The idea was that these theoretical objects could be the source of the invisible force that pulls galaxies together. If they were, they would leave a larger imprint on cosmic radiation. That imprint is why the idea falls short.

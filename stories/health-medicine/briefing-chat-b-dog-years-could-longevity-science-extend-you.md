@@ -1,0 +1,14 @@
+---
+title: "Briefing Chat: <b>Dog years: could longevity science extend your pets' lives?</b>"
+category: "Health & Medicine"
+source: "Nature"
+url: "https://www.nature.com/articles/d41586-026-03553-7"
+authors: ["Nick Petrić Howe", "Catriona Clarke"]
+date: "2026-10-30"
+score: 35
+guid: "10.1038/d41586-026-03553-7"
+image: ""
+generated: "2026-11-01T11:44:00+05:30"
+---
+
+Nature staff discuss the emerging field of pet longevity — plus, a researcher decides not to care about their student reviews. Are they wrong?

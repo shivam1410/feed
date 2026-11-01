@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/s41586-026-11202-2"
 authors: ["Jianmin Huang", "Qitang Fan", "Jie Meng", "Jia Liu", "Jie Cui", "Jianing Wang", "Yi Li", "Ruoting Yin", "Honghe Ding", "Junfa Zhu", "Mengchun Ye", "Shijing Tan", "Chuanxu Ma", "Yao Zhang", "Qunxiang Li", "Jinlong Yang", "J. G. Hou", "Bing Wang"]
 date: "2026-10-28"
-score: 42
+score: 45
 guid: "10.1038/s41586-026-11202-2"
 image: ""
-generated: "2026-10-30T14:56:27+05:30"
+generated: "2026-11-01T11:44:00+05:30"
 ---
 
-Researchers built a flat, narrow carbon ribbon by fusing polypentalene chains side by side. Starting from polycyclooctadiene chains, they converted them into polypentalene chains first. The ribbon is a possible step toward carbon quantum wires. It matters because a carbon wire that thin could, in principle, carry electrons in tiny devices. This is an early route, not a finished product.
+Scientists built a very narrow carbon nanoribbon with a pentaheptite pattern. They made it by laterally fusing polypentalene chains. Those chains were transformed from polycyclooctadiene chains made earlier. The title describes the ribbon as a covalent metal. The authors suggest it could open a route toward carbon quantum wires.

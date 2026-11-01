@@ -8,7 +8,7 @@ date: "2026-10-28"
 score: 40
 guid: "10.1038/s41586-026-11214-y"
 image: ""
-generated: "2026-10-30T14:56:27+05:30"
+generated: "2026-11-01T11:44:00+05:30"
 ---
 
-Researchers made a movie of electrons in graphene as light pushed them around. The method works at attosecond precision, a billionth of a billionth of a second. It covers the whole first Brillouin zone, the region that maps out electron states in the material. The team used it to watch Landau-Zener-Majorana transitions, a kind of jump between energy states, as light drove the electrons. It gives a direct view of how light steers electrons in a solid.
+A team introduced a way to film electron motion in graphene at attosecond precision. The method, called subcycle band-structure videography, covers the entire first Brillouin zone. They used it to show how light waves drive electrons during Landau-Zener-Majorana transitions. The text presents this as a demonstrated concept, so it is a new method first. It matters because it lets researchers watch electron behavior in graphene as it happens.

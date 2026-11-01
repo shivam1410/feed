@@ -8,7 +8,7 @@ date: "2026-10-14T20:00:00.000Z"
 score: 30
 guid: "2610.21143"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.21143.png"
-generated: "2026-10-30T14:56:27+05:30"
+generated: "2026-11-01T11:44:00+05:30"
 ---
 
 CoSTA decouples generation and synthesis token spaces to accelerate spoken dialogue models while preserving quality and compatibility.

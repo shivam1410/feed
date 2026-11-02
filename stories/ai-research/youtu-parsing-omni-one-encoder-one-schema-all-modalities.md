@@ -8,7 +8,7 @@ date: "2026-10-28T20:00:00.000Z"
 score: 40
 guid: "2610.39301"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.39301.png"
-generated: "2026-11-01T11:44:00+05:30"
+generated: "2026-11-02T19:04:34+05:30"
 ---
 
 Youtu-Parsing-Omni is a unified multi-modal parser that encodes documents, images, audio, and video into structured spatiotemporal records using shared weights and cross-modal fusion, achieving state-of-the-art results across parsing benchmarks through a self-evolving on-policy distillation procedure.

@@ -8,7 +8,7 @@ date: "Thu, 03 Sep 2026 15:00:00 +0000"
 score: 85
 guid: "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/introducing-weathernext-3/"
 image: "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/WeatherNext3_Title.max-600x600.format-webp.webp"
-generated: "2026-11-01T11:44:00+05:30"
+generated: "2026-11-02T19:04:34+05:30"
 ---
 
-WeatherNext 3 is described as the most advanced and accurate global weather AI model from DeepMind. It is now available in Search, Gemini, Maps, Google Maps Platform, and Cloud. The text gives no accuracy numbers, so the accuracy claim comes from the company. It matters because the forecasting model now reaches tools people already use.
+Google DeepMind has introduced WeatherNext 3, its most advanced global weather AI model. It is now available across Search, Gemini, Maps, Google Maps Platform, and Cloud. The text includes no accuracy figures, so I can't say how it compares. It matters because forecasts now reach the apps people already use.

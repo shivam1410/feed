@@ -8,7 +8,7 @@ date: "2026-10-28T20:00:00.000Z"
 score: 30
 guid: "2610.39663"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.39663.png"
-generated: "2026-11-01T11:44:00+05:30"
+generated: "2026-11-02T19:04:34+05:30"
 ---
 
 AB-Attention approximates dense video diffusion attention with high sparsity via intra-block clustering, weighted sampling, and fine-grained kernel gathering, improving fidelity and speed.

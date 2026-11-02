@@ -5,10 +5,10 @@ source: "The Hacker News"
 url: "https://thehackernews.com/2026/10/chinese-hackers-use-ai-powered-artex-to.html"
 authors: ["info@thehackernews.com (The Hacker News)"]
 date: "Fri, 30 Oct 2026 22:28:44 +0530"
-score: 60
+score: 72
 guid: "https://thehackernews.com/2026/10/chinese-hackers-use-ai-powered-artex-to.html"
 image: ""
-generated: "2026-11-01T11:44:00+05:30"
+generated: "2026-11-02T19:04:34+05:30"
 ---
 
-Chinese state-sponsored threat actors have been observed using a Go-based artificial intelligence (AI)-powered penetration testing framework called ARTEX in attacks aimed at high-value targets simultaneously. The activity has been attributed by CrowdStrike to a China-based "targeted intrusion adversary" it tracks under the moniker Vapor Panda (previously VexatiousTemper). First identified in
+A China-linked state group is using an AI-powered penetration testing tool called ARTEX. CrowdStrike tracks the group as Vapor Panda, also known as VexatiousTemper. The tool is written in Go. It was seen in attacks on high-value targets at the same time. The reporting covers more than 200 organizations worldwide.

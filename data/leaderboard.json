@@ -1,106 +1,106 @@
 {
-  "generatedAt": "2026-11-01T11:44:32+05:30",
+  "generatedAt": "2026-11-02T19:05:04+05:30",
   "source": "Hugging Face — trending models",
   "models": [
     {
-      "id": "Nanbeige/Nanbeige4.3-33B",
-      "task": "text-generation",
-      "likes": 915,
-      "downloads": 13832,
-      "library": "transformers",
-      "createdAt": "2026-10-24T02:49:18.000Z",
-      "url": "https://huggingface.co/Nanbeige/Nanbeige4.3-33B",
-      "summary": "Nanbeige4.3-33B is a ~33B-parameter flagship text LLM for agentic coding and professional tasks, serving as a teacher for distilling smaller models."
-    },
-    {
       "id": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
       "task": "image-text-to-text",
-      "likes": 4129,
-      "downloads": 156373,
+      "likes": 4601,
+      "downloads": 177009,
       "library": "transformers",
       "createdAt": "2026-10-17T02:40:38.000Z",
       "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
-      "summary": "Minor update to DeepSeek-V4.1-Flash: a multimodal text-and-image model aimed at reasoning, coding, and agentic tasks."
+      "summary": "DeepSeek-V4.1-Flash-1017 is a minor update to DeepSeek-V4.1-Flash, a vision-language model aimed at reasoning, coding, and agentic tasks with shorter outputs."
     },
     {
       "id": "LiquidAI/LFM3-1.7B",
       "task": "text-generation",
-      "likes": 642,
-      "downloads": 32933,
+      "likes": 779,
+      "downloads": 42384,
       "library": "transformers",
       "createdAt": "2026-10-23T21:35:42.000Z",
       "url": "https://huggingface.co/LiquidAI/LFM3-1.7B",
-      "summary": "LFM3-1.7B is a 1.7B-parameter text model for on-device local agents, tool calling, and structured outputs, with a 256K context window."
+      "summary": "LFM3-1.7B is a 1.7B-parameter text-only language model from Liquid AI for local agents, tool calling, and structured outputs, with a 256K context."
     },
     {
       "id": "nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
       "task": "automatic-speech-recognition",
-      "likes": 551,
-      "downloads": 24357,
+      "likes": 643,
+      "downloads": 32439,
       "library": "nemo",
       "createdAt": "2026-10-07T22:50:21.000Z",
       "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
-      "summary": "Offline speech model that transcribes audio in 40 languages, handles recordings up to one hour, and supports speech translation and audio question answering."
+      "summary": "NVIDIA's offline speech model that transcribes audio in 40 languages, with translation and speaker-attributed transcription, for recordings up to one hour."
     },
     {
       "id": "mistralai/Mistral-Large-4-1T-A52B",
       "task": "image-text-to-text",
-      "likes": 1409,
-      "downloads": 2945,
+      "likes": 1473,
+      "downloads": 5500,
       "library": "transformers",
       "createdAt": "2026-09-30T18:35:13.000Z",
       "url": "https://huggingface.co/mistralai/Mistral-Large-4-1T-A52B",
-      "summary": "Mistral's largest natively multimodal mixture-of-experts model (about 1T total, 52B active) for instruction following, reasoning, coding, and agentic workflows."
+      "summary": "Mistral's largest multimodal Mixture-of-Experts model, with about 1T total and 52B active parameters, for instruction following, reasoning, coding, and agentic workflows."
     },
     {
       "id": "baidu/Unlimited-OCR-2",
       "task": "image-text-to-text",
-      "likes": 482,
-      "downloads": 69231,
+      "likes": 550,
+      "downloads": 147588,
       "library": "transformers",
       "createdAt": "2026-10-26T03:57:46.000Z",
       "url": "https://huggingface.co/baidu/Unlimited-OCR-2",
-      "summary": "Baidu's OCR vision-language model for unlimited-horizon parsing of long documents, built on SR-SWA attention."
+      "summary": "Baidu's vision-language OCR model for parsing ultra-long documents, using SR-SWA for unlimited-horizon parsing."
     },
     {
       "id": "Lightricks/LTX-2.5",
       "task": "image-to-video",
-      "likes": 10112,
-      "downloads": 2441077,
+      "likes": 10294,
+      "downloads": 2467613,
       "library": "diffusion-single-file",
       "createdAt": "2026-07-23T07:55:24.000Z",
       "url": "https://huggingface.co/Lightricks/LTX-2.5",
-      "summary": "Diffusion model for image-to-video generation that also supports text-to-video, video-to-video, and audio-related generation."
+      "summary": "Single-file diffusion model from Lightricks for video generation, covering image-to-video, text-to-video, and audio-video tasks; details not provided."
     },
     {
       "id": "ccore/Qwen3.5-4B-3D-Coder",
       "task": null,
-      "likes": 412,
-      "downloads": 29615,
+      "likes": 526,
+      "downloads": 63499,
       "library": null,
       "createdAt": "2026-10-25T05:43:34.000Z",
       "url": "https://huggingface.co/ccore/Qwen3.5-4B-3D-Coder",
-      "summary": "Early-preview 4B fine-tune of Qwen3.5-4B for general coding, focused on generating interactive Three.js 3D scenes, available as GGUF."
+      "summary": "Early-preview 4B coding fine-tune of Qwen3.5-4B, focused on generating interactive Three.js 3D scenes; GGUF builds can take optional image input."
     },
     {
-      "id": "XHToken/Spark-X2.6-4B",
-      "task": "text-generation",
-      "likes": 939,
-      "downloads": 14515,
-      "library": "transformers",
-      "createdAt": "2026-10-19T03:19:51.000Z",
-      "url": "https://huggingface.co/XHToken/Spark-X2.6-4B",
-      "summary": "Compact 4B general-purpose on-device LLM for coding, agentic tool use, long-context, and reasoning, with configurable thinking levels."
+      "id": "speridlabs/idol",
+      "task": "image-to-3d",
+      "likes": 368,
+      "downloads": 7787,
+      "library": "idol",
+      "createdAt": "2026-10-28T15:55:17.000Z",
+      "url": "https://huggingface.co/speridlabs/idol",
+      "summary": "Turns a single object image into a 3D Gaussian splat (.ply), removing the background and generating up to about one million Gaussians."
     },
     {
-      "id": "RecursiveSI/flint",
+      "id": "Nanbeige/Nanbeige4.3-33B",
       "task": "text-generation",
-      "likes": 1280,
-      "downloads": 23079,
+      "likes": 995,
+      "downloads": 16976,
       "library": "transformers",
-      "createdAt": "2026-10-21T14:20:58.000Z",
-      "url": "https://huggingface.co/RecursiveSI/flint",
-      "summary": "Recursive's 39.8B-total mixture-of-experts LLM (about 2.5B active) for coding agents that investigate codebases, fix bugs, and use tools across turns."
+      "createdAt": "2026-10-24T02:49:18.000Z",
+      "url": "https://huggingface.co/Nanbeige/Nanbeige4.3-33B",
+      "summary": "A 33B-parameter open LLM from Nanbeige aimed at agentic coding and professional tasks, intended as a teacher model for distilling smaller agent models."
+    },
+    {
+      "id": "Pika-Labs/Pika-H3-Flex",
+      "task": "image-to-video",
+      "likes": 341,
+      "downloads": 491,
+      "library": "diffusers",
+      "createdAt": "2026-10-29T17:08:44.000Z",
+      "url": "https://huggingface.co/Pika-Labs/Pika-H3-Flex",
+      "summary": "Pika's post-trained video-and-audio model on MiniMax-H3, generating synchronized-audio video from image or reference inputs in six sampling steps."
     }
   ],
   "usage": {
@@ -109,8 +109,8 @@
     "models": [
       {
         "slug": "deepseek/deepseek-v4.1-flash-20261017",
-        "tokens": 47845529634095,
-        "requests": 762232443,
+        "tokens": 48081980882647,
+        "requests": 770588289,
         "rank": 1,
         "name": "deepseek-v4.1-flash",
         "org": "deepseek",
@@ -118,8 +118,8 @@
       },
       {
         "slug": "z-ai/glm-5.3-flash-20260826",
-        "tokens": 15740732566806,
-        "requests": 736445128,
+        "tokens": 15023001462670,
+        "requests": 702726623,
         "rank": 2,
         "name": "glm-5.3-flash",
         "org": "z-ai",
@@ -127,8 +127,8 @@
       },
       {
         "slug": "deepseek/deepseek-v4.1-flash-20260910",
-        "tokens": 14654874116855,
-        "requests": 470327703,
+        "tokens": 14884455795670,
+        "requests": 476024831,
         "rank": 3,
         "name": "deepseek-v4.1-flash",
         "org": "deepseek",
@@ -136,8 +136,8 @@
       },
       {
         "slug": "openai/gpt-6-luna-20260922",
-        "tokens": 10410999781662,
-        "requests": 566518279,
+        "tokens": 9736282942609,
+        "requests": 545460186,
         "rank": 4,
         "name": "gpt-6-luna",
         "org": "openai",
@@ -145,8 +145,8 @@
       },
       {
         "slug": "tencent/hy4-preview-20260827",
-        "tokens": 9308769136468,
-        "requests": 90164790,
+        "tokens": 9069028059825,
+        "requests": 88030379,
         "rank": 5,
         "name": "hy4-preview",
         "org": "tencent",
@@ -154,8 +154,8 @@
       },
       {
         "slug": "anthropic/claude-opus-5.5-20260921",
-        "tokens": 6911966281255,
-        "requests": 58709342,
+        "tokens": 6735218003451,
+        "requests": 58149633,
         "rank": 6,
         "name": "claude-opus-5.5",
         "org": "anthropic",
@@ -163,8 +163,8 @@
       },
       {
         "slug": "stepfun/step-5-preview-20261008",
-        "tokens": 6300216978357,
-        "requests": 24471522,
+        "tokens": 6247539931436,
+        "requests": 24257500,
         "rank": 7,
         "name": "step-5-preview",
         "org": "stepfun",
@@ -172,35 +172,35 @@
       },
       {
         "slug": "minimax/minimax-m3.1-flash-20261019",
-        "tokens": 5670759583070,
-        "requests": 62022729,
+        "tokens": 6232964046828,
+        "requests": 69353667,
         "rank": 8,
         "name": "minimax-m3.1-flash",
         "org": "minimax",
         "url": "https://openrouter.ai/minimax/minimax-m3.1-flash"
       },
       {
-        "slug": "z-ai/glm-5.3-20260816",
-        "tokens": 4417533563783,
-        "requests": 68175478,
-        "rank": 9,
-        "name": "glm-5.3",
-        "org": "z-ai",
-        "url": "https://openrouter.ai/z-ai/glm-5.3"
-      },
-      {
         "slug": "openai/gpt-5.6-luna-20260709",
-        "tokens": 4024102906721,
-        "requests": 197057915,
-        "rank": 10,
+        "tokens": 4352170507721,
+        "requests": 179297394,
+        "rank": 9,
         "name": "gpt-5.6-luna",
         "org": "openai",
         "url": "https://openrouter.ai/openai/gpt-5.6-luna"
       },
       {
+        "slug": "z-ai/glm-5.3-20260816",
+        "tokens": 4226118340439,
+        "requests": 66577702,
+        "rank": 10,
+        "name": "glm-5.3",
+        "org": "z-ai",
+        "url": "https://openrouter.ai/z-ai/glm-5.3"
+      },
+      {
         "slug": "deepseek/deepseek-v4-flash-20260731",
-        "tokens": 3954537405611,
-        "requests": 329761122,
+        "tokens": 3938643566507,
+        "requests": 329695061,
         "rank": 11,
         "name": "deepseek-v4-flash",
         "org": "deepseek",
@@ -208,39 +208,39 @@
       },
       {
         "slug": "openai/gpt-6.1-sol-20260929",
-        "tokens": 3609565480105,
-        "requests": 84841260,
+        "tokens": 3750709254912,
+        "requests": 105479776,
         "rank": 12,
         "name": "gpt-6.1-sol",
         "org": "openai",
         "url": "https://openrouter.ai/openai/gpt-6.1-sol"
       },
       {
-        "slug": "nvidia/nemotron-3-ultra-550b-a55b-20260604",
-        "tokens": 3300489903386,
-        "requests": 37321760,
-        "rank": 13,
-        "name": "nemotron-3-ultra-550b-a55b",
-        "org": "nvidia",
-        "url": "https://openrouter.ai/nvidia/nemotron-3-ultra-550b-a55b"
-      },
-      {
         "slug": "typesafe/jev-1.13-20260917",
-        "tokens": 3127526669136,
-        "requests": 974689525,
-        "rank": 14,
+        "tokens": 3136637843216,
+        "requests": 991120704,
+        "rank": 13,
         "name": "jev-1.13",
         "org": "typesafe",
         "url": "https://openrouter.ai/typesafe/jev-1.13"
       },
       {
         "slug": "tencent/hy3-20260706",
-        "tokens": 3055102043837,
-        "requests": 38408647,
-        "rank": 15,
+        "tokens": 3065608428006,
+        "requests": 38538589,
+        "rank": 14,
         "name": "hy3",
         "org": "tencent",
         "url": "https://openrouter.ai/tencent/hy3"
+      },
+      {
+        "slug": "nvidia/nemotron-3-ultra-550b-a55b-20260604",
+        "tokens": 3029061362238,
+        "requests": 36139033,
+        "rank": 15,
+        "name": "nemotron-3-ultra-550b-a55b",
+        "org": "nvidia",
+        "url": "https://openrouter.ai/nvidia/nemotron-3-ultra-550b-a55b"
       }
     ]
   }

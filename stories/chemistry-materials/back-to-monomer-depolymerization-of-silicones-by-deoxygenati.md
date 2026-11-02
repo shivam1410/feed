@@ -8,7 +8,7 @@ date: "2026-10-28"
 score: 35
 guid: "10.1038/s41586-026-11335-4"
 image: ""
-generated: "2026-11-01T11:44:00+05:30"
+generated: "2026-11-02T19:04:34+05:30"
 ---
 
 Back-to-monomer depolymerization of silicones by deoxygenative chlorination

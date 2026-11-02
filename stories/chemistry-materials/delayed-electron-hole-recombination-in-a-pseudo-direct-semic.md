@@ -8,7 +8,7 @@ date: "2026-10-28"
 score: 40
 guid: "10.1038/s41586-026-11223-x"
 image: ""
-generated: "2026-11-01T11:44:00+05:30"
+generated: "2026-11-02T19:04:34+05:30"
 ---
 
-A material called bismuth sulfide holds on to its charges longer than expected. Its excited electrons and their missing partners, called holes, recombine more slowly. It still absorbs light strongly, which is the unusual part. The text credits a pseudo-direct bandgap for this mix. It matters because the material keeps both traits at once.
+Bismuth sulfide slows electrons and holes from recombining. Recombination is when these light-created charges lose each other. The material does this while still absorbing light strongly. It matters because a material that keeps charges apart and still soaks up light is a useful combination.

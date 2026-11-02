@@ -5,10 +5,10 @@ source: "The Hacker News"
 url: "https://thehackernews.com/2026/10/wazuh-and-ai-for-enhanced-soc-workflows.html"
 authors: ["info@thehackernews.com (The Hacker News)"]
 date: "Wed, 28 Oct 2026 17:00:00 +0530"
-score: 30
+score: 15
 guid: "https://thehackernews.com/2026/10/wazuh-and-ai-for-enhanced-soc-workflows.html"
 image: ""
-generated: "2026-11-01T11:44:00+05:30"
+generated: "2026-11-02T19:04:34+05:30"
 ---
 
 Artificial Intelligence (AI) has become one of this decade's defining technologies. From healthcare and finance to manufacturing and education, organizations increasingly rely on AI to automate repetitive tasks, uncover patterns hidden within large datasets, and support faster decision-making. Cybersecurity has experienced a similar transformation. While attackers employ AI to automate

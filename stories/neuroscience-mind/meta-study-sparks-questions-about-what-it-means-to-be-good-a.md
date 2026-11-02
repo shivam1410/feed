@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/d41586-026-03262-1"
 authors: ["Hedy Kober", "Kevin Ochsner"]
 date: "2026-10-28"
-score: 45
+score: 35
 guid: "10.1038/d41586-026-03262-1"
 image: ""
-generated: "2026-11-01T11:44:00+05:30"
+generated: "2026-11-02T19:04:34+05:30"
 ---
 
 A first-of-its kind consortium reveals a lack of correlation between behavioural and neural measures of a person’s emotional regulation.

@@ -5,10 +5,10 @@ source: "The Hacker News"
 url: "https://thehackernews.com/2026/10/googles-gemini-4-carbon-leads.html"
 authors: ["info@thehackernews.com (The Hacker News)"]
 date: "Thu, 29 Oct 2026 19:12:40 +0530"
-score: 75
+score: 85
 guid: "https://thehackernews.com/2026/10/googles-gemini-4-carbon-leads.html"
 image: ""
-generated: "2026-11-01T11:44:00+05:30"
+generated: "2026-11-02T19:04:34+05:30"
 ---
 
-Google launched Gemini 4 Carbon, its latest frontier model. It leads SEC-bench Pro for finding vulnerabilities at 88.2 percent. It also scores 54.8 percent on ExploitGym for exploitation. The model also shows gains in coding and agentic tasks. Why it matters: AI is getting better at both finding and exploiting bugs.
+Google has unveiled Gemini 4 Carbon, its latest frontier model. It is built for cybersecurity and long-horizon tasks. Google says it leads SEC-bench Pro with 88.2 percent for finding vulnerabilities. It also scores 54.8 percent on ExploitGym for exploitation. The article cuts off before the patching results.

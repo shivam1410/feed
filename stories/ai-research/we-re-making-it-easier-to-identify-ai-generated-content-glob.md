@@ -5,10 +5,10 @@ source: "DeepMind"
 url: "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/synth-id-ai-content/"
 authors: ["Pushmeet Kohli"]
 date: "Wed, 07 Oct 2026 14:00:00 +0000"
-score: 55
+score: 45
 guid: "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/synth-id-ai-content/"
 image: "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Raccoon_Video_SynthIDDetector.max-600x600.format-webp.webp"
-generated: "2026-11-01T11:44:00+05:30"
+generated: "2026-11-02T19:04:34+05:30"
 ---
 
 We’re launching a standalone platform to help you easily identify whether online content was created using Google AI or tools from our industry partners.

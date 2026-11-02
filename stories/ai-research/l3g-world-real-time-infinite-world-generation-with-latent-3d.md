@@ -8,7 +8,7 @@ date: "2026-10-28T20:00:00.000Z"
 score: 35
 guid: "2610.40614"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.40614.png"
-generated: "2026-11-01T11:44:00+05:30"
+generated: "2026-11-02T19:04:34+05:30"
 ---
 
 L3G-World uses a compact latent 3D Gaussian memory and alternating autoregressive updates with a video diffusion transformer to generate spatially consistent interactive worlds in real time.

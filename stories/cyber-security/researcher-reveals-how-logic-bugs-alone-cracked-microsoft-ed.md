@@ -5,10 +5,10 @@ source: "The Hacker News"
 url: "https://thehackernews.com/2026/10/researcher-reveals-how-logic-bugs-alone.html"
 authors: ["info@thehackernews.com (The Hacker News)"]
 date: "Wed, 28 Oct 2026 21:53:34 +0530"
-score: 65
+score: 55
 guid: "https://thehackernews.com/2026/10/researcher-reveals-how-logic-bugs-alone.html"
 image: ""
-generated: "2026-11-01T11:44:00+05:30"
+generated: "2026-11-02T19:04:34+05:30"
 ---
 
 A chain of logic flaws, with no memory corruption, can turn a malicious web page into code running on a Windows computer outside Microsoft Edge's sandbox, a security researcher has shown. Orange Tsai of DEVCORE published the full method on October 28, five months after the chain won $175,000 at the Pwn2Own Berlin contest in May. Microsoft fixed the Edge bugs the day after the contest,

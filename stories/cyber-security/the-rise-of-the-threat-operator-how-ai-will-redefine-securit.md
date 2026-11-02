@@ -5,10 +5,10 @@ source: "The Hacker News"
 url: "https://thehackernews.com/2026/10/the-rise-of-threat-operator-how-ai-will.html"
 authors: ["info@thehackernews.com (The Hacker News)"]
 date: "Thu, 29 Oct 2026 17:03:41 +0530"
-score: 50
+score: 25
 guid: "https://thehackernews.com/2026/10/the-rise-of-threat-operator-how-ai-will.html"
 image: ""
-generated: "2026-11-01T11:44:00+05:30"
+generated: "2026-11-02T19:04:34+05:30"
 ---
 
 AI is beginning to take over much of the work that has traditionally defined the security analyst's job. Investigating alerts, collecting evidence, correlating activity across tools, and executing response actions are becoming tasks that AI systems can perform on their own. As these capabilities mature, security operations centers (SOCs) will see major changes in how work is organized, how

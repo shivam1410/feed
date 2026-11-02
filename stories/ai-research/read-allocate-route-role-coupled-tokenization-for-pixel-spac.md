@@ -8,7 +8,7 @@ date: "2026-10-28T20:00:00.000Z"
 score: 30
 guid: "2610.40647"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.40647.png"
-generated: "2026-11-01T11:44:00+05:30"
+generated: "2026-11-02T19:04:34+05:30"
 ---
 
 SpecSlot improves pixel-space generative Transformers by using localized spectral slots and restricted global attention to increase image detail without raising computational cost.

@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/d41586-026-03368-6"
 authors: ["Elitsa Dermendzhiyska"]
 date: "2026-10-30"
-score: 8
+score: 5
 guid: "10.1038/d41586-026-03368-6"
 image: ""
-generated: "2026-11-01T11:44:00+05:30"
+generated: "2026-11-02T19:04:34+05:30"
 ---
 
 Pipe dreams.

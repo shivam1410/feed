@@ -5,10 +5,10 @@ source: "HF Trending Papers"
 url: "https://huggingface.co/papers/2610.38342"
 authors: ["Huangfei Jiang", "Anning Hu", "Kai Sheng", "Yuchen Cai", "Rui Ge", "Xiangyu Kong", "Jianghao Lin", "Shuzi Chen", "Jiyi Weng", "Junchi Yan"]
 date: "2026-10-27T20:00:00.000Z"
-score: 58
+score: 50
 guid: "2610.38342"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.38342.png"
-generated: "2026-11-01T11:44:00+05:30"
+generated: "2026-11-02T19:04:34+05:30"
 ---
 
 Investor's Last Exam evaluates financial agents on end-to-end equity research using frozen evidence, expert criteria, and dependency graphs, revealing that top models excel at research but fail at forecasting and investment judgments.

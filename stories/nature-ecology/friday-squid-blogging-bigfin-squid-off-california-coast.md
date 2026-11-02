@@ -5,10 +5,10 @@ source: "Schneier on Security"
 url: "https://www.schneier.com/blog/archives/2026/10/friday-squid-blogging-bigfin-squid-off-california-coast.html"
 authors: ["Bruce Schneier"]
 date: "2026-10-30T21:04:37Z"
-score: 30
+score: 20
 guid: "https://www.schneier.com/?p=72713"
 image: ""
-generated: "2026-11-01T11:44:00+05:30"
+generated: "2026-11-02T19:04:34+05:30"
 ---
 
-A bigfin squid was spotted alive in the northeastern Pacific, off California. It is the first live sighting of this Magnapinna genus squid in that ocean region. The sighting was announced September 2. Why it matters: it is a rare first live record for that region.
+Neat video : The sighting, announced September 2, marks the first time anyone has spotted a live bigfin squid, which belongs to the Magnapinna genus, in the northeastern Pacific Ocean. As usual, you can also use this squid post to talk about the security stories in the news that I haven’t covered. Blog moderation policy.

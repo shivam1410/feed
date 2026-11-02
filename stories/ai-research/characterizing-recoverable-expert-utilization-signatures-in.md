@@ -1,0 +1,14 @@
+---
+title: "Characterizing Recoverable Expert-Utilization Signatures in Fine-Tuned Mixture-of-Experts LLMs"
+category: "AI Research"
+source: "arXiv (cs.LG)"
+url: "https://arxiv.org/abs/2610.41039"
+authors: ["Fei Wang, Baochun Li, Bo Li"]
+date: "Mon, 02 Nov 2026 00:00:00 -0500"
+score: 38
+guid: "oai:arXiv.org:2610.41039v1"
+image: ""
+generated: "2026-11-02T19:04:34+05:30"
+---
+
+As Mixture-of-Experts (MoE) large language models are increasingly deployed in distributed environments, from federated learning to edge-cloud systems, their architecture harbors an underexplored landscape of security vulnerabilities. Moving beyond textual analysis, we uncover structural memorization: a novel vulnerability where a fine-tuned model memorizes not only its training data but also the internal pathway used to process it, creating a characteristic routing fingerprint unique to the training process. We provide comprehensive empirical evidence that structural memorization emerges consistently even from a few samples, and that its intensity is directly influenced by the choice of trainable modules. We show that these memorized expert pathways can be stealthily recovered through the model's unconditional generation, using only routing and output logits, with no knowledge of the fine-tuning data or procedure. In distributed deployments, this vulnerability is amplified as routing information is exposed at multiple trust boundaries, including federated aggregation points, edge-cloud interfaces, and multi-tenant monitoring systems. Recovery exposes a critical blind spot: traditional membership inference metrics, viewed through the lens of expert routing, fail to identify memorized data corresponding to these structural pathways. To close this gap, we devise composite metrics combining reference model tail likelihood with complexity-aware normalization, significantly improving detection of memorized routing structures. This enables adversaries to pinpoint critical experts shaped by fine-tuning, whether dominant or dormant, and execute targeted attacks such as router manipulation or backdoor injection in realistic distributed settings where attackers lack training data but can observe routing patterns across system components.

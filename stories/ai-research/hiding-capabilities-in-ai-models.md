@@ -5,10 +5,10 @@ source: "Schneier on Security"
 url: "https://www.schneier.com/blog/archives/2026/10/hiding-capabilities-in-ai-models.html"
 authors: ["Bruce Schneier"]
 date: "2026-10-27T11:01:32Z"
-score: 80
+score: 60
 guid: "https://www.schneier.com/?p=72849"
 image: ""
-generated: "2026-11-01T11:44:00+05:30"
+generated: "2026-11-02T19:04:34+05:30"
 ---
 
-Researchers show AI models can hide arbitrary capabilities that evaluations may not surface. They embed encrypted neural networks inside a model's weights. The hidden circuit runs only when a secret trigger arrives. Using digital lockers, it stays provably hard to elicit or interpret under cryptographic assumptions. Fine-tuning, weight noising, trigger search, and latent adversarial training did not reveal it in their proof-of-concept tests. Why it matters: capability audits may miss dangerous abilities.
+Interesting research: “ AI Models Can Provably Hide Arbitrary Capabilities ” Abstract: Capability evaluations aim to surface dangerous model behaviors before deployment, but their reliability depends on the assumption that hidden capabilities can be elicited. We show this assumption does not hold under adversarial conditions by constructing backdoor attacks that embed encrypted neural networks within host model weights, decrypting and executing them only upon receiving a secret trigger. Using digital lockers, these hidden circuits remain provably hard to elicit and interpret under cryptographic assumptions, even given full access to model weights, extending prior work from hiding fixed strings to arbitrary computations. We implement our proof of concept constructions in PyTorch and evaluate elicitation through fine-tuning, weight noising, gradient-based trigger search, and latent adversarial training, using a small chemical reaction prediction task as a proxy for CBRN-relevant capabilities. Our results demonstrate resistance to these methods and, together with our cryptographic guarantees, reveal a limit of elicitation-based capability audits. We release our models to support the improvement of defenses...

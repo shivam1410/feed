@@ -5,10 +5,10 @@ source: "HF Trending Papers"
 url: "https://huggingface.co/papers/2610.34298"
 authors: ["Zhenning Shi", "Liang Pang", "Yongqi Li"]
 date: "2026-10-24T20:00:00.000Z"
-score: 75
+score: 65
 guid: "2610.34298"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.34298.png"
-generated: "2026-11-01T11:44:00+05:30"
+generated: "2026-11-02T19:04:34+05:30"
 ---
 
-Researchers gave language agents identical abilities through MCP and through a command-line interface. The agents still behaved differently. Targeted repair of the interface-specific details improved performance and cut cost.
+Matched interface representations significantly alter agent behavior despite identical executable capabilities, and targeted repair of interface-specific realization improves performance while reducing cost.

@@ -1060,13 +1060,13 @@ function dismissTrend(term) {
 function renderTrending() {
   if (!el.trending) return;
   const onHome = activeFeed().kind === "home";
-  const topics = onHome ? lastTrending.filter((t) => !dismissedTrends.has(t.term)).slice(0, 6) : [];
+  const topics = onHome ? lastTrending.filter((t) => !dismissedTrends.has(t.term)).slice(0, 1) : [];
   el.trending.hidden = topics.length === 0;
   el.trending.classList.toggle("active", !!trendFilter);
   el.trending.innerHTML = topics.length
-    ? `<span class="trend-n">${topics.reduce((n, t) => n + t.items, 0)}</span><span class="trend-label">Trending</span><span class="trend-chips">` + topics.map((t) => `
+    ? `<span class="trend-label">Trending</span><span class="trend-chips">` + topics.map((t) => `
         <span class="trend-chip${t.term === trendFilter ? " active" : ""}" data-term="${safe(t.term)}" title="${safe(t.sources.join(", "))}">
-          <button type="button" class="trend-pick">${safe(t.label || t.term)}</button>
+          <button type="button" class="trend-pick">${safe(t.label || t.term)} <span class="trend-count">${t.items}</span></button>
           <button type="button" class="trend-x" aria-label="Dismiss ${safe(t.label || t.term)}">×</button>
         </span>`).join("") + `</span>`
     : "";

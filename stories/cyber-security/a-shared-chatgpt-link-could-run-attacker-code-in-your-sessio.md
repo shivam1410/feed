@@ -5,10 +5,10 @@ source: "The Hacker News"
 url: "https://thehackernews.com/2026/10/a-shared-chatgpt-link-could-run.html"
 authors: ["info@thehackernews.com (The Hacker News)"]
 date: "Sat, 31 Oct 2026 11:03:41 +0530"
-score: 78
+score: 65
 guid: "https://thehackernews.com/2026/10/a-shared-chatgpt-link-could-run.html"
 image: ""
-generated: "2026-11-02T19:04:34+05:30"
+generated: "2026-11-03T19:05:09+05:30"
 ---
 
-A malicious ChatGPT share link could run an attacker's code in the session of anyone who opened it. That would let the attacker read their private conversations. Researchers at Parameter found the flaw. They reported it through OpenAI's bug bounty on October 18. OpenAI fixed it eight days later and rated it P1, its most serious category.
+A malicious ChatGPT share link could run an attacker's code in the logged-in session of anyone who opened it, allowing them to read their private conversations, researchers at the security firm Parameter showed. The researchers reported the flaw through OpenAI's bug bounty program on October 18, and OpenAI fixed it eight days later and rated it P1, its most serious category.

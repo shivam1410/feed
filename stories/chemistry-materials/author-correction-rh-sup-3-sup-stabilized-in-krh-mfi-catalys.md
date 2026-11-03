@@ -8,7 +8,7 @@ date: "2026-10-30"
 score: 10
 guid: "10.1038/s41586-026-11337-2"
 image: ""
-generated: "2026-11-02T19:04:34+05:30"
+generated: "2026-11-03T19:05:09+05:30"
 ---
 
 Author Correction: Rh 3+ stabilized in KRh@MFI catalyses regioselective hydroformylation

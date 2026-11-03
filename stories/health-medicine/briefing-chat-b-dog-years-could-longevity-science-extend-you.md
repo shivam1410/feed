@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/d41586-026-03553-7"
 authors: ["Nick Petrić Howe", "Catriona Clarke"]
 date: "2026-10-30"
-score: 30
+score: 35
 guid: "10.1038/d41586-026-03553-7"
 image: ""
-generated: "2026-11-02T19:04:34+05:30"
+generated: "2026-11-03T19:05:09+05:30"
 ---
 
 Nature staff discuss the emerging field of pet longevity — plus, a researcher decides not to care about their student reviews. Are they wrong?

@@ -5,10 +5,10 @@ source: "Simon Willison"
 url: "https://simonwillison.net/2026/Oct/26/gpt-61-terra/"
 authors: []
 date: "2026-10-26T23:53:07+00:00"
-score: 80
+score: 75
 guid: "https://simonwillison.net/2026/Oct/26/gpt-61-terra/"
 image: ""
-generated: "2026-11-02T19:04:34+05:30"
+generated: "2026-11-03T19:05:09+05:30"
 ---
 
-OpenAI just released GPT-6.1 Terra. It is a fast, efficient model. OpenAI points to visual reasoning and computer use, plus clearer writing. It sits in the middle of the lineup, much like Sonnet does for Anthropic. An OpenAI staffer said it matches Astra and Sol on vision and computer use, but runs much faster. For developers, it is a midrange pick, cheaper than Sol and smarter than Luna. Subscribers may just get a bit more room under usage limits.
+OpenAI released GPT-6.1 Terra, a fast, efficient model built for visual reasoning and computer use. OpenAI's Ted Sanders says on Hacker News that it is better than Astra and Sol at technical communication. He says it matches them on vision and computer use while being much faster. The author says it sits in the middle, cheaper than Sol but smarter than Luna. For subscribers it is not a big release, though it may stretch usage limits.

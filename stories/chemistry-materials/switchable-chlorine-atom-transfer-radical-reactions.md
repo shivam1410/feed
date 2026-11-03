@@ -8,7 +8,7 @@ date: "2026-10-28"
 score: 25
 guid: "10.1038/s41586-026-11348-z"
 image: ""
-generated: "2026-11-02T19:04:34+05:30"
+generated: "2026-11-03T19:05:09+05:30"
 ---
 
-Switchable Chlorine Atom Transfer Radical Reactions
+This is a chemistry paper on switchable chlorine atom transfer radical reactions. The text we have is only the title, so the findings are unknown.

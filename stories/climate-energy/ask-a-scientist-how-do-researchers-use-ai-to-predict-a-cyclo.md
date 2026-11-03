@@ -5,10 +5,10 @@ source: "DeepMind"
 url: "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/weathernext-extreme-weather-cyclone-predictions/"
 authors: ["Hannah Hunt"]
 date: "Tue, 01 Sep 2026 16:00:00 +0000"
-score: 60
+score: 55
 guid: "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/weathernext-extreme-weather-cyclone-predictions/"
 image: "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AskAScientist_Cyclone.max-600x600.format-webp.webp"
-generated: "2026-11-02T19:04:34+05:30"
+generated: "2026-11-03T19:05:09+05:30"
 ---
 
-A Google DeepMind scientist explains how AI predicts cyclones. The piece covers how AI weather prediction works in general. The text says it can help warn communities earlier. The source is brief, so it gives no specific numbers. It matters because earlier warnings give people more time to prepare.
+A Google DeepMind scientist explains how AI weather prediction works. The focus is on predicting cyclones. The piece argues this can warn communities earlier than ever before. Earlier warnings give people more time to get ready. The text is short, so it gives no technical details.

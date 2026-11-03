@@ -8,7 +8,7 @@ date: "2026-11-02"
 score: 40
 guid: "10.1038/d41586-026-03509-x"
 image: ""
-generated: "2026-11-02T19:04:34+05:30"
+generated: "2026-11-03T19:05:09+05:30"
 ---
 
 Current measures to track emerging epidemics have a key limitation: they don’t work if the disease causes unusual or unexpected symptoms.

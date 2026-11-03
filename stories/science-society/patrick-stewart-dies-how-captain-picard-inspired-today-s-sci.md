@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/d41586-026-03543-9"
 authors: ["Mohana Basu"]
 date: "2026-10-30"
-score: 25
+score: 15
 guid: "10.1038/d41586-026-03543-9"
 image: ""
-generated: "2026-11-02T19:04:34+05:30"
+generated: "2026-11-03T19:05:09+05:30"
 ---
 
 Researchers say his portrayal of the Star Trek character represented curiosity, thoughtfulness and an effort to understand others.

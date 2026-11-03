@@ -8,7 +8,7 @@ date: "2026-10-28"
 score: 40
 guid: "10.1038/d41586-026-03488-z"
 image: ""
-generated: "2026-11-02T19:04:34+05:30"
+generated: "2026-11-03T19:05:09+05:30"
 ---
 
 Researchers help to answer a question dogging the development of improved vaccines against the mosquito-borne disease.

@@ -8,7 +8,7 @@ date: "2026-10-28"
 score: 40
 guid: "10.1038/d41586-026-03484-3"
 image: ""
-generated: "2026-10-30T14:56:27+05:30"
+generated: "2026-11-03T19:05:09+05:30"
 ---
 
 Expedition revealed that water wasn’t enough for human settlement — plus, proposals to block sunlight get serious.

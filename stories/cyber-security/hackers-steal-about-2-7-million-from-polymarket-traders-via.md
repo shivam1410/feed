@@ -8,7 +8,7 @@ date: "Sun, 01 Nov 2026 12:55:40 +0530"
 score: 40
 guid: "https://thehackernews.com/2026/11/hackers-steal-about-27-million-from.html"
 image: ""
-generated: "2026-11-02T19:04:34+05:30"
+generated: "2026-11-03T19:05:09+05:30"
 ---
 
 Malicious code on the website of prediction market Polymarket sold some signed-in traders' positions and moved their funds to the hackers on October 29. The code had replaced a page-speed script that the site loaded from an outside company. Polymarket says it is refunding about $2.7 million to 726 affected wallets. Blockchain records show crypto worth about $2.64 million reached

@@ -1,0 +1,14 @@
+---
+title: "From Weeks to Hours: Fast and Principled SFT Data Generation for Reasoning LLMs"
+category: "AI Research"
+source: "arXiv (cs.LG)"
+url: "https://arxiv.org/abs/2611.00554"
+authors: ["Hongyi Henry Jin, Wenhan Yang, Meysam Ghaffari, Carlos Morato, Baharan Mirzasoleiman"]
+date: "Tue, 03 Nov 2026 00:00:00 -0500"
+score: 50
+guid: "oai:arXiv.org:2611.00554v1"
+image: ""
+generated: "2026-11-03T19:05:09+05:30"
+---
+
+Reasoning-oriented post-training enables large language models (LLMs) to solve complex tasks via multi-step inference. Supervised fine-tuning (SFT) on high-quality reasoning traces is a particularly efficient approach, but its effectiveness depends critically on careful data curation. Existing pipelines rely on a costly generate-then-filter paradigm: large pools of long reasoning traces are produced by multiple teacher models and subsequently filtered for difficulty and diversity using additional LLMs, often requiring weeks of computation. In this work, we propose SFTProbe, a fundamentally different approach that bypasses this pipeline by directly predicting the quality of reasoning data. We show that a brief LoRA-based adaptation, combined with evaluating loss on only 5% of each reasoning trace, suffices to estimate both difficulty and diversity. SFTProbe is grounded in a geometric view of post-training, where pretrained LLMs lie in a low-rank, anisotropic loss basin. By probing this basin via low-rank perturbations, we construct compact loss signatures whose clustering captures diversity, while loss at curvature inflection points provides a robust proxy for difficulty. We also provide a simple criterion for teacher selection. Empirically, our approach reduces data curation time from weeks to hours while maintaining or improving performance. Remarkably, on mathematical reasoning, 5k generated examples match the highly filtered 89k-example in OpenThoughts-Math dataset, and 7.5k generated examples outperforms it by 2.5% in accuracy. We further introduce a high-quality physics reasoning dataset, and use it to train a model that outperforms an IPhO 2025 silver-medal-winning model. The code and the dataset are released at https://bigml-cs-ucla.github.io/SFTProbe-page/.

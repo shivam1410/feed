@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/d41586-026-03402-7"
 authors: []
 date: "2026-10-28"
-score: 35
+score: 40
 guid: "10.1038/d41586-026-03402-7"
 image: ""
-generated: "2026-11-02T19:04:34+05:30"
+generated: "2026-11-03T19:05:09+05:30"
 ---
 
 Fresh ideas are welcome in a discipline in which progress is rare — provided they are applied rigorously.

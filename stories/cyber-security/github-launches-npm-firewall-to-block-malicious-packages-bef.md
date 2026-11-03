@@ -8,7 +8,7 @@ date: "Thu, 29 Oct 2026 15:56:33 +0530"
 score: 45
 guid: "https://thehackernews.com/2026/10/github-launches-npm-firewall-to-block.html"
 image: ""
-generated: "2026-11-02T19:04:34+05:30"
+generated: "2026-11-03T19:05:09+05:30"
 ---
 
 GitHub has announced that it's introducing a new package firewall as a preview to block installation of suspicious npm packages during installation time. "The firewall inspects both metadata requests and package downloads for signs of malicious activity, acting as an install-time policy gate," GitHub said. The feature, which currently supports only npm packages, is available in public preview

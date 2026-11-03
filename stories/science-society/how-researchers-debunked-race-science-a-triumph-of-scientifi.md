@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/d41586-026-03507-z"
 authors: ["David Silverberg"]
 date: "2026-11-02"
-score: 40
+score: 30
 guid: "10.1038/d41586-026-03507-z"
 image: ""
-generated: "2026-11-02T19:04:34+05:30"
+generated: "2026-11-03T19:05:09+05:30"
 ---
 
 An account of how nineteenth-century studies aiming to find a biological basis for human races were dismantled by good scientific practices — although their effects are still felt today.

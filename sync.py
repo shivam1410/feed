@@ -181,6 +181,16 @@ def mark_freshness(items: list[dict], max_age: int = HOME_MAX_AGE_DAYS) -> list[
     return items
 
 
+RECENCY_PENALTY = 4  # score points lost per day of age, so today's news outranks last week's at similar score
+
+
+def home_rank(it: dict) -> tuple:
+    """Home order: fresh first, then score minus a small age penalty, unscored last."""
+    score = it.get("score")
+    age = it.get("ageDays") or 0
+    return (bool(it.get("fresh", True)), score is not None, (score or 0) - RECENCY_PENALTY * age)
+
+
 # Words too generic to identify a topic on their own.
 TREND_STOPWORDS = {
     "ai", "ais", "llm", "llms", "model", "models", "new", "the", "and", "for", "with", "from",
@@ -614,7 +624,7 @@ def write_outputs(items: list[dict], by_source: dict, cfg: dict) -> None:
     # Order by significance score (highest first; unscored last). Home additionally
     # puts fresh items first so stale press releases never outrank this week's news.
     by_score = lambda it: (it.get("score") is not None, it.get("score") or 0)
-    items = sorted(items, key=lambda it: (bool(it.get("fresh", True)),) + by_score(it), reverse=True)
+    items = sorted(items, key=home_rank, reverse=True)
 
     # The categorized feed the app reads. `categories` is the canonical list the
     # UI renders as chips. No personal profile is published.

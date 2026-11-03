@@ -1,6 +1,7 @@
 """Tests for feed-parsing helpers in sync.py.  Run: python3 -m unittest test_sync"""
 import unittest
 
+import sync
 from sync import parse_rss, split_arxiv_prefix
 
 ARXIV_RSS = b"""<?xml version="1.0"?><rss version="2.0"><channel>
@@ -62,6 +63,13 @@ class FreshnessTest(unittest.TestCase):
         self.assertEqual(parse_item_date("Sat, 19 Sep 2026 05:48:28 GMT").year, 2026)
         self.assertEqual(parse_item_date("2026-09-18T05:05:55.000Z").day, 18)
         self.assertIsNone(parse_item_date("not a date"))
+
+    def test_home_rank_prefers_newer_items_at_similar_score(self):
+        old = {"score": 80, "ageDays": 6, "fresh": True}
+        new_ = {"score": 70, "ageDays": 0, "fresh": True}
+        self.assertGreater(sync.home_rank(new_), sync.home_rank(old))
+        big = {"score": 95, "ageDays": 6, "fresh": True}
+        self.assertGreater(sync.home_rank(big), sync.home_rank(new_))
 
     def test_marks_old_items_stale_for_home(self):
         now = datetime.datetime.now(datetime.timezone.utc)

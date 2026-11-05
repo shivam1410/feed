@@ -1,35 +1,200 @@
 {
-  "generatedAt": "2026-11-03T19:05:09+05:30",
+  "generatedAt": "2026-11-05T05:13:03+05:30",
   "items": [
     {
-      "guid": "https://thehackernews.com/2026/10/googles-gemini-4-carbon-leads.html",
-      "title": "Google's Gemini 4 Carbon Leads Benchmarks for Finding, Exploiting, and Patching Vulnerabilities",
-      "link": "https://thehackernews.com/2026/10/googles-gemini-4-carbon-leads.html",
+      "guid": "https://thehackernews.com/2026/11/critical-rails-flaw-lets-attackers.html",
+      "title": "Critical Rails Flaw Lets Attackers Write Server Files via Crafted ImageMagick Uploads",
+      "link": "https://thehackernews.com/2026/11/critical-rails-flaw-lets-attackers.html",
       "authors": [
         "info@thehackernews.com (The Hacker News)"
       ],
-      "date": "Thu, 29 Oct 2026 19:12:40 +0530",
-      "summary": "Google on Wednesday took the wraps off Gemini 4 Carbon, its latest frontier model with state-of-the-art cybersecurity and long-horizon capabilities. \"It shows significant gains across coding and agentic tasks as well as across key capabilities critical for cybersecurity defense, landing a firm lead in SEC-bench Pro (88.2%) for finding vulnerabilities, ExploitGym (54.8%) for exploitation, and",
+      "date": "Wed, 04 Nov 2026 17:37:04 +0530",
+      "summary": "A critical flaw in Ruby on Rails could allow an unauthenticated attacker to write arbitrary files on an app's server by uploading a crafted file if the app processes uploads using ImageMagick. The Rails project disclosed the flaw in an advisory and fixed it in versions 8.1.4.1 and 8.0.5.2. The flaw is in Active Storage, the part of Rails that handles file uploads. Some apps store",
       "image": "",
       "source": "The Hacker News",
       "announce": "",
-      "score": 85,
-      "category": "AI Research"
+      "score": null,
+      "category": "Other"
     },
     {
-      "guid": "https://thehackernews.com/2026/11/google-disrupts-13-million-device.html",
-      "title": "Google Disrupts 1.3 Million-Device Android Botnet, Says TV Box Maker Sold Criminal Access",
-      "link": "https://thehackernews.com/2026/11/google-disrupts-13-million-device.html",
+      "guid": "https://thehackernews.com/2026/11/xen-hypervisor-flaws-let-one-malicious.html",
+      "title": "Xen Hypervisor Flaws Let One Malicious VM Read and Write Any Other VM's Memory",
+      "link": "https://thehackernews.com/2026/11/xen-hypervisor-flaws-let-one-malicious.html",
       "authors": [
         "info@thehackernews.com (The Hacker News)"
       ],
-      "date": "Mon, 02 Nov 2026 21:20:26 +0530",
-      "summary": "A botnet of more than 1.3 million Android devices, mostly TV set-top boxes, lost control of its servers in late October in a takedown led by Google. Google says it is highly confident that device maker Videostrong intentionally put a backdoor in the boxes and sold access to criminals. They used the boxes for ad fraud and to pass other people's internet traffic through owners' home",
+      "date": "Wed, 04 Nov 2026 17:16:27 +0530",
+      "summary": "Two flaws in the Xen hypervisor allow a malicious guest virtual machine (VM) to read and write the memory of other VMs on the same host, including dom0. Dom0 is the VM that, by default, has full permissions and manages the others. Patches are out, and there is no known mitigation, the Xen Project said in an advisory on November 3. All Xen versions from 4.6 onward are vulnerable,",
       "image": "",
       "source": "The Hacker News",
       "announce": "",
-      "score": 75,
-      "category": "Cyber Security"
+      "score": null,
+      "category": "Other"
+    },
+    {
+      "guid": "https://thehackernews.com/2026/11/radio-with-no-radar-why-agent-runtime.html",
+      "title": "Radio With No Radar: Why Agent Runtime Security Fails Without the Layers Beneath It",
+      "link": "https://thehackernews.com/2026/11/radio-with-no-radar-why-agent-runtime.html",
+      "authors": [
+        "info@thehackernews.com (The Hacker News)"
+      ],
+      "date": "Wed, 04 Nov 2026 17:04:20 +0530",
+      "summary": "Nearly every agent security pitch now ends on the same promise: the product stops the bad action in real time. The promise holds for one kind of agent, the kind whose traffic passes through a gateway the enterprise owns. Most agents never touch one. One recent case shows what that gap looks like in practice. An employee asked an AI assistant to trigger a mass-email automation. The automation",
+      "image": "",
+      "source": "The Hacker News",
+      "announce": "",
+      "score": null,
+      "category": "Other"
+    },
+    {
+      "guid": "https://thehackernews.com/2026/11/china-aligned-hackers-hijack-sogou.html",
+      "title": "China-Aligned Hackers Hijack Sogou Input Method DNS Requests to Deploy DarkVigil Backdoor",
+      "link": "https://thehackernews.com/2026/11/china-aligned-hackers-hijack-sogou.html",
+      "authors": [
+        "info@thehackernews.com (The Hacker News)"
+      ],
+      "date": "Wed, 04 Nov 2026 16:54:31 +0530",
+      "summary": "A China-aligned threat actor known as SlippyNunchucks has been attributed to a Domain Name System (DNS) hijacking operation abusing insecure HTTP communications in Windows versions of Sogou Input Method as part of a surveillance campaign designed to deploy an implant called DarkVigil (aka FDMTP). The campaign, observed starting July 1, 2026, is assessed to have targeted organizations and",
+      "image": "",
+      "source": "The Hacker News",
+      "announce": "",
+      "score": null,
+      "category": "Other"
+    },
+    {
+      "guid": "https://thehackernews.com/2026/11/russian-police-arrest-3-suspected.html",
+      "title": "Russian Police Arrest 3 Suspected VasyGrek Hackers, Dismantle Criminal Infrastructure",
+      "link": "https://thehackernews.com/2026/11/russian-police-arrest-3-suspected.html",
+      "authors": [
+        "info@thehackernews.com (The Hacker News)"
+      ],
+      "date": "Wed, 04 Nov 2026 13:47:11 +0530",
+      "summary": "Russian authorities have arrested three suspected members of a threat group known as VasyGrek and dismantled its criminal infrastructure. Also known as Fluffy Wolf, the threat actor has a history of targeting Russian and international companies since 2016. The Ministry of Internal Affairs of the Russian Federation (MVD) said members of the group are \"suspected of embezzling funds from the",
+      "image": "",
+      "source": "The Hacker News",
+      "announce": "",
+      "score": null,
+      "category": "Other"
+    },
+    {
+      "guid": "https://thehackernews.com/2026/11/google-patches-critical-android-flaw.html",
+      "title": "Google Issues Patches for Critical Android Flaw That Could Allow RCE Without User Interaction",
+      "link": "https://thehackernews.com/2026/11/google-patches-critical-android-flaw.html",
+      "authors": [
+        "info@thehackernews.com (The Hacker News)"
+      ],
+      "date": "Wed, 04 Nov 2026 13:16:15 +0530",
+      "summary": "A critical Android flaw could allow an attacker to run code on a phone without any user action remotely, Google said in its November security bulletin. The flaw, CVE-2026-58868, affects Android 14 through 17. Phones get the fix with security patch level 2026-11-01 or later, which phone makers and carriers send on their own schedules. As of November 4, Google's bulletin did not report",
+      "image": "",
+      "source": "The Hacker News",
+      "announce": "",
+      "score": null,
+      "category": "Other"
+    },
+    {
+      "guid": "https://thehackernews.com/2026/11/cisa-confirms-hackers-exploiting.html",
+      "title": "CISA Confirms Hackers Exploiting WordPress Core Flaw During Software Upgrades",
+      "link": "https://thehackernews.com/2026/11/cisa-confirms-hackers-exploiting.html",
+      "authors": [
+        "info@thehackernews.com (The Hacker News)"
+      ],
+      "date": "Wed, 04 Nov 2026 11:13:11 +0530",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a security flaw in WordPress Core to the Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The high-severity vulnerability, tracked as CVE-2026-119977 (CVSS score: 8.1), is a case of Time-of-check Time-of-use (TOCTOU) race condition that could be exploited to achieve arbitrary code",
+      "image": "",
+      "source": "The Hacker News",
+      "announce": "",
+      "score": null,
+      "category": "Other"
+    },
+    {
+      "guid": "https://thehackernews.com/2026/11/msecure-warns-users-to-change-passwords.html",
+      "title": "mSecure Warns Users to Change Passwords, Reset 2FA and Passkeys After Suspicious Activity",
+      "link": "https://thehackernews.com/2026/11/msecure-warns-users-to-change-passwords.html",
+      "authors": [
+        "info@thehackernews.com (The Hacker News)"
+      ],
+      "date": "Wed, 04 Nov 2026 00:16:38 +0530",
+      "summary": "Customers of the mSecure password manager are being urged to act now to protect the confidential information they store in it, possibly by changing passwords, resetting two-factor authentication (2FA), and removing passkeys. The warning came in an email sent on November 3 in the name of developer mSeven Software. It says the company recently learned of suspicious activity linked to the app but",
+      "image": "",
+      "source": "The Hacker News",
+      "announce": "",
+      "score": null,
+      "category": "Other"
+    },
+    {
+      "guid": "https://thehackernews.com/2026/11/chainstack-reports-production-systems.html",
+      "title": "Chainstack Reports Production Systems Breach Exposing Customer Data and Password Hashes",
+      "link": "https://thehackernews.com/2026/11/chainstack-reports-production-systems.html",
+      "authors": [
+        "info@thehackernews.com (The Hacker News)"
+      ],
+      "date": "Tue, 03 Nov 2026 23:46:19 +0530",
+      "summary": "Blockchain infrastructure provider Chainstack on Tuesday disclosed that it was targeted in a cyber attack that allowed an unauthorized party to gain access to some parts of its infrastructure. The incident is assessed to be part of a large-scale, artificial intelligence (AI)-powered attack campaign that came to light last week. \"An external attacker gained unauthorized access to part of",
+      "image": "",
+      "source": "The Hacker News",
+      "announce": "",
+      "score": null,
+      "category": "Other"
+    },
+    {
+      "guid": "https://thehackernews.com/2026/11/binance-reveals-how-fake-job-interviews.html",
+      "title": "Binance Reveals How Fake Job Interviews and AI Tool Abuse Led to $6.43 Billion Theft",
+      "link": "https://thehackernews.com/2026/11/binance-reveals-how-fake-job-interviews.html",
+      "authors": [
+        "info@thehackernews.com (The Hacker News)"
+      ],
+      "date": "Tue, 03 Nov 2026 22:25:58 +0530",
+      "summary": "Binance on Tuesday said the record-setting theft of $6.43 billion in assets from the world's largest cryptocurrency exchange was the culmination of a \"sophisticated, multi-stage campaign\" that involved the use of a tampered Homebrew installation and recruitment-themed social engineering attack targeting two of its engineers. \"It was not a single isolated breach or a simple phishing incident,\"",
+      "image": "",
+      "source": "The Hacker News",
+      "announce": "",
+      "score": null,
+      "category": "Other"
+    },
+    {
+      "guid": "https://thehackernews.com/2026/11/barracuda-flaws-could-be-chained-to.html",
+      "title": "Barracuda Flaws Could Be Chained to Bypass Authorization and Gain Root Access",
+      "link": "https://thehackernews.com/2026/11/barracuda-flaws-could-be-chained-to.html",
+      "authors": [
+        "info@thehackernews.com (The Hacker News)"
+      ],
+      "date": "Tue, 03 Nov 2026 21:29:19 +0530",
+      "summary": "Barracuda has disclosed details of two vulnerabilities affecting its products that, if chained together, could allow an attacker to bypass authorization controls and gain root access to a susceptible device. The vulnerabilities, a pre-authentication authorization bypass vulnerability and a command injection vulnerability, have been assigned the CVE identifiers CVE-2026-116606 (CVSS score: 9.3)",
+      "image": "",
+      "source": "The Hacker News",
+      "announce": "",
+      "score": null,
+      "category": "Other"
+    },
+    {
+      "guid": "https://thehackernews.com/2026/11/google-warns-llmjacking-attacks-are.html",
+      "title": "Google Warns LLMjacking Attacks Are Costing Some Enterprises Up to $1 Million in Cloud Charges",
+      "link": "https://thehackernews.com/2026/11/google-warns-llmjacking-attacks-are.html",
+      "authors": [
+        "info@thehackernews.com (The Hacker News)"
+      ],
+      "date": "Tue, 03 Nov 2026 21:11:53 +0530",
+      "summary": "Google on Monday warned that threat actors are hijacking enterprise access to Large Language Models (LLMs) to fraudulently leverage expensive computing resources and AI services. The tactic is called LLMjacking, a form of resource hijacking adapted for the LLM era, where an attacker obtains an API key through phishing, source code leaks, misconfigured environments, or exposed client-side code",
+      "image": "",
+      "source": "The Hacker News",
+      "announce": "",
+      "score": null,
+      "category": "Other"
+    },
+    {
+      "guid": "https://thehackernews.com/2026/11/cpguard-update-channel-hijacked-to.html",
+      "title": "cPGuard Update Channel Hijacked to Backdoor Linux Servers and Collect Password Hashes",
+      "link": "https://thehackernews.com/2026/11/cpguard-update-channel-hijacked-to.html",
+      "authors": [
+        "info@thehackernews.com (The Hacker News)"
+      ],
+      "date": "Tue, 03 Nov 2026 20:46:32 +0530",
+      "summary": "An attacker broke into the update system of the cPGuard security tool on November 2 and used it to send a malicious script to customers' Linux servers. The script installed a backdoor and collected password hashes and other sensitive files from servers that ran it, cPGuard maker OPSSHIELD said in an advisory. The attacker has since taken some of that data. cPGuard 5.88.25 and later versions",
+      "image": "",
+      "source": "The Hacker News",
+      "announce": "",
+      "score": null,
+      "category": "Other"
     },
     {
       "guid": "https://thehackernews.com/2026/11/red-hat-patches-98-rated-linux-tcp-rce.html",
@@ -43,668 +208,8 @@
       "image": "",
       "source": "The Hacker News",
       "announce": "",
-      "score": 70,
-      "category": "Cyber Security"
-    },
-    {
-      "guid": "https://thehackernews.com/2026/11/new-volta-infostealer-uses-claude.html",
-      "title": "New VOLTA Infostealer Uses Claude, Gemini, and Kimi AI to Rank Victims by Financial Value",
-      "link": "https://thehackernews.com/2026/11/new-volta-infostealer-uses-claude.html",
-      "authors": [
-        "info@thehackernews.com (The Hacker News)"
-      ],
-      "date": "Mon, 02 Nov 2026 11:21:07 +0530",
-      "summary": "Cybersecurity researchers have discovered a new Windows infostealer malware called VOLTA-AUTODOXER (aka VOLTA) that makes use of a large language model (LLM) to rank a victim's stolen data by their monetization value. Like other typical stealer families, VOLTA is equipped to harvest passwords and cookies from Chromium-based web browsers; data from Outlook profiles and Slack workspaces;",
-      "image": "",
-      "source": "The Hacker News",
-      "announce": "",
-      "score": 70,
-      "category": "Cyber Security"
-    },
-    {
-      "guid": "https://thehackernews.com/2026/11/attackers-exploit-critical-siemens.html",
-      "title": "Attackers Exploit Critical Siemens IoT2050 Flaw to Plant Remote Command Backdoors",
-      "link": "https://thehackernews.com/2026/11/attackers-exploit-critical-siemens.html",
-      "authors": [
-        "info@thehackernews.com (The Hacker News)"
-      ],
-      "date": "Tue, 03 Nov 2026 11:04:41 +0530",
-      "summary": "A maximum-severity security flaw impacting Siemens SIMATIC IoT2050 Advanced devices has come under active exploitation, VulnCheck has revealed. The vulnerability, tracked as CVE-2026-58115 (CVSS score: 10.0), is a case of missing authentication for a critical function that could be exploited by an unauthenticated remote attacker to run arbitrary code. \"SIMATIC IoT2050 Advanced devices running",
-      "image": "",
-      "source": "The Hacker News",
-      "announce": "",
-      "score": 65,
-      "category": "Cyber Security"
-    },
-    {
-      "guid": "https://thehackernews.com/2026/10/a-shared-chatgpt-link-could-run.html",
-      "title": "A Shared ChatGPT Link Could Run Attacker Code in Your Session and Read Private Chats",
-      "link": "https://thehackernews.com/2026/10/a-shared-chatgpt-link-could-run.html",
-      "authors": [
-        "info@thehackernews.com (The Hacker News)"
-      ],
-      "date": "Sat, 31 Oct 2026 11:03:41 +0530",
-      "summary": "A malicious ChatGPT share link could run an attacker's code in the logged-in session of anyone who opened it, allowing them to read their private conversations, researchers at the security firm Parameter showed. The researchers reported the flaw through OpenAI's bug bounty program on October 18, and OpenAI fixed it eight days later and rated it P1, its most serious category.",
-      "image": "",
-      "source": "The Hacker News",
-      "announce": "",
-      "score": 65,
-      "category": "Cyber Security"
-    },
-    {
-      "guid": "https://thehackernews.com/2026/11/second-wave-of-cyberattacks-hits.html",
-      "title": "New Wave of Refrigeration Cyberattacks Hits Supermarkets Across Europe, Forcing Stores to Pull Food",
-      "link": "https://thehackernews.com/2026/11/second-wave-of-cyberattacks-hits.html",
-      "authors": [
-        "info@thehackernews.com (The Hacker News)"
-      ],
-      "date": "Tue, 03 Nov 2026 12:57:07 +0530",
-      "summary": "Attackers remotely changed the settings on refrigeration controls at supermarkets in Belgium, Sweden, Estonia and other European countries overnight into Monday, November 2, warming fridges and freezers. No chain reported more than several dozen affected stores, and some had to throw away chilled and frozen food or take it off the shelf. Danfoss, a Danish maker of refrigeration controls,",
-      "image": "",
-      "source": "The Hacker News",
-      "announce": "",
-      "score": 60,
-      "category": "Cyber Security"
-    },
-    {
-      "guid": "https://thehackernews.com/2026/10/chinese-hackers-use-ai-powered-artex-to.html",
-      "title": "Chinese Hackers Use AI-Powered ARTEX to Target Over 200 Organizations Worldwide",
-      "link": "https://thehackernews.com/2026/10/chinese-hackers-use-ai-powered-artex-to.html",
-      "authors": [
-        "info@thehackernews.com (The Hacker News)"
-      ],
-      "date": "Fri, 30 Oct 2026 22:28:44 +0530",
-      "summary": "Chinese state-sponsored threat actors have been observed using a Go-based artificial intelligence (AI)-powered penetration testing framework called ARTEX in attacks aimed at high-value targets simultaneously. The activity has been attributed by CrowdStrike to a China-based \"targeted intrusion adversary\" it tracks under the moniker Vapor Panda (previously VexatiousTemper). First identified in",
-      "image": "",
-      "source": "The Hacker News",
-      "announce": "",
-      "score": 60,
-      "category": "Cyber Security"
-    },
-    {
-      "guid": "https://thehackernews.com/2026/10/official-claude-code-vs-code-extension.html",
-      "title": "Official Claude Code Extension on Cursor Marketplace Trojanized with Persistent SSH Backdoor",
-      "link": "https://thehackernews.com/2026/10/official-claude-code-vs-code-extension.html",
-      "authors": [
-        "info@thehackernews.com (The Hacker News)"
-      ],
-      "date": "Fri, 30 Oct 2026 14:25:47 +0530",
-      "summary": "Cybersecurity researchers have disclosed that a trojanized version of Anthropic's official Claude Code extension was distributed through the Cursor Marketplace as a legitimate update, attempting to install a persistent SSH backdoor on affected systems. The malicious update, version 2.1.313, was distributed under the extension's legitimate publisher identity, prompting Cursor to temporarily shut",
-      "image": "",
-      "source": "The Hacker News",
-      "announce": "",
-      "score": 60,
-      "category": "Cyber Security"
-    },
-    {
-      "guid": "https://thehackernews.com/2026/11/fbi-links-north-koreas-tradertraitor-to.html",
-      "title": "FBI Links North Korea's TraderTraitor to Record $6.43 Billion Binance Crypto Heist",
-      "link": "https://thehackernews.com/2026/11/fbi-links-north-koreas-tradertraitor-to.html",
-      "authors": [
-        "info@thehackernews.com (The Hacker News)"
-      ],
-      "date": "Sun, 01 Nov 2026 12:33:00 +0530",
-      "summary": "The U.S. Federal Bureau of Investigation (FBI) has officially attributed the theft of more than $6 billion in virtual assets from Binance to TraderTraitor, a North Korea-aligned elite hacking group also tracked as Jade Sleet, Pressure Chollima, PUKCHONG, Slow Pisces, and UNC4899. The FBI, along with the U.S. Secret Service (USSS) and the Internal Revenue Service Criminal Investigation (IRS-CI),",
-      "image": "",
-      "source": "The Hacker News",
-      "announce": "",
-      "score": 55,
-      "category": "Cyber Security"
-    },
-    {
-      "guid": "https://thehackernews.com/2026/10/binance-suffers-security-breach.html",
-      "title": "Binance Suffers Security Breach Affecting $6.3 Billion in Assets, Nearly $3 Billion Frozen",
-      "link": "https://thehackernews.com/2026/10/binance-suffers-security-breach.html",
-      "authors": [
-        "info@thehackernews.com (The Hacker News)"
-      ],
-      "date": "Fri, 30 Oct 2026 09:44:59 +0530",
-      "summary": "Cryptocurrency giant Binance said on Thursday that a \"security incident\" on its platform has impacted about $6.3 billion worth of assets. The world's biggest cryptocurrency exchange said nearly $3 billion of those assets have been frozen on-chain so far. Tether and Circle said they have frozen more than 1.567 billion USDT and 800 million USDC related to the incident, respectively. The",
-      "image": "",
-      "source": "The Hacker News",
-      "announce": "",
-      "score": 55,
-      "category": "Cyber Security"
-    },
-    {
-      "guid": "https://thehackernews.com/2026/11/russia-aligned-gorbag-hackers-exploit.html",
-      "title": "Russia-Aligned Gorbag Hackers Exploit WinRAR Flaw to Deploy Data-Stealing Malware",
-      "link": "https://thehackernews.com/2026/11/russia-aligned-gorbag-hackers-exploit.html",
-      "authors": [
-        "info@thehackernews.com (The Hacker News)"
-      ],
-      "date": "Tue, 03 Nov 2026 16:30:45 +0530",
-      "summary": "A Russia-aligned threat actor known as Gorbag has been observed using simple information stealer malware in attacks targeting Ukrainian organizations. \"Active since at least February 2025, the group has focused exclusively on Ukrainian targets, with a clear preference for law enforcement and justice entities, local administrations near the front line, and the defense sector,\" ESET researcher",
-      "image": "",
-      "source": "The Hacker News",
-      "announce": "",
-      "score": 50,
-      "category": "Cyber Security"
-    },
-    {
-      "guid": "https://thehackernews.com/2026/11/hackers-exploit-btcpay-server-flaw-to.html",
-      "title": "Hackers Exploit BTCPay Server Flaw to Steal Bitcoin and Litecoin From Hot Wallets",
-      "link": "https://thehackernews.com/2026/11/hackers-exploit-btcpay-server-flaw-to.html",
-      "authors": [
-        "info@thehackernews.com (The Hacker News)"
-      ],
-      "date": "Tue, 03 Nov 2026 14:01:48 +0530",
-      "summary": "BTCPay Server, a self-hosted, open-source cryptocurrency payment processor, has urged users to install the latest version of its software in response to reports of Bitcoin and Litecoin being stolen from hot wallets on instances running older versions. \"Our investigation found that these attacks targeted servers running BTCPay Server 2.4.1 (released on 23 July 2026) or earlier,\" BTCPay Server",
-      "image": "",
-      "source": "The Hacker News",
-      "announce": "",
-      "score": 50,
-      "category": "Cyber Security"
-    },
-    {
-      "guid": "https://thehackernews.com/2026/11/synology-nas-devices-targeted-in.html",
-      "title": "Synology NAS Devices Targeted in Ransomware Attacks Exploiting Patched DSM Flaw",
-      "link": "https://thehackernews.com/2026/11/synology-nas-devices-targeted-in.html",
-      "authors": [
-        "info@thehackernews.com (The Hacker News)"
-      ],
-      "date": "Tue, 03 Nov 2026 13:13:07 +0530",
-      "summary": "Synology is urging customers to update the DiskStation Manager (DSM) software powering its Network Attached Storage (NAS) devices following ransomware attacks. The Taiwanese vendor said it observed threat actors exploiting a vulnerability patched in December 2024 to target devices running outdated versions of DSM. \"These attacks aim to encrypt data and extort ransom,\" it said in a statement",
-      "image": "",
-      "source": "The Hacker News",
-      "announce": "",
-      "score": 50,
-      "category": "Cyber Security"
-    },
-    {
-      "guid": "https://thehackernews.com/2026/11/critical-langflow-flaws-could-let.html",
-      "title": "Critical Langflow Flaws Could Let Unauthenticated Attackers Run Code on Servers",
-      "link": "https://thehackernews.com/2026/11/critical-langflow-flaws-could-let.html",
-      "authors": [
-        "info@thehackernews.com (The Hacker News)"
-      ],
-      "date": "Mon, 02 Nov 2026 17:20:00 +0530",
-      "summary": "Two critical flaws in Langflow could let a remote attacker with no account bypass authentication or run arbitrary code, IBM said last week. Langflow is an open-source tool for building AI agents and workflows, and its vulnerability reports go to IBM. Every release from 1.0.0 through 1.12.8 has the flaws, and the only fix is version 1.13.0. Neither flaw is in CISA's Known",
-      "image": "",
-      "source": "The Hacker News",
-      "announce": "",
-      "score": 50,
-      "category": "Cyber Security"
-    },
-    {
-      "guid": "https://thehackernews.com/2026/10/linux-kernel-tcp-flaw-with-98-cvss.html",
-      "title": "Linux Kernel TCP Flaw With 9.8 CVSS Score Affects Ubuntu, Red Hat and Other Distributions",
-      "link": "https://thehackernews.com/2026/10/linux-kernel-tcp-flaw-with-98-cvss.html",
-      "authors": [
-        "info@thehackernews.com (The Hacker News)"
-      ],
-      "date": "Thu, 29 Oct 2026 21:27:05 +0530",
-      "summary": "A flaw in the Linux kernel's TCP code, tracked as CVE-2026-98432, affects Ubuntu, Red Hat Enterprise Linux (RHEL), and other Linux distributions. The kernel's own CVE team rates it 9.8 out of 10 on the CVSS scale. Anthropic said on October 27 that its AI model wrote an exploit that uses the flaw to let a remote attacker with no credentials run commands as root on Linux servers with a",
-      "image": "",
-      "source": "The Hacker News",
-      "announce": "",
-      "score": 50,
-      "category": "Cyber Security"
-    },
-    {
-      "guid": "https://thehackernews.com/2026/10/fake-chatgpt-and-claude-apps-abuse.html",
-      "title": "Fake ChatGPT and Claude Apps Abuse Signed Executables to Deploy Crypto Miners",
-      "link": "https://thehackernews.com/2026/10/fake-chatgpt-and-claude-apps-abuse.html",
-      "authors": [
-        "info@thehackernews.com (The Hacker News)"
-      ],
-      "date": "Thu, 29 Oct 2026 20:50:29 +0530",
-      "summary": "Threat actors are delivering malicious loaders and cryptocurrency miners under the guise of artificial intelligence (AI) desktop applications for Anthropic Claude and OpenAI ChatGPT as part of a campaign dubbed Yoba. The activity involves creating fake GitHub projects that claim to be desktop applications like GPT-5.6 Sol, GPT-6 Astra, and Claude Opus, only to deliver a malware family called",
-      "image": "",
-      "source": "The Hacker News",
-      "announce": "",
-      "score": 50,
-      "category": "Cyber Security"
-    },
-    {
-      "guid": "https://thehackernews.com/2026/11/attackers-target-unpatched.html",
-      "title": "Attackers Target Unpatched CryptoPayment Gateway Flaw That Can Expose Wallet Credentials",
-      "link": "https://thehackernews.com/2026/11/attackers-target-unpatched.html",
-      "authors": [
-        "info@thehackernews.com (The Hacker News)"
-      ],
-      "date": "Tue, 03 Nov 2026 11:04:37 +0530",
-      "summary": "Threat actors are attempting to exploit an unpatched maximum-severity security vulnerability in the CryptoPayment Gateway WordPress plugin, according to findings from Defused Cyber. The vulnerability in question is CVE-2026-81648, which carries a CVSS score of 10.0. Successful exploitation of the flaw could permit unauthenticated users to delete arbitrary files on the server and extract",
-      "image": "",
-      "source": "The Hacker News",
-      "announce": "",
-      "score": 45,
-      "category": "Cyber Security"
-    },
-    {
-      "guid": "https://thehackernews.com/2026/11/weekly-recap-critical-cves-linux-ddos.html",
-      "title": "⚡ Weekly Recap: Critical CVEs, Linux DDoS Botnet, Device-Code Phishing, Android Spyware and More",
-      "link": "https://thehackernews.com/2026/11/weekly-recap-critical-cves-linux-ddos.html",
-      "authors": [
-        "info@thehackernews.com (The Hacker News)"
-      ],
-      "date": "Mon, 02 Nov 2026 22:27:56 +0530",
-      "summary": "Some attacks this week didn't need much of a trick. A fake support call, a trusted extension, a shared link, or a device with no password. Small things that people barely think about. Yet each was enough to cause serious trouble. Then there were the bigger messes. Billions stolen, hidden networks of hacked devices, poisoned software, and attackers finding new ways to turn normal tools against",
-      "image": "",
-      "source": "The Hacker News",
-      "announce": "",
-      "score": 45,
-      "category": "Cyber Security"
-    },
-    {
-      "guid": "https://thehackernews.com/2026/11/critical-lxd-and-microcloud-flaw-cvss.html",
-      "title": "CVSS 10.0 LXD, MicroCloud Flaw Lets Attackers Impersonate Trusted Clients Without a Private Key",
-      "link": "https://thehackernews.com/2026/11/critical-lxd-and-microcloud-flaw-cvss.html",
-      "authors": [
-        "info@thehackernews.com (The Hacker News)"
-      ],
-      "date": "Sun, 01 Nov 2026 14:21:31 +0530",
-      "summary": "A critical flaw in Canonical's LXD and MicroCloud let an attacker log in as a trusted client without holding that client's private key. To do it, the attacker had to reach their HTTPS API over the network and have the trusted client's public certificate. Once in, the attacker would act as that client, with access to the cluster and its virtual machines. If the impersonated account is",
-      "image": "",
-      "source": "The Hacker News",
-      "announce": "",
-      "score": 45,
-      "category": "Cyber Security"
-    },
-    {
-      "guid": "https://thehackernews.com/2026/10/github-launches-npm-firewall-to-block.html",
-      "title": "GitHub Launches npm Firewall to Block Malicious Packages Before Installation",
-      "link": "https://thehackernews.com/2026/10/github-launches-npm-firewall-to-block.html",
-      "authors": [
-        "info@thehackernews.com (The Hacker News)"
-      ],
-      "date": "Thu, 29 Oct 2026 15:56:33 +0530",
-      "summary": "GitHub has announced that it's introducing a new package firewall as a preview to block installation of suspicious npm packages during installation time. \"The firewall inspects both metadata requests and package downloads for signs of malicious activity, acting as an install-time policy gate,\" GitHub said. The feature, which currently supports only npm packages, is available in public preview",
-      "image": "",
-      "source": "The Hacker News",
-      "announce": "",
-      "score": 45,
-      "category": "Cyber Security"
-    },
-    {
-      "guid": "https://thehackernews.com/2026/10/google-to-allow-one-tap-android-app.html",
-      "title": "Google to Allow One-Tap Android App Installs From Approved Third-Party Stores Outside U.S.",
-      "link": "https://thehackernews.com/2026/10/google-to-allow-one-tap-android-app.html",
-      "authors": [
-        "info@thehackernews.com (The Hacker News)"
-      ],
-      "date": "Wed, 28 Oct 2026 22:38:09 +0530",
-      "summary": "Third-party Android app stores can now apply to Google for permission to install apps with one tap, without Android's usual confirmation screens, and to update them in the background. To qualify, a store must pass identity checks and send Google its full catalog, along with every new app and update, for ongoing malware scanning. Approved stores get the features from December 1, but only on",
-      "image": "",
-      "source": "The Hacker News",
-      "announce": "",
-      "score": 45,
-      "category": "Cyber Security"
-    },
-    {
-      "guid": "https://thehackernews.com/2026/11/government-linux-servers-targeted-with.html",
-      "title": "Government Linux Servers Targeted With SysGoRAT and Suspected AI-Generated Scripts",
-      "link": "https://thehackernews.com/2026/11/government-linux-servers-targeted-with.html",
-      "authors": [
-        "info@thehackernews.com (The Hacker News)"
-      ],
-      "date": "Mon, 02 Nov 2026 16:19:59 +0530",
-      "summary": "Cybersecurity researchers have disclosed details of a cyber espionage campaign specifically targeting Linux infrastructure associated with government entities and state-affiliated infrastructure. The activity, observed by Palo Alto Networks Unit 42 between October 2025 and April 2026, has been tracked under the moniker CL-UNK-1211, where \"CL\" refers to cluster and \"UNK\" stands for unknown",
-      "image": "",
-      "source": "The Hacker News",
-      "announce": "",
-      "score": 40,
-      "category": "Cyber Security"
-    },
-    {
-      "guid": "https://thehackernews.com/2026/11/hackers-steal-about-27-million-from.html",
-      "title": "Hackers Steal About $2.7 Million From Polymarket Traders via Hijacked DebugBear Script",
-      "link": "https://thehackernews.com/2026/11/hackers-steal-about-27-million-from.html",
-      "authors": [
-        "info@thehackernews.com (The Hacker News)"
-      ],
-      "date": "Sun, 01 Nov 2026 12:55:40 +0530",
-      "summary": "Malicious code on the website of prediction market Polymarket sold some signed-in traders' positions and moved their funds to the hackers on October 29. The code had replaced a page-speed script that the site loaded from an outside company. Polymarket says it is refunding about $2.7 million to 726 affected wallets. Blockchain records show crypto worth about $2.64 million reached",
-      "image": "",
-      "source": "The Hacker News",
-      "announce": "",
-      "score": 40,
-      "category": "Cyber Security"
-    },
-    {
-      "guid": "https://thehackernews.com/2026/10/attackers-chain-three-ivanti-connect.html",
-      "title": "Attackers Chain Three Ivanti Connect Secure Flaws to Gain Unauthenticated Root Access",
-      "link": "https://thehackernews.com/2026/10/attackers-chain-three-ivanti-connect.html",
-      "authors": [
-        "info@thehackernews.com (The Hacker News)"
-      ],
-      "date": "Sat, 31 Oct 2026 13:57:43 +0530",
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added two security flaws impacting Ivanti Connect Secure (ICS) to its Known Exploited Vulnerabilities (KEV) catalog, following active exploitation in the wild. The vulnerabilities are listed below - CVE-2026-111357 (CVSS score: 8.8) - A missing authentication for a critical function vulnerability that could allow a",
-      "image": "",
-      "source": "The Hacker News",
-      "announce": "",
-      "score": 40,
-      "category": "Cyber Security"
-    },
-    {
-      "guid": "https://thehackernews.com/2026/10/trezor-warns-of-suspected-hardware.html",
-      "title": "Trezor Warns of Suspected Hardware Implant in One of Its Wallets Sold by CryptoBilis",
-      "link": "https://thehackernews.com/2026/10/trezor-warns-of-suspected-hardware.html",
-      "authors": [
-        "info@thehackernews.com (The Hacker News)"
-      ],
-      "date": "Fri, 30 Oct 2026 17:51:56 +0530",
-      "summary": "A Trezor Safe 5 hardware wallet bought from the reseller CryptoBilis has an extra circuit board that sends out the recovery phrase over a mobile network, a customer has reported. Trezor has not yet examined the device. It is telling everyone who bought a Trezor from CryptoBilis since March 2026 to move their funds to a new wallet with a new recovery phrase. Trezor said in a blog post",
-      "image": "",
-      "source": "The Hacker News",
-      "announce": "",
-      "score": 40,
-      "category": "Cyber Security"
-    },
-    {
-      "guid": "https://thehackernews.com/2026/10/hackers-actively-exploit-highly.html",
-      "title": "Hackers Actively Exploit Highly Critical Drupal Commerce Core Authorization Bypass Flaw",
-      "link": "https://thehackernews.com/2026/10/hackers-actively-exploit-highly.html",
-      "authors": [
-        "info@thehackernews.com (The Hacker News)"
-      ],
-      "date": "Fri, 30 Oct 2026 13:15:30 +0530",
-      "summary": "Drupal has warned that threat actors are exploiting a \"highly critical\" security flaw in its Commerce Core component. The vulnerability, tracked as CVE-2026-118539 (CVSS score: N/A), is a case of missing authorization affecting Commerce Core versions from 0.0.0 to 2.41 and from 3.0.0 to 3.3.13. \"This module enables you to sell goods and services to customers through an included shopping cart",
-      "image": "",
-      "source": "The Hacker News",
-      "announce": "",
-      "score": 40,
-      "category": "Cyber Security"
-    },
-    {
-      "guid": "https://thehackernews.com/2026/10/26400-valid-cloud-and-ai-credentials.html",
-      "title": "26,400 Valid Cloud and AI Credentials Found Exposed in Public Gitee Repositories",
-      "link": "https://thehackernews.com/2026/10/26400-valid-cloud-and-ai-credentials.html",
-      "authors": [
-        "info@thehackernews.com (The Hacker News)"
-      ],
-      "date": "Thu, 29 Oct 2026 17:03:15 +0530",
-      "summary": "26,400 credentials that developers left in public code on Gitee, a Chinese code-hosting service, still worked when a researcher tested them. Anyone who copied one from that code could have used it. Independent researcher Ben Zimmermann found them by scanning 7.25 million public Gitee repositories and reported the results on October 28. Most were keys for cloud and AI services, led by",
-      "image": "",
-      "source": "The Hacker News",
-      "announce": "",
-      "score": 40,
-      "category": "Cyber Security"
-    },
-    {
-      "guid": "https://thehackernews.com/2026/10/hackers-exploited-cisco-sd-wan-flaw-to.html",
-      "title": "Hackers Exploited Cisco SD-WAN Flaw to Plant Malware Built to Steal Encryption Keys",
-      "link": "https://thehackernews.com/2026/10/hackers-exploited-cisco-sd-wan-flaw-to.html",
-      "authors": [
-        "info@thehackernews.com (The Hacker News)"
-      ],
-      "date": "Thu, 29 Oct 2026 13:54:22 +0530",
-      "summary": "Hackers exploited a critical Cisco Catalyst SD-WAN flaw, fixed in February, to plant custom malware inside the systems that control an organization's SD-WAN network. The malware, called KeyDrift, is designed to copy the keys that encrypt traffic between sites and store them for later use, Cisco Talos said on October 28. Talos calls the attacks historical but does not specify when they",
-      "image": "",
-      "source": "The Hacker News",
-      "announce": "",
-      "score": 40,
-      "category": "Cyber Security"
-    },
-    {
-      "guid": "https://thehackernews.com/2026/10/volt-typhoon-used-covert-silent-train.html",
-      "title": "Volt Typhoon Used Covert Silent Train Network in Four Zero-Day Exploitation Campaigns",
-      "link": "https://thehackernews.com/2026/10/volt-typhoon-used-covert-silent-train.html",
-      "authors": [
-        "info@thehackernews.com (The Hacker News)"
-      ],
-      "date": "Wed, 28 Oct 2026 23:38:33 +0530",
-      "summary": "The China-nexus cyber espionage group known as Volt Typhoon has been attributed to a now-disrupted covert access network dubbed Silent Train that has been put to use for zero-day exploitation and strategic access. \"First identified in late 2023, Silent Train uses rotating chains of compromised SOHO, IoT, and enterprise infrastructure,\" Lumen Technologies Black Lotus Labs said in a report shared",
-      "image": "",
-      "source": "The Hacker News",
-      "announce": "",
-      "score": 40,
-      "category": "Cyber Security"
-    },
-    {
-      "guid": "https://thehackernews.com/2026/11/is-your-soc-ready-for-ai-agents.html",
-      "title": "Is Your SOC Ready for AI Agents? A Maturity Check Before You Deploy",
-      "link": "https://thehackernews.com/2026/11/is-your-soc-ready-for-ai-agents.html",
-      "authors": [
-        "info@thehackernews.com (The Hacker News)"
-      ],
-      "date": "Mon, 02 Nov 2026 17:00:00 +0530",
-      "summary": "Forty percent of security teams now use AI every day, and another 56% are testing it. Only 4% have no plans to adopt it, according to Prophet Security's State of AI in Security Operations 2026 survey of more than 250 CISOs, SOC leaders and practitioners. For the teams still testing, the next decision is whether their own SOC is ready. AI SOC readiness has two parts: whether a SOC has the",
-      "image": "",
-      "source": "The Hacker News",
-      "announce": "",
-      "score": 35,
-      "category": "Cyber Security"
-    },
-    {
-      "guid": "https://thehackernews.com/2026/11/attackers-pose-as-it-support-on.html",
-      "title": "Attackers Pose as IT Support on Microsoft Teams, Abuse AD CS to Steal Company Data",
-      "link": "https://thehackernews.com/2026/11/attackers-pose-as-it-support-on.html",
-      "authors": [
-        "info@thehackernews.com (The Hacker News)"
-      ],
-      "date": "Mon, 02 Nov 2026 16:38:45 +0530",
-      "summary": "Attackers posing as IT support on Microsoft Teams talked employees into giving them remote control of their PCs. They then used insecure Active Directory Certificate Services (AD CS) settings to obtain login certificates for privileged accounts, including one for a domain controller. Microsoft said in a report that it investigated two such intrusions, one of which resulted in company",
-      "image": "",
-      "source": "The Hacker News",
-      "announce": "",
-      "score": 35,
-      "category": "Cyber Security"
-    },
-    {
-      "guid": "https://thehackernews.com/2026/11/netamloader-malware-targets-government.html",
-      "title": "NetamLoader Malware Targets Government Windows 10 Systems in Asia via .NET Injection",
-      "link": "https://thehackernews.com/2026/11/netamloader-malware-targets-government.html",
-      "authors": [
-        "info@thehackernews.com (The Hacker News)"
-      ],
-      "date": "Sun, 01 Nov 2026 12:32:58 +0530",
-      "summary": "Cybersecurity researchers have disclosed details of what has been described as a \"highly sophisticated infection chain\" targeting government organizations in Asia. The activity, detailed by Kaspersky this week, targeted a custom Windows 10 build used exclusively by government entities in Asia and involves the deployment of a previously undocumented .NET assembly-loading framework codenamed",
-      "image": "",
-      "source": "The Hacker News",
-      "announce": "",
-      "score": 35,
-      "category": "Cyber Security"
-    },
-    {
-      "guid": "https://thehackernews.com/2026/10/teamviewer-flaw-lets-remote-computers.html",
-      "title": "TeamViewer Flaw Lets Remote Computers Attack Users Who Connect to Control Them",
-      "link": "https://thehackernews.com/2026/10/teamviewer-flaw-lets-remote-computers.html",
-      "authors": [
-        "info@thehackernews.com (The Hacker News)"
-      ],
-      "date": "Fri, 30 Oct 2026 20:47:28 +0530",
-      "summary": "TeamViewer has fixed a flaw that lets the machine being controlled in a remote session attack the computer that connected to control it. In a TeamViewer session, the computer that connects and takes control is the viewer, and the machine it controls is the host. A malicious or compromised host can exploit the flaw to crash the viewer's TeamViewer and, depending on the platform, may also run",
-      "image": "",
-      "source": "The Hacker News",
-      "announce": "",
-      "score": 35,
-      "category": "Cyber Security"
-    },
-    {
-      "guid": "https://thehackernews.com/2026/10/wordpress-rce-flaw-draws-nearly-63000.html",
-      "title": "WordPress RCE Flaw Draws Nearly 63,000 Attack Attempts in Just 24 Hours",
-      "link": "https://thehackernews.com/2026/10/wordpress-rce-flaw-draws-nearly-63000.html",
-      "authors": [
-        "info@thehackernews.com (The Hacker News)"
-      ],
-      "date": "Fri, 30 Oct 2026 19:38:14 +0530",
-      "summary": "Threat actors have been observed attempting to exploit a high-severity security flaw in WordPress Core shortly after patches were released. The vulnerability, which does not have a CVE identifier, relates to a case of remote code execution impacting WordPress Core versions 4.7 through 7.1.3. It carries a CVSS score of 8.1 on the CVSS scoring system. Patches for the flaw were released on October",
-      "image": "",
-      "source": "The Hacker News",
-      "announce": "",
-      "score": 35,
-      "category": "Cyber Security"
-    },
-    {
-      "guid": "https://thehackernews.com/2026/10/cisa-adds-actively-exploited-gitlab-rce.html",
-      "title": "CISA Adds Actively Exploited GitLab RCE and Cisco Firewall DoS Flaws to KEV",
-      "link": "https://thehackernews.com/2026/10/cisa-adds-actively-exploited-gitlab-rce.html",
-      "authors": [
-        "info@thehackernews.com (The Hacker News)"
-      ],
-      "date": "Fri, 30 Oct 2026 12:57:05 +0530",
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday added two security flaws impacting Cisco and GitLab software to its Known Exploited Vulnerabilities (KEV), citing evidence of active exploitation. The vulnerabilities are listed below - CVE-2026-97229 (CVSS score: 10.0) - An integer overflow or wraparound vulnerability in GitLab Community Edition and Enterprise",
-      "image": "",
-      "source": "The Hacker News",
-      "announce": "",
-      "score": 35,
-      "category": "Cyber Security"
-    },
-    {
-      "guid": "https://thehackernews.com/2026/10/telegram-android-flaw-lets-attackers.html",
-      "title": "Telegram Android Flaw Lets Attackers Run Code When Users Answer Voice Calls",
-      "link": "https://thehackernews.com/2026/10/telegram-android-flaw-lets-attackers.html",
-      "authors": [
-        "info@thehackernews.com (The Hacker News)"
-      ],
-      "date": "Thu, 29 Oct 2026 17:09:18 +0530",
-      "summary": "A flaw in Telegram for Android could be chained with two other bugs to take full control of a victim's phone through a voice call, once the victim answered, according to security startup NebuSec. The attacker needed only an ordinary Telegram account. Telegram fixed the flaw in version 12.10.4 of the app, released in late September, and NebuSec disclosed it on October 29. Combined with an",
-      "image": "",
-      "source": "The Hacker News",
-      "announce": "",
-      "score": 35,
-      "category": "Cyber Security"
-    },
-    {
-      "guid": "https://thehackernews.com/2026/10/cisco-patches-actively-exploited-asa.html",
-      "title": "Cisco Patches Actively Exploited ASA and FTD VPN Flaw That Can Crash Firewalls",
-      "link": "https://thehackernews.com/2026/10/cisco-patches-actively-exploited-asa.html",
-      "authors": [
-        "info@thehackernews.com (The Hacker News)"
-      ],
-      "date": "Thu, 29 Oct 2026 16:14:46 +0530",
-      "summary": "Cisco has released patches to address a high-severity security flaw in Secure Firewall Adaptive Security Appliance (ASA) Software and Secure Firewall Threat Defense (FTD) Software that it said has been exploited in the wild. The vulnerability, tracked as CVE-2026-76418, is rated 8.6 on the CVSS scoring system. Successful exploitation could allow an unauthenticated, remote attacker to cause the",
-      "image": "",
-      "source": "The Hacker News",
-      "announce": "",
-      "score": 35,
-      "category": "Cyber Security"
-    },
-    {
-      "guid": "https://thehackernews.com/2026/10/attacker-tried-to-exploit-alpine-linuxs.html",
-      "title": "Attacker Tried to Exploit Alpine Linux’s GitLab via CVSS 10.0 Flaw Its Ruby Left Open",
-      "link": "https://thehackernews.com/2026/10/attacker-tried-to-exploit-alpine-linuxs.html",
-      "authors": [
-        "info@thehackernews.com (The Hacker News)"
-      ],
-      "date": "Thu, 29 Oct 2026 14:35:39 +0530",
-      "summary": "An attacker tried to exploit a critical GitLab vulnerability on the Alpine Linux project's own GitLab server a week after GitLab released a fix, Alpine Linux said on 28 October. The flaw, CVE-2026-97229 (CVSS score: 10.0), can let an attacker run code on a GitLab server through a crafted regular expression in a CI configuration. Alpine found no evidence that the attack worked but",
-      "image": "",
-      "source": "The Hacker News",
-      "announce": "",
-      "score": 35,
-      "category": "Cyber Security"
-    },
-    {
-      "guid": "https://thehackernews.com/2026/10/china-linked-hackers-exploited-vmware.html",
-      "title": "China-Linked Hackers Exploited VMware ESX Zero-Day to Reduce Audit Trail Visibility",
-      "link": "https://thehackernews.com/2026/10/china-linked-hackers-exploited-vmware.html",
-      "authors": [
-        "info@thehackernews.com (The Hacker News)"
-      ],
-      "date": "Thu, 29 Oct 2026 11:52:33 +0530",
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a security flaw impacting Broadcom VMware ESX to its Known Exploited Vulnerabilities (KEV) catalog, after CrowdStrike revealed that it had been weaponized by a China-nexus threat actor known as Warp Panda in attacks targeting the U.S. legal sector. The vulnerability in question is CVE-2026-41709 (CVSS score:",
-      "image": "",
-      "source": "The Hacker News",
-      "announce": "",
-      "score": 35,
-      "category": "Cyber Security"
-    },
-    {
-      "guid": "https://thehackernews.com/2026/10/attackers-exploit-php2shell-flaws-in.html",
-      "title": "Attackers Exploit PHP2Shell Flaws in Internet-Exposed Palo Alto Networks Management Interfaces",
-      "link": "https://thehackernews.com/2026/10/attackers-exploit-php2shell-flaws-in.html",
-      "authors": [
-        "info@thehackernews.com (The Hacker News)"
-      ],
-      "date": "Thu, 29 Oct 2026 11:20:17 +0530",
-      "summary": "Palo Alto Networks on Wednesday warned that threat actors are exploiting the recently patched PHP2Shell vulnerabilities against publicly-accessible management interfaces. \"Active exploitation has been observed targeting the Palo Alto Networks management interface exposed to the internet,\" the network security company said in an update to its advisory. The vulnerabilities, tracked as",
-      "image": "",
-      "source": "The Hacker News",
-      "announce": "",
-      "score": 35,
-      "category": "Cyber Security"
-    },
-    {
-      "guid": "https://thehackernews.com/2026/11/darkblinders-compromises-israeli-target.html",
-      "title": "DarkBlinders Compromises Israeli Target and Iraqi Kurdish Government Cloud Environment",
-      "link": "https://thehackernews.com/2026/11/darkblinders-compromises-israeli-target.html",
-      "authors": [
-        "info@thehackernews.com (The Hacker News)"
-      ],
-      "date": "Mon, 02 Nov 2026 20:16:05 +0530",
-      "summary": "Cybersecurity researchers have disclosed details of a cyber espionage campaign targeting Israel and the Kurdistan Region of Iraq by an Iran state-aligned threat actor between August and October 2026. According to a report published by Dream Research Labs, the campaign has led to the compromise of a high-profile individual in Israel, along with additional compromises affecting a government cloud",
-      "image": "",
-      "source": "The Hacker News",
-      "announce": "",
-      "score": 30,
-      "category": "Cyber Security"
-    },
-    {
-      "guid": "https://thehackernews.com/2026/10/chainalysis-confirms-intrusion-into.html",
-      "title": "Chainalysis Confirms Intrusion Into Internal Tools and Exposure of Customer Identity Data",
-      "link": "https://thehackernews.com/2026/10/chainalysis-confirms-intrusion-into.html",
-      "authors": [
-        "info@thehackernews.com (The Hacker News)"
-      ],
-      "date": "Sat, 31 Oct 2026 17:31:56 +0530",
-      "summary": "American blockchain analysis firm Chainalysis said it was the target of a cybersecurity incident in which an external actor accessed non-sensitive customer data. However, the company noted that the breach did not result in unauthorized access to its investigation content, authentication credentials, or session tokens. \"This month, Chainalysis detected an external actor using offensive agentic",
-      "image": "",
-      "source": "The Hacker News",
-      "announce": "",
-      "score": 30,
-      "category": "Cyber Security"
-    },
-    {
-      "guid": "https://thehackernews.com/2026/10/cloudflare-reports-182-million-network.html",
-      "title": "Cloudflare Reports 18.2 Million Network-Layer DDoS Attacks in Q3, Up 38%",
-      "link": "https://thehackernews.com/2026/10/cloudflare-reports-182-million-network.html",
-      "authors": [
-        "info@thehackernews.com (The Hacker News)"
-      ],
-      "date": "Sat, 31 Oct 2026 10:26:12 +0530",
-      "summary": "Threat actors are launching about 8,226 network-layer distributed denial-of-service (DDoS) attacks per hour, Cloudflare revealed Thursday. The web infrastructure and security company said it autonomously mitigated 18.2 million network-layer (L3) DDoS attacks and 14.4 trillion HTTP DDoS requests in the third quarter of 2026. That amounts to 197,400 attacks per day, or one attack every 0.44",
-      "image": "",
-      "source": "The Hacker News",
-      "announce": "",
-      "score": 30,
-      "category": "Cyber Security"
-    },
-    {
-      "guid": "https://thehackernews.com/2026/10/syrian-hacker-behind-fake-tweet-that.html",
-      "title": "Syrian Hacker Behind Fake Tweet That Triggered $136 Billion Market Drop Gets 42 Months in Prison",
-      "link": "https://thehackernews.com/2026/10/syrian-hacker-behind-fake-tweet-that.html",
-      "authors": [
-        "info@thehackernews.com (The Hacker News)"
-      ],
-      "date": "Fri, 30 Oct 2026 16:10:45 +0530",
-      "summary": "Ahmad Umar Agha, a Syrian Electronic Army hacker known online as \"Th3Pr0,\" has been sentenced by a U.S. federal court to 42 months in prison for his role in a hacking conspiracy that targeted Western news outlets. The conspiracy was organized and led by members of former Syrian President Bashar al-Assad's inner circle, including the commander of Syria's General Intelligence",
-      "image": "",
-      "source": "The Hacker News",
-      "announce": "",
-      "score": 30,
-      "category": "Cyber Security"
-    },
-    {
-      "guid": "https://thehackernews.com/2026/10/threatsday-critical-firewall-flaws.html",
-      "title": "ThreatsDay: Critical Firewall Flaws, Banking Trojans Rented, Weaponized PDF, Token Theft + 26 More Stories",
-      "link": "https://thehackernews.com/2026/10/threatsday-critical-firewall-flaws.html",
-      "authors": [
-        "info@thehackernews.com (The Hacker News)"
-      ],
-      "date": "Fri, 30 Oct 2026 00:41:58 +0530",
-      "summary": "Some attacks take real skill. Others just need someone to leave a door open. This week has both. Exposed passwords, old bugs still getting exploited, and trusted software doing things it shouldn't. There's a strange mix of clever tricks and careless mistakes. Hackers are borrowing trust from familiar apps, websites, and AI tools. Some are using AI to speed things up. Others are leaving their",
-      "image": "",
-      "source": "The Hacker News",
-      "announce": "",
-      "score": 25,
-      "category": "Cyber Security"
-    },
-    {
-      "guid": "https://thehackernews.com/2026/10/the-rise-of-threat-operator-how-ai-will.html",
-      "title": "The Rise of the Threat Operator: How AI Will Redefine Security Operations and Careers",
-      "link": "https://thehackernews.com/2026/10/the-rise-of-threat-operator-how-ai-will.html",
-      "authors": [
-        "info@thehackernews.com (The Hacker News)"
-      ],
-      "date": "Thu, 29 Oct 2026 17:03:41 +0530",
-      "summary": "AI is beginning to take over much of the work that has traditionally defined the security analyst's job. Investigating alerts, collecting evidence, correlating activity across tools, and executing response actions are becoming tasks that AI systems can perform on their own. As these capabilities mature, security operations centers (SOCs) will see major changes in how work is organized, how",
-      "image": "",
-      "source": "The Hacker News",
-      "announce": "",
-      "score": 25,
-      "category": "Cyber Security"
+      "score": null,
+      "category": "Other"
     },
     {
       "guid": "https://thehackernews.com/2026/11/the-4-elements-of-exposure.html",
@@ -718,8 +223,398 @@
       "image": "",
       "source": "The Hacker News",
       "announce": "",
-      "score": 15,
-      "category": "Cyber Security"
+      "score": null,
+      "category": "Other"
+    },
+    {
+      "guid": "https://thehackernews.com/2026/11/russia-aligned-gorbag-hackers-exploit.html",
+      "title": "Russia-Aligned Gorbag Hackers Exploit WinRAR Flaw to Deploy Data-Stealing Malware",
+      "link": "https://thehackernews.com/2026/11/russia-aligned-gorbag-hackers-exploit.html",
+      "authors": [
+        "info@thehackernews.com (The Hacker News)"
+      ],
+      "date": "Tue, 03 Nov 2026 16:30:45 +0530",
+      "summary": "A Russia-aligned threat actor known as Gorbag has been observed using simple information stealer malware in attacks targeting Ukrainian organizations. \"Active since at least February 2025, the group has focused exclusively on Ukrainian targets, with a clear preference for law enforcement and justice entities, local administrations near the front line, and the defense sector,\" ESET researcher",
+      "image": "",
+      "source": "The Hacker News",
+      "announce": "",
+      "score": null,
+      "category": "Other"
+    },
+    {
+      "guid": "https://thehackernews.com/2026/11/hackers-exploit-btcpay-server-flaw-to.html",
+      "title": "Hackers Exploit BTCPay Server Flaw to Steal Bitcoin and Litecoin From Hot Wallets",
+      "link": "https://thehackernews.com/2026/11/hackers-exploit-btcpay-server-flaw-to.html",
+      "authors": [
+        "info@thehackernews.com (The Hacker News)"
+      ],
+      "date": "Tue, 03 Nov 2026 14:01:48 +0530",
+      "summary": "BTCPay Server, a self-hosted, open-source cryptocurrency payment processor, has urged users to install the latest version of its software in response to reports of Bitcoin and Litecoin being stolen from hot wallets on instances running older versions. \"Our investigation found that these attacks targeted servers running BTCPay Server 2.4.1 (released on 23 July 2026) or earlier,\" BTCPay Server",
+      "image": "",
+      "source": "The Hacker News",
+      "announce": "",
+      "score": null,
+      "category": "Other"
+    },
+    {
+      "guid": "https://thehackernews.com/2026/11/synology-nas-devices-targeted-in.html",
+      "title": "Synology NAS Devices Targeted in Ransomware Attacks Exploiting Patched DSM Flaw",
+      "link": "https://thehackernews.com/2026/11/synology-nas-devices-targeted-in.html",
+      "authors": [
+        "info@thehackernews.com (The Hacker News)"
+      ],
+      "date": "Tue, 03 Nov 2026 13:13:07 +0530",
+      "summary": "Synology is urging customers to update the DiskStation Manager (DSM) software powering its Network Attached Storage (NAS) devices following ransomware attacks. The Taiwanese vendor said it observed threat actors exploiting a vulnerability patched in December 2024 to target devices running outdated versions of DSM. \"These attacks aim to encrypt data and extort ransom,\" it said in a statement",
+      "image": "",
+      "source": "The Hacker News",
+      "announce": "",
+      "score": null,
+      "category": "Other"
+    },
+    {
+      "guid": "https://thehackernews.com/2026/11/second-wave-of-cyberattacks-hits.html",
+      "title": "New Wave of Refrigeration Cyberattacks Hits Supermarkets Across Europe, Forcing Stores to Pull Food",
+      "link": "https://thehackernews.com/2026/11/second-wave-of-cyberattacks-hits.html",
+      "authors": [
+        "info@thehackernews.com (The Hacker News)"
+      ],
+      "date": "Tue, 03 Nov 2026 12:57:07 +0530",
+      "summary": "Attackers remotely changed the settings on refrigeration controls at supermarkets in Belgium, Sweden, Estonia and other European countries overnight into Monday, November 2, warming fridges and freezers. No chain reported more than several dozen affected stores, and some had to throw away chilled and frozen food or take it off the shelf. Danfoss, a Danish maker of refrigeration controls,",
+      "image": "",
+      "source": "The Hacker News",
+      "announce": "",
+      "score": null,
+      "category": "Other"
+    },
+    {
+      "guid": "https://thehackernews.com/2026/11/attackers-exploit-critical-siemens.html",
+      "title": "Attackers Exploit Critical Siemens IoT2050 Flaw to Plant Remote Command Backdoors",
+      "link": "https://thehackernews.com/2026/11/attackers-exploit-critical-siemens.html",
+      "authors": [
+        "info@thehackernews.com (The Hacker News)"
+      ],
+      "date": "Tue, 03 Nov 2026 11:04:41 +0530",
+      "summary": "A maximum-severity security flaw impacting Siemens SIMATIC IoT2050 Advanced devices has come under active exploitation, VulnCheck has revealed. The vulnerability, tracked as CVE-2026-58115 (CVSS score: 10.0), is a case of missing authentication for a critical function that could be exploited by an unauthenticated remote attacker to run arbitrary code. \"SIMATIC IoT2050 Advanced devices running",
+      "image": "",
+      "source": "The Hacker News",
+      "announce": "",
+      "score": null,
+      "category": "Other"
+    },
+    {
+      "guid": "https://thehackernews.com/2026/11/attackers-target-unpatched.html",
+      "title": "Attackers Target Unpatched CryptoPayment Gateway Flaw That Can Expose Wallet Credentials",
+      "link": "https://thehackernews.com/2026/11/attackers-target-unpatched.html",
+      "authors": [
+        "info@thehackernews.com (The Hacker News)"
+      ],
+      "date": "Tue, 03 Nov 2026 11:04:37 +0530",
+      "summary": "Threat actors are attempting to exploit an unpatched maximum-severity security vulnerability in the CryptoPayment Gateway WordPress plugin, according to findings from Defused Cyber. The vulnerability in question is CVE-2026-81648, which carries a CVSS score of 10.0. Successful exploitation of the flaw could permit unauthenticated users to delete arbitrary files on the server and extract",
+      "image": "",
+      "source": "The Hacker News",
+      "announce": "",
+      "score": null,
+      "category": "Other"
+    },
+    {
+      "guid": "https://thehackernews.com/2026/11/weekly-recap-critical-cves-linux-ddos.html",
+      "title": "⚡ Weekly Recap: Critical CVEs, Linux DDoS Botnet, Device-Code Phishing, Android Spyware and More",
+      "link": "https://thehackernews.com/2026/11/weekly-recap-critical-cves-linux-ddos.html",
+      "authors": [
+        "info@thehackernews.com (The Hacker News)"
+      ],
+      "date": "Mon, 02 Nov 2026 22:27:56 +0530",
+      "summary": "Some attacks this week didn't need much of a trick. A fake support call, a trusted extension, a shared link, or a device with no password. Small things that people barely think about. Yet each was enough to cause serious trouble. Then there were the bigger messes. Billions stolen, hidden networks of hacked devices, poisoned software, and attackers finding new ways to turn normal tools against",
+      "image": "",
+      "source": "The Hacker News",
+      "announce": "",
+      "score": null,
+      "category": "Other"
+    },
+    {
+      "guid": "https://thehackernews.com/2026/11/google-disrupts-13-million-device.html",
+      "title": "Google Disrupts 1.3 Million-Device Android Botnet, Says TV Box Maker Sold Criminal Access",
+      "link": "https://thehackernews.com/2026/11/google-disrupts-13-million-device.html",
+      "authors": [
+        "info@thehackernews.com (The Hacker News)"
+      ],
+      "date": "Mon, 02 Nov 2026 21:20:26 +0530",
+      "summary": "A botnet of more than 1.3 million Android devices, mostly TV set-top boxes, lost control of its servers in late October in a takedown led by Google. Google says it is highly confident that device maker Videostrong intentionally put a backdoor in the boxes and sold access to criminals. They used the boxes for ad fraud and to pass other people's internet traffic through owners' home",
+      "image": "",
+      "source": "The Hacker News",
+      "announce": "",
+      "score": null,
+      "category": "Other"
+    },
+    {
+      "guid": "https://thehackernews.com/2026/11/darkblinders-compromises-israeli-target.html",
+      "title": "DarkBlinders Compromises Israeli Target and Iraqi Kurdish Government Cloud Environment",
+      "link": "https://thehackernews.com/2026/11/darkblinders-compromises-israeli-target.html",
+      "authors": [
+        "info@thehackernews.com (The Hacker News)"
+      ],
+      "date": "Mon, 02 Nov 2026 20:16:05 +0530",
+      "summary": "Cybersecurity researchers have disclosed details of a cyber espionage campaign targeting Israel and the Kurdistan Region of Iraq by an Iran state-aligned threat actor between August and October 2026. According to a report published by Dream Research Labs, the campaign has led to the compromise of a high-profile individual in Israel, along with additional compromises affecting a government cloud",
+      "image": "",
+      "source": "The Hacker News",
+      "announce": "",
+      "score": null,
+      "category": "Other"
+    },
+    {
+      "guid": "https://thehackernews.com/2026/11/critical-langflow-flaws-could-let.html",
+      "title": "Critical Langflow Flaws Could Let Unauthenticated Attackers Run Code on Servers",
+      "link": "https://thehackernews.com/2026/11/critical-langflow-flaws-could-let.html",
+      "authors": [
+        "info@thehackernews.com (The Hacker News)"
+      ],
+      "date": "Mon, 02 Nov 2026 17:20:00 +0530",
+      "summary": "Two critical flaws in Langflow could let a remote attacker with no account bypass authentication or run arbitrary code, IBM said last week. Langflow is an open-source tool for building AI agents and workflows, and its vulnerability reports go to IBM. Every release from 1.0.0 through 1.12.8 has the flaws, and the only fix is version 1.13.0. Neither flaw is in CISA's Known",
+      "image": "",
+      "source": "The Hacker News",
+      "announce": "",
+      "score": null,
+      "category": "Other"
+    },
+    {
+      "guid": "https://thehackernews.com/2026/11/is-your-soc-ready-for-ai-agents.html",
+      "title": "Is Your SOC Ready for AI Agents? A Maturity Check Before You Deploy",
+      "link": "https://thehackernews.com/2026/11/is-your-soc-ready-for-ai-agents.html",
+      "authors": [
+        "info@thehackernews.com (The Hacker News)"
+      ],
+      "date": "Mon, 02 Nov 2026 17:00:00 +0530",
+      "summary": "Forty percent of security teams now use AI every day, and another 56% are testing it. Only 4% have no plans to adopt it, according to Prophet Security's State of AI in Security Operations 2026 survey of more than 250 CISOs, SOC leaders and practitioners. For the teams still testing, the next decision is whether their own SOC is ready. AI SOC readiness has two parts: whether a SOC has the",
+      "image": "",
+      "source": "The Hacker News",
+      "announce": "",
+      "score": null,
+      "category": "Other"
+    },
+    {
+      "guid": "https://thehackernews.com/2026/11/attackers-pose-as-it-support-on.html",
+      "title": "Attackers Pose as IT Support on Microsoft Teams, Abuse AD CS to Steal Company Data",
+      "link": "https://thehackernews.com/2026/11/attackers-pose-as-it-support-on.html",
+      "authors": [
+        "info@thehackernews.com (The Hacker News)"
+      ],
+      "date": "Mon, 02 Nov 2026 16:38:45 +0530",
+      "summary": "Attackers posing as IT support on Microsoft Teams talked employees into giving them remote control of their PCs. They then used insecure Active Directory Certificate Services (AD CS) settings to obtain login certificates for privileged accounts, including one for a domain controller. Microsoft said in a report that it investigated two such intrusions, one of which resulted in company",
+      "image": "",
+      "source": "The Hacker News",
+      "announce": "",
+      "score": null,
+      "category": "Other"
+    },
+    {
+      "guid": "https://thehackernews.com/2026/11/government-linux-servers-targeted-with.html",
+      "title": "Government Linux Servers Targeted With SysGoRAT and Suspected AI-Generated Scripts",
+      "link": "https://thehackernews.com/2026/11/government-linux-servers-targeted-with.html",
+      "authors": [
+        "info@thehackernews.com (The Hacker News)"
+      ],
+      "date": "Mon, 02 Nov 2026 16:19:59 +0530",
+      "summary": "Cybersecurity researchers have disclosed details of a cyber espionage campaign specifically targeting Linux infrastructure associated with government entities and state-affiliated infrastructure. The activity, observed by Palo Alto Networks Unit 42 between October 2025 and April 2026, has been tracked under the moniker CL-UNK-1211, where \"CL\" refers to cluster and \"UNK\" stands for unknown",
+      "image": "",
+      "source": "The Hacker News",
+      "announce": "",
+      "score": null,
+      "category": "Other"
+    },
+    {
+      "guid": "https://thehackernews.com/2026/11/new-volta-infostealer-uses-claude.html",
+      "title": "New VOLTA Infostealer Uses Claude, Gemini, and Kimi AI to Rank Victims by Financial Value",
+      "link": "https://thehackernews.com/2026/11/new-volta-infostealer-uses-claude.html",
+      "authors": [
+        "info@thehackernews.com (The Hacker News)"
+      ],
+      "date": "Mon, 02 Nov 2026 11:21:07 +0530",
+      "summary": "Cybersecurity researchers have discovered a new Windows infostealer malware called VOLTA-AUTODOXER (aka VOLTA) that makes use of a large language model (LLM) to rank a victim's stolen data by their monetization value. Like other typical stealer families, VOLTA is equipped to harvest passwords and cookies from Chromium-based web browsers; data from Outlook profiles and Slack workspaces;",
+      "image": "",
+      "source": "The Hacker News",
+      "announce": "",
+      "score": null,
+      "category": "Other"
+    },
+    {
+      "guid": "https://thehackernews.com/2026/11/critical-lxd-and-microcloud-flaw-cvss.html",
+      "title": "CVSS 10.0 LXD, MicroCloud Flaw Lets Attackers Impersonate Trusted Clients Without a Private Key",
+      "link": "https://thehackernews.com/2026/11/critical-lxd-and-microcloud-flaw-cvss.html",
+      "authors": [
+        "info@thehackernews.com (The Hacker News)"
+      ],
+      "date": "Sun, 01 Nov 2026 14:21:31 +0530",
+      "summary": "A critical flaw in Canonical's LXD and MicroCloud let an attacker log in as a trusted client without holding that client's private key. To do it, the attacker had to reach their HTTPS API over the network and have the trusted client's public certificate. Once in, the attacker would act as that client, with access to the cluster and its virtual machines. If the impersonated account is",
+      "image": "",
+      "source": "The Hacker News",
+      "announce": "",
+      "score": null,
+      "category": "Other"
+    },
+    {
+      "guid": "https://thehackernews.com/2026/11/hackers-steal-about-27-million-from.html",
+      "title": "Hackers Steal About $2.7 Million From Polymarket Traders via Hijacked DebugBear Script",
+      "link": "https://thehackernews.com/2026/11/hackers-steal-about-27-million-from.html",
+      "authors": [
+        "info@thehackernews.com (The Hacker News)"
+      ],
+      "date": "Sun, 01 Nov 2026 12:55:40 +0530",
+      "summary": "Malicious code on the website of prediction market Polymarket sold some signed-in traders' positions and moved their funds to the hackers on October 29. The code had replaced a page-speed script that the site loaded from an outside company. Polymarket says it is refunding about $2.7 million to 726 affected wallets. Blockchain records show crypto worth about $2.64 million reached",
+      "image": "",
+      "source": "The Hacker News",
+      "announce": "",
+      "score": null,
+      "category": "Other"
+    },
+    {
+      "guid": "https://thehackernews.com/2026/11/fbi-links-north-koreas-tradertraitor-to.html",
+      "title": "FBI Links North Korea's TraderTraitor to Record $6.43 Billion Binance Crypto Heist",
+      "link": "https://thehackernews.com/2026/11/fbi-links-north-koreas-tradertraitor-to.html",
+      "authors": [
+        "info@thehackernews.com (The Hacker News)"
+      ],
+      "date": "Sun, 01 Nov 2026 12:33:00 +0530",
+      "summary": "The U.S. Federal Bureau of Investigation (FBI) has officially attributed the theft of more than $6 billion in virtual assets from Binance to TraderTraitor, a North Korea-aligned elite hacking group also tracked as Jade Sleet, Pressure Chollima, PUKCHONG, Slow Pisces, and UNC4899. The FBI, along with the U.S. Secret Service (USSS) and the Internal Revenue Service Criminal Investigation (IRS-CI),",
+      "image": "",
+      "source": "The Hacker News",
+      "announce": "",
+      "score": null,
+      "category": "Other"
+    },
+    {
+      "guid": "https://thehackernews.com/2026/11/netamloader-malware-targets-government.html",
+      "title": "NetamLoader Malware Targets Government Windows 10 Systems in Asia via .NET Injection",
+      "link": "https://thehackernews.com/2026/11/netamloader-malware-targets-government.html",
+      "authors": [
+        "info@thehackernews.com (The Hacker News)"
+      ],
+      "date": "Sun, 01 Nov 2026 12:32:58 +0530",
+      "summary": "Cybersecurity researchers have disclosed details of what has been described as a \"highly sophisticated infection chain\" targeting government organizations in Asia. The activity, detailed by Kaspersky this week, targeted a custom Windows 10 build used exclusively by government entities in Asia and involves the deployment of a previously undocumented .NET assembly-loading framework codenamed",
+      "image": "",
+      "source": "The Hacker News",
+      "announce": "",
+      "score": null,
+      "category": "Other"
+    },
+    {
+      "guid": "https://thehackernews.com/2026/10/chainalysis-confirms-intrusion-into.html",
+      "title": "Chainalysis Confirms Intrusion Into Internal Tools and Exposure of Customer Identity Data",
+      "link": "https://thehackernews.com/2026/10/chainalysis-confirms-intrusion-into.html",
+      "authors": [
+        "info@thehackernews.com (The Hacker News)"
+      ],
+      "date": "Sat, 31 Oct 2026 17:31:56 +0530",
+      "summary": "American blockchain analysis firm Chainalysis said it was the target of a cybersecurity incident in which an external actor accessed non-sensitive customer data. However, the company noted that the breach did not result in unauthorized access to its investigation content, authentication credentials, or session tokens. \"This month, Chainalysis detected an external actor using offensive agentic",
+      "image": "",
+      "source": "The Hacker News",
+      "announce": "",
+      "score": null,
+      "category": "Other"
+    },
+    {
+      "guid": "https://thehackernews.com/2026/10/attackers-chain-three-ivanti-connect.html",
+      "title": "Attackers Chain Three Ivanti Connect Secure Flaws to Gain Unauthenticated Root Access",
+      "link": "https://thehackernews.com/2026/10/attackers-chain-three-ivanti-connect.html",
+      "authors": [
+        "info@thehackernews.com (The Hacker News)"
+      ],
+      "date": "Sat, 31 Oct 2026 13:57:43 +0530",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added two security flaws impacting Ivanti Connect Secure (ICS) to its Known Exploited Vulnerabilities (KEV) catalog, following active exploitation in the wild. The vulnerabilities are listed below - CVE-2026-111357 (CVSS score: 8.8) - A missing authentication for a critical function vulnerability that could allow a",
+      "image": "",
+      "source": "The Hacker News",
+      "announce": "",
+      "score": null,
+      "category": "Other"
+    },
+    {
+      "guid": "https://thehackernews.com/2026/10/a-shared-chatgpt-link-could-run.html",
+      "title": "A Shared ChatGPT Link Could Run Attacker Code in Your Session and Read Private Chats",
+      "link": "https://thehackernews.com/2026/10/a-shared-chatgpt-link-could-run.html",
+      "authors": [
+        "info@thehackernews.com (The Hacker News)"
+      ],
+      "date": "Sat, 31 Oct 2026 11:03:41 +0530",
+      "summary": "A malicious ChatGPT share link could run an attacker's code in the logged-in session of anyone who opened it, allowing them to read their private conversations, researchers at the security firm Parameter showed. The researchers reported the flaw through OpenAI's bug bounty program on October 18, and OpenAI fixed it eight days later and rated it P1, its most serious category.",
+      "image": "",
+      "source": "The Hacker News",
+      "announce": "",
+      "score": null,
+      "category": "Other"
+    },
+    {
+      "guid": "https://thehackernews.com/2026/10/cloudflare-reports-182-million-network.html",
+      "title": "Cloudflare Reports 18.2 Million Network-Layer DDoS Attacks in Q3, Up 38%",
+      "link": "https://thehackernews.com/2026/10/cloudflare-reports-182-million-network.html",
+      "authors": [
+        "info@thehackernews.com (The Hacker News)"
+      ],
+      "date": "Sat, 31 Oct 2026 10:26:12 +0530",
+      "summary": "Threat actors are launching about 8,226 network-layer distributed denial-of-service (DDoS) attacks per hour, Cloudflare revealed Thursday. The web infrastructure and security company said it autonomously mitigated 18.2 million network-layer (L3) DDoS attacks and 14.4 trillion HTTP DDoS requests in the third quarter of 2026. That amounts to 197,400 attacks per day, or one attack every 0.44",
+      "image": "",
+      "source": "The Hacker News",
+      "announce": "",
+      "score": null,
+      "category": "Other"
+    },
+    {
+      "guid": "https://thehackernews.com/2026/10/chinese-hackers-use-ai-powered-artex-to.html",
+      "title": "Chinese Hackers Use AI-Powered ARTEX to Target Over 200 Organizations Worldwide",
+      "link": "https://thehackernews.com/2026/10/chinese-hackers-use-ai-powered-artex-to.html",
+      "authors": [
+        "info@thehackernews.com (The Hacker News)"
+      ],
+      "date": "Fri, 30 Oct 2026 22:28:44 +0530",
+      "summary": "Chinese state-sponsored threat actors have been observed using a Go-based artificial intelligence (AI)-powered penetration testing framework called ARTEX in attacks aimed at high-value targets simultaneously. The activity has been attributed by CrowdStrike to a China-based \"targeted intrusion adversary\" it tracks under the moniker Vapor Panda (previously VexatiousTemper). First identified in",
+      "image": "",
+      "source": "The Hacker News",
+      "announce": "",
+      "score": null,
+      "category": "Other"
+    },
+    {
+      "guid": "https://thehackernews.com/2026/10/teamviewer-flaw-lets-remote-computers.html",
+      "title": "TeamViewer Flaw Lets Remote Computers Attack Users Who Connect to Control Them",
+      "link": "https://thehackernews.com/2026/10/teamviewer-flaw-lets-remote-computers.html",
+      "authors": [
+        "info@thehackernews.com (The Hacker News)"
+      ],
+      "date": "Fri, 30 Oct 2026 20:47:28 +0530",
+      "summary": "TeamViewer has fixed a flaw that lets the machine being controlled in a remote session attack the computer that connected to control it. In a TeamViewer session, the computer that connects and takes control is the viewer, and the machine it controls is the host. A malicious or compromised host can exploit the flaw to crash the viewer's TeamViewer and, depending on the platform, may also run",
+      "image": "",
+      "source": "The Hacker News",
+      "announce": "",
+      "score": null,
+      "category": "Other"
+    },
+    {
+      "guid": "https://thehackernews.com/2026/10/wordpress-rce-flaw-draws-nearly-63000.html",
+      "title": "WordPress RCE Flaw Draws Nearly 63,000 Attack Attempts in Just 24 Hours",
+      "link": "https://thehackernews.com/2026/10/wordpress-rce-flaw-draws-nearly-63000.html",
+      "authors": [
+        "info@thehackernews.com (The Hacker News)"
+      ],
+      "date": "Fri, 30 Oct 2026 19:38:14 +0530",
+      "summary": "Threat actors have been observed attempting to exploit a high-severity security flaw in WordPress Core shortly after patches were released. The vulnerability, which does not have a CVE identifier, relates to a case of remote code execution impacting WordPress Core versions 4.7 through 7.1.3. It carries a CVSS score of 8.1 on the CVSS scoring system. Patches for the flaw were released on October",
+      "image": "",
+      "source": "The Hacker News",
+      "announce": "",
+      "score": null,
+      "category": "Other"
+    },
+    {
+      "guid": "https://thehackernews.com/2026/10/trezor-warns-of-suspected-hardware.html",
+      "title": "Trezor Warns of Suspected Hardware Implant in One of Its Wallets Sold by CryptoBilis",
+      "link": "https://thehackernews.com/2026/10/trezor-warns-of-suspected-hardware.html",
+      "authors": [
+        "info@thehackernews.com (The Hacker News)"
+      ],
+      "date": "Fri, 30 Oct 2026 17:51:56 +0530",
+      "summary": "A Trezor Safe 5 hardware wallet bought from the reseller CryptoBilis has an extra circuit board that sends out the recovery phrase over a mobile network, a customer has reported. Trezor has not yet examined the device. It is telling everyone who bought a Trezor from CryptoBilis since March 2026 to move their funds to a new wallet with a new recovery phrase. Trezor said in a blog post",
+      "image": "",
+      "source": "The Hacker News",
+      "announce": "",
+      "score": null,
+      "category": "Other"
     },
     {
       "guid": "https://thehackernews.com/2026/10/why-urgent-security-fixes-arent-fixed.html",
@@ -733,23 +628,128 @@
       "image": "",
       "source": "The Hacker News",
       "announce": "",
-      "score": 15,
-      "category": "Cyber Security"
+      "score": null,
+      "category": "Other"
     },
     {
-      "guid": "https://thehackernews.com/2026/08/learn-how-to-build-security-operations.html",
-      "title": "Webinar: How to Build AI Threat Readiness Into Your Security Operations",
-      "link": "https://thehackernews.com/2026/08/learn-how-to-build-security-operations.html",
+      "guid": "https://thehackernews.com/2026/10/syrian-hacker-behind-fake-tweet-that.html",
+      "title": "Syrian Hacker Behind Fake Tweet That Triggered $136 Billion Market Drop Gets 42 Months in Prison",
+      "link": "https://thehackernews.com/2026/10/syrian-hacker-behind-fake-tweet-that.html",
       "authors": [
         "info@thehackernews.com (The Hacker News)"
       ],
-      "date": "Thu, 29 Oct 2026 17:09:41 +0530",
-      "summary": "Security teams have spent years trying to detect threats faster. AI is changing the harder part: how much time defenders have left to act. Advanced AI models can now help attackers discover vulnerabilities, generate exploit code, and move through weaknesses faster than traditional security processes were built to handle. The challenge is no longer just finding another vulnerability or",
+      "date": "Fri, 30 Oct 2026 16:10:45 +0530",
+      "summary": "Ahmad Umar Agha, a Syrian Electronic Army hacker known online as \"Th3Pr0,\" has been sentenced by a U.S. federal court to 42 months in prison for his role in a hacking conspiracy that targeted Western news outlets. The conspiracy was organized and led by members of former Syrian President Bashar al-Assad's inner circle, including the commander of Syria's General Intelligence",
       "image": "",
       "source": "The Hacker News",
       "announce": "",
-      "score": 10,
-      "category": "Cyber Security"
+      "score": null,
+      "category": "Other"
+    },
+    {
+      "guid": "https://thehackernews.com/2026/10/official-claude-code-vs-code-extension.html",
+      "title": "Official Claude Code Extension on Cursor Marketplace Trojanized with Persistent SSH Backdoor",
+      "link": "https://thehackernews.com/2026/10/official-claude-code-vs-code-extension.html",
+      "authors": [
+        "info@thehackernews.com (The Hacker News)"
+      ],
+      "date": "Fri, 30 Oct 2026 14:25:47 +0530",
+      "summary": "Cybersecurity researchers have disclosed that a trojanized version of Anthropic's official Claude Code extension was distributed through the Cursor Marketplace as a legitimate update, attempting to install a persistent SSH backdoor on affected systems. The malicious update, version 2.1.313, was distributed under the extension's legitimate publisher identity, prompting Cursor to temporarily shut",
+      "image": "",
+      "source": "The Hacker News",
+      "announce": "",
+      "score": null,
+      "category": "Other"
+    },
+    {
+      "guid": "https://thehackernews.com/2026/10/hackers-actively-exploit-highly.html",
+      "title": "Hackers Actively Exploit Highly Critical Drupal Commerce Core Authorization Bypass Flaw",
+      "link": "https://thehackernews.com/2026/10/hackers-actively-exploit-highly.html",
+      "authors": [
+        "info@thehackernews.com (The Hacker News)"
+      ],
+      "date": "Fri, 30 Oct 2026 13:15:30 +0530",
+      "summary": "Drupal has warned that threat actors are exploiting a \"highly critical\" security flaw in its Commerce Core component. The vulnerability, tracked as CVE-2026-118539 (CVSS score: N/A), is a case of missing authorization affecting Commerce Core versions from 0.0.0 to 2.41 and from 3.0.0 to 3.3.13. \"This module enables you to sell goods and services to customers through an included shopping cart",
+      "image": "",
+      "source": "The Hacker News",
+      "announce": "",
+      "score": null,
+      "category": "Other"
+    },
+    {
+      "guid": "https://thehackernews.com/2026/10/cisa-adds-actively-exploited-gitlab-rce.html",
+      "title": "CISA Adds Actively Exploited GitLab RCE and Cisco Firewall DoS Flaws to KEV",
+      "link": "https://thehackernews.com/2026/10/cisa-adds-actively-exploited-gitlab-rce.html",
+      "authors": [
+        "info@thehackernews.com (The Hacker News)"
+      ],
+      "date": "Fri, 30 Oct 2026 12:57:05 +0530",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday added two security flaws impacting Cisco and GitLab software to its Known Exploited Vulnerabilities (KEV), citing evidence of active exploitation. The vulnerabilities are listed below - CVE-2026-97229 (CVSS score: 10.0) - An integer overflow or wraparound vulnerability in GitLab Community Edition and Enterprise",
+      "image": "",
+      "source": "The Hacker News",
+      "announce": "",
+      "score": null,
+      "category": "Other"
+    },
+    {
+      "guid": "https://thehackernews.com/2026/10/binance-suffers-security-breach.html",
+      "title": "Binance Suffers Security Breach Affecting $6.3 Billion in Assets, Nearly $3 Billion Frozen",
+      "link": "https://thehackernews.com/2026/10/binance-suffers-security-breach.html",
+      "authors": [
+        "info@thehackernews.com (The Hacker News)"
+      ],
+      "date": "Fri, 30 Oct 2026 09:44:59 +0530",
+      "summary": "Cryptocurrency giant Binance said on Thursday that a \"security incident\" on its platform has impacted about $6.3 billion worth of assets. The world's biggest cryptocurrency exchange said nearly $3 billion of those assets have been frozen on-chain so far. Tether and Circle said they have frozen more than 1.567 billion USDT and 800 million USDC related to the incident, respectively. The",
+      "image": "",
+      "source": "The Hacker News",
+      "announce": "",
+      "score": null,
+      "category": "Other"
+    },
+    {
+      "guid": "https://thehackernews.com/2026/10/threatsday-critical-firewall-flaws.html",
+      "title": "ThreatsDay: Critical Firewall Flaws, Banking Trojans Rented, Weaponized PDF, Token Theft + 26 More Stories",
+      "link": "https://thehackernews.com/2026/10/threatsday-critical-firewall-flaws.html",
+      "authors": [
+        "info@thehackernews.com (The Hacker News)"
+      ],
+      "date": "Fri, 30 Oct 2026 00:41:58 +0530",
+      "summary": "Some attacks take real skill. Others just need someone to leave a door open. This week has both. Exposed passwords, old bugs still getting exploited, and trusted software doing things it shouldn't. There's a strange mix of clever tricks and careless mistakes. Hackers are borrowing trust from familiar apps, websites, and AI tools. Some are using AI to speed things up. Others are leaving their",
+      "image": "",
+      "source": "The Hacker News",
+      "announce": "",
+      "score": null,
+      "category": "Other"
+    },
+    {
+      "guid": "https://thehackernews.com/2026/10/linux-kernel-tcp-flaw-with-98-cvss.html",
+      "title": "Linux Kernel TCP Flaw With 9.8 CVSS Score Affects Ubuntu, Red Hat and Other Distributions",
+      "link": "https://thehackernews.com/2026/10/linux-kernel-tcp-flaw-with-98-cvss.html",
+      "authors": [
+        "info@thehackernews.com (The Hacker News)"
+      ],
+      "date": "Thu, 29 Oct 2026 21:27:05 +0530",
+      "summary": "A flaw in the Linux kernel's TCP code, tracked as CVE-2026-98432, affects Ubuntu, Red Hat Enterprise Linux (RHEL), and other Linux distributions. The kernel's own CVE team rates it 9.8 out of 10 on the CVSS scale. Anthropic said on October 27 that its AI model wrote an exploit that uses the flaw to let a remote attacker with no credentials run commands as root on Linux servers with a",
+      "image": "",
+      "source": "The Hacker News",
+      "announce": "",
+      "score": null,
+      "category": "Other"
+    },
+    {
+      "guid": "https://thehackernews.com/2026/10/fake-chatgpt-and-claude-apps-abuse.html",
+      "title": "Fake ChatGPT and Claude Apps Abuse Signed Executables to Deploy Crypto Miners",
+      "link": "https://thehackernews.com/2026/10/fake-chatgpt-and-claude-apps-abuse.html",
+      "authors": [
+        "info@thehackernews.com (The Hacker News)"
+      ],
+      "date": "Thu, 29 Oct 2026 20:50:29 +0530",
+      "summary": "Threat actors are delivering malicious loaders and cryptocurrency miners under the guise of artificial intelligence (AI) desktop applications for Anthropic Claude and OpenAI ChatGPT as part of a campaign dubbed Yoba. The activity involves creating fake GitHub projects that claim to be desktop applications like GPT-5.6 Sol, GPT-6 Astra, and Claude Opus, only to deliver a malware family called",
+      "image": "",
+      "source": "The Hacker News",
+      "announce": "",
+      "score": null,
+      "category": "Other"
     }
   ]
 }

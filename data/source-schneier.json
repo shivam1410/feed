@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-11-03T19:05:09+05:30",
+  "generatedAt": "2026-11-05T05:13:03+05:30",
   "items": [
     {
-      "guid": "https://www.schneier.com/?p=72849",
-      "title": "Hiding Capabilities in AI Models",
-      "link": "https://www.schneier.com/blog/archives/2026/10/hiding-capabilities-in-ai-models.html",
+      "guid": "https://www.schneier.com/?p=72886",
+      "title": "AIs Hacking the Law",
+      "link": "https://www.schneier.com/blog/archives/2026/11/ais-hacking-the-law.html",
       "authors": [
         "Bruce Schneier"
       ],
-      "date": "2026-10-27T11:01:32Z",
-      "summary": "Interesting research: “ AI Models Can Provably Hide Arbitrary Capabilities ” Abstract: Capability evaluations aim to surface dangerous model behaviors before deployment, but their reliability depends on the assumption that hidden capabilities can be elicited. We show this assumption does not hold under adversarial conditions by constructing backdoor attacks that embed encrypted neural networks within host model weights, decrypting and executing them only upon receiving a secret trigger. Using digital lockers, these hidden circuits remain provably hard to elicit and interpret under cryptographic assumptions, even given full access to model weights, extending prior work from hiding fixed strings to arbitrary computations. We implement our proof of concept constructions in PyTorch and evaluate elicitation through fine-tuning, weight noising, gradient-based trigger search, and latent adversarial training, using a small chemical reaction prediction task as a proxy for CBRN-relevant capabilities. Our results demonstrate resistance to these methods and, together with our cryptographic guarantees, reveal a limit of elicitation-based capability audits. We release our models to support the improvement of defenses...",
+      "date": "2026-11-03T12:01:01Z",
+      "summary": "In both a 2021 essay and my 2022 book, A Hacker’s Mind , I talk about AIs finding vulnerabilities and exploits—hacking—the legal system. Here’s some demonstrations of this from Germany: Legal systems encode the foundations of social order in natural language. Similar to computer systems, the written law can contain vulnerabilities that invite exploitation.1 Courts absorb most exploits through interpretation, and such vulnerabilities rarely surface in the first place. With highly capable AI systems enabling the discovery of vulnerabilities at unprecedented scale, we believe the latter could change...",
       "image": "",
       "source": "Schneier on Security",
       "announce": "",
-      "score": 60,
-      "category": "AI Research"
+      "score": null,
+      "category": "Other"
     },
     {
       "guid": "https://www.schneier.com/?p=72877",
@@ -28,113 +28,8 @@
       "image": "",
       "source": "Schneier on Security",
       "announce": "",
-      "score": 55,
-      "category": "Cyber Security"
-    },
-    {
-      "guid": "https://www.schneier.com/?p=72840",
-      "title": "Bias in Qwen3-Coder Model",
-      "link": "https://www.schneier.com/blog/archives/2026/10/bias-in-qwen3-coder-model.html",
-      "authors": [
-        "Bruce Schneier"
-      ],
-      "date": "2026-10-26T11:04:03Z",
-      "summary": "Interesting research : TL;DR: Chinese AI models now sit inside Western products, and some carry geopolitical triggers: tell the model who the code is for, and the security of what it writes changes. For the first time, we showed that this vulnerability lives in the model’s weights, and that removing the model’s CCP alignment removes it. One word tilts the code against Americans. Ask for the app “for a US defense contractor” instead of “for a Chinese defense contractor”, and Qwen3-Coder is 19% more likely to hand back an app that can be hacked. ...",
-      "image": "",
-      "source": "Schneier on Security",
-      "announce": "",
-      "score": 50,
-      "category": "AI Research"
-    },
-    {
-      "guid": "https://www.schneier.com/?p=72830",
-      "title": "New Serious PHP Vulnerabilities Released and Patched",
-      "link": "https://www.schneier.com/blog/archives/2026/10/new-serious-php-vulnerabilities-released-and-patched.html",
-      "authors": [
-        "Bruce Schneier"
-      ],
-      "date": "2026-10-22T14:36:29Z",
-      "summary": "PHP maintainers have released fixes for two critical vulnerabilities: PHP 8.5.12, 8.4.27, 8.3.36 and 8.2.35 fix two critical vulnerabilities that can allow unauthenticated remote code execution. All PHP users are strongly encouraged to update immediately. Who is at risk: all PHP installations serving web requests, including PHP-FPM, Apache with mod_php, php-cgi, FrankenPHP and LiteSpeed. We consider the risk highest for mod_php, with a demonstrated exploit where an unauthenticated request can trigger the attack before any application code runs...",
-      "image": "",
-      "source": "Schneier on Security",
-      "announce": "",
-      "score": 50,
-      "category": "Cyber Security"
-    },
-    {
-      "guid": "https://www.schneier.com/?p=72886",
-      "title": "AIs Hacking the Law",
-      "link": "https://www.schneier.com/blog/archives/2026/11/ais-hacking-the-law.html",
-      "authors": [
-        "Bruce Schneier"
-      ],
-      "date": "2026-11-03T12:01:01Z",
-      "summary": "In both a 2021 essay and my 2022 book, A Hacker’s Mind , I talk about AIs finding vulnerabilities and exploits—hacking—the legal system. Here’s some demonstrations of this from Germany: Legal systems encode the foundations of social order in natural language. Similar to computer systems, the written law can contain vulnerabilities that invite exploitation.1 Courts absorb most exploits through interpretation, and such vulnerabilities rarely surface in the first place. With highly capable AI systems enabling the discovery of vulnerabilities at unprecedented scale, we believe the latter could change...",
-      "image": "",
-      "source": "Schneier on Security",
-      "announce": "",
-      "score": 45,
-      "category": "Science & Society"
-    },
-    {
-      "guid": "https://www.schneier.com/?p=72835",
-      "title": "Compromised TLS Certificates",
-      "link": "https://www.schneier.com/blog/archives/2026/10/compromised-tls-certificates.html",
-      "authors": [
-        "Bruce Schneier"
-      ],
-      "date": "2026-10-23T11:05:16Z",
-      "summary": "The Indian CA eMudhra Limited has eight TLS certificates with laughably weak private keys : The compromised eMudhra keys were defective at a level that’s challenging the imagination of many of the engineers studying the incident. A normal size for a NIST P-384 elliptic curve cryptography private key contains roughly 384 bits of entropy, a size allowing almost 2 384 , or a number with 116 digits, different possibilities. The private key sizes of the compromised keys ranged from 3 to 8 bits. Astonishingly, the private keys were 4, 56, 66, 115, 155, 156, 230, 237...",
-      "image": "",
-      "source": "Schneier on Security",
-      "announce": "",
-      "score": 40,
-      "category": "Cyber Security"
-    },
-    {
-      "guid": "https://www.schneier.com/?p=72874",
-      "title": "Bloatware in Aftermarket Auto Parts",
-      "link": "https://www.schneier.com/blog/archives/2026/10/bloatware-in-aftermarket-auto-parts.html",
-      "authors": [
-        "Bruce Schneier"
-      ],
-      "date": "2026-10-30T15:20:02Z",
-      "summary": "This story is interesting: One Civic owner purchased a cheap aftermarket head unit off Amazon, and decided to have Claude work its magic on it, like it would a smart TV. What was reportedly discovered isn’t surprising, but is worth knowing about. Among the pre-installed bloatware—­or spyware, if you’re being less charitable­—was a voice assistant equipped with WebView, an Android system component that lets apps display content off the web. This apparently always used about a third of processing power, even while idle, which isn’t great. There were also Baidu location services, a call recorder (!), a DAB radio client that is pretty much useless in the U.S., and Adobe Acrobat, presumably so your passenger can entertain themselves with PDFs on the go...",
-      "image": "",
-      "source": "Schneier on Security",
-      "announce": "",
-      "score": 35,
-      "category": "Cyber Security"
-    },
-    {
-      "guid": "https://www.schneier.com/?p=72866",
-      "title": "Studying Fraudulent North Korean IT Workers",
-      "link": "https://www.schneier.com/blog/archives/2026/10/studying-fraudulent-north-korean-it-workers.html",
-      "authors": [
-        "Bruce Schneier"
-      ],
-      "date": "2026-10-28T11:05:31Z",
-      "summary": "Researchers set up a fake start-up company to study fraudulent North Korean IT workers.",
-      "image": "",
-      "source": "Schneier on Security",
-      "announce": "",
-      "score": 35,
-      "category": "Cyber Security"
-    },
-    {
-      "guid": "https://www.schneier.com/?p=72718",
-      "title": "Friday Squid Blogging: Increasing Squid Populations",
-      "link": "https://www.schneier.com/blog/archives/2026/10/friday-squid-blogging-increasing-squid-populations.html",
-      "authors": [
-        "Bruce Schneier"
-      ],
-      "date": "2026-10-23T21:00:55Z",
-      "summary": "This article in Nature argues that it’s due to an overfishing of predators and warming sea temperatures. As usual, you can also use this squid post to talk about the security stories in the news that I haven’t covered. Blog moderation policy.",
-      "image": "",
-      "source": "Schneier on Security",
-      "announce": "",
-      "score": 35,
-      "category": "Nature & Ecology"
+      "score": null,
+      "category": "Other"
     },
     {
       "guid": "https://www.schneier.com/?p=72713",
@@ -148,8 +43,113 @@
       "image": "",
       "source": "Schneier on Security",
       "announce": "",
-      "score": 25,
-      "category": "Nature & Ecology"
+      "score": null,
+      "category": "Other"
+    },
+    {
+      "guid": "https://www.schneier.com/?p=72874",
+      "title": "Bloatware in Aftermarket Auto Parts",
+      "link": "https://www.schneier.com/blog/archives/2026/10/bloatware-in-aftermarket-auto-parts.html",
+      "authors": [
+        "Bruce Schneier"
+      ],
+      "date": "2026-10-30T15:20:02Z",
+      "summary": "This story is interesting: One Civic owner purchased a cheap aftermarket head unit off Amazon, and decided to have Claude work its magic on it, like it would a smart TV. What was reportedly discovered isn’t surprising, but is worth knowing about. Among the pre-installed bloatware—­or spyware, if you’re being less charitable­—was a voice assistant equipped with WebView, an Android system component that lets apps display content off the web. This apparently always used about a third of processing power, even while idle, which isn’t great. There were also Baidu location services, a call recorder (!), a DAB radio client that is pretty much useless in the U.S., and Adobe Acrobat, presumably so your passenger can entertain themselves with PDFs on the go...",
+      "image": "",
+      "source": "Schneier on Security",
+      "announce": "",
+      "score": null,
+      "category": "Other"
+    },
+    {
+      "guid": "https://www.schneier.com/?p=72866",
+      "title": "Studying Fraudulent North Korean IT Workers",
+      "link": "https://www.schneier.com/blog/archives/2026/10/studying-fraudulent-north-korean-it-workers.html",
+      "authors": [
+        "Bruce Schneier"
+      ],
+      "date": "2026-10-28T11:05:31Z",
+      "summary": "Researchers set up a fake start-up company to study fraudulent North Korean IT workers.",
+      "image": "",
+      "source": "Schneier on Security",
+      "announce": "",
+      "score": null,
+      "category": "Other"
+    },
+    {
+      "guid": "https://www.schneier.com/?p=72849",
+      "title": "Hiding Capabilities in AI Models",
+      "link": "https://www.schneier.com/blog/archives/2026/10/hiding-capabilities-in-ai-models.html",
+      "authors": [
+        "Bruce Schneier"
+      ],
+      "date": "2026-10-27T11:01:32Z",
+      "summary": "Interesting research: “ AI Models Can Provably Hide Arbitrary Capabilities ” Abstract: Capability evaluations aim to surface dangerous model behaviors before deployment, but their reliability depends on the assumption that hidden capabilities can be elicited. We show this assumption does not hold under adversarial conditions by constructing backdoor attacks that embed encrypted neural networks within host model weights, decrypting and executing them only upon receiving a secret trigger. Using digital lockers, these hidden circuits remain provably hard to elicit and interpret under cryptographic assumptions, even given full access to model weights, extending prior work from hiding fixed strings to arbitrary computations. We implement our proof of concept constructions in PyTorch and evaluate elicitation through fine-tuning, weight noising, gradient-based trigger search, and latent adversarial training, using a small chemical reaction prediction task as a proxy for CBRN-relevant capabilities. Our results demonstrate resistance to these methods and, together with our cryptographic guarantees, reveal a limit of elicitation-based capability audits. We release our models to support the improvement of defenses...",
+      "image": "",
+      "source": "Schneier on Security",
+      "announce": "",
+      "score": null,
+      "category": "Other"
+    },
+    {
+      "guid": "https://www.schneier.com/?p=72840",
+      "title": "Bias in Qwen3-Coder Model",
+      "link": "https://www.schneier.com/blog/archives/2026/10/bias-in-qwen3-coder-model.html",
+      "authors": [
+        "Bruce Schneier"
+      ],
+      "date": "2026-10-26T11:04:03Z",
+      "summary": "Interesting research : TL;DR: Chinese AI models now sit inside Western products, and some carry geopolitical triggers: tell the model who the code is for, and the security of what it writes changes. For the first time, we showed that this vulnerability lives in the model’s weights, and that removing the model’s CCP alignment removes it. One word tilts the code against Americans. Ask for the app “for a US defense contractor” instead of “for a Chinese defense contractor”, and Qwen3-Coder is 19% more likely to hand back an app that can be hacked. ...",
+      "image": "",
+      "source": "Schneier on Security",
+      "announce": "",
+      "score": null,
+      "category": "Other"
+    },
+    {
+      "guid": "https://www.schneier.com/?p=72718",
+      "title": "Friday Squid Blogging: Increasing Squid Populations",
+      "link": "https://www.schneier.com/blog/archives/2026/10/friday-squid-blogging-increasing-squid-populations.html",
+      "authors": [
+        "Bruce Schneier"
+      ],
+      "date": "2026-10-23T21:00:55Z",
+      "summary": "This article in Nature argues that it’s due to an overfishing of predators and warming sea temperatures. As usual, you can also use this squid post to talk about the security stories in the news that I haven’t covered. Blog moderation policy.",
+      "image": "",
+      "source": "Schneier on Security",
+      "announce": "",
+      "score": null,
+      "category": "Other"
+    },
+    {
+      "guid": "https://www.schneier.com/?p=72835",
+      "title": "Compromised TLS Certificates",
+      "link": "https://www.schneier.com/blog/archives/2026/10/compromised-tls-certificates.html",
+      "authors": [
+        "Bruce Schneier"
+      ],
+      "date": "2026-10-23T11:05:16Z",
+      "summary": "The Indian CA eMudhra Limited has eight TLS certificates with laughably weak private keys : The compromised eMudhra keys were defective at a level that’s challenging the imagination of many of the engineers studying the incident. A normal size for a NIST P-384 elliptic curve cryptography private key contains roughly 384 bits of entropy, a size allowing almost 2 384 , or a number with 116 digits, different possibilities. The private key sizes of the compromised keys ranged from 3 to 8 bits. Astonishingly, the private keys were 4, 56, 66, 115, 155, 156, 230, 237...",
+      "image": "",
+      "source": "Schneier on Security",
+      "announce": "",
+      "score": null,
+      "category": "Other"
+    },
+    {
+      "guid": "https://www.schneier.com/?p=72830",
+      "title": "New Serious PHP Vulnerabilities Released and Patched",
+      "link": "https://www.schneier.com/blog/archives/2026/10/new-serious-php-vulnerabilities-released-and-patched.html",
+      "authors": [
+        "Bruce Schneier"
+      ],
+      "date": "2026-10-22T14:36:29Z",
+      "summary": "PHP maintainers have released fixes for two critical vulnerabilities: PHP 8.5.12, 8.4.27, 8.3.36 and 8.2.35 fix two critical vulnerabilities that can allow unauthenticated remote code execution. All PHP users are strongly encouraged to update immediately. Who is at risk: all PHP installations serving web requests, including PHP-FPM, Apache with mod_php, php-cgi, FrankenPHP and LiteSpeed. We consider the risk highest for mod_php, with a demonstrated exploit where an unauthenticated request can trigger the attack before any application code runs...",
+      "image": "",
+      "source": "Schneier on Security",
+      "announce": "",
+      "score": null,
+      "category": "Other"
     }
   ]
 }

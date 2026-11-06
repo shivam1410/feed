@@ -1,0 +1,14 @@
+---
+title: "KG-Neighbor: Knowledge-Guided Neighborhood Construction for Embedding Visualization"
+category: "Other"
+source: "arXiv (cs.LG)"
+url: "https://arxiv.org/abs/2611.07246"
+authors: ["Chang Won Kim, Jaewook Lee, Haeun Min, JunNyeong Jeong, Minwoo Sim, Barom Kang, Kyohoon Jin"]
+date: "Fri, 06 Nov 2026 00:00:00 -0500"
+score: ""
+guid: "oai:arXiv.org:2611.07246v1"
+image: ""
+generated: "2026-11-06T21:37:05+05:30"
+---
+
+In embedding visualizations, nearby instances are interpreted as semantically related, although neighborhoods derived from input embeddings may not reflect content relationships. Neighborhood-based dimensionality reduction (DR) methods can propagate this limitation by optimizing layouts from embedding-based neighborhood graphs. We propose Knowledge-Guided Neighborhood Graph Construction (KGN), which represents relational knowledge derived from each instance as a set of knowledge graph (KG) triples. It uses the degree of triple sharing as pairwise semantic evidence to adjust embedding distances and reconstruct the top-k neighborhood graph; neither KG extraction nor neighborhood construction uses class labels. We also introduce IDProfile (IDP), which interprets residual mismatches by independently assessing whether the source content supports the assigned class label and the neighborhood-majority class. Across eight text and image dataset-encoder conditions, we characterize KGN over the full guidance-strength sweep and four KG similarity measures. Across this sweep, the maximum NMI and LT_2D each exceed the corresponding kNN baseline in all eight conditions, with the largest gains reaching 0.68 and 1.35, respectively. The gains and the extent of neighborhood reconfiguration vary across conditions and are larger under encoder conditions with lower kNN baseline scores. The IDP analysis shows that the largest reductions are concentrated in Placement Issue candidates, whereas Label Issue and Unresolved Case instances account for a larger share of the remaining review set. These results indicate that KGN can narrow the evaluated gap between embedding-based neighborhoods and content-supported semantic relations, while IDP shows that a residual mismatch should not automatically be interpreted as a projection failure.

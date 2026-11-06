@@ -8,7 +8,7 @@ date: "2026-10-30T15:20:02Z"
 score: ""
 guid: "https://www.schneier.com/?p=72874"
 image: ""
-generated: "2026-11-05T05:13:03+05:30"
+generated: "2026-11-06T21:37:05+05:30"
 ---
 
 This story is interesting: One Civic owner purchased a cheap aftermarket head unit off Amazon, and decided to have Claude work its magic on it, like it would a smart TV. What was reportedly discovered isn’t surprising, but is worth knowing about. Among the pre-installed bloatware—­or spyware, if you’re being less charitable­—was a voice assistant equipped with WebView, an Android system component that lets apps display content off the web. This apparently always used about a third of processing power, even while idle, which isn’t great. There were also Baidu location services, a call recorder (!), a DAB radio client that is pretty much useless in the U.S., and Adobe Acrobat, presumably so your passenger can entertain themselves with PDFs on the go...

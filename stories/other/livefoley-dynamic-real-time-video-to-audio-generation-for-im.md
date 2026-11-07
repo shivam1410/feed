@@ -8,7 +8,7 @@ date: "2026-11-04T00:35:42.000Z"
 score: ""
 guid: "2611.05988"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.05988.png"
-generated: "2026-11-06T21:37:05+05:30"
+generated: "2026-11-07T20:33:06+05:30"
 ---
 
 LiveFoley improves streaming video-to-audio generation by using a trailing sliding window for visual alignment and expanded temporal denoising windows for audio quality with minimal latency.

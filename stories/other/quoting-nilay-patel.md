@@ -2,13 +2,13 @@
 title: "Quoting Nilay Patel"
 category: "Other"
 source: "Simon Willison"
-url: "https://simonwillison.net/2026/Jul/10/nilay-patel/#atom-everything"
+url: "https://simonwillison.net/2026/Nov/6/nilay-patel/"
 authors: []
-date: "2026-07-10T17:05:26+00:00"
+date: "2026-11-06T17:13:12+00:00"
 score: ""
-guid: "https://simonwillison.net/2026/Jul/10/nilay-patel/#atom-everything"
+guid: "https://simonwillison.net/2026/Nov/6/nilay-patel/"
 image: ""
-generated: "2026-07-18T21:58:10+05:30"
+generated: "2026-11-07T20:33:06+05:30"
 ---
 
-The reality is to make augmented reality glasses, you need to put a camera next to your eyes that is continuously recording everything you see and processing that to put information over it. There is not another way around it. And there's certainly not a chip that can fit in the stem of a glasses that is both powerful enough and power miserly enough to do that in real time. You have to send that data to a cloud. You gotta do it. [...] Or you can build something the size of a Vision Pro with a battery pack that lives somewhere else. Those are the current choices in this world. And it means if you want to build the product that everyone thinks is the next thing, you are going to have to invade people's privacy. And maybe you shouldn't. Like, there's an incredible argument for, nope, you shouldn't do that. Nope, the trade-offs required to make this product are so high at a societal level that we should stop it. — Nilay Patel , The Vergecast Tags: ai-ethics , augmented-reality , nilay-patel , privacy , ai
+The products aren't good enough to sell people on the costs. You cannot tell people that you have to listen to the whine of a data center in their backyard for AI overviews and some of the most hilarious deep fake slop in history. It's not worth it. It just isn't worth it to anyone. And agents aren't real and they might not be being used the way that anyone wants them to yet. All these companies are spending more than they're making on these products. Refrigerators holding blood storage in Europe are being hacked. The costs are too high. The benefits are not real. And if you connect that to corruption, you're like, in order to impose these costs on me, these CEOs are in the White House shaking Trump's hand, renaming it to the Gulf of America, paying for this ballroom that we don't want. It's obvious crypto-corruption, and it's still slop. The AI industry will not get out of it until they make better products . Until everyone can see without needing to be convinced, without needing an ad campaign, without any of this stuff that just using these products makes your life better. — Nilay Patel , The Vergecast: Big Tech lost big in the 2026 election Tags: nilay-patel , slop , ai , generative-ai , ai-ethics

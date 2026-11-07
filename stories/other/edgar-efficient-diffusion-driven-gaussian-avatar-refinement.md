@@ -8,7 +8,7 @@ date: "2026-11-04T19:00:00.000Z"
 score: ""
 guid: "2611.07909"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.07909.png"
-generated: "2026-11-06T21:37:05+05:30"
+generated: "2026-11-07T20:33:06+05:30"
 ---
 
 EDGAR is a conditional diffusion framework with a fusion block and Mixture-of-Experts that refines degraded Gaussian head avatars by injecting self-supervised identity features, using refined multi-view renderings as pseudo-targets to optimize a single avatar.

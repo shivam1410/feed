@@ -8,7 +8,7 @@ date: "2026-11-03T19:00:00.000Z"
 score: ""
 guid: "2611.06741"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.06741.png"
-generated: "2026-11-06T21:37:05+05:30"
+generated: "2026-11-07T20:33:06+05:30"
 ---
 
 TailSteer, a final-stage training framework, reduces cumulative visual drift in multi-turn editing by keeping early denoising dynamics close to the base model and learning tail-focused preservation corrections from on-policy rollouts, preserving pretrained generative and editing abilities.

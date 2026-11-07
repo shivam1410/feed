@@ -8,7 +8,7 @@ date: "Mon, 02 Nov 2026 21:20:26 +0530"
 score: ""
 guid: "https://thehackernews.com/2026/11/google-disrupts-13-million-device.html"
 image: ""
-generated: "2026-11-05T05:13:03+05:30"
+generated: "2026-11-07T20:33:06+05:30"
 ---
 
 A botnet of more than 1.3 million Android devices, mostly TV set-top boxes, lost control of its servers in late October in a takedown led by Google. Google says it is highly confident that device maker Videostrong intentionally put a backdoor in the boxes and sold access to criminals. They used the boxes for ad fraud and to pass other people's internet traffic through owners' home

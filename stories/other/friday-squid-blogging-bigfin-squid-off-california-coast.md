@@ -8,7 +8,7 @@ date: "2026-10-30T21:04:37Z"
 score: ""
 guid: "https://www.schneier.com/?p=72713"
 image: ""
-generated: "2026-11-06T21:37:05+05:30"
+generated: "2026-11-07T20:33:06+05:30"
 ---
 
 Neat video : The sighting, announced September 2, marks the first time anyone has spotted a live bigfin squid, which belongs to the Magnapinna genus, in the northeastern Pacific Ocean. As usual, you can also use this squid post to talk about the security stories in the news that I haven’t covered. Blog moderation policy.

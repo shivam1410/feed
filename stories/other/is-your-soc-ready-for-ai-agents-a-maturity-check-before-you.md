@@ -8,7 +8,7 @@ date: "Mon, 02 Nov 2026 17:00:00 +0530"
 score: ""
 guid: "https://thehackernews.com/2026/11/is-your-soc-ready-for-ai-agents.html"
 image: ""
-generated: "2026-11-05T05:13:03+05:30"
+generated: "2026-11-07T20:33:06+05:30"
 ---
 
 Forty percent of security teams now use AI every day, and another 56% are testing it. Only 4% have no plans to adopt it, according to Prophet Security's State of AI in Security Operations 2026 survey of more than 250 CISOs, SOC leaders and practitioners. For the teams still testing, the next decision is whether their own SOC is ready. AI SOC readiness has two parts: whether a SOC has the

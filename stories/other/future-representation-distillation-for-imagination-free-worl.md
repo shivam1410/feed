@@ -8,7 +8,7 @@ date: "2026-11-03T19:00:00.000Z"
 score: ""
 guid: "2611.04527"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.04527.png"
-generated: "2026-11-06T21:37:05+05:30"
+generated: "2026-11-07T20:33:06+05:30"
 ---
 
 DreamFree repurposes a pretrained video diffusion model as a predictive visual encoder through representation distillation, enabling real-time robot action prediction without generating future videos and improving control and learning from video demonstrations.

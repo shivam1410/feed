@@ -8,7 +8,7 @@ date: "2026-11-04T20:30:28.000Z"
 score: ""
 guid: "2611.07298"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.07298.png"
-generated: "2026-11-06T21:37:05+05:30"
+generated: "2026-11-07T20:33:06+05:30"
 ---
 
 Prepending trainable [DUMP] tokens during embedding model training reduces residual token-level signals and improves retrieval representations without changing architecture, pooling, or loss.

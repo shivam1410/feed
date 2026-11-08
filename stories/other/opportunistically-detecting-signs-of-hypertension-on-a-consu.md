@@ -8,7 +8,7 @@ date: "2026-11-05"
 score: ""
 guid: "10.1038/s41586-026-11336-3"
 image: ""
-generated: "2026-11-07T20:33:06+05:30"
+generated: "2026-11-08T21:41:26+05:30"
 ---
 
 Opportunistically Detecting Signs of Hypertension on a Consumer Smartwatch

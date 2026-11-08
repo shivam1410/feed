@@ -8,7 +8,7 @@ date: "2026-11-03T19:00:00.000Z"
 score: ""
 guid: "2611.06982"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.06982.png"
-generated: "2026-11-07T20:33:06+05:30"
+generated: "2026-11-08T21:41:26+05:30"
 ---
 
 A training-free, lossless speculative decoding framework exploits idle compute in chunk-interleaved full-duplex speech language models to draft and verify upcoming audio chunks, substantially reducing response and tool-call delays.

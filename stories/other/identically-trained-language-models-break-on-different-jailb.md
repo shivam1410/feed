@@ -8,7 +8,7 @@ date: "2026-10-24T20:00:00.000Z"
 score: ""
 guid: "2610.34074"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.34074.png"
-generated: "2026-11-07T20:33:06+05:30"
+generated: "2026-11-08T21:41:26+05:30"
 ---
 
 Jailbreak vulnerability is primarily determined by pretraining randomness rather than data recipes, with pretraining seeds leaving identifiable fingerprints across prompts.

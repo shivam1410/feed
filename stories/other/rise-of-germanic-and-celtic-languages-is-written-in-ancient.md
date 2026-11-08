@@ -8,7 +8,7 @@ date: "2026-11-04"
 score: ""
 guid: "10.1038/d41586-026-03581-3"
 image: ""
-generated: "2026-11-07T20:33:06+05:30"
+generated: "2026-11-08T21:41:26+05:30"
 ---
 
 Thousands of genome sequences identify human migrations that might have spread early forms of these tongues around Europe.

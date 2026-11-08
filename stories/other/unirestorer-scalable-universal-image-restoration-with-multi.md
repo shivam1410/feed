@@ -8,7 +8,7 @@ date: "2026-11-04T01:46:47.000Z"
 score: ""
 guid: "2611.06042"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.06042.png"
-generated: "2026-11-07T20:33:06+05:30"
+generated: "2026-11-08T21:41:26+05:30"
 ---
 
 UniRestorer++ scales universal image restoration via multi-granularity degradation modeling and adaptive routing, achieving stronger scaling and generalization across diverse degradations.

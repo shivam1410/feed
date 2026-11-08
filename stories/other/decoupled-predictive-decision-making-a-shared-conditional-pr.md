@@ -8,7 +8,7 @@ date: "2026-10-31T20:00:00.000Z"
 score: ""
 guid: "2611.02075"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.02075.png"
-generated: "2026-11-07T20:33:06+05:30"
+generated: "2026-11-08T21:41:26+05:30"
 ---
 
 DPDM improves agent decision accuracy by combining frozen language-model representations with a shared pretrained conditional predictor that learns from deployment evidence without parameter updates.

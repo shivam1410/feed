@@ -8,7 +8,7 @@ date: "2026-11-04"
 score: ""
 guid: "10.1038/s41586-026-11218-8"
 image: ""
-generated: "2026-11-07T20:33:06+05:30"
+generated: "2026-11-08T21:41:26+05:30"
 ---
 
 A two-dimensional reticular triaxial woven network material is constructed by incorporating C3-symmetric macrocycles into a triangular weave pattern, enabling an extra topological dimension to be used for the construction of functional materials.

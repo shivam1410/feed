@@ -8,7 +8,7 @@ date: "2026-11-02T19:00:00.000Z"
 score: ""
 guid: "2611.04386"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.04386.png"
-generated: "2026-11-07T20:33:06+05:30"
+generated: "2026-11-08T21:41:26+05:30"
 ---
 
 StepX-OPD jointly trains a text-to-image diffusion model to acquire capabilities and few-step sampling simultaneously, outperforming sequential approaches while reducing training cost.

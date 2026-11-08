@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-07T20:33:06+05:30",
+  "generatedAt": "2026-11-08T21:41:26+05:30",
   "categories": [
     "AI Research",
     "Nature & Ecology",
@@ -13,7 +13,7 @@
     "Chemistry & Materials",
     "Cyber Security"
   ],
-  "total": 220,
+  "total": 210,
   "homeMaxAgeDays": 7,
   "trending": [
     {
@@ -23,15 +23,6 @@
       "sources": [
         "DeepMind",
         "Nature"
-      ]
-    },
-    {
-      "term": "botnet",
-      "label": "Botnet",
-      "items": 3,
-      "sources": [
-        "Krebs on Security",
-        "The Hacker News"
       ]
     },
     {
@@ -46,6 +37,21 @@
   ],
   "items": [
     {
+      "guid": "https://simonwillison.net/2026/Nov/7/link-rel-next/",
+      "title": "datasette #3046: Don't serve link: rel=next HTTP headers to Firefox for HTML pages",
+      "link": "https://simonwillison.net/2026/Nov/7/link-rel-next/",
+      "authors": [],
+      "date": "2026-11-07T23:57:46+00:00",
+      "summary": "datasette #3046: Don't serve link: rel=next HTTP headers to Firefox for HTML pages I was looking at the Firefox network panel today when I noticed that requests to a Datasette table page were triggering an HTTP prefetch to the next page of rows in that table. This was happening because Datasette pages serve an HTTP link header like this: link: <https://latest.datasette.io/fixtures/compound_three_primary_keys?_next=a%2Cd%2Cv>; rel=\"next\" This is bad. A tiny fraction of the visitors to one of those pages will click the \"next\" link, which means their browser is fetching unnecessary data and the Datasette server is having to render an entire page that then gets thrown away. I dug in and learned that Firefox has an issue that has been open for 24 years about this behavior... And one of the early comments on that issue links to my blog post from 2002 complaining about this feature. I hadn't just forgotten that I had written about it, I had forgotten the feature entirely! Tags: firefox , html , mozilla , datasette",
+      "image": "",
+      "source": "Simon Willison",
+      "announce": "",
+      "category": "Other",
+      "score": null,
+      "ageDays": 0,
+      "fresh": true
+    },
+    {
       "guid": "https://simonwillison.net/2026/Nov/6/nilay-patel/",
       "title": "Quoting Nilay Patel",
       "link": "https://simonwillison.net/2026/Nov/6/nilay-patel/",
@@ -57,7 +63,7 @@
       "announce": "",
       "category": "Other",
       "score": null,
-      "ageDays": 0,
+      "ageDays": 1,
       "fresh": true
     },
     {
@@ -74,58 +80,7 @@
       "announce": "",
       "category": "Other",
       "score": null,
-      "ageDays": 0,
-      "fresh": true
-    },
-    {
-      "guid": "https://thehackernews.com/2026/11/installing-fix-for-exploited-wordpress.html",
-      "title": "Installing the Fix for an Exploited WordPress Flaw Can Expose Some Sites One Last Time",
-      "link": "https://thehackernews.com/2026/11/installing-fix-for-exploited-wordpress.html",
-      "authors": [
-        "info@thehackernews.com (The Hacker News)"
-      ],
-      "date": "Fri, 06 Nov 2026 21:38:38 +0530",
-      "summary": "Some WordPress sites can still be attacked while they install the fix for an actively exploited flaw, according to Umut Bayram, the Picus Security researcher who found it. The update that installs the fix still unpacks its files using the site's old, unpatched code, so an attacker who strikes at the right moment can run code on the server. The researcher advises blocking web access to the",
-      "image": "",
-      "source": "The Hacker News",
-      "announce": "",
-      "category": "Other",
-      "score": null,
-      "ageDays": 0,
-      "fresh": true
-    },
-    {
-      "guid": "https://thehackernews.com/2026/11/hackers-exploited-openssh-sshole-flaw.html",
-      "title": "Hackers Target OpenSSH SSHole Flaw Within Hours of Disclosure, Gain Root on Honeypot",
-      "link": "https://thehackernews.com/2026/11/hackers-exploited-openssh-sshole-flaw.html",
-      "authors": [
-        "info@thehackernews.com (The Hacker News)"
-      ],
-      "date": "Fri, 06 Nov 2026 20:51:49 +0530",
-      "summary": "Threat actors are attempting to exploit a recently disclosed security flaw impacting OpenSSH that can enable sign-ins to accounts that have no password set, according to Previdian. The vulnerability, tracked as CVE-2026-123158 (CVSS score: 8.1) and codenamed SSHole (or *sshole), impacts Linux systems that run OpenSSH on the musl C library with Pluggable Authentication Modules (PAM) disabled,",
-      "image": "",
-      "source": "The Hacker News",
-      "announce": "",
-      "category": "Other",
-      "score": null,
-      "ageDays": 0,
-      "fresh": true
-    },
-    {
-      "guid": "https://thehackernews.com/2026/11/openai-launches-gpt-6-cyber-after-ai.html",
-      "title": "OpenAI Launches GPT-6 Cyber After AI Helps Find 81 Firefox Flaws, 948 Linux Exploits",
-      "link": "https://thehackernews.com/2026/11/openai-launches-gpt-6-cyber-after-ai.html",
-      "authors": [
-        "info@thehackernews.com (The Hacker News)"
-      ],
-      "date": "Fri, 06 Nov 2026 20:28:32 +0530",
-      "summary": "OpenAI on Thursday unveiled GPT‑6 Cyber, which it described as a major step forward in security research that brings together stronger cybersecurity capabilities with a step-change improvement in model alignment. The new model is \"more capable at finding and fixing vulnerabilities, and far more reliable staying within the boundaries researchers set,\" OpenAI said. It has classified the model as",
-      "image": "",
-      "source": "The Hacker News",
-      "announce": "",
-      "category": "Other",
-      "score": null,
-      "ageDays": 0,
+      "ageDays": 1,
       "fresh": true
     },
     {
@@ -142,7 +97,7 @@
       "announce": "",
       "category": "Other",
       "score": null,
-      "ageDays": 0,
+      "ageDays": 1,
       "fresh": true
     },
     {
@@ -159,7 +114,7 @@
       "announce": "",
       "category": "Other",
       "score": null,
-      "ageDays": 0,
+      "ageDays": 1,
       "fresh": true
     },
     {
@@ -176,7 +131,7 @@
       "announce": "",
       "category": "Other",
       "score": null,
-      "ageDays": 1,
+      "ageDays": 2,
       "fresh": true
     },
     {
@@ -191,7 +146,7 @@
       "announce": "",
       "category": "Other",
       "score": null,
-      "ageDays": 1,
+      "ageDays": 2,
       "fresh": true
     },
     {
@@ -209,7 +164,7 @@
       "announce": "",
       "category": "Other",
       "score": null,
-      "ageDays": 1,
+      "ageDays": 2,
       "fresh": true
     },
     {
@@ -226,7 +181,7 @@
       "announce": "",
       "category": "Other",
       "score": null,
-      "ageDays": 1,
+      "ageDays": 2,
       "fresh": true
     },
     {
@@ -281,7 +236,7 @@
       "announce": "",
       "category": "Other",
       "score": null,
-      "ageDays": 1,
+      "ageDays": 2,
       "fresh": true
     },
     {
@@ -298,7 +253,7 @@
       "announce": "",
       "category": "Other",
       "score": null,
-      "ageDays": 1,
+      "ageDays": 2,
       "fresh": true
     },
     {
@@ -315,7 +270,7 @@
       "announce": "",
       "category": "Other",
       "score": null,
-      "ageDays": 1,
+      "ageDays": 2,
       "fresh": true
     },
     {
@@ -332,7 +287,7 @@
       "announce": "",
       "category": "Other",
       "score": null,
-      "ageDays": 1,
+      "ageDays": 2,
       "fresh": true
     },
     {
@@ -349,7 +304,7 @@
       "announce": "",
       "category": "Other",
       "score": null,
-      "ageDays": 1,
+      "ageDays": 2,
       "fresh": true
     },
     {
@@ -364,7 +319,58 @@
       "announce": "",
       "category": "Other",
       "score": null,
-      "ageDays": 1,
+      "ageDays": 2,
+      "fresh": true
+    },
+    {
+      "guid": "https://thehackernews.com/2026/11/installing-fix-for-exploited-wordpress.html",
+      "title": "Installing the Fix for an Exploited WordPress Flaw Can Expose Some Sites One Last Time",
+      "link": "https://thehackernews.com/2026/11/installing-fix-for-exploited-wordpress.html",
+      "authors": [
+        "info@thehackernews.com (The Hacker News)"
+      ],
+      "date": "Fri, 06 Nov 2026 21:38:38 +0530",
+      "summary": "Some WordPress sites can still be attacked while they install the fix for an actively exploited flaw, according to Umut Bayram, the Picus Security researcher who found it. The update that installs the fix still unpacks its files using the site's old, unpatched code, so an attacker who strikes at the right moment can run code on the server. The researcher advises blocking web access to the",
+      "image": "",
+      "source": "The Hacker News",
+      "announce": "",
+      "category": "Other",
+      "score": null,
+      "ageDays": 2,
+      "fresh": true
+    },
+    {
+      "guid": "https://thehackernews.com/2026/11/hackers-exploited-openssh-sshole-flaw.html",
+      "title": "Hackers Target OpenSSH SSHole Flaw Within Hours of Disclosure, Gain Root on Honeypot",
+      "link": "https://thehackernews.com/2026/11/hackers-exploited-openssh-sshole-flaw.html",
+      "authors": [
+        "info@thehackernews.com (The Hacker News)"
+      ],
+      "date": "Fri, 06 Nov 2026 20:51:49 +0530",
+      "summary": "Threat actors are attempting to exploit a recently disclosed security flaw impacting OpenSSH that can enable sign-ins to accounts that have no password set, according to Previdian. The vulnerability, tracked as CVE-2026-123158 (CVSS score: 8.1) and codenamed SSHole (or *sshole), impacts Linux systems that run OpenSSH on the musl C library with Pluggable Authentication Modules (PAM) disabled,",
+      "image": "",
+      "source": "The Hacker News",
+      "announce": "",
+      "category": "Other",
+      "score": null,
+      "ageDays": 2,
+      "fresh": true
+    },
+    {
+      "guid": "https://thehackernews.com/2026/11/openai-launches-gpt-6-cyber-after-ai.html",
+      "title": "OpenAI Launches GPT-6 Cyber After AI Helps Find 81 Firefox Flaws, 948 Linux Exploits",
+      "link": "https://thehackernews.com/2026/11/openai-launches-gpt-6-cyber-after-ai.html",
+      "authors": [
+        "info@thehackernews.com (The Hacker News)"
+      ],
+      "date": "Fri, 06 Nov 2026 20:28:32 +0530",
+      "summary": "OpenAI on Thursday unveiled GPT‑6 Cyber, which it described as a major step forward in security research that brings together stronger cybersecurity capabilities with a step-change improvement in model alignment. The new model is \"more capable at finding and fixing vulnerabilities, and far more reliable staying within the boundaries researchers set,\" OpenAI said. It has classified the model as",
+      "image": "",
+      "source": "The Hacker News",
+      "announce": "",
+      "category": "Other",
+      "score": null,
+      "ageDays": 2,
       "fresh": true
     },
     {
@@ -381,7 +387,7 @@
       "announce": "",
       "category": "Other",
       "score": null,
-      "ageDays": 1,
+      "ageDays": 2,
       "fresh": true
     },
     {
@@ -398,7 +404,7 @@
       "announce": "",
       "category": "Other",
       "score": null,
-      "ageDays": 1,
+      "ageDays": 2,
       "fresh": true
     },
     {
@@ -415,7 +421,7 @@
       "announce": "",
       "category": "Other",
       "score": null,
-      "ageDays": 1,
+      "ageDays": 2,
       "fresh": true
     },
     {
@@ -432,7 +438,7 @@
       "announce": "",
       "category": "Other",
       "score": null,
-      "ageDays": 1,
+      "ageDays": 2,
       "fresh": true
     },
     {
@@ -449,7 +455,7 @@
       "announce": "",
       "category": "Other",
       "score": null,
-      "ageDays": 1,
+      "ageDays": 2,
       "fresh": true
     },
     {
@@ -466,7 +472,7 @@
       "announce": "",
       "category": "Other",
       "score": null,
-      "ageDays": 1,
+      "ageDays": 2,
       "fresh": true
     },
     {
@@ -483,7 +489,7 @@
       "announce": "",
       "category": "Other",
       "score": null,
-      "ageDays": 1,
+      "ageDays": 2,
       "fresh": true
     },
     {
@@ -500,24 +506,7 @@
       "announce": "",
       "category": "Other",
       "score": null,
-      "ageDays": 1,
-      "fresh": true
-    },
-    {
-      "guid": "https://thehackernews.com/2026/11/threatsday-apache-ofbiz-rce-dreamhost.html",
-      "title": "ThreatsDay: Apache OFBiz RCE, DreamHost Breach, DeFi Site Hijacks + 17 More Stories",
-      "link": "https://thehackernews.com/2026/11/threatsday-apache-ofbiz-rce-dreamhost.html",
-      "authors": [
-        "info@thehackernews.com (The Hacker News)"
-      ],
-      "date": "Thu, 05 Nov 2026 20:11:10 +0530",
-      "summary": "How much damage can someone do without breaking much? Quite a lot, it seems. A stolen login can open doors across several systems. A trusted setting can be used to lock people out. Even a simple file copy can reach places it shouldn't. And while new tools are helping find security holes faster, some important systems are still taking months, sometimes over a year, to get patched. Not exactly a",
-      "image": "",
-      "source": "The Hacker News",
-      "announce": "",
-      "category": "Other",
-      "score": null,
-      "ageDays": 1,
+      "ageDays": 2,
       "fresh": true
     },
     {
@@ -549,7 +538,7 @@
       "announce": "",
       "category": "Other",
       "score": null,
-      "ageDays": 2,
+      "ageDays": 3,
       "fresh": true
     },
     {
@@ -570,7 +559,7 @@
       "announce": "",
       "category": "Other",
       "score": null,
-      "ageDays": 2,
+      "ageDays": 3,
       "fresh": true
     },
     {
@@ -587,7 +576,7 @@
       "announce": "",
       "category": "Other",
       "score": null,
-      "ageDays": 2,
+      "ageDays": 3,
       "fresh": true
     },
     {
@@ -604,7 +593,7 @@
       "announce": "",
       "category": "Other",
       "score": null,
-      "ageDays": 2,
+      "ageDays": 3,
       "fresh": true
     },
     {
@@ -619,10 +608,10 @@
       "summary": "LLM-guided evolutionary search uses AI agents to improve programs for mathematical and computational problems by iteratively refining solutions and combining high-scoring methods. However, the process is often slow because the LLM generates a long textual chain of thought for each round and must repeat this generation many times to maintain population diversity. We present SwarmEvolve, a framework in which hundreds of low-cost agents per round work in swarms, reason in latent space without decoding to text, and share information by passing KV caches. Each swarm studies the problem from a different angle. A novelty filter keeps the most distinct agent ideas by directly measuring the distances between the agents' hidden state vectors. Crossover of ideas happens naturally in latent space, as a summarizer agent receives the combined KV caches of all swarm members. On 21 problems in mathematical discovery and scientific computing, SwarmEvolve gets the highest average score and needs a median of only 3 to 8 minutes to reach the best scores that other state-of-the-art frameworks reach in 60 minutes. On several problems, SwarmEvolve with Qwen3 8B improves on the solutions that AlphaEvolve first found with frontier LLMs. Our work shows that agent swarms that communicate in latent space offer a fast, low-cost approach to program search for scientific problems.",
       "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.08483.png",
       "source": "HF Trending Papers",
-      "extra": "▲ 6",
+      "extra": "▲ 9",
       "category": "Other",
       "score": null,
-      "ageDays": 2,
+      "ageDays": 3,
       "fresh": true
     },
     {
@@ -641,10 +630,10 @@
       "summary": "TB-MathModel is a terminal benchmark that makes complete contest-style mathematical modeling problems agentic and verifiable, scoring final numeric answers against multiple human references with feasibility checks.",
       "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.08237.png",
       "source": "HF Trending Papers",
-      "extra": "▲ 9",
+      "extra": "▲ 11",
       "category": "Other",
       "score": null,
-      "ageDays": 2,
+      "ageDays": 3,
       "fresh": true
     },
     {
@@ -660,10 +649,10 @@
       "summary": "A linear attention architecture called Muir allocates gate capacity by sensitivity, uses matched-filter readout and a stable parallel update, improving language modeling, long-context recall, and training speed over Gated DeltaNet-2 and Transformer baselines.",
       "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.08376.png",
       "source": "HF Trending Papers",
-      "extra": "▲ 6",
+      "extra": "▲ 12",
       "category": "Other",
       "score": null,
-      "ageDays": 2,
+      "ageDays": 3,
       "fresh": true
     },
     {
@@ -681,7 +670,7 @@
       "extra": "▲ 3",
       "category": "Other",
       "score": null,
-      "ageDays": 2,
+      "ageDays": 3,
       "fresh": true
     },
     {
@@ -699,10 +688,10 @@
       "summary": "Prepending trainable [DUMP] tokens during embedding model training reduces residual token-level signals and improves retrieval representations without changing architecture, pooling, or loss.",
       "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.07298.png",
       "source": "HF Trending Papers",
-      "extra": "▲ 4",
+      "extra": "▲ 6",
       "category": "Other",
       "score": null,
-      "ageDays": 2,
+      "ageDays": 3,
       "fresh": true
     },
     {
@@ -721,10 +710,10 @@
       "summary": "A token pruning and merging mechanism and a waveform-preserving augmentation improve a full-waveform LiDAR Transformer to real-time speed and higher accuracy with better generalization.",
       "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.07613.png",
       "source": "HF Trending Papers",
-      "extra": "▲ 4",
+      "extra": "▲ 5",
       "category": "Other",
       "score": null,
-      "ageDays": 2,
+      "ageDays": 3,
       "fresh": true
     },
     {
@@ -741,10 +730,10 @@
       "summary": "A sparse autoencoder trained on mixture-of-experts layer outputs reveals that individual experts drive specific latent features, showing finer-grained and more concentrated specialization than routing or domain labels alone.",
       "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.08089.png",
       "source": "HF Trending Papers",
-      "extra": "▲ 7",
+      "extra": "▲ 9",
       "category": "Other",
       "score": null,
-      "ageDays": 2,
+      "ageDays": 3,
       "fresh": true
     },
     {
@@ -767,10 +756,10 @@
       "summary": "SLA is a spatial-language-action model that continually pre-trains and post-trains a pretrained VLA policy with spatial alignment to a frozen 3D perception model, using feature-dependent gates and probabilistic state dropout to improve spatial understanding across diverse robot data while preserving inference architecture.",
       "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.08373.png",
       "source": "HF Trending Papers",
-      "extra": "▲ 77",
+      "extra": "▲ 84",
       "category": "Other",
       "score": null,
-      "ageDays": 2,
+      "ageDays": 3,
       "fresh": true
     },
     {
@@ -802,10 +791,10 @@
       "summary": "Models for physical AI tasks, such as robotics and autonomous driving, need not reason solely in language. They can use visual plans--points, bounding boxes, and trajectories--to represent spatial goals and anticipate motion. However, autoregressive vision-language models generate these plans one coordinate token at a time, making richer predictions increasingly costly. We introduce VFlash, a method for fast, accurate visual planning through Flash Primitive Decoding. VFlash exploits the known structure of visual primitives to predict their coordinates jointly, using a lightweight drafter that generates an entire primitive in one forward pass. The layout adapts to the primitive's type, dimensionality, and length, supporting compact boxes and long, variable-length trajectories. Crucially, spatial accuracy need not require reproducing an autoregressive model's exact token sequence. VFlash therefore trains on annotated primitives and directly accepts structurally valid predictions without target-token agreement. Across the evaluated 2D and 3D robot trajectory tasks, VFlash consistently reduces prediction errors relative to autoregressive decoding. Preliminary single-rollout measurements indicate approximately 25x faster generation for 3D point motion forecasting. A world action model conditioned on VFlash plans achieves 70.2% average success across four MolmoSpaces task suites, compared with 62.6% for the baseline.",
       "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.08449.png",
       "source": "HF Trending Papers",
-      "extra": "▲ 98",
+      "extra": "▲ 104",
       "category": "Other",
       "score": null,
-      "ageDays": 2,
+      "ageDays": 3,
       "fresh": true
     },
     {
@@ -834,10 +823,10 @@
       "summary": "We present WeLM-Image, a unified image foundation model that integrates multimodal understanding into text-to-image generation, instruction-guided editing, and multi-reference synthesis. Designed for single-GPU deployment in WeChat's large-scale consumer applications, the model processes text, reference images, and target latents as one interleaved sequence. A Mixture-of-Transformers (MoT) backbone combines shared attention with independent understanding and generation parameters to limit optimization interference. Equipping each path with Mixture-of-Experts (MoE) modules provides sparse capacity, with 31.7B stored parameters and approximately 5.4B generation parameters activated per target latent token. A generation-oriented data engine combines a knowledge-grounded visual vocabulary with large-scale visual clustering to balance semantic coverage and editing tasks, while training-time evaluation guides iterative data refinement. Bilingual annotations and verified editing supervision support progressive training up to native 1.5K resolution. We optimize generation and editing separately with rubric- and checklist-based rewards, then consolidate the specialized policies through noise-aware on-policy distillation. In the reported overall comparisons, the 1536-resolution model ranks first among the evaluated open-source models on PRISM-Bench, Qwen-Image-Bench, and UnicBench. MeanFlow-based few-step distillation yields WeLM-Image-Turbo, which generates a 1024times1024 image in 4.98\\,s on a single NVIDIA H20 GPU using eight guidance-free steps.",
       "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.07392.png",
       "source": "HF Trending Papers",
-      "extra": "▲ 42",
+      "extra": "▲ 44",
       "category": "Other",
       "score": null,
-      "ageDays": 2,
+      "ageDays": 3,
       "fresh": true
     },
     {
@@ -866,10 +855,10 @@
       "summary": "NPCBench evaluates whether medical AI models can integrate subspecialty knowledge with multimodal evidence and maintain temporally coherent diagnostic and care decisions across longitudinal nasopharyngeal carcinoma patient pathways.",
       "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.08369.png",
       "source": "HF Trending Papers",
-      "extra": "▲ 2",
+      "extra": "▲ 3",
       "category": "Other",
       "score": null,
-      "ageDays": 2,
+      "ageDays": 3,
       "fresh": true
     },
     {
@@ -886,10 +875,10 @@
       "summary": "EDGAR is a conditional diffusion framework with a fusion block and Mixture-of-Experts that refines degraded Gaussian head avatars by injecting self-supervised identity features, using refined multi-view renderings as pseudo-targets to optimize a single avatar.",
       "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.07909.png",
       "source": "HF Trending Papers",
-      "extra": "▲ 12",
+      "extra": "▲ 14",
       "category": "Other",
       "score": null,
-      "ageDays": 2,
+      "ageDays": 3,
       "fresh": true
     },
     {
@@ -911,42 +900,27 @@
       "summary": "Drex open decision models return probability distributions over user-supplied options without autoregressive decoding, using supervised fine-tuning, RLAF, and consistency losses to improve accuracy, robustness, and latency.",
       "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.07854.png",
       "source": "HF Trending Papers",
-      "extra": "▲ 20",
+      "extra": "▲ 22",
       "category": "Other",
       "score": null,
-      "ageDays": 2,
+      "ageDays": 3,
       "fresh": true
     },
     {
-      "guid": "https://simonwillison.net/2026/Nov/4/datasette-llm/",
-      "title": "datasette-llm 0.1a10",
-      "link": "https://simonwillison.net/2026/Nov/4/datasette-llm/",
-      "authors": [],
-      "date": "2026-11-04T15:26:02+00:00",
-      "summary": "Release: datasette-llm 0.1a10 Fixes a bug that affected my agent.datasette.io demo site, where the set of available LLM models was not correctly restricted to just those in the configuration. Tags: datasette , llm",
-      "image": "",
-      "source": "Simon Willison",
-      "announce": "",
-      "category": "Other",
-      "score": null,
-      "ageDays": 2,
-      "fresh": true
-    },
-    {
-      "guid": "https://krebsonsecurity.com/?p=74588",
-      "title": "Want to Rent an Internet Address at the White House?",
-      "link": "https://krebsonsecurity.com/2026/11/want-to-rent-an-internet-address-at-the-white-house/",
+      "guid": "https://thehackernews.com/2026/11/threatsday-apache-ofbiz-rce-dreamhost.html",
+      "title": "ThreatsDay: Apache OFBiz RCE, DreamHost Breach, DeFi Site Hijacks + 17 More Stories",
+      "link": "https://thehackernews.com/2026/11/threatsday-apache-ofbiz-rce-dreamhost.html",
       "authors": [
-        "BrianKrebs"
+        "info@thehackernews.com (The Hacker News)"
       ],
-      "date": "Thu, 05 Nov 2026 04:36:17 +0000",
-      "summary": "Several staffers at the White House are using computers or mobile devices equipped with residential proxy services that render their internet address available for others to rent, security experts warned today. One of the proxy services is a Russian company whose founder’s web hosting business was ground zero for cyberattacks against election systems in Arizona and Illinois in 2016. The security firm Layer3 Intel said it detected multiple residential proxy nodes beaconing out from the internet address network reserved for the Executive Office of the President ( AS2650 ). Layer3 said the proxy activity was relatively persistent between October 5 to November 3, and that a review of the proxies available from AS2650 showed they exited from the White House network 236 times during that period. The proxy tracking company Synthient said on Twitter/X that the activity it saw coming from AS2650 was related to multiple Windows 11 installations of a service called Infatica , a proxy program that is often integrated into “free” mobile and desktop applications . Infatica’s founder Vladimir Fomenko is a Russian man whose hosting firm King Servers was home to six of the eight internet addresses used by Russia’s state security services to compromise databases for election systems in Arizona and Illinois in 2016. Synthient’s depiction of the outgoing proxy traffic from the dedicated White House network (AS2650). Click to enlarge. There are dozens of residential proxy providers with varying degrees of legitimacy, many of them based in China or Russia. But at a minimum, they all make it simple for customers to rent someone else’s internet address as a way to anonymize their web traffic or spoof their true location. From a website’s perspective, the traffic from a proxy network user appears to originate from the rented IP address, not from the proxy service customer. Layer3 Intel said the proxy exit nodes at the White House came from six internet addresses, on 26 of the 30 days, and that most of the activity happens in the evening, between 5 p.m. and midnight. Incredibly, Infatica was not the only proxy service that reportedly has been reselling access to White House internet addresses: Layer3 Intel said it found 28 separate residential proxy services were able to exit through this network . “This is public access,” the Layer3 Intel team wrote . “Anybody can obtain it by signing up to a public residential proxy service, paying a few dollars and sending requests through it. We did not selectively target this network or try to make our probes exit from it. We caught this by chance, simply by requesting global rotating access through these services.” The White House did not immediately respond to a request for comment. As detailed in several stories here over the past year, residential proxy services are a major source of unwanted and often malicious traffic, including account takeover and other cybercrime activity, advertising fraud, and mass content scraping for AI projects. They can also introduce serious security risks. In late 2025, it was discovered that cybercriminals were mass exploiting a widespread vulnerability in these services that allowed them to probe each proxy endpoint’s local network for vulnerable systems to infect with malware. In January 2026, dozens of proxy services were forced to patch their networks after Synthient Founder Ben Brundage showed how cybercriminals were abusing a vulnerability in these residential proxy services to seize control over devices inside the local networks of unsuspecting users. “Some of these resellers sell bandwidth for as low as 60 cents a Gigabyte, that means for less than a dollar you can gain access into some of the most confidential and trusted networks,” Brundage told KrebsOnSecurity. “The reseller ecosystem further enables this with any criminal able to buy access while skipping KYC [Know Your Customer] processes.” All too often, these proxy services are beaconing out from employee devices brought into the workplace. App developers can embed software development kits (SDKs) provided by the residential proxy networks to monetize their software, allowing them to receive a small amount of money on each installation. As risky as residential proxies can be for unsuspecting end users, they are all too commonly found on government and corporate networks. In a webinar in January 2026, the proxy tracking service Spur found residential proxies in nearly 300 government owned and operated networks, 318 utility companies, 166 healthcare companies or hospitals, and 141 companies in banking and finance. In a blog post earlier this year, the security firm Infoblox said it discovered that fully 65% of its customer base was querying one or more residential proxy related domains.",
+      "date": "Thu, 05 Nov 2026 20:11:10 +0530",
+      "summary": "How much damage can someone do without breaking much? Quite a lot, it seems. A stolen login can open doors across several systems. A trusted setting can be used to lock people out. Even a simple file copy can reach places it shouldn't. And while new tools are helping find security holes faster, some important systems are still taking months, sometimes over a year, to get patched. Not exactly a",
       "image": "",
-      "source": "Krebs on Security",
+      "source": "The Hacker News",
       "announce": "",
       "category": "Other",
       "score": null,
-      "ageDays": 2,
+      "ageDays": 3,
       "fresh": true
     },
     {
@@ -963,7 +937,7 @@
       "announce": "",
       "category": "Other",
       "score": null,
-      "ageDays": 2,
+      "ageDays": 3,
       "fresh": true
     },
     {
@@ -980,7 +954,7 @@
       "announce": "",
       "category": "Other",
       "score": null,
-      "ageDays": 2,
+      "ageDays": 3,
       "fresh": true
     },
     {
@@ -997,7 +971,7 @@
       "announce": "",
       "category": "Other",
       "score": null,
-      "ageDays": 2,
+      "ageDays": 3,
       "fresh": true
     },
     {
@@ -1014,7 +988,7 @@
       "announce": "",
       "category": "Other",
       "score": null,
-      "ageDays": 2,
+      "ageDays": 3,
       "fresh": true
     },
     {
@@ -1031,7 +1005,7 @@
       "announce": "",
       "category": "Other",
       "score": null,
-      "ageDays": 2,
+      "ageDays": 3,
       "fresh": true
     },
     {
@@ -1048,7 +1022,7 @@
       "announce": "",
       "category": "Other",
       "score": null,
-      "ageDays": 2,
+      "ageDays": 3,
       "fresh": true
     },
     {
@@ -1065,7 +1039,7 @@
       "announce": "",
       "category": "Other",
       "score": null,
-      "ageDays": 2,
+      "ageDays": 3,
       "fresh": true
     },
     {
@@ -1082,7 +1056,7 @@
       "announce": "",
       "category": "Other",
       "score": null,
-      "ageDays": 2,
+      "ageDays": 3,
       "fresh": true
     },
     {
@@ -1099,24 +1073,7 @@
       "announce": "",
       "category": "Other",
       "score": null,
-      "ageDays": 2,
-      "fresh": true
-    },
-    {
-      "guid": "https://thehackernews.com/2026/11/researchers-uncover-prompt-adware.html",
-      "title": "Researchers Uncover Prompt Adware Hidden in OpenAI Codex Jailbreak Toolkit",
-      "link": "https://thehackernews.com/2026/11/researchers-uncover-prompt-adware.html",
-      "authors": [
-        "info@thehackernews.com (The Hacker News)"
-      ],
-      "date": "Wed, 04 Nov 2026 21:36:43 +0530",
-      "summary": "Cybersecurity researchers have disclosed details of an OpenAI Codex jailbreak bundle that's designed to modify an artificial intelligence (AI) agent's trusted instructions to insert advertisements for a third-party AI gateway. The phenomenon has been codenamed prompt adware by Check Point Research. Called Haiou (meaning Seagull in Chinese), the jailbreak modifies OpenAI Codex's configuration",
-      "image": "",
-      "source": "The Hacker News",
-      "announce": "",
-      "category": "Other",
-      "score": null,
-      "ageDays": 2,
+      "ageDays": 3,
       "fresh": true
     },
     {
@@ -1133,7 +1090,7 @@
       "announce": "",
       "category": "Other",
       "score": null,
-      "ageDays": 3,
+      "ageDays": 4,
       "fresh": true
     },
     {
@@ -1148,7 +1105,7 @@
       "announce": "",
       "category": "Other",
       "score": null,
-      "ageDays": 3,
+      "ageDays": 4,
       "fresh": true
     },
     {
@@ -1165,7 +1122,7 @@
       "announce": "",
       "category": "Other",
       "score": null,
-      "ageDays": 3,
+      "ageDays": 4,
       "fresh": true
     },
     {
@@ -1180,7 +1137,7 @@
       "announce": "",
       "category": "Other",
       "score": null,
-      "ageDays": 3,
+      "ageDays": 4,
       "fresh": true
     },
     {
@@ -1195,7 +1152,7 @@
       "announce": "",
       "category": "Other",
       "score": null,
-      "ageDays": 3,
+      "ageDays": 4,
       "fresh": true
     },
     {
@@ -1213,7 +1170,7 @@
       "announce": "",
       "category": "Other",
       "score": null,
-      "ageDays": 3,
+      "ageDays": 4,
       "fresh": true
     },
     {
@@ -1238,7 +1195,7 @@
       "announce": "",
       "category": "Other",
       "score": null,
-      "ageDays": 3,
+      "ageDays": 4,
       "fresh": true
     },
     {
@@ -1253,7 +1210,7 @@
       "announce": "",
       "category": "Other",
       "score": null,
-      "ageDays": 3,
+      "ageDays": 4,
       "fresh": true
     },
     {
@@ -1270,7 +1227,7 @@
       "announce": "",
       "category": "Other",
       "score": null,
-      "ageDays": 3,
+      "ageDays": 4,
       "fresh": true
     },
     {
@@ -1287,7 +1244,7 @@
       "announce": "",
       "category": "Other",
       "score": null,
-      "ageDays": 3,
+      "ageDays": 4,
       "fresh": true
     },
     {
@@ -1302,7 +1259,7 @@
       "announce": "",
       "category": "Other",
       "score": null,
-      "ageDays": 3,
+      "ageDays": 4,
       "fresh": true
     },
     {
@@ -1319,7 +1276,7 @@
       "announce": "",
       "category": "Other",
       "score": null,
-      "ageDays": 3,
+      "ageDays": 4,
       "fresh": true
     },
     {
@@ -1337,7 +1294,7 @@
       "announce": "",
       "category": "Other",
       "score": null,
-      "ageDays": 3,
+      "ageDays": 4,
       "fresh": true
     },
     {
@@ -1354,7 +1311,7 @@
       "announce": "",
       "category": "Other",
       "score": null,
-      "ageDays": 3,
+      "ageDays": 4,
       "fresh": true
     },
     {
@@ -1371,7 +1328,7 @@
       "announce": "",
       "category": "Other",
       "score": null,
-      "ageDays": 3,
+      "ageDays": 4,
       "fresh": true
     },
     {
@@ -1388,7 +1345,7 @@
       "announce": "",
       "category": "Other",
       "score": null,
-      "ageDays": 3,
+      "ageDays": 4,
       "fresh": true
     },
     {
@@ -1405,7 +1362,7 @@
       "announce": "",
       "category": "Other",
       "score": null,
-      "ageDays": 3,
+      "ageDays": 4,
       "fresh": true
     },
     {
@@ -1422,7 +1379,7 @@
       "announce": "",
       "category": "Other",
       "score": null,
-      "ageDays": 3,
+      "ageDays": 4,
       "fresh": true
     },
     {
@@ -1439,7 +1396,7 @@
       "announce": "",
       "category": "Other",
       "score": null,
-      "ageDays": 3,
+      "ageDays": 4,
       "fresh": true
     },
     {
@@ -1456,7 +1413,7 @@
       "announce": "",
       "category": "Other",
       "score": null,
-      "ageDays": 3,
+      "ageDays": 4,
       "fresh": true
     },
     {
@@ -1471,7 +1428,7 @@
       "announce": "",
       "category": "Other",
       "score": null,
-      "ageDays": 3,
+      "ageDays": 4,
       "fresh": true
     },
     {
@@ -1488,7 +1445,7 @@
       "announce": "",
       "category": "Other",
       "score": null,
-      "ageDays": 3,
+      "ageDays": 4,
       "fresh": true
     },
     {
@@ -1505,7 +1462,7 @@
       "announce": "",
       "category": "Other",
       "score": null,
-      "ageDays": 3,
+      "ageDays": 4,
       "fresh": true
     },
     {
@@ -1522,7 +1479,7 @@
       "announce": "",
       "category": "Other",
       "score": null,
-      "ageDays": 3,
+      "ageDays": 4,
       "fresh": true
     },
     {
@@ -1539,7 +1496,7 @@
       "announce": "",
       "category": "Other",
       "score": null,
-      "ageDays": 3,
+      "ageDays": 4,
       "fresh": true
     },
     {
@@ -1556,7 +1513,7 @@
       "announce": "",
       "category": "Other",
       "score": null,
-      "ageDays": 3,
+      "ageDays": 4,
       "fresh": true
     },
     {
@@ -1574,7 +1531,7 @@
       "announce": "",
       "category": "Other",
       "score": null,
-      "ageDays": 3,
+      "ageDays": 4,
       "fresh": true
     },
     {
@@ -1589,7 +1546,7 @@
       "announce": "",
       "category": "Other",
       "score": null,
-      "ageDays": 3,
+      "ageDays": 4,
       "fresh": true
     },
     {
@@ -1607,7 +1564,7 @@
       "announce": "",
       "category": "Other",
       "score": null,
-      "ageDays": 3,
+      "ageDays": 4,
       "fresh": true
     },
     {
@@ -1624,7 +1581,7 @@
       "announce": "",
       "category": "Other",
       "score": null,
-      "ageDays": 3,
+      "ageDays": 4,
       "fresh": true
     },
     {
@@ -1642,7 +1599,7 @@
       "announce": "",
       "category": "Other",
       "score": null,
-      "ageDays": 3,
+      "ageDays": 4,
       "fresh": true
     },
     {
@@ -1659,7 +1616,7 @@
       "announce": "",
       "category": "Other",
       "score": null,
-      "ageDays": 3,
+      "ageDays": 4,
       "fresh": true
     },
     {
@@ -1676,7 +1633,7 @@
       "announce": "",
       "category": "Other",
       "score": null,
-      "ageDays": 3,
+      "ageDays": 4,
       "fresh": true
     },
     {
@@ -1693,7 +1650,7 @@
       "announce": "",
       "category": "Other",
       "score": null,
-      "ageDays": 3,
+      "ageDays": 4,
       "fresh": true
     },
     {
@@ -1710,7 +1667,7 @@
       "announce": "",
       "category": "Other",
       "score": null,
-      "ageDays": 3,
+      "ageDays": 4,
       "fresh": true
     },
     {
@@ -1725,7 +1682,7 @@
       "announce": "",
       "category": "Other",
       "score": null,
-      "ageDays": 3,
+      "ageDays": 4,
       "fresh": true
     },
     {
@@ -1766,7 +1723,7 @@
       "announce": "",
       "category": "Other",
       "score": null,
-      "ageDays": 3,
+      "ageDays": 4,
       "fresh": true
     },
     {
@@ -1784,10 +1741,10 @@
       "summary": "Large language model (LLM) agents typically append raw tool outputs to their context. Over multi-step interactions, long and noisy observations incur substantial context overhead and dilute the agent's attention to task-relevant information. Existing token pruning and summarization methods remain constrained by discrete text representations, limiting the achievable compression ratios.\n  In this work, we challenge the prevailing assumption that agents must consume tool observations as explicit text tokens. To this end, we propose Coca-Cola, a continuous latent context compression model for LLM agents. Coca-Cola compresses tool observations into latent tokens and embeds them into the input embedding space of the agent. We further introduce Action-Preserving Training, which aligns the agent's next-action distributions under full and compressed observations. This trains the compression model to learn action-sufficient latent tokens that retain decision-critical information. Experiments with web-search agents on four QA benchmarks and two model families show that Coca-Cola reduces the agent's token consumption by 70.01%-89.24% and end-to-end runtime by 24.45%-55.97%, while consistently improving task performance. These results suggest that Coca-Cola offers a promising approach for context compression in agents. Our code is available at https://github.com/THU-Agent/Coca-cola.",
       "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.06500.png",
       "source": "HF Trending Papers",
-      "extra": "▲ 2",
+      "extra": "▲ 5",
       "category": "Other",
       "score": null,
-      "ageDays": 3,
+      "ageDays": 4,
       "fresh": true
     },
     {
@@ -1802,10 +1759,10 @@
       "summary": "Signed retrieval packs can contain embedding vectors that do not match their text, and practical vector verification and compressed-index audits leave many queries vulnerable, while code-level verification with calibrated ambiguity handling accepts honest vectors.",
       "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.06498.png",
       "source": "HF Trending Papers",
-      "extra": "▲ 2",
+      "extra": "▲ 4",
       "category": "Other",
       "score": null,
-      "ageDays": 3,
+      "ageDays": 4,
       "fresh": true
     },
     {
@@ -1829,10 +1786,10 @@
       "summary": "Prefill-to-Autoregressive Cross-model Transfer (PACT), a form of latent communication between language models, combines a larger model's prompt representations with a smaller model's efficient generation, offering a promising way to balance capability and inference cost. However, existing systems provide limited support for independently evaluating large-small model collaboration, and improved task performance alone does not establish whether the receiver benefits from the sender's information. We introduce PLatour, an open-source PACT framework that connects frozen models through lightweight, zero-initialized linear bridges trained directly with task rewards and supports hybrid-attention architectures. PLatour significantly outperforms open-source baselines on generation tasks and surpasses Mostik's reported results on shared mathematics and coding benchmarks using a substantially smaller sender. However, controlled experiments show that the gains on some tasks can be reproduced by uninformative sender signals, self-communication, or receiver-only training. We find that trainable bridges can act as parameter-efficient adaptation mechanisms without exploiting useful sender information. We therefore propose PACT-Check to quantify how much of a trained PACT system's gain genuinely comes from communication. Finally, we discuss the opportunities and challenges of PACT systems. Code is available at https://github.com/zhenyi4/platour.",
       "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.06976.png",
       "source": "HF Trending Papers",
-      "extra": "▲ 13",
+      "extra": "▲ 15",
       "category": "Other",
       "score": null,
-      "ageDays": 3,
+      "ageDays": 4,
       "fresh": true
     },
     {
@@ -1854,10 +1811,10 @@
       "summary": "TailSteer, a final-stage training framework, reduces cumulative visual drift in multi-turn editing by keeping early denoising dynamics close to the base model and learning tail-focused preservation corrections from on-policy rollouts, preserving pretrained generative and editing abilities.",
       "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.06741.png",
       "source": "HF Trending Papers",
-      "extra": "▲ 39",
+      "extra": "▲ 40",
       "category": "Other",
       "score": null,
-      "ageDays": 3,
+      "ageDays": 4,
       "fresh": true
     },
     {
@@ -1879,10 +1836,10 @@
       "summary": "A training-free, lossless speculative decoding framework exploits idle compute in chunk-interleaved full-duplex speech language models to draft and verify upcoming audio chunks, substantially reducing response and tool-call delays.",
       "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.06982.png",
       "source": "HF Trending Papers",
-      "extra": "▲ 7",
+      "extra": "▲ 9",
       "category": "Other",
       "score": null,
-      "ageDays": 3,
+      "ageDays": 4,
       "fresh": true
     },
     {
@@ -1903,10 +1860,10 @@
       "summary": "DreamFree repurposes a pretrained video diffusion model as a predictive visual encoder through representation distillation, enabling real-time robot action prediction without generating future videos and improving control and learning from video demonstrations.",
       "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.04527.png",
       "source": "HF Trending Papers",
-      "extra": "▲ 8",
+      "extra": "▲ 9",
       "category": "Other",
       "score": null,
-      "ageDays": 3,
+      "ageDays": 4,
       "fresh": true
     },
     {
@@ -1950,10 +1907,10 @@
       "summary": "Egocentric human video offers a scalable source of manipulation priors for robot learning, yet translating raw data scale into generalizable robot policies demands rigorous data curation and training recipes. We introduce Open-HumanScale, the first fully open recipe for scaling egocentric pretraining to 50,000 hours, anchored by Open-HumanScale-50K---a curated egocentric video corpus densely annotated with hand motion and natural language. Leveraging this corpus, we systematically investigate pure human pretraining via closed-loop simulation evaluations and uncover an empirical log-linear scaling law linking pretraining data hours to downstream robot success rates. Grounded in these findings, we develop HumanWAM-Vanilla, a world--action model pretrained exclusively on 50k hours of egocentric human video. Upon robot post-training, HumanWAM-Vanilla reaches 92.08% success on RoboTwin 2.0 Clean2Clean and 68.88% on Clean2Random, alongside a 14.17% mean success rate and a 19.00 mean progress score on RoboDojo. To push the capability frontier further, we explore joint human--robot pretraining with HumanWAM-Goal, a visual-goal-conditioned world--action model. Hybrid data scaling unlocks broad zero-shot generalization across both simulation and physical benchmarks, propelling post-trained RoboTwin 2.0 performance to new state-of-the-art levels: 92.70% on Clean2Clean and a substantial leap to 84.60% on Clean2Random. On physical robots, HumanWAM-Goal further exhibits emergent embodied in-context learning, dynamically adapting its manipulation behavior to unseen visual goals without parameter updates. To support reproducible scaling research in embodied AI, we open-source the Open-HumanScale-50K corpus, data curation and pretraining pipelines, alongside the pretrained and post-trained HumanWAM checkpoints, inference code, and simulation evaluation suites.",
       "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.06817.png",
       "source": "HF Trending Papers",
-      "extra": "▲ 16",
+      "extra": "▲ 31",
       "category": "Other",
       "score": null,
-      "ageDays": 3,
+      "ageDays": 4,
       "fresh": true
     },
     {
@@ -1973,10 +1930,10 @@
       "summary": "D3D is a standalone diffusion drafter that removes target-model hidden-state dependencies to enable asynchronous speculative decoding with high speedup.",
       "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.06425.png",
       "source": "HF Trending Papers",
-      "extra": "▲ 18",
+      "extra": "▲ 19",
       "category": "Other",
       "score": null,
-      "ageDays": 3,
+      "ageDays": 4,
       "fresh": true
     },
     {
@@ -1998,10 +1955,10 @@
       "summary": "LiveFoley improves streaming video-to-audio generation by using a trailing sliding window for visual alignment and expanded temporal denoising windows for audio quality with minimal latency.",
       "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.05988.png",
       "source": "HF Trending Papers",
-      "extra": "▲ 5",
+      "extra": "▲ 7",
       "category": "Other",
       "score": null,
-      "ageDays": 3,
+      "ageDays": 4,
       "fresh": true
     },
     {
@@ -2025,25 +1982,7 @@
       "extra": "▲ 2",
       "category": "Other",
       "score": null,
-      "ageDays": 3,
-      "fresh": true
-    },
-    {
-      "guid": "2611.05593",
-      "title": "GaussianRenderFormer: Transformer-based Rendering of 3D Gaussian Splats",
-      "link": "https://huggingface.co/papers/2611.05593",
-      "authors": [
-        "Shahaf Valencia Levy",
-        "Sagie Benaim"
-      ],
-      "date": "2026-11-03T15:26:14.000Z",
-      "summary": "Can a neural network learn to render 3D Gaussian splats on its own, with no rasterizer in the renderer? We present GaussianRenderFormer, a transformer that takes a set of Gaussians and a camera and outputs the image directly. Each Gaussian becomes one token in a view-independent encoder, and a view-dependent decoder turns small patches of camera rays into pixels by attending to those tokens. Trained on 26,820 Objaverse objects pruned to 20,000 Gaussians each, GaussianRenderFormer renders 300 unseen objects at 38.08 dB PSNR against the full, unpruned splats, while rasterizing the same pruned input reaches 44.02 dB. The gap is not one of generalization, and our diagnostics are consistent with a bottleneck in the view decoder: telling it the projected footprint of each Gaussian, which it could in principle infer, adds 1.4 dB. Under-training is not ruled out. Code, trained models and videos: https://svlwoof.github.io/gaussianrenderformer",
-      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.05593.png",
-      "source": "HF Trending Papers",
-      "extra": "▲ 3",
-      "category": "Other",
-      "score": null,
-      "ageDays": 3,
+      "ageDays": 4,
       "fresh": true
     },
     {
@@ -2061,7 +2000,7 @@
       "extra": "▲ 8",
       "category": "Other",
       "score": null,
-      "ageDays": 3,
+      "ageDays": 4,
       "fresh": true
     },
     {
@@ -2084,10 +2023,25 @@
       "summary": "PyRUA-REAL enables coding agents to convert physical robot exploration into persistent executable skills, achieving high success rates across real-world and benchmark tasks through recursive self-improvement.",
       "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.06768.png",
       "source": "HF Trending Papers",
-      "extra": "▲ 11",
+      "extra": "▲ 12",
       "category": "Other",
       "score": null,
-      "ageDays": 3,
+      "ageDays": 4,
+      "fresh": true
+    },
+    {
+      "guid": "https://simonwillison.net/2026/Nov/4/datasette-llm/",
+      "title": "datasette-llm 0.1a10",
+      "link": "https://simonwillison.net/2026/Nov/4/datasette-llm/",
+      "authors": [],
+      "date": "2026-11-04T15:26:02+00:00",
+      "summary": "Release: datasette-llm 0.1a10 Fixes a bug that affected my agent.datasette.io demo site, where the set of available LLM models was not correctly restricted to just those in the configuration. Tags: datasette , llm",
+      "image": "",
+      "source": "Simon Willison",
+      "announce": "",
+      "category": "Other",
+      "score": null,
+      "ageDays": 4,
       "fresh": true
     },
     {
@@ -2102,7 +2056,7 @@
       "announce": "",
       "category": "Other",
       "score": null,
-      "ageDays": 3,
+      "ageDays": 4,
       "fresh": true
     },
     {
@@ -2117,7 +2071,7 @@
       "announce": "",
       "category": "Other",
       "score": null,
-      "ageDays": 3,
+      "ageDays": 4,
       "fresh": true
     },
     {
@@ -2132,7 +2086,7 @@
       "announce": "",
       "category": "Other",
       "score": null,
-      "ageDays": 3,
+      "ageDays": 4,
       "fresh": true
     },
     {
@@ -2147,7 +2101,24 @@
       "announce": "",
       "category": "Other",
       "score": null,
-      "ageDays": 3,
+      "ageDays": 4,
+      "fresh": true
+    },
+    {
+      "guid": "https://thehackernews.com/2026/11/researchers-uncover-prompt-adware.html",
+      "title": "Researchers Uncover Prompt Adware Hidden in OpenAI Codex Jailbreak Toolkit",
+      "link": "https://thehackernews.com/2026/11/researchers-uncover-prompt-adware.html",
+      "authors": [
+        "info@thehackernews.com (The Hacker News)"
+      ],
+      "date": "Wed, 04 Nov 2026 21:36:43 +0530",
+      "summary": "Cybersecurity researchers have disclosed details of an OpenAI Codex jailbreak bundle that's designed to modify an artificial intelligence (AI) agent's trusted instructions to insert advertisements for a third-party AI gateway. The phenomenon has been codenamed prompt adware by Check Point Research. Called Haiou (meaning Seagull in Chinese), the jailbreak modifies OpenAI Codex's configuration",
+      "image": "",
+      "source": "The Hacker News",
+      "announce": "",
+      "category": "Other",
+      "score": null,
+      "ageDays": 4,
       "fresh": true
     },
     {
@@ -2164,7 +2135,7 @@
       "announce": "",
       "category": "Other",
       "score": null,
-      "ageDays": 3,
+      "ageDays": 4,
       "fresh": true
     },
     {
@@ -2181,7 +2152,7 @@
       "announce": "",
       "category": "Other",
       "score": null,
-      "ageDays": 3,
+      "ageDays": 4,
       "fresh": true
     },
     {
@@ -2198,7 +2169,7 @@
       "announce": "",
       "category": "Other",
       "score": null,
-      "ageDays": 3,
+      "ageDays": 4,
       "fresh": true
     },
     {
@@ -2215,7 +2186,7 @@
       "announce": "",
       "category": "Other",
       "score": null,
-      "ageDays": 3,
+      "ageDays": 4,
       "fresh": true
     },
     {
@@ -2232,7 +2203,7 @@
       "announce": "",
       "category": "Other",
       "score": null,
-      "ageDays": 3,
+      "ageDays": 4,
       "fresh": true
     },
     {
@@ -2249,7 +2220,7 @@
       "announce": "",
       "category": "Other",
       "score": null,
-      "ageDays": 3,
+      "ageDays": 4,
       "fresh": true
     },
     {
@@ -2266,7 +2237,7 @@
       "announce": "",
       "category": "Other",
       "score": null,
-      "ageDays": 3,
+      "ageDays": 4,
       "fresh": true
     },
     {
@@ -2283,7 +2254,7 @@
       "announce": "",
       "category": "Other",
       "score": null,
-      "ageDays": 3,
+      "ageDays": 4,
       "fresh": true
     },
     {
@@ -2300,7 +2271,7 @@
       "announce": "",
       "category": "Other",
       "score": null,
-      "ageDays": 3,
+      "ageDays": 4,
       "fresh": true
     },
     {
@@ -2317,7 +2288,7 @@
       "announce": "",
       "category": "Other",
       "score": null,
-      "ageDays": 3,
+      "ageDays": 4,
       "fresh": true
     },
     {
@@ -2334,58 +2305,7 @@
       "announce": "",
       "category": "Other",
       "score": null,
-      "ageDays": 3,
-      "fresh": true
-    },
-    {
-      "guid": "https://thehackernews.com/2026/11/barracuda-flaws-could-be-chained-to.html",
-      "title": "Barracuda Flaws Could Be Chained to Bypass Authorization and Gain Root Access",
-      "link": "https://thehackernews.com/2026/11/barracuda-flaws-could-be-chained-to.html",
-      "authors": [
-        "info@thehackernews.com (The Hacker News)"
-      ],
-      "date": "Tue, 03 Nov 2026 21:29:19 +0530",
-      "summary": "Barracuda has disclosed details of two vulnerabilities affecting its products that, if chained together, could allow an attacker to bypass authorization controls and gain root access to a susceptible device. The vulnerabilities, a pre-authentication authorization bypass vulnerability and a command injection vulnerability, have been assigned the CVE identifiers CVE-2026-116606 (CVSS score: 9.3)",
-      "image": "",
-      "source": "The Hacker News",
-      "announce": "",
-      "category": "Other",
-      "score": null,
-      "ageDays": 3,
-      "fresh": true
-    },
-    {
-      "guid": "https://thehackernews.com/2026/11/google-warns-llmjacking-attacks-are.html",
-      "title": "Google Warns LLMjacking Attacks Are Costing Some Enterprises Up to $1 Million in Cloud Charges",
-      "link": "https://thehackernews.com/2026/11/google-warns-llmjacking-attacks-are.html",
-      "authors": [
-        "info@thehackernews.com (The Hacker News)"
-      ],
-      "date": "Tue, 03 Nov 2026 21:11:53 +0530",
-      "summary": "Google on Monday warned that threat actors are hijacking enterprise access to Large Language Models (LLMs) to fraudulently leverage expensive computing resources and AI services. The tactic is called LLMjacking, a form of resource hijacking adapted for the LLM era, where an attacker obtains an API key through phishing, source code leaks, misconfigured environments, or exposed client-side code",
-      "image": "",
-      "source": "The Hacker News",
-      "announce": "",
-      "category": "Other",
-      "score": null,
-      "ageDays": 3,
-      "fresh": true
-    },
-    {
-      "guid": "https://thehackernews.com/2026/11/cpguard-update-channel-hijacked-to.html",
-      "title": "cPGuard Update Channel Hijacked to Backdoor Linux Servers and Collect Password Hashes",
-      "link": "https://thehackernews.com/2026/11/cpguard-update-channel-hijacked-to.html",
-      "authors": [
-        "info@thehackernews.com (The Hacker News)"
-      ],
-      "date": "Tue, 03 Nov 2026 20:46:32 +0530",
-      "summary": "An attacker broke into the update system of the cPGuard security tool on November 2 and used it to send a malicious script to customers' Linux servers. The script installed a backdoor and collected password hashes and other sensitive files from servers that ran it, cPGuard maker OPSSHIELD said in an advisory. In a later disclosure, OPSSHIELD said about 2,950 customer servers ran the script,",
-      "image": "",
-      "source": "The Hacker News",
-      "announce": "",
-      "category": "Other",
-      "score": null,
-      "ageDays": 3,
+      "ageDays": 4,
       "fresh": true
     },
     {
@@ -2402,7 +2322,7 @@
       "announce": "",
       "category": "Other",
       "score": null,
-      "ageDays": 4,
+      "ageDays": 5,
       "fresh": true
     },
     {
@@ -2426,7 +2346,7 @@
       "extra": "▲ 4",
       "category": "Other",
       "score": null,
-      "ageDays": 4,
+      "ageDays": 5,
       "fresh": true
     },
     {
@@ -2440,10 +2360,10 @@
       "summary": "Physical AI should include AI-augmented human intelligence via lifelong cognitive symbionts that close cognitive gaps through sensing, context retention, and proactive assistance, requiring embedded governance.",
       "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.05376.png",
       "source": "HF Trending Papers",
-      "extra": "▲ 7",
+      "extra": "▲ 100",
       "category": "Other",
       "score": null,
-      "ageDays": 4,
+      "ageDays": 5,
       "fresh": true
     },
     {
@@ -2467,10 +2387,10 @@
       "summary": "A selective harness-rescue training method uses specialized sibling harnesses to replace failed reinforcement learning rollouts and transfer their benefits into a single policy that performs better under the original base harness.",
       "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.04277.png",
       "source": "HF Trending Papers",
-      "extra": "▲ 59",
+      "extra": "▲ 66",
       "category": "Other",
       "score": null,
-      "ageDays": 4,
+      "ageDays": 5,
       "fresh": true
     },
     {
@@ -2496,10 +2416,10 @@
       "summary": "VisSearch-Bench evaluates multimodal agents on visually intensive search tasks that require integrating visual context with external information, showing that even the best system fully solves only 26.47% of tasks.",
       "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.04894.png",
       "source": "HF Trending Papers",
-      "extra": "▲ 19",
+      "extra": "▲ 22",
       "category": "Other",
       "score": null,
-      "ageDays": 4,
+      "ageDays": 5,
       "fresh": true
     },
     {
@@ -2514,10 +2434,10 @@
       "summary": "Halley is a predictive control framework for AI data center optical networks that improves effective throughput and reduces capacity needs by forecasting failures and controlling resources with formal guarantees.",
       "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.04408.png",
       "source": "HF Trending Papers",
-      "extra": "▲ 32",
+      "extra": "▲ 33",
       "category": "Other",
       "score": null,
-      "ageDays": 4,
+      "ageDays": 5,
       "fresh": true
     },
     {
@@ -2535,7 +2455,7 @@
       "extra": "▲ 2",
       "category": "Other",
       "score": null,
-      "ageDays": 4,
+      "ageDays": 5,
       "fresh": true
     },
     {
@@ -2552,7 +2472,25 @@
       "extra": "▲ 0",
       "category": "Other",
       "score": null,
-      "ageDays": 4,
+      "ageDays": 5,
+      "fresh": true
+    },
+    {
+      "guid": "2611.05593",
+      "title": "GaussianRenderFormer: Transformer-based Rendering of 3D Gaussian Splats",
+      "link": "https://huggingface.co/papers/2611.05593",
+      "authors": [
+        "Shahaf Valencia Levy",
+        "Sagie Benaim"
+      ],
+      "date": "2026-11-03T15:26:14.000Z",
+      "summary": "Can a neural network learn to render 3D Gaussian splats on its own, with no rasterizer in the renderer? We present GaussianRenderFormer, a transformer that takes a set of Gaussians and a camera and outputs the image directly. Each Gaussian becomes one token in a view-independent encoder, and a view-dependent decoder turns small patches of camera rays into pixels by attending to those tokens. Trained on 26,820 Objaverse objects pruned to 20,000 Gaussians each, GaussianRenderFormer renders 300 unseen objects at 38.08 dB PSNR against the full, unpruned splats, while rasterizing the same pruned input reaches 44.02 dB. The gap is not one of generalization, and our diagnostics are consistent with a bottleneck in the view decoder: telling it the projected footprint of each Gaussian, which it could in principle infer, adds 1.4 dB. Under-training is not ruled out. Code, trained models and videos: https://svlwoof.github.io/gaussianrenderformer",
+      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.05593.png",
+      "source": "HF Trending Papers",
+      "extra": "▲ 3",
+      "category": "Other",
+      "score": null,
+      "ageDays": 5,
       "fresh": true
     },
     {
@@ -2573,7 +2511,7 @@
       "extra": "▲ 3",
       "category": "Other",
       "score": null,
-      "ageDays": 4,
+      "ageDays": 5,
       "fresh": true
     },
     {
@@ -2588,7 +2526,7 @@
       "announce": "",
       "category": "Other",
       "score": null,
-      "ageDays": 4,
+      "ageDays": 5,
       "fresh": true
     },
     {
@@ -2603,7 +2541,7 @@
       "announce": "",
       "category": "Other",
       "score": null,
-      "ageDays": 4,
+      "ageDays": 5,
       "fresh": true
     },
     {
@@ -2618,24 +2556,58 @@
       "announce": "",
       "category": "Other",
       "score": null,
-      "ageDays": 4,
+      "ageDays": 5,
       "fresh": true
     },
     {
-      "guid": "https://krebsonsecurity.com/?p=74548",
-      "title": "Tech Firms Dismantle Botnet That Turned 1.3M TV Boxes Into Proxies",
-      "link": "https://krebsonsecurity.com/2026/11/tech-firms-dismantle-botnet-that-turned-1-3m-tv-boxes-into-proxies/",
+      "guid": "https://thehackernews.com/2026/11/barracuda-flaws-could-be-chained-to.html",
+      "title": "Barracuda Flaws Could Be Chained to Bypass Authorization and Gain Root Access",
+      "link": "https://thehackernews.com/2026/11/barracuda-flaws-could-be-chained-to.html",
       "authors": [
-        "BrianKrebs"
+        "info@thehackernews.com (The Hacker News)"
       ],
-      "date": "Tue, 03 Nov 2026 02:24:31 +0000",
-      "summary": "Google said today it worked with industry partners to dismantle a botnet made up of more than 1.3 million Android TV set-top boxes that ship with malicious software which secretly rents the user’s Internet connection out to strangers and conducts advertising fraud. Experts involved in the takedown say the action is likely to sever the botnet’s access to more than 10 million additional compromised systems, including other Internet of Things (IoT) products such as Android-based healthcare devices and karaoke machines. A report from the Google Threat Intelligence Group (GTIG) said Google has severed ties with Videostrong Technology Co. , a TV box manufacturer in China that GTIG and other industry experts concluded was responsible for including malware that enrolled more than 1.3 million set-top boxes in a botnet dubbed “ XCPE ” (named after one of the malware’s core code components). The global distribution of XCPE botnet infections. Image: Google Threat Intelligence Group. The report said the XCPE botnet loaded the user’s device with software that makes their Internet address available for resale by multiple “residential proxy” services, which allow customers to rent Internet addresses as a way to anonymize their web traffic or spoof their true location. As detailed in several stories here over the past year , residential proxy services are a major source of unwanted and often malicious traffic, including account takeover activity, advertising fraud, and mass content scraping for AI projects. “Videostrong monetized the backdoor by selling access to criminal affiliates and loading those affiliates’ malware modules onto infected devices,” the GTIG post reads, noting that Google took legal action to take down the domains and servers Videostrong used to control the botnet and install additional malware. “A device manufacturer intentionally infecting their users with malware is an unacceptable breach of trust, and represents a serious risk to those users. Without users’ knowledge or consent, infected devices were offered as a distribution mechanism for a wide array of criminal actors.” The report notes that while TV boxes made up the the majority of the botnet, the same XCPE malware was found in other Android-based IoT products, including telehealth devices, karaoke machines, and even digital signage systems . Google said it requires all Android device makers to pass compatibility and security tests to ensure their products don’t harm users, but that Videostrong nevertheless found a way to load their malicious software immediately after a user boots up one of these devices for the first time (Google says it has since addressed that weakness). The GTIG report calls out a number of residential proxy providers whose software development kits were routinely downloaded by devices infected by the XCPE botnet. Those include AppSalt , also known as Honeygain , which was developed by the Vilnius, Lithuania-based Oxylabs . In October 2026, Oxylabs and Honeygain were reorganized as independent platforms under an umbrella entity called Source , which received $130 million in funding from private equity firm Warburg Pincus that reportedly valued the business at $3.6 billion. Another provider linked to the botnet was NetNut , a once sprawling residential proxy company operated by the publicly-traded Israeli company Alarum Technologies . In July 2026, the FBI worked with industry partners to seize hundreds of domains associated with NetNut , saying the company was responsible for operating a separate botnet called Popa that enslaved TV boxes as residential proxies. Other proxy providers named in the GTIG report include EarnFM , Traffmonetizer , Jaguar , LINKFOG , BMW/IPWeb and GaGaNode . Google’s announcement credits a number of industry partners, including Synthient , a startup that tracks proxy providers. In January 2026, Synthient published research into the rapid spread of the Kimwolf botnet, which at the time was hammering networks worldwide with record-smashing DDoS attacks . Synthient documented how Kimwolf infected millions of Android set-top boxes virtually overnight, using a widespread vulnerability in these residential proxy services to compromise other Android-based devices inside the local networks of unsuspecting TV box users. Synthient’s research caused dozens of residential proxy providers to patch their networks, which helped to fragment the Kimwolf botnet into much smaller pieces that made its incessant and disruptive DDoS attacks far easier for network operators to manage. It also attracted the attention of the Motion Picture Association (MPA), a trade group representing the major Hollywood studios, which partnered with Synthient to purchase and tear apart a number of popular Android TV set-top boxes — including some that were being infected by Kimwolf and other IoT botnets. In a report published today, Synthient examined a popular, pre-infected TV box sold under the brand MECOOL by a publicly traded company in China called Skyworth Technology , concluding that MECOOL also bundled the malware from Videostrong Technology Co. and likewise installed AppSalt/Honeygain and other proxy components. The MECOOL storefront and marketing. Image: Synthient.com. Synthient founder Ben Brundage told KrebsOnSecurity that Videostrong’s malware also distributed software for the proxy service Grass . In our November 2025 story, “ Is Your Android TV Streaming Box Part of a Botnet? ” we quoted a researcher from Censys who found the popular Superbox TV streaming device bundled Grass’s residential proxy software. We also quoted the Grass founder, who denied any affiliation with the TV box maker. That November 2025 story noted that Superbox and similar Android TV set-top boxes gain new customers primarily by engaging influencers on Tiktok and other social networks who praise the product’s ability to offer hundreds of (pirated) pay TV streaming services for a one-time fee. Likewise, Synthient’s report observes that the MECOOL set-top boxes exploded in popularity after the product was mentioned in 2023 by the Youtube channel Linus Tech Tips, which has an audience of nearly 17 million subscribers [Linus Tech Tips said in a statement shared with Synthient that it has since updated the video to explicitly frame the product as a scam and have removed all associated affiliate links]. The popular Youtube channel Linus Tech Tips discussing MECOOL TV streaming boxes. The GTIG report estimates the XCPE botnet takedown should sever access to at least 10 million additional compromised devices, noting that the various proxy and ad fraud affiliates of Videostrong “each have diversified distribution channels for their modules beyond XCPE.” Synthient’s Brundage echoed that conclusion, calling the 1.3 million number “highly conservative.” “The scale of affected devices is likely way higher,” he said. “This is probably the largest operation against backdoored TV boxes that we’ve seen.” Update, Nov. 5, 11:07 a.m. ET: In a statement shared post-publication, Oxylabs said that while its system is built so that a device can’t be used as a proxy exit node unless they receive a signal that it has consented, the developer faked these signals. “We have been conducting regular audits of the applications provided by our partners,” the statement reads. “However, following this incident, we will improve the application and application’s build fingerprinting logic to better detect cases where the SDK is running on an unapproved build of an originally authorized application.” The statement said Oxylabs has no record of any company called Videostrong Technology Co., but it did find between is suppliers the domain “com.abc[.]nexus,” mentioned in the GTIG report as an external malware loader. “As soon as we saw that, we suspended the relationship and sent them a formal legal inquiry,” the statement reads. “This supplier accounts for less than 1% of our IP address pool. We had a signed contract with them, they assured our QA team that users had given consent, and we saw the consent flow ourselves.” Further reading: Plume Security Labs white paper on the XCPE botnet (PDF) Black Lotus Labs writeup on LinkedIn TrendAI’s analysis Synthient’s list of affected devices, broken down by model number",
+      "date": "Tue, 03 Nov 2026 21:29:19 +0530",
+      "summary": "Barracuda has disclosed details of two vulnerabilities affecting its products that, if chained together, could allow an attacker to bypass authorization controls and gain root access to a susceptible device. The vulnerabilities, a pre-authentication authorization bypass vulnerability and a command injection vulnerability, have been assigned the CVE identifiers CVE-2026-116606 (CVSS score: 9.3)",
       "image": "",
-      "source": "Krebs on Security",
+      "source": "The Hacker News",
       "announce": "",
       "category": "Other",
       "score": null,
-      "ageDays": 4,
+      "ageDays": 5,
+      "fresh": true
+    },
+    {
+      "guid": "https://thehackernews.com/2026/11/google-warns-llmjacking-attacks-are.html",
+      "title": "Google Warns LLMjacking Attacks Are Costing Some Enterprises Up to $1 Million in Cloud Charges",
+      "link": "https://thehackernews.com/2026/11/google-warns-llmjacking-attacks-are.html",
+      "authors": [
+        "info@thehackernews.com (The Hacker News)"
+      ],
+      "date": "Tue, 03 Nov 2026 21:11:53 +0530",
+      "summary": "Google on Monday warned that threat actors are hijacking enterprise access to Large Language Models (LLMs) to fraudulently leverage expensive computing resources and AI services. The tactic is called LLMjacking, a form of resource hijacking adapted for the LLM era, where an attacker obtains an API key through phishing, source code leaks, misconfigured environments, or exposed client-side code",
+      "image": "",
+      "source": "The Hacker News",
+      "announce": "",
+      "category": "Other",
+      "score": null,
+      "ageDays": 5,
+      "fresh": true
+    },
+    {
+      "guid": "https://thehackernews.com/2026/11/cpguard-update-channel-hijacked-to.html",
+      "title": "cPGuard Update Channel Hijacked to Backdoor Linux Servers and Collect Password Hashes",
+      "link": "https://thehackernews.com/2026/11/cpguard-update-channel-hijacked-to.html",
+      "authors": [
+        "info@thehackernews.com (The Hacker News)"
+      ],
+      "date": "Tue, 03 Nov 2026 20:46:32 +0530",
+      "summary": "An attacker broke into the update system of the cPGuard security tool on November 2 and used it to send a malicious script to customers' Linux servers. The script installed a backdoor and collected password hashes and other sensitive files from servers that ran it, cPGuard maker OPSSHIELD said in an advisory. In a later disclosure, OPSSHIELD said about 2,950 customer servers ran the script,",
+      "image": "",
+      "source": "The Hacker News",
+      "announce": "",
+      "category": "Other",
+      "score": null,
+      "ageDays": 5,
       "fresh": true
     },
     {
@@ -2652,7 +2624,7 @@
       "announce": "",
       "category": "Other",
       "score": null,
-      "ageDays": 4,
+      "ageDays": 5,
       "fresh": true
     },
     {
@@ -2669,7 +2641,7 @@
       "announce": "",
       "category": "Other",
       "score": null,
-      "ageDays": 4,
+      "ageDays": 5,
       "fresh": true
     },
     {
@@ -2686,7 +2658,7 @@
       "announce": "",
       "category": "Other",
       "score": null,
-      "ageDays": 4,
+      "ageDays": 5,
       "fresh": true
     },
     {
@@ -2703,7 +2675,7 @@
       "announce": "",
       "category": "Other",
       "score": null,
-      "ageDays": 4,
+      "ageDays": 5,
       "fresh": true
     },
     {
@@ -2720,7 +2692,7 @@
       "announce": "",
       "category": "Other",
       "score": null,
-      "ageDays": 4,
+      "ageDays": 5,
       "fresh": true
     },
     {
@@ -2737,7 +2709,7 @@
       "announce": "",
       "category": "Other",
       "score": null,
-      "ageDays": 4,
+      "ageDays": 5,
       "fresh": true
     },
     {
@@ -2754,7 +2726,7 @@
       "announce": "",
       "category": "Other",
       "score": null,
-      "ageDays": 4,
+      "ageDays": 5,
       "fresh": true
     },
     {
@@ -2771,7 +2743,7 @@
       "announce": "",
       "category": "Other",
       "score": null,
-      "ageDays": 4,
+      "ageDays": 5,
       "fresh": true
     },
     {
@@ -2788,41 +2760,7 @@
       "announce": "",
       "category": "Other",
       "score": null,
-      "ageDays": 4,
-      "fresh": true
-    },
-    {
-      "guid": "https://thehackernews.com/2026/11/google-disrupts-13-million-device.html",
-      "title": "Google Disrupts 1.3 Million-Device Android Botnet, Says TV Box Maker Sold Criminal Access",
-      "link": "https://thehackernews.com/2026/11/google-disrupts-13-million-device.html",
-      "authors": [
-        "info@thehackernews.com (The Hacker News)"
-      ],
-      "date": "Mon, 02 Nov 2026 21:20:26 +0530",
-      "summary": "A botnet of more than 1.3 million Android devices, mostly TV set-top boxes, lost control of its servers in late October in a takedown led by Google. Google says it is highly confident that device maker Videostrong intentionally put a backdoor in the boxes and sold access to criminals. They used the boxes for ad fraud and to pass other people's internet traffic through owners' home",
-      "image": "",
-      "source": "The Hacker News",
-      "announce": "",
-      "category": "Other",
-      "score": null,
-      "ageDays": 4,
-      "fresh": true
-    },
-    {
-      "guid": "https://thehackernews.com/2026/11/darkblinders-compromises-israeli-target.html",
-      "title": "DarkBlinders Compromises Israeli Target and Iraqi Kurdish Government Cloud Environment",
-      "link": "https://thehackernews.com/2026/11/darkblinders-compromises-israeli-target.html",
-      "authors": [
-        "info@thehackernews.com (The Hacker News)"
-      ],
-      "date": "Mon, 02 Nov 2026 20:16:05 +0530",
-      "summary": "Cybersecurity researchers have disclosed details of a cyber espionage campaign targeting Israel and the Kurdistan Region of Iraq by an Iran state-aligned threat actor between August and October 2026. According to a report published by Dream Research Labs, the campaign has led to the compromise of a high-profile individual in Israel, along with additional compromises affecting a government cloud",
-      "image": "",
-      "source": "The Hacker News",
-      "announce": "",
-      "category": "Other",
-      "score": null,
-      "ageDays": 4,
+      "ageDays": 5,
       "fresh": true
     },
     {
@@ -2839,7 +2777,7 @@
       "announce": "",
       "category": "Other",
       "score": null,
-      "ageDays": 4,
+      "ageDays": 5,
       "fresh": true
     },
     {
@@ -2859,7 +2797,7 @@
       "extra": "▲ 8",
       "category": "Other",
       "score": null,
-      "ageDays": 5,
+      "ageDays": 6,
       "fresh": true
     },
     {
@@ -2882,10 +2820,10 @@
       "summary": "Long-term memory enables large language model (LLM) agents to provide continuous personalized assistance by retaining user information across interactions. Existing systems support this process through fact extraction, organization, updating, and retrieval, but largely maintain memories as independent facts. This fact-centric paradigm may overlook how new facts update, constrain, or conflict with earlier ones, while leaving their applicability, role, and priority for the current request implicit. In this paper, we introduce EvoMemState, a state-centric framework that augments persistent facts with two complementary states: Relational States that capture how facts remain valid and relate to one another as memory evolves, and a Reasoning State that determines how these facts should be applied to the current request. Specifically, EvoMemState consists of three key components: (i) Ontology-Guided Memory State Induction extracts Persistent Facts and constructs Relational States that maintain their validity, scope, and evolving relations. (ii) RL-Based State Evolution internalizes memory-use experience into a policy through reinforcement learning to generate a request-specific Reasoning State. (iii) State-Aware Reasoning then combines the relevant facts with their Relational States and the generated Reasoning State to guide the personal agent. Extensive experiments on long-term dialogue and memory-use benchmarks demonstrate consistent improvements over existing memory systems in retrieval completeness and memory-grounded response accuracy. Our code and implementation details are available at https://github.com/XMUDeepLIT/EvoMemState.git.",
       "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.03743.png",
       "source": "HF Trending Papers",
-      "extra": "▲ 23",
+      "extra": "▲ 32",
       "category": "Other",
       "score": null,
-      "ageDays": 5,
+      "ageDays": 6,
       "fresh": true
     },
     {
@@ -2905,7 +2843,7 @@
       "extra": "▲ 4",
       "category": "Other",
       "score": null,
-      "ageDays": 5,
+      "ageDays": 6,
       "fresh": true
     },
     {
@@ -2927,7 +2865,7 @@
       "extra": "▲ 3",
       "category": "Other",
       "score": null,
-      "ageDays": 5,
+      "ageDays": 6,
       "fresh": true
     },
     {
@@ -2945,10 +2883,10 @@
       "summary": "A four-parameter analytical law predicts LLM inference energy across architectures, revealing quadratic prefill costs, GQA savings, and super-linear growth from reasoning budgets and agentic serving.",
       "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.03330.png",
       "source": "HF Trending Papers",
-      "extra": "▲ 9",
+      "extra": "▲ 11",
       "category": "Other",
       "score": null,
-      "ageDays": 5,
+      "ageDays": 6,
       "fresh": true
     },
     {
@@ -2970,7 +2908,7 @@
       "extra": "▲ 3",
       "category": "Other",
       "score": null,
-      "ageDays": 5,
+      "ageDays": 6,
       "fresh": true
     },
     {
@@ -2984,10 +2922,10 @@
       "summary": "Rewriting reasoning histories into compact state records reduces future reasoning length and token costs in open-weight models without retraining.",
       "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.03852.png",
       "source": "HF Trending Papers",
-      "extra": "▲ 10",
+      "extra": "▲ 15",
       "category": "Other",
       "score": null,
-      "ageDays": 5,
+      "ageDays": 6,
       "fresh": true
     },
     {
@@ -3002,7 +2940,7 @@
       "announce": "",
       "category": "Other",
       "score": null,
-      "ageDays": 5,
+      "ageDays": 6,
       "fresh": true
     },
     {
@@ -3017,7 +2955,7 @@
       "announce": "",
       "category": "Other",
       "score": null,
-      "ageDays": 5,
+      "ageDays": 6,
       "fresh": true
     },
     {
@@ -3032,7 +2970,41 @@
       "announce": "",
       "category": "Other",
       "score": null,
-      "ageDays": 5,
+      "ageDays": 6,
+      "fresh": true
+    },
+    {
+      "guid": "https://thehackernews.com/2026/11/google-disrupts-13-million-device.html",
+      "title": "Google Disrupts 1.3 Million-Device Android Botnet, Says TV Box Maker Sold Criminal Access",
+      "link": "https://thehackernews.com/2026/11/google-disrupts-13-million-device.html",
+      "authors": [
+        "info@thehackernews.com (The Hacker News)"
+      ],
+      "date": "Mon, 02 Nov 2026 21:20:26 +0530",
+      "summary": "A botnet of more than 1.3 million Android devices, mostly TV set-top boxes, lost control of its servers in late October in a takedown led by Google. Google says it is highly confident that device maker Videostrong intentionally put a backdoor in the boxes and sold access to criminals. They used the boxes for ad fraud and to pass other people's internet traffic through owners' home",
+      "image": "",
+      "source": "The Hacker News",
+      "announce": "",
+      "category": "Other",
+      "score": null,
+      "ageDays": 6,
+      "fresh": true
+    },
+    {
+      "guid": "https://thehackernews.com/2026/11/darkblinders-compromises-israeli-target.html",
+      "title": "DarkBlinders Compromises Israeli Target and Iraqi Kurdish Government Cloud Environment",
+      "link": "https://thehackernews.com/2026/11/darkblinders-compromises-israeli-target.html",
+      "authors": [
+        "info@thehackernews.com (The Hacker News)"
+      ],
+      "date": "Mon, 02 Nov 2026 20:16:05 +0530",
+      "summary": "Cybersecurity researchers have disclosed details of a cyber espionage campaign targeting Israel and the Kurdistan Region of Iraq by an Iran state-aligned threat actor between August and October 2026. According to a report published by Dream Research Labs, the campaign has led to the compromise of a high-profile individual in Israel, along with additional compromises affecting a government cloud",
+      "image": "",
+      "source": "The Hacker News",
+      "announce": "",
+      "category": "Other",
+      "score": null,
+      "ageDays": 6,
       "fresh": true
     },
     {
@@ -3049,7 +3021,7 @@
       "announce": "",
       "category": "Other",
       "score": null,
-      "ageDays": 5,
+      "ageDays": 6,
       "fresh": true
     },
     {
@@ -3066,7 +3038,7 @@
       "announce": "",
       "category": "Other",
       "score": null,
-      "ageDays": 5,
+      "ageDays": 6,
       "fresh": true
     },
     {
@@ -3083,7 +3055,7 @@
       "announce": "",
       "category": "Other",
       "score": null,
-      "ageDays": 5,
+      "ageDays": 6,
       "fresh": true
     },
     {
@@ -3104,10 +3076,10 @@
       "summary": "DPDM improves agent decision accuracy by combining frozen language-model representations with a shared pretrained conditional predictor that learns from deployment evidence without parameter updates.",
       "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.02075.png",
       "source": "HF Trending Papers",
-      "extra": "▲ 79",
+      "extra": "▲ 81",
       "category": "Other",
       "score": null,
-      "ageDays": 6,
+      "ageDays": 7,
       "fresh": true
     },
     {
@@ -3127,7 +3099,7 @@
       "extra": "▲ 16",
       "category": "Other",
       "score": null,
-      "ageDays": 6,
+      "ageDays": 7,
       "fresh": true
     },
     {
@@ -3142,7 +3114,7 @@
       "announce": "",
       "category": "Other",
       "score": null,
-      "ageDays": 6,
+      "ageDays": 7,
       "fresh": true
     },
     {
@@ -3157,7 +3129,7 @@
       "announce": "",
       "category": "Other",
       "score": null,
-      "ageDays": 6,
+      "ageDays": 7,
       "fresh": true
     },
     {
@@ -3176,11 +3148,11 @@
       "summary": "Benchmark compression reduces the often prohibitive time and cost of model evaluation by evaluating models on a small benchmark subset that closely matches full-benchmark results. To quantify estimation error, we derive an accurate analytical approximation to the error distribution when estimating full-benchmark scores from a subset, showing that most subsets yield small errors, while a few produce much larger errors, resulting in a long-tailed distribution. This means random sampling alone can achieve surprisingly strong performance with high probability, but remains unstable due to rare large errors. We further show that this instability is inherent to modern foundation models and persists even as more models are evaluated. Based on these findings, we introduce BestRand, a stable and low-cost benchmark compression method that preserves the efficiency of random sampling while substantially reducing its high-error tail. We validate BestRand on 70+ text, multimodal, and agent benchmarks, and further extend it to VLA evaluation. Compared with competitive methods, BestRand reduces high-error risk by 50.2% and estimation error by 16.4% on average, while requiring only 51.3% of the construction cost. It further reduces OOD estimation error by 21.8% on average across score-range, model-family, and temporal shifts. Together, our theory provides practical guidance for understanding and predicting the accuracy and reliability of benchmark compression, while BestRand enables stable and accurate compression at low cost. The code and data are publicly available onhttps://github.com/George-Ling3/BestRand.",
       "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.00883.png",
       "source": "HF Trending Papers",
-      "extra": "▲ 47",
+      "extra": "▲ 50",
       "category": "Other",
       "score": null,
-      "ageDays": 7,
-      "fresh": true
+      "ageDays": 8,
+      "fresh": false
     },
     {
       "guid": "https://simonwillison.net/2026/Oct/30/nesformer/",
@@ -3194,8 +3166,8 @@
       "announce": "",
       "category": "Other",
       "score": null,
-      "ageDays": 7,
-      "fresh": true
+      "ageDays": 8,
+      "fresh": false
     },
     {
       "guid": "https://www.schneier.com/?p=72713",
@@ -3211,25 +3183,8 @@
       "announce": "",
       "category": "Other",
       "score": null,
-      "ageDays": 7,
-      "fresh": true
-    },
-    {
-      "guid": "https://www.schneier.com/?p=72874",
-      "title": "Bloatware in Aftermarket Auto Parts",
-      "link": "https://www.schneier.com/blog/archives/2026/10/bloatware-in-aftermarket-auto-parts.html",
-      "authors": [
-        "Bruce Schneier"
-      ],
-      "date": "2026-10-30T15:20:02Z",
-      "summary": "This story is interesting: One Civic owner purchased a cheap aftermarket head unit off Amazon, and decided to have Claude work its magic on it, like it would a smart TV. What was reportedly discovered isn’t surprising, but is worth knowing about. Among the pre-installed bloatware—­or spyware, if you’re being less charitable­—was a voice assistant equipped with WebView, an Android system component that lets apps display content off the web. This apparently always used about a third of processing power, even while idle, which isn’t great. There were also Baidu location services, a call recorder (!), a DAB radio client that is pretty much useless in the U.S., and Adobe Acrobat, presumably so your passenger can entertain themselves with PDFs on the go...",
-      "image": "",
-      "source": "Schneier on Security",
-      "announce": "",
-      "category": "Other",
-      "score": null,
-      "ageDays": 7,
-      "fresh": true
+      "ageDays": 8,
+      "fresh": false
     },
     {
       "guid": "2610.41789",
@@ -3249,7 +3204,7 @@
       "extra": "▲ 2",
       "category": "Other",
       "score": null,
-      "ageDays": 8,
+      "ageDays": 9,
       "fresh": false
     },
     {
@@ -3270,10 +3225,10 @@
       "summary": "Hybrid Computer Use unifies programmatic, accessibility-based, and visual interaction channels to improve agent efficiency and success on complex desktop tasks.",
       "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.41432.png",
       "source": "HF Trending Papers",
-      "extra": "▲ 15",
+      "extra": "▲ 17",
       "category": "Other",
       "score": null,
-      "ageDays": 8,
+      "ageDays": 9,
       "fresh": false
     },
     {
@@ -3288,7 +3243,7 @@
       "announce": "",
       "category": "Other",
       "score": null,
-      "ageDays": 8,
+      "ageDays": 9,
       "fresh": false
     },
     {
@@ -3303,7 +3258,24 @@
       "announce": "",
       "category": "Other",
       "score": null,
-      "ageDays": 8,
+      "ageDays": 9,
+      "fresh": false
+    },
+    {
+      "guid": "https://www.schneier.com/?p=72874",
+      "title": "Bloatware in Aftermarket Auto Parts",
+      "link": "https://www.schneier.com/blog/archives/2026/10/bloatware-in-aftermarket-auto-parts.html",
+      "authors": [
+        "Bruce Schneier"
+      ],
+      "date": "2026-10-30T15:20:02Z",
+      "summary": "This story is interesting: One Civic owner purchased a cheap aftermarket head unit off Amazon, and decided to have Claude work its magic on it, like it would a smart TV. What was reportedly discovered isn’t surprising, but is worth knowing about. Among the pre-installed bloatware—­or spyware, if you’re being less charitable­—was a voice assistant equipped with WebView, an Android system component that lets apps display content off the web. This apparently always used about a third of processing power, even while idle, which isn’t great. There were also Baidu location services, a call recorder (!), a DAB radio client that is pretty much useless in the U.S., and Adobe Acrobat, presumably so your passenger can entertain themselves with PDFs on the go...",
+      "image": "",
+      "source": "Schneier on Security",
+      "announce": "",
+      "category": "Other",
+      "score": null,
+      "ageDays": 9,
       "fresh": false
     },
     {
@@ -3323,7 +3295,7 @@
       "extra": "▲ 1",
       "category": "Other",
       "score": null,
-      "ageDays": 9,
+      "ageDays": 10,
       "fresh": false
     },
     {
@@ -3338,7 +3310,7 @@
       "announce": "",
       "category": "Other",
       "score": null,
-      "ageDays": 9,
+      "ageDays": 10,
       "fresh": false
     },
     {
@@ -3353,7 +3325,7 @@
       "announce": "",
       "category": "Other",
       "score": null,
-      "ageDays": 9,
+      "ageDays": 10,
       "fresh": false
     },
     {
@@ -3365,21 +3337,6 @@
       "summary": "GitHub Octoverse 2026 I'm at GitHub Universe today (GitHub gave me a free ticket through their \"GitHub Stars\" program). EVP Jay Parikh just announced this year's Octoverse report, and highlighted these numbers in particular: This is a pretty stark representation of the impact of agentic engineering on GitHub. In 2026, merged pull requests tripled in less than a year to 220 million per month. Commits more than tripled to 7.38 billion per month, with most of that increase in the second half of this year. New repository rate doubled this year, to 30.3 million per month. The report includes new numbers by industry, and breaks out numbers for repositories that involve \"interoperability or reverse engineering\". The methodology section includes notes about how they did this: Top countries by pushes to public repositories, adjusted by profile location . Pushes from each country were summed across the Octoverse year. To adjust for biases caused by VPN usage, LLM classification was used to extract the ISO 3166-1 alpha-2 code from the profiles of GitHub users who contributed pushes during this period [...] Industry . Public repositories created 2022 to 2026 were sorted into NAICS sectors by a fine-tuned multilingual embedding model using name, description, topics, and README, from random samples per year. [...] Interoperability . Counts public repositories created each year whose name, description, topics, or README mention interoperability or reverse engineering, or related terms, such as clean room implementation, drop-in replacement, or protocol re-implementation. Tags: github , ai , generative-ai , llms , coding-agents , disclosures , agentic-engineering",
       "image": "",
       "source": "Simon Willison",
-      "announce": "",
-      "category": "Other",
-      "score": null,
-      "ageDays": 9,
-      "fresh": false
-    },
-    {
-      "guid": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/introducing-genie-4/",
-      "title": "We’re announcing Genie 4, our new world model for real-time interactive simulation.",
-      "link": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/introducing-genie-4/",
-      "authors": [],
-      "date": "Tue, 27 Oct 2026 16:00:00 +0000",
-      "summary": "Today, we’re announcing our research on Genie 4, our new world model that brings unprecedented realism and native audio to real-time interactive simulation.The Genie 4 m…",
-      "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/genie-3__blog__social-og.max-600x600.format-webp.webp",
-      "source": "DeepMind",
       "announce": "",
       "category": "Other",
       "score": null,
@@ -3398,7 +3355,7 @@
       "announce": "",
       "category": "Other",
       "score": null,
-      "ageDays": 10,
+      "ageDays": 11,
       "fresh": false
     },
     {
@@ -3413,7 +3370,7 @@
       "announce": "",
       "category": "Other",
       "score": null,
-      "ageDays": 10,
+      "ageDays": 11,
       "fresh": false
     },
     {
@@ -3428,7 +3385,7 @@
       "announce": "",
       "category": "Other",
       "score": null,
-      "ageDays": 10,
+      "ageDays": 11,
       "fresh": false
     },
     {
@@ -3445,7 +3402,22 @@
       "announce": "",
       "category": "Other",
       "score": null,
-      "ageDays": 10,
+      "ageDays": 11,
+      "fresh": false
+    },
+    {
+      "guid": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/introducing-genie-4/",
+      "title": "We’re announcing Genie 4, our new world model for real-time interactive simulation.",
+      "link": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/introducing-genie-4/",
+      "authors": [],
+      "date": "Tue, 27 Oct 2026 16:00:00 +0000",
+      "summary": "Today, we’re announcing our research on Genie 4, our new world model that brings unprecedented realism and native audio to real-time interactive simulation.The Genie 4 m…",
+      "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/genie-3__blog__social-og.max-600x600.format-webp.webp",
+      "source": "DeepMind",
+      "announce": "",
+      "category": "Other",
+      "score": null,
+      "ageDays": 12,
       "fresh": false
     },
     {
@@ -3461,10 +3433,10 @@
       "summary": "OpenFrontiers links a broad corpus of open research problems with a formally graded benchmark of recently resolved mathematics problems to evaluate LLM agents’ ability to rediscover solutions under different information-access conditions.",
       "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.37739.png",
       "source": "HF Trending Papers",
-      "extra": "▲ 3",
+      "extra": "▲ 6",
       "category": "Other",
       "score": null,
-      "ageDays": 11,
+      "ageDays": 12,
       "fresh": false
     },
     {
@@ -3479,10 +3451,10 @@
       "summary": "Classification accuracy and true-positive and false-positive rates alone do not determine whether restarting an AI agent improves success. Using an exact alarm-to-action identity for an independent clean restart with zero monitoring overhead, we show analytically that a monitor with fixed 90% accuracy can swing from a five-percentage-point loss to a 35-point gain in success rate, depending solely on the replacement attempt's residual-budget success probability. We introduce two techniques for evaluating monitors and progress signals in decision terms. First, a decision-sufficiency criterion, a binary-action specialization of Blackwell's comparison of experiments, identifies which progress representations or context compressions preserve the information needed to choose optimally between the specified actions, independent of trace reconstruction fidelity. Second, a finite-sample, model-free decision audit uses simultaneous binomial intervals over existing agent traces, without additional model calls, to certify a preference for \"restart\" or \"continue\" under stated sampling assumptions, or return \"abstain\" when evidence is insufficient. In a study of 194 externally evaluated model executions on 19 selected SymPy issues from SWE-bench Verified, with a retrospective audit of 130 of these traces, we find a 2.29-point apparent restart gain traced to a single surviving failed attempt, a 42.29-point loss on a second model, no positive replication of the initial gain on prospective task cohorts, and zero of 103 live comparisons meeting the specified certification bar. These results motivate evaluating agent monitors through recovery opportunity, decision value, and statistical support, rather than classification performance alone.",
       "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.36544.png",
       "source": "HF Trending Papers",
-      "extra": "▲ 3",
+      "extra": "▲ 4",
       "category": "Other",
       "score": null,
-      "ageDays": 11,
+      "ageDays": 12,
       "fresh": false
     },
     {
@@ -3497,7 +3469,7 @@
       "announce": "",
       "category": "Other",
       "score": null,
-      "ageDays": 11,
+      "ageDays": 12,
       "fresh": false
     },
     {
@@ -3512,7 +3484,7 @@
       "announce": "",
       "category": "Other",
       "score": null,
-      "ageDays": 11,
+      "ageDays": 12,
       "fresh": false
     },
     {
@@ -3527,7 +3499,7 @@
       "announce": "",
       "category": "Other",
       "score": null,
-      "ageDays": 11,
+      "ageDays": 12,
       "fresh": false
     },
     {
@@ -3541,21 +3513,6 @@
       "summary": "Interesting research: “ AI Models Can Provably Hide Arbitrary Capabilities ” Abstract: Capability evaluations aim to surface dangerous model behaviors before deployment, but their reliability depends on the assumption that hidden capabilities can be elicited. We show this assumption does not hold under adversarial conditions by constructing backdoor attacks that embed encrypted neural networks within host model weights, decrypting and executing them only upon receiving a secret trigger. Using digital lockers, these hidden circuits remain provably hard to elicit and interpret under cryptographic assumptions, even given full access to model weights, extending prior work from hiding fixed strings to arbitrary computations. We implement our proof of concept constructions in PyTorch and evaluate elicitation through fine-tuning, weight noising, gradient-based trigger search, and latent adversarial training, using a small chemical reaction prediction task as a proxy for CBRN-relevant capabilities. Our results demonstrate resistance to these methods and, together with our cryptographic guarantees, reveal a limit of elicitation-based capability audits. We release our models to support the improvement of defenses...",
       "image": "",
       "source": "Schneier on Security",
-      "announce": "",
-      "category": "Other",
-      "score": null,
-      "ageDays": 11,
-      "fresh": false
-    },
-    {
-      "guid": "https://simonwillison.net/2026/Oct/25/seam-cutter/",
-      "title": "Seam Cutter",
-      "link": "https://simonwillison.net/2026/Oct/25/seam-cutter/",
-      "authors": [],
-      "date": "2026-10-25T15:10:19+00:00",
-      "summary": "Tool: Seam Cutter I built this weird and very specific cropping tool - it lets you create a horizontal or vertical cut across an image, then slide the two sides relative to each other. Effectively it lets you crop out a section in the middle of an image. I wanted this because I often use Tailor on my iPhone to stitch several screenshots together into lot long image, but sometimes I find myself wanting to crop out a section in the middle - to redact an irrelevant prompt from a transcript, for example. Tags: tools",
-      "image": "",
-      "source": "Simon Willison",
       "announce": "",
       "category": "Other",
       "score": null,
@@ -3576,7 +3533,7 @@
       "announce": "",
       "category": "Other",
       "score": null,
-      "ageDays": 12,
+      "ageDays": 13,
       "fresh": false
     },
     {
@@ -3593,10 +3550,25 @@
       "summary": "Jailbreak vulnerability is primarily determined by pretraining randomness rather than data recipes, with pretraining seeds leaving identifiable fingerprints across prompts.",
       "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.34074.png",
       "source": "HF Trending Papers",
-      "extra": "▲ 2",
+      "extra": "▲ 3",
       "category": "Other",
       "score": null,
-      "ageDays": 13,
+      "ageDays": 14,
+      "fresh": false
+    },
+    {
+      "guid": "https://simonwillison.net/2026/Oct/25/seam-cutter/",
+      "title": "Seam Cutter",
+      "link": "https://simonwillison.net/2026/Oct/25/seam-cutter/",
+      "authors": [],
+      "date": "2026-10-25T15:10:19+00:00",
+      "summary": "Tool: Seam Cutter I built this weird and very specific cropping tool - it lets you create a horizontal or vertical cut across an image, then slide the two sides relative to each other. Effectively it lets you crop out a section in the middle of an image. I wanted this because I often use Tailor on my iPhone to stitch several screenshots together into lot long image, but sometimes I find myself wanting to crop out a section in the middle - to redact an irrelevant prompt from a transcript, for example. Tags: tools",
+      "image": "",
+      "source": "Simon Willison",
+      "announce": "",
+      "category": "Other",
+      "score": null,
+      "ageDays": 14,
       "fresh": false
     },
     {
@@ -3611,22 +3583,7 @@
       "announce": "",
       "category": "Other",
       "score": null,
-      "ageDays": 14,
-      "fresh": false
-    },
-    {
-      "guid": "https://simonwillison.net/2026/Oct/23/quick-study-painter/",
-      "title": "Quick Study",
-      "link": "https://simonwillison.net/2026/Oct/23/quick-study-painter/",
-      "authors": [],
-      "date": "2026-10-23T21:35:13+00:00",
-      "summary": "Tool: Quick Study Prompt to Claude Opus 5.5 High : Build an artifact where you open a photo and it rapidly (in a few seconds) paints a version of that photo using a canvas element and simulated paintbrush See also my previous experiment getting Claude Fable to simulate a watercolor illustration with P5.js. Quick Study uses Sobel edge detection , with no external libraries beyond Google Fonts. Tags: tools",
-      "image": "",
-      "source": "Simon Willison",
-      "announce": "",
-      "category": "Other",
-      "score": null,
-      "ageDays": 14,
+      "ageDays": 15,
       "fresh": false
     },
     {
@@ -3643,41 +3600,7 @@
       "announce": "",
       "category": "Other",
       "score": null,
-      "ageDays": 14,
-      "fresh": false
-    },
-    {
-      "guid": "https://krebsonsecurity.com/?p=74522",
-      "title": "Widespread PHP Flaw May Cause Many Site Outages Today",
-      "link": "https://krebsonsecurity.com/2026/10/widespread-php-flaw-may-cause-many-site-outages-today/",
-      "authors": [
-        "BrianKrebs"
-      ],
-      "date": "Wed, 21 Oct 2026 15:26:07 +0000",
-      "summary": "Expect to see quite a few websites serving error pages today: Nearly 70 percent of websites need to update their core software to fix a pair of vulnerabilities that allow an attacker to seize full control over affected servers. Experts say there are working exploits for the flaws, and that these critical bugs are already being exploited in the wild. Image: Shutterstock.com, Sashkin. The flaws at issue are present in PHP , the programming language that powers sites running on a large number of web publishing systems, including Drupal , Magento , Joomla and WordPress . Earlier today, PHP released an emergency security update to fix two critical bugs that can allow an attacker to execute code of their choosing on a vulnerable server. Reuters reports that government websites in Europe and elsewhere went offline today after the PHP vulnerabilities were disclosed. Cloudflare said it has already detected some exploitation of the flaw, and that at 3:02 am (UTC) it implemented web application firewall rules to protect websites from attack traffic seeking to exploit the bugs, which could cause a denial of service condition, remote code execution, and data exposure. OpenAI , which was involved in the vulnerability research and outreach, said “given the severity of these flaws and PHP’s widespread use, we consider this one of the most impactful security issues in recent memory.” Censys , a company that tracks the technology used by Internet hosts, said a recent scan identified approximately 2.58 million Internet facing hosts and 54.9 million web properties running PHP. Security experts at Wiz said every PHP version released in the last decade is affected by at least one of these vulnerabilities [full disclosure: Wiz is an advertiser on this blog]. “These findings rank among the most severe vulnerabilities discovered in PHP, and arguably in software history,” reads a blog post published today by a team of researchers at Wiz, which was one of several organizations credited with discovering the vulnerabilities. “The underlying flaws had been present for decades, but demonstrating their exploitability required an exceptionally complex chain of steps, at the edge of what human researchers could practically achieve. Frontier AI models substantially reduced that barrier, turning a longstanding flaw into an exploit.” The Wiz researchers say it is likely the PHP vulnerabilities will be mass-exploited to install web-based backdoors or “web shells,” which give attackers a web-based panel that allows them to remotely control infected sites. Wiz said that prior to the PHP bugs being publicly disclosed, the company worked with the PHP team, Calif and OpenAI to measure the size of the problem and coordinate patch verification and disclosure. The PHP zero-day vulnerabilities are being tracked by their CVE numbers, CVE-2026-109618 and CVE-2026-109619 , and they affect all web servers running PHP 5.4 or later. The bugs are fixed in PHP 8.5.12 , 8.4.27 , 8.3.36 , and 8.2.35 . According to Wiz, PHP is so deeply embedded in many web applications that we are likely to see organizations struggling to patch these vulnerabilities for some time to come, comparing this PHP vulnerability pair with the Log4Shell weakness that emerged in 2021 — a widespread, severe-as-it-gets security flaw in Log4j, a popular Java logging framework. “A vulnerability in core PHP reaches far beyond a single application,” the Wiz researchers wrote. “PHP runs across clouds, hosting providers, content-delivery networks and millions of independently managed servers. Reducing exposure before the technical details became public required coordinated work across that entire ecosystem.” The SANS Internet Storm Center is keeping an eye on major software platforms that are shipping updates to deal with these PHP flaws. For example, Ubuntu just released updated PHP packages. For a technical deep-dive on these vulnerabilities that tells the timeline of the discovery of these bugs in a comic book style, check out this post from Calif , another technology company credited with finding the PHP flaws. A snapshot of php2shell.censys.com, the website Censys set up to track the PHP vulnerabilities. This is a fast-moving story. Updates will be noted here with timestamps. Update, 2:30 pm ET: Add figures from Censys and a link to Calif’s writeup.",
-      "image": "",
-      "source": "Krebs on Security",
-      "announce": "",
-      "category": "Other",
-      "score": null,
-      "ageDays": 16,
-      "fresh": false
-    },
-    {
-      "guid": "https://krebsonsecurity.com/?p=74480",
-      "title": "Feds Suspect Ransom Negotiator Ran ShinyHunters Extortion Site",
-      "link": "https://krebsonsecurity.com/2026/10/feds-suspect-ransom-negotiator-ran-shinyhunters-extortion-site/",
-      "authors": [
-        "BrianKrebs"
-      ],
-      "date": "Mon, 19 Oct 2026 13:48:56 +0000",
-      "summary": "U.S. federal investigators pursuing the ShinyHunters hacking group that recently stole highly sensitive data from the FBI have identified executives at two different ransomware negotiation firms who maintained unusually close relations with the extortion group, KrebsOnSecurity has learned. Sources close to the investigation say one of the executives in the United States even helped ShinyHunters operate a website that pressured victims into paying a ransom. Hackers aligned with ShinyHunters have claimed credit for dozens of major data breaches since 2019, when the group was primarily operated by cybercriminals living in France. As those original members were arrested or jailed one by one, control over the ShinyHunters brand eventually passed to “ Rey ,” identified last year as a teenage hacker from Amman, Jordan. According to the FBI, ShinyHunters has extorted more than $70 million from victims so far this year. In late September, ShinyHunters hacked the FBI recruitment website fbijobs.gov and taunted the agency by threatening to publish the stolen files, which reportedly included medical and psychological records, Social Security numbers and home addresses, and information about each employee’s unit and specialization. The FBI jobs site hack has prompted the agency to move with uncommon speed to arrest, detain and question people who had any communications with Rey or other ShinyHunters suspects. Reuters reported on October 3 that Rey had been detained by Jordanian authorities and was cooperating with the FBI. Rey was able to assume control over the hacking group because one of its alleged senior members had just been nabbed. On the evening of September 15, 2026, authorities in the Netherlands arrested convicted hacker and ShinyHunters suspect Pepijn van der Stap . Dutch police reportedly used flash-bang grenades in an effort to stun and apprehend Van der Stap as he was logged in to various online accounts. According to a source close to the investigation, the authorities arrested Van der Stap while he was using his Signal instant messaging account, which allowed them to read recent communications with frequent contacts — including ransomware negotiators based in Canada and the United States. Multiple sources with knowledge of the matter told KrebsOnSecurity that Van der Stap’s messages were the key to unraveling a murder-for-hire plot that emerged immediately following his arrest. The Dutch news outlet RTL reported last month the two murders were allegedly to be committed abroad, and that there are indications Van der Stap gave the order for the attacks (there is no indication those orders were ever carried out). On October 9, KrebsOnSecurity broke the news that the FBI arrested a 54-year-old Canadian cybersecurity executive named Edward Dubrovsky in connection with the ShinyHunters investigation. Dubrovsky, who recently published a book on handling cyber extortion that recommended always engaging with the hackers, was charged with threatening to disclose stolen or hacked data and interfering with interstate commerce through extortion, according to court records . Politico reports prosecutors have asked that Dubrovsky remain in custody pending trial, and that records related to his case remain under seal. A source close to the investigation told KrebsOnSecurity that Van der Stap’s Signal messages showed he had frequent conversations with Mr. Dubrovsky and with at least one executive at a large U.S.-based consulting firm, and that these executives often knew the details about new ShinyHunters victims before the victims themselves had even learned of the breach. That source shared another potentially explosive finding by federal investigators: the Dutch hacker’s chats showed Mr. Dubrovsky knew ShinyHunters had stolen highly sensitive data from FBI servers, and that he never informed the bureau of the data breach prior to ShinyHunters threatening on Twitter/X to publish the agency’s deeply personal personnel files. SHINYWIRE KrebsOnSecurity has learned from two sources close to the ShinyHunters probe that FBI investigators believe at least one executive at a U.S.-based consulting firm played an active role in operating the now-defunct ShinyHunters victim extortion website “ shinywire[.]com .” KrebsOnSecurity is not naming the U.S. company or the suspected executive(s) for now because they have not yet been charged with a crime, but it is a prestigious firm with more than 1,000 associates. A section of the homepage for the now-defunct Shinywire website. The Shinywire website was active from approximately May 3, 2026 until October 16 and had entries for nearly 100 organizations hacked by ShinyHunters. Each entry urged victims to engage with the cybercrime group and discuss terms for payment. The pages also included samples of stolen files and promised those files would be published online if the victim ignored their demands. The following screenshot shows a cached portion of the Shinywire extortion page for Intuitive Surgical , an American medical technology company that was breached in March 2026 after an employee fell for a targeted phishing email. The Shinywire website, as indexed by urlscan.io. This listing is an extortion demand targeting Intuitive Surgical, an American medical technology company breached in March 2026 by a targeted phishing email attack that compromised an employee’s credentials. Victim organizations that refused to engage or negotiate after seven days would find all of their stolen data published on the ShinyHunters victim shaming blog (a website that is only reachable via the anonymity network Tor ). In a story published October 15, The Globe and Mail wrote that a few months before Edward Dubrovsky was arrested by the FBI, the Canadian cybersecurity executive alleged in court documents he had become collateral damage in a campaign by a former business partner to “destroy” another industry executive. The story noted that Dubrovsky filed the lawsuit in Ontario this year against Daniel Tobok , the former chief executive of Cypfer , a cybersecurity firm founded in Toronto with offices in the U.S., Britain, the Netherlands, the United Arab Emirates, and Mexico. The two first became business partners in 2017 and later developed Cypfer together, where Mr. Dubrovsky was a managing partner and chief operating officer. But by 2024, the two had a falling out, with Dubrovsky accusing Tobok of gradually excluding him from business matters and making “increasingly capricious business decisions.” Mr. Tobok reportedly denied the allegations and filed a counterclaim, accusing Mr. Dubrovsky of accessing confidential information and unfairly competing with Cypfer through work at another firm called CyberSteward Inc . He also said Mr. Dubrovsky has misrepresented himself as a Cypfer founder, and is not a shareholder. GHOSTBYTE According to interviews with several former colleagues of Mr. Tobok, as far back as eight years ago he was known to ransomware purveyors by a particular nickname: Ghostbyte . In 2018, a Canadian company was hacked by Dharma , a prolific Russian-language ransomware affiliate program that first surfaced in 2016. The victim company told the Dharma ransomware representative they were leaning toward paying because some of the files were unrecoverable after being locked, but that they needed a better guarantee that Dharma would keep their word if paid. A redacted copy of the Dharma rep’s reply is pictured below, and it shows the ransomware group urged the victim to contact a person at a Canadian IT firm that helps companies seeking such guarantees. The Dharma rep recommended the victim contact the email address ghostbyte@tutanota.com . “If you want guarantees, you can write to the IT company,” the Dharma reply advised. “Take the phone and negotiate with them. This IT company often solves such problems in Canada. You can contact them and sign a contract for services. You’ll still have to pay.” An email reply from the Dharma ransomware group to a victim, recommending they contact an email address that is connected to Mr. Tobok. It’s unclear if Mr. Tobok ever used that Ghostbyte address offered by the Dharma representative, and he has not responded to multiple requests for comment. However, the breach tracking service Constella Intelligence finds an email address Mr. Tobok has frequently used — dtobok@me.com — is associated with two online accounts where the chosen username was “ghostbyte,” including a Snapchat account. Incidentally, Constella also finds the Dharma rep’s email address luckygoodlucky@tuta.io is associated with a cryptocurrency address that processed 38 transactions totaling 43 bitcoin, ~$3.5 million at today’s value (the most recent transaction for this wallet is dated February 2019). In a statement shared on October 14, Cypfer said the company’s business does not include making or facilitating ransomware payments, and that Cypfer learned of Dubrovsky’s arrest when the news first broke in the media. “We had no prior knowledge of Mr. Dubrovsky’s arrest,” a spokesperson told KrebsOnSecurity via email. “ CYPFER has not received any outreach from law enforcement and, to our knowledge, is not the target of any law enforcement investigation.” The statement said CyberSteward and Cypfer are separate companies with no officers, directors or employees in common, and that Cypfer was recently acquired by the Apros Group , a holding company led by Jason Hogg , a former FBI special agent and former CEO of Aon Cyber Solutions Group . In 2020, Aon aquired Cytelligence , a security consulting firm where Mr. Tobok was founder and CEO and Mr. Dubrovsky was a managing partner. CONFLICTING INTERESTS It is not illegal in the United States to pay hackers for an encryption key to unlock servers infected with ransomware, or in exchange for a promise to delete any stolen files and refrain from publishing them online. While victim organizations can land in legal hot water if they pay a ransom to a group that is sanctioned by the U.S. Treasury Department, ShinyHunters is not among the ransomware groups currently sanctioned by the United States or by any other government. Experts say ransomware victims are typically directed by their insurance provider to work with a specific incident response firm. But not all cyber forensics and breach response companies will agree to facilitate payments to ransomware groups on behalf of their clients. As a result, once victim firms make a decision to pay, the firms that eschew rewarding extortionists are invariably replaced by companies that have no such qualms. In December 2024, ShinyHunters began extorting the education technology company PowerSchool , stealing private information on 62 million students and 9.5 million teachers in the U.S. and Canada. PowerSchool reportedly paid a $2.85 million ransom demand, and a “frequently asked questions” statement (PDF) about the breach says PowerSchool was assisted in that effort by CyberSteward (ShinyHunters affiliate Matthew Lane , 20, of Sterling, Mass., was sentenced in November 2025 to four years in prison for his admitted role in the PowerSchool hack). But that ransom payment did not stop future extortion attempts using the same stolen data. By May 2025, individual school districts were reportedly receiving separate ransom demands using samples of the same stolen files. While nobody has alleged ShinyHunters was behind the second wave of extortion against PowerSchool users, the incident drives home the reality that there is no technical way to verify the threat actors have deleted the stolen data as promised, or prevent others from abusing the same records. A number of leading cyber incident response firms, including Coveware and Unit 221B , have consistently warned victims against paying ShinyHunters , noting that “destroyed” victim data is often kept, resold or used to extort the company’s clients directly later on. The FBI echoed those sentiments in an alert on May 15, 2026 advising victims against paying the ShinyHunters group. Meanwhile, ShinyHunters members have been harassing and threatening employees at Coveware and Unit 221B for offering this advice. The following screenshots show just how annoyed the ShinyHunters leaders were with Coveware’s relentless advice against paying the group. The first image is from a conversation on May 6, 2026 that took place between the group’s main account on Telegram and a co-conspirator. In that chat, snippets of which were shared with KrebsOnSecurity by a trusted source, ShinyHunters complained that Coveware was harming the group’s payment rates. The operator of the ShinyHunters account on Telegram speaking privately with a co-conspirator and complaining that Coveware was harming their business. “Go on my website, majority of those companies would’ve paid if it weren’t for Coveware giving them misinformation,” the ShinyHunters account wrote. “Someone (100% Coveware) is going out of their way to make sure i am not paid.” In another conversation on April 11, 2026, the ShinyHunters Telegram account privately said they were trying to “eliminate the problem,” which they said was Coveware. Coveware declined to comment for this story. “I’m sure the company will pay but in this specific case I am aware of Coveware and their involvement, and I’ve probably been not getting a lot of other negotiations mostly likely because Coveware keeps getting involved,” the ShinyHunters account bemoaned. The operator of the ShinyHunters account on Telegram telling a co-conspirator they were “trying to eliminate the problem,” which they identified as Coveware advising victims not to pay the cybercrime group. Mark Camillo is chief executive at CyberAcuView , an industry group founded in 2021 by a consortium of major cyber insurance carriers. Camillo said some firms charge a flat retainer fee, while those that specialize in helping companies negotiate a ransom payment tend to charge a percentage of the total ransom amount paid. That latter dynamic, he said, is an inherent conflict of interest, as the negotiator has every incentive to make things more favorable to the attackers because they are financially incentivized to negotiate and pay out, and to not negotiate down on the price. “It has come to the industry’s attention that many of the ransomware payers charge a percentage of the final payment which may or may not be disclosed,” Camillo said. “This makes no sense if they are also the negotiator. There needs to be more transparency in the process as no one in the ecosystem should be profiting purely on the size of the ransomware transaction or payment itself.” Camillo said the firms doing this work would argue the fees are needed because there may be unexpectedly higher costs to secure larger quantities of cryptocurrency or more risk carrying the float, and because cryptocurrency exchanges may charge higher fees for high risk transactions. “There definitely needs to be more visibility around the transaction and clarity on the increasing value of the crypto and the exchange’s percent in the transaction to get to the bottom of this and remove any misaligned incentives,” he said. In recent months, the U.S. Department of Justice has prosecuted a number of ransomware negotiators alleged to have conspired with cybercriminals to defraud their clients. On October 7, the DOJ charged MonsterCloud CEO Zohar Pinhasi , 50, with wire fraud and conspiracy for allegedly charging customers to remediate ransomware attacks without paying the hackers. According to charging documents, Pinhasi secretly went behind his customers’ backs and paid hackers anyway, paying ransomware groups $8 million while charging customers $19 million. In July, Angelo Martino , a 41-year-old ransomware negotiator from Land O’Lakes, Florida, was sentenced to 70 months in prison for conspiring with the Blackcat/ALPHV ransomware group to extort multiple victims. According to the DOJ, Martino was paid by BlackCat attackers to provide confidential information about the negotiating position and strategy of his employer’s clients and enable the ransomware actors to maximize the ransoms paid by the victims.",
-      "image": "",
-      "source": "Krebs on Security",
-      "announce": "",
-      "category": "Other",
-      "score": null,
-      "ageDays": 19,
+      "ageDays": 15,
       "fresh": false
     },
     {
@@ -3692,7 +3615,7 @@
       "announce": "",
       "category": "Other",
       "score": null,
-      "ageDays": 23,
+      "ageDays": 24,
       "fresh": false
     },
     {
@@ -3709,41 +3632,7 @@
       "announce": "",
       "category": "Other",
       "score": null,
-      "ageDays": 24,
-      "fresh": false
-    },
-    {
-      "guid": "https://krebsonsecurity.com/?p=74435",
-      "title": "U.K. Sanctions Cryptomus for RU Money Laundering",
-      "link": "https://krebsonsecurity.com/2026/10/u-k-sanctions-cryptomus-for-ru-money-laundering/",
-      "authors": [
-        "BrianKrebs"
-      ],
-      "date": "Wed, 14 Oct 2026 14:22:49 +0000",
-      "summary": "The United Kingdom has issued economic sanctions against Cryptomus , a chameleonic cryptocurrency platform that experts say serves as a major conduit for payments related to ransomware, narcotics, darknet markets, fraud and cybercrime services that are helping Russia circumvent existing financial restrictions. Heleket’s support agent on Telegram claims, despite all evidence to the contrary, that it is not affiliated with Cryptomus. Image: Richard Sanders. On October 8, the U.K. issued sanctions (PDF) against Cryptomus — previously known as Certa Payments and Xeltox Enterprises — for processing payments that benefit the Russian government and its financial institutions. The sanctions freeze any Cryptomus assets at U.K. banks, and bar British companies from offering it any business, virtual or otherwise. Also targeted in these sanctions were the virtual payment platforms VexPay , TokenSpot , and the Tsunami Payments service . As explained in our December 2024 investigation, “ How Cryptocurrency Turns to Cash in Russian Banks ,” Cryptomus has been a key payment processor for dozens of Russian cryptocurrency exchanges and websites hawking cybercrime services. The company has changed its name several times since emerging in 2022, most recently to “ Heleket ” last year after Canada levied a record CAD $176 million fine against the platform for anti-money laundering violations. The blockchain data-crunching firm Chainalysis said the U.K. sanctions target the broader infrastructure supporting Russia’s wartime economy. “Cryptomus and Heleket have emerged as major payment hubs for illicit activity,” Chainalysis wrote in an October 8 blog post. “Together, these services received more illicit funds across tracked categories than the mixers in our dataset and the number of illicit counterparties surged to more than 900 in a single month in late 2025.” The Cryptomus support bot on Telegram, responding on Oct. 8 to an inquiry by saying the platform was suddenly unable to process transactions. In April 2026, the blockchain analysis firm TRM Labs found Cryptomus had processed more than $7 billion in transactions since its inception in 2022, including transactions associated with child sexual abuse material vendors, terrorist financing networks, and human trafficking operations. TRM noted that Cryptomus’s transaction volume cratered after the platform instituted new “know your customer” or KYC rules, and that the cryptocurrency platform responded to the Canadian fines by launching Heleket as a parallel service that continued to offer no-KYC payment processing. Richard Sanders is a blockchain analyst and investigator who spent months mapping out Cryptomus’s payment infrastructure and transacting with its customers. Sanders said the U.K. sanctions on Cryptomus are important because Canada’s fine against the platform was ultimately unenforceable and uncollectible. “A fine doesn’t stop a cryptocurrency payment processor from processing payments,” Sanders wrote on LinkedIn . “Sanctions kill the operation. The distinction matters.” As our 2024 investigation noted, Cryptomus shared a Vancouver address with dozens of other foreign currency dealers and money transfer businesses — none of which appeared to be physically located there. Following the CAD $176 million fine for alleged money laundering violations, Cryptomus appealed the penalty, launched Heleket as a parallel service, and kept on processing large volumes of sketchy transactions, Sanders said. Sanders said the sanctions also are notable because they are the first known instance of a “Five Eyes” country (referring to the Australia, Canada, New Zealand, the U.K. and the U.S.) sanctioning a cryptocurrency operation incorporated in another Five Eyes jurisdiction. Where do entities like Cryptomus and Heleket derive their authority to offer international financial services? The answer appears to involve fake financial institutions overseen by a phony regulatory body positioned in a country that is not widely recognized as a sovereign nation. Our 2024 investigation found the sole shareholder of Cryptomus’s parent company Certa Payments was a 25-year-old Ukrainian woman who also headed several other firms, including the WS Management and Advisory Corporation , which bills itself as the regulatory body that exclusively oversees licenses for cryptocurrency, foreign exchange and online gaming businesses incorporated in the disputed region in northwest Africa known as the Western Sahara . That entity’s website — crasadr.com — says it assists applicants with bank setup and formation, online gaming licenses, and the creation and licensing of foreign exchange brokers. One of Certa Payments’ former sites — certa[.]website — also shared a server with 12 other domains, including rasd-state[.]ws, a website for the Central Reserve Authority of the Western Sahara. The website crasadr dot com, the official website of the Central Reserve Authority of Western Sahara, which lists the entities awarded licenses for cryptocurrencies, gaming and foreign exchange services.",
-      "image": "",
-      "source": "Krebs on Security",
-      "announce": "",
-      "category": "Other",
-      "score": null,
-      "ageDays": 24,
-      "fresh": false
-    },
-    {
-      "guid": "https://krebsonsecurity.com/?p=74474",
-      "title": "Microsoft Patches More Than 1,400 Security Flaws",
-      "link": "https://krebsonsecurity.com/2026/10/microsoft-patches-more-than-1400-security-flaws/",
-      "authors": [
-        "BrianKrebs"
-      ],
-      "date": "Tue, 13 Oct 2026 23:24:53 +0000",
-      "summary": "Microsoft today issued updates to fix more than 1,400 security vulnerabilities in its Windows operating systems and other software. Today’s epic patch batch dwarfs September’s record of nearly 1,000 fixes, which was already about ten times the normal monthly patch load from Redmond. Just one of the weaknesses patched this week is considered a “zero day,” or already exploited in the wild. CVE-2026-96951 is a security feature bypass in the Windows Shell that affects Windows 10 and 11 systems, as well as some Server versions. Windows 10 users might be wondering if they can still expect security updates after this month. Microsoft had been slated to stop shipping updates for Windows 10 systems in October 2025, but ended up adding another year of free updates after considerable pushback. A few months ago, Microsoft quietly extended that support for another year (until October 2027). At least 78 of the flaws fixed this month are rated “critical,” meaning they could be exploited with little or no action by the user, and most of those critical bugs allow an attacker to execute code of their choice on the vulnerable system. While Microsoft said there are no signs anyone is exploiting it yet, a security feature bypass in the .NET Framework ( CVE-2026-108398 ) was publicly disclosed prior to today, potentially giving attackers advance time to work out how to exploit the bug. Satnam Narang at Tenable said the number of flaws fixed this month far surpasses the previous record-setting year 2020, when Microsoft patched 1,261 CVEs. “We’ve now crossed the 4,000 CVE mark with two months left to go,” he said. Microsoft credits large language models for the high volume of bug discovery, and presumably AI gets credit for many of the patches used to fix these flaw. Meanwhile, security experts have been warning that these unusually large patch volleys from Microsoft are placing extra strain on corporate security teams, which often have to test individual updates before deploying them across a network to ensure the fixes don’t cause problems for other software. Tyler Reguly , associate director of security research and development at Fortra , notes that just 26 Microsoft vulnerabilities appeared in the “Known Exploited Vulnerabilities” (KEV) catalog maintained by the U.S. Cybersecurity & Infrastructure Security Agency (CISA) so far this year, and security teams would do well to prioritize patching those 26 vulnerabilities first. “Security leaders should focus on exploitable risk, and ask whether their teams have the clarity, capacity and support to act,” Reguly said. Which vulnerabilities deserve the most scrutiny in your organization? The folks at Cisco Talos have a useful roundup of the more noteworthy flaws that Microsoft fixed today, and of course the SANS Internet Storm Center has a reliable roundup that indexes vulnerabilities by severity, CVE number and affected software.",
-      "image": "",
-      "source": "Krebs on Security",
-      "announce": "",
-      "category": "Other",
-      "score": null,
-      "ageDays": 24,
+      "ageDays": 25,
       "fresh": false
     },
     {
@@ -3761,24 +3650,7 @@
       "announce": "",
       "category": "Other",
       "score": null,
-      "ageDays": 25,
-      "fresh": false
-    },
-    {
-      "guid": "https://krebsonsecurity.com/?p=74440",
-      "title": "FBI Arrests Executive at Ransomware Negotiation Firm",
-      "link": "https://krebsonsecurity.com/2026/10/fbi-arrests-founder-of-ransomware-negotiation-firm/",
-      "authors": [
-        "BrianKrebs"
-      ],
-      "date": "Sat, 10 Oct 2026 00:17:42 +0000",
-      "summary": "Agents with the Federal Bureau of Investigation (FBI) on Thursday arrested an executive at a Canadian cybersecurity firm in connection with an investigation into the ShinyHunters hacking group that recently relieved the FBI of sensitive data on thousands of agents, multiple sources tell KrebsOnSecurity. The New York Times reported today that the FBI has arrested a Canadian man in Pennsylvania on suspicion of assisting ShinyHunters. The Times story did not identify the man, nor did a statement on Twitter/X about the arrest from FBI Director Kash Patel . One source close to the investigation told KrebsOnSecurity the Canadian person arrested this week was visiting Pennsylvania for a cyber insurance conference, and that the suspect’s company specialized in handling ransomware negotiations with cybercrime groups. Another shared that control over the ShinyHunters investigation has been centralized at an FBI field office in Texas. An online search reveals the Cyber Risk Summit was held at the Loews Philadelphia Hotel between Oct. 5 and Oct. 7. The conference had several sponsors, but according to the summit’s website its biggest sponsor was a Canadian security company called Cypfer . According to LinkedIn, one of Cypfer’s “ex-founders” was Edward Dubrovsky , who is now associated with another Canadian security firm and sponsor called CyberSteward . In a post to LinkedIn approximately one month ago, Dubrovsky said he had plans to attend the Cyber Risk Summit with the rest of the CyberSteward team. [ Update: Oct. 10, 9:58 a.m. ET: A spokesperson for Cypfer said Dubrovsky was not a founder or co-founder as his LinkedIn profile claims, but instead served as a managing director before resigning in December 2025]. Edward Dubrovsky’s LinkedIn profile. “Looking forward to continuing conversations around strategy & compliant driven coercive (ransomware, extortion) advisory, negotiations and settlement services that are global and truly agnostic,” Dubrovsky wrote. Federal court records show that on October 8, an Edward Dobrovsky (note the slight misspelling of the last name) was arrested in Pennsylvania on cyber extortion and conspiracy charges. Several of those documents — including the core complaint — are now sealed. But a handful of them were indexed at Courtlistener.com , including a summary of the complaint, which charges the defendant with “conspiracy to threaten to impair the confidentiality of information with the intent to extort money,” and “interference with commerce by threats.” Image: Courtlistener.com The inmate locator at the U.S. Bureau of Prisons website reports that a 54-year-old Edward Dubrovsky is currently being held at a federal facility in Philadelphia. But the court records indexed by CourtListener include a notice filed on October 9 that moved the case to the Eastern District of Texas, which sources say is now the epicenter of the FBI’s ShinyHunters investigation. The FBI declined to comment for this story. Dubrovsky’s LinkedIn profile states he is the author of Cyber Extortion Strategic Response , a 252-page book that promises to “take readers beyond the ransom note and into the decisions that determine how an organization responds, recovers, and protects what matters.” Edward Dubrovsky’s book, which centers on the intricacies of ransomware negotiations. “At the heart of the book is a critical distinction: communicating with a criminal is not the same as negotiating a payment, and negotiating is not a commitment to pay,” reads an excerpt from the book’s listing on Amazon. “Engagement can serve other objectives, including testing claims, gathering information, creating time, and preserving options while the organization evaluates its next move.” Mr. Dubrovsky could not be immediately reached for comment. KrebsOnSecurity also sought comment from other executives at CyberSteward, and will update this post in the event they respond. The available court records in Dubrovsky’s case show that he does not currently have an attorney and has yet to be appointed a public defender by the courts. ShinyHunters typically uses phishing and stolen credentials to siphon data from corporate accounts at software-as-a-service companies, and then threatens to publish the stolen data online unless a ransom demand is paid. According to the FBI, the group has extorted more than $70 million from victims so far this year. Sources tell KrebsOnSecurity the FBI has been poring over devices that were seized last month when the Dutch police arrested the convicted cybercriminal Pepijn van der Stap in connection with the ShinyHunters investigation, and that charges against principals at other companies that specialize in ransomware negotiation may be forthcoming. Immediately after Van der Stap’s arrest, another member of ShinyHunters named “ Rey ” assumed control over the group and began taunting the FBI over data the group stole from the agency’s online recruitment portal, which included each’s person’s unit and specialization, as well as medical and psychiatric records. Last week, Reuters reported that Rey — identified as a teenager named Saif Al-din Khader — had been detained and was cooperating with FBI investigators. On October 7, we detailed how Rey was apprehended as the cybercrime group allegedly sought to extort a navigation and digital aviation unit that was divested by Boeing in late 2025. This is likely to be a fast-moving story. Updates will be noted along with timestamps.",
-      "image": "",
-      "source": "Krebs on Security",
-      "announce": "",
-      "category": "Other",
-      "score": null,
-      "ageDays": 28,
+      "ageDays": 26,
       "fresh": false
     },
     {
@@ -3795,7 +3667,7 @@
       "announce": "",
       "category": "Other",
       "score": null,
-      "ageDays": 31,
+      "ageDays": 32,
       "fresh": false
     },
     {
@@ -3813,24 +3685,7 @@
       "announce": "",
       "category": "Other",
       "score": null,
-      "ageDays": 31,
-      "fresh": false
-    },
-    {
-      "guid": "https://krebsonsecurity.com/?p=74398",
-      "title": "ShinyHunters Extorted Boeing Spin-off Prior to Arrests",
-      "link": "https://krebsonsecurity.com/2026/10/shinyhunters-extorted-boeing-spin-off-prior-to-arrests/",
-      "authors": [
-        "BrianKrebs"
-      ],
-      "date": "Wed, 07 Oct 2026 13:48:45 +0000",
-      "summary": "A teenager from Amman, Jordan suspected of leading the prolific data theft and extortion group ShinyHunters has been detained and is reportedly cooperating with the FBI to identify other members of the hacking gang. KrebsOnSecurity has learned that the suspect, who uses the hacker handle “ Rey ,” was detained as ShinyHunters was in the process of extorting a business unit recently divested by the global aerospace company Boeing , which manufactures the fleet of planes used by the employer of Rey’s father — Royal Jordanian Airlines . The logo for Jeppesen ForeFlight, a business unit divested last year by the aerospace firm Boeing. On October 3, Reuters cited three unnamed sources saying a suspected ShinyHunters member in Amman named Saif Al-din Khader was detained by Jordanian authorities and was cooperating with the FBI. KrebsOnSecurity identified Rey as Khader in a November 2025 profile , in which the young man admitted working with multiple ransomware groups. Rey was featured again in a September 28 exclusive about the Dutch police arresting 24-year-old convicted cybercriminal Pepijn van der Stap on suspicion of aiding in data thefts and extortions by ShinyHunters. The story noted that immediately following the Dutchman’s arrest on the evening of September 15, Rey assumed control over the ShinyHunters brand and boasted publicly about stealing highly sensitive data from the FBI and extorting the ransomware group Cl0p . Rey taunted both the FBI and Cl0p with memes posted to his longtime account on Twitter/X, while simultaneously including images of the avatar used by Van Der Stap’s former hacker alias “ Umbreon ” in an apparent attempt to frame the Dutchman for both hacks. A taunting meme uploaded to Twitter/X by Rey on Sept. 22. A giant sized version of the Pokemon character Umbreon can be seen in the bottom left. As noted in our September 28 report, ShinyHunters gained access to the FBI site and other victims by exploiting a vulnerability (CVE-2026-35273) in PeopleSoft , a software-as-a-service platform from the tech giant Oracle that is broadly used by companies to manage hiring and human resources, benefits and payroll. Oracle quickly issued a fix for CVE-2026-35273, which ShinyHunters first began exploiting as a zero-day in June, and at the time Mandiant released web application firewall rules intended for organizations that couldn’t apply the security update quickly enough. ShinyHunters told BleepingComputer in June that the original goal behind exploiting the PeopleSoft vulnerability was to breach the FBI’s own PeopleSoft database, but the hackers said those attacks were unsuccessful for some reason. In recent weeks, however, ShinyHunters turned to a well-known URL-encoding trick to bypass Mandiant’s suggested web application firewall rules. In a report released Sept. 25, security experts at Mandiant and the Google Threat Intelligence Group (GTIG) confirmed that ShinyHunters had mass-exploited the PeopleSoft vulnerability to steal data from dozens of systems across a range of industries, including higher education, technology, healthcare, agriculture, transportation and government. Reuters reported October 5 that the FBI has removed a contractor at Accenture over their failure to patch the FBI recruitment website hacked by ShinyHunters, which exposed sensitive data on more than 5,000 FBI personnel, including each’s person’s unit and specialization, as well as medical and psychiatric records. ‘REY’ MEANS KING, AS IN ROYAL According to two sources familiar with the ShinyHunters investigation, a navigation and digital aviation unit recently divested by the global aerospace company Boeing was among the victims that ShinyHunters was in the process of extorting when Rey was apprehended by Jordanian authorities. Those sources said the FBI’s investigation into ShinyHunters gained renewed urgency with the group’s attempted extortion of the former Boeing unit, which allegedly included the theft of sensitive information that sources said could pose operational safety and security risks. In a brief statement shared with KrebsOnSecurity, Boeing acknowledged the extortion attempts by ShinyHunters, and said the incident concerned data stolen from Jeppesen ForeFlight , a subsidiary that Boeing sold in November 2025 to the private equity firm Thoma Bravo for $10.55 billion. “We are aware of claims by a threat actor regarding data allegedly associated with Boeing and our former subsidiary Jeppesen ForeFlight,” a Boeing spokesperson shared. “We are actively reviewing the matter with the Jeppesen ForeFlight team.” A spokesperson for Jeppesen ForeFlight shared a written statement in response to questions, saying the company has seen no impact on their end. “Based on our investigation to date into this claim and proactive security posture, there was no impact to our operations or products.” Rey’s alleged involvement in attempting to extort the former Boeing unit is noteworthy because there is strong evidence that his father works for Royal Jordanian Airlines , which is mostly controlled by the Jordanian government and operates its long-haul fleet on passenger planes built by Boeing. Rey claimed on Telegram in early 2025 that his father was an airline pilot, although that could not be independently confirmed. However, as noted in our November 2025 profile of Rey , his family’s shared computer was at one point compromised by password-stealing malware, and the data collected by that malware clearly shows Rey’s father used the same credentials to log in at multiple online portals for Royal Jordanian Airlines employees. Royal Jordanian Airlines has not yet responded to a request for comment. In advance of our September 28 story, KrebsOnSecurity once again emailed Rey’s father to seek comment and update him on his son’s alleged activities. Neither of the Khaders have responded. But just hours after that request was sent, Rey began deleting his various social media accounts, including the Twitter/X account he previously used to taunt the FBI, Cl0p, and other ShinyHunters victims. Rey may have nixed many of his social media profiles, but his cybersecurity blog on GitHub somehow escaped the purge, and it shows that Rey was fixated on the leaders of the Cl0p ransomware group. In March 2026, Rey’s blog featured a lengthy post that identified two Russian men as the core developers and hackers behind Cl0p. Rey’s blog on GitHub. This post doxes two Russian men as the core operators behind Cl0p, one of the oldest and most established ransomware groups still in operation today. MURDER FOR HIRE? Meanwhile, news outlets in the Netherlands reported explosive new allegations leveled at Van der Stap, whose supposed personal transformation from convicted to reformed hacker has been widely covered in the tech news media. The Dutch daily RTL reported on Sept. 29 that investigators suspect Van der Stap tried to orchestrate at least two murders. According to RTL, the murders were allegedly to be committed abroad, and there are indications Van der Stap gave the order for these attacks. Van der Stap was released from prison after serving the better part of a four year sentence for data theft and extortion activity that prosecutors said netted between €1.5 million and €2.7 million. In an interview with KrebsOnSecurity on September 9, Van der Stap described his new role as “offensive security lead” at the Dutch cybersecurity company Neo Security , saying the job involved probing client networks for security vulnerabilities. Neo Security’s owner Benjamin Korper told Reuters he has hired an outside firm to investigate whether Van der Stap had hacked Neo Security or its customers, but that so far investigators have found no evidence he acted against his employer or clients. Korper said Dutch forensic investigators visited his office on September 15, the night Van der ⁠Stap was arrested in a dramatic police raid that reportedly involved flash bang grenades . A screenshot of a Sept 16 story by the Dutch news outlet at5.nl, describing a police raid on Van Der Stap’s residence that reportedly used flash-bang grenades. Prior to his first arrest in 2023, Van der Stap was working as a software engineer at the Amsterdam-based cybersecurity startup Hadrian, while volunteering at the Dutch Institute for Vulnerability Disclosure (DIVD) — even as he was hacking into and extorting a number of large organizations. When asked in a recent interview why anyone should believe the word of a self-described “reformed” cybercriminal who had so casually deceived countless friends, co-workers and journalists for years, Van der Stap replied that his work spoke for itself and there was nothing he could say that would convince his worst critics. “You can throw a bunch of nice words at someone, but you can’t convince them if they don’t want to be convinced,” Van der Stap told KrebsOnSecurity on Sept. 9. “I’m doing what I can to repay victims, and that’s all I can do. If someone doesn’t want to believe me, then that’s on them.” FRANCHISING AND BURNING A BRAND Cybercriminals aligned with ShinyHunters have been responsible for dozens of data breaches involving billions of stolen records, and breaches claimed by the group stretch back to at least 2019. But experts say the people recently operating behind the ShinyHunters name are not the same core members that populated the group in its early days, most of whom are French citizens who have been arrested (if not also imprisoned) on at least one prior occasion for alleged cybercrime activity. More to the point, ShinyHunters has become something of a franchise. Think the Dread Pirate Roberts character in the 1980s cult movie classic “The Princess Bride,” only succession by death is replaced with succession by arrest, and there can be multiple simultaneous Dread Pirate Robertses. Sources close to the investigation say the FBI is focusing on a remaining handful of cybercriminal freelancers or affiliates who have been feeding the group stolen credentials to various software-as-a-service (SaaS) platforms used by major companies in exchange for a cut of any data ransoms later paid by victims. In the days after the news broke of Van der Stap’s arrest, a cybercrime-focused chat server on Telegram that was allegedly operated by Rey erupted with hot takes, with most participants heaping ridicule on the teenage hacker after he publicly backed down from threats against the FBI and Cl0p, and again when the ShinyHunters’s darknet website suddenly went offline . Several commentators accused Rey of resurrecting the ShinyHunters brand after its core members were rounded up in France, and making a mockery of the group’s name and reputation ever since. “He bought the old forum PGP key and used it to make new Breachforum websites and Telegram channels larping as ShinyHunters to ransom companies and then sell the used data or resell his forum when he goes broke,” one member recounted. A relatively new Telegram channel called “The Battle” has been doxing and needling Rey and other alleged ShinyHunters members for several weeks, and it has gained a considerable readership among the cybercrime communities operating on Telegram. One of the coordinators of that harassment campaign repeatedly portrayed Rey as clueless greenhorn who sought to ride the coattails of a cybercriminal brand that has long enjoyed a reputation for ruthlessly selling or publishing data stolen from victim companies who refuse to give in to extortion demands. “Rey (Saif Al-Din Khader) made a serious mistake when he started pretending to be a member of ShinyHunters,” wrote the administrators of The Battle server on Telegram. “That group had already been dismantled, with many of its members either arrested or imprisoned, yet Rey still chose to use its name while carrying out his crimes. We’re aware of claims that [Rey] caused over $200 million in damages and helped around 5–6 friend groups in the community make money by using Shiny Hunters group aliases to negotiate deals for a 25–30% cut over the past few months.” In an interview with The Register , ShinyHunters claimed they hacked the FBI to counter the agency’s narrative in a May 2026 alert that advised victims against paying a ransom to the group, which came off looking unprofessional and capricious in the FBI’s advisory. A flash notice on ShinyHunters released by the FBI on May 15, 2026. The public notice warned the group has been known to pursue a number of different victim harassment strategies , from sending threatening text messages and phone calls to victims and their family members to in some cases swatting victims. The FBI warned ShinyHunters members “may also falsely claim to have sensitive or compromising information, including embarrassing photographs or videos of victims, which frequently do not exist.” The hackers told The Register their attack on the FBI “demonstrated our technical capabilities and directly refuted the misinformation disseminated by the FBI, journalists, and industry researchers.” At the same time, the group’s leaders seemed to acknowledge that the FBI’s warning materially harmed their prospects for convincing victims to pay, saying “this was fundamentally a public relations and marketing initiative for our business.”",
-      "image": "",
-      "source": "Krebs on Security",
-      "announce": "",
-      "category": "Other",
-      "score": null,
-      "ageDays": 31,
+      "ageDays": 33,
       "fresh": false
     },
     {
@@ -3847,7 +3702,7 @@
       "announce": "",
       "category": "Other",
       "score": null,
-      "ageDays": 35,
+      "ageDays": 37,
       "fresh": false
     },
     {
@@ -3862,41 +3717,7 @@
       "announce": "",
       "category": "Other",
       "score": null,
-      "ageDays": 37,
-      "fresh": false
-    },
-    {
-      "guid": "https://krebsonsecurity.com/?p=74341",
-      "title": "Dutch Police Arrest ‘Reformed’ Hacker in Shiny Hunters Investigation",
-      "link": "https://krebsonsecurity.com/2026/09/dutch-police-arrest-reformed-hacker-in-shiny-hunters-investigation/",
-      "authors": [
-        "BrianKrebs"
-      ],
-      "date": "Mon, 28 Sep 2026 15:08:57 +0000",
-      "summary": "Authorities in the Netherlands have arrested a 24-year-old convicted cybercriminal on suspicion of aiding in data thefts and extortions by the prolific hacker group ShinyHunters . In the days immediately following the suspect’s arrest, remaining ShinyHunters members dramatically escalated their attacks, stealing highly sensitive data from the FBI and extorting the Russian ransomware group Cl0p . According to three sources familiar with the matter, the Dutch man arrested by authorities this month is Pepijn van der Stap , a convicted cybercriminal from Almere and Lelystad in the Netherlands. Van der Stap was previously convicted in 2023 in connection with a string of data thefts and extortions that prosecutors said earned between €1.5 million and €2.7 million. At his trial in late 2023, van der Stap admitted that he lived a Dr. Jekyll and Mr. Hyde existence, secretly using the hacker handle “ Umbreon ” to extort victims and post their data on English language hacking communities like the now-defunct RaidForums and Breached. By day, however, van der Stap was working as a software engineer at the Amsterdam-based cybersecurity startup Hadrian , while volunteering at the Dutch Institute for Vulnerability Disclosure (DIVD), a nonprofit security research group. Pepijn van der Stap’s alter ego “Umbreon” selling a database on RaidForums, offering information on 2.3 million people from The Netherlands in September 2021. This user’s avatar is a depiction of the Pokemon character Umbreon. Image: KELA. Van der Stap confessed to his data theft and extortion activity, and was sentenced to four years in prison (one of which was suspended). During his trial, van der Stap opted to remain in custody for a time rather than at home, saying he could not find better treatment on the outside for his ongoing psychological issues, which he claimed included PTSD related to childhood trauma. He was released from prison in December 2025. In an interview with KrebsOnSecurity on September 9, 2026, Van der Stap cast himself as a reformed hacker who was trying to turn his life around and make a positive contribution to society. Van der Stap is currently employed as offensive security lead at the Dutch company Neo Security , which did not respond to requests for comment. Van der Stap said he was still dealing with civil lawsuits and restitution related to his previous cybercrime victims, and that he was trying his best to make amends. But not long after that interview, the Dutch hacker abruptly stopped replying to messages. Efforts by others close to him also repeatedly failed to elicit a response for the past two weeks. The LinkedIn profile for Pepijn van der Stap. According to two sources with knowledge of the matter, Van der Stap was arrested by Dutch authorities on or around September 16, and has been held in custody for questioning since. One source said a colleague of theirs personally witnessed Dutch authorities carting items out of Van der Stap’s residence. Authorities in the Netherlands have been asking the public for help in identifying the voice in a recorded telephone call from February 2026 in which a native Dutch-speaking ShinyHunters member social engineered their way into Odido , the nation’s largest mobile telecommunications provider. In that intrusion, ShinyHunters tricked an Odido employee into logging in at a spoofed website, and then used that access to steal data on more than 6.2 million Dutch people. Responding to Dutch news media, ShinyHunters confirmed that the suspect in the audio clip is indeed a member of the hacker collective. “Our team member has our full support – emotionally, mentally, and financially,” the hackers said. “Everything has been arranged, including a criminal defense lawyer. We do not look down on our staff and members; we take excellent care of them,” reads a statement ShinyHunters shared with NL Times . It remains unclear if the Dutch police have matched the Odido caller to a confirmed real-life identity. The Dutch police unit handling the Odido incident did not respond to requests for comment. The group also lashed out at the authorities in the Netherlands. “The Dutch police will need all the luck in the world – and everyone’s prayers – if they want to catch him before we carry out another large-scale data theft in the Netherlands,” the ShinyHunters statement said. “Frankly, the Dutch police are a big joke; they are incapable of doing anything. Incompetent. Irrelevant. Unimportant. Useless.” FBI, CL0P HACKS Just days after sources say Van der Stap was detained by Dutch authorities, ShinyHunters claimed credit for an unusually brazen breach at the FBI’s job application site apply.fbijobs.gov. According to reporting from 404 Media , the data stolen from the FBI site includes Social Security numbers and personal information on more than 5,000 officials. 404 Media and Reuters reported the FBI data included each person’s job title or team, such as special agent, threat intake examiner, major cybercrimes unit, and those investigating cyber threats from foreign state-backed actors. Reuters examined documents shared by ShinyHunters and found they included sensitive psychiatric and medical files of FBI staff. The FBI issued a brief statement confirming the hack. ShinyHunters said it gained access to the FBI site and other victims by exploiting a recently patched vulnerability (CVE-2026-35273) in PeopleSoft , a software-as-a-service platform from the software giant Oracle that is broadly used by companies to manage hiring and human resources, benefits and payroll. Oracle quickly issued a fix for the Peoplesoft vulnerability that ShinyHunters reportedly began exploiting as a zero-day in June, and at the time Mandiant released web application firewall rules intended for organizations who couldn’t apply the security update quickly enough. But on Friday, BleepingComputer reported that ShinyHunters used a URL-encoding trick to bypass Mandiant’s suggested web application firewall rules designed to mitigate the threat from the PeopleSoft flaw. In a report released Sept. 25, security experts at Mandiant and the Google Threat Intelligence Group (GTIG) confirmed that ShinyHunters had mass-exploited the PeopleSoft vulnerability to steal data from dozens of systems across a range of industries, including higher education, technology, healthcare, agriculture, transportation and government. Van der Stap’s former hacker alias Umbreon was hidden in plain sight throughout the imagery ShinyHunters used to spread news about the FBI hack: The defacement image that ShinyHunters left behind on the hacked FBI jobs site included an ASCII art design featuring the Pokemon character Umbreon. The message at the top read, “This site has been seized by ShinyHunters. rooting your systems since ’19 ;)” The image appears identical to a defacement message ShinyHunters used in their 2020 hack of the English-language cybercrime community Hackforums. The defacement message left by ShinyHunters on the FBI jobs site included an ASCII art rendition of the Pokemon character Umbreon. Image: Bleeping Computer. Multiple sources close to the ShinyHunters investigation said the group’s recent risky attacks against the FBI and one of Russia’s most venerated ransomware groups amounted to a major pivot away from the more measured tenor of the hacking gang’s operations. Those sources said the sudden shift came about after ShinyHunters was taken over by a teenage cybercriminal from Amman, Jordan who goes by the nickname Rey and operates as part of a cybercrime group called ScatteredLapsussHunters (SLSH), which experts say is an amalgamation of three hacking groups — Scattered Spider , LAPSUS$ and ShinyHunters . Those sources said Rey had an ongoing beef with the Dutch hacker over control of the ShinyHunters brand and data, and that the inclusion of the oversized Umbreon Pokemon image in the FBI jobs site defacement was likely an attempt by Rey to pin the hack on the Dutchman. Rey was first publicly identified by the cybersecurity firm KELA in March 2025. In advance of our November 2025 profile of Rey , KrebsOnSecurity messaged Rey’s father and asked for permission to interview his teenage son. Rey’s dad merely forwarded the message to his son, who admitted to participating in ransomware attacks and said he was trying to extricate himself from the SLSH hacker group. BLAMING UMBREON Immediately after news of the FBI jobs site hack was picked up in the media, Rey’s main account on Twitter/X (Ryan Moran/@rmoskovy) was taunting the Cl0p ransomware group and the FBI, crudely depicting them as the twin towers in New York being struck by planes labeled “cl0p drama” and “fbi breach claim.” In the foreground of the city is the giant Pokemon figure of Umbreon. A taunting meme uploaded to Twitter/X by Rey’s now-defunct account on Sept. 22. A giant float-sized version of the Pokemon character Umbreon can be seen in the bottom left. On Sept. 24, KrebsOnSecurity again contacted Rey’s dad, asking to interview him and his son for a story on Rey’s apparent ascendency as the head of ShinyHunters. Just hours after that request, Rey deleted his longtime Twitter/X account. Meanwhile, Rey’s dad, who works for the Royal Jordanian Airlines, has failed to respond to a half-dozen emailed requests for comment about his son’s alleged activities. Where does the bad blood between SLSH and ShinyHunters come from? According to a story in Wired this month, ShinyHunters and SLSH members briefly partnered earlier this year to help better monetize important stolen credentials collected by TeamPCP , an upstart group that was having great success compromising global code supply chains with malicious software but hadn’t been able to profit much from their stolen data (two alleged leaders of TeamPCP were arrested last month in Australia , and in an interview the TeamPCP leader claimed they made just $20,000). The Wired story noted how Mandiant had infiltrated TeamPCP and was secretly responsible for having the crime group’s stolen credentials burned so quickly: Mandiant was secretly feeding those credentials to the major cloud providers like Amazon and Microsoft, who quickly invalidated the stolen keys. Meanwhile, the formerly cooperating hacker groups began to blame one another for causing the credentials to become worthless. Wired’s Andy Greenberg reported that a few weeks after partnering with TeamPCP, “ShinyHunters went rogue, carrying out its own extortions with TeamPCP’s credentials but without giving the supply-chain hackers their cut.” Mandiant researcher Austin Larsen told KrebsOnSecurity earlier this month that ShinyHunters has been enjoying a successful extortion spree so far this year, and is on track to pull in nearly $100 million in extortion payments from cybercrime victims in 2026. Van der Stap claims he was never motivated by money and that his earlier hacker activity was driven by a desire to have the world’s most complete collection of stolen databases. Speaking with reporters from Bloomberg in 2024, Van der Stap said that singular focus in turn fueled his desire to carry out cyberattacks. “The hacking was very easy for me, and it wasn’t a compulsion,” he told Bloomberg . “My habit was collecting. Collecting data, organizing data, downloading data, creating folders.” DIVD, the nonprofit security research group where Van der Stap previously served as a volunteer, disclosed on LinkedIn last week that the organization was dealing with an internal cybersecurity incident that appears to have involved the malicious use of artificial intelligence. DIVD has released few details about that incident, but a spokesperson for the nonprofit told KrebsOnSecurity it does not appear related to ShinyHunters, nor are there any signs the matter involves the work of a previous volunteer. Update: 3:44 p.m. ET: Corrected Van der Stap’s age, which is 24 (not 23). Update, 4:54 p.m. ET: The Dutch police have confirmed the arrest of a 24-year-old in connection with the ShinyHunters investigation. In a statement on Twitter/X , the Dutch police said the man will appear on Tuesday, September 29 before the chambers of the Rotterdam District Court, and that it will provide more information tomorrow. Sept. 29, 9:42 a.m. ET: The Dutch news outlet RTL reports that investigators suspect Van der Stap tried to orchestrate at least two murders. RTL reported the two murders were allegedly to be committed abroad, and that there are indications the suspect gave the order for this. The FBI released a short video message on the ShinyHunters investigation from Brett Leatherman, assistant director of the FBI’s cyber division, who thanked Dutch law enforcement partners for their assistance and urged remaining ShinyHunters members to turn themselves in. “Arrests have a way of changing who is willing to talk, and seized infrastructure has a way of showing us who’s left,” Leatherman said. “The longer you stay in this, the more we learn about you. You know how to find us, and we know how to find you. I suggest you reach out to us while the choice is still yours.”",
-      "image": "",
-      "source": "Krebs on Security",
-      "announce": "",
-      "category": "Other",
-      "score": null,
       "ageDays": 39,
-      "fresh": false
-    },
-    {
-      "guid": "https://krebsonsecurity.com/?p=74335",
-      "title": "U.S. Soldier Gets 70 Months in Prison for AT&T, Verizon Extortions",
-      "link": "https://krebsonsecurity.com/2026/09/u-s-soldier-gets-70-months-in-prison-for-att-verizon-extortions/",
-      "authors": [
-        "BrianKrebs"
-      ],
-      "date": "Fri, 25 Sep 2026 21:44:40 +0000",
-      "summary": "A U.S. Army soldier who pleaded guilty to hacking into multiple telecommunications companies and stealing mobile call and text metadata for more than 100 million AT&T customers in 2024 was sentenced to 70 months in federal prison today and ordered to pay nearly $300,000 in restitution to victims. One of several selfies from the Facebook page of Cameron Wagenius. Cameron John Wagenius , 22, was stationed at a U.S. Army base in South Korea when he adopted the cybercriminal persona “ Kiberphant0m .” Working with three alleged co-conspirators, Kiberphant0m downloaded data from several large customers of the cloud data storage service Snowflake that had exposed credentials and did not enforce multi-factor authentication (Snowflake has since mandated MFA on all accounts). In October 2024, Kiberphant0m bragged on the cybercrime forums that he’d stolen the call and text metadata (e.g. source and destination number, timestamp, duration, etc.) for tens of millions of AT&T customers. Kiberphant0m claimed to have hacked into more than dozen telecommunications companies worldwide, including Verizon’s Push-to-Talk business, and publicly extorted these companies in exchange for a promise not to publish the stolen data. In late November 2025, KrebsOnSecurity warned that Kiberphant0m was likely a U.S. soldier stationed in South Korea . Less than a month later, Wagenius was arrested and charged in two separate federal indictments, and soon pleaded guilty to all counts in both cases. At his sentencing hearing in Seattle today, Wagenius was sentenced to nearly six years in federal prison, and ordered to pay $294,978 in restitution. Federal prosecutors said Wagenius was assisted in his efforts to extort victim companies by Kenneth Schuchman , a 28-year old man from Vancouver, Washington who has a lengthy cybercriminal history. In 2019, Schuchman pleaded guilty to operating the Satori botnet , a vast collection of hacked Internet-of-Things (IoT) devices that was used for large-scale distributed denial-of-service (DDoS) attacks. Two other alleged co-conspirators of Wagenius are still facing charges in connection with the Snowflake data thefts; Conor Riley Moucka , a.k.a. “Judische,” of Kitchener, Ontario was arrested in 2024 and pleaded guilty in August 2026 ; and John Erin Binns , an American man currently living in Turkey who is also wanted for a 2021 data breach at T-Mobile that exposed the personal information of at least 76 million customers. Kiberphant0m also admitted to re-extorting victims, and threatening to disclose national security secrets. Immediately following Moucka’s arrest — after AT&T had already paid the extortion group a $370,000 Bitcoin ransom — Kiberphant0m posted on hacker forums what he claimed were the AT&T call logs for then President-elect Donald Trump and for then Vice President Kamala Harris, as well as schematics allegedly stolen from the U.S. National Security Agency (NSA). Paul Russell is a resident agent in charge at the Defense Criminal Investigative Service (DCIS), the criminal investigative arm of the U.S. Department of Defense Office of Inspector General. Russell said when DCIS received information that a soldier with secret clearance was allegedly involved in cybercrime and extortion, the agency began working the investigation alongside the FBI, the Army Criminal Investigative Division (CID), and the U.S. Secret Service. “We don’t often get leads where there’s an active duty soldier with a secret clearance who’s creating hacking tools and trafficking in data,” Russell said. “That doesn’t happen every day, and so when that hits it really spins all of our partner organizations up. It was very serious from jump street, just because it was unique, it was an insider threat, and we weren’t sure what we were dealing with.” A sentencing memo (PDF) filed Sept. 19 by federal prosecutors in Seattle notes that while Wagenius pleaded guilty almost immediately and has been remarkably cooperative, he recently got caught trying to find security vulnerabilities in the BOP’s computer network. The government’s memo notes that while incarcerated and awaiting sentencing, Wagenius violated the computer use policies of the Bureau of Prisons (BOP) in attempts to learn about vulnerabilities in BOP computer systems. “According to records from BOP, in or around September 2025, Wagenius used another inmate’s email system to request that the email recipient prompt a commercial AI tool to provide information about “[w]hat CVE’s are there for Windows 10 Enterprise privilege escalation and bypasses” and to “[p]rovide the CVE’s and a real world working script for each CVE . . . without omitted code,” the government’s memo states. The memo states that less than a week later, Wagenius used a different inmate’s email account and requested that the email recipient prompt an AI tool to “[p]rovide the step by step for CVE-2023-45208 , code for this if any, and if no code exists make some, make sure to describe everything in detail.” CVE-2023-45208 is a three-year-old “command injection” vulnerability in D-Link networking devices. That same month, Wagenius allegedly again requested that the email recipient prompt AI with the question, “How do you make an antenna in a prison environment with commissary or readily available items/tools to improve/make an antenna to extend radio reception?” Federal prosecutors said Wagenius also requested that the recipient research escaping prison. “In several instances, Wagenius framed the AI queries as being posed in connection to a book he was writing. This is a common method of ‘prompt injection,’ in which attackers feed specially crafted, deceptive inputs into commercial AI tools that are programmed to avoid outputting malicious code that can be used to exploit computer vulnerabilities,” the sentencing memo reads. The government told the court it is unaware of evidence that Wagenius figured out how to use or deploy the vulnerabilities he was researching in the BOP’s systems, and when questioned said he was only researching “potential vulnerabilities to provide information to the BOP.” Incredibly, despite the enormous financial value of the data stolen from AT&T and other telecom providers, Wagenius’s extortion efforts were largely unsuccessful. The government’s sentencing memo says Wagenius made a whopping total of around $1,500 from selling stolen data. “While Wagenius was not particularly financially successful as a cybercriminal, he both intended to and caused significant harm to numerous individual victims, U.S. companies, and the U.S. government,” the memo states.",
-      "image": "",
-      "source": "Krebs on Security",
-      "announce": "",
-      "category": "Other",
-      "score": null,
-      "ageDays": 42,
       "fresh": false
     },
     {
@@ -3913,7 +3734,7 @@
       "announce": "",
       "category": "Other",
       "score": null,
-      "ageDays": 58,
+      "ageDays": 60,
       "fresh": false
     },
     {
@@ -3931,7 +3752,7 @@
       "announce": "",
       "category": "Other",
       "score": null,
-      "ageDays": 60,
+      "ageDays": 61,
       "fresh": false
     },
     {
@@ -3949,7 +3770,7 @@
       "announce": "",
       "category": "Other",
       "score": null,
-      "ageDays": 61,
+      "ageDays": 62,
       "fresh": false
     },
     {
@@ -3966,7 +3787,7 @@
       "announce": "",
       "category": "Other",
       "score": null,
-      "ageDays": 64,
+      "ageDays": 66,
       "fresh": false
     },
     {
@@ -3983,7 +3804,7 @@
       "announce": "",
       "category": "Other",
       "score": null,
-      "ageDays": 66,
+      "ageDays": 67,
       "fresh": false
     },
     {
@@ -4000,7 +3821,7 @@
       "announce": "",
       "category": "Other",
       "score": null,
-      "ageDays": 66,
+      "ageDays": 68,
       "fresh": false
     },
     {
@@ -4017,7 +3838,7 @@
       "announce": "",
       "category": "Other",
       "score": null,
-      "ageDays": 77,
+      "ageDays": 79,
       "fresh": false
     },
     {
@@ -4034,7 +3855,7 @@
       "announce": "",
       "category": "Other",
       "score": null,
-      "ageDays": 86,
+      "ageDays": 87,
       "fresh": false
     },
     {
@@ -4051,7 +3872,7 @@
       "announce": "",
       "category": "Other",
       "score": null,
-      "ageDays": 87,
+      "ageDays": 88,
       "fresh": false
     },
     {
@@ -4068,7 +3889,7 @@
       "announce": "",
       "category": "Other",
       "score": null,
-      "ageDays": 92,
+      "ageDays": 93,
       "fresh": false
     },
     {
@@ -4083,7 +3904,7 @@
       "announce": "",
       "category": "Other",
       "score": null,
-      "ageDays": 93,
+      "ageDays": 94,
       "fresh": false
     }
   ]

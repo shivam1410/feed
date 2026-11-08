@@ -8,7 +8,7 @@ date: "2026-11-06"
 score: ""
 guid: "10.1038/d41586-026-03587-x"
 image: ""
-generated: "2026-11-07T20:33:06+05:30"
+generated: "2026-11-08T21:41:26+05:30"
 ---
 
 A team of artificial-intelligence agents simulates a laboratory of robots and instruments to ensure that the physical workspace functions smoothly and then directs that workspace’s operations.

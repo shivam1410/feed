@@ -8,7 +8,7 @@ date: "2026-11-03T19:00:00.000Z"
 score: ""
 guid: "2611.06500"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.06500.png"
-generated: "2026-11-07T20:33:06+05:30"
+generated: "2026-11-08T21:41:26+05:30"
 ---
 
 Large language model (LLM) agents typically append raw tool outputs to their context. Over multi-step interactions, long and noisy observations incur substantial context overhead and dilute the agent's attention to task-relevant information. Existing token pruning and summarization methods remain constrained by discrete text representations, limiting the achievable compression ratios.

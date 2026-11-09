@@ -8,7 +8,7 @@ date: "Wed, 04 Nov 2026 16:54:31 +0530"
 score: ""
 guid: "https://thehackernews.com/2026/11/china-aligned-hackers-hijack-sogou.html"
 image: ""
-generated: "2026-11-08T21:41:26+05:30"
+generated: "2026-11-09T20:33:26+05:30"
 ---
 
 A China-aligned threat actor known as SlippyNunchucks has been attributed to a Domain Name System (DNS) hijacking operation abusing insecure HTTP communications in Windows versions of Sogou Input Method as part of a surveillance campaign designed to deploy an implant called DarkVigil (aka FDMTP). The campaign, observed starting July 1, 2026, is assessed to have targeted organizations and

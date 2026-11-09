@@ -8,7 +8,7 @@ date: "2026-11-03T13:59:52.000Z"
 score: ""
 guid: "2611.05376"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.05376.png"
-generated: "2026-11-08T21:41:26+05:30"
+generated: "2026-11-09T20:33:26+05:30"
 ---
 
 Physical AI should include AI-augmented human intelligence via lifelong cognitive symbionts that close cognitive gaps through sensing, context retention, and proactive assistance, requiring embedded governance.

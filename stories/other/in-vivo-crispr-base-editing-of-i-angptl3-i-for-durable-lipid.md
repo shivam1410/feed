@@ -8,7 +8,7 @@ date: "2026-11-06"
 score: ""
 guid: "10.1038/s41586-026-11233-9"
 image: ""
-generated: "2026-11-08T21:41:26+05:30"
+generated: "2026-11-09T20:33:26+05:30"
 ---
 
 In Vivo CRISPR Base Editing of ANGPTL3 for Durable Lipid Lowering

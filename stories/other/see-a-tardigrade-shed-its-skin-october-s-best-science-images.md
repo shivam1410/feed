@@ -8,7 +8,7 @@ date: "2026-11-04"
 score: ""
 guid: "10.1038/d41586-026-03563-5"
 image: ""
-generated: "2026-11-08T21:41:26+05:30"
+generated: "2026-11-09T20:33:26+05:30"
 ---
 
 The month’s sharpest science shots, selected by Nature’s photo team.

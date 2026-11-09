@@ -8,7 +8,7 @@ date: "Tue, 03 Nov 2026 22:25:58 +0530"
 score: ""
 guid: "https://thehackernews.com/2026/11/binance-reveals-how-fake-job-interviews.html"
 image: ""
-generated: "2026-11-08T21:41:26+05:30"
+generated: "2026-11-09T20:33:26+05:30"
 ---
 
 Binance on Tuesday said the record-setting theft of $6.43 billion in assets from the world's largest cryptocurrency exchange was the culmination of a "sophisticated, multi-stage campaign" that involved the use of a tampered Homebrew installation and recruitment-themed social engineering attack targeting two of its engineers. "It was not a single isolated breach or a simple phishing incident,"

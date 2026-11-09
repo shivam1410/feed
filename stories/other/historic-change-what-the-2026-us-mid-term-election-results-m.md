@@ -8,7 +8,7 @@ date: "2026-11-04"
 score: ""
 guid: "10.1038/d41586-026-03579-x"
 image: ""
-generated: "2026-11-08T21:41:26+05:30"
+generated: "2026-11-09T20:33:26+05:30"
 ---
 
 Researchers hope that US lawmakers will push back against the Trump administration’s science policies — but there are limits to what Congress can do.

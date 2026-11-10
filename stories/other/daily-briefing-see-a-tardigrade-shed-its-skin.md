@@ -8,7 +8,7 @@ date: "2026-11-04"
 score: ""
 guid: "10.1038/d41586-026-03593-z"
 image: ""
-generated: "2026-11-09T20:33:26+05:30"
+generated: "2026-11-10T19:01:15+05:30"
 ---
 
 Enjoy the month’s best science images. Plus, an outbreak of anthrax in African hippos and the places where biodiversity drops after humans leave.

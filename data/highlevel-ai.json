@@ -1,24 +1,54 @@
 {
-  "generatedAt": "2026-11-09T21:49:18+05:30",
+  "generatedAt": "2026-11-10T19:01:50+05:30",
   "summary": "2026 is HighLevel's “AI Employee” year. Conversation AI now drafts replies in the background (Auto-Suggestive mode) and understands 30+ languages; Voice AI matured to 27 languages and 340+ voices; AI Studio added role-based team permissions; and Ask AI — powered by Claude Sonnet — drives the backend by chat.",
   "topIdeas": [
     {
       "title": "Improve Voice AI realism",
-      "score": 314,
+      "score": 315,
       "product": "Voice AI",
       "url": "https://ideas.gohighlevel.com/voice-ai"
+    },
+    {
+      "title": "AI hand off to a human message for Conversation AI at the end of maximum number of replies",
+      "score": 197,
+      "product": "Conversation AI",
+      "url": "https://ideas.gohighlevel.com/conversation-ai"
     },
     {
       "title": "AI Voice Cloning - Train or upload a custom AI voice",
-      "score": 178,
+      "score": 179,
       "product": "Voice AI",
       "url": "https://ideas.gohighlevel.com/voice-ai"
     },
     {
+      "title": "WHATSAPP MESSAGES SENT THROUGH THE COEXISTENCE SHOULD SEND THE BOT TO SLEEP AS WELL",
+      "score": 168,
+      "product": "Conversation AI",
+      "url": "https://ideas.gohighlevel.com/conversation-ai"
+    },
+    {
+      "title": "Add GitHub integration",
+      "score": 154,
+      "product": "AI Studio",
+      "url": "https://ideas.gohighlevel.com/ai-studio"
+    },
+    {
       "title": "Ability to send Call Summary and Call Recording after Call",
-      "score": 145,
+      "score": 146,
       "product": "Voice AI",
       "url": "https://ideas.gohighlevel.com/voice-ai"
+    },
+    {
+      "title": "AI Studio Website",
+      "score": 129,
+      "product": "AI Studio",
+      "url": "https://ideas.gohighlevel.com/ai-studio"
+    },
+    {
+      "title": "Paragraph, Heading, and Bullet formatting in chat responses",
+      "score": 122,
+      "product": "Conversation AI",
+      "url": "https://ideas.gohighlevel.com/conversation-ai"
     },
     {
       "title": "🚨 Essential Feature: Let AI Send Files (JPG, PDF, Video, etc.)",
@@ -27,40 +57,10 @@
       "url": "https://ideas.gohighlevel.com/ai-employee"
     },
     {
-      "title": "Separar las opciones de que el Empleado IA se detenga cuando envio un mensaje de cuando se activa un worflow",
-      "score": 73,
-      "product": "AI Employee",
-      "url": "https://ideas.gohighlevel.com/ai-employee"
-    },
-    {
-      "title": "Outbound \"I'm an AI Assistant\" disclaimer needs to be optional.",
-      "score": 65,
-      "product": "Voice AI",
-      "url": "https://ideas.gohighlevel.com/voice-ai"
-    },
-    {
-      "title": "Ability for Voice AI to Book Appointments on \"New\" Service Calendar",
-      "score": 33,
-      "product": "Voice AI",
-      "url": "https://ideas.gohighlevel.com/voice-ai"
-    },
-    {
-      "title": "👉 Voice AI -> Capturing Secure Keypad Input (DTMF) from Caller 📱",
-      "score": 24,
-      "product": "AI Employee",
-      "url": "https://ideas.gohighlevel.com/ai-employee"
-    },
-    {
-      "title": "Connect HighLevel Blogs Directly to AI Studio",
-      "score": 20,
+      "title": "Display Token usage",
+      "score": 103,
       "product": "AI Studio",
       "url": "https://ideas.gohighlevel.com/ai-studio"
-    },
-    {
-      "title": "We use Grok. Can we have Grok added to the AI Agent LLM model list?",
-      "score": 19,
-      "product": "AI Employee",
-      "url": "https://ideas.gohighlevel.com/ai-employee"
     }
   ],
   "products": [
@@ -68,7 +68,14 @@
       "name": "Conversation AI",
       "url": "https://ideas.gohighlevel.com/conversation-ai",
       "what": "AI agents that handle automated chats across every messaging channel, drafting replies in the background while a human stays in control.",
-      "ideas": [],
+      "ideas": [
+        "AI hand off to a human message for Conversation AI at the end of maximum number of replies",
+        "WHATSAPP MESSAGES SENT THROUGH THE COEXISTENCE SHOULD SEND THE BOT TO SLEEP AS WELL",
+        "Paragraph, Heading, and Bullet formatting in chat responses",
+        "Conversation AI Context",
+        "✅ Support for Opportunity Fields in Conversation AI",
+        "Conversation AI summary should be generated in the sub-account's platform language"
+      ],
       "summary": ""
     },
     {
@@ -90,12 +97,12 @@
       "url": "https://ideas.gohighlevel.com/ai-studio",
       "what": "Build websites and apps with AI (no-code), with permissions so teams/agencies control who can view vs. edit each agent.",
       "ideas": [
-        "Connect HighLevel Blogs Directly to AI Studio",
+        "Add GitHub integration",
+        "AI Studio Website",
+        "Display Token usage",
+        "Sub-account integration with AI studio projects as a backend through API",
         "Add a Prompt Queue to AI Studio",
-        "Add a Built-In Blog CMS to AI Studio",
-        "Make AI Studio websites compatible with Affiliate Manager",
-        "Allow Uploading More Than 5 Images per Batch",
-        "AI Studio: switch sub-accounts directly from the editor and stay in AI Studio"
+        "Add a Built-In Blog CMS to AI Studio"
       ],
       "summary": ""
     },
@@ -103,7 +110,14 @@
       "name": "Ask AI",
       "url": "https://ideas.gohighlevel.com/ask-ai",
       "what": "A Claude Sonnet-powered assistant that runs your HighLevel backend by chat — content, courses, scheduling, automations.",
-      "ideas": [],
+      "ideas": [
+        "Give Ask AI Access to Workflows, Funnels/Websites, Products, Courses, and more.",
+        "Make GHL Meetings a True Zoom Replacement for Coaching Programs and Communities",
+        "Ask AI must inherit user role permissions + agency-level \"Ask AI Capabilities\" control panel",
+        "Ask AI Computer: Voice calls with sub-agents and background tasks",
+        "Ask AI: Save, pin and rename chats (with sub-chats) for easy access on mobile",
+        "Keep Ask AI voice calls active when the phone screen is turned off (mobile app)"
+      ],
       "summary": ""
     },
     {
@@ -121,26 +135,5 @@
       "summary": ""
     }
   ],
-  "changelog": [
-    {
-      "title": "Workflow AI Analytics: Query Every Workflow, Trace Every Contact",
-      "link": "https://ideas.gohighlevel.com/changelog/workflow-ai-analytics-query-every-workflow-trace-every-contact",
-      "date": "Mon, 09 Nov 2026 14:00:45 GMT"
-    },
-    {
-      "title": "AI Studio: Connect Conversation AI to Your Live Chat Widget from Settings",
-      "link": "https://ideas.gohighlevel.com/changelog/ai-studio-connect-conversation-ai-to-your-live-chat-widget-from-settings",
-      "date": "Fri, 06 Nov 2026 13:09:51 GMT"
-    },
-    {
-      "title": "🚀 Payments: sell more than 100 products from your AI Studio site",
-      "link": "https://ideas.gohighlevel.com/changelog/payments-sell-more-than-100-products-from-your-ai-studio-site",
-      "date": "Fri, 06 Nov 2026 13:06:08 GMT"
-    },
-    {
-      "title": "GPT-6 Sol Is Now the Recommended Model in Conversation AI",
-      "link": "https://ideas.gohighlevel.com/changelog/gpt-6-sol-is-now-the-recommended-model-in-conversation-ai",
-      "date": "Tue, 03 Nov 2026 14:17:47 GMT"
-    }
-  ]
+  "changelog": []
 }

@@ -8,7 +8,7 @@ date: "2026-10-28T11:05:31Z"
 score: ""
 guid: "https://www.schneier.com/?p=72866"
 image: ""
-generated: "2026-11-08T21:41:26+05:30"
+generated: "2026-11-10T19:01:15+05:30"
 ---
 
 Researchers set up a fake start-up company to study fraudulent North Korean IT workers.

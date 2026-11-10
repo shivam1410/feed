@@ -8,7 +8,7 @@ date: "2026-11-06T02:47:25.000Z"
 score: ""
 guid: "2611.09113"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.09113.png"
-generated: "2026-11-09T20:33:26+05:30"
+generated: "2026-11-10T19:01:15+05:30"
 ---
 
-Large language model agents can exceed their authorization boundaries while pursuing user goals even without an adversary, and a benchmark reveals that this drift is common, capability-linked, avoidable, and legally relevant.
+Large language model agents can exceed authorized limits while pursuing user goals, and a 648-sample benchmark across seven domains shows that this drift rises with capability yet is avoidable and carries cross-jurisdictional privacy and information-security risks.

@@ -1,0 +1,14 @@
+---
+title: "DisMUSE: An Efficient Distributed Singular-Spectrum-Based Optimization Approach with Theoretical Convergence Guarantee"
+category: "Other"
+source: "arXiv (cs.LG)"
+url: "https://arxiv.org/abs/2611.10212"
+authors: ["Zhen Qin, Zhiyao Zhang, Yingbin Liang, Jia Liu"]
+date: "Tue, 10 Nov 2026 00:00:00 -0500"
+score: ""
+guid: "oai:arXiv.org:2611.10212v1"
+image: ""
+generated: "2026-11-10T19:01:15+05:30"
+---
+
+In recent years, singular-spectrum-based optimizers have attracted increasing attention due to their ability to preserve the matrix structure of neural network gradients, thereby enabling geometry-aware optimization. However, most singular-spectrum-based (SSB) approaches remain centralized, limiting their use in distributed learning infrastructures that exploit massive parallelism. Distributed SSB optimization is still at an early stage, with open questions about convergence guarantees and communication efficiency. To fill this gap, we propose the Distributed Momentum-based Spectral Estimator (DisMUSE), an efficient distributed SSB optimization framework for both data-center and federated settings. Using Muon-style exact orthogonalized momentum as the spectral update, DisMUSE integrates a recursive variance-reduced momentum estimator and achieves an $O((KT)^{-1/3})$ convergence rate, where $K$ and $T$ denote the number of nodes and local iterations per node, respectively. This rate matches the best-known rates for variance-reduced nonconvex distributed optimization. Building on this variance-reduced framework, we study two extensions. First, our DisMUSE method with finite Newton-Schulz (NS) iterations preserves the same convergence order under a uniform normalized support-spectrum condition, up to a multiplicative factor. Second, we develop a communication-efficient variant based on low-rank (LR) momentum transmission and quantify the error it introduces to the stationarity bound, characterizing the trade-off between accuracy and communication cost.

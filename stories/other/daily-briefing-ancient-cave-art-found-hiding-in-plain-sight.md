@@ -8,7 +8,7 @@ date: "2026-11-06"
 score: ""
 guid: "10.1038/d41586-026-03648-1"
 image: ""
-generated: "2026-11-09T20:33:26+05:30"
+generated: "2026-11-10T19:01:15+05:30"
 ---
 
 Rock-art in a Spanish cave dates back 26,000 years. Plus, flexible working policies can end up saddling academic mothers with more work and the origins of Celtic and Germanic languages.

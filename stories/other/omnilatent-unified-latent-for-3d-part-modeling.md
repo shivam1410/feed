@@ -8,7 +8,7 @@ date: "2026-11-05T19:00:00.000Z"
 score: ""
 guid: "2611.09055"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.09055.png"
-generated: "2026-11-09T20:33:26+05:30"
+generated: "2026-11-10T19:01:15+05:30"
 ---
 
-OmniLatent jointly encodes geometry, deformation, appearance, and part identifiers in a shared latent space to generate and interactively edit part-aware 3D assets from a single image, including segmentation, refinement, subdivision, and amodal completion.
+OmniLatent jointly models geometry, deformation, appearance, and part identities in a shared latent space to generate and interactively edit part-aware 3D assets from images or point prompts.

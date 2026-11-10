@@ -8,7 +8,7 @@ date: "2026-10-30T20:00:00.000Z"
 score: ""
 guid: "2611.01182"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.01182.png"
-generated: "2026-11-09T20:33:26+05:30"
+generated: "2026-11-10T19:01:15+05:30"
 ---
 
-An exact tiled attention algorithm integrates additive relative-position terms into FlashAttention-style computation using offset-aware tiling, product reuse, and offset-based gradient sharding to speed up and reduce memory for long-context relative-position transformers.
+An exact tiled attention algorithm integrates additive relative-position terms into FlashAttention-style computation, reducing memory and compute overhead and accelerating long-context relative-position transformers.

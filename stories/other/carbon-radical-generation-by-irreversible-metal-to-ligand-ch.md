@@ -8,7 +8,7 @@ date: "2026-11-04"
 score: ""
 guid: "10.1038/s41586-026-11368-9"
 image: ""
-generated: "2026-11-09T20:33:26+05:30"
+generated: "2026-11-10T19:01:15+05:30"
 ---
 
 Carbon radical generation by irreversible metal-to-ligand charge transfer

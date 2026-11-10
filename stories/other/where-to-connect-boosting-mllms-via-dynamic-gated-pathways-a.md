@@ -8,7 +8,7 @@ date: "2026-11-03T19:00:00.000Z"
 score: ""
 guid: "2611.06844"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.06844.png"
-generated: "2026-11-09T20:33:26+05:30"
+generated: "2026-11-10T19:01:15+05:30"
 ---
 
-Dynamic Gated Pathways connects every vision transformer layer to every large language model layer and lets each LLM layer dynamically gate its preferred visual granularity, yielding consistent multimodal gains over LLaVA-1.5 baselines.
+Dynamic Gated Pathways enables all-to-all adaptive routing between every vision transformer layer and every large language model layer, allowing each LLM layer to select visual granularities and improving multimodal performance.

@@ -8,7 +8,7 @@ date: "Thu, 05 Nov 2026 22:12:32 +0530"
 score: ""
 guid: "https://thehackernews.com/2026/11/researchers-bypass-chatgpt-lockdown.html"
 image: ""
-generated: "2026-11-09T20:33:26+05:30"
+generated: "2026-11-10T19:01:15+05:30"
 ---
 
 Cybersecurity researchers have disclosed details of a now-patched vulnerability that could be exploited to bypass Lockdown Mode protections in OpenAI ChatGPT. Lockdown Mode was introduced by the artificial intelligence (AI) company in June 2026 as an optional setting to minimize data exfiltration risks arising from prompt injections. "The flaw could enable silent chat data theft, phishing,

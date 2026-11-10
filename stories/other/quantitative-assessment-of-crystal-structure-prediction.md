@@ -1,0 +1,14 @@
+---
+title: "Quantitative Assessment of Crystal Structure Prediction"
+category: "Other"
+source: "arXiv (cs.LG)"
+url: "https://arxiv.org/abs/2611.10380"
+authors: ["Sergio Rinc\\'on, Gabriel Gonz\\'alez, Nicol\\'as Andrade, Rafael Vel\\'asquez, Sebasti\\'an Ojeda, Juanita Puentes, Nicol\\'as Aparicio, Paula C\\'ardenas, Pablo Arbel\\'aez"]
+date: "Tue, 10 Nov 2026 00:00:00 -0500"
+score: ""
+guid: "oai:arXiv.org:2611.10380v1"
+image: ""
+generated: "2026-11-10T19:01:15+05:30"
+---
+
+Crystal Structure Prediction (CSP) aims to predict a material's 3D structure from its chemical composition, with applications from energy storage to biomedical devices. Despite its importance, existing evaluation frameworks suffer from key limitations: they rely on threshold-sensitive or incomparable metrics, focus predominantly on geometric performance while overlooking physical plausibility, and fail to account for polymorphism, where a chemical composition can crystallize into multiple stable structures. In parallel, recent Symmetry-Informed CSP (SICSP) methods often report results alongside standard CSP baselines while receiving crystallographic templates at inference, which constrain the search space and make SICSP a fundamentally different task. To address these limitations, we introduce an Orientation-invariant, Polymorph-Aware, Large Benchmark (OPAL-Bench) that evaluates CSP and SICSP as separate tasks. We evaluate 7 CSP and 2 SICSP methods under OPAL-Bench across 4 datasets using threshold-free geometric and physical distance metrics. Our results show that no method dominates across all metrics, and that geometric performance is not strongly correlated with physical plausibility. We also release OPAL-CSP, an SE(3)-equivariant flow-matching baseline for the CSP track that performs competitively on geometric metrics and ranks among the best on physical ones. By unifying geometric and physical metrics under a polymorph-aware protocol, OPAL-Bench enables a more comprehensive assessment of generative quality in CSP.

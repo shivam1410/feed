@@ -8,7 +8,7 @@ date: "2026-11-02T15:53:15.000Z"
 score: ""
 guid: "2611.03953"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.03953.png"
-generated: "2026-11-09T20:33:26+05:30"
+generated: "2026-11-10T19:01:15+05:30"
 ---
 
-P$^2$-MOPD jointly optimizes mixing coefficients and student weights under an on-policy distillation objective, allowing experts to act as parameter priors and achieving faster, more balanced recovery than MOPD.
+P^2-MOPD jointly optimizes mixing coefficients and student weights under an on-policy distillation objective, enabling faster and more balanced recovery than MOPD by treating experts as parameter priors while keeping the student trainable.

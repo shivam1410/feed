@@ -8,7 +8,7 @@ date: "2026-11-05T19:00:00.000Z"
 score: ""
 guid: "2611.09017"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.09017.png"
-generated: "2026-11-09T20:33:26+05:30"
+generated: "2026-11-10T19:01:15+05:30"
 ---
 
-A unified benchmark of 145 tasks across object, scene, and interactive open-world 3D creation evaluates coding agents on appearance, structure, and behavior, revealing reference fidelity and coordinated activity completion as central bottlenecks.
+A unified 145-task benchmark evaluates coding agents across object, scene, and interactive 3D creation, revealing reference fidelity and coordinated activity completion as central bottlenecks.

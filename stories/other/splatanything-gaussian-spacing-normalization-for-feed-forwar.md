@@ -8,7 +8,7 @@ date: "2026-11-05T11:37:29.000Z"
 score: ""
 guid: "2611.08264"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.08264.png"
-generated: "2026-11-09T20:33:26+05:30"
+generated: "2026-11-10T19:01:15+05:30"
 ---
 
-SplatAnything applies Gaussian Spacing Normalization to canonicalize scene-level Gaussian spacing statistics, improving feed-forward 3DGS reconstruction across varying scene scales and viewpoints.
+SplatAnything applies Gaussian Spacing Normalization to canonicalize scene-level Gaussian spacing, yielding more consistent supervision and improved feed-forward 3D Gaussian Splatting under varying scene scales and viewpoints.

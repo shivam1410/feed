@@ -8,7 +8,7 @@ date: "2026-11-05T10:34:23.000Z"
 score: ""
 guid: "2611.08179"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.08179.png"
-generated: "2026-11-09T20:33:26+05:30"
+generated: "2026-11-10T19:01:15+05:30"
 ---
 
-Teachable On-Policy Self-Distillation improves multilingual mathematical reasoning by detecting and limiting teacher drift during student training, especially for lower-resource languages.
+TOPSD improves multilingual reasoning by using likelihood-based drift detection and verification to decide when teacher supervision should be applied during on-policy self-distillation.

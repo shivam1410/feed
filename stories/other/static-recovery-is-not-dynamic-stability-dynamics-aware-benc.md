@@ -8,7 +8,7 @@ date: "2026-11-05T04:38:23.000Z"
 score: ""
 guid: "2611.07723"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.07723.png"
-generated: "2026-11-09T20:33:26+05:30"
+generated: "2026-11-10T19:01:15+05:30"
 ---
 
 New benchmarks and molecular dynamics frameworks are presented to rigorously evaluate protein scaffold-generation models by assessing dynamic fidelity and structural stability beyond static success.

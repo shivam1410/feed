@@ -1,0 +1,14 @@
+---
+title: "Plug-and-Play Verifier for Decoupling Process Reward in Stabilizing Long-Horizon Agentic Reasoning"
+category: "Other"
+source: "arXiv (cs.LG)"
+url: "https://arxiv.org/abs/2611.10305"
+authors: ["Mingwei Xu, Jieyuan Pei, Binghao Tu, Hao Fang"]
+date: "Tue, 10 Nov 2026 00:00:00 -0500"
+score: ""
+guid: "oai:arXiv.org:2611.10305v1"
+image: ""
+generated: "2026-11-10T19:01:15+05:30"
+---
+
+Stabilizing long-horizon reasoning requires intelligent agents to sustain useful progress across successive reasoning steps and tool interactions. Such agents are typically trained with reinforcement learning (RL), where actor-critic RL uses a learnable critic network to estimate step advantages, while critic-free methods such as GRPO eliminate critic models and rely mostly on the group variants of sparse outcome-only rewards. Both reward types leave partially useful failed trajectories either implicit or indistinguishable from entirely unproductive ones, and as reasoning horizons grow, it becomes difficult to maintain consistent reasoning trajectories. In this work, we propose a \textit{plug-and-play verifier} framework for stabilizing long-horizon reasoning through explicit verification of intermediate reasoning artifacts. Specifically, the framework decouples process verification through a unified interface that extracts intermediate reasoning artifacts from agent running trajectories, evaluates them using domain-specific verifiers, and aggregates the verification scores as bounded process reward. Then, we combine our dense verified process rewards and the sparse outcome rewards through a two-stage post-training schedule. We showed that with plug-and-play verifiers, we further stabilize the reasoning steps as last-mile self-reflection and self-consistency. Typical evaluation on HotpotQA using Qwen3.5-4B achieves a superior accuracy (60.18\%), outperforming the standard GRPO baseline (57.73\%). Our results suggest that plug-and-play verifiers provide a modular approach to learn more stable and reliable reasoning behaviors over long horizons.

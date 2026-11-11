@@ -8,7 +8,7 @@ date: "2026-11-10"
 score: ""
 guid: "10.1038/d41586-026-03644-5"
 image: ""
-generated: "2026-11-10T19:01:15+05:30"
+generated: "2026-11-11T19:00:38+05:30"
 ---
 
 Students need AI-free spaces to learn core skills

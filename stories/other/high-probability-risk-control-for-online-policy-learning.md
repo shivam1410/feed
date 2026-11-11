@@ -1,0 +1,14 @@
+---
+title: "High Probability Risk Control for Online Policy Learning"
+category: "Other"
+source: "arXiv (cs.LG)"
+url: "https://arxiv.org/abs/2611.13163"
+authors: ["Yihong Guo, Drew Prinster, Suchi Saria, Anqi Liu"]
+date: "Wed, 11 Nov 2026 00:00:00 -0500"
+score: ""
+guid: "oai:arXiv.org:2611.13163v1"
+image: ""
+generated: "2026-11-11T19:00:38+05:30"
+---
+
+We study risk control for online policy learning, where an agent adaptively collects data and aims to learn a new policy whose risk stays below a tolerance threshold at every round with high probability. Such policy updates and data collection induce feedback covariate shift (FCS): observed data depend on history through evolving policies and the data-collection process. FCS brings two substantive problems for risk control: 1) efficient risk evaluation for each candidate policy and 2) valid policy selection with high-probability risk control. To address these, we propose a permutation-based weighted risk evaluator with weights efficiently approximated by the Sinkhorn algorithm and select policies whose estimated risk upper confidence bounds (UCB) fall below the target threshold, with the UCB obtained through a proposed Gaussian bootstrap method. Theoretically, we prove that our risk evaluator has a no-larger variance upper bound than that of the standard importance-weighted evaluator. Our policy control method also yields an asymptotically valid simultaneous risk bound and provides asymptotic high-probability risk control for the selected policy. Empirically, we evaluate our method on the online contextual bandit problem, safe question answering benchmark, and Medical Claim Filtering tasks. Our method maintains the target risk level, achieves lower risk than baseline methods, has lower variance in risk estimation, and achieves reliable policy selection with high-probability risk control. Further ablation studies support our theoretical claims.

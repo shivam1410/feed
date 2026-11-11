@@ -8,7 +8,7 @@ date: "2026-11-09"
 score: ""
 guid: "10.1038/d41586-026-03588-w"
 image: ""
-generated: "2026-11-10T19:01:15+05:30"
+generated: "2026-11-11T19:00:38+05:30"
 ---
 
 Engineer Matthew Montgomery, who has just finished a 378-day simulated Mars mission, talks about what it was like to be out of contact with the rest of humanity for a two-week blackout.

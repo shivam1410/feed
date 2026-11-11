@@ -8,7 +8,7 @@ date: "Mon, 09 Nov 2026 23:06:28 +0530"
 score: ""
 guid: "https://thehackernews.com/2026/11/hackers-compromise-etherspheres-bee-js.html"
 image: ""
-generated: "2026-11-10T19:01:15+05:30"
+generated: "2026-11-11T19:00:38+05:30"
 ---
 
 Attackers used the Ethersphere project's own release automation to publish malicious versions of two of its tools for the Swarm decentralized storage network: bee-js 13.3.0 and Swarm Desktop 0.56.2. Both releases download and run code built to steal the wallet key that Swarm Desktop keeps for its node, along with the stored password that unlocks it. The code is also built to install a backdoor

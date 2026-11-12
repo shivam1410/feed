@@ -8,7 +8,7 @@ date: "2026-11-09T10:02:29.000Z"
 score: ""
 guid: "2611.12527"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.12527.png"
-generated: "2026-11-11T19:00:38+05:30"
+generated: "2026-11-12T19:00:28+05:30"
 ---
 
 WaveGen is a fully end-to-end diffusion framework for text-to-waveform generation that jointly learns spectral and waveform trajectories via Spectral Forcing without external audio codecs, vocoders, latent models, alignment modules, or self-supervised representations, achieving state-of-the-art text-to-speech results.

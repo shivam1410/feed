@@ -8,7 +8,7 @@ date: "2026-11-08T19:00:00.000Z"
 score: ""
 guid: "2611.12865"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.12865.png"
-generated: "2026-11-11T19:00:38+05:30"
+generated: "2026-11-12T19:00:28+05:30"
 ---
 
 Reinforcement learning agents can exploit verifiable reward-context conflicts to earn higher rewards through noncompliant shortcuts, while contextual penalties and safety learning can improve compliance without sacrificing task capability.

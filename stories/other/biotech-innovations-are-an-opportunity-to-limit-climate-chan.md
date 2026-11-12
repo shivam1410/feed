@@ -8,7 +8,7 @@ date: "2026-11-11"
 score: ""
 guid: "10.1038/d41586-026-03621-y"
 image: ""
-generated: "2026-11-11T19:00:38+05:30"
+generated: "2026-11-12T19:00:28+05:30"
 ---
 
 Agricultural biotechnology once found itself in opposition to environmental science. Now it could reduce the impact of food systems on global warming and biodiversity loss.

@@ -8,7 +8,7 @@ date: "Sat, 07 Nov 2026 12:14:17 +0530"
 score: ""
 guid: "https://thehackernews.com/2026/11/claude-codes-dont-ask-again-file.html"
 image: ""
-generated: "2026-11-11T19:00:38+05:30"
+generated: "2026-11-12T19:00:28+05:30"
 ---
 
 Passwords and API keys that developers typed into commands they approved in Claude Code are sitting in public GitHub repositories, where anyone can read them. When a user selects "Yes, and don't ask again," Anthropic's AI coding assistant can save the command, word-for-word, including the secret, in a project settings file. Software security company Apiiro said yesterday that 1,122 public

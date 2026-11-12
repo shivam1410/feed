@@ -8,7 +8,7 @@ date: "2026-11-03T19:00:00.000Z"
 score: ""
 guid: "2611.10015"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.10015.png"
-generated: "2026-11-11T19:00:38+05:30"
+generated: "2026-11-12T19:00:28+05:30"
 ---
 
 Micius-Flash is a 27B-parameter multimodal reasoning model trained with a knowledge-tree data pipeline and multi-teacher on-policy distillation, achieving strong hardware and semiconductor agent benchmark results and supporting tool-integrated engineering workflows.

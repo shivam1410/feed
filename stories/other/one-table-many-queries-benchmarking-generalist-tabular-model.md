@@ -1,14 +1,14 @@
 ---
 title: "One Table, Many Queries: Benchmarking Generalist Tabular Models Across Generation, Imputation, and Prediction"
 category: "Other"
-source: "arXiv (cs.LG)"
-url: "https://arxiv.org/abs/2611.13001"
-authors: ["Yuanrui Wang, Kaifang Li, Xuanyue Li, Ziyun Li, Yan Lu, Xingxuan Zhang, Peng Cui"]
-date: "Wed, 11 Nov 2026 00:00:00 -0500"
+source: "HF Trending Papers"
+url: "https://huggingface.co/papers/2611.13001"
+authors: ["Yuanrui Wang", "Kaifang Li", "Xuanyue Li", "Ziyun Li", "Yan Lu", "Xingxuan Zhang", "Peng Cui"]
+date: "2026-11-07T19:00:00.000Z"
 score: ""
-guid: "oai:arXiv.org:2611.13001v1"
-image: ""
-generated: "2026-11-11T19:00:38+05:30"
+guid: "2611.13001"
+image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.13001.png"
+generated: "2026-11-12T19:00:28+05:30"
 ---
 
-Generation, imputation, and prediction query different aspects of the same tabular distribution, but are usually evaluated separately. This leaves unclear which capabilities they share, how their training objectives interact, and whether one model can perform all three well. We introduce the One Table Benchmark (\ours{}), spanning 56 datasets, 46 registered methods, and 20 capability axes under aligned data splits and explicit task contracts. We compare task ranks on aligned support, train five backbones under all seven non-empty objective combinations on five datasets with three seeds, and contrast fixed-model profiles with specialist portfolios. Rank comparisons connect imputation and prediction through numerical recovery and dependence preservation, and link generation to both through predictive utility; distributional fidelity follows different, sometimes opposing, rankings. Objective interventions show the largest pooled gains from including the recipient's own objective. Generation has the broadest coverage of positive pooled auxiliary effects, while prediction shows potential to improve imputation and synthetic-data utility, with responses that vary across backbones. Cross-addition effects reveal that objective benefits need not add and depend on the objectives already present. Fixed-model comparisons expose corresponding utility--fidelity trade-offs: some generalists surpass specialist portfolios on utility, while fidelity continues to favor specialization. Frozen foundation models show strong prediction and numerical point imputation, together with promising synthetic-data utility, highlighting their potential across all three tasks. These findings motivate unified tabular models that share useful conditional information while improving categorical reconstruction and faithful joint sampling.
+A large aligned benchmark reveals that tabular generation, imputation, and prediction share useful conditional information but show distinct fidelity rankings and objective interactions, motivating unified models that improve categorical reconstruction and joint sampling.

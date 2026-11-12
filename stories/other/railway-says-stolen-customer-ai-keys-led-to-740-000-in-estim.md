@@ -8,7 +8,7 @@ date: "Wed, 11 Nov 2026 13:19:04 +0530"
 score: ""
 guid: "https://thehackernews.com/2026/11/railway-says-stolen-customer-ai-keys.html"
 image: ""
-generated: "2026-11-11T19:00:38+05:30"
+generated: "2026-11-12T19:00:28+05:30"
 ---
 
 AI provider keys that customers stored on Railway were stolen in an October breach and used to commit an estimated $740,000 in unauthorized spending, the platform-as-a-service provider said yesterday. It has promised to pay those charges itself when an AI provider will not refund them. The company builds and runs apps for its customers and stores their secrets, such as API keys and database

@@ -8,7 +8,7 @@ date: "2026-10-28T20:00:00.000Z"
 score: ""
 guid: "2610.40394"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.40394.png"
-generated: "2026-11-12T19:00:28+05:30"
+generated: "2026-11-13T19:01:04+05:30"
 ---
 
 A large-scale corpus of structured proof-supervision records derived from university mathematics textbooks improves language model mathematical reasoning by 16.7 percentage points over a base model when used for fine-tuning.

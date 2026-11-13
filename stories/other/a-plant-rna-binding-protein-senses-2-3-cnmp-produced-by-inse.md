@@ -8,7 +8,7 @@ date: "2026-11-11"
 score: ""
 guid: "10.1038/s41586-026-11259-z"
 image: ""
-generated: "2026-11-12T19:00:28+05:30"
+generated: "2026-11-13T19:01:04+05:30"
 ---
 
 The rice RNA-binding protein NIB1 detects 2′,3′-cyclic nucleotide products from insect saliva RNase, forming nuclear condensates that recruit EDS1 to activate defence, revealing a conserved messenger-based immune pathway in plants.

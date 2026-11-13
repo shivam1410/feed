@@ -8,7 +8,7 @@ date: "2026-11-09T13:53:57.000Z"
 score: ""
 guid: "2611.12869"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.12869.png"
-generated: "2026-11-12T19:00:28+05:30"
+generated: "2026-11-13T19:01:04+05:30"
 ---
 
 Cross-modal representational alignment between unimodal language and vision models increases with model capability when captions are clean and informative, but remains below same-modality alignment and can exceed explicitly aligned vision-language models.

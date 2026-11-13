@@ -8,7 +8,7 @@ date: "Thu, 12 Nov 2026 13:50:37 +0530"
 score: ""
 guid: "https://thehackernews.com/2026/11/nodejs-fixes-16-flaws-including-http2.html"
 image: ""
-generated: "2026-11-12T19:00:28+05:30"
+generated: "2026-11-13T19:01:04+05:30"
 ---
 
 A flaw fixed in Node.js this week lets unauthenticated clients crash servers that use the runtime's built-in HTTP/2 support on the 24.x and 26.x release lines. A second HTTP/2 flaw can cause a server to send a client pieces of its memory, including responses intended for other connections. Fixed versions were released for all three supported lines: 22.23.5, 24.22.3, and 26.13.1. The crash

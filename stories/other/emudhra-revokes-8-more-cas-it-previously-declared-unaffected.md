@@ -8,7 +8,7 @@ date: "Wed, 11 Nov 2026 17:30:53 +0530"
 score: ""
 guid: "https://thehackernews.com/2026/11/emudhra-revokes-8-more-cas-it.html"
 image: ""
-generated: "2026-11-12T19:00:28+05:30"
+generated: "2026-11-13T19:01:04+05:30"
 ---
 
 The in-house Python script behind eMudhra's October key compromise has now cost the company 8 more of its intermediate certificate authorities (CAs), even though it did not weaken their keys. Each intermediate CA has its own private key, which the company uses to sign the certificates it issues. The 8 intermediate CAs compromised in October had a different problem: a single line in the script

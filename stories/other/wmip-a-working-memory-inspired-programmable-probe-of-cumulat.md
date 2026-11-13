@@ -8,7 +8,7 @@ date: "2026-10-29T20:00:00.000Z"
 score: ""
 guid: "2603.27343"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.27343.png"
-generated: "2026-11-12T19:00:28+05:30"
+generated: "2026-11-13T19:01:04+05:30"
 ---
 
 Large language models struggle with cumulative state tracking across multiple updates despite strong single-step arithmetic, and their measured accuracy depends heavily on output protocols.

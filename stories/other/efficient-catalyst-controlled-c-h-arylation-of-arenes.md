@@ -8,7 +8,7 @@ date: "2026-11-11"
 score: ""
 guid: "10.1038/s41586-026-11391-w"
 image: ""
-generated: "2026-11-13T19:01:04+05:30"
+generated: "2026-11-14T19:35:57+05:30"
 ---
 
 Efficient catalyst-controlled C–H arylation of arenes

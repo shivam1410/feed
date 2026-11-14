@@ -8,7 +8,7 @@ date: "2026-11-11"
 score: ""
 guid: "10.1038/s41586-026-11256-2"
 image: ""
-generated: "2026-11-13T19:01:04+05:30"
+generated: "2026-11-14T19:35:57+05:30"
 ---
 
 TDP-43 loss induces a predegenerative state in which neurons remain structurally intact and suffer a substantial breakdown in synaptic communication; a therapeutic strategy is found that corrects UNC13A cryptic splicing by using splice-switching antisense oligonucleotides.

@@ -8,7 +8,7 @@ date: "Thu, 12 Nov 2026 21:08:49 +0530"
 score: ""
 guid: "https://thehackernews.com/2026/11/citrix-patches-12-netscaler-and-secure.html"
 image: ""
-generated: "2026-11-13T19:01:04+05:30"
+generated: "2026-11-14T19:35:57+05:30"
 ---
 
 Citrix has released patches for multiple critical security flaws impacting NetScaler ADC, Citrix NetScaler Gateway, and NetScaler Console that could lead to denial-of-service (DoS) or an authentication bypass. The critical vulnerabilities that impact NetScaler ADC and NetScaler Gateway are listed below - CVE-2026-120868 (CVSS score: 9.3) - A memory overflow vulnerability in Packet

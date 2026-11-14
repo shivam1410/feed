@@ -1,6 +1,239 @@
 {
-  "generatedAt": "2026-11-13T19:01:04+05:30",
+  "generatedAt": "2026-11-14T19:35:57+05:30",
   "items": [
+    {
+      "guid": "2611.10439",
+      "title": "Who Remembers What? Multi-Granularity Memory Extraction for Multi-User, Multi-Agent Interaction",
+      "link": "https://huggingface.co/papers/2611.10439",
+      "authors": [
+        "Yunzhe Wang",
+        "Mesut Erhan Unal",
+        "Sheng Zhang",
+        "Shabnam Ghadar",
+        "Peng Tang"
+      ],
+      "date": "2026-11-06T19:00:00.000Z",
+      "summary": "MixUA distills lessons from independent user-agent trajectories and assigns them to appropriate scopes to balance cross-user and cross-agent learning with privacy, evaluated by CrossLearnBench.",
+      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.10439.png",
+      "source": "HF Trending Papers",
+      "extra": "▲ 5",
+      "score": null,
+      "category": "Other"
+    },
+    {
+      "guid": "2611.16728",
+      "title": "EgoX: Egocentric Cross-Embodiment Manipulation with Embodiment Dreaming",
+      "link": "https://huggingface.co/papers/2611.16728",
+      "authors": [
+        "Yaru Niu",
+        "Binghong Chen",
+        "Changwei Yao",
+        "Shangtao Li",
+        "Zhenlong Fang",
+        "Revanth Krishna Senthilkumaran",
+        "Shuai Zhou",
+        "Yuemin Mao",
+        "Kalie Ching",
+        "Po-Ju Chao",
+        "Yudong Luo",
+        "Peiqi Yu",
+        "Heng Zhang",
+        "Hao Zhang",
+        "Bingqing Chen",
+        "Chen Qiu",
+        "H. Eric Tseng",
+        "Ye Yuan",
+        "Umar Iqbal",
+        "Changliu Liu",
+        "Jonathan Francis",
+        "Ding Zhao"
+      ],
+      "date": "2026-11-11T19:00:00.000Z",
+      "summary": "EgoX is an egocentric cross-embodiment learning framework that pretrains a modular Transformer with embodiment dreaming on heterogeneous human, robot, and simulated demonstrations, then fine-tunes it to improve manipulation task progress, especially under out-of-distribution conditions.",
+      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.16728.png",
+      "source": "HF Trending Papers",
+      "extra": "▲ 1",
+      "score": null,
+      "category": "Other"
+    },
+    {
+      "guid": "2611.17336",
+      "title": "Back to Pixels: Lifting Latent Video Diffusion into Pixel Space",
+      "link": "https://huggingface.co/papers/2611.17336",
+      "authors": [
+        "Yanke Song",
+        "Shuo Chen",
+        "Chris Rockwell",
+        "Guande He",
+        "Nan Liu",
+        "Desai Xie",
+        "Tianpei Gu",
+        "Yong-Hyun Park",
+        "Aryan V S",
+        "Dennis Yuren Menn",
+        "Ming-Hsuan Yang",
+        "Xun Huang"
+      ],
+      "date": "2026-11-11T19:00:00.000Z",
+      "summary": "Frontier video generation models work in a VAE latent space that compresses video in both space and time. This compression made training tractable, but now limits high-resolution, controllable, and interactive generation -- doubling resolution quadruples token count, conditions apply to groups of frames rather than individual ones, and each response must wait for the rest of its multi-frame block. We present PixVid, a simple yet effective method that lifts a pretrained latent video model to directly generate every frame in pixel space. PixVid keeps the diffusion transformer and replaces the VAE decoder with a convolutional head that renders its outputs into pixels. We find that predicting clean video rather than velocity, together with a larger noise shift, is key to quality. Finetuned from Wan2.1-14B, PixVid is competitive with the latent baseline within sim 1.3M training clips. Working framewise in pixels, it generates at 2times higher resolution with the same per-frame token count, keeps depth-conditioned video editing aligned under fast motion, and responds to each action at the next frame. Project page: https://chenshuo20.github.io/PixVid/",
+      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.17336.png",
+      "source": "HF Trending Papers",
+      "extra": "▲ 3",
+      "score": null,
+      "category": "Other"
+    },
+    {
+      "guid": "2611.17190",
+      "title": "Consensus Capture in Reference-Based UAV Video Stabilization: A Benchmark on Dynamic Urban Scenes",
+      "link": "https://huggingface.co/papers/2611.17190",
+      "authors": [
+        "Robert Fonod",
+        "Nikolas Geroliminis"
+      ],
+      "date": "2026-11-11T19:00:00.000Z",
+      "summary": "Reference-frame stabilization registers every frame of a hovering-drone video onto one reference frame, keeping object positions comparable. The registration pipelines it relies on are selected on feature-matching benchmarks in which only the camera moves. Over a busy intersection, vehicles moving together supply mutually consistent correspondences that can draw the robust homography estimate toward their motion: consensus capture, which inlier statistics cannot flag. A two-part benchmark measures it and the object masking meant to prevent it. A static protocol scores ten pipelines under exactly known homographies on 4K aerial frames, tuned on a site-disjoint split at a matched resolution and feature budget. A dynamic protocol scores them at an offline and a real-time budget on hovers selected from the video alone to span the amount and coherence of moving foreground, plus a stationary control. It measures background alignment, object position error and the share of a moving group's displacement an estimate follows, against a pseudo-ground-truth reference audited with manually annotated ground control points, which also score every candidate. On static scenes, tuned AKAZE, RootSIFT, SIFT and BRISK lead, retuning the matcher thresholds raises the mean average accuracy (mAA) by at most 0.0062, and masking costs less than 0.005. Unmasked ORB is captured on 28 of 304 real-time dynamic pairs and on 6 offline; its real-time captured estimates have a median corner error of 18.8 px yet typical inlier counts and ratios. Masking removes capture for every pipeline and leaves the leading pipelines unchanged. Code, data and results are released.",
+      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.17190.png",
+      "source": "HF Trending Papers",
+      "extra": "▲ 3",
+      "score": null,
+      "category": "Other"
+    },
+    {
+      "guid": "2611.09567",
+      "title": "TurtLES: A Large-Scale Benchmark for Turbulent 3D Neural PDE Surrogates",
+      "link": "https://huggingface.co/papers/2611.09567",
+      "authors": [
+        "Jarno Platenburg",
+        "Armand Kassaï Koupaï",
+        "Paola Cinnella",
+        "Patrick Gallinari"
+      ],
+      "date": "2026-11-05T19:00:00.000Z",
+      "summary": "Machine-learning surrogates are increasingly used to accelerate computational fluid dynamics, yet progress is limited by the lack of benchmarks capturing realistic, time-dependent turbulent flows. We introduce TurtLES, a 14 TB dataset of 3D turbulent cylinder wakes in the shear-layer transition regime, computed via high-fidelity implicit large-eddy simulations. The dataset contains 400 trajectories of 400 time steps each, with 3-11 million points per frame, spanning variations in geometry, Reynolds number, and angle of attack. Unlike existing datasets, TurtLES combines (i) physically realistic turbulence with an active energy cascade driven by vortex stretching, (ii) dense irregular meshes, and (iii) long-horizon temporal dynamics. We benchmark state-of-the-art neural operators on autoregressive rollouts and identify key failure modes, including temporal instability, loss of small-scale energy, and challenges in learning on large irregular domains. TurtLES provides a new benchmark for evaluating surrogate models on 3D turbulent wakes at industrially relevant mesh resolution.",
+      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.09567.png",
+      "source": "HF Trending Papers",
+      "extra": "▲ 4",
+      "score": null,
+      "category": "Other"
+    },
+    {
+      "guid": "2611.16961",
+      "title": "The Value of Thinking: Learning When to Reason in Hybrid Decision Models",
+      "link": "https://huggingface.co/papers/2611.16961",
+      "authors": [
+        "Zhengxu Yu",
+        "Ke Xu",
+        "Meng Fang",
+        "Haitham Ammar",
+        "Weilin Luo",
+        "Jun Wang"
+      ],
+      "date": "2026-11-11T19:00:00.000Z",
+      "summary": "A hybrid decision model routes between implicit single-forward-pass answering and full autoregressive reasoning via a self-routing block trained with calibrated decision policy optimization, reducing token and latency costs while preserving accuracy.",
+      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.16961.png",
+      "source": "HF Trending Papers",
+      "extra": "▲ 2",
+      "score": null,
+      "category": "Other"
+    },
+    {
+      "guid": "2611.12750",
+      "title": "The Narrative Gap: Can LLMs Help Us Navigate Diverse Narratives Across Languages?",
+      "link": "https://huggingface.co/papers/2611.12750",
+      "authors": [
+        "Nikhil Sharma",
+        "Kelly Marchisio",
+        "Kenton Murray",
+        "Ziang Xiao"
+      ],
+      "date": "2026-11-08T19:00:00.000Z",
+      "summary": "A benchmark of news articles and queries shows that current large language models cannot reliably help users navigate diverse multilingual narratives, leaving gaps in exposure to competing accounts and risking echo chambers and information disparities.",
+      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.12750.png",
+      "source": "HF Trending Papers",
+      "extra": "▲ 2",
+      "score": null,
+      "category": "Other"
+    },
+    {
+      "guid": "2611.15094",
+      "title": "A frontier machine intelligence for human neuroimaging",
+      "link": "https://huggingface.co/papers/2611.15094",
+      "authors": [
+        "Chenhui Zhao",
+        "Akshay Rao",
+        "Akhil Kondepudi",
+        "Yiwei Lyu",
+        "Xinhai Hou",
+        "Rikhil Seshadri",
+        "Cheng Jiang",
+        "Soumyanil Banerjee",
+        "Rushikesh Joshi",
+        "Samir Harake",
+        "Ashok Srinivasan",
+        "Shruti Mishra",
+        "Francisco Rivas-Rodriguez",
+        "Seunghong Rhee",
+        "Nathaniel Roddenberry",
+        "Neeraj Chaudhary",
+        "Zach Wilseck",
+        "Paul Park",
+        "Honglak Lee",
+        "Vikas Gulani",
+        "Aditya Pandey",
+        "Todd Hollon"
+      ],
+      "date": "2026-11-10T19:00:00.000Z",
+      "summary": "A vision-language model trained on nearly one million clinical neuroimaging studies interprets complete examinations, discusses findings in natural language, and outperforms existing general and medical models in diagnosis, localization, reporting, and progression assessment.",
+      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.15094.png",
+      "source": "HF Trending Papers",
+      "extra": "▲ 1",
+      "score": null,
+      "category": "Other"
+    },
+    {
+      "guid": "2611.17334",
+      "title": "Unbundling Multimodal Vision Encoding",
+      "link": "https://huggingface.co/papers/2611.17334",
+      "authors": [
+        "Ellis Brown",
+        "Chris Hoang",
+        "Shengyi Qian",
+        "Shang-Wen Li",
+        "Mike Lewis",
+        "Marjan Ghazvininejad",
+        "Luke Zettlemoyer",
+        "Lucas Beyer",
+        "Mengye Ren",
+        "Jakob Verbeek",
+        "Saining Xie",
+        "Hu Xu"
+      ],
+      "date": "2026-11-11T19:00:00.000Z",
+      "summary": "Controlled experiments show that multimodal language models do not need a pretrained vision encoder, but benefit from dedicated vision capacity trained jointly with the backbone and integrated early rather than before fusion.",
+      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.17334.png",
+      "source": "HF Trending Papers",
+      "extra": "▲ 14",
+      "score": null,
+      "category": "Other"
+    },
+    {
+      "guid": "2611.16409",
+      "title": "Experience-Handoff Reinforcement Learning for Recursive Self-Improvement",
+      "link": "https://huggingface.co/papers/2611.16409",
+      "authors": [
+        "Doyoung Kim",
+        "Byeongguk Jeon",
+        "Kailin Zhang",
+        "Sherry Yang"
+      ],
+      "date": "2026-11-11T19:00:00.000Z",
+      "summary": "Language-model agents trained with reinforcement learning can improve by learning to create and curate experience artifacts that help future rollouts, not just by optimizing actions from scalar rewards.",
+      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.16409.png",
+      "source": "HF Trending Papers",
+      "extra": "▲ 3",
+      "score": null,
+      "category": "Other"
+    },
     {
       "guid": "2611.16009",
       "title": "JustRUA: A Controlled Study of GPT-6 Robot-Use Agents",
@@ -23,7 +256,7 @@
       "summary": "A simplified evaluation harness that keeps full episode history and stops motions early substantially improves robot-use agent scores on RoboDojo, with scene geometry providing the largest additional benefit.",
       "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.16009.png",
       "source": "HF Trending Papers",
-      "extra": "▲ 1",
+      "extra": "▲ 4",
       "score": null,
       "category": "Other"
     },
@@ -44,7 +277,7 @@
       "summary": "Recent work suggests that pretrained image generators encode real-world understanding beyond image synthesis. Vision Banana exploits this by framing vision tasks as conditional image editing. However, its data, weights, code, and implementation details are not public. We present Open Vision Banana (OVB), a fully open and reproducible recipe for converting pretrained generators into unified multi-task perception systems. Our analyses identify the design choices that matter most for generalization, including color encoding, prompt design, parameter adaptation, and task balancing. These choices interact, so individually helpful choices can hurt when combined with others. Starting from 4B and 9B parameter open-weight base models and using 2.1M-3.8M training pairs from public datasets, OVB surpasses Vision Banana's reported Cityscapes zero-shot performance (73.9 vs. 69.9 mIoU) and rivals state-of-the-art affine-invariant depth estimators. Its non-zero-shot variants come within five points of Vision Banana on referring and reasoning segmentation but remain further behind on instance segmentation. All models largely retain the base model's image-editing abilities. With legend ensembling, we introduce a test-time scaling method for generator-based perception. It segments an image under several class-color legends and fuses the results by majority vote, correcting unstable color-class bindings and improving mIoU by up to 8.7 points on Cityscapes and 15.0 points on COCO-Object without retraining. We release the dataset construction and processing pipeline, the training and evaluation code, as well as the final, intermediate, and ablation checkpoints. Project website: https://openvisionbanana.github.io",
       "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.15844.png",
       "source": "HF Trending Papers",
-      "extra": "▲ 17",
+      "extra": "▲ 32",
       "score": null,
       "category": "Other"
     },
@@ -59,7 +292,7 @@
       "summary": "A survey analyzes why self-improvement mechanisms for multimodal agents transfer unevenly across reasoning, generation, navigation, and manipulation scenarios, framing them as trade-offs over scarce factors and task-structural resources.",
       "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.14256.png",
       "source": "HF Trending Papers",
-      "extra": "▲ 1",
+      "extra": "▲ 2",
       "score": null,
       "category": "Other"
     },
@@ -86,7 +319,7 @@
       "summary": "Exposing benchmark success criteria to self-improving embodied coding agents can raise measured success under those criteria without improving instructed-task completion, and the advantage weakens under slight criteria changes and transfers poorly across tasks, while instruction-faithful criteria better reflect instructed-task performance.",
       "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.08318.png",
       "source": "HF Trending Papers",
-      "extra": "▲ 3",
+      "extra": "▲ 16",
       "score": null,
       "category": "Other"
     },
@@ -103,7 +336,7 @@
       "summary": "A dynamic stress-testing framework shows that search agents often answer confidently despite unreliable retrieved evidence and may rely on memorized knowledge when documents are factually wrong.",
       "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2607.13920.png",
       "source": "HF Trending Papers",
-      "extra": "▲ 3",
+      "extra": "▲ 5",
       "score": null,
       "category": "Other"
     },
@@ -145,7 +378,7 @@
       "summary": "A novel multimodal memory framework enhances long-term interaction by combining relational graph expansion of semantic seeds with query-adaptive composition of heterogeneous evidence forms.",
       "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.12872.png",
       "source": "HF Trending Papers",
-      "extra": "▲ 2",
+      "extra": "▲ 3",
       "score": null,
       "category": "Other"
     },
@@ -168,7 +401,7 @@
       "summary": "By baking global scene information from cross-view attention into a lightweight MLP, Test-Time Baking (TTB) enhances the fidelity of novel-view decoding in Large View Synthesis Models while maintaining the efficiency of Test-Time Training.",
       "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.17331.png",
       "source": "HF Trending Papers",
-      "extra": "▲ 19",
+      "extra": "▲ 22",
       "score": null,
       "category": "Other"
     },
@@ -190,7 +423,7 @@
       "summary": "A real-source data synthesis framework trains a 4B agent on 4k task instances with supervised fine-tuning and rubric-based reinforcement learning, improving realistic productivity work and file-grounded reasoning over larger models.",
       "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.08219.png",
       "source": "HF Trending Papers",
-      "extra": "▲ 3",
+      "extra": "▲ 4",
       "score": null,
       "category": "Other"
     },
@@ -225,7 +458,7 @@
       "summary": "Large foundation models such as GPT-6 Astra and Claude Fable 5.1 have recently been shown to control robots directly from visual observations. They nevertheless remain brittle on long-horizon, contact-rich tasks in real-world environments. Further progress depends on two complementary resources: demonstrations of human behavior that supervise how tasks are performed, and interactive environments in which policies can be rolled out, evaluated, and improved in closed loop. Language models have advanced along well-characterized scaling laws; the corresponding question for physical AI is how capability scales with environments and behaviors, which first requires identifying which data to scale and how to produce and reuse such data continuously. To address this question, we introduce Ropedia Xperience 2, comprising 1,589 released metric-scale 3D scans and a collection of 4,230 egocentric recordings of 74 tasks (131 hours). We further show that each capture can be repurposed for robot learning: scenes are converted into physically interactive simulation environments, human motion is retargeted to whole-body robot trajectories, and additional robot behaviors are obtained through virtual teleoperation and automated long-horizon trajectory generation. We propose this joint capture of environments and behaviors as a gold standard for physical AI data collection, laying a data foundation for establishing scaling laws over environments and behaviors.",
       "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.17060.png",
       "source": "HF Trending Papers",
-      "extra": "▲ 15",
+      "extra": "▲ 26",
       "score": null,
       "category": "Other"
     },
@@ -260,7 +493,7 @@
       "summary": "A spectrum can be given to a model as a table in nanometers or as a plot in photon energy, and the decision should not depend on which one it sees. When the data needed for an answer are missing, the model should say so. We test representation invariance and abstention on measured optical spectra of silicon metasurfaces (MOCLIP) and gold nanoparticles, with labels computed from the data. Each spectrum is shown as four tables (nm, μm, scientific notation, eV) and two plots (nm, eV), and partial spectra remove data inside or outside the queried range. We evaluate the decision models d3-nano and Jev 1.13, three GPT-6 Luna configurations and the Qwen3.5-2B base model. Changing only the representation moves accuracy by up to 41 percentage points within one model, mostly on photon-energy tables and plots. With the same evidence, asking in photon energy instead of wavelength helps some model-view pairs by 16-50 points and hurts others by up to 25. When the relevant extremum is removed, unadapted models rarely answer \"undetermined\". LoRA fine-tuning of d3-nano improves comparisons on the trained table formats, but much of its gain on unanswerable questions comes from a shortcut: it abstains whenever the input is truncated. Training with answerable truncations avoids the shortcut in all six seeds, with a 90-100 point gap between abstention after inside and outside cuts on held-out structures; with the same amount of extra original-task data, five of six seeds keep the shortcut. On gold spectra the two training sets perform similarly. Multimodal language models used for scientific decisions should be tested on equivalent representations and on missing evidence, not only on average accuracy. We release the tasks, per-response results and analysis code.",
       "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.00428.png",
       "source": "HF Trending Papers",
-      "extra": "▲ 2",
+      "extra": "▲ 3",
       "score": null,
       "category": "Other"
     },
@@ -284,7 +517,7 @@
       "summary": "A decision model that acts poorly can still teach reinforcement learning policies effectively by judging complete action trajectories, improving success on ALFWorld and WebShop.",
       "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.17167.png",
       "source": "HF Trending Papers",
-      "extra": "▲ 26",
+      "extra": "▲ 31",
       "score": null,
       "category": "Other"
     },
@@ -301,7 +534,7 @@
       "summary": "AI \"humanizers\" rewrite machine-generated text so that detectors classify it as human-written. Public leaderboards score evasion and embedding similarity, but not whether checkable details survive. We check whether numbers, dates, person and organization names, and quoted spans survive each rewrite, using a rule-based checker validated by two AI annotators (precision 0.84-1.00, recall 0.93-0.95; no human annotation). In the October 2026 cycle of a public humanizer leaderboard, all 11 commercial tools changed or dropped at least one of these units in 35-65% of the documents that contained one. Most changes were to quoted spans; counting numbers and names alone, 10 of the 11 tools still altered at least one in 20% or more of the documents. The September 2026 cycle was similar (19-50%). An open 12B humanizer kept at least 97% of numbers and names in fact-dense U.S. federal agency text, but reworded 67-78% of the quoted spans, against its own prompt. Unit retention and detector evasion were not clearly related across tools (Spearman rho = -0.46, 95% CI -0.65 to 0.08), and the open model's four released files (two of them quantization-aware low-bit files) did not show the pre-registered monotone trade-off. On federal texts with matched human, AI-styled and humanized versions, a general-purpose decision model, Jev, asked a single zero-shot question, separated human originals from humanized rewrites with AUROC 0.864 (0.827-0.902), 0.18-0.22 higher than Binoculars, Fast-DetectGPT and the adversarially trained RADAR, while calling 24% of the human originals AI at a 0.5 threshold. On the AI-styled rewrites by 2026 models, both perplexity-based detectors scored below chance (AUROC 0.37 and 0.39), also with line breaks removed. Hypotheses, data rules and analyses were frozen before the main runs; two earlier data contacts are disclosed. We release the checker and the per-item results.",
       "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.00359.png",
       "source": "HF Trending Papers",
-      "extra": "▲ 2",
+      "extra": "▲ 3",
       "score": null,
       "category": "Other"
     },
@@ -338,7 +571,7 @@
       "summary": "SO-Arena evaluates System One models across domains and capability families, revealing that scaling and reasoning gains vary and that high overall accuracy does not ensure reliable decision-making.",
       "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.15777.png",
       "source": "HF Trending Papers",
-      "extra": "▲ 57",
+      "extra": "▲ 84",
       "score": null,
       "category": "Other"
     },
@@ -362,7 +595,7 @@
       "summary": "Multimodal coding agents decouple 4D world construction from visual generation, repurposing video models from world generators toward generative renderers. This division of labor raises a fundamental question: if code builds the world, can video models just render it? A reliable generative renderer hinges on two complementary criteria: (i) world preservation, retaining prescribed 4D kinematics and camera paths; and (ii) visual realization, persistently binding text-specified target attributes over time. To evaluate this capability, we introduce WorldDraft, a benchmark of 432 strictly paired test cases across 48 executable 4D world families spanning six dynamic challenge categories. Under a 3 times 3 factorial design, WorldDraft orthogonally crosses draft granularity (abstract proxy to previs) and appearance alignment (neutral to conflicting) under identical dynamics. Extensive evaluations across 12 representative models reveal that: (I) world preservation and visual realization remain in stark operational tension; (II) richer draft scaffolding anchors structure but paradoxically impairs appearance fidelity; and (III) conflicting source cues trigger severe source leakage (up to 64%), exposing fragile cross-modal disentanglement. To mitigate these bottlenecks, we propose WorldDraft-Primer, a plug-and-play visual prompting strategy that consistently improves both objectives across frozen video renderers. Together, WorldDraft and WorldDraft-Primer lay a foundation for bridging programmatic 4D simulation with video generation, advancing physically grounded generative rendering.",
       "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.16217.png",
       "source": "HF Trending Papers",
-      "extra": "▲ 14",
+      "extra": "▲ 15",
       "score": null,
       "category": "Other"
     },
@@ -414,7 +647,7 @@
       "summary": "PhysLoop leverages large language models to guide video generation, selection, and correction, enabling physically consistent self-improvement and controllable data construction for video models.",
       "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.16748.png",
       "source": "HF Trending Papers",
-      "extra": "▲ 31",
+      "extra": "▲ 44",
       "score": null,
       "category": "Other"
     },
@@ -463,7 +696,7 @@
       "summary": "A reciprocal world model enables real-time full-duplex audiovisual interaction by jointly modeling intent and realization using autoregressive reasoning, synchronized attention, and dual rollout distillation.",
       "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.15131.png",
       "source": "HF Trending Papers",
-      "extra": "▲ 32",
+      "extra": "▲ 39",
       "score": null,
       "category": "Other"
     },
@@ -488,7 +721,7 @@
       "summary": "Discrete autoregressive models offer a scalable framework for image generation. However, they face a fundamental trade-off: long token sequences preserve representation quality but slow generation, while aggressive spatial compression reduces representation capacity. Based on product quantization, we show that, under a fixed nominal information budget, group size should scale quadratically with the per-axis spatial compression factor. Building on this principle, we propose GSTAR, a spatial--group co-scaling framework that enables \\(32\\times\\) and even effective \\(64\\times\\) compression while preserving strong reconstruction, understanding, and generation performance. Since larger groups introduce intra-group dependencies that must be modeled efficiently, we analyze their impact on inference latency and generation quality and introduce a semi-autoregressive decoder that combines parallel feature computation with lightweight causal modeling. With these designs, our highly compressed models perform competitively with leading models across five representative text-to-image benchmarks (GenEval, DPG-Bench, PRISM, LongText-Bench, and Qwen-Image-Bench). At \\(1024\\times1024\\) resolution, our model delivers a \\(20\\times\\) speedup over prior discrete autoregressive models, generating each image in 2.5 seconds on a single NVIDIA H200. Together, these results show that highly compressed discrete representations can enable high-quality autoregressive generation at low latency.",
       "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.13004.png",
       "source": "HF Trending Papers",
-      "extra": "▲ 39",
+      "extra": "▲ 43",
       "score": null,
       "category": "Other"
     },
@@ -508,7 +741,7 @@
       "summary": "Driving world models aim to simulate how a scene unfolds under different ego actions. This requires plausible motion of surrounding vehicles as well as precise ego-trajectory control. Learning vehicle motion from perspective video alone is challenging because motion is entangled with appearance and vehicles can be occluded. Prior work therefore conditions video generation on layouts that specify vehicle motion, providing control over surrounding vehicles but requiring their future trajectories as inputs. We introduce BirdDreams, an autoregressive driving world model that jointly generates perspective video and a schematic bird's-eye-view (BEV) video, making scene layout part of the predicted future. The BEV, rendered from scene annotations for training, depicts roads and vehicles as simple shapes at a fixed metric scale, providing a top-down view of their positions and motion with reduced occlusion between vehicles. Perspective video, by contrast, retains scene details that the BEV omits, such as traffic signals and object appearance. Joint attention between two video diffusion transformers, one per stream, lets each stream inform the other during generation. The predicted BEV also provides a geometric interface for ego control: we translate and rotate its latest frame along an input ego trajectory and use the resulting frames as a soft condition that shows how the scene would appear to move if only the ego vehicle moved. At inference, BirdDreams generates both videos from a single camera image without requiring an HD map or vehicle-state inputs. On PhysicalAI-AV and nuScenes, BirdDreams follows input ego trajectories more faithfully than prior driving world models and generates more plausible ego motion without ego-action conditioning. Human evaluation shows that BirdDreams outperforms a perspective-only baseline in generating realistic surrounding-vehicle behavior.",
       "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.14815.png",
       "source": "HF Trending Papers",
-      "extra": "▲ 41",
+      "extra": "▲ 49",
       "score": null,
       "category": "Other"
     },
@@ -533,7 +766,7 @@
       "summary": "A systematic study of Hyper-Connections architectures identifies the simpler efficient design SimpleHC, which removes residual mixing and uses shared memory access to match mHC performance while adding minimal training overhead and improving stability.",
       "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.05984.png",
       "source": "HF Trending Papers",
-      "extra": "▲ 25",
+      "extra": "▲ 27",
       "score": null,
       "category": "Other"
     },
@@ -628,7 +861,7 @@
       "summary": "Agentic workloads are a major source of LLM inference demand. Existing prefill--decode (PD) disaggregated serving systems offer limited flexibility for runtime adaptation of compute allocation and KV cache management, and rely on coarse signals that only partly capture the diverse and dynamic agent workload. These limitations lead to load imbalance between prefill and decode nodes and eviction of KV caches that agents will reuse. We present Evolving Infra, an agent-adaptive serving framework that adapts compute allocation to agent workloads and KV cache management to agent context management at runtime. We decouple compute allocation from key--value (KV) cache management, allowing nodes to switch efficiently between prefill and decode. Building on this design, an online planner matches the PD split to workload composition, while an agent-aware distributed KV manager guides cache eviction and transfer with signals from agent context management. Across coding, math, and computer-use tasks with GLM-5.2 and Kimi K2.6 on up to 256 GB300 GPUs, Evolving Infra reduces mean end-to-end request latency and P95 TTFT by up to 4.1x and 14x over Dynamo, NVIDIA's production framework.",
       "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.12304.png",
       "source": "HF Trending Papers",
-      "extra": "▲ 13",
+      "extra": "▲ 12",
       "score": null,
       "category": "Other"
     },
@@ -672,7 +905,7 @@
       "summary": "Cross-modal representational alignment between unimodal language and vision models increases with model capability when captions are clean and informative, but remains below same-modality alignment and can exceed explicitly aligned vision-language models.",
       "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.12869.png",
       "source": "HF Trending Papers",
-      "extra": "▲ 7",
+      "extra": "▲ 6",
       "score": null,
       "category": "Other"
     },
@@ -742,7 +975,7 @@
       "summary": "Low-bit quantized LLM agents can recover much of their task success through closed-loop guidance from a full-precision teacher, followed by unassisted student training on corrected and reference turns.",
       "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.13410.png",
       "source": "HF Trending Papers",
-      "extra": "▲ 34",
+      "extra": "▲ 36",
       "score": null,
       "category": "Other"
     },
@@ -799,7 +1032,7 @@
       "summary": "Web-facing AI agents repeatedly access webpages, documents, repositories, and tool responses, yet reading interfaces often expose entire objects when only sparse evidence is needed. This over-reading increases token and latency costs and can dilute relevant evidence. We present SparseRead, a reusable reading control layer that governs content admission without modifying the agent model. Its Read Intent Protocol tracks evolving needs and source coverage; Adaptive Reader Backends select how evidence is located and exposed; and the Budgeted Read Gate bounds cumulative raw exposure per episode with faithful full-view fallback. A unified Reader interface supports interchangeable evidence acquisition across heterogeneous resources. Across six models, including Claude Opus 5, and five scenarios, SparseRead reduces total tokens by up to 92.9% and wall time by up to 89.0%, preserving or improving task quality in 97% settings. On Web deep-search tasks, it reduces tokens by 31.0--43.0% and task completion time by 23.0--37.0%. Ablations validate the three designs, while integration with three agent frameworks demonstrates portability.",
       "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2608.22237.png",
       "source": "HF Trending Papers",
-      "extra": "▲ 21",
+      "extra": "▲ 22",
       "score": null,
       "category": "Other"
     },
@@ -851,202 +1084,7 @@
       "summary": "A large-scale corpus of structured proof-supervision records derived from university mathematics textbooks improves language model mathematical reasoning by 16.7 percentage points over a base model when used for fine-tuning.",
       "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.40394.png",
       "source": "HF Trending Papers",
-      "extra": "▲ 43",
-      "score": null,
-      "category": "Other"
-    },
-    {
-      "guid": "2607.24999",
-      "title": "CogBattery: Human-Referenced Evaluation of Cognitive Task Behavior and Structure in Language Models",
-      "link": "https://huggingface.co/papers/2607.24999",
-      "authors": [
-        "Dengzhe Hou",
-        "Lingyu Jiang",
-        "Fangzhou Lin",
-        "Kazunori D Yamada"
-      ],
-      "date": "2026-10-29T20:00:00.000Z",
-      "summary": "CogBattery compares open-weight language models to humans across cognitive tasks, revealing that matching effect directions does not imply human-like error patterns or confidence calibration.",
-      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2607.24999.png",
-      "source": "HF Trending Papers",
-      "extra": "▲ 4",
-      "score": null,
-      "category": "Other"
-    },
-    {
-      "guid": "2603.27343",
-      "title": "WMIP: A Working-Memory-Inspired Programmable Probe of Cumulative State Tracking in Large Language Models",
-      "link": "https://huggingface.co/papers/2603.27343",
-      "authors": [
-        "Dengzhe Hou",
-        "Lingyu Jiang",
-        "Deng Li",
-        "Zirui Li",
-        "Fangzhou Lin",
-        "Kazunori D Yamada"
-      ],
-      "date": "2026-10-29T20:00:00.000Z",
-      "summary": "Large language models struggle with cumulative state tracking across multiple updates despite strong single-step arithmetic, and their measured accuracy depends heavily on output protocols.",
-      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.27343.png",
-      "source": "HF Trending Papers",
-      "extra": "▲ 4",
-      "score": null,
-      "category": "Other"
-    },
-    {
-      "guid": "2611.10193",
-      "title": "Ensemble Routing for Prompt-Adaptive Cost-Aware LLM Inference",
-      "link": "https://huggingface.co/papers/2611.10193",
-      "authors": [
-        "Saul Urso",
-        "Emanuele Carlini",
-        "Patrizio Dazzi",
-        "Matteo Mordacchini"
-      ],
-      "date": "2026-11-05T19:00:00.000Z",
-      "summary": "PISA and PISA-E use prompt-adaptive capability estimation to route prompts or select cost-aware ensembles, improving cost-performance trade-offs across LLM routing benchmarks.",
-      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.10193.png",
-      "source": "HF Trending Papers",
-      "extra": "▲ 14",
-      "score": null,
-      "category": "Other"
-    },
-    {
-      "guid": "2610.39671",
-      "title": "Incentivizing Self-Learning in Large Language Models via Reinforcement Learning",
-      "link": "https://huggingface.co/papers/2610.39671",
-      "authors": [
-        "Lingkai Kong",
-        "Yuzhe Gu",
-        "Haiteng Zhao",
-        "Zijian Wu",
-        "Youqing Fang",
-        "Zhouqi Hua",
-        "Yanan Sun",
-        "Kai Chen",
-        "Wenwei Zhang"
-      ],
-      "date": "2026-10-28T20:00:00.000Z",
-      "summary": "Large language models (LLMs) draw on parametric knowledge and retrieval-augmented generation (RAG) to solve knowledge-intensive tasks. Yet problem solving in unfamiliar domains calls for tightly coupled knowledge acquisition and reasoning, beyond factual retrieval and aggregation or learning solely from a preassembled context. We study self-learning -- autonomously retrieving, studying, and applying knowledge from long-form reference materials on the fly. To investigate this capability, we formulate a textbook-based mathematical problem-solving task. LLMs must navigate textbook exposition, learn and apply relevant principles, and construct proofs for exercises, with reference solutions withheld. We introduce a BookNavigator interface to support this human-inspired study process and incentivize self-learning through reinforcement learning (RL) with fine-grained rewards. Experiments show that our method improves performance across in-domain and out-of-domain textbooks and subjects, raising Intern-S2-Preview-35B's overall proof accuracy from 51.5% to 79.5% and outperforming RL-trained textbook-free and fixed-retrieval baselines. These gains extend to complex long-context benchmarks involving different task types, with improvements over the base model of 1.7 and 2.3 percentage points on BrowseComp-Plus and CL-bench, respectively. Together, these findings suggest that RL can foster a domain-agnostic self-learning strategy, highlighting the potential of self-learning from long-form corpora to strengthen broader problem-solving capabilities on complex, long-context tasks.",
-      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.39671.png",
-      "source": "HF Trending Papers",
-      "extra": "▲ 30",
-      "score": null,
-      "category": "Other"
-    },
-    {
-      "guid": "2611.13028",
-      "title": "GTAGym: AAA Game Tasks Environment for Evaluation and Reinforcement Learning",
-      "link": "https://huggingface.co/papers/2611.13028",
-      "authors": [
-        "Jiajun Chen",
-        "Shicheng Fang",
-        "Jiahao Lu",
-        "Yuxin Wang",
-        "Xipeng Qiu"
-      ],
-      "date": "2026-11-10T19:00:00.000Z",
-      "summary": "AAA games offer a rich testbed for evaluating agent perception, reasoning, and control. However, evaluating whether agents can complete tasks in AAA games is challenging and often human-annotated because task outcomes are often difficult to verify automatically, let alone applying it for Reinforcement Learning (RL). We introduce GTAGym, an environment and framework for evaluation and RL on GTA V tasks. Its evaluation benchmark, GTAVBench, derived from GTA V main-story missions, contains 103 online tasks reconstructed across nine task families, alongside 47 image-based shooting and sniping tasks using GTA V imagery. A web server provides access to the online environment and evaluation interface, supporting parallel testing through screenshots and keyboard-mouse actions with automatic engine-state outcome checks. We evaluate six frontier LLMs on GTAVBench with textual task instructions and on its GTAVBench-AGI branch, where instructions appear only in the first screenshot and a harness automatically compresses interaction history. The best configuration achieves 70.9% overall accuracy in GTAVBench-AGI, yet aerial navigation, evasion and interception remain difficult. GTAGym also provides a scalable generator that samples task parameters within user-specified ranges and option sets under fixed templates, creating batches of 3D and image-based shooting environments for RL with automatic reward and termination signals. LoRA RL of Qwen3.8-27B on generated on-foot navigation tasks improves the in-domain performance and transfers to out-of-domain task categories, and native GTA V tasks from 15% to 23%.",
-      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.13028.png",
-      "source": "HF Trending Papers",
-      "extra": "▲ 13",
-      "score": null,
-      "category": "Other"
-    },
-    {
-      "guid": "2611.11912",
-      "title": "LO-World: Unified BEV Latent Modeling for Joint 4D Occupancy and LiDAR Forecasting",
-      "link": "https://huggingface.co/papers/2611.11912",
-      "authors": [
-        "Zhimin Liao",
-        "Ping Wei",
-        "Kai Mao",
-        "Shuaijia Chen"
-      ],
-      "date": "2026-11-08T19:00:00.000Z",
-      "summary": "A unified 4D world model jointly forecasts LiDAR point clouds and 3D semantic occupancy in a shared BEV latent space, improving accuracy and real-time throughput.",
-      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.11912.png",
-      "source": "HF Trending Papers",
-      "extra": "▲ 1",
-      "score": null,
-      "category": "Other"
-    },
-    {
-      "guid": "2611.13001",
-      "title": "One Table, Many Queries: Benchmarking Generalist Tabular Models Across Generation, Imputation, and Prediction",
-      "link": "https://huggingface.co/papers/2611.13001",
-      "authors": [
-        "Yuanrui Wang",
-        "Kaifang Li",
-        "Xuanyue Li",
-        "Ziyun Li",
-        "Yan Lu",
-        "Xingxuan Zhang",
-        "Peng Cui"
-      ],
-      "date": "2026-11-07T19:00:00.000Z",
-      "summary": "A large aligned benchmark reveals that tabular generation, imputation, and prediction share useful conditional information but show distinct fidelity rankings and objective interactions, motivating unified models that improve categorical reconstruction and joint sampling.",
-      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.13001.png",
-      "source": "HF Trending Papers",
-      "extra": "▲ 40",
-      "score": null,
-      "category": "Other"
-    },
-    {
-      "guid": "2611.14116",
-      "title": "Visual Similarity in Adult Word Extension and Artificial Word Learning",
-      "link": "https://huggingface.co/papers/2611.14116",
-      "authors": [
-        "Patricio M. Vera"
-      ],
-      "date": "2026-11-09T19:00:00.000Z",
-      "summary": "Visual similarity measured by a self-supervised visual encoder partially explains word generalization in adults and artificial learners, while the composition of teaching examples contributes additional structure beyond that distance.",
-      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.14116.png",
-      "source": "HF Trending Papers",
-      "extra": "▲ 3",
-      "score": null,
-      "category": "Other"
-    },
-    {
-      "guid": "2611.13425",
-      "title": "Prompt2Echo (P2Echo): Text-Prompted Multi-View Echocardiography Segmentation with One Model",
-      "link": "https://huggingface.co/papers/2611.13425",
-      "authors": [
-        "Moein Heidari",
-        "Alvin Kimbowa",
-        "Mahdi Tabatabaei",
-        "Afshin Bozorgpour",
-        "Sina Ghorbani Kolahi",
-        "River Jiang",
-        "Wenjin Chen",
-        "David J. Foran",
-        "Jasmine Grewal",
-        "Dorit Merhof",
-        "Ilker Hacihaliloglu"
-      ],
-      "date": "2026-11-09T19:00:00.000Z",
-      "summary": "P2Echo is a unified view-aware text-prompted segmentation framework that uses dynamic image-text alignment to segment diverse cardiac structures across multiple echocardiographic views with high accuracy and low computational cost.",
-      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.13425.png",
-      "source": "HF Trending Papers",
-      "extra": "▲ 3",
-      "score": null,
-      "category": "Other"
-    },
-    {
-      "guid": "2611.10486",
-      "title": "Test-Time Scaling for Diffusion Language Models with Frequency-Aware Remasking",
-      "link": "https://huggingface.co/papers/2611.10486",
-      "authors": [
-        "Bowen Zuo",
-        "Yue Yu",
-        "Dongruo Zhou",
-        "Yinglun Zhu"
-      ],
-      "date": "2026-11-06T19:00:00.000Z",
-      "summary": "Diffusion language models (DLMs) generate text through iterative denoising, where decisions about which tokens to commit or remask strongly affect output quality. Existing certainty-aware strategies rely on instantaneous confidence or entropy, but these local signals can be misleading on difficult reasoning problems. We formulate DLM test-time scaling as adaptive allocation of both inference compute and decoding strategies. Our two-stage approach uses a fast base sampler to solve easy questions, then applies frequency-aware remasking to the remaining hard questions. This strategy tracks how often each token's prediction changes across denoising steps and preferentially commits frequently changing tokens, encouraging samples to explore alternative reasoning paths rather than collapse onto the model's preferred trajectory. Experiments with LLaDA-8B-Instruct and Dream-7B-Instruct show consistent improvements over a strong adaptive allocation baseline, with absolute accuracy gains of up to 3.73 percentage points (LLaDA) and 7.33 percentage points (Dream) on MATH-500, and absolute coverage gains of up to 11.39 percentage points (LLaDA) and 10.98 percentage points (Dream) on HumanEval. On questions unsolved by the base certainty-aware strategy after 100 samples, frequency-aware remasking recovers solutions for 3.75% to 18.75% of examples.",
-      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.10486.png",
-      "source": "HF Trending Papers",
-      "extra": "▲ 9",
+      "extra": "▲ 46",
       "score": null,
       "category": "Other"
     }

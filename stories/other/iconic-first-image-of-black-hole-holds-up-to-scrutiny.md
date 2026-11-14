@@ -8,7 +8,7 @@ date: "2026-11-11"
 score: ""
 guid: "10.1038/d41586-026-03642-7"
 image: ""
-generated: "2026-11-13T19:01:04+05:30"
+generated: "2026-11-14T19:35:57+05:30"
 ---
 
 Picture produced by fresh analysis of the data that yielded the first-ever image of a black hole outputs the same, ring-like shape.

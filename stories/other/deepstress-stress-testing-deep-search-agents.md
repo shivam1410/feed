@@ -8,7 +8,7 @@ date: "2026-11-11T19:00:00.000Z"
 score: ""
 guid: "2607.13920"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2607.13920.png"
-generated: "2026-11-13T19:01:04+05:30"
+generated: "2026-11-14T19:35:57+05:30"
 ---
 
 A dynamic stress-testing framework shows that search agents often answer confidently despite unreliable retrieved evidence and may rely on memorized knowledge when documents are factually wrong.

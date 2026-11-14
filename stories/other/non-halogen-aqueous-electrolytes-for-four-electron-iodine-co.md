@@ -8,7 +8,7 @@ date: "2026-11-11"
 score: ""
 guid: "10.1038/s41586-026-11282-0"
 image: ""
-generated: "2026-11-13T19:01:04+05:30"
+generated: "2026-11-14T19:35:57+05:30"
 ---
 
 An electrolyte framework that harnesses anionic chemistry to coordinate the interfacial microenvironment and molecular interactions enables reversible four-electron iodine conversion in halogen-free aqueous electrolytes, and is validated in metal–iodine batteries.

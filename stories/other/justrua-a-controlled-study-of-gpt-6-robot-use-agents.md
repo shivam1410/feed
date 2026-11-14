@@ -8,7 +8,7 @@ date: "2026-11-10T19:00:00.000Z"
 score: ""
 guid: "2611.16009"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.16009.png"
-generated: "2026-11-13T19:01:04+05:30"
+generated: "2026-11-14T19:35:57+05:30"
 ---
 
 A simplified evaluation harness that keeps full episode history and stops motions early substantially improves robot-use agent scores on RoboDojo, with scene geometry providing the largest additional benefit.

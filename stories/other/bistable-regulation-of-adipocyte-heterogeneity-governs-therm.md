@@ -8,7 +8,7 @@ date: "2026-11-11"
 score: ""
 guid: "10.1038/s41586-026-11308-7"
 image: ""
-generated: "2026-11-13T19:01:04+05:30"
+generated: "2026-11-14T19:35:57+05:30"
 ---
 
 IL-1β from neutrophils and macrophages stabilizes nearby brown adipocytes in a low-UCP1 state; cold temperature reduces IL-1β via sympathetic nerves, leading to transition to a high-UCP1 state and increased thermogenesis, while higher temperatures have the opposite effect.

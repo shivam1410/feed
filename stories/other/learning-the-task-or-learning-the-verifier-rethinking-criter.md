@@ -8,7 +8,7 @@ date: "2026-11-04T19:00:00.000Z"
 score: ""
 guid: "2611.08318"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.08318.png"
-generated: "2026-11-13T19:01:04+05:30"
+generated: "2026-11-14T19:35:57+05:30"
 ---
 
 Exposing benchmark success criteria to self-improving embodied coding agents can raise measured success under those criteria without improving instructed-task completion, and the advantage weakens under slight criteria changes and transfers poorly across tasks, while instruction-faithful criteria better reflect instructed-task performance.

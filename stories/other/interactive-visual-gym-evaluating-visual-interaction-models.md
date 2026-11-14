@@ -8,7 +8,7 @@ date: "2026-11-04T19:00:00.000Z"
 score: ""
 guid: "2611.08286"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.08286.png"
-generated: "2026-11-13T19:01:04+05:30"
+generated: "2026-11-14T19:35:57+05:30"
 ---
 
 Interactive Visual Gym enables closed-loop evaluation and training of visual interaction models by jointly simulating task environments and human users, exposing limitations in state-of-the-art VLMs and improving performance through closed-loop training.

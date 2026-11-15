@@ -8,7 +8,7 @@ date: "2026-11-11T19:00:00.000Z"
 score: ""
 guid: "2611.17334"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.17334.png"
-generated: "2026-11-14T19:35:57+05:30"
+generated: "2026-11-15T20:14:58+05:30"
 ---
 
 Controlled experiments show that multimodal language models do not need a pretrained vision encoder, but benefit from dedicated vision capacity trained jointly with the backbone and integrated early rather than before fusion.

@@ -1,0 +1,14 @@
+---
+title: "Retadup Worm Resurfaces 7 Years After Takedown to Spread CoffeeLoader Malware"
+category: "Other"
+source: "The Hacker News"
+url: "https://thehackernews.com/2026/11/retadup-worm-resurfaces-7-years-after.html"
+authors: ["info@thehackernews.com (The Hacker News)"]
+date: "Mon, 16 Nov 2026 18:03:18 +0530"
+score: ""
+guid: "https://thehackernews.com/2026/11/retadup-worm-resurfaces-7-years-after.html"
+image: ""
+generated: "2026-11-16T20:51:01+05:30"
+---
+
+Cybersecurity researchers have disclosed details of a new variant of CoffeeLoader, a malware designed to deliver additional payloads to infected machines. "On launch, the NSIS-based installer executable dropped a file named '7z.dll' into a temporary directory and ran it through rundll32.exe," Kaspersky said in an analysis published today. "The '7z.dll' file was a patched version of the

@@ -8,7 +8,7 @@ date: "2026-11-12"
 score: ""
 guid: "10.1038/d41586-026-03665-0"
 image: ""
-generated: "2026-11-15T20:14:58+05:30"
+generated: "2026-11-16T20:51:01+05:30"
 ---
 
 Insights into the reproductive modes of brown algae could help in the fight to protect them in warming climate.

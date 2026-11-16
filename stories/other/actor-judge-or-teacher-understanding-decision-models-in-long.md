@@ -8,7 +8,7 @@ date: "2026-11-11T19:00:00.000Z"
 score: ""
 guid: "2611.17167"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.17167.png"
-generated: "2026-11-15T20:14:58+05:30"
+generated: "2026-11-16T20:51:01+05:30"
 ---
 
 A decision model that acts poorly can still teach reinforcement learning policies effectively by judging complete action trajectories, improving success on ALFWorld and WebShop.

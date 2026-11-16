@@ -8,7 +8,7 @@ date: "2026-11-11"
 score: ""
 guid: "10.1038/d41586-026-03274-x"
 image: ""
-generated: "2026-11-15T20:14:58+05:30"
+generated: "2026-11-16T20:51:01+05:30"
 ---
 
 Once the promotion prospects of bureaucrats became tied to birth targets, the country’s one-child policy became more effective. Can the state now reverse this effect?

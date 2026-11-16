@@ -8,7 +8,7 @@ date: "2026-11-06T19:00:00.000Z"
 score: ""
 guid: "2611.10439"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.10439.png"
-generated: "2026-11-15T20:14:58+05:30"
+generated: "2026-11-16T20:51:01+05:30"
 ---
 
 MixUA distills lessons from independent user-agent trajectories and assigns them to appropriate scopes to balance cross-user and cross-agent learning with privacy, evaluated by CrossLearnBench.

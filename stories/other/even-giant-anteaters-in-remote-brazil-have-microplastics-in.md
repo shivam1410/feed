@@ -8,7 +8,7 @@ date: "2026-11-11"
 score: ""
 guid: "10.1038/d41586-026-03660-5"
 image: ""
-generated: "2026-11-15T20:14:58+05:30"
+generated: "2026-11-16T20:51:01+05:30"
 ---
 
 Mapping the movements of wildlife across the Amazon and other regions to their exposure to human activities can inform protection initiatives.

@@ -8,7 +8,7 @@ date: "2026-11-11T19:00:00.000Z"
 score: ""
 guid: "2611.16728"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.16728.png"
-generated: "2026-11-15T20:14:58+05:30"
+generated: "2026-11-16T20:51:01+05:30"
 ---
 
 EgoX is an egocentric cross-embodiment learning framework that pretrains a modular Transformer with embodiment dreaming on heterogeneous human, robot, and simulated demonstrations, then fine-tunes it to improve manipulation task progress, especially under out-of-distribution conditions.

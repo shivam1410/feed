@@ -8,7 +8,7 @@ date: "Fri, 13 Nov 2026 20:57:05 +0530"
 score: ""
 guid: "https://thehackernews.com/2026/11/new-mior-and-skyfall-attacks-let-rogue.html"
 image: ""
-generated: "2026-11-15T20:14:58+05:30"
+generated: "2026-11-16T20:51:01+05:30"
 ---
 
 Two attacks made public this week allow a malicious host to read data inside AMD SEV-SNP-protected virtual machines (VMs), which are built to keep the server's operator out. One of them, Mior, can also modify a VM's memory and fake the signed report confirming which software it runs. Both need control of the server's hypervisor, and Mior also needs control of the server's BIOS. Researchers

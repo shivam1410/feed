@@ -8,7 +8,7 @@ date: "2026-11-10T19:00:00.000Z"
 score: ""
 guid: "2611.15094"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.15094.png"
-generated: "2026-11-15T20:14:58+05:30"
+generated: "2026-11-16T20:51:01+05:30"
 ---
 
 A vision-language model trained on nearly one million clinical neuroimaging studies interprets complete examinations, discusses findings in natural language, and outperforms existing general and medical models in diagnosis, localization, reporting, and progression assessment.

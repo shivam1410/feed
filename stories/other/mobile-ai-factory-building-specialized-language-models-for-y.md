@@ -8,7 +8,7 @@ date: "2026-11-09T19:00:00.000Z"
 score: ""
 guid: "2611.13509"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.13509.png"
-generated: "2026-11-16T20:51:01+05:30"
+generated: "2026-11-17T19:45:07+05:30"
 ---
 
 Mobile AI Factory is an agentic system that automatically builds task- and phone-specific fine-tuned quantized small language models, using an orchestrator LLM, real device measurements, and adaptive search to match or outperform larger models with much less GPU time.

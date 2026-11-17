@@ -8,7 +8,7 @@ date: "2026-11-08T19:00:00.000Z"
 score: ""
 guid: "2611.12068"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.12068.png"
-generated: "2026-11-16T20:51:01+05:30"
+generated: "2026-11-17T19:45:07+05:30"
 ---
 
 MIRIX-2.0 is a multi-agent memory system for LLM agents that achieves high accuracy and efficiency across QA and procedural benchmarks without fine-tuning.

@@ -8,7 +8,7 @@ date: "2026-11-13T22:00:49Z"
 score: ""
 guid: "https://www.schneier.com/?p=72930"
 image: ""
-generated: "2026-11-16T20:51:01+05:30"
+generated: "2026-11-17T19:45:07+05:30"
 ---
 
 Climate change is the issue . As usual, you can also use this squid post to talk about the security stories in the news that I haven’t covered. Blog moderation policy.

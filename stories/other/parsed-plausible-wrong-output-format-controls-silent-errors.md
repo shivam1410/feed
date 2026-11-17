@@ -1,0 +1,14 @@
+---
+title: "Parsed, Plausible, Wrong: Output Format Controls Silent Errors in Small-Model Semantic Parsing"
+category: "Other"
+source: "HF Trending Papers"
+url: "https://huggingface.co/papers/2611.17169"
+authors: ["Umar Ahmed", "Maxim Dunaev", "Mohammad Nour Al Awad", "Sergey Ivanov", "Ivan Khodnenko"]
+date: "2026-11-11T19:00:00.000Z"
+score: ""
+guid: "2611.17169"
+image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.17169.png"
+generated: "2026-11-17T19:45:07+05:30"
+---
+
+A small fine-tuned parser that emits a well-formed but wrong tree fails silently: nothing downstream can tell. We ask whether the output format, a free design choice, controls how often this happens. On the PIZZA ordering benchmark we fine-tune two sub-billion models (Qwen3.5-0.8B and LFM2.5-350M) with LoRA on six lossless encodings of the same target tree, from 44.3 down to 10.9 tokens per order, including two matched-length pairs that vary surface form at fixed length. Across 300 runs (5 training pool sizes, 5 seeds) with a hierarchical bootstrap and Holm correction fixed before the results were read, shortening alone never helps, but writing the target in ordinary words does. The word encoding is the most accurate format on both models (87.5% vs. 85.8% exact match for the native s-expression on Qwen) while emitting 4.1x fewer tokens, and it cuts the silent error rate by 2.3x on Qwen and 1.8x on LFM2, separating at every pool size. Error analysis locates much of the gain in negation. All runs also learn to refuse off-menu input (held out: 95.9-99.0% handled) and to apply in-utterance self-corrections. Strict refusal has a measured price: 2.1-10.1% of real, mostly polite, orders are refused.

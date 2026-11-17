@@ -8,7 +8,7 @@ date: "2026-11-12"
 score: ""
 guid: "10.1038/d41586-026-03666-z"
 image: ""
-generated: "2026-11-16T20:51:01+05:30"
+generated: "2026-11-17T19:45:07+05:30"
 ---
 
 The Bundibugyo virus strain was circulating for weeks before its detection in May, but was missed owing to surveillance failures, testing gaps and funding cuts, researchers say.

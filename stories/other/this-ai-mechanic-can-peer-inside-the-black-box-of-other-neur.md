@@ -8,7 +8,7 @@ date: "2026-11-13"
 score: ""
 guid: "10.1038/d41586-026-03679-8"
 image: ""
-generated: "2026-11-17T19:45:07+05:30"
+generated: "2026-11-18T19:12:26+05:30"
 ---
 
 Being able to target and debug systems could improve artificial-intelligence safety and utility.

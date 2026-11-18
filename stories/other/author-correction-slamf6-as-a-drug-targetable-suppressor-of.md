@@ -8,7 +8,7 @@ date: "2026-11-12"
 score: ""
 guid: "10.1038/s41586-026-11409-3"
 image: ""
-generated: "2026-11-17T19:45:07+05:30"
+generated: "2026-11-18T19:12:26+05:30"
 ---
 
 Author Correction: SLAMF6 as a drug-targetable suppressor of T cell immunity against cancer

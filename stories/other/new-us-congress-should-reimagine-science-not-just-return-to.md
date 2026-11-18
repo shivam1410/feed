@@ -8,7 +8,7 @@ date: "2026-11-17"
 score: ""
 guid: "10.1038/d41586-026-03709-5"
 image: ""
-generated: "2026-11-17T19:45:07+05:30"
+generated: "2026-11-18T19:12:26+05:30"
 ---
 
 For science policy to be effective, the public must be engaged in the process of funding research.

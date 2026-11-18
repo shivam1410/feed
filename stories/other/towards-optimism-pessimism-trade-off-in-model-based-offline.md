@@ -1,0 +1,14 @@
+---
+title: "Towards Optimism-Pessimism Trade-off in Model-based Offline-to-Online Reinforcement Learning"
+category: "Other"
+source: "arXiv (cs.LG)"
+url: "https://arxiv.org/abs/2611.22172"
+authors: ["Guochen Zhou, Yijun Yang, Qiqi Duan, Qing Su, Weiming Ou, Li Shen, Shihao Ji, Yuhui Shi, Zhisong Zhang"]
+date: "Wed, 18 Nov 2026 00:00:00 -0500"
+score: ""
+guid: "oai:arXiv.org:2611.22172v1"
+image: ""
+generated: "2026-11-18T19:12:26+05:30"
+---
+
+Model-based offline-to-online reinforcement learning (RL) enables sample-efficient adaptation by leveraging offline pre-training for online fine-tuning. However, the distribution shifts between offline and online stages often hinder fine-tuning performance. Many existing methods encode the optimism-pessimism trade-off through a single-objective formulation. Selecting its trade-off coefficient through online fine-tuning can require costly bi-level optimization. We identify the balance established during offline training as a key challenge: in our motivating experiments, optimistic policies adapt better to novel tasks, whereas pessimistic policies perform better on the same online tasks. To address this challenge, we propose a bi-objective formulation that captures this trade-off, yielding a Pareto policy pool during offline training. This policy pool enables adaptive selection during online fine-tuning across diverse online tasks. To generate the pool, we introduce Multi-Objective Soft Actor-critIC (MOSAIC), which solves bi-objective problems and constructs diverse Pareto policies. After offline training, a contextual bandit algorithm hierarchically selects the most suitable policy for fine-tuning at each online interaction step. Empirically, our pipeline, Hierarchical Pareto Policy Pool (HiP3), achieves the strongest aggregate performance across both same and novel online tasks and maintains its advantage under stronger distribution shifts. Comprehensive ablations further clarify the roles of the policy pool, MOSAIC-based pool construction, and the online selection mechanism.

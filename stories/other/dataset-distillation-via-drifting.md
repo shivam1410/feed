@@ -8,7 +8,7 @@ date: "2026-11-11T19:00:00.000Z"
 score: ""
 guid: "2611.16642"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.16642.png"
-generated: "2026-11-17T19:45:07+05:30"
+generated: "2026-11-18T19:12:26+05:30"
 ---
 
 A dataset distillation method learns synthetic samples that approximate per-class data distributions in a feature extractor's latent space, improving distribution coverage and classification training while supporting visualization and other modalities.

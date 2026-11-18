@@ -8,7 +8,7 @@ date: "2026-11-16"
 score: ""
 guid: "10.1038/d41586-026-03765-x"
 image: ""
-generated: "2026-11-17T19:45:07+05:30"
+generated: "2026-11-18T19:12:26+05:30"
 ---
 
 The high court has declined for now to intervene in a key case, meaning that lower court rulings that restored several hundred terminated grants will stand.

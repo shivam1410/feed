@@ -8,7 +8,7 @@ date: "2026-11-16"
 score: ""
 guid: "10.1038/d41586-026-03715-7"
 image: ""
-generated: "2026-11-17T19:45:07+05:30"
+generated: "2026-11-18T19:12:26+05:30"
 ---
 
 Researchers must track warming oceans and use the knowledge gained to inform strategies for sustaining fisheries and communities that depend on them.

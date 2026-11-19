@@ -8,7 +8,7 @@ date: "2026-11-15T03:49:47+00:00"
 score: ""
 guid: "https://simonwillison.net/2026/Nov/15/datasette-agent/"
 image: ""
-generated: "2026-11-18T19:12:26+05:30"
+generated: "2026-11-19T19:00:31+05:30"
 ---
 
 Release: datasette-agent 0.6a0 Accumulated small fixes for Datasette Agent, my agent plugin for Datasette that lets you ask questions about your data. Most notably, it now adds an agent prompt directly to the Datasette homepage, with support for hash-mentions of tables and queries: Tags: datasette-agent , llm , datasette , llms , ai , generative-ai

@@ -8,7 +8,7 @@ date: "2026-11-15T23:18:17+00:00"
 score: ""
 guid: "https://simonwillison.net/2026/Nov/15/datasette-2/"
 image: ""
-generated: "2026-11-18T19:12:26+05:30"
+generated: "2026-11-19T19:00:31+05:30"
 ---
 
 Release: datasette 0.65.6 I backported a minor security fix from 1.0a43: Fixed a security issue where a database registered using add_database(db, name=..., route=...) with a route that differs from its name could be downloaded from /<route>.db by actors who were denied access to it. [...] Tags: security , datasette

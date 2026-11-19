@@ -8,7 +8,7 @@ date: "Tue, 17 Nov 2026 16:50:18 +0530"
 score: ""
 guid: "https://thehackernews.com/2026/11/new-gitdoor-and-graphdoor-backdoors.html"
 image: ""
-generated: "2026-11-18T19:12:26+05:30"
+generated: "2026-11-19T19:00:31+05:30"
 ---
 
 Government sectors in Asia and Africa have been targeted by an active cyber intrusion campaign that delivers to previously undocumented backdoors that leverage legitimate services like Microsoft SharePoint and GitHub for command‑and‑control (C2). The activity has been codenamed Operation ShadowCloud by Kaspersky. The Russian cybersecurity company said it identified the campaign in early 2026.

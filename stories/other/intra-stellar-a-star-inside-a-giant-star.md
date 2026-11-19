@@ -1,0 +1,14 @@
+---
+title: "Intra-stellar: a star inside a giant star"
+category: "Other"
+source: "Nature"
+url: "https://www.nature.com/articles/d41586-026-03273-y"
+authors: ["Jason Nordhaus"]
+date: "2026-11-18"
+score: ""
+guid: "10.1038/d41586-026-03273-y"
+image: ""
+generated: "2026-11-19T19:00:31+05:30"
+---
+
+Long-term monitoring of a giant star in the Andromeda galaxy reveals, for the first time, the decay of the orbit of another star inside the giant’s envelope.

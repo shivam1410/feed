@@ -1,0 +1,14 @@
+---
+title: "Variable Length Diffuse Everything: Arbitrary Length Generative Modeling on Arbitrary State Spaces"
+category: "Other"
+source: "arXiv (cs.LG)"
+url: "https://arxiv.org/abs/2611.23684"
+authors: ["Kevin Rojas, Felix X. -F. Ye, Molei Tao"]
+date: "Thu, 19 Nov 2026 00:00:00 -0500"
+score: ""
+guid: "oai:arXiv.org:2611.23684v1"
+image: ""
+generated: "2026-11-19T19:00:31+05:30"
+---
+
+Diffusion and flow-based generative models have achieved remarkable results across diverse applications, but most assume data of fixed-dimension/length. Meanwhile, real-world problems such as layout generation often involve variable-length, multimodal data, such as continuous bounding box coordinates paired with discrete types. Existing methods typically address variable length by padding data to a fixed size or by introducing specialized objectives to model lengths explicitly, adding complexity and limiting generality. We propose Variable Length Diffuse Everything (VL-DE), a simple and general framework for variable-length multimodal generation on arbitrary state spaces. Instead of padding, VL-DE handles variable length through an insertion-based mechanism grounded in a principled theoretical framework, yielding a tractable training objective. In addition, by utilizing the fact that VL-DE is based on a generator with an additive form, we develop a higher-order sampler by appropriately handling the time dependence. Extensive experiments on layout and molecule generation demonstrate the effectiveness of our approach.

@@ -1,0 +1,14 @@
+---
+title: "Beyond Cross-Modal Reconstruction: Participant-Level Evaluation of sEMG-Kinematic Coupling in Post-Stroke Gait"
+category: "Other"
+source: "arXiv (cs.LG)"
+url: "https://arxiv.org/abs/2611.23856"
+authors: ["Rafsan Jany, Md Rafid Islam, Mohammad Fahim Islam, Hafiz Abdur Rahman"]
+date: "Thu, 19 Nov 2026 00:00:00 -0500"
+score: ""
+guid: "oai:arXiv.org:2611.23856v1"
+image: ""
+generated: "2026-11-19T19:00:31+05:30"
+---
+
+Accurate cross-modal reconstruction is often treated as evidence of physiological coupling, although it may simply reflect temporal patterns shared across participants. We tested whether frozen bidirectional models captured subject-specific neuromuscular coupling between electromyographic activity and gait kinematics in 82 held-out able-bodied and 43 post-stroke participants. Complete source-modality removal and cross-participant source substitution, along with a cycle-position-age-sex template baseline, were applied. Learned bilateral asymmetry was also compared with transparent waveform and derivative asymmetry for predicting Performance-Oriented Mobility Assessment (POMA) scores in the case of repeated nested cross-validation. Complete source removal increased reconstruction RMSE by 6.90% for electromyography-to-kinematics and 11.38% in the reverse direction. In contrast, cross-participant substitution increased RMSE by only 1.68% and 1.67%, respectively, while the template reduced RMSE by 2.89% and 0.55%. For POMA prediction, walking speed, age, and sex achieved an MAE of 3.693, compared with 4.229 and 4.427 after adding absolute and signed learned asymmetry, respectively. In all of the 20 repeated evaluations, all asymmetry representations performed worse than the covariate baseline. No localized learned feature remained significant after covariate adjustment and false-discovery-rate correction. The model mainly relied on shared gait-phase patterns, with no clear subject-specific coupling or added clinical value. Participant-level controls are therefore needed before reconstruction accuracy is treated as evidence of individualized physiology.

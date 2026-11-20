@@ -1,0 +1,14 @@
+---
+title: "datasette-llm 0.1a11"
+category: "AI Research"
+source: "Simon Willison"
+url: "https://simonwillison.net/2026/Nov/14/datasette-llm/"
+authors: []
+date: "2026-11-14T23:59:28+00:00"
+score: 20
+guid: "https://simonwillison.net/2026/Nov/14/datasette-llm/"
+image: ""
+generated: "2026-11-20T19:04:50+05:30"
+---
+
+Release: datasette-llm 0.1a11 datasette-llm is the intermediate plugin for Datasette that supports configuring LLMs for use with other Datasette plugins. This release adds support for OpenAI-compatible endpoints, so you can configure Datasette to use an LLM hosted anywhere that talks the OpenAI pseudo-standard web protocol. This means that if you're running local models with LM Studio or Ollama or llama.cpp (which just hit v1.0.0 ) you can run Datasette via uvx like this: wget https://datasette.io/content.db uvx --with datasette-agent datasette \ --root --secret 1 \ -s plugins.datasette-llm.default_model ' { "model": "lmstudio-qwen", "model_name": "qwen/qwen3.8-27b", "api_base": "http://localhost:1234/v1" } ' content.db And you'll get a local server running a Datasette Agent instance powered by your local model! Tags: uv , datasette-agent , llm , datasette , llms , ai , generative-ai

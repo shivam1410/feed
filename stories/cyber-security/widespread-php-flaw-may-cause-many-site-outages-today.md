@@ -5,10 +5,10 @@ source: "Krebs on Security"
 url: "https://krebsonsecurity.com/2026/10/widespread-php-flaw-may-cause-many-site-outages-today/"
 authors: ["BrianKrebs"]
 date: "Wed, 21 Oct 2026 15:26:07 +0000"
-score: 100
+score: 75
 guid: "https://krebsonsecurity.com/?p=74522"
 image: ""
-generated: "2026-11-03T19:05:09+05:30"
+generated: "2026-11-20T19:04:50+05:30"
 ---
 
-Nearly 70 percent of websites need to patch PHP after two bugs were found that let attackers take full control of servers. Working exploits exist, and Krebs reports they are already being used in the wild. PHP runs Drupal, Magento, Joomla and WordPress. Reuters reported government websites in Europe went offline. Cloudflare added firewall rules to block attack traffic. OpenAI called it one of the most impactful security issues in recent memory.
+Two critical PHP flaws let attackers take control of servers. Nearly 70 percent of websites need the fix. PHP shipped an emergency update, and working exploits already exist. Cloudflare saw exploitation and added firewall rules at 3:02 am UTC. Reuters reports that government websites in Europe went offline. The affected platforms include Drupal, Magento, Joomla, and WordPress. OpenAI, which helped with the research, called these among the most impactful security issues in recent memory.

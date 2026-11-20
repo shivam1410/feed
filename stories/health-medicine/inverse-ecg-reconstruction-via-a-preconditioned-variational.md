@@ -1,0 +1,14 @@
+---
+title: "Inverse ECG Reconstruction via a Preconditioned Variational Quantum Linear Solver"
+category: "Health & Medicine"
+source: "arXiv (cs.LG)"
+url: "https://arxiv.org/abs/2611.25450"
+authors: ["Xizhuo Zhang, Chao Lu, Bing Yao"]
+date: "Fri, 20 Nov 2026 00:00:00 -0500"
+score: 30
+guid: "oai:arXiv.org:2611.25450v1"
+image: ""
+generated: "2026-11-20T19:04:50+05:30"
+---
+
+Inverse electrocardiography (ECG) reconstructs heart-surface potentials from body-surface measurements, enabling noninvasive mapping of cardiac electrical activity. However, the reconstruction requires solving dense and ill-conditioned linear systems, whose computational cost grows rapidly with the refined heart mesh. Quantum computing offers new opportunities for solving such systems. This paper presents a hybrid quantum-classical framework for inverse ECG reconstruction, which, to the best of our knowledge, is the first to apply a quantum linear solver to this problem. We first propose a Laplacian-regularized pre-encoding procedure to reduce the dimension of the system while improving its conditioning. Second, the resulting reduced system is encoded and solved using a coherent variational quantum linear solver (VQLS). Finally, we provide a rigorous theoretical proof establishing that the proposed framework preserves the exact solution of the original reconstruction problem throughout all stages of the computational process. Experimental results on a realistic heart-torso geometry demonstrate that our approach holds significant ability for accurate inverse ECG reconstruction. These findings highlight the potential of quantum solvers for noninvasive cardiac imaging, providing a foundation for further research into quantum-enhanced cardiac assessment and other healthcare applications.

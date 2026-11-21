@@ -5,10 +5,10 @@ source: "Schneier on Security"
 url: "https://www.schneier.com/blog/archives/2026/11/friday-squid-blogging-pacific-flying-squid-populations-dropping-in-korean-waters.html"
 authors: ["Bruce Schneier"]
 date: "2026-11-13T22:00:49Z"
-score: 62
+score: 40
 guid: "https://www.schneier.com/?p=72930"
 image: ""
-generated: "2026-11-20T19:04:50+05:30"
+generated: "2026-11-21T19:04:16+05:30"
 ---
 
-Pacific flying squid populations are dropping in Korean waters. The post blames climate change. The text offers little more detail than that.
+Climate change is the issue . As usual, you can also use this squid post to talk about the security stories in the news that I haven’t covered. Blog moderation policy.

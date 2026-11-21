@@ -5,10 +5,10 @@ source: "HF Trending Papers"
 url: "https://huggingface.co/papers/2611.26629"
 authors: ["Hidir Yesiltepe", "Julius Berner", "Arash Vahdat", "Pinar Yanardag"]
 date: "2026-11-18T19:00:00.000Z"
-score: 35
+score: 25
 guid: "2611.26629"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.26629.png"
-generated: "2026-11-20T19:04:50+05:30"
+generated: "2026-11-21T19:04:16+05:30"
 ---
 
 Posterior Matching Distillation trains a stochastic student to match a teacher diffusion model’s full posterior via tilted mean constraints, enabling high-quality few-step image generation without auxiliary score networks.

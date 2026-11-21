@@ -8,7 +8,7 @@ date: "2026-11-18"
 score: 45
 guid: "10.1038/s41586-026-11284-y"
 image: ""
-generated: "2026-11-20T19:04:50+05:30"
+generated: "2026-11-21T19:04:16+05:30"
 ---
 
-A basin-wide assessment of Amazonian deciduousness using high-resolution satellite observations shows a diverse range of phenological strategies across the Amazon rainforest, contrary to the prevailing view of Amazonian phenology.
+A basin-wide satellite survey mapped leaf-dropping across the whole Amazon. It found a wide range of phenological strategies, meaning different timing patterns for leaves and seasons. That goes against the prevailing view of the Amazon.

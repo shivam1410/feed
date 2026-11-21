@@ -8,7 +8,7 @@ date: "2026-11-18"
 score: 25
 guid: "10.1038/d41586-026-03791-9"
 image: ""
-generated: "2026-11-20T19:04:50+05:30"
+generated: "2026-11-21T19:04:16+05:30"
 ---
 
 Take Nature’s quiz to test your skills as a research-integrity sleuth. Plus, a milestone for Voyager 1 and the United States has lost its measles elimination status.

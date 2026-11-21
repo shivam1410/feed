@@ -8,7 +8,7 @@ date: "2026-11-18"
 score: 40
 guid: "10.1038/d41586-026-03710-y"
 image: ""
-generated: "2026-11-20T19:04:50+05:30"
+generated: "2026-11-21T19:04:16+05:30"
 ---
 
 Our reporter mailed off her poo to find out what two companies say about her microbiome. Here’s what she found.

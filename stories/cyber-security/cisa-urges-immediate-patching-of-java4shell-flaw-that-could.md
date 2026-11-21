@@ -5,10 +5,10 @@ source: "The Hacker News"
 url: "https://thehackernews.com/2026/11/cisa-urges-immediate-patching-of.html"
 authors: ["info@thehackernews.com (The Hacker News)"]
 date: "Wed, 18 Nov 2026 13:54:23 +0530"
-score: 62
+score: 35
 guid: "https://thehackernews.com/2026/11/cisa-urges-immediate-patching-of.html"
 image: ""
-generated: "2026-11-20T19:04:50+05:30"
+generated: "2026-11-21T19:04:16+05:30"
 ---
 
 The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has urged organizations to immediately patch a newly disclosed critical security flaw impacting Oracle Java. The flaw, tracked as CVE-2026-114938 (CVSS score: 8.1), refers to a case of out-of-bounds write that can lead to denial-of-service (DoS) or remote code execution under certain conditions. "This critical memory-corruption

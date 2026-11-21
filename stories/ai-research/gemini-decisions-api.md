@@ -5,10 +5,10 @@ source: "Simon Willison"
 url: "https://simonwillison.net/2026/Nov/11/gemini-decisions-api/"
 authors: []
 date: "2026-11-11T22:03:25+00:00"
-score: 75
+score: 50
 guid: "https://simonwillison.net/2026/Nov/11/gemini-decisions-api/"
 image: ""
-generated: "2026-11-20T19:04:50+05:30"
+generated: "2026-11-21T19:04:16+05:30"
 ---
 
-Google launched Gemini Decision 1, a model API for yes/no, choice, and rubric-scoring questions. It costs 10 cents per million input tokens, and output is free. Jev accepts only text, and OpenAI's model accepts text and images. Gemini also accepts audio, video, and PDFs. In Simon Willison's video test, it gave the robot and USA questions about 0.92, and the dragon and France questions 0.05 to 0.08. One API now covers far more kinds of input.
+Gemini Decisions API Google join Jev and OpenAI in the decision model category with "Gemini Decision 1". This new model API is almost identical to Jev: it supports the same three types of questions (yes/no, choice, and rubric-scoring) and even reuses Jev's term "Noul" for a yes/no question. It's priced the same as the GPT-6 Luna decision model: 10 cents per million input tokens, and output is free. Jev remains the cheapest of the three, at 4.2 cents per million. Jev is text (and JSON) only. OpenAI can handle text and images. Gemini Decision 1 is fully multi-model: it covers text, images, audio, video, and PDFs. I tested it against video by passing these questions to it along with my Yonkers stomping robot video file: dragon: Does this video have a dragon in it? robot: Does this video have a robot in it? france: Is this video set in France? usa: Is this video set in the USA? Jev and OpenAI both return 1.0 or 0.0 for yes/no questions, but Gemini insists on being a little less confident than that: { "dragon" : { "type" : " yes_no " , "probability" : 0.04976021841520312 }, "robot" : { "type" : " yes_no " , "probability" : 0.9234055387792485 }, "france" : { "type" : " yes_no " , "probability" : 0.08329171353166241 }, "usa" : { "type" : " yes_no " , "probability" : 0.9230459995157706 } } Via Hacker News Tags: ai , generative-ai , gemini , llm-release , jev , decision-models

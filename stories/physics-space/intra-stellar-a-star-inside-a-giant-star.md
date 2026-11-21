@@ -8,7 +8,7 @@ date: "2026-11-18"
 score: 45
 guid: "10.1038/d41586-026-03273-y"
 image: ""
-generated: "2026-11-20T19:04:50+05:30"
+generated: "2026-11-21T19:04:16+05:30"
 ---
 
-Astronomers watched a star orbit inside a giant star in the Andromeda galaxy. Long-term monitoring revealed, for the first time, the decay of that inner star's orbit within the giant's envelope.
+Scientists kept watching a giant star in the Andromeda galaxy over a long period. For the first time, they saw the orbit of another star inside the giant's outer envelope decaying. Think of a companion star slowly losing its orbit inside a giant.

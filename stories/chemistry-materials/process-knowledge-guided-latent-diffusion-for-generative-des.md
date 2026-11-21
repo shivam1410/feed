@@ -4,11 +4,11 @@ category: "Chemistry & Materials"
 source: "arXiv (cs.LG)"
 url: "https://arxiv.org/abs/2611.25264"
 authors: ["Ngoc Dang Khoa Nguyen, Hyunwoong Ko"]
-date: "Fri, 20 Nov 2026 00:00:00 -0500"
-score: 30
+date: "Sat, 21 Nov 2026 00:00:00 -0500"
+score: 35
 guid: "oai:arXiv.org:2611.25264v1"
 image: ""
-generated: "2026-11-20T19:04:50+05:30"
+generated: "2026-11-21T19:04:16+05:30"
 ---
 
-Printed porous layouts interleave functional material with open channels, and the layout that uses the material best depends on how the process settings shape the deposit. Generative models propose layouts quickly, but a generator that does not receive the process setting samples from the same distribution at every setting, even when the process-dependent score ranks candidate layouts differently. This paper examines whether process knowledge can steer a latent diffusion generator toward layouts suited to a given process setting in a prescribed design domain. We formulate a process-dependent utilization score in which a process model sets the length over which the utility of printed material decays with distance from a channel. The generator combines a vector-quantized variational autoencoder (VQ-VAE) latent representation, a topology U-Net, a ControlNet domain branch, and a separately trained regressor that predicts the score from noised latents; the domain branch conditions each denoising step and the regressor gradient steers it. The method is applied to aerosol jet printing, where the atomizer and sheath gas flows enter the score through the flow-focusing relation. Across seven modeled flow settings, the lowest-scoring candidate layout of a domain differed between settings in 191 of 500 domains. In a sampling study, the mean directly computed score on three validation domains and one test domain was 0.642 with domain conditioning alone, 0.636 at a weight of 300, and 0.450 at 12,000 (112 scores per weight; lower is better). The results support process-knowledge-guided generation as an approach to process-specific porous design under the stated assumptions.
+The best printed porous layout depends on the process settings. The team built a latent diffusion generator steered by a process-aware score for aerosol jet printing. Across seven flow settings, the lowest-scoring layout changed in 191 of 500 domains. In a sampling study, domain conditioning alone scored 0.642 on average, and a regressor weight of 300 scored 0.636. It matters because layouts can be generated for a specific process setting.

@@ -5,10 +5,10 @@ source: "HF Trending Papers"
 url: "https://huggingface.co/papers/2611.25179"
 authors: ["Zirui Song", "Jiadong Zhang", "Zheng Lu", "Xiaosong Ma", "Xiaojun Chang", "Xiuying Chen"]
 date: "2026-11-17T19:00:00.000Z"
-score: 45
+score: 40
 guid: "2611.25179"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.25179.png"
-generated: "2026-11-20T19:04:50+05:30"
+generated: "2026-11-21T19:04:16+05:30"
 ---
 
-They built an LLM pipeline that audits the success checkers in simulated manipulation benchmarks. It recreates the cases where checkers disagree and visually checks whether the behavior meets the task instructions. That check exposes phantom successes, where a run passes but should not, and silent failures. Benchmark scores are only as trustworthy as the checkers behind them, so this matters for anyone comparing models.
+Researchers used an LLM pipeline to audit success checkers in simulated robot manipulation benchmarks. It recreated cases where checkers disagreed, then visually checked behavior against the task instructions. The audit found phantom successes, where a task was marked done but was not, and silent failures. It matters because benchmark scores can overstate real robot performance.

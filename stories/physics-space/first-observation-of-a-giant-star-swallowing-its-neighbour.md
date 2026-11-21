@@ -8,7 +8,7 @@ date: "2026-11-18"
 score: 50
 guid: "10.1038/d41586-026-03784-8"
 image: ""
-generated: "2026-11-20T19:04:50+05:30"
+generated: "2026-11-21T19:04:16+05:30"
 ---
 
-Astronomers have seen a giant star swallow its neighbour for the first time. The finding gives new insight into what happens inside stellar mergers. The same piece also covers a quantum physics method for pinpointing someone's location securely.
+We have the first observation of a giant star swallowing a neighbouring star. It gives new insight into what happens inside stellar mergers. The same roundup also covers using quantum physics to securely pinpoint someone's location.

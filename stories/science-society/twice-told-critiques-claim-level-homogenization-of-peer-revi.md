@@ -5,10 +5,10 @@ source: "HF Trending Papers"
 url: "https://huggingface.co/papers/2611.26286"
 authors: ["Ilya Gusev"]
 date: "2026-11-18T19:00:00.000Z"
-score: 50
+score: 45
 guid: "2611.26286"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.26286.png"
-generated: "2026-11-20T19:04:50+05:30"
+generated: "2026-11-21T19:04:16+05:30"
 ---
 
-Peer reviews are starting to say the same things. Critique overlap across reviews is rising. Reviews identified as LLM-generated are less distinct from each other, so the range of critiques is shrinking. Fewer independent critiques means a paper gets less varied scrutiny. The work calls this claim-level homogenization, and peer review depends on reviewers catching different problems.
+Peer reviews are repeating each other more. Critique overlap is rising across reviews. Reviews identified as LLM-generated are less distinct from one another. So the variety of critiques is shrinking. It matters because peer review depends on independent viewpoints to catch problems.

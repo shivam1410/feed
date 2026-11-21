@@ -4,11 +4,11 @@ category: "Chemistry & Materials"
 source: "arXiv (cs.LG)"
 url: "https://arxiv.org/abs/2611.25452"
 authors: ["Haowei Hua, Irwin King, Wanyu Lin"]
-date: "Fri, 20 Nov 2026 00:00:00 -0500"
-score: 40
+date: "Sat, 21 Nov 2026 00:00:00 -0500"
+score: 45
 guid: "oai:arXiv.org:2611.25452v1"
 image: ""
-generated: "2026-11-20T19:04:50+05:30"
+generated: "2026-11-21T19:04:16+05:30"
 ---
 
-Even a basic crystal autoencoder groups atoms by elemental family in its latent space. The team calls this emergent chemical semantics. They built FamilySpace on that structure. Each family gets its own source distribution, and a flow model is trained on family-matched pairs. At generation time, a user-given family template picks the source for each atom. On MP-20 and MPTS-52 it stays competitive on generation while matching the requested compositions. You can steer which elements a generated crystal contains.
+A plain crystal VAE already groups atoms by elemental family in its latent space. The team calls this emergent chemical semantics. FamilySpace uses that structure, giving each family its own source distribution. A user-specified template then sets the family mix of generated crystals. On MP-20 and MPTS-52, it stays competitive while matching the requested compositions. It matters because it gives direct control over crystal composition.

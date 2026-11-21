@@ -8,7 +8,7 @@ date: "2026-11-18"
 score: 40
 guid: "10.1038/d41586-026-03378-4"
 image: ""
-generated: "2026-11-20T19:04:50+05:30"
+generated: "2026-11-21T19:04:16+05:30"
 ---
 
 Demonstrating your location to someone far away is surprisingly hard. Quantum correlations offer a way to do so without needing to trust any quantum hardware.

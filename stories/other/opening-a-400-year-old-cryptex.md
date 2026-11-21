@@ -5,10 +5,10 @@ source: "Schneier on Security"
 url: "https://www.schneier.com/blog/archives/2026/11/opening-a-400-year-old-cryptex.html"
 authors: ["Bruce Schneier"]
 date: "2026-11-20T12:04:54Z"
-score: 40
+score: 35
 guid: "https://www.schneier.com/?p=72961"
 image: ""
-generated: "2026-11-20T19:04:50+05:30"
+generated: "2026-11-21T19:04:16+05:30"
 ---
 
 Researchers used CT scanning technology to recover the code and open a 400-year-old cryptex padlock. You can buy a USB-drive cryptex .

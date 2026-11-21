@@ -8,7 +8,7 @@ date: "2026-11-20"
 score: 55
 guid: "10.1038/d41586-026-03751-3"
 image: ""
-generated: "2026-11-20T19:04:50+05:30"
+generated: "2026-11-21T19:04:16+05:30"
 ---
 
-Lifting weights might help people keep their muscle while on weight-loss drugs. The research points to middle-aged and older adults. Resistance exercise could help them maintain muscle mass and strength during treatment. Keeping muscle is the goal here, so losing less of it is a real win. The text gives no numbers, so treat this as a promising direction rather than a settled answer.
+Lifting weights might help people keep their muscle while taking obesity drugs. Resistance exercise could help middle-aged and older adults hold on to muscle mass and strength during weight-loss treatment. The text is only a single sentence, so it gives no figures or methods. It points to a simple way to protect strength during treatment.

@@ -1,106 +1,106 @@
 {
-  "generatedAt": "2026-11-20T19:05:21+05:30",
+  "generatedAt": "2026-11-21T19:04:48+05:30",
   "source": "Hugging Face — trending models",
   "models": [
     {
+      "id": "thinkingmachines/Inkling-2-Mini",
+      "task": "image-text-to-text",
+      "likes": 1266,
+      "downloads": 7944,
+      "library": "transformers",
+      "createdAt": "2026-11-17T00:26:57.000Z",
+      "url": "https://huggingface.co/thinkingmachines/Inkling-2-Mini",
+      "summary": "Open-weight multimodal model that accepts text and image inputs and produces text, aimed at developers building assistants, agentic tool-use, coding, and RAG systems."
+    },
+    {
       "id": "higurashi-ai/Haru-4B",
       "task": "audio-to-audio",
-      "likes": 4090,
-      "downloads": 7323,
+      "likes": 812,
+      "downloads": 8120,
       "library": null,
       "createdAt": "2026-11-12T11:05:59.000Z",
       "url": "https://huggingface.co/higurashi-ai/Haru-4B",
-      "summary": "Haru-4B is a pretrained, research-release full-duplex speech dialogue model that listens and speaks simultaneously across several languages, with PyTorch and MLX implementations."
-    },
-    {
-      "id": "apple/FastFrames-L",
-      "task": "text-to-video",
-      "likes": 377,
-      "downloads": 0,
-      "library": null,
-      "createdAt": "2026-11-16T17:21:04.000Z",
-      "url": "https://huggingface.co/apple/FastFrames-L",
-      "summary": "FastFrames-L is a 14B autoregressive, two-step video diffusion model for interactive-latency 480p text-to-video generation, derived from Wan2.1-T2V-14B."
-    },
-    {
-      "id": "inworld/voice-isolator",
-      "task": "audio-to-audio",
-      "likes": 330,
-      "downloads": 0,
-      "library": "inworld-voice-isolation",
-      "createdAt": "2026-11-14T02:14:35.000Z",
-      "url": "https://huggingface.co/inworld/voice-isolator",
-      "summary": "Apache-2.0 48 kHz speech isolation model family that removes background noise from recordings and live audio, with offline and realtime variants."
+      "summary": "Pretrained research base model for low-latency, multilingual full-duplex spoken dialogue, listening and speaking simultaneously in speech-to-speech conversation."
     },
     {
       "id": "harness-hub/Qwen3.8-27B-pi-adapted",
       "task": "image-text-to-text",
-      "likes": 794,
-      "downloads": 1874,
+      "likes": 851,
+      "downloads": 2383,
       "library": "peft",
       "createdAt": "2026-11-16T06:52:31.000Z",
       "url": "https://huggingface.co/harness-hub/Qwen3.8-27B-pi-adapted",
-      "summary": "A LoRA adapter for Qwen3.8-27B, trained with reinforcement learning to serve as the model behind the pi coding agent on software-engineering and terminal tasks."
+      "summary": "A LoRA adapter for Qwen3.8-27B, RL-trained to power the pi coding agent on software-engineering and terminal tasks."
     },
     {
-      "id": "Qwen/Qwen3.8-27B",
+      "id": "Sentinel7/h3",
+      "task": null,
+      "likes": 667,
+      "downloads": 0,
+      "library": null,
+      "createdAt": "2026-08-06T04:13:52.000Z",
+      "url": "https://huggingface.co/Sentinel7/h3",
+      "summary": "Hugging Face repository with no model card or task metadata; its purpose and modality cannot be determined from the available information."
+    },
+    {
+      "id": "unsloth/Inkling-2-Mini-GGUF",
       "task": "image-text-to-text",
-      "likes": 20734,
-      "downloads": 6454419,
-      "library": "transformers",
-      "createdAt": "2026-08-05T08:22:59.000Z",
-      "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
-      "summary": "Qwen3.8-27B is a compact dense, post-trained vision-language model for image and video understanding, with switchable thinking control."
-    },
-    {
-      "id": "MiniMaxAI/MiniMax-H3-Image",
-      "task": "text-to-image",
-      "likes": 1670,
-      "downloads": 876986,
-      "library": "minimax-h3",
-      "createdAt": "2026-11-03T06:34:36.000Z",
-      "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3-Image",
-      "summary": "A diffusers-format model that generates and edits images from text and reference images, distilled to 6 sampling steps with no classifier-free guidance."
-    },
-    {
-      "id": "Lightricks/LTX-2.5",
-      "task": "image-to-video",
-      "likes": 12801,
-      "downloads": 2964523,
-      "library": "diffusion-single-file",
-      "createdAt": "2026-07-23T07:55:24.000Z",
-      "url": "https://huggingface.co/Lightricks/LTX-2.5",
-      "summary": "Lightricks LTX-2.5 is a single-file diffusion model for multimodal video generation, tagged for image, text, video, and audio-to-video and audio tasks."
-    },
-    {
-      "id": "chatrlabs/Qwen-Image-2.1-Uncensored-Omni-Quantized",
-      "task": "text-to-image",
-      "likes": 719,
-      "downloads": 309394,
-      "library": "diffusers",
-      "createdAt": "2026-11-03T16:13:25.000Z",
-      "url": "https://huggingface.co/chatrlabs/Qwen-Image-2.1-Uncensored-Omni-Quantized",
-      "summary": "Quantized transformer weights of Qwen-Image-2.1 with a merged Omni LoRA adapter, for text-to-image generation and image editing; the text encoder and VAE come from the base repo."
+      "likes": 415,
+      "downloads": 238152,
+      "library": null,
+      "createdAt": "2026-11-20T13:09:48.000Z",
+      "url": "https://huggingface.co/unsloth/Inkling-2-Mini-GGUF",
+      "summary": "GGUF quantized builds of Inkling-2-Mini, a multimodal text-and-image-to-text MoE model, for lower-memory local inference via Unsloth."
     },
     {
       "id": "tencent/Hy4-flash",
       "task": "image-text-to-text",
-      "likes": 488,
-      "downloads": 3949,
+      "likes": 563,
+      "downloads": 5588,
       "library": "transformers",
       "createdAt": "2026-11-17T03:44:46.000Z",
       "url": "https://huggingface.co/tencent/Hy4-flash",
-      "summary": "Hy4-flash is a 220B-total, 12B-active mixture-of-experts instruct model that takes text and image inputs, generates text, and supports a 1M-token context window."
+      "summary": "Hunyuan MoE multimodal model with 220B total and 12B active parameters, accepting text and image inputs, generating text, with a 1M-token context."
     },
     {
-      "id": "sensenova/SenseNova-Loop-9B",
-      "task": "image-text-to-text",
-      "likes": 406,
-      "downloads": 1631,
-      "library": "transformers",
-      "createdAt": "2026-11-17T10:16:41.000Z",
-      "url": "https://huggingface.co/sensenova/SenseNova-Loop-9B",
-      "summary": "SenseNova-Loop-9B is a multimodal text-generation model tagged as a looped-transformer that requires custom code; no further details are provided."
+      "id": "Lightricks/LTX-2.5",
+      "task": "image-to-video",
+      "likes": 12866,
+      "downloads": 3000544,
+      "library": "diffusion-single-file",
+      "createdAt": "2026-07-23T07:55:24.000Z",
+      "url": "https://huggingface.co/Lightricks/LTX-2.5",
+      "summary": "Single-file diffusion model for image-to-video generation; tags also indicate text-to-video, video-to-video, and audio tasks, but no model card text is provided."
+    },
+    {
+      "id": "inworld/voice-isolator",
+      "task": "audio-to-audio",
+      "likes": 520,
+      "downloads": 0,
+      "library": "inworld-voice-isolation",
+      "createdAt": "2026-11-14T02:14:35.000Z",
+      "url": "https://huggingface.co/inworld/voice-isolator",
+      "summary": "Apache-2.0 48 kHz voice isolation model that separates speech from noisy recordings and live audio, with a realtime streaming variant."
+    },
+    {
+      "id": "apple/FastFrames-L",
+      "task": "text-to-video",
+      "likes": 497,
+      "downloads": 0,
+      "library": null,
+      "createdAt": "2026-11-16T17:21:04.000Z",
+      "url": "https://huggingface.co/apple/FastFrames-L",
+      "summary": "14B autoregressive two-step video diffusion model from Apple, fine-tuned from Wan2.1-T2V-14B to generate 480p text-to-video at interactive latency."
+    },
+    {
+      "id": "meituan-longcat/LongCat-Video-Avatar-1.6",
+      "task": null,
+      "likes": 400,
+      "downloads": 3031,
+      "library": "longcat-video-avatar-1.6",
+      "createdAt": "2026-11-13T02:45:33.000Z",
+      "url": "https://huggingface.co/meituan-longcat/LongCat-Video-Avatar-1.6",
+      "summary": "Audio-driven human avatar video generation model from Meituan LongCat, producing long-form audio-conditioned videos with improved lip sync and inference speed."
     }
   ],
   "usage": {
@@ -108,139 +108,139 @@
     "url": "https://openrouter.ai/rankings",
     "models": [
       {
-        "slug": "tencent/hy4-flash-20261116",
-        "tokens": 69273358650121,
-        "requests": 574811522,
-        "rank": 1,
-        "name": "hy4-flash",
-        "org": "tencent",
-        "url": "https://openrouter.ai/tencent/hy4-flash"
-      },
-      {
         "slug": "deepseek/deepseek-v4.1-flash-20261017",
-        "tokens": 62241772045100,
-        "requests": 978771149,
-        "rank": 2,
+        "tokens": 62421933578171,
+        "requests": 968287992,
+        "rank": 1,
         "name": "deepseek-v4.1-flash",
         "org": "deepseek",
         "url": "https://openrouter.ai/deepseek/deepseek-v4.1-flash"
       },
       {
         "slug": "deepseek/deepseek-v4.1-flash-20260910",
-        "tokens": 15966750013220,
-        "requests": 495165416,
-        "rank": 3,
+        "tokens": 15649232878848,
+        "requests": 491843022,
+        "rank": 2,
         "name": "deepseek-v4.1-flash",
         "org": "deepseek",
         "url": "https://openrouter.ai/deepseek/deepseek-v4.1-flash"
       },
       {
-        "slug": "tencent/hy4-20261104",
-        "tokens": 11671866202519,
-        "requests": 87418570,
-        "rank": 4,
-        "name": "hy4",
-        "org": "tencent",
-        "url": "https://openrouter.ai/tencent/hy4"
-      },
-      {
         "slug": "z-ai/glm-5.3-flash-20260826",
-        "tokens": 10696484314965,
-        "requests": 359364322,
-        "rank": 5,
+        "tokens": 10783173152888,
+        "requests": 396778455,
+        "rank": 3,
         "name": "glm-5.3-flash",
         "org": "z-ai",
         "url": "https://openrouter.ai/z-ai/glm-5.3-flash"
       },
       {
         "slug": "openai/gpt-6-luna-20260922",
-        "tokens": 8957909818000,
-        "requests": 666799771,
-        "rank": 6,
+        "tokens": 8836239337641,
+        "requests": 668842746,
+        "rank": 4,
         "name": "gpt-6-luna",
         "org": "openai",
         "url": "https://openrouter.ai/openai/gpt-6-luna"
       },
       {
         "slug": "anthropic/claude-opus-5.5-20260921",
-        "tokens": 7533888473300,
-        "requests": 65733105,
-        "rank": 7,
+        "tokens": 7262250855263,
+        "requests": 64927114,
+        "rank": 5,
         "name": "claude-opus-5.5",
         "org": "anthropic",
         "url": "https://openrouter.ai/anthropic/claude-opus-5.5"
       },
       {
         "slug": "stepfun/step-5-preview-20261008",
-        "tokens": 5745047274983,
-        "requests": 22676964,
-        "rank": 8,
+        "tokens": 4800292258439,
+        "requests": 19042266,
+        "rank": 6,
         "name": "step-5-preview",
         "org": "stepfun",
         "url": "https://openrouter.ai/stepfun/step-5-preview"
       },
       {
-        "slug": "xiaomi/mimo-v2.6-flash-20260921",
-        "tokens": 4013072442315,
-        "requests": 56161918,
-        "rank": 9,
-        "name": "mimo-v2.6-flash",
-        "org": "xiaomi",
-        "url": "https://openrouter.ai/xiaomi/mimo-v2.6-flash"
-      },
-      {
         "slug": "minimax/minimax-m3.1-flash-20261019",
-        "tokens": 3915757751459,
-        "requests": 54257555,
-        "rank": 10,
+        "tokens": 4105125988199,
+        "requests": 55396965,
+        "rank": 7,
         "name": "minimax-m3.1-flash",
         "org": "minimax",
         "url": "https://openrouter.ai/minimax/minimax-m3.1-flash"
       },
       {
+        "slug": "xiaomi/mimo-v2.6-flash-20260921",
+        "tokens": 3911309670766,
+        "requests": 54902571,
+        "rank": 8,
+        "name": "mimo-v2.6-flash",
+        "org": "xiaomi",
+        "url": "https://openrouter.ai/xiaomi/mimo-v2.6-flash"
+      },
+      {
+        "slug": "nvidia/nemotron-3-ultra-550b-a55b-20260604",
+        "tokens": 3620922253031,
+        "requests": 44063171,
+        "rank": 9,
+        "name": "nemotron-3-ultra-550b-a55b",
+        "org": "nvidia",
+        "url": "https://openrouter.ai/nvidia/nemotron-3-ultra-550b-a55b"
+      },
+      {
         "slug": "moonshotai/kimi-k3.1-pro-20261023",
-        "tokens": 3554501895174,
-        "requests": 40573949,
-        "rank": 11,
+        "tokens": 3540180521327,
+        "requests": 37568156,
+        "rank": 10,
         "name": "kimi-k3.1-pro",
         "org": "moonshotai",
         "url": "https://openrouter.ai/moonshotai/kimi-k3.1-pro"
       },
       {
         "slug": "baidu/ernie-5.5-flash-preview-20261110",
-        "tokens": 3504353205492,
-        "requests": 26073210,
-        "rank": 12,
+        "tokens": 3500793416676,
+        "requests": 25814106,
+        "rank": 11,
         "name": "ernie-5.5-flash-preview",
         "org": "baidu",
         "url": "https://openrouter.ai/baidu/ernie-5.5-flash-preview"
       },
       {
-        "slug": "nvidia/nemotron-3-ultra-550b-a55b-20260604",
-        "tokens": 3474056192694,
-        "requests": 42532633,
-        "rank": 13,
-        "name": "nemotron-3-ultra-550b-a55b",
-        "org": "nvidia",
-        "url": "https://openrouter.ai/nvidia/nemotron-3-ultra-550b-a55b"
-      },
-      {
         "slug": "nvidia/nemotron-3.5-super-vl-20261015",
-        "tokens": 3427686039795,
-        "requests": 39515522,
-        "rank": 14,
+        "tokens": 3444891541940,
+        "requests": 39969882,
+        "rank": 12,
         "name": "nemotron-3.5-super-vl",
         "org": "nvidia",
         "url": "https://openrouter.ai/nvidia/nemotron-3.5-super-vl"
       },
       {
         "slug": "z-ai/glm-5.3-20260816",
-        "tokens": 3346798746952,
-        "requests": 82847276,
-        "rank": 15,
+        "tokens": 3390572780008,
+        "requests": 83105364,
+        "rank": 13,
         "name": "glm-5.3",
         "org": "z-ai",
         "url": "https://openrouter.ai/z-ai/glm-5.3"
+      },
+      {
+        "slug": "meta/muse-spark-1.3-contributor-20260902",
+        "tokens": 3051990977688,
+        "requests": 37251284,
+        "rank": 14,
+        "name": "muse-spark-1.3-contributor",
+        "org": "meta",
+        "url": "https://openrouter.ai/meta/muse-spark-1.3-contributor"
+      },
+      {
+        "slug": "typesafe/jev-1.13-20260917",
+        "tokens": 2928928802721,
+        "requests": 919616320,
+        "rank": 15,
+        "name": "jev-1.13",
+        "org": "typesafe",
+        "url": "https://openrouter.ai/typesafe/jev-1.13"
       }
     ]
   }

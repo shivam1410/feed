@@ -5,10 +5,10 @@ source: "The Hacker News"
 url: "https://thehackernews.com/2026/11/everything-is-web-application-including.html"
 authors: ["info@thehackernews.com (The Hacker News)"]
 date: "Thu, 19 Nov 2026 17:22:23 +0530"
-score: 65
+score: 25
 guid: "https://thehackernews.com/2026/11/everything-is-web-application-including.html"
 image: ""
-generated: "2026-11-20T19:04:50+05:30"
+generated: "2026-11-21T19:04:16+05:30"
 ---
 
 One of the early targets of PHP2Shell exploitation was the firewall. On October 28, Palo Alto Networks confirmed that attackers were exploiting the two PHP vulnerabilities, CVE-2026-109618 and CVE-2026-109619, against PAN-OS management interfaces exposed to the internet. Both flaws let anyone execute code on the web server without authentication. The disclosure itself went a little wrong.

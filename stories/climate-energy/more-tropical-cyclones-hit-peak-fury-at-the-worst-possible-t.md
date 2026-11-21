@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/d41586-026-03748-y"
 authors: []
 date: "2026-11-19"
-score: 75
+score: 70
 guid: "10.1038/d41586-026-03748-y"
 image: ""
-generated: "2026-11-20T19:04:50+05:30"
+generated: "2026-11-21T19:04:16+05:30"
 ---
 
-Hurricanes and typhoons are getting stronger right when they reach land. Climate change is creating conditions that pump up their intensity. The timing is the worst part, since the storms peak just as they hit the coast. That means the most dangerous winds and rain can arrive when people are most exposed. It's a sharp warning for coastal communities, who should take note of this trend.
+Tropical storms are getting stronger just as they reach land. Climate change is creating conditions that boost the intensity of hurricanes and typhoons. The timing is the worst possible, because the storms arrive at coasts near full force. Coastal communities face the strongest storms exactly when they hit.

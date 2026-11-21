@@ -8,7 +8,7 @@ date: "Tue, 10 Nov 2026 06:34:44 GMT"
 score: 100
 guid: "urn:latent-space:post:post_df4afb4d-ec92-48c2-a5a9-92147e7325c8"
 image: ""
-generated: "2026-11-20T19:04:50+05:30"
+generated: "2026-11-21T19:04:16+05:30"
 ---
 
-Anthropic's Fable 5.2 has retaken the top spot among language models. Its per-token price fell about 20%, from $10 and $50 per million tokens to $8 and $40. It also checks its work far more, so cost per task on SemiAnalysis's GDPx benchmark rose from $67.16 to $88.15. It took first place there with 16.4%. Anthropic says Fable at High effort matched Opus 5.5 at Max for about half the cost per task on FrontierCode 2.0. A cheaper token price does not mean a cheaper task, so effort settings matter.
+Anthropic shipped Claude Fable 5.2 and Mythos 5.2, which take back the top spot in the rankings. The price fell 20%, to $8 per million input tokens and $40 per million output tokens. But Fable spends more tokens. On SemiAnalysis's GDPx test, it ranked first at 16.4%, while cost per task rose from $67.16 to $88.15. It often wrote hundreds of test cases and spun up subagents to check its work. Fable at High matched Opus 5.5 at Max for about half the cost per task.

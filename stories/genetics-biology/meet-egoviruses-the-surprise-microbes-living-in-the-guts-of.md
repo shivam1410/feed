@@ -8,7 +8,7 @@ date: "2026-11-18"
 score: 40
 guid: "10.1038/d41586-026-03766-w"
 image: ""
-generated: "2026-11-20T19:04:50+05:30"
+generated: "2026-11-21T19:04:16+05:30"
 ---
 
 Egoviruses could be the evolutionary missing link between giant viruses that infect single-celled organisms and those that can infect people.

@@ -5,10 +5,10 @@ source: "The Hacker News"
 url: "https://thehackernews.com/2026/11/weekly-recap-n-able-0-days-windows-0.html"
 authors: ["info@thehackernews.com (The Hacker News)"]
 date: "Mon, 16 Nov 2026 18:57:20 +0530"
-score: 35
+score: 20
 guid: "https://thehackernews.com/2026/11/weekly-recap-n-able-0-days-windows-0.html"
 image: ""
-generated: "2026-11-20T19:04:50+05:30"
+generated: "2026-11-21T19:04:16+05:30"
 ---
 
 A default password opened doors it never should have. A trusted update delivered malware. Even a security feature became a way to break in. Different stories, same problem: the things meant to protect us aren't always doing their job. Meanwhile, AI is making bug hunting faster, old flaws are still paying off, and attackers keep finding easy ways in. Some attacks take real skill. Others barely

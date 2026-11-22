@@ -5,10 +5,10 @@ source: "HF Trending Papers"
 url: "https://huggingface.co/papers/2611.26286"
 authors: ["Ilya Gusev"]
 date: "2026-11-18T19:00:00.000Z"
-score: 45
+score: 40
 guid: "2611.26286"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.26286.png"
-generated: "2026-11-21T19:04:16+05:30"
+generated: "2026-11-22T19:48:55+05:30"
 ---
 
-Peer reviews are repeating each other more. Critique overlap is rising across reviews. Reviews identified as LLM-generated are less distinct from one another. So the variety of critiques is shrinking. It matters because peer review depends on independent viewpoints to catch problems.
+Critique overlap among peer reviews is rising, and reviews identified as LLM-generated are less distinct from each other, indicating decreasing diversity of critiques.

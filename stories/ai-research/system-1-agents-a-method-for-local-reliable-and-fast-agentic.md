@@ -8,7 +8,7 @@ date: "2026-11-15T19:00:00.000Z"
 score: 60
 guid: "2611.21053"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.21053.png"
-generated: "2026-11-21T19:04:16+05:30"
+generated: "2026-11-22T19:48:55+05:30"
 ---
 
 A local System 1 agent framework compiles tool schemas and requests into multiple-choice questions answered by a one-pass decision model, enabling accurate biomedical tool calls without text generation or invented content.

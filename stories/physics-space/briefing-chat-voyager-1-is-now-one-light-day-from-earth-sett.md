@@ -8,7 +8,7 @@ date: "2026-11-20"
 score: 60
 guid: "10.1038/d41586-026-03806-5"
 image: ""
-generated: "2026-11-21T19:04:16+05:30"
+generated: "2026-11-22T19:48:55+05:30"
 ---
 
-Voyager 1 is now a light day away from Earth, a new cosmic record. Nature's staff talk through the probe's epic journey in this briefing chat. The same episode also covers how vampire bats survive on a blood-only diet. It is a fun mix of deep space and an unusual animal.
+Voyager 1 is now one light day from Earth, setting a new cosmic distance record. This Nature chat covers the probe's long journey. It also looks at how vampire bats survive on a diet of blood alone.

@@ -5,10 +5,10 @@ source: "DeepMind"
 url: "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/alphagenome-atlas/"
 authors: ["Pushmeet Kohli", "Žiga Avsec"]
 date: "Tue, 08 Sep 2026 14:00:00 +0000"
-score: 80
+score: 70
 guid: "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/alphagenome-atlas/"
 image: "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AlphaGenome_Atlas_herosocial.max-600x600.format-webp.webp"
-generated: "2026-11-21T19:04:16+05:30"
+generated: "2026-11-22T19:48:55+05:30"
 ---
 
-DeepMind has launched AlphaGenome Atlas, a database of DNA predictions. It estimates the effect of every possible single-letter change in the human genome. The source gives no numbers. It matters because it maps which tiny DNA changes might matter.
+DeepMind has introduced AlphaGenome Atlas, a database. It predicts the effect of every possible single nucleotide variant in the human genome. That means every single-letter change in human DNA. Researchers can use it to screen which DNA changes might matter.

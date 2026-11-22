@@ -8,7 +8,7 @@ date: "2026-11-18T19:00:00.000Z"
 score: 35
 guid: "2611.26444"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.26444.png"
-generated: "2026-11-21T19:04:16+05:30"
+generated: "2026-11-22T19:48:55+05:30"
 ---
 
 A diagnostic benchmark of 180 simulated manipulation configurations evaluates whether embodied systems can combine history-based reasoning, precise execution, and closed-loop environmental feedback, revealing that single-view competence does not transfer to composed tasks.

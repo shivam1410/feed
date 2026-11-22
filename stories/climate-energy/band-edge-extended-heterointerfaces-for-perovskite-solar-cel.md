@@ -8,7 +8,7 @@ date: "2026-11-18"
 score: 40
 guid: "10.1038/s41586-026-11427-1"
 image: ""
-generated: "2026-11-21T19:04:16+05:30"
+generated: "2026-11-22T19:48:55+05:30"
 ---
 
 Band-Edge-Extended Heterointerfaces for Perovskite Solar Cells and Tandems

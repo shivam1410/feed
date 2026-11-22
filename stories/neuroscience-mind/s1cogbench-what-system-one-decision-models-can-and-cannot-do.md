@@ -8,7 +8,7 @@ date: "2026-11-13T19:00:00.000Z"
 score: 40
 guid: "2611.00911"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.00911.png"
-generated: "2026-11-21T19:04:16+05:30"
+generated: "2026-11-22T19:48:55+05:30"
 ---
 
 S1CogBench evaluates System One decision models on 24 cognitive tasks, revealing that fast decisions often lack evidence-based reasoning and vary widely in reliability.

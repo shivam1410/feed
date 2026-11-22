@@ -8,7 +8,7 @@ date: "Tue, 10 Nov 2026 06:34:44 GMT"
 score: 100
 guid: "urn:latent-space:post:post_df4afb4d-ec92-48c2-a5a9-92147e7325c8"
 image: ""
-generated: "2026-11-21T19:04:16+05:30"
+generated: "2026-11-22T19:48:55+05:30"
 ---
 
-Anthropic shipped Claude Fable 5.2 and Mythos 5.2, which take back the top spot in the rankings. The price fell 20%, to $8 per million input tokens and $40 per million output tokens. But Fable spends more tokens. On SemiAnalysis's GDPx test, it ranked first at 16.4%, while cost per task rose from $67.16 to $88.15. It often wrote hundreds of test cases and spun up subagents to check its work. Fable at High matched Opus 5.5 at Max for about half the cost per task.
+Anthropic just released Claude Fable 5.2, and it now takes the top spot. The price per token fell 20%, to $8 for input and $40 for output per million tokens. But the model uses far more tokens. On a professional task benchmark, the cost per task rose from $67.16 to $88.15. It often wrote hundreds of test cases and spun up subagents to check its work. Anthropic says Fable at High effort matched Opus 5.5 at Max for about half the cost per task. Why it matters: a lower sticker price can still mean a bigger bill.

@@ -5,10 +5,10 @@ source: "Schneier on Security"
 url: "https://www.schneier.com/blog/archives/2026/11/formal-verification-of-the-signal-protocol-using-ai.html"
 authors: ["Bruce Schneier"]
 date: "2026-11-17T12:06:37Z"
-score: 80
+score: 70
 guid: "https://www.schneier.com/?p=72949"
 image: ""
-generated: "2026-11-20T19:04:50+05:30"
+generated: "2026-11-22T19:48:55+05:30"
 ---
 
-Google DeepMind used agentic AI to formally verify key cryptographic guarantees of the Signal protocol. The proof-of-concept took four weeks, using a new framework called AlphaProof Code. Formal verification means mathematically proving that a design works. The result independently validates the cryptography behind Signal, Google Messages, and WhatsApp. It also shows AI can do serious formal verification work.
+This seems like a good thing: Google Deepmind researchers used agentic AI to mathematically prove, or “formally verify,” a number of the Signal protocol’s key cryptographic guarantees­a landmark development for the widely used cryptography and AI itself. Conducted as a sort of proof-of-concept project in just four weeks, the work is significant in two ways. It serves as further independent validation of the cryptography that protects massive quantities of the world’s communications on platforms like the Signal app, Google Messages, and WhatsApp. And it demonstrates Google DeepMind’s formal verification capabilities using a new AI framework called AlphaProof Code...

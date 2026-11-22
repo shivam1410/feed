@@ -5,10 +5,10 @@ source: "The Hacker News"
 url: "https://thehackernews.com/2026/11/gnupg-warns-critical-gpgme-flaw-could.html"
 authors: ["info@thehackernews.com (The Hacker News)"]
 date: "Sat, 21 Nov 2026 16:35:53 +0530"
-score: 35
+score: 40
 guid: "https://thehackernews.com/2026/11/gnupg-warns-critical-gpgme-flaw-could.html"
 image: ""
-generated: "2026-11-21T19:04:16+05:30"
+generated: "2026-11-22T19:48:55+05:30"
 ---
 
 A malicious OpenPGP key with an unusually long user ID can trigger a critical memory bug in GPGME, the standard library that programs use to work with GnuPG. The GnuPG project warned yesterday that the flaw could be used to steal data from affected applications and has released fixed versions. The bug, tracked as CVE-2026-129975, affects all software that uses GPGME before version 2.3.0,

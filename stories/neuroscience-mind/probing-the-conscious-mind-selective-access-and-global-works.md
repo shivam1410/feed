@@ -5,10 +5,10 @@ source: "HF Trending Papers"
 url: "https://huggingface.co/papers/2611.26590"
 authors: ["Jiahao Huang", "Jun Wang"]
 date: "2026-11-18T19:00:00.000Z"
-score: 50
+score: 45
 guid: "2611.26590"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.26590.png"
-generated: "2026-11-21T19:04:16+05:30"
+generated: "2026-11-22T19:48:55+05:30"
 ---
 
-This paper uses global workspace theory to study how vision-language models handle concepts. The team built MC-Lens, a multimodal Jacobian lens that maps intermediate states to readable concepts. Concepts can be read in intermediate states and are selectively accessed as tasks require. Counterfactual experiments show accessed concepts feed into later computation. It matters because it shows how these models use what they see internally.
+Researchers built MC-Lens, a tool for looking inside vision-language models. It reads concepts from the model's intermediate layers in a shared space. Counterfactual tests show those accessed concepts feed into later reasoning. Their new J-space metrics track cross-modal alignment more clearly than hidden state cosine. That gives a clearer view of what the model actually uses.

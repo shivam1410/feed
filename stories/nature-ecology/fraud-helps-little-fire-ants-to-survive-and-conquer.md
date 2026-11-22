@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/d41586-026-03776-8"
 authors: []
 date: "2026-11-20"
-score: 45
+score: 50
 guid: "10.1038/d41586-026-03776-8"
 image: ""
-generated: "2026-11-21T19:04:16+05:30"
+generated: "2026-11-22T19:48:55+05:30"
 ---
 
-Invasive little fire ants in China beat much larger rivals using a sneaky trick. The title calls it fraud, and the ants also attack with real vigour. The text doesn't say more about how the trick works. It shows how a small invader can outcompete bigger species.
+Invasive little fire ants in China beat larger rivals with a crafty stratagem. They win through vigorous attacks, the article reports. Their tactics help them survive and take over new ground.

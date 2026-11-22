@@ -8,7 +8,7 @@ date: "2026-11-18T19:00:00.000Z"
 score: 40
 guid: "2611.26414"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.26414.png"
-generated: "2026-11-21T19:04:16+05:30"
+generated: "2026-11-22T19:48:55+05:30"
 ---
 
-ZeroVLN is a slow-fast vision-language navigation framework that avoids navigation-domain supervised fine-tuning of the VLM brain by using a semantic tool-calling interface and closed-loop reinforcement learning to coordinate a language-based brain with an action expert, improving VLN-CE performance while preserving general visual capabilities.
+ZeroVLN teaches a robot to navigate by instructions without fine-tuning the vision-language model's brain. A language-based brain calls tools through a semantic interface. A separate action expert carries out the moves. Closed-loop reinforcement learning keeps them coordinated. It improves VLN-CE performance while keeping general visual skills intact.

@@ -5,10 +5,10 @@ source: "Simon Willison"
 url: "https://simonwillison.net/2026/Nov/17/go-proverbs/"
 authors: []
 date: "2026-11-17T06:16:26+00:00"
-score: 5
+score: 3
 guid: "https://simonwillison.net/2026/Nov/17/go-proverbs/"
 image: ""
-generated: "2026-11-21T19:04:16+05:30"
+generated: "2026-11-22T19:48:55+05:30"
 ---
 
 A little copying is better than a little dependency. — Go Proverbs , via Tags: go , programming

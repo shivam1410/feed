@@ -8,7 +8,7 @@ date: "2026-11-18T19:00:00.000Z"
 score: 30
 guid: "2611.25980"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.25980.png"
-generated: "2026-11-21T19:04:16+05:30"
+generated: "2026-11-22T19:48:55+05:30"
 ---
 
 AFFECT, an auxiliary objective that trains world models to match visual responses to temporally correlated action noise, improves rollout fidelity and planning success in simulated and real robotic tasks.

@@ -8,7 +8,7 @@ date: "Wed, 18 Nov 2026 10:19:04 GMT"
 score: 80
 guid: "urn:latent-space:post:post_8e49a725-4572-4981-9894-4fbf63aed272"
 image: ""
-generated: "2026-11-22T19:48:55+05:30"
+generated: "2026-11-23T19:04:08+05:30"
 ---
 
-OpenAI just shipped GPT-6.2 Astra and Sol. Astra scores 62 on the Intelligence Index, just behind Anthropic's Fable 5.2 at 65. Artificial Analysis says Sol ties September's Astra at about 15% of the cost per task. Reviews are mixed, and the newsletter notes odd training artifacts in the models. Anthropic still has the top model, but OpenAI leads on intelligence per dollar. Why it matters: cheaper capable models change what teams can afford to run.
+OpenAI released GPT-6.2 Astra and Sol, and early reactions are mixed. Astra scores 62 on the Intelligence Index, just behind Anthropic's Fable 5.2 at 65. Its price is $8 per million input tokens and $40 per million output tokens. Sol matches the earlier Astra's score at about 15% of the cost per task. Some criticism was harsh, but the newsletter still uses it daily to automate work. OpenAI is selling efficiency here.

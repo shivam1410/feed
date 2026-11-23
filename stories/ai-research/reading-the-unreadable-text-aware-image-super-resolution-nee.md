@@ -1,0 +1,14 @@
+---
+title: "Reading the Unreadable: Text-Aware Image Super-Resolution Needs Reasoning"
+category: "AI Research"
+source: "HF Trending Papers"
+url: "https://huggingface.co/papers/2611.15449"
+authors: ["Jaeseong Lee", "Jinwoo Kim", "Jinho Jeong", "Seon Joo Kim"]
+date: "2026-11-10T19:00:00.000Z"
+score: 35
+guid: "2611.15449"
+image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.15449.png"
+generated: "2026-11-23T19:04:08+05:30"
+---
+
+Text-aware image super-resolution (TAISR) aims to recover high-resolution images from low-resolution inputs while preserving textual content. Existing methods treat this as a visual restoration problem, yet severely degraded text often cannot be read from local visual evidence alone. Humans instead read it by reasoning over image context, logical patterns, and prior knowledge. This raises a fundamental question: Does TAISR need reasoning? To answer this, we introduce two diagnostic tools. The first, ReasonText, is a human-curated benchmark that separates reasoning-required text from locally recoverable text. The second, Ground-Truth Text-Crop Accuracy (GTTCA), is a recognition-based metric that measures text restoration quality without text detection errors. Evaluating twelve recent super-resolution (SR) models, we find a consistent and substantial performance drop on reasoning-required text, revealing a systematic blind spot. Two observations point to a remedy. One is that text-conditioned SR models restore text substantially better when given ground-truth text. The other is that multimodal large language models (MLLMs) can read degraded text in low-resolution images through reasoning. We therefore propose Reasoning Transfer via Captioning (RTC), a training-free plug-in that uses an external MLLM to infer the degraded text and feeds the resulting caption to a text-conditioned SR model. RTC consistently improves all six text-conditioned SR models we evaluate, especially on reasoning-required text. Surprisingly, a real-world SR model with RTC can even outperform the TAISR model with RTC, suggesting that reasoning should be a core design axis for future TAISR.

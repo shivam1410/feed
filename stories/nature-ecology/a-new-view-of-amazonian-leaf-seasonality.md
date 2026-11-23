@@ -8,7 +8,7 @@ date: "2026-11-18"
 score: 50
 guid: "10.1038/d41586-026-03490-5"
 image: ""
-generated: "2026-11-22T19:48:55+05:30"
+generated: "2026-11-23T19:04:08+05:30"
 ---
 
-Much of the Amazon rainforest was thought to be evergreen, but high-resolution satellite imagery reveals that many of its trees can remain leafless for longer than expected.
+Many Amazon trees stay leafless for longer than scientists expected. Much of the rainforest was assumed to be evergreen. High-resolution satellite imagery revealed the difference. The finding challenges the idea that the forest stays green all year.

@@ -5,10 +5,10 @@ source: "The Hacker News"
 url: "https://thehackernews.com/2026/11/php-fixes-7-critical-flaws-including.html"
 authors: ["info@thehackernews.com (The Hacker News)"]
 date: "Thu, 19 Nov 2026 20:48:07 +0530"
-score: 55
+score: 58
 guid: "https://thehackernews.com/2026/11/php-fixes-7-critical-flaws-including.html"
 image: ""
-generated: "2026-11-22T19:48:55+05:30"
+generated: "2026-11-23T19:04:08+05:30"
 ---
 
 The PHP Foundation has released security updates to address multiple critical security flaws that could be exploited to achieve remote code execution on affected deployments, including CVE-2026-115560. The release of the patch follows an advance notice in which the project maintainers alerted users to multiple critical vulnerabilities affecting all supported PHP versions under specific

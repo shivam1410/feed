@@ -5,10 +5,10 @@ source: "The Hacker News"
 url: "https://thehackernews.com/2026/11/openrouter-drops-3-providers-after.html"
 authors: ["info@thehackernews.com (The Hacker News)"]
 date: "Sun, 22 Nov 2026 10:36:55 +0530"
-score: 72
+score: 50
 guid: "https://thehackernews.com/2026/11/openrouter-drops-3-providers-after.html"
 image: ""
-generated: "2026-11-22T19:48:55+05:30"
+generated: "2026-11-23T19:04:08+05:30"
 ---
 
-Attackers stole prompts from inside three AI inference providers for months. None of the three knew until researchers at the security firm Dragos told them. Some stolen requests were flagged Zero Data Retention, a setting meant to mean prompts are never stored. OpenRouter, a gateway that routes customer requests to a pool of providers, has dropped the three. Why it matters: a no-storage setting did not protect those prompts.
+Attackers stole data from inside three AI inference providers for months, and none of the three knew until researchers told them, the industrial cybersecurity company Dragos said this week. Some of the stolen requests were flagged as Zero Data Retention, the setting that is supposed to mean a prompt is never stored. OpenRouter, a gateway that routes customers' AI requests to a pool of

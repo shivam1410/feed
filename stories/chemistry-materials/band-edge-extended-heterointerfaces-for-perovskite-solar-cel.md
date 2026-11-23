@@ -8,7 +8,7 @@ date: "2026-11-18"
 score: 35
 guid: "10.1038/s41586-026-11427-1"
 image: ""
-generated: "2026-11-20T19:04:50+05:30"
+generated: "2026-11-23T19:04:08+05:30"
 ---
 
-This is research on perovskite solar cells and tandem cells, built around band-edge-extended heterointerfaces. The text available is only the title, so no results are described.
+The source gives only a title, so there are no findings to report. It covers band-edge-extended heterointerfaces for perovskite solar cells and tandem designs. Read the full paper for results.

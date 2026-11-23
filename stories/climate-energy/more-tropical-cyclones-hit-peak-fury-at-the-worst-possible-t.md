@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/d41586-026-03748-y"
 authors: []
 date: "2026-11-19"
-score: 75
+score: 60
 guid: "10.1038/d41586-026-03748-y"
 image: ""
-generated: "2026-11-22T19:48:55+05:30"
+generated: "2026-11-23T19:04:08+05:30"
 ---
 
-Climate change is pumping up the intensity of tropical cyclones. Hurricanes and typhoons are growing fiercer just as they reach the coast. That timing makes their peak fury especially dangerous.
+Storms are reaching the coast at their most intense. Climate change is creating conditions that pump up the strength of hurricanes and typhoons. This timing is the worst possible for people on land. The article is short, so it gives no numbers on how many storms are affected or by how much.

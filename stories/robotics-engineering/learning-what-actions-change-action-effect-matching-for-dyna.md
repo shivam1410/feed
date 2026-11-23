@@ -5,10 +5,10 @@ source: "HF Trending Papers"
 url: "https://huggingface.co/papers/2611.25980"
 authors: ["John Won", "Yonghoon Dong", "Jinwoo Shin"]
 date: "2026-11-18T19:00:00.000Z"
-score: 30
+score: 40
 guid: "2611.25980"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.25980.png"
-generated: "2026-11-22T19:48:55+05:30"
+generated: "2026-11-23T19:04:08+05:30"
 ---
 
 AFFECT, an auxiliary objective that trains world models to match visual responses to temporally correlated action noise, improves rollout fidelity and planning success in simulated and real robotic tasks.

@@ -5,10 +5,10 @@ source: "The Hacker News"
 url: "https://thehackernews.com/2026/11/romulus-clickfix-attacks-deliver-rat.html"
 authors: ["info@thehackernews.com (The Hacker News)"]
 date: "Fri, 20 Nov 2026 12:41:39 +0530"
-score: 35
+score: 45
 guid: "https://thehackernews.com/2026/11/romulus-clickfix-attacks-deliver-rat.html"
 image: ""
-generated: "2026-11-22T19:48:55+05:30"
+generated: "2026-11-23T19:04:08+05:30"
 ---
 
 Threat actors have been observed using the ROMULUS ClickFix malware delivery platform to deliver a previously undocumented remote access trojan (RAT) that shares similarities with CNCMachineRMS. "ROMULUS likely operates as a delivery service, distributing CNCMachineRMS and Legion Loader through separate chains while retaining ClickFix and signed binary sideloading techniques," Blackpoint

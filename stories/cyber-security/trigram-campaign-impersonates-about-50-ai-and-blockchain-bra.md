@@ -8,7 +8,7 @@ date: "Tue, 17 Nov 2026 20:47:28 +0530"
 score: 40
 guid: "https://thehackernews.com/2026/11/trigram-campaign-impersonates-about-50.html"
 image: ""
-generated: "2026-11-22T19:48:55+05:30"
+generated: "2026-11-23T19:04:08+05:30"
 ---
 
 Artificial intelligence (AI), blockchain, and logistics sectors across Europe and the U.S. have emerged as the target of a large-scale, industrialized campaign dubbed Trigram. "Trigram is a large-scale campaign that impersonates about 50 brands in the blockchain and AI sectors, to trick developers into executing an infostealer themselves," Stormshield said in a deep-dive technical report

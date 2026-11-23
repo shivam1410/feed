@@ -8,7 +8,7 @@ date: "2026-11-19"
 score: 35
 guid: "10.1038/d41586-026-03797-3"
 image: ""
-generated: "2026-11-21T19:04:16+05:30"
+generated: "2026-11-23T19:04:08+05:30"
 ---
 
 Fossil teeth suggest that Homo erectus could live in a habitat researchers thought that only Homo sapiens could hack. Plus, what experts think remains underappreciated in neuroscience and tips on networking at a conference.

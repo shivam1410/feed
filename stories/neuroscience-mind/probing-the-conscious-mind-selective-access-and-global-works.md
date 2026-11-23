@@ -5,10 +5,10 @@ source: "HF Trending Papers"
 url: "https://huggingface.co/papers/2611.26590"
 authors: ["Jiahao Huang", "Jun Wang"]
 date: "2026-11-18T19:00:00.000Z"
-score: 45
+score: 55
 guid: "2611.26590"
 image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.26590.png"
-generated: "2026-11-22T19:48:55+05:30"
+generated: "2026-11-23T19:04:08+05:30"
 ---
 
-Researchers built MC-Lens, a tool for looking inside vision-language models. It reads concepts from the model's intermediate layers in a shared space. Counterfactual tests show those accessed concepts feed into later reasoning. Their new J-space metrics track cross-modal alignment more clearly than hidden state cosine. That gives a clearer view of what the model actually uses.
+Researchers built a lens to look inside vision-language models. The tool, MC-Lens, maps internal states into the model's own output vocabulary. Concepts are readable mid-computation and selectively accessed as tasks demand. Counterfactual tests show those accessed concepts feed into later reasoning. The team also tracks how cross-modal alignment develops during training.

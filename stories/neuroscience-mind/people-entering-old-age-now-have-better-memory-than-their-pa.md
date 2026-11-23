@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/d41586-026-03783-9"
 authors: ["Miryam Naddaf"]
 date: "2026-11-19"
-score: 60
+score: 45
 guid: "10.1038/d41586-026-03783-9"
 image: ""
-generated: "2026-11-22T19:48:55+05:30"
+generated: "2026-11-23T19:04:08+05:30"
 ---
 
-People reaching old age now keep their memory working for longer than previous generations did. A study of 219,000 adults found this pattern. It suggests that memory in later life is improving across generations.
+Today's older adults keep their memory working for longer than earlier generations did. A study of 219,000 adults found this pattern. The group is very large, which gives the result weight. The text does not say which memory tests were used or how big the difference is between generations.

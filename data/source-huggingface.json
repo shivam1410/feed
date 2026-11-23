@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-22T19:48:55+05:30",
+  "generatedAt": "2026-11-23T19:04:08+05:30",
   "items": [
     {
       "guid": "2611.21885",
@@ -22,8 +22,86 @@
       "summary": "Language models are trained once, frozen and deployed: improving one again takes another training run, and a prompt, a scaffold or extra computation at inference is gone once the task ends. A frontier model has been shown to edit the weights of a much smaller one. We ask whether a model can rewrite its own weights to make itself better, and find that it can, by its own reasoning, with no gradients and no training; we call this self-rewriting. Given its weights, graded answers and the ability to run itself, a 27B model diagnoses its failure and edits the weights behind it. It surpasses itself: its own edit makes it 6.6 points more accurate on 490 problems it never saw, in a test fixed in advance, and another session's edit also makes it significantly better. It keeps getting better: it submits an edit only when its own tests support it, each edit replacing the last, and over its first eight such sessions its accuracy only rises. Unlike test-time scaling, the gain persists in its weights and adds no cost per answer; unlike training, it needs no pre- or post-training infrastructure, only an open model and hours on one GPU. It repairs a damaged copy of itself: it locates the corrupted matrix and rewrites it with values of its own, never reading the undamaged weights; found on text math problems alone, the repair lifts the copy on six image benchmarks it never saw from 7% to 70% accuracy, 83% of the undamaged model's. And the ability emerges with scale: across four sizes of one family, the 2B model makes no edit and the 4B and 9B models break themselves; only the 27B model works on itself as a human would, comparing its hidden states on answers that finish and on answers that run out of tokens, weakening the direction that separates them. Like a human, a model need not separate training from inference; improving a language model may come to take a conversation rather than a training run.",
       "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.21885.png",
       "source": "HF Trending Papers",
-      "extra": "▲ 11",
-      "score": 65,
+      "extra": "▲ 20",
+      "score": 75,
+      "category": "AI Research"
+    },
+    {
+      "guid": "2611.24025",
+      "title": "Intent Contracts: Taking Tools Away from Agents",
+      "link": "https://huggingface.co/papers/2611.24025",
+      "authors": [
+        "Ziyuan Wang",
+        "Genliang Zhu",
+        "Xiaobo Chen",
+        "Chu Wang"
+      ],
+      "date": "2026-11-17T19:00:00.000Z",
+      "summary": "Intent contracts, in which a planner submits logged contracts and a trusted model writes tool calls, do not reduce unauthorized actions and match blind review, but complete more benign over-reach tasks than an intent-visible reviewer.",
+      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.24025.png",
+      "source": "HF Trending Papers",
+      "extra": "▲ 2",
+      "score": 74,
+      "category": "AI Research"
+    },
+    {
+      "guid": "2611.25252",
+      "title": "Moving Generality from Model to Modeler: LLM Agents for PHM on a Deployment-Style Benchmark",
+      "link": "https://huggingface.co/papers/2611.25252",
+      "authors": [
+        "Zhenling Chen",
+        "Zhiguo Zeng",
+        "Anne Barros"
+      ],
+      "date": "2026-11-17T19:00:00.000Z",
+      "summary": "Coding agents built on large language models (LLMs) now help develop many models published as general solutions. Should generality instead reside in the agent that builds a model for each new task? We examine this question in prognostics and health management (PHM), where every model must work on unseen equipment. Our deployment-style benchmark, NextUnit-Bench, covers 24 public datasets split into 58 folds that hold out units or operating conditions; each agent has two hours to deliver an executable predictor, then run on the hidden units. First, frontier agents outperform AutoML, which reaches less than half the best agent's score, and faithful implementations of published methods on four datasets, of which only 6 of 30 beat the strongest agent's own design; published accuracies, where reproducible, rest on the papers' own conventions, and a single convention, capping the remaining life of test engines, can halve the reported error. Second, the agents' advantage is a design made on each machine's data; once made, a plain-text plan of a few hundred words carries most of the gap between two frontier agents, and given a weaker agent's plan, the strongest agent falls to that agent's level, often to identical predictions. Before touching the data, however, it matters little whose plan an agent carries out, and domain toolkits appear to help neither: what sets the strongest apart is how much it learns from the data. Third, such designs reach only implementers that can execute them: given the strongest agent's designs, a locally deployable open-weight model delivers half as often, even when they are lightened, and scores no higher than without them. Generality, we argue, is not disappearing but moving, from the model to the modeler.",
+      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.25252.png",
+      "source": "HF Trending Papers",
+      "extra": "▲ 3",
+      "score": 68,
+      "category": "AI Research"
+    },
+    {
+      "guid": "2611.26613",
+      "title": "AgentRoboCritic: Understanding the Capability of Frontier Agents on Direct Robot Control",
+      "link": "https://huggingface.co/papers/2611.26613",
+      "authors": [
+        "Yiyang Du",
+        "Yuxuan Kuang",
+        "Qitao Zhao",
+        "Yixuan Wang",
+        "Zhanqiu Guo",
+        "Yi Xu",
+        "Xin Li",
+        "Wenbin He",
+        "Liu Ren",
+        "Chenyan Xiong"
+      ],
+      "date": "2026-11-18T19:00:00.000Z",
+      "summary": "Frontier multimodal language agents such as GPT-6 Astra have demonstrated strong capabilities in controlling robots directly via low-level numerical actions without high-level primitives. However, existing benchmarks report only episode-level success rates, which show neither how these agents succeed nor where they fail. In this paper, we present a systematic action-level analysis of frontier agents on direct robot control across 12 manipulation benchmarks. We introduce AgentRoboCritic, an intent-grounded critique framework in which the policy agent states a local intent alongside each action, and a critic evaluates the action's outcome and failure mode against this intent. Our action-level analysis demonstrates the promising capabilities of frontier agents on direct robot control, including closed-loop recovery from local execution failures, reliable semantic grounding across diverse scenes, and strong zero-shot manipulation without task-specific adaptation. It also identifies their current limitations, including task-relevant physical execution bottlenecks such as grasping and alignment, and uneven recovery across failure modes. Finally, we validate our critic on a 400-action human-annotated benchmark and release a dataset of 12,844 annotated actions alongside a fine-tuned open-source critic, Muse-Glimmer-30B, whose failure-mode accuracy rises from 32.58% to 74.24%, enabling low-cost action-level analysis.",
+      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.26613.png",
+      "source": "HF Trending Papers",
+      "extra": "▲ 4",
+      "score": 68,
+      "category": "Robotics & Engineering"
+    },
+    {
+      "guid": "2611.27973",
+      "title": "MemOnce: A Scalable Memory Architecture for Large Language Models",
+      "link": "https://huggingface.co/papers/2611.27973",
+      "authors": [
+        "Chang Nie",
+        "Chaoyou Fu",
+        "Songlin Liu",
+        "Yiqing Hu",
+        "Caifeng Shan"
+      ],
+      "date": "2026-11-19T19:00:00.000Z",
+      "summary": "Deploying large language models (LLMs) in long-horizon and continual interactions requires maintaining reusable memory states for future inference, posing challenges for existing architectures. Standard Transformers accumulate layer-wise, token-level KV caches, incurring linear GPU memory growth and quadratic computational complexity as the context expands. In contrast, linear-time architectures compress history into fixed-size states, but struggle to retain fine-grained details. We introduce MemOnce, a foundation architecture that learns scalable memory states for language models. MemOnce is based on two core designs: (a) Memory encoder-decoder: it caches only a small subset of final-layer hidden states as compact memory representations and dynamically decodes them back into KV caches for attention layers; (b) Memory sparse attention: for each continual input, MemOnce adaptively retrieves relevant memory representations, with the sparse indices computed only once across layers. Coupling these two designs enables efficient on-the-fly memory loading and KV cache decoding, drastically reducing the GPU memory footprint and achieving linear-time complexity. We conduct extensive experiments to show that MemOnce outperforms Transformers and other architectures across varying model sizes, context lengths, and training paradigms (pretraining and post-training adaptation). In particular, adapting Qwen3.5-4B with MemOnce reduces memory state cache by 1313times and prefill latency by 6.9times at 1M context, and improves throughput by 3.5times and overall memory performance by +5.77%. Finally, MemOnce generalizes zero-shot to downstream representation tasks, achieving competitive results against specialized models.",
+      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.27973.png",
+      "source": "HF Trending Papers",
+      "extra": "▲ 12",
+      "score": 66,
       "category": "AI Research"
     },
     {
@@ -38,33 +116,247 @@
       "summary": "A local System 1 agent framework compiles tool schemas and requests into multiple-choice questions answered by a one-pass decision model, enabling accurate biomedical tool calls without text generation or invented content.",
       "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.21053.png",
       "source": "HF Trending Papers",
-      "extra": "▲ 6",
+      "extra": "▲ 7",
+      "score": 62,
+      "category": "AI Research"
+    },
+    {
+      "guid": "2611.26450",
+      "title": "A CPU Inside an LLM: Zero-Gradient Compilation of Exact Circuits into Pretrained Weights",
+      "link": "https://huggingface.co/papers/2611.26450",
+      "authors": [
+        "Tanmay Sah"
+      ],
+      "date": "2026-11-18T19:00:00.000Z",
+      "summary": "Pretrained language models (LMs) remain unreliable on exact multi-digit arithmetic without gradient fine-tuning or external tool interpreters. We introduce closed-form, zero-gradient circuit-grafting primitives that compile deterministic computation directly into pretrained LM weights using zero training examples and zero runtime hooks, while bounding per-layer normalization drift and preserving natural-language (NL) competence. Our construction combines three analytical mechanisms: (1) two-layer Mellin-GLU quadrature over bias-free SwiGLU/GeGLU layers, turning unknown per-token RMSNorm scaling into translation along a log-spaced gate grid (>250times dynamic range) with IEEE 754 error bounds; (2) cross-token scale cancellation via signed Chebyshev Indefinite-RoPE self-sink attention and memoryless SiLU-antisymmetric GatedDeltaNet shifts; and (3) axis-aligned width extension (d to d+K) with d/(d+K) norm compensation, Base-1000 canonical BPE emission, and differential (+254,-256) tied unembeddings. An automated 5-stage compiler synthesizes 4-8 digit signed {+,-,times} circuits in constant TC^0 depth alongside 3-literal Boolean (100%, N=1{,}728; plus 42-layer Gemma 4 E4B audits) and 5-bit Majority/Parity (100%) circuits. On 6-digit arithmetic (N=1{,}200, BF16), IBM Granite 4.2 3B (1.07M-1.33M active non-zeros, le 0.036%) and Alibaba Qwen 3.5 4B (2.25M-2.39M non-zeros, le 0.057%) reach 99.17% and 100.00% ALU-prefix accuracy (100% with an FP32 sidecar) and 98%-100% mid-sentence resumption, outperforming 12.8K-sample LoRA (42.2% / 61.7%, 0% inline continuation). A factorized block-sparse sidecar holds A100 memory at 7.89 / 10.65 GiB (4.60 / 8.14 GiB under INT8/INT4 + FP32 sidecar) while passing all 14/14 pre-registered >2K-token Tango splits (N=4{,}392; 0/11,134 OOD triggers).",
+      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.26450.png",
+      "source": "HF Trending Papers",
+      "extra": "▲ 7",
+      "score": 62,
+      "category": "AI Research"
+    },
+    {
+      "guid": "2611.22479",
+      "title": "Exploited Before It Was Fixed? Vulnerability Timelines from Open, Machine-Readable Evidence",
+      "link": "https://huggingface.co/papers/2611.22479",
+      "authors": [
+        "Cédric Bonhomme",
+        "Alexandre Dulaunoy"
+      ],
+      "date": "2026-11-16T19:00:00.000Z",
+      "summary": "-05-X-03), Known Exploited Vulnerabilities (KEV) catalogs, and exploitation sightings.\n  We introduce an evidence model implemented in Vulnerability-Lookup that selects the earliest evidence for each lifecycle event, distinguishes vulnerability-specific records, preserves date precision, and ensures traceability to original sources.\n  Among 3,758 vulnerability identifiers with exploitation evidence, 98% have disclosure dates, while only 15.7% have patch evidence. Vendor-side dates required by VTEM are entirely absent. Most exploitation dates originate from catalog listings, including 1,041 entries associated with bulk catalog imports. After excluding these entries and ambiguous same-day observations, 59 vulnerabilities exhibit patch evidence following exploitation evidence, with a median interval of 7.6 days, predominantly between catalog listings and distributor fixes.\n  Evidence traceability also exposes systematic measurement errors: one collector incorrectly classified exploit publications as active exploitation, accounting for 40% of initial exploitation dates, while another catalog assigned vulnerability publication timestamps to 11% of its listings.\n  Our findings demonstrate that exploitation-to-patch intervals are computationally measurable, but their reliability depends on the availability, precision, and provenance of published evidence. We identify the additional disclosure, exploitation observation, and patch availability timestamps needed to improve vulnerability lifecycle measurements.",
+      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.22479.png",
+      "source": "HF Trending Papers",
+      "extra": "▲ 2",
+      "score": 60,
+      "category": "Cyber Security"
+    },
+    {
+      "guid": "2611.25773",
+      "title": "Duopra: From Full-Duplex Conversation to Full-Duplex Agency",
+      "link": "https://huggingface.co/papers/2611.25773",
+      "authors": [
+        "Chiyu Chen",
+        "Pengzhou Cheng",
+        "Yuezhao Ma",
+        "Xiaocheng Li",
+        "Can Liu",
+        "Haonan Hu",
+        "Yao Yao",
+        "Yifei Yang",
+        "Yijie Lu",
+        "Taolei Wang",
+        "Yansi Li",
+        "Muhuan Wu",
+        "Chenglu Sun",
+        "Gongshen Liu",
+        "Zhuosheng Zhang"
+      ],
+      "date": "2026-11-18T19:00:00.000Z",
+      "summary": "Full-duplex interaction models exhibit strong conversational agency, enabling natural, low-latency turn-taking, backchannels, and interruptions. However, completing tasks further requires task agency: timely tool invocation and argument revision following user corrections. Frontend-backend agents separate initiation from execution: the frontend decides whether and what to request, while the backend determines how. Execution can be offloaded, but unsent requests cannot be executed, and incomplete ones can misdirect the backend. On Full-Duplex-Bench v3 (FDB v3), most failures of Realtime-Venus-Audio + Harness in our streaming pipeline occur before a domain tool executes. We introduce Duopra, a full-duplex interaction model that learns task execution alongside conversational control. Duopra treats the backend as a tool, accepting a self-contained natural-language request. Direct calls and backend delegation share an action interface and requirements for faithful initiation and correct execution. Its three-stage training combines protocol SFT, full-duplex RL rewarding timely and complete execution, and projector-only repair of talker conditioning after thinker updates. With the same backend, Pass@1 rises from 4.7% to 44.7%; Duopra achieves 47.7% calling tools directly (26.0% after SFT) and 49.3% with a DeepSeek backend. It improves three FDB v1.0 takeover rates over the base model. These results show that task agency can coexist with key conversational agency.",
+      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.25773.png",
+      "source": "HF Trending Papers",
+      "extra": "▲ 20",
       "score": 60,
       "category": "AI Research"
     },
     {
-      "guid": "2611.19230",
-      "title": "CompoundingKernel: Self-Improving from Zero to First",
-      "link": "https://huggingface.co/papers/2611.19230",
+      "guid": "2611.23875",
+      "title": "In Situ Training of Optical Neural Networks by Coding Agents",
+      "link": "https://huggingface.co/papers/2611.23875",
       "authors": [
-        "Qian Qu",
-        "Hongyang Wang",
-        "Wenbo Chen",
-        "Yichuan Li",
-        "Jingguo Liu",
-        "Xian Li",
-        "Xuan Wang",
-        "Ruochen Wen",
-        "Leo Fan",
-        "Yiming Yan",
-        "Zheshen Wang",
-        "Benoit Dumoulin"
+        "Ilker Oguz",
+        "Colin Christian",
+        "Christophe Moser",
+        "Demetri Psaltis",
+        "Gordon Wetzstein"
+      ],
+      "date": "2026-11-17T19:00:00.000Z",
+      "summary": "A coding agent trains an optical neural network from measurements alone by reparametrizing it with interpretable optical elements, achieving better classification and image encoding than gradient-free methods and approaching backpropagation through a calibrated model at lower cost.",
+      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.23875.png",
+      "source": "HF Trending Papers",
+      "extra": "▲ 3",
+      "score": 60,
+      "category": "AI Research"
+    },
+    {
+      "guid": "2611.24077",
+      "title": "AeroRSI: Recursive Self-Improvement for Aerial Vision-Language Navigation",
+      "link": "https://huggingface.co/papers/2611.24077",
+      "authors": [
+        "Shiwei Wu",
+        "Yuwen Pan",
+        "Zhi Li",
+        "Yaowen Li",
+        "Yan Zhou",
+        "Xuemiao Xu",
+        "Yu Liu"
+      ],
+      "date": "2026-11-17T19:00:00.000Z",
+      "summary": "Vision-language-action (VLA) models enable unmanned aerial vehicles (UAVs) to follow natural-language instructions, yet still fail frequently in closed-loop flight. Correcting these failures requires repairs, i.e., actions that avoid them at the states the policy itself reaches, which human pilots cannot label at scale and rule-based planners cannot supply reliably. In this paper, we present AeroRSI, a recursive self-improvement framework in which an aerial navigation policy iteratively learns from its own failures. Our key insight is that a failing policy should judge its own repairs by flying on from them. Judged in this way, its sampled actions and even rule-based proposals that hurt it when imitated directly become reliable supervision. Moreover, an episode terminates at its first failure, concealing subsequent failures until the earlier ones are repaired. AeroRSI thus renews its supervision in every round, anchoring the failures of the current policy, verifying repairs by its continuation, and distilling them while keeping its behavior elsewhere. On TravelUAV, three rounds raise the success rate of a supervised 2B-parameter policy from 46.4% to 67.5% and reduce collisions by half, surpassing the previous state of the art by 10.6 points from the same initialization without extra human labels or inference cost. Code and models are available at https://github.com/starsholic/AeroRSI.",
+      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.24077.png",
+      "source": "HF Trending Papers",
+      "extra": "▲ 4",
+      "score": 58,
+      "category": "Robotics & Engineering"
+    },
+    {
+      "guid": "2611.26248",
+      "title": "TwinLab-Bench: Evaluating AI Scientists in Agentic Twins of Real Labs",
+      "link": "https://huggingface.co/papers/2611.26248",
+      "authors": [
+        "Yang Wan",
+        "Linchao Zhu"
+      ],
+      "date": "2026-11-18T19:00:00.000Z",
+      "summary": "AI agents are increasingly expected to act as AI scientists, which requires three increasingly open abilities: carrying out a given computational workflow correctly, choosing the next measurements from a given design space, and designing their own experiments. Existing benchmarks mainly evaluate the first two abilities, in a terminal or in a closed loop that selects from predefined candidates. Evaluating the third ability requires reliably executing an experiment that an agent designs, with readings grounded in a real laboratory. We introduce TwinLab-Bench, which evaluates AI scientists on self-designed experiments in 52 tasks from laboratories in the physical sciences, the life sciences, and engineering. The benchmark supports more than 100 experimental action types, and the agent's report is scored by comparison with a hidden answer taken from real laboratory records. Each task has its own TwinLab agent, an agent that serves as the environment and executes the experiments that the tested agent designs, reading the raw materials of the laboratory and calling calculators that are built from its records. Compared with a language model that sees only the task description, the TwinLab agent almost eliminates readings that deviate from the real records and inconsistent answers to a repeated request, and closed-book probes control for answers recalled from memory. We find that these tasks remain hard for frontier models: the strongest, Claude Fable 5.2, averages a score of only 45.0, and we conduct an empirical study of where it fails.",
+      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.26248.png",
+      "source": "HF Trending Papers",
+      "extra": "▲ 7",
+      "score": 58,
+      "category": "AI Research"
+    },
+    {
+      "guid": "2611.27398",
+      "title": "Taking Apart and Putting Together: Tracking Objects Through Physical Transformations",
+      "link": "https://huggingface.co/papers/2611.27398",
+      "authors": [
+        "Davide Gardenal",
+        "Mingxuan Liu",
+        "Flavio Vella",
+        "Quentin Guimard",
+        "Elisa Ricci"
+      ],
+      "date": "2026-11-20T05:03:29.000Z",
+      "summary": "A training-free framework tracks objects through physical assemblies and disassemblies by generating and evaluating split/merge proposals and querying a multimodal large language model for verification and labeling, achieving state-of-the-art accuracy and faster performance on a new benchmark.",
+      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.27398.png",
+      "source": "HF Trending Papers",
+      "extra": "▲ 2",
+      "score": 55,
+      "category": "AI Research"
+    },
+    {
+      "guid": "2611.27915",
+      "title": "StereoVLM: Binocular Vision-Language Models for Metric 3D Spatial Reasoning",
+      "link": "https://huggingface.co/papers/2611.27915",
+      "authors": [
+        "Chi Yan",
+        "Guoyang Zhao",
+        "Wentao Yuan",
+        "Yixiao Ge",
+        "Yanning Zhou",
+        "Dan Xu"
+      ],
+      "date": "2026-11-20T12:52:02.000Z",
+      "summary": "StereoVLM is a geometry-aware binocular vision-language model trained with hierarchical supervision from calibrated stereo to enable metric 3D spatial reasoning, evaluated by Stereo3D-Bench.",
+      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.27915.png",
+      "source": "HF Trending Papers",
+      "extra": "▲ 6",
+      "score": 55,
+      "category": "AI Research"
+    },
+    {
+      "guid": "2611.26590",
+      "title": "Probing the \"Conscious\" Mind: Selective Access and Global Workspace in Vision-Language Models",
+      "link": "https://huggingface.co/papers/2611.26590",
+      "authors": [
+        "Jiahao Huang",
+        "Jun Wang"
+      ],
+      "date": "2026-11-18T19:00:00.000Z",
+      "summary": "Vision-language models (VLMs) integrate visual and textual information, but their outputs do not reveal internal concept representations. Global workspace theory (GWT) proposes that information is selected from parallel brain processes, integrated in a shared workspace, and made available to specialised processes. We introduce the Multimodal Concept Lens (MC-Lens), a multimodal Jacobian lens, to study these functions in VLM concept processing. Its vision encoder and language decoder lenses map intermediate states to a shared semantic space defined by the decoder's output vocabulary to compare concept accessibility across modalities. MC-Lens supports internal concept interventions to examine the role of accessed concepts in downstream computation. (i) Accessibility and selective access. Multimodal concept information is readable in intermediate states and selectively accessible as tasks require. We extend \"readout carriers\" from one name token to a token set to better capture and express concept information and support counterfactual experiments. (ii) Concepts in downstream computation. Counterfactual experiments show that accessed concept information participates in downstream computation and reasoning. (iii) Development of cross-modal alignment and selective access. We develop two J-space metrics tracking the development of cross-modal concept alignment more clearly than hidden state cosine in controlled VLM training. The experiment also shows that reliable selective access develops later than concept accessibility. (iv) Shared functions across models. Across VLM families and sizes, we find shared patterns of concept accessibility, query-dependent selectivity and cross-task intervention effects despite differences in internal organisation. These findings offer an experimental basis to study GWT in multimodal artificial systems and how it can guide cross-modal alignment improvements.",
+      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.26590.png",
+      "source": "HF Trending Papers",
+      "extra": "▲ 36",
+      "score": 55,
+      "category": "Neuroscience & Mind"
+    },
+    {
+      "guid": "2611.25005",
+      "title": "Inhabitant: An Agent Framework for Long-Horizon Human-Scene Interaction with Spatial Control and Quantitative Feedback",
+      "link": "https://huggingface.co/papers/2611.25005",
+      "authors": [
+        "Yao Zhang",
+        "Zhuchenyang Liu",
+        "Yu Xiao"
+      ],
+      "date": "2026-11-17T19:00:00.000Z",
+      "summary": "Inhabitant enables a language-model agent to plan and execute long-horizon human-scene interactions by specifying motions spatially, measuring deviations, and revising control, achieving high task completion on the Inhabit benchmark.",
+      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.25005.png",
+      "source": "HF Trending Papers",
+      "extra": "▲ 2",
+      "score": 55,
+      "category": "Robotics & Engineering"
+    },
+    {
+      "guid": "2611.19247",
+      "title": "GameWM: Toward Next-Generation Video Games with Interaction-Centric World Models",
+      "link": "https://huggingface.co/papers/2611.19247",
+      "authors": [
+        "Bing He",
+        "Runze Wang",
+        "Fei Zha",
+        "Zhongyuan Wu",
+        "Ke Xu",
+        "Tao Zhuang",
+        "Yuxuan Xie",
+        "Zhongyuan Liu"
       ],
       "date": "2026-11-13T19:00:00.000Z",
-      "summary": "We present CompoundingKernel, a self-improving agent system that writes GPU kernels by search. As of 2026-11-11, its generated kernels rank #1 on the public L1, L2 and Quantization boards of SOL-ExecBench (NVIDIA B200). They have held #1 on L1 since 2026-10-27, albeit a short loss on 2026-11-07. All 235 problems have a site-verified correct kernel; on the 209 public-board problems they are 4.40x faster than the benchmark's reference baseline. The search starts from zero: agents get each problem's PyTorch definition but no reference kernels or official scores. A per-problem archive outside the model holds every correct kernel and its lineage. An LLM controller reads it, picks a parent or a new design, and gives each parallel child agent one direction. Checks outside the model decide correctness. At equal wall time, it beat a coded UCB style tree on 35 of 38 problems by making 2.4x as many correct attempts. Over a thousand agents ran at once, and one warm restart fix raised their evaluation rate 3.6x. We find that the rate of reliable measurements, not the number of agents, limits how far such a search scales. Our code and kernels are available on URL.",
-      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.19230.png",
+      "summary": "GameWM divides game generation between an engine that preserves exact rules and state and a generative video model that creates visual and interactive detail, allowing personalized games with consistent mechanics.",
+      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.19247.png",
       "source": "HF Trending Papers",
-      "extra": "▲ 11",
+      "extra": "▲ 1",
+      "score": 52,
+      "category": "AI Research"
+    },
+    {
+      "guid": "2611.26286",
+      "title": "Twice-Told Critiques: Claim-Level Homogenization of Peer Review in the LLM Era",
+      "link": "https://huggingface.co/papers/2611.26286",
+      "authors": [
+        "Ilya Gusev"
+      ],
+      "date": "2026-11-18T19:00:00.000Z",
+      "summary": "Critique overlap among peer reviews is rising, and reviews identified as LLM-generated are less distinct from each other, indicating decreasing diversity of critiques.",
+      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.26286.png",
+      "source": "HF Trending Papers",
+      "extra": "▲ 10",
+      "score": 52,
+      "category": "Science & Society"
+    },
+    {
+      "guid": "2611.24636",
+      "title": "Clover-35B-A3B-Preview Technical Report",
+      "link": "https://huggingface.co/papers/2611.24636",
+      "authors": [
+        "DiffuSpace Technical Team"
+      ],
+      "date": "2026-11-17T19:00:00.000Z",
+      "summary": "We introduce Clover-35B-A3B-Preview (Clover), a mixture-of-experts diffusion language model with 35 billion total parameters and 3 billion activated parameters, supporting thinking-mode generation. Clover adapts Gated Delta Networks to block diffusion by combining recurrent memory of previously generated context with bidirectional softmax attention inside the current block. Historical memory readout competes with current-block tokens in a shared softmax, with learnable block-size calibration and a separate, zero-initialized right-context convolution branch. Clover leads the seven evaluated agent metrics, including 73.6 on SWE-bench Verified and 51.7 on Terminal-Bench 2.1. On internal agent workloads, it reaches a reported generation speed of 680 tokens/s using one NVIDIA GB300 GPU at BF16 precision and batch size one. We organize the evaluation around model quality, drafting and verification costs, and deployment under constrained memory. We also describe a decision-model variant that generates answers to related questions in one denoising pass. On an internal set of 500 groups, joint prediction raises question accuracy from 90.37% to 93.88% and all-correct group accuracy from 65.4% to 77.0%.",
+      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.24636.png",
+      "source": "HF Trending Papers",
+      "extra": "▲ 34",
       "score": 50,
       "category": "AI Research"
     },
@@ -85,94 +377,25 @@
       "summary": "Vision-language-action (VLA) models enable robots to perform diverse tasks from visual observations and language instructions. While prior work has explored task suppression and refusal, stopping prohibited behavior once execution is underway and controlling the resulting physical response remain challenging. Our evaluation reveals that policies which suppress a task from its initial state can still complete it when taking over partway through execution. Even when the task remains unfinished, the robot may drop a held object, making non-completion an incomplete measure of safety. To address these challenges, we introduce State-Aware Fallback Imitation (SAFI) for tasks where holding provides an appropriate alternative response. SAFI comprises two stages, (1) fallback target construction, which assigns stationary arm commands and consistent gripper targets throughout prohibited-task demonstrations, and (2) joint policy adaptation, which learns these targets alongside the original actions of retained tasks. This supervision teaches an explicit alternative response at intermediate execution states while maintaining the robot's other skills. Extensive experiments with OpenVLA-OFT across LIBERO and BadLIBERO tasks evaluate prohibited completion, physical incidents, and retained-task performance. On the evaluated LIBERO tasks, SAFI reduces aggregate target success after takeover to 1.3\\%, with no recorded physical incidents or action saturation, while preserving high retained-task success.",
       "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.26239.png",
       "source": "HF Trending Papers",
-      "extra": "▲ 7",
-      "score": 45,
+      "extra": "▲ 9",
+      "score": 50,
       "category": "Robotics & Engineering"
     },
     {
-      "guid": "2611.23875",
-      "title": "In Situ Training of Optical Neural Networks by Coding Agents",
-      "link": "https://huggingface.co/papers/2611.23875",
+      "guid": "2611.25567",
+      "title": "Online Mistake Detection in Instruction-Conditioned Procedural Video",
+      "link": "https://huggingface.co/papers/2611.25567",
       "authors": [
-        "Ilker Oguz",
-        "Colin Christian",
-        "Christophe Moser",
-        "Demetri Psaltis",
-        "Gordon Wetzstein"
-      ],
-      "date": "2026-11-17T19:00:00.000Z",
-      "summary": "A coding agent trains an optical neural network from measurements alone by reparametrizing it with interpretable optical elements, achieving better classification and image encoding than gradient-free methods and approaching backpropagation through a calibrated model at lower cost.",
-      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.23875.png",
-      "source": "HF Trending Papers",
-      "extra": "▲ 3",
-      "score": 45,
-      "category": "AI Research"
-    },
-    {
-      "guid": "2611.26450",
-      "title": "A CPU Inside an LLM: Zero-Gradient Compilation of Exact Circuits into Pretrained Weights",
-      "link": "https://huggingface.co/papers/2611.26450",
-      "authors": [
-        "Tanmay Sah"
+        "Amit Feldman",
+        "Ilan Shimshoni",
+        "Rotem Dror"
       ],
       "date": "2026-11-18T19:00:00.000Z",
-      "summary": "Pretrained language models (LMs) remain unreliable on exact multi-digit arithmetic without gradient fine-tuning or external tool interpreters. We introduce closed-form, zero-gradient circuit-grafting primitives that compile deterministic computation directly into pretrained LM weights using zero training examples and zero runtime hooks, while bounding per-layer normalization drift and preserving natural-language (NL) competence. Our construction combines three analytical mechanisms: (1) two-layer Mellin-GLU quadrature over bias-free SwiGLU/GeGLU layers, turning unknown per-token RMSNorm scaling into translation along a log-spaced gate grid (>250times dynamic range) with IEEE 754 error bounds; (2) cross-token scale cancellation via signed Chebyshev Indefinite-RoPE self-sink attention and memoryless SiLU-antisymmetric GatedDeltaNet shifts; and (3) axis-aligned width extension (d to d+K) with d/(d+K) norm compensation, Base-1000 canonical BPE emission, and differential (+254,-256) tied unembeddings. An automated 5-stage compiler synthesizes 4-8 digit signed {+,-,times} circuits in constant TC^0 depth alongside 3-literal Boolean (100%, N=1{,}728; plus 42-layer Gemma 4 E4B audits) and 5-bit Majority/Parity (100%) circuits. On 6-digit arithmetic (N=1{,}200, BF16), IBM Granite 4.2 3B (1.07M-1.33M active non-zeros, le 0.036%) and Alibaba Qwen 3.5 4B (2.25M-2.39M non-zeros, le 0.057%) reach 99.17% and 100.00% ALU-prefix accuracy (100% with an FP32 sidecar) and 98%-100% mid-sentence resumption, outperforming 12.8K-sample LoRA (42.2% / 61.7%, 0% inline continuation). A factorized block-sparse sidecar holds A100 memory at 7.89 / 10.65 GiB (4.60 / 8.14 GiB under INT8/INT4 + FP32 sidecar) while passing all 14/14 pre-registered >2K-token Tango splits (N=4{,}392; 0/11,134 OOD triggers).",
-      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.26450.png",
+      "summary": "An assistant monitoring a person performing a procedure is most useful when it can detect mistakes while there is still time to recover. This requires judging actions against task instructions as the video unfolds, identifying the attempted step, locating it in time, and assessing its execution. Existing online detectors do not use the instruction text, while instruction-conditioned methods operate offline. In this paper, we study online, instruction-conditioned mistake detection in egocentric videos. Using only observed video, task instructions, and prior predictions, our model identifies and localizes completed action attempts and classifies them as correct, modified, slip, corrections, or additions; omitted steps are determined after the video ends. We compare a modular pipeline, with separate step identification, temporal localization, and execution verification, to a joint model that predicts all outputs in a single step. To support supervised learning from mistakes, we repartition EgoPER to include erroneous videos in all splits. The approaches achieve similar step-segmentation F1@0.5 (93.6% and 92.1%), while the joint model achieves higher binary mistake-detection F1@0.5 (84.1% vs. 80.7%), with its largest gain on slips (56.4% vs. 37.5%). Component-level analysis suggests that error propagation between stages contributes to the modular approach's lower detection score. On test videos containing mistakes, both designs outperform released AEM and ESTANet checkpoints under our evaluation protocol.",
+      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.25567.png",
       "source": "HF Trending Papers",
-      "extra": "▲ 6",
-      "score": 45,
-      "category": "AI Research"
-    },
-    {
-      "guid": "2611.26590",
-      "title": "Probing the \"Conscious\" Mind: Selective Access and Global Workspace in Vision-Language Models",
-      "link": "https://huggingface.co/papers/2611.26590",
-      "authors": [
-        "Jiahao Huang",
-        "Jun Wang"
-      ],
-      "date": "2026-11-18T19:00:00.000Z",
-      "summary": "Vision-language models (VLMs) integrate visual and textual information, but their outputs do not reveal internal concept representations. Global workspace theory (GWT) proposes that information is selected from parallel brain processes, integrated in a shared workspace, and made available to specialised processes. We introduce the Multimodal Concept Lens (MC-Lens), a multimodal Jacobian lens, to study these functions in VLM concept processing. Its vision encoder and language decoder lenses map intermediate states to a shared semantic space defined by the decoder's output vocabulary to compare concept accessibility across modalities. MC-Lens supports internal concept interventions to examine the role of accessed concepts in downstream computation. (i) Accessibility and selective access. Multimodal concept information is readable in intermediate states and selectively accessible as tasks require. We extend \"readout carriers\" from one name token to a token set to better capture and express concept information and support counterfactual experiments. (ii) Concepts in downstream computation. Counterfactual experiments show that accessed concept information participates in downstream computation and reasoning. (iii) Development of cross-modal alignment and selective access. We develop two J-space metrics tracking the development of cross-modal concept alignment more clearly than hidden state cosine in controlled VLM training. The experiment also shows that reliable selective access develops later than concept accessibility. (iv) Shared functions across models. Across VLM families and sizes, we find shared patterns of concept accessibility, query-dependent selectivity and cross-task intervention effects despite differences in internal organisation. These findings offer an experimental basis to study GWT in multimodal artificial systems and how it can guide cross-modal alignment improvements.",
-      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.26590.png",
-      "source": "HF Trending Papers",
-      "extra": "▲ 42",
-      "score": 45,
-      "category": "Neuroscience & Mind"
-    },
-    {
-      "guid": "2611.26248",
-      "title": "TwinLab-Bench: Evaluating AI Scientists in Agentic Twins of Real Labs",
-      "link": "https://huggingface.co/papers/2611.26248",
-      "authors": [
-        "Yang Wan",
-        "Linchao Zhu"
-      ],
-      "date": "2026-11-18T19:00:00.000Z",
-      "summary": "AI agents are increasingly expected to act as AI scientists, which requires three increasingly open abilities: carrying out a given computational workflow correctly, choosing the next measurements from a given design space, and designing their own experiments. Existing benchmarks mainly evaluate the first two abilities, in a terminal or in a closed loop that selects from predefined candidates. Evaluating the third ability requires reliably executing an experiment that an agent designs, with readings grounded in a real laboratory. We introduce TwinLab-Bench, which evaluates AI scientists on self-designed experiments in 52 tasks from laboratories in the physical sciences, the life sciences, and engineering. The benchmark supports more than 100 experimental action types, and the agent's report is scored by comparison with a hidden answer taken from real laboratory records. Each task has its own TwinLab agent, an agent that serves as the environment and executes the experiments that the tested agent designs, reading the raw materials of the laboratory and calling calculators that are built from its records. Compared with a language model that sees only the task description, the TwinLab agent almost eliminates readings that deviate from the real records and inconsistent answers to a repeated request, and closed-book probes control for answers recalled from memory. We find that these tasks remain hard for frontier models: the strongest, Claude Fable 5.2, averages a score of only 45.0, and we conduct an empirical study of where it fails.",
-      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.26248.png",
-      "source": "HF Trending Papers",
-      "extra": "▲ 5",
-      "score": 45,
-      "category": "AI Research"
-    },
-    {
-      "guid": "2611.26627",
-      "title": "RL Post-Training in Diffusion Transformers Is Activation Steering",
-      "link": "https://huggingface.co/papers/2611.26627",
-      "authors": [
-        "Tuna Han Salih Meral",
-        "Kaan Oktay",
-        "Alec Helbling",
-        "Atakan Kara",
-        "Duen Horng Chau",
-        "Pinar Yanardag"
-      ],
-      "date": "2026-11-18T19:00:00.000Z",
-      "summary": "A fixed set of steering vectors added to a frozen diffusion transformer recovers most of the quality gains from reinforcement learning post-training, indicating that much of the improvement comes from a constant shift rather than prompt-specific transformations.",
-      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.26627.png",
-      "source": "HF Trending Papers",
-      "extra": "▲ 19",
-      "score": 40,
+      "extra": "▲ 12",
+      "score": 50,
       "category": "AI Research"
     },
     {
@@ -187,57 +410,9 @@
       "summary": "The best direction for probing a concept in a language model's hidden state is not the best direction for steering the model toward that concept, with implications for transfer and abstention.",
       "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.19499.png",
       "source": "HF Trending Papers",
-      "extra": "▲ 5",
-      "score": 40,
+      "extra": "▲ 6",
+      "score": 50,
       "category": "AI Research"
-    },
-    {
-      "guid": "2611.26286",
-      "title": "Twice-Told Critiques: Claim-Level Homogenization of Peer Review in the LLM Era",
-      "link": "https://huggingface.co/papers/2611.26286",
-      "authors": [
-        "Ilya Gusev"
-      ],
-      "date": "2026-11-18T19:00:00.000Z",
-      "summary": "Critique overlap among peer reviews is rising, and reviews identified as LLM-generated are less distinct from each other, indicating decreasing diversity of critiques.",
-      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.26286.png",
-      "source": "HF Trending Papers",
-      "extra": "▲ 10",
-      "score": 40,
-      "category": "Science & Society"
-    },
-    {
-      "guid": "2611.25005",
-      "title": "Inhabitant: An Agent Framework for Long-Horizon Human-Scene Interaction with Spatial Control and Quantitative Feedback",
-      "link": "https://huggingface.co/papers/2611.25005",
-      "authors": [
-        "Yao Zhang",
-        "Zhuchenyang Liu",
-        "Yu Xiao"
-      ],
-      "date": "2026-11-17T19:00:00.000Z",
-      "summary": "Inhabitant enables a language-model agent to plan and execute long-horizon human-scene interactions by specifying motions spatially, measuring deviations, and revising control, achieving high task completion on the Inhabit benchmark.",
-      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.25005.png",
-      "source": "HF Trending Papers",
-      "extra": "▲ 2",
-      "score": 40,
-      "category": "Robotics & Engineering"
-    },
-    {
-      "guid": "2611.00911",
-      "title": "S1CogBench: What System One Decision Models Can and Cannot Do on Cognitive Experiments",
-      "link": "https://huggingface.co/papers/2611.00911",
-      "authors": [
-        "Dengzhe Hou",
-        "Kazunori D Yamada"
-      ],
-      "date": "2026-11-13T19:00:00.000Z",
-      "summary": "S1CogBench evaluates System One decision models on 24 cognitive tasks, revealing that fast decisions often lack evidence-based reasoning and vary widely in reliability.",
-      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.00911.png",
-      "source": "HF Trending Papers",
-      "extra": "▲ 4",
-      "score": 40,
-      "category": "Neuroscience & Mind"
     },
     {
       "guid": "2611.20455",
@@ -255,33 +430,27 @@
       "summary": "Code-search benchmarks show dense encoders well ahead of BM25, yet coding agents do well with grep. What does this dense advantage measure? Existing benchmarks cannot tell: they use curated queries, old code and a handicapped BM25. To find out, we build Repo-Premium, a realistic repository-level code-search benchmark. It ranks files in real repositories, with curated and raw queries in Python, JavaScript, TypeScript, Go, Rust and Java, pull requests from 2022 to 2026, and a preregistered test pool over 91 repositories. Our experiments trace the advantage to two sources: evaluation choices that favor dense retrieval, such as splitting files into chunks for BM25 and counting edited tests as relevant, and queries that lack the code's rare identifiers. Expanding the query with LLM-written identifiers (generate-then-grep) helps BM25 far more than dense retrieval, letting it match dense retrieval in every Python pool, even on pull requests opened after the LLM was released. No method we tried predicts which retriever will win on a given query. From these results we derive three guidelines: measure dense gains against a fair lexical baseline, fuse dense retrieval with BM25, and add the code's words to queries that lack them.",
       "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.20455.png",
       "source": "HF Trending Papers",
-      "extra": "▲ 9",
-      "score": 40,
+      "extra": "▲ 12",
+      "score": 50,
       "category": "AI Research"
     },
     {
-      "guid": "2611.26414",
-      "title": "ZeroVLN: Learning to Navigate without Supervised Fine-Tuning of the VLM Brain",
-      "link": "https://huggingface.co/papers/2611.26414",
+      "guid": "2611.27963",
+      "title": "Non-penetrating World Models",
+      "link": "https://huggingface.co/papers/2611.27963",
       "authors": [
-        "Zixuan Huang",
-        "Yang Zhou",
-        "Guli Zhang",
-        "Sunzhu Li",
-        "Hongyan Xie",
-        "Zehao Chen",
-        "Fuzhen Zhuang",
-        "Kaixuan Wang",
-        "Xiaozhi Chen",
-        "Yikun Ban",
-        "Deqing Wang"
+        "Yuhang Dai",
+        "Yinwei Wu",
+        "Ziyue Lin",
+        "Han Ji",
+        "Xingyi Yang"
       ],
-      "date": "2026-11-18T19:00:00.000Z",
-      "summary": "ZeroVLN is a slow-fast vision-language navigation framework that avoids navigation-domain supervised fine-tuning of the VLM brain by using a semantic tool-calling interface and closed-loop reinforcement learning to coordinate a language-based brain with an action expert, improving VLN-CE performance while preserving general visual capabilities.",
-      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.26414.png",
+      "date": "2026-11-19T19:00:00.000Z",
+      "summary": "A benchmark and lightweight framework leverage hidden states from frozen diffusion transformers to detect and prevent object penetration in interactive video world models, reducing physical violations and generalizing zero-shot.",
+      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.27963.png",
       "source": "HF Trending Papers",
-      "extra": "▲ 22",
-      "score": 40,
+      "extra": "▲ 49",
+      "score": 48,
       "category": "Robotics & Engineering"
     },
     {
@@ -301,8 +470,48 @@
       "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.25179.png",
       "source": "HF Trending Papers",
       "extra": "▲ 4",
-      "score": 35,
+      "score": 48,
       "category": "Robotics & Engineering"
+    },
+    {
+      "guid": "2611.21485",
+      "title": "Lost in the Hallway: Benchmarking Persistent Spatial Memory Across Revisits",
+      "link": "https://huggingface.co/papers/2611.21485",
+      "authors": [
+        "Henry Zheng",
+        "Weibo Gong",
+        "Yang Yue",
+        "Rui Huang",
+        "Yang Zhang",
+        "Gao Huang"
+      ],
+      "date": "2026-11-15T19:00:00.000Z",
+      "summary": "Persistent spatial understanding is essential for embodied agents to operate reliably in environments they repeatedly encounter. It requires recognizing revisited places despite viewpoint changes, distinguishing them from similar-looking rooms, and updating memories as environments change. Yet existing evaluations often leave physical place identity across separated visits implicit. We introduce ReSpaceBench, a benchmark comprising 3,244 questions across 590 synthetic and real-home scenes, organized into 9 tasks spanning room association, persistent state tracking, and downstream reasoning. Controlled walkthroughs define visits by physical room entry and deliberately include same-type room distractors and cross-session object changes. Our evaluation of 32 models and 3 agentic video-understanding frameworks reveals substantial limitations: the strongest evaluated zero-shot model achieves 50.5% overall accuracy and 52.2% on a 450-question subset, compared with 90.1% for human annotators. The evaluated agentic frameworks offer no overall improvement over direct inference with the same base model. Analysis of agent execution traces reveals evidence omissions and incorrect cross-visit room associations as major failure modes, suggesting that iterative evidence seeking alone does not ensure consistent spatial memory. Further analyses expose a gap between recognizing familiar rooms and identifying the correct visited room, while annotation-guided sampling highlights the importance of preserving intervening visits and transitions. We also provide RS-30K, a separate training dataset from synthetic sources with no template, scene, route, or video overlap with the benchmark. Fine-tuning Qwen3-VL-8B raises overall accuracy from 35.5% to 60.4%, with the largest gains in association and improvements extending to real-life scenes.",
+      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.21485.png",
+      "source": "HF Trending Papers",
+      "extra": "▲ 7",
+      "score": 45,
+      "category": "Robotics & Engineering"
+    },
+    {
+      "guid": "2611.26627",
+      "title": "RL Post-Training in Diffusion Transformers Is Activation Steering",
+      "link": "https://huggingface.co/papers/2611.26627",
+      "authors": [
+        "Tuna Han Salih Meral",
+        "Kaan Oktay",
+        "Alec Helbling",
+        "Atakan Kara",
+        "Duen Horng Chau",
+        "Pinar Yanardag"
+      ],
+      "date": "2026-11-18T19:00:00.000Z",
+      "summary": "A fixed set of steering vectors added to a frozen diffusion transformer recovers most of the quality gains from reinforcement learning post-training, indicating that much of the improvement comes from a constant shift rather than prompt-specific transformations.",
+      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.26627.png",
+      "source": "HF Trending Papers",
+      "extra": "▲ 22",
+      "score": 45,
+      "category": "AI Research"
     },
     {
       "guid": "2611.26408",
@@ -316,8 +525,79 @@
       "summary": "It has been demonstrated that, in certain settings, large language models can perform weight-space programming to directly modify the weights of neural networks. However, it is unknown how dedicated training of these networks can contribute to the successes of weight-space programming. We present a benchmark of LLM-driven weight-space programming on vision models, in which five LLMs edit convolutional networks and vision transformers on relabeling and error-correction tasks on Waterbirds, CIFAR-100, PACS and Entity-30. We report more than 2,600 such edit processes, whereby each edit is scored on held-out images for success, side effects and accuracy loss. We compare standard training with label smoothing, gradient-based editable training, and our Edit-Ready Training (ERT), a novel method that rehearses the direct, closed-form weight edits LLMs perform. We show that preparing networks for editing raises the success of LLM edits substantially where standard networks are hard to edit. ERT further achieves the highest mean score for GPT-6 Astra and Claude Opus 5.5 across all evaluated baselines. We will release our LLM testing framework alongside all tasks, editing trajectories and scores. Project page: https://viscom.uni-ulm.de/wsp",
       "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.26408.png",
       "source": "HF Trending Papers",
-      "extra": "▲ 15",
-      "score": 35,
+      "extra": "▲ 19",
+      "score": 45,
+      "category": "AI Research"
+    },
+    {
+      "guid": "2611.25279",
+      "title": "Accord: Universal Online Metric Localization and Dense Mapping from one Camera and an IMU",
+      "link": "https://huggingface.co/papers/2611.25279",
+      "authors": [
+        "Jaafar Mahmoud",
+        "Arthur Movsesyan",
+        "Cuong Huynh",
+        "Mikhail Iumanov",
+        "Sergey Zagoruyko",
+        "Sergey Kolyubin"
+      ],
+      "date": "2026-11-17T19:00:00.000Z",
+      "summary": "Dense metric mapping from a single camera and IMU remains challenging: visual-inertial odometry (VIO) provides metric motion but sparse geometry, whereas feed-forward depth models predict dense structure without ensuring metric scale. We present Accord, which constructs an accurate online dense metric map from any camera with an IMU. A VIO filter publishes metric poses, a depth foundation model conditioned on them predicts depth for short keyframe windows, and a factor graph fuses the resulting submaps. Recent work has explored several approaches to this problem. What is essential is the multi-view agreement (Accord), which is considered in SLAM as a source of geometric self-consistency. Accord anchors each keyframe window to metric 3D points triangulated from the filter poses, then exploits bidirectional dense depth agreement between co-visible images to estimate and correct per-image scale errors while preserving the metric scale established by the anchors. Context keyframes further improve depth prediction, and the resulting submaps are fused in a factor graph. We evaluate a single mapping configuration across five public camera-IMU setups and a new Phone-rig/GoPro dataset. With nothing tuned per dataset/setup and every map aligned only by Accord's own trajectory, Accord achieves consistently best/second-best mean F-score at 5 cm on every platform. Accord is open-source along with the phone-rig dataset for the benefit of the research community",
+      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.25279.png",
+      "source": "HF Trending Papers",
+      "extra": "▲ 10",
+      "score": 45,
+      "category": "Robotics & Engineering"
+    },
+    {
+      "guid": "2611.00911",
+      "title": "S1CogBench: What System One Decision Models Can and Cannot Do on Cognitive Experiments",
+      "link": "https://huggingface.co/papers/2611.00911",
+      "authors": [
+        "Dengzhe Hou",
+        "Kazunori D Yamada"
+      ],
+      "date": "2026-11-13T19:00:00.000Z",
+      "summary": "S1CogBench evaluates System One decision models on 24 cognitive tasks, revealing that fast decisions often lack evidence-based reasoning and vary widely in reliability.",
+      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.00911.png",
+      "source": "HF Trending Papers",
+      "extra": "▲ 4",
+      "score": 45,
+      "category": "Neuroscience & Mind"
+    },
+    {
+      "guid": "2611.27211",
+      "title": "Explicit Style Extraction for Personalized Long-Form Text Generation",
+      "link": "https://huggingface.co/papers/2611.27211",
+      "authors": [
+        "Jenitha Reddy Patel",
+        "Sameeksha Kini",
+        "Amulya Rayasam",
+        "Anisa Dye",
+        "Abhinav Sharma",
+        "Sai Karthik Navuluru",
+        "Bo Ni",
+        "Li Li",
+        "Junda Wu",
+        "Tong Yu",
+        "Nedim Lipka",
+        "Xiaolei Huang",
+        "Tyler Derr",
+        "Yue Zhao",
+        "Zhengzhong Tu",
+        "Yu Wang",
+        "Hongjie Chen",
+        "Thien Huu Nguyen",
+        "Nesreen K. Ahmed",
+        "Franck Dernoncourt",
+        "Ryan A. Rossi"
+      ],
+      "date": "2026-11-19T19:00:00.000Z",
+      "summary": "A method that explicitly extracts a user's stylistic profile and uses it to guide drafting and revision improves personalized long-form text generation over retrieval-augmented baselines.",
+      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.27211.png",
+      "source": "HF Trending Papers",
+      "extra": "▲ 2",
+      "score": 42,
       "category": "AI Research"
     },
     {
@@ -373,47 +653,63 @@
       "summary": "A diagnostic benchmark of 180 simulated manipulation configurations evaluates whether embodied systems can combine history-based reasoning, precise execution, and closed-loop environmental feedback, revealing that single-view competence does not transfer to composed tasks.",
       "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.26444.png",
       "source": "HF Trending Papers",
-      "extra": "▲ 52",
-      "score": 35,
+      "extra": "▲ 57",
+      "score": 42,
       "category": "Robotics & Engineering"
     },
     {
-      "guid": "2611.26510",
-      "title": "AutoMaster: Autonomous Post-Training by Making the Same Model a Better Teacher",
-      "link": "https://huggingface.co/papers/2611.26510",
+      "guid": "2611.22495",
+      "title": "Motion-Aware Reward Modeling for Instruction-Guided Video Editing",
+      "link": "https://huggingface.co/papers/2611.22495",
       "authors": [
-        "Guoxin Chen",
-        "Shuang Sun",
-        "Fanzhe Meng",
-        "Xinyu Tang",
-        "Ruihua Song",
-        "Wayne Xin Zhao"
+        "Li Li",
+        "Xiangbo Gao",
+        "Bo Ni",
+        "Samyadeep Basu",
+        "Viet Dac Lai",
+        "Jing Shi",
+        "Seunghyun Yoon",
+        "Gang Wu",
+        "Yu Wang",
+        "Thien Huu Nguyen",
+        "Tyler Derr",
+        "Franck Dernoncourt",
+        "Zhengzhong Tu",
+        "Yue Zhao"
       ],
-      "date": "2026-11-18T19:00:00.000Z",
-      "summary": "Task success alone does not specify which behaviors post-training should reinforce. Even successful teacher trajectories can contain unsupported assumptions, unproductive repetition, or superficial verification. We propose Skill-FT (Skill-Guided Fine-Tuning), which uses natural-language skills to suppress undesirable habits and elicit underrepresented effective behaviors during teacher rollouts, then fine-tunes a target model on the resulting trajectories. We introduce AutoMaster, an autonomous post-training system in which an LLM agent develops these interventions through trajectory analysis, skill design, data selection, and feedback from rollouts and target-model evaluation. Across Terminal, Search, and software engineering tasks with 4B and 9B target models, AutoMaster improves mean performance over Vanilla SFT on successful unguided teacher trajectories by 1.42-8.99 percentage points, with the teacher, task pool, training set size, and SFT recipe held fixed. Together with the ablations and trajectory analyses, these results suggest that behavioral shaping can make a fixed model a more effective teacher. We further find that retaining skill instructions during SFT yields higher mean performance than removing them across all six settings, despite their absence at evaluation and identical supervised outputs. These findings suggest that preserving skill context as part of a training demonstration can support better behavioral internalization.",
-      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.26510.png",
+      "date": "2026-11-16T19:00:00.000Z",
+      "summary": "Reward models for instruction-guided video editing can favor temporal consistency at the expense of motion. We study this failure, termed motion collapse, using controlled motion-suppression variants of real edits. On VE-Bench, the evaluated composite reward prefers a motion-suppressed candidate in 97% of cases. Learned video rewards and a VLM judge also struggle with mild suppression, while latent optimization and reward-guided fine-tuning exploit this weakness to increase reward as motion declines. A linear probe of our base reward backbone performs near chance on mild suppression, motivating an explicit inter-frame dynamics input. We propose a motion-aware reward model that combines an RGB frame-difference stream with preference training against motion-suppressed and fabricated-motion negatives. A distillation anchor preserves alignment with human quality judgments. On the VE-Bench motion ladder, our model reduces the rate of selecting motion-suppressed candidates to 0% while achieving a Spearman correlation of 0.57 with human quality ratings. It also detects unseen suppression variants and preserves motion during reward-guided fine-tuning on two editing pipelines. These results support explicitly modeling motion in rewards for video editing.",
+      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.22495.png",
       "source": "HF Trending Papers",
-      "extra": "▲ 14",
-      "score": 35,
+      "extra": "▲ 1",
+      "score": 40,
       "category": "AI Research"
     },
     {
-      "guid": "2611.26232",
-      "title": "Time Series Structure Learning with Local Causal Parent Discovery",
-      "link": "https://huggingface.co/papers/2611.26232",
+      "guid": "2611.27193",
+      "title": "cmHC: Balancing Stream Mixing in Hyper-Connections via Geometric Contraction",
+      "link": "https://huggingface.co/papers/2611.27193",
       "authors": [
-        "Jacqueline Maasch",
-        "Shu Wan",
-        "Hank Zhu",
-        "Huan Liu",
-        "Zhiguang Wang"
+        "Haowei He",
+        "Ziwen Zhao",
+        "Chenshuo Pan",
+        "Gang Lin",
+        "Zhihao Yang",
+        "Chao Wang",
+        "Xinzhang Liu",
+        "Kaidong Yu",
+        "Han Gao",
+        "Dongfang Li",
+        "Menglin Yang",
+        "Shuangyong Song",
+        "Yongxiang Li"
       ],
-      "date": "2026-11-18T19:00:00.000Z",
-      "summary": "Learning and inference on time series can pose significant statistical challenges, including autocorrelated observations, distribution shift over time, and the curse of dimensionality. These challenges complicate the practical application of causal discovery algorithms, which already suffer from high computational and sample complexity in the general case. To mitigate these issues, this work introduces Iterative Temporal Parent Discovery (ITPD): a sound and complete constraint-based procedure for causal structure learning on multivariate time series with causal nonstationarity. ITPD takes a local-to-global learning approach that discovers the global graph by sequentially discovering the parent set for each variable. ITPD exploits temporal structural priors, graph partitioning, and the local Markov condition to swap higher-order conditional independence tests for lower-order alternatives. With an exact oracle, ITPD performed the least number of tests and used the smallest average conditioning set sizes relative to baselines. In benchmarking simulations, ITPD sat on the Pareto frontier with respect to F1 and wall-clock time and was faster than baselines on large graphs (geq 1000 nodes). For graphs with 2000 nodes, ITPD ran 2.3times, 9.1times, and 40.9times faster than iterative IAMB, DF-PC, and PCMCI, respectively.",
-      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.26232.png",
+      "date": "2026-11-19T19:00:00.000Z",
+      "summary": "Constraining residual stream mixing within the Birkhoff polytope via geometric contraction improves stability and scalability of hyper-connections in large-scale dense and mixture-of-experts model pretraining.",
+      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.27193.png",
       "source": "HF Trending Papers",
-      "extra": "▲ 2",
-      "score": 30,
+      "extra": "▲ 79",
+      "score": 40,
       "category": "AI Research"
     },
     {
@@ -435,46 +731,84 @@
       "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.25604.png",
       "source": "HF Trending Papers",
       "extra": "▲ 4",
-      "score": 30,
+      "score": 40,
       "category": "Robotics & Engineering"
     },
     {
-      "guid": "2611.15941",
-      "title": "Lang-SVG: Hierarchical Image Vectorization with Language Priors",
-      "link": "https://huggingface.co/papers/2611.15941",
+      "guid": "2611.25935",
+      "title": "TwinD: Generalizing Deepfake Detection from Blending to Entire Face Synthesis",
+      "link": "https://huggingface.co/papers/2611.25935",
       "authors": [
-        "Xi Liu",
-        "Chaoyi Zhou",
-        "Run Wang",
-        "Jiaang Li",
-        "Feng Luo",
-        "Junxiang Huang",
-        "Siyu Huang"
+        "Andrii Yermakov",
+        "Jan Cech",
+        "Mario Fritz",
+        "Jiri Matas"
       ],
-      "date": "2026-11-10T19:00:00.000Z",
-      "summary": "Image vectorization reconstructs raster images as compact scalable vector graph- ics (SVG), providing a structured and editable code representation of images. However, most existing vectorization methods optimize for pixel-level render- ing fidelity, often producing SVGs that lack alignment with human-perceived object-part hierarchies, making them difficult to manipulate. To address this, we propose Lang-SVG, which introduces an explicit tree structure to organize SVG primitives with semantic labels and parent-child relationships. Lang-SVG incorporates granularity-controllable and open-vocabulary segmentation priors to initialize object-part hierarchies and leverages multimodal large language models (MLLMs) with SVG tree context to assign semantic labels to unlabeled nodes. To reduce redundancy, we introduce depth-adaptive simplification to reduce shape complexity and Tree-Guided Pruning and Merging to eliminate redundant SVG nodes. L1-SAM-Prompting further recovers missing regions to improve recon- struction fidelity and structural completeness. Beyond reconstruction fidelity, we introduce a new evaluation protocol that measures structural quality and semantic part alignment. Experiments demonstrate that Lang-SVG achieves state-of-the-art performance in both rendering fidelity and structural quality. Project website: https://xiliu8006.github.io/Lang-SVG/.",
-      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.15941.png",
+      "date": "2026-11-18T19:00:00.000Z",
+      "summary": "TwinD, trained on reconstruction and blob twins derived from real frames, detects both blending and entire-face-synthesis deepfakes, improving AUROC over prior detectors.",
+      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.25935.png",
       "source": "HF Trending Papers",
       "extra": "▲ 1",
-      "score": 30,
+      "score": 40,
+      "category": "Cyber Security"
+    },
+    {
+      "guid": "2611.26073",
+      "title": "AltRA-Test: An Alternative Annotator Test for LLM Judges Without Shared Annotators",
+      "link": "https://huggingface.co/papers/2611.26073",
+      "authors": [
+        "Nagham Omar",
+        "Rotem Dror",
+        "Almog Gueta",
+        "Avigdor Gal",
+        "Roi Reichart",
+        "Nitay Calderon"
+      ],
+      "date": "2026-11-18T19:00:00.000Z",
+      "summary": "A statistical test, AltRA-Test, determines when large language models can replace human annotators by comparing inter-annotator agreement in resampled mixed human-LLM panels, and evaluations show it often requires about 100 items and makes better replacement decisions than baselines.",
+      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.26073.png",
+      "source": "HF Trending Papers",
+      "extra": "▲ 23",
+      "score": 40,
       "category": "AI Research"
     },
     {
-      "guid": "2611.25567",
-      "title": "Online Mistake Detection in Instruction-Conditioned Procedural Video",
-      "link": "https://huggingface.co/papers/2611.25567",
+      "guid": "2611.26617",
+      "title": "One Prior, Two Dynamics: Repurposing Video Diffusion Transformers for Self-Supervised Latent Action Learning",
+      "link": "https://huggingface.co/papers/2611.26617",
       "authors": [
-        "Amit Feldman",
-        "Ilan Shimshoni",
-        "Rotem Dror"
+        "Yuxin Jiang",
+        "Wenqiang Sun",
+        "Jiaqi Li",
+        "Yuchao Gu",
+        "Lvmin Zhang",
+        "Ivor Tsang",
+        "Mike Zheng Shou"
       ],
       "date": "2026-11-18T19:00:00.000Z",
-      "summary": "An assistant monitoring a person performing a procedure is most useful when it can detect mistakes while there is still time to recover. This requires judging actions against task instructions as the video unfolds, identifying the attempted step, locating it in time, and assessing its execution. Existing online detectors do not use the instruction text, while instruction-conditioned methods operate offline. In this paper, we study online, instruction-conditioned mistake detection in egocentric videos. Using only observed video, task instructions, and prior predictions, our model identifies and localizes completed action attempts and classifies them as correct, modified, slip, corrections, or additions; omitted steps are determined after the video ends. We compare a modular pipeline, with separate step identification, temporal localization, and execution verification, to a joint model that predicts all outputs in a single step. To support supervised learning from mistakes, we repartition EgoPER to include erroneous videos in all splits. The approaches achieve similar step-segmentation F1@0.5 (93.6% and 92.1%), while the joint model achieves higher binary mistake-detection F1@0.5 (84.1% vs. 80.7%), with its largest gain on slips (56.4% vs. 37.5%). Component-level analysis suggests that error propagation between stages contributes to the modular approach's lower detection score. On test videos containing mistakes, both designs outperform released AEM and ESTANet checkpoints under our evaluation protocol.",
-      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.25567.png",
+      "summary": "O2LaF repurposes a shared pretrained video model to learn inverse and forward latent action dynamics from unlabeled videos, achieving state-of-the-art few-shot action probing and zero-shot action transfer.",
+      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.26617.png",
       "source": "HF Trending Papers",
-      "extra": "▲ 11",
-      "score": 30,
-      "category": "AI Research"
+      "extra": "▲ 14",
+      "score": 40,
+      "category": "Robotics & Engineering"
+    },
+    {
+      "guid": "2611.25980",
+      "title": "Learning What Actions Change: Action Effect Matching for Dynamics-Faithful World Models",
+      "link": "https://huggingface.co/papers/2611.25980",
+      "authors": [
+        "John Won",
+        "Yonghoon Dong",
+        "Jinwoo Shin"
+      ],
+      "date": "2026-11-18T19:00:00.000Z",
+      "summary": "AFFECT, an auxiliary objective that trains world models to match visual responses to temporally correlated action noise, improves rollout fidelity and planning success in simulated and real robotic tasks.",
+      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.25980.png",
+      "source": "HF Trending Papers",
+      "extra": "▲ 17",
+      "score": 40,
+      "category": "Robotics & Engineering"
     },
     {
       "guid": "2611.26211",
@@ -498,253 +832,83 @@
       "summary": "SpecWM is a training-free inference framework for streaming video world models that verifies draft chunks using the target model's latent velocity field and applies reusable corrections via threshold-based accept/refine/reject decisions to improve visual quality, control, and speed.",
       "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.26211.png",
       "source": "HF Trending Papers",
-      "extra": "▲ 6",
-      "score": 30,
+      "extra": "▲ 7",
+      "score": 38,
       "category": "AI Research"
     },
     {
-      "guid": "2611.26073",
-      "title": "AltRA-Test: An Alternative Annotator Test for LLM Judges Without Shared Annotators",
-      "link": "https://huggingface.co/papers/2611.26073",
+      "guid": "2611.15449",
+      "title": "Reading the Unreadable: Text-Aware Image Super-Resolution Needs Reasoning",
+      "link": "https://huggingface.co/papers/2611.15449",
       "authors": [
-        "Nagham Omar",
-        "Rotem Dror",
-        "Almog Gueta",
-        "Avigdor Gal",
-        "Roi Reichart",
-        "Nitay Calderon"
+        "Jaeseong Lee",
+        "Jinwoo Kim",
+        "Jinho Jeong",
+        "Seon Joo Kim"
       ],
-      "date": "2026-11-18T19:00:00.000Z",
-      "summary": "A statistical test, AltRA-Test, determines when large language models can replace human annotators by comparing inter-annotator agreement in resampled mixed human-LLM panels, and evaluations show it often requires about 100 items and makes better replacement decisions than baselines.",
-      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.26073.png",
+      "date": "2026-11-10T19:00:00.000Z",
+      "summary": "Text-aware image super-resolution (TAISR) aims to recover high-resolution images from low-resolution inputs while preserving textual content. Existing methods treat this as a visual restoration problem, yet severely degraded text often cannot be read from local visual evidence alone. Humans instead read it by reasoning over image context, logical patterns, and prior knowledge. This raises a fundamental question: Does TAISR need reasoning? To answer this, we introduce two diagnostic tools. The first, ReasonText, is a human-curated benchmark that separates reasoning-required text from locally recoverable text. The second, Ground-Truth Text-Crop Accuracy (GTTCA), is a recognition-based metric that measures text restoration quality without text detection errors. Evaluating twelve recent super-resolution (SR) models, we find a consistent and substantial performance drop on reasoning-required text, revealing a systematic blind spot. Two observations point to a remedy. One is that text-conditioned SR models restore text substantially better when given ground-truth text. The other is that multimodal large language models (MLLMs) can read degraded text in low-resolution images through reasoning. We therefore propose Reasoning Transfer via Captioning (RTC), a training-free plug-in that uses an external MLLM to infer the degraded text and feeds the resulting caption to a text-conditioned SR model. RTC consistently improves all six text-conditioned SR models we evaluate, especially on reasoning-required text. Surprisingly, a real-world SR model with RTC can even outperform the TAISR model with RTC, suggesting that reasoning should be a core design axis for future TAISR.",
+      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.15449.png",
       "source": "HF Trending Papers",
-      "extra": "▲ 23",
-      "score": 30,
+      "extra": "▲ 20",
+      "score": 35,
       "category": "AI Research"
     },
     {
-      "guid": "2611.26617",
-      "title": "One Prior, Two Dynamics: Repurposing Video Diffusion Transformers for Self-Supervised Latent Action Learning",
-      "link": "https://huggingface.co/papers/2611.26617",
+      "guid": "2611.27229",
+      "title": "Prune to Expand: Training Prompt Enhancers with Less to Imitate",
+      "link": "https://huggingface.co/papers/2611.27229",
       "authors": [
-        "Yuxin Jiang",
-        "Wenqiang Sun",
-        "Jiaqi Li",
-        "Yuchao Gu",
-        "Lvmin Zhang",
-        "Ivor Tsang",
-        "Mike Zheng Shou"
+        "Tianhe Wu",
+        "Qilin Sun",
+        "Kede Ma"
       ],
-      "date": "2026-11-18T19:00:00.000Z",
-      "summary": "O2LaF repurposes a shared pretrained video model to learn inverse and forward latent action dynamics from unlabeled videos, achieving state-of-the-art few-shot action probing and zero-shot action transfer.",
-      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.26617.png",
-      "source": "HF Trending Papers",
-      "extra": "▲ 4",
-      "score": 30,
-      "category": "AI Research"
-    },
-    {
-      "guid": "2611.25980",
-      "title": "Learning What Actions Change: Action Effect Matching for Dynamics-Faithful World Models",
-      "link": "https://huggingface.co/papers/2611.25980",
-      "authors": [
-        "John Won",
-        "Yonghoon Dong",
-        "Jinwoo Shin"
-      ],
-      "date": "2026-11-18T19:00:00.000Z",
-      "summary": "AFFECT, an auxiliary objective that trains world models to match visual responses to temporally correlated action noise, improves rollout fidelity and planning success in simulated and real robotic tasks.",
-      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.25980.png",
-      "source": "HF Trending Papers",
-      "extra": "▲ 15",
-      "score": 30,
-      "category": "Robotics & Engineering"
-    },
-    {
-      "guid": "2611.24193",
-      "title": "WM^MLLM: Turning MLLMs into World Models",
-      "link": "https://huggingface.co/papers/2611.24193",
-      "authors": [
-        "Baiang Li",
-        "Enze Xie",
-        "Jincheng Yu",
-        "Jin Wang",
-        "Haozhe Liu",
-        "Yitong Li",
-        "Juanxi Tian",
-        "Felix Heide"
-      ],
-      "date": "2026-11-17T19:00:00.000Z",
-      "summary": "WM^MLLM uses multimodal large language models to maintain an external panorama state with revision history, enabling persistent, editable world generation from a single image with exact revisits and local edits.",
-      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.24193.png",
-      "source": "HF Trending Papers",
-      "extra": "▲ 15",
-      "score": 30,
-      "category": "AI Research"
-    },
-    {
-      "guid": "2611.26603",
-      "title": "Depth Pro 2: Sharp and Temporally Consistent Metric Monocular Depth",
-      "link": "https://huggingface.co/papers/2611.26603",
-      "authors": [
-        "Peiyun Hu",
-        "Marko Mihajlovic",
-        "Lyndon Duong",
-        "Lahav Lipson",
-        "Wei Dong",
-        "Amaël Delaunoy",
-        "Stephan R. Richter",
-        "Vladlen Koltun"
-      ],
-      "date": "2026-11-18T19:00:00.000Z",
-      "summary": "A single scalable network estimates dense metric depth for images and video at native resolution, jointly improving metric accuracy, boundary sharpness, and temporal consistency.",
-      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.26603.png",
-      "source": "HF Trending Papers",
-      "extra": "▲ 32",
-      "score": 30,
-      "category": "AI Research"
-    },
-    {
-      "guid": "2611.25387",
-      "title": "TuringSpace: Grounding Spatial Intelligence in Action with Interactive CAPTCHAs",
-      "link": "https://huggingface.co/papers/2611.25387",
-      "authors": [
-        "Xuwei Ding",
-        "Skylar Zhai",
-        "Linxin Song",
-        "Jiarui Feng",
-        "Dongqi Fu",
-        "Huajun Xi",
-        "Junnan Li",
-        "Jingcheng Liang",
-        "Jieyu Zhao",
-        "Yinglong Xia",
-        "Hong Li",
-        "Jian Kang"
-      ],
-      "date": "2026-11-18T19:00:00.000Z",
-      "summary": "Humans act in the visual world by inferring the 3D layout behind a 2D view, predicting how an action changes it, and correcting themselves after seeing the result. Can multimodal large language models (MLLMs) do the same? CAPTCHAs offer a natural test, since humans solve them through this very loop, clicking and dragging on the screen and adjusting after each result. Yet existing CAPTCHA benchmarks are largely solved and rarely spatial, while spatial benchmarks rarely require action. We therefore present TuringSpace, a synthetic web environment of 125 interactive CAPTCHAs that span five spatial abilities and must be solved through clicks and drags on the screen. Every task is a program that generates new instances with a checker and an oracle, so the tasks also form a scalable training gym. Humans solve 94.1% of the tasks, whereas the best model, GPT-6 Astra, still fails 25.9% of them, and the best open-weight model, Kimi K3, fails 68.0%. Our further analysis shows that most failures come from misreading the screenshot, and that model reasoning rarely corrects a wrong belief but hallucinates evidence to defend it. To test whether such spatial abilities can be learned, we fine-tune Qwen3.5-9B on this gym. Its success rate rises from 1.6% to 33.1%, above Kimi K3, and it improves on all seven out-of-distribution benchmarks, including a 9.9-point gain on the real-world indoor videos of VSI-Bench. These results show that grounding spatial intelligence in screen actions exposes what MLLMs lack and offers a scalable way to teach it, with gains that transfer to real-world scenes. We will release TuringSpace to support further study.",
-      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.25387.png",
-      "source": "HF Trending Papers",
-      "extra": "▲ 23",
-      "score": 30,
-      "category": "AI Research"
-    },
-    {
-      "guid": "2611.26595",
-      "title": "Coda-DaVinci: Reimagining Video Generation with Code2Video",
-      "link": "https://huggingface.co/papers/2611.26595",
-      "authors": [
-        "Yiyan Ji",
-        "Qixun Wang",
-        "Yang Shi",
-        "Zhuoran Zhang",
-        "Yifan Xu",
-        "Tengfei Liu",
-        "Yuqi Tang",
-        "Xiaohan Zhang",
-        "Shujie Li",
-        "Jiafu Tang",
-        "Xuanyu Zhu",
-        "Xinyu Liu",
-        "Yan He",
-        "Yushuo Guan",
-        "Zihao Wang",
-        "Xianghua Ying",
-        "Shixuan Liu",
-        "Haotian Wang",
-        "Wenjing Yang",
-        "Zhaoxiang Zhang",
-        "Yuanxing Zhang",
-        "Pengfei Wan",
-        "Jiaheng Liu"
-      ],
-      "date": "2026-11-18T19:00:00.000Z",
-      "summary": "A task-adaptive agentic framework utilizes 3D proxies, physics simulation, and multi-agent coordination to enhance the structural control, physical plausibility, and visual realism of generated videos.",
-      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.26595.png",
-      "source": "HF Trending Papers",
-      "extra": "▲ 35",
-      "score": 30,
-      "category": "AI Research"
-    },
-    {
-      "guid": "2611.24011",
-      "title": "WAM-Policy: World Action Models with On-Policy Distillation for Quadrupedal Loco-Manipulation",
-      "link": "https://huggingface.co/papers/2611.24011",
-      "authors": [
-        "Junlin Long",
-        "Xu Deng",
-        "Yiran Wang",
-        "Yue Yang",
-        "Yang Zhao",
-        "Zeyu Zhang"
-      ],
-      "date": "2026-11-17T19:00:00.000Z",
-      "summary": "Arm-free quadrupeds can perform loco-manipulation, walking on three legs while manipulating with a front leg, yet no existing policy for it follows language instructions. World action models (WAMs) have emerged as effective language-conditioned manipulation policies, but are pretrained for robot arms and sample slowly. WAM-Policy turns one WAM into a quadrupedal loco-manipulation policy via two stages. The first, Cross-Morphology Policy Adaptation and Acceleration, adapts the arm-centric WAM to quadrupeds and distills the transferred policy into a student with one video and two action steps by on-policy self-distillation (OPSD). This student, however, is bounded by its teacher, which only imitates demonstrations. The second stage, Task-Specific Improvement and Merging, therefore tunes the teacher by reinforcement learning (RL) and merges the slow specialists into one few-step student by multi-teacher on-policy distillation (M-OPD). On QLM-Bench, ten simulated tasks with 1,000 demonstrations synthesized without teleoperation, the transferred policy reaches 77.0%, and the OPSD student keeps 76.7% while sampling 14 times faster. Task-specific RL and M-OPD lift it to 85.0%. We also deploy the OPSD student on a real Unitree Go2 Air. WAM-Policy thus achieves a stronger quadrupedal policy at a fraction of the inference cost.",
-      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.24011.png",
-      "source": "HF Trending Papers",
-      "extra": "▲ 16",
-      "score": 30,
-      "category": "Robotics & Engineering"
-    },
-    {
-      "guid": "2611.22666",
-      "title": "VSpark: Speculative Decoding for Autoregressive Vision-Language-Action Models",
-      "link": "https://huggingface.co/papers/2611.22666",
-      "authors": [
-        "Suho Yoo",
-        "Youngjoon Jang",
-        "Hyebin Cho",
-        "Taeyeop Lee",
-        "Jaewook Jeong",
-        "Joon Son Chung"
-      ],
-      "date": "2026-11-16T19:00:00.000Z",
-      "summary": "VSpark accelerates autoregressive vision-language-action models by improving speculative decoding with calibrated action-noise rollouts, hidden-feature alignment, and reuse of rejected-draft continuations, achieving lossless 1.28x–2.10x speedups across multiple robot manipulation tasks.",
-      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.22666.png",
-      "source": "HF Trending Papers",
-      "extra": "▲ 10",
-      "score": 30,
-      "category": "AI Research"
-    },
-    {
-      "guid": "2611.21373",
-      "title": "WeVisForensics: Self-Evolving Agent for Omni AI-Generated Video Detection",
-      "link": "https://huggingface.co/papers/2611.21373",
-      "authors": [
-        "Yipeng Du",
-        "Yuxi Li",
-        "Ying Zhang",
-        "Chong Sun",
-        "Chen Li",
-        "Jing Lyu",
-        "Ying Tai"
-      ],
-      "date": "2026-11-15T19:00:00.000Z",
-      "summary": "WeVisForensics coordinates self-evolving visual and audio forensic inspector agents under a dual-timescale reinforcement learning policy to detect generated-video artifacts with localized evidence and high accuracy.",
-      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.21373.png",
-      "source": "HF Trending Papers",
-      "extra": "▲ 54",
-      "score": 30,
-      "category": "Cyber Security"
-    },
-    {
-      "guid": "2611.26540",
-      "title": "AURA: AUdio-dRiven streaming Avatar",
-      "link": "https://huggingface.co/papers/2611.26540",
-      "authors": [
-        "Nathaniel Cohen",
-        "Nicolas Dufour",
-        "Amélie Royer",
-        "Alasdair Newson",
-        "Patrick Pérez"
-      ],
-      "date": "2026-11-18T19:00:00.000Z",
-      "summary": "AURA enables low-latency, causal video generation for streaming applications by utilizing a rolling KV cache and a two-stage distillation pipeline to significantly reduce the required diffusion steps.",
-      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.26540.png",
+      "date": "2026-11-19T19:00:00.000Z",
+      "summary": "Prune to Expand (P2E) refines dense-caption supervision by selectively removing redundant sentences under a per-example deletion bound, improving prompt enhancement alignment with human preferences and visual quality over conventional dense-caption supervised fine-tuning.",
+      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.27229.png",
       "source": "HF Trending Papers",
       "extra": "▲ 3",
-      "score": 25,
+      "score": 35,
+      "category": "AI Research"
+    },
+    {
+      "guid": "2611.26232",
+      "title": "Time Series Structure Learning with Local Causal Parent Discovery",
+      "link": "https://huggingface.co/papers/2611.26232",
+      "authors": [
+        "Jacqueline Maasch",
+        "Shu Wan",
+        "Hank Zhu",
+        "Huan Liu",
+        "Zhiguang Wang"
+      ],
+      "date": "2026-11-18T19:00:00.000Z",
+      "summary": "Learning and inference on time series can pose significant statistical challenges, including autocorrelated observations, distribution shift over time, and the curse of dimensionality. These challenges complicate the practical application of causal discovery algorithms, which already suffer from high computational and sample complexity in the general case. To mitigate these issues, this work introduces Iterative Temporal Parent Discovery (ITPD): a sound and complete constraint-based procedure for causal structure learning on multivariate time series with causal nonstationarity. ITPD takes a local-to-global learning approach that discovers the global graph by sequentially discovering the parent set for each variable. ITPD exploits temporal structural priors, graph partitioning, and the local Markov condition to swap higher-order conditional independence tests for lower-order alternatives. With an exact oracle, ITPD performed the least number of tests and used the smallest average conditioning set sizes relative to baselines. In benchmarking simulations, ITPD sat on the Pareto frontier with respect to F1 and wall-clock time and was faster than baselines on large graphs (geq 1000 nodes). For graphs with 2000 nodes, ITPD ran 2.3times, 9.1times, and 40.9times faster than iterative IAMB, DF-PC, and PCMCI, respectively.",
+      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.26232.png",
+      "source": "HF Trending Papers",
+      "extra": "▲ 2",
+      "score": 35,
+      "category": "AI Research"
+    },
+    {
+      "guid": "2611.15941",
+      "title": "Lang-SVG: Hierarchical Image Vectorization with Language Priors",
+      "link": "https://huggingface.co/papers/2611.15941",
+      "authors": [
+        "Xi Liu",
+        "Chaoyi Zhou",
+        "Run Wang",
+        "Jiaang Li",
+        "Feng Luo",
+        "Junxiang Huang",
+        "Siyu Huang"
+      ],
+      "date": "2026-11-10T19:00:00.000Z",
+      "summary": "Image vectorization reconstructs raster images as compact scalable vector graph- ics (SVG), providing a structured and editable code representation of images. However, most existing vectorization methods optimize for pixel-level render- ing fidelity, often producing SVGs that lack alignment with human-perceived object-part hierarchies, making them difficult to manipulate. To address this, we propose Lang-SVG, which introduces an explicit tree structure to organize SVG primitives with semantic labels and parent-child relationships. Lang-SVG incorporates granularity-controllable and open-vocabulary segmentation priors to initialize object-part hierarchies and leverages multimodal large language models (MLLMs) with SVG tree context to assign semantic labels to unlabeled nodes. To reduce redundancy, we introduce depth-adaptive simplification to reduce shape complexity and Tree-Guided Pruning and Merging to eliminate redundant SVG nodes. L1-SAM-Prompting further recovers missing regions to improve recon- struction fidelity and structural completeness. Beyond reconstruction fidelity, we introduce a new evaluation protocol that measures structural quality and semantic part alignment. Experiments demonstrate that Lang-SVG achieves state-of-the-art performance in both rendering fidelity and structural quality. Project website: https://xiliu8006.github.io/Lang-SVG/.",
+      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.15941.png",
+      "source": "HF Trending Papers",
+      "extra": "▲ 1",
+      "score": 35,
       "category": "AI Research"
     },
     {
@@ -764,47 +928,9 @@
       "summary": "Native 3D generation has largely been built around latent diffusion, with recent advances concentrating on stronger variational autoencoders (VAE) and increasingly elaborate latent representations, from vecset and triplanes to structured sparse voxels. Despite their architectural differences, these methods all share the same premise: geometry is first compressed into a latent space and only then modeled by the generator. We take a different route and propose Direct3D-V3, a latent-free diffusion transformer (DiT) framework that discards the VAE altogether and operates in the native voxel domain, directly modeling raw SDF voxel grids during both training and sampling. To make this direct voxel formulation geometrically reliable, we introduce an implicit manifold regularization over neighboring voxels to suppress non-watertight surfaces, and convert predicted SDF grids into meshes via Marching Cubes so that rendered normal losses can supervise the model directly from its predicted SDF. To improve alignment between the conditioning image and generated geometry, Direct3D-V3 also predicts the camera parameters of the conditioning image as an auxiliary task, encouraging the DiT to learn the mapping from image observations to 3D shape. This latent-free design removes the reconstruction bottleneck, brings training under an objective in the native voxel domain, and yields meshes with substantially richer local detail. The predicted camera and native SDF voxel output further make Direct3D-V3 extensible to generative reconstruction, where diffusion is interleaved with normal-guided refinement to improve alignment with the observed view while the generative prior completes unseen regions. Project page: https://dreamtechai.github.io/Direct3D-V3.",
       "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.26511.png",
       "source": "HF Trending Papers",
-      "extra": "▲ 4",
-      "score": 25,
+      "extra": "▲ 6",
+      "score": 35,
       "category": "AI Research"
-    },
-    {
-      "guid": "2611.25935",
-      "title": "TwinD: Generalizing Deepfake Detection from Blending to Entire Face Synthesis",
-      "link": "https://huggingface.co/papers/2611.25935",
-      "authors": [
-        "Andrii Yermakov",
-        "Jan Cech",
-        "Mario Fritz",
-        "Jiri Matas"
-      ],
-      "date": "2026-11-18T19:00:00.000Z",
-      "summary": "TwinD, trained on reconstruction and blob twins derived from real frames, detects both blending and entire-face-synthesis deepfakes, improving AUROC over prior detectors.",
-      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.25935.png",
-      "source": "HF Trending Papers",
-      "extra": "▲ 1",
-      "score": 25,
-      "category": "Cyber Security"
-    },
-    {
-      "guid": "2611.25279",
-      "title": "Accord: Universal Online Metric Localization and Dense Mapping from one Camera and an IMU",
-      "link": "https://huggingface.co/papers/2611.25279",
-      "authors": [
-        "Jaafar Mahmoud",
-        "Arthur Movsesyan",
-        "Cuong Huynh",
-        "Mikhail Iumanov",
-        "Sergey Zagoruyko",
-        "Sergey Kolyubin"
-      ],
-      "date": "2026-11-17T19:00:00.000Z",
-      "summary": "Dense metric mapping from a single camera and IMU remains challenging: visual-inertial odometry (VIO) provides metric motion but sparse geometry, whereas feed-forward depth models predict dense structure without ensuring metric scale. We present Accord, which constructs an accurate online dense metric map from any camera with an IMU. A VIO filter publishes metric poses, a depth foundation model conditioned on them predicts depth for short keyframe windows, and a factor graph fuses the resulting submaps. Recent work has explored several approaches to this problem. What is essential is the multi-view agreement (Accord), which is considered in SLAM as a source of geometric self-consistency. Accord anchors each keyframe window to metric 3D points triangulated from the filter poses, then exploits bidirectional dense depth agreement between co-visible images to estimate and correct per-image scale errors while preserving the metric scale established by the anchors. Context keyframes further improve depth prediction, and the resulting submaps are fused in a factor graph. We evaluate a single mapping configuration across five public camera-IMU setups and a new Phone-rig/GoPro dataset. With nothing tuned per dataset/setup and every map aligned only by Accord's own trajectory, Accord achieves consistently best/second-best mean F-score at 5 cm on every platform. Accord is open-source along with the phone-rig dataset for the benefit of the research community",
-      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.25279.png",
-      "source": "HF Trending Papers",
-      "extra": "▲ 10",
-      "score": 25,
-      "category": "Robotics & Engineering"
     },
     {
       "guid": "2611.26107",
@@ -830,7 +956,7 @@
       "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.26107.png",
       "source": "HF Trending Papers",
       "extra": "▲ 25",
-      "score": 25,
+      "score": 35,
       "category": "AI Research"
     },
     {
@@ -849,174 +975,44 @@
       "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.26268.png",
       "source": "HF Trending Papers",
       "extra": "▲ 18",
-      "score": 25,
+      "score": 33,
       "category": "AI Research"
     },
     {
-      "guid": "2611.26298",
-      "title": "DailySafe: Benchmarking Dynamic Safety Awareness in Everyday Multi-Turn Multimodal Interactions",
-      "link": "https://huggingface.co/papers/2611.26298",
+      "guid": "2611.22343",
+      "title": "PURE: A Diagnostic Benchmark for Multi-Granularity Multimodal Identity Matching",
+      "link": "https://huggingface.co/papers/2611.22343",
       "authors": [
-        "Xuankun Rong",
-        "Xinhao Deng",
-        "Wenzhang Jiang",
-        "Ziheng Peng",
-        "Siyuan Liang",
-        "Wenke Huang",
-        "Pablo Arbelaez",
-        "Mang Ye"
+        "Hengyu You",
+        "Xintong Wang",
+        "Jin Cao",
+        "Liang Ding"
+      ],
+      "date": "2026-11-16T19:00:00.000Z",
+      "summary": "A diagnostic benchmark evaluates multimodal large language models on multi-granularity identity matching, revealing gaps in understanding, reasoning, and evidence-grounded judgment across base and variant levels.",
+      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.22343.png",
+      "source": "HF Trending Papers",
+      "extra": "▲ 6",
+      "score": 32,
+      "category": "AI Research"
+    },
+    {
+      "guid": "2611.26540",
+      "title": "AURA: AUdio-dRiven streaming Avatar",
+      "link": "https://huggingface.co/papers/2611.26540",
+      "authors": [
+        "Nathaniel Cohen",
+        "Nicolas Dufour",
+        "Amélie Royer",
+        "Alasdair Newson",
+        "Patrick Pérez"
       ],
       "date": "2026-11-18T19:00:00.000Z",
-      "summary": "A new benchmark, DailySafe, evaluates the ability of multimodal large language models to maintain safety and address evolving risks within complex, multi-turn, real-world interactions.",
-      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.26298.png",
+      "summary": "AURA enables low-latency, causal video generation for streaming applications by utilizing a rolling KV cache and a two-stage distillation pipeline to significantly reduce the required diffusion steps.",
+      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.26540.png",
       "source": "HF Trending Papers",
       "extra": "▲ 4",
-      "score": 25,
-      "category": "AI Research"
-    },
-    {
-      "guid": "2611.26629",
-      "title": "Posterior Matching Distillation",
-      "link": "https://huggingface.co/papers/2611.26629",
-      "authors": [
-        "Hidir Yesiltepe",
-        "Julius Berner",
-        "Arash Vahdat",
-        "Pinar Yanardag"
-      ],
-      "date": "2026-11-18T19:00:00.000Z",
-      "summary": "Posterior Matching Distillation trains a stochastic student to match a teacher diffusion model’s full posterior via tilted mean constraints, enabling high-quality few-step image generation without auxiliary score networks.",
-      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.26629.png",
-      "source": "HF Trending Papers",
-      "extra": "▲ 38",
-      "score": 25,
-      "category": "AI Research"
-    },
-    {
-      "guid": "2611.25776",
-      "title": "Suppressing the Shortcut Hidden Behind the Gains of VideoLLM Fine-Tuning",
-      "link": "https://huggingface.co/papers/2611.25776",
-      "authors": [
-        "Youngwoo Shin",
-        "Jongsuk Kim",
-        "Junmo Kim"
-      ],
-      "date": "2026-11-18T19:00:00.000Z",
-      "summary": "VETO suppresses shortcut learning in VideoLLMs by projecting supervised fine-tuning updates onto the orthogonal complement of the text-only activation subspace, improving out-of-distribution video reasoning.",
-      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.25776.png",
-      "source": "HF Trending Papers",
-      "extra": "▲ 4",
-      "score": 25,
-      "category": "AI Research"
-    },
-    {
-      "guid": "2611.26624",
-      "title": "PlayCraft: Designing Engaging Games from Agent Play Experience",
-      "link": "https://huggingface.co/papers/2611.26624",
-      "authors": [
-        "Weihao Cheng"
-      ],
-      "date": "2026-11-18T19:00:00.000Z",
-      "summary": "PlayCraft uses a vision-based player agent and a crafter agent to iteratively revise games, improving player learning gains and slopes across intelligence settings.",
-      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.26624.png",
-      "source": "HF Trending Papers",
-      "extra": "▲ 3",
-      "score": 25,
-      "category": "AI Research"
-    },
-    {
-      "guid": "2611.26409",
-      "title": "WeMM-Video: Pushing the Frontiers of Open-Source Omni-Modal Video Understanding",
-      "link": "https://huggingface.co/papers/2611.26409",
-      "authors": [
-        "Changli Tang",
-        "Jie Yang",
-        "Tianyi Wang",
-        "Lei Li",
-        "Daoze Zhang",
-        "Zijie Xin",
-        "Zhan Liu",
-        "Li Li",
-        "Jinchang Xu",
-        "Fengyun Rao",
-        "Chao Zhang",
-        "Jing Lyu"
-      ],
-      "date": "2026-11-18T19:00:00.000Z",
-      "summary": "WeMM-Video is a family of Chinese-English bilingual omni-modal foundation models that unify text, image, audio, and video processing for joint audio-visual perception and reasoning, using hybrid thinking modes and large-scale training to achieve strong open-source video understanding results.",
-      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.26409.png",
-      "source": "HF Trending Papers",
-      "extra": "▲ 45",
-      "score": 25,
-      "category": "AI Research"
-    },
-    {
-      "guid": "2611.26380",
-      "title": "EgoCaptioner: Towards Comprehensive and Fine-Grained Egocentric Video Captioning",
-      "link": "https://huggingface.co/papers/2611.26380",
-      "authors": [
-        "Yuqi Tang",
-        "Yang Shi",
-        "Yuran Wang",
-        "Tengfei Liu",
-        "Rundong Wang",
-        "Zongyang Qiu",
-        "Qixun Wang",
-        "Zhuoran Zhang",
-        "Xuanyu Zhu",
-        "Yifan Xu",
-        "Yiyan Ji",
-        "Shujie Li",
-        "Shixuan Liu",
-        "Haotian Wang",
-        "Yuanxing Zhang",
-        "Pengfei Wan",
-        "Chengwei Qin"
-      ],
-      "date": "2026-11-18T19:00:00.000Z",
-      "summary": "Egocentric video captioning requires fine-grained detail and accurate timing, yet current multimodal large language models (MLLMs) often miss brief actions, confuse their order, or misinterpret the wearer's motion. Existing caption formats also offer limited support for combining detailed narration with precise timing. We present EgoCaptioner, which pairs a video-level overview of the setting, participants, and the wearer's overall activity with timed steps whose narration adapts to varying perceptual demands and marks key moments at specific timestamps. We develop a coarse-to-fine annotation pipeline that establishes event structure before expanding step descriptions, yielding 50,000 training examples from eight egocentric video sources. Complementary rewards assess factual accuracy and coverage, measure step-level temporal alignment, and penalize fragmented or redundant narration, guiding caption refinement through Group Relative Policy Optimization (GRPO). To improve the reliability of factual supervision, we supplement caption references with pose-derived motion facts when sensor data are available. Across five egocentric benchmarks, EgoCaptioner achieves leading performance among evaluated open-source models in caption quality, caption-conditioned question answering, and temporal alignment. It also surpasses Gemini 3.1 Pro on PhysCapBench and all evaluated proprietary baselines on Minerva-Ego under the caption-to-QA protocol. Ablations support the complementary roles of factual and temporal rewards and show that coarse-to-fine annotation provides more effective supervision than single-pass annotation.",
-      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.26380.png",
-      "source": "HF Trending Papers",
-      "extra": "▲ 25",
-      "score": 25,
-      "category": "AI Research"
-    },
-    {
-      "guid": "2611.24809",
-      "title": "On-Policy Morphing into Hybrid Attention Models",
-      "link": "https://huggingface.co/papers/2611.24809",
-      "authors": [
-        "Disen Lan",
-        "Xuanda Wang",
-        "Jianbin Zheng",
-        "Huafeng Kuang",
-        "Wei Tang",
-        "Yu Cheng"
-      ],
-      "date": "2026-11-17T19:00:00.000Z",
-      "summary": "FlashMorph2 performs on-policy layer selection and weight adaptation for hybrid attention Transformers, improving long-context benchmark scores while selecting layers efficiently across model scales.",
-      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.24809.png",
-      "source": "HF Trending Papers",
-      "extra": "▲ 14",
-      "score": 25,
-      "category": "AI Research"
-    },
-    {
-      "guid": "2611.23835",
-      "title": "NarrowSpec: Draft Hidden Width Need Not Match the Target in Speculative Decoding",
-      "link": "https://huggingface.co/papers/2611.23835",
-      "authors": [
-        "Alagappan Valliappan",
-        "Ankit More",
-        "Dheevatsa Mudigere",
-        "Jatin Mitra"
-      ],
-      "date": "2026-11-17T19:00:00.000Z",
-      "summary": "Speculative decoding is widely used to speed up generation in large language models (LLMs), with a small draft model proposing tokens that one forward pass of the target model verifies. Draft models that read the target's hidden states, such as DFlash and EAGLE-3, typically inherit the target's hidden width. We show that the draft's whole residual stream can run at half or a quarter of that width while largely preserving acceptance. For DFlash, which borrows the target's vocabulary projection, the trained output adapter folds into it, giving one narrower projection with logits unchanged up to floating-point rounding. We test two drafter families, DFlash and EAGLE-3, on two targets, Qwen3-8B (NVFP4) and GPT-OSS-20B (MXFP4), in SGLang on a B200 and a DGX Spark (GB10). At batch size 1 and temperature 0, narrowing the draft to half or a quarter width speeds up end-to-end decoding by 1.06-1.12x on B200 and 1.13-1.44x on GB10. The speedup holds at larger batch sizes. From batch 32 to the largest batch each GPU fits, narrowing reaches up to 1.21x on both GPUs, and no narrow draft is slower than full width.",
-      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.23835.png",
-      "source": "HF Trending Papers",
-      "extra": "▲ 5",
-      "score": 25,
+      "score": 30,
       "category": "AI Research"
     },
     {
@@ -1035,25 +1031,7 @@
       "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.25200.png",
       "source": "HF Trending Papers",
       "extra": "▲ 3",
-      "score": 20,
-      "category": "AI Research"
-    },
-    {
-      "guid": "2611.21383",
-      "title": "The Mask Is Not the Object: Volumetric Supervision for 3D Gaussian Segmentation",
-      "link": "https://huggingface.co/papers/2611.21383",
-      "authors": [
-        "Jeonghwan Cho",
-        "Minsu Kim",
-        "Junyoung Hong",
-        "Seon Joo Kim"
-      ],
-      "date": "2026-11-15T19:00:00.000Z",
-      "summary": "A plug-and-play objective, VODA, groups per-pixel contributors by local depth to supervise all Gaussians in selected depth clusters, improving volumetric segmentation and enabling evaluation via Removal-3D and Removal Depth Error.",
-      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.21383.png",
-      "source": "HF Trending Papers",
-      "extra": "▲ 33",
-      "score": 20,
+      "score": 28,
       "category": "AI Research"
     }
   ]

@@ -8,7 +8,7 @@ date: "Sat, 21 Nov 2026 17:23:07 +0530"
 score: 50
 guid: "https://thehackernews.com/2026/11/a-single-malicious-webpage-let.html"
 image: ""
-generated: "2026-11-23T19:04:08+05:30"
+generated: "2026-11-24T19:04:06+05:30"
 ---
 
 A malicious webpage could extract a Meta Muse user's private conversations and stored memories from the assistant without triggering any approval prompt, researchers have shown. The same attack could be extended to reach the credentials Muse stores for the user's connected accounts. The work was a laboratory demonstration, not an attack on real users, and it stayed inside the individual user's

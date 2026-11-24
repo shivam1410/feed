@@ -8,7 +8,7 @@ date: "2026-11-20"
 score: 35
 guid: "10.1038/d41586-026-03787-5"
 image: ""
-generated: "2026-11-23T19:04:08+05:30"
+generated: "2026-11-24T19:04:06+05:30"
 ---
 
 Long-awaited report makes recommendations for strengthening the reliability of the scientific record.

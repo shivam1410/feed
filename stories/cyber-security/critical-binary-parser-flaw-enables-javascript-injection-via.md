@@ -1,0 +1,14 @@
+---
+title: "Critical binary-parser Flaw Enables JavaScript Injection via Malicious Parser Definitions"
+category: "Cyber Security"
+source: "The Hacker News"
+url: "https://thehackernews.com/2026/11/critical-binary-parser-flaw-enables.html"
+authors: ["info@thehackernews.com (The Hacker News)"]
+date: "Mon, 23 Nov 2026 18:52:20 +0530"
+score: 30
+guid: "https://thehackernews.com/2026/11/critical-binary-parser-flaw-enables.html"
+image: ""
+generated: "2026-11-24T19:04:06+05:30"
+---
+
+A critical security flaw has been disclosed in the popular binary-parser library that could allow an attacker who controls parser definitions to execute arbitrary code. The vulnerability, tracked as CVE-2026-134814 (CVSS score: 9.2 / 8.1), is a case of code injection impacting binary-parser versions prior to 2.3.1. "Binary-parser before 2.3.1 contains a code injection vulnerability that allows

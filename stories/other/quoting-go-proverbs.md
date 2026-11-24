@@ -8,7 +8,7 @@ date: "2026-11-17T06:16:26+00:00"
 score: 3
 guid: "https://simonwillison.net/2026/Nov/17/go-proverbs/"
 image: ""
-generated: "2026-11-23T19:04:08+05:30"
+generated: "2026-11-24T19:04:06+05:30"
 ---
 
 A little copying is better than a little dependency. — Go Proverbs , via Tags: go , programming

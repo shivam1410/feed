@@ -8,7 +8,7 @@ date: "Sun, 22 Nov 2026 10:33:41 +0530"
 score: 30
 guid: "https://thehackernews.com/2026/11/researchers-demonstrate-ghostscript.html"
 image: ""
-generated: "2026-11-23T19:04:08+05:30"
+generated: "2026-11-24T19:04:06+05:30"
 ---
 
 A now-patched flaw in Ghostscript allows a crafted file to escape the program's security sandbox and run commands on the server that processes it. Ghostscript is the interpreter that many Linux servers use to convert uploaded PDFs, PostScript files, and images into other formats, often without the application calling it directly. Security firm pwn.ai showed this week that ordinary upload,

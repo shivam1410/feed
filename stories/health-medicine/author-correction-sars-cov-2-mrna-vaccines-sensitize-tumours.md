@@ -8,7 +8,7 @@ date: "2026-11-20"
 score: 10
 guid: "10.1038/s41586-026-10974-x"
 image: ""
-generated: "2026-11-23T19:04:08+05:30"
+generated: "2026-11-24T19:04:06+05:30"
 ---
 
 Author Correction: SARS-CoV-2 mRNA vaccines sensitize tumours to immune checkpoint blockade

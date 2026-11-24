@@ -8,7 +8,7 @@ date: "2026-11-19"
 score: 10
 guid: "10.1038/s41586-026-11421-7"
 image: ""
-generated: "2026-11-23T19:04:08+05:30"
+generated: "2026-11-24T19:04:06+05:30"
 ---
 
 Author Correction: Pharmacological inhibition of METTL1 as a therapy against solid and blood cancers

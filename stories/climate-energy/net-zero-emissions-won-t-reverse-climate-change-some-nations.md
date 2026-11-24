@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/d41586-026-03789-3"
 authors: ["James Dinneen"]
 date: "2026-11-20"
-score: 65
+score: 60
 guid: "10.1038/d41586-026-03789-3"
 image: ""
-generated: "2026-11-23T19:04:08+05:30"
+generated: "2026-11-24T19:04:06+05:30"
 ---
 
-Reaching net zero emissions may not be enough to reverse climate change. Some countries are looking at net negative instead. Once temperatures pass the 1.5 °C target, bringing them back down would mean pulling massive amounts of carbon dioxide out of the air. Nations are starting to face that reality. The article is short, so it does not say which countries are involved or how much carbon would need removing.
+Net zero emissions alone won't reverse climate change, so some countries are looking at net negative goals. The text says nations are starting to face a hard reality. Bringing temperatures down after passing the 1.5 ºC target would require removing massive amounts of carbon dioxide from the air. Why it matters: stopping emissions may not be enough to undo the warming.

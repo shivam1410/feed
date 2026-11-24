@@ -8,7 +8,7 @@ date: "2026-11-20"
 score: 60
 guid: "10.1038/d41586-026-03790-w"
 image: ""
-generated: "2026-11-23T19:04:08+05:30"
+generated: "2026-11-24T19:04:06+05:30"
 ---
 
 Artificial-intelligence tools are helping citizen scientists to identify previously unknown exoplanet candidates — some more credible than others.

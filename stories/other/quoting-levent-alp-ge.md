@@ -5,10 +5,10 @@ source: "Simon Willison"
 url: "https://simonwillison.net/2026/Nov/20/levent-alpoge/"
 authors: []
 date: "2026-11-20T16:30:48+00:00"
-score: 40
+score: 60
 guid: "https://simonwillison.net/2026/Nov/20/levent-alpoge/"
 image: ""
-generated: "2026-11-23T19:04:08+05:30"
+generated: "2026-11-24T19:04:06+05:30"
 ---
 
-I believe I have, working with Claude, discovered a proof of the Riemann Hypothesis. In fact, the method easily extends much further, resolving the so-called Generalized Riemann Hypothesis, and I expect, with more time, the Extended Riemann Hypothesis too. Claude and I have also formalized the arguments without assumptions. It is natural to feel that this is an end, in my case a loss of a principal guiding light, but what I saw during the course of progress so amazed me that I believe it is one dawn across science of something far greater. [...] Claude and I have had a great time together with such breadth in recent months, but this time Claude far outpaced me near the finish line. No, Claude flew, and danced, and sparkled near that finish line. — Levent Alpöge , alpo.ge/remark.pdf Tags: anthropic , claude , generative-ai , mathematics , ai , llms , levent-alpoge
+Mathematician Levent Alpöge says he and Claude have found a proof of the Riemann Hypothesis. He also says the method extends to the Generalized Riemann Hypothesis, and that they formalized the arguments. He credits Claude with pushing past him near the finish line. This is his own claim, and the excerpt does not show outside checking. If it holds up, it would settle one of mathematics' most famous open problems.

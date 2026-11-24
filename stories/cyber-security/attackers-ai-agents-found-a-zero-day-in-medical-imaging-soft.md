@@ -5,10 +5,10 @@ source: "The Hacker News"
 url: "https://thehackernews.com/2026/11/attackers-ai-agents-found-zero-day-in.html"
 authors: ["info@thehackernews.com (The Hacker News)"]
 date: "Sat, 21 Nov 2026 16:33:17 +0530"
-score: 55
+score: 60
 guid: "https://thehackernews.com/2026/11/attackers-ai-agents-found-zero-day-in.html"
 image: ""
-generated: "2026-11-23T19:04:08+05:30"
+generated: "2026-11-24T19:04:06+05:30"
 ---
 
 Suspected China-linked hackers used autonomous AI agents to find a previously unknown flaw in MONAI Label, an open-source medical imaging server, and gain root access to a university server, Amazon Threat Intelligence said this week. The flaw allows an attacker with no account to write files outside the server's storage folder, and it affects MONAI Label 0.8.5 and earlier in the default setup,

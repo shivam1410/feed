@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/d41586-026-03783-9"
 authors: ["Miryam Naddaf"]
 date: "2026-11-19"
-score: 45
+score: 50
 guid: "10.1038/d41586-026-03783-9"
 image: ""
-generated: "2026-11-23T19:04:08+05:30"
+generated: "2026-11-24T19:04:06+05:30"
 ---
 
-Today's older adults keep their memory working for longer than earlier generations did. A study of 219,000 adults found this pattern. The group is very large, which gives the result weight. The text does not say which memory tests were used or how big the difference is between generations.
+Older people today keep their memory working for longer than earlier generations did. A study of 219,000 adults shows this change. Today's older adults hold on to memory longer than their parents did. That is encouraging news for anyone worried about memory loss in later life.

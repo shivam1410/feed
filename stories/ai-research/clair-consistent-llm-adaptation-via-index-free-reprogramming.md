@@ -1,0 +1,14 @@
+---
+title: "CLAIR: Consistent LLM Adaptation via Index-free Reprogramming"
+category: "AI Research"
+source: "arXiv (cs.LG)"
+url: "https://arxiv.org/abs/2611.28721"
+authors: ["Dongkuk Kim, Jungkyu Shin, Yoonhyuk Choi, Jong Wook Kim, Beakcheol Jang"]
+date: "Tue, 24 Nov 2026 00:00:00 -0500"
+score: 30
+guid: "oai:arXiv.org:2611.28721v1"
+image: ""
+generated: "2026-11-24T19:04:06+05:30"
+---
+
+Time-series forecasting with pretrained large language models (LLMs) uses contextualized patch representations, raising the question of how to align them. Matching patches at the same temporal position is natural, but self-attention allows each patch state to incorporate information from elsewhere in the input window, suggesting that useful correspondences can extend across positions. This flexibility, however, does not necessarily translate into consistent forecasts: similar patch states may play different roles when used in their original temporal order. To address both issues, we propose CLAIR (Consistent LLM Adaptation via Index-free Reprogramming), a teacher-guided framework that combines patch-level transport alignment (PTA) and forecast-level consistency (FC). A clean-view exponential moving average (EMA) teacher guides a mildly perturbed student, with PTA establishing soft, representation-dependent correspondences and FC encouraging agreement at corresponding future steps. The forecasting head retains the original patch order. We test this combination through controlled comparisons: while PTA and index-wise alignment perform similarly without FC, PTA+FC under EMA supervision reduces horizon-averaged mean squared error (MSE) by 2.1% on ETTh1 and 2.6% on ETTm1 relative to Index+FC. The same preference for PTA+FC emerges in comparisons with alternative matching strategies on Weather and ETTh2. Beyond these controls, CLAIR achieves the lowest horizon-averaged MSE on five of six long-term benchmarks and the lowest aggregate overall weighted average (OWA) on M4 among evaluated methods, with competitive few-shot performance. As the teacher and transport are used only during training, inference requires only the student.

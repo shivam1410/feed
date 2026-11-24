@@ -5,10 +5,10 @@ source: "Nature"
 url: "https://www.nature.com/articles/d41586-026-03799-1"
 authors: ["Holly Else"]
 date: "2026-11-20"
-score: 45
+score: 50
 guid: "10.1038/d41586-026-03799-1"
 image: ""
-generated: "2026-11-23T19:04:08+05:30"
+generated: "2026-11-24T19:04:06+05:30"
 ---
 
-An investigation has found 'impossible proteins' in hundreds of research papers. The problem may be widespread. It has already prompted retractions and corrections. The article is brief, so it does not explain how the proteins were flagged as impossible.
+A sleuth has found what look like 'impossible proteins' in hundreds of research papers. The investigation points to a potentially widespread problem. It is already prompting retractions and corrections.

@@ -1,0 +1,14 @@
+---
+title: "Qwen-Image-HD: Autoregressive Diffusion for High Definition Image Generation"
+category: "AI Research"
+source: "HF Trending Papers"
+url: "https://huggingface.co/papers/2611.32736"
+authors: ["Zihao Liu", "Zekai Zhang", "Shengming Yin", "Zikai Zhou", "Donghao Zhou", "Chenyang Zhu", "Lihan Jiang", "Ningyuan Tang", "Bingxuan Zhao", "Yanran Zhang", "Yan Shu", "Zhening Liu", "Jiahao Li", "Jie Zhang", "Kaiyuan Gao", "Kun Yan", "Qihang Ai", "Rui Song", "Shuo Cao", "Xiao Xu", "Xiaoyue Chen", "Yuxiang Chen", "Zhendong Wang", "Zhouyang Li", "Bo Zheng", "Jun Zhou", "Xiu Li", "Chenfei Wu"]
+date: "2026-11-23T19:00:00.000Z"
+score: 40
+guid: "2611.32736"
+image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.32736.png"
+generated: "2026-11-26T13:13:26+05:30"
+---
+
+Fine-tuning a generator on a complete high-resolution canvas requires long image sequences and substantial computation, yet local regions can still exhibit unnatural repetitive stripes when training resources are limited. We introduce Qwen-Image-HD, which adapts Qwen-Image 2.0 to high-resolution synthesis through local training and blockwise autoregressive generation. Each prediction covers a target tile at 1K scale, conditioned on high-resolution upper and left neighbors and a compressed historical thumbnail. These conditions provide adjacent fine-scale structures and an overview of the scene generated so far. To integrate these complementary cues, we map both forms of history and the target to a shared canvas coordinate system to express their spatial relationships and scale differences. On Qwen-Image-Bench at 4K, Qwen-Image-HD achieves stronger overall evaluation performance than direct 4K generation with FLUX-3-Image-Klein. Compared with full-image 4K supervised fine-tuning of the same backbone, it achieves better generation quality with lower training compute and higher inference efficiency, while exhibiting fewer unnatural repetitive stripes in original-resolution comparisons. We further introduce a Wavefront-AutoRegressive inference schedule that generates tiles on the same anti-diagonal concurrently across GPUs to reduce single-image latency.

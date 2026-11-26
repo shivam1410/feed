@@ -1,0 +1,14 @@
+---
+title: "TQ-HQNet: A Trainability-Aware and Qubit-Efficient Hybrid Quantum Neural Network for Cross-Domain Learning on Heterogeneous Data"
+category: "Other"
+source: "arXiv (cs.LG)"
+url: "https://arxiv.org/abs/2611.31908"
+authors: ["Abdur Rasool, Saba Aslam, Hui Chen, Chayut Bunterngchit"]
+date: "Wed, 25 Nov 2026 00:00:00 -0500"
+score: ""
+guid: "oai:arXiv.org:2611.31908v1"
+image: ""
+generated: "2026-11-26T13:13:26+05:30"
+---
+
+Hybrid quantum neural networks are a promising direction for noisy intermediate-scale quantum computing, but their practical effectiveness is often limited by poor trainability, rigid circuit design, and weak robustness across heterogeneous real-world tasks. This paper proposes TQ-HQNet, a Trainability-Aware and Qubit-Efficient Hybrid Quantum Neural Network for cross-domain learning on heterogeneous data. The proposed framework combines three mechanisms: 1) adaptive latent compression to map domain-specific features into qubit-compatible representations, 2) trainability-aware search over compact variational circuit candidates, and 3) hybrid fusion of multiple shallow quantum experts to improve robustness without increasing qubit cost excessively. TQ-HQNet is evaluated on four public datasets spanning neurological screening, phishing detection, financial direction prediction, and DNA sequence classification. Across all domains, the proposed model consistently improves over a fixed hybrid quantum baseline, with balanced-accuracy gains of +0.280, +0.170, +0.071, and +0.060, respectively. Ablation and sensitivity studies confirm that gains arise from trainability-aware compact circuit selection and expert fusion, not circuit scaling. Although classical baselines outperform on some tasks, fixed-split results show consistent improvements over the fixed hybrid reference. These analyses support the practical role of compact selection and fusion, with repeated-split and hardware-aware studies left for future work.

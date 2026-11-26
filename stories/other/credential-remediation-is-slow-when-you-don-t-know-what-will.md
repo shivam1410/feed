@@ -1,0 +1,14 @@
+---
+title: "Credential Remediation Is Slow When You Don’t Know What Will Break"
+category: "Other"
+source: "The Hacker News"
+url: "https://thehackernews.com/2026/11/credential-remediation-is-slow-when-you.html"
+authors: ["info@thehackernews.com (The Hacker News)"]
+date: "Wed, 25 Nov 2026 17:21:48 +0530"
+score: ""
+guid: "https://thehackernews.com/2026/11/credential-remediation-is-slow-when-you.html"
+image: ""
+generated: "2026-11-26T13:13:26+05:30"
+---
+
+TL;DR More than 64% still valid after four years: GitGuardian’s State of Secrets Sprawl 2026 found that most valid secrets discovered in 2022 still worked in January 2026, because teams stall on what a revoke will break. Validity-only triage misses 46% of critical secrets: Prioritize by impact instead, weighing what a credential can access and whether it leaked publicly, and update the

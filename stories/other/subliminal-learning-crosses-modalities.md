@@ -1,0 +1,14 @@
+---
+title: "Subliminal Learning Crosses Modalities"
+category: "Other"
+source: "arXiv (cs.LG)"
+url: "https://arxiv.org/abs/2611.31870"
+authors: ["Saraswathy Amjith, Kimia Hamidieh, Antonio Torralba, Yoon Kim"]
+date: "Wed, 25 Nov 2026 00:00:00 -0500"
+score: ""
+guid: "oai:arXiv.org:2611.31870v1"
+image: ""
+generated: "2026-11-26T13:13:26+05:30"
+---
+
+Subliminal learning refers to a surprising phenomenon in language models wherein a prompt given to one model (e.g., preference for cats) can be subliminally distilled to another model via training on data that is ostensibly meaningless (e.g., number sequences). This paper shows that text-based subliminal learning transfers cross-modally, in particular, a topic/preference (e.g., animals) transferred through number sequences across vision-language models also changes how images are generated and represented. First, we show that a diffusion model using the student as its text encoder generates the student's animal more often than with the original model as its text encoder, but not its color or style. We then investigate the mechanism behind this phenomenon and which concepts transfer across modalities. A constant component of the student's change accounts for much of the shift of image representations toward the trait. Adding this component uniformly can change the generated animal, which depends on the whole prompt, but not concepts such as color or style, which are encoded in a single token. Finally, we introduce weight lens as an approach to identify a subliminal trait from the weights of a single trained model, and show that it identifies the trait of nearly every student, including traits that do not surface in generated images.

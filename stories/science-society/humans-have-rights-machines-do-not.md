@@ -8,7 +8,7 @@ date: "2026-11-23T12:01:45Z"
 score: 45
 guid: "https://www.schneier.com/?p=73011"
 image: ""
-generated: "2026-11-24T19:04:06+05:30"
+generated: "2026-11-26T13:13:26+05:30"
 ---
 
-This essay opens with a lawsuit. A mother sued Character.AI after her fourteen-year-old son killed himself following months of chats with its chatbot. The company argued the bot's words were protected speech, and that it was a service rather than a product. In May 2025, Judge Anne Conway rejected both arguments. The excerpt ends there, so the essay's full argument is not covered here.
+This essay looks at a court case involving an AI chatbot. Character.AI asked a federal court in Florida to dismiss a wrongful-death suit. A fourteen-year-old boy died by suicide after months of conversations with the chatbot. The company argued the chatbot's words are protected speech, and that Character.AI is a service, not a product. In May 2025, Judge Anne Conway accepted neither argument.

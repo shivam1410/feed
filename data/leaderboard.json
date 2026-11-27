@@ -1,106 +1,106 @@
 {
-  "generatedAt": "2026-11-26T13:13:55+05:30",
+  "generatedAt": "2026-11-27T19:04:05+05:30",
   "source": "Hugging Face — trending models",
   "models": [
     {
       "id": "thinkingmachines/Inkling-2-Mini",
       "task": "image-text-to-text",
-      "likes": 6091,
-      "downloads": 96527,
+      "likes": 6375,
+      "downloads": 155741,
       "library": "transformers",
       "createdAt": "2026-11-17T00:26:57.000Z",
       "url": "https://huggingface.co/thinkingmachines/Inkling-2-Mini",
-      "summary": "A general-purpose multimodal mixture-of-experts model accepting text and image inputs to generate text for chat, coding, agentic and tool-use applications, released with open weights under Apache 2.0."
+      "summary": "Open-weight multimodal model from Thinking Machines that takes text and image inputs and generates text, for chat, coding, and agentic tool-use applications."
     },
     {
       "id": "unsloth/Inkling-2-Mini-GGUF",
       "task": "image-text-to-text",
-      "likes": 1394,
-      "downloads": 2445633,
+      "likes": 1543,
+      "downloads": 3302340,
       "library": null,
       "createdAt": "2026-11-20T13:09:48.000Z",
       "url": "https://huggingface.co/unsloth/Inkling-2-Mini-GGUF",
-      "summary": "Quantized GGUF builds of Inkling 2 Mini, a multimodal text-and-image model, for running locally with llama.cpp-compatible tools at varying sizes and quality levels."
-    },
-    {
-      "id": "inworld/voice-isolator",
-      "task": "audio-to-audio",
-      "likes": 912,
-      "downloads": 15244,
-      "library": "inworld-voice-isolation",
-      "createdAt": "2026-11-14T02:14:35.000Z",
-      "url": "https://huggingface.co/inworld/voice-isolator",
-      "summary": "Apache-2.0 48 kHz speech isolation models that separate a voice from noisy recordings or live audio streams, with offline and realtime variants."
-    },
-    {
-      "id": "AtomicChat/Inkling-2-Mini-Uncensored-GGUF",
-      "task": "image-text-to-text",
-      "likes": 857,
-      "downloads": 762491,
-      "library": null,
-      "createdAt": "2026-11-20T20:42:23.000Z",
-      "url": "https://huggingface.co/AtomicChat/Inkling-2-Mini-Uncensored-GGUF",
-      "summary": "GGUF quantizations and a LoRA adapter of an uncensored build of Inkling 2 Mini, a multimodal text-and-image model, for local llama.cpp use."
+      "summary": "Quantized GGUF builds of Inkling 2 Mini, a text and image model, packaged by Unsloth for llama.cpp and local inference at multiple bit-widths."
     },
     {
       "id": "SulphurAI/Sulphur-3",
       "task": null,
-      "likes": 1125,
-      "downloads": 189735,
+      "likes": 1308,
+      "downloads": 539421,
       "library": "minimax-h3",
       "createdAt": "2026-10-31T20:31:01.000Z",
       "url": "https://huggingface.co/SulphurAI/Sulphur-3",
-      "summary": "An uncensored video generation model derived from MiniMax H3, distributed as safetensors with optional corrector and quantized variants, under the MiniMax H3 license."
+      "summary": "Community video generation model derived from MiniMax H3, shipped as a safetensors checkpoint with optional corrector and LoRA files."
+    },
+    {
+      "id": "AtomicChat/Inkling-2-Mini-Uncensored-GGUF",
+      "task": "image-text-to-text",
+      "likes": 973,
+      "downloads": 1059763,
+      "library": null,
+      "createdAt": "2026-11-20T20:42:23.000Z",
+      "url": "https://huggingface.co/AtomicChat/Inkling-2-Mini-Uncensored-GGUF",
+      "summary": "Modified Inkling 2 Mini variant distributed as GGUF files and a LoRA adapter for llama.cpp, accepting text and image input."
     },
     {
       "id": "prism-ml/Ternary-Bonsai-2.5-27B-GGUF",
       "task": "text-generation",
-      "likes": 387,
-      "downloads": 59366,
+      "likes": 576,
+      "downloads": 382546,
       "library": "llama.cpp",
       "createdAt": "2026-11-24T16:32:20.000Z",
       "url": "https://huggingface.co/prism-ml/Ternary-Bonsai-2.5-27B-GGUF",
-      "summary": "A 27B ternary-weight text-generation model in GGUF format for llama.cpp, aimed at agentic tool calling and coding on local hardware."
+      "summary": "Ternary-quantized 27B text model in GGUF format for llama.cpp, aimed at agentic tool calling and coding, at about 5.93 GB."
     },
     {
       "id": "Lightricks/LTX-2.5",
       "task": "image-to-video",
-      "likes": 13465,
-      "downloads": 3041405,
+      "likes": 13653,
+      "downloads": 3080701,
       "library": "diffusion-single-file",
       "createdAt": "2026-07-23T07:55:24.000Z",
       "url": "https://huggingface.co/Lightricks/LTX-2.5",
-      "summary": "Lightricks LTX-2.5 single-file diffusion model covering image-to-video, text-to-video, video-to-video, and audio-video generation tasks."
-    },
-    {
-      "id": "apple/DepthPro2",
-      "task": "depth-estimation",
-      "likes": 1262,
-      "downloads": 0,
-      "library": "depth-pro-2",
-      "createdAt": "2026-11-03T16:55:03.000Z",
-      "url": "https://huggingface.co/apple/DepthPro2",
-      "summary": "Apple's monocular metric depth estimation model family, available in four sizes, that predicts per-pixel depth and focal length from photos or video frames."
+      "summary": "LTX-2.5 single-file diffusion checkpoint for image-to-video and text-to-video generation, with audio-related tasks listed; model card has no description."
     },
     {
       "id": "llamaindex/OCRia-nano-1",
       "task": "image-to-text",
-      "likes": 245,
-      "downloads": 126,
+      "likes": 303,
+      "downloads": 626,
       "library": "liteparse",
       "createdAt": "2026-11-03T21:44:40.000Z",
       "url": "https://huggingface.co/llamaindex/OCRia-nano-1",
-      "summary": "An 8.1M-parameter CPU document-parsing pipeline from LlamaIndex that combines OCR, layout, and table detection, designed to run inside LiteParse."
+      "summary": "8.1M-parameter CPU document-parsing pipeline for OCR, table and layout detection, distilled from OCRia-1, run inside LiteParse."
     },
     {
-      "id": "inclusionAI/Ling-3.2-air",
-      "task": null,
-      "likes": 239,
-      "downloads": 1467,
-      "library": null,
-      "createdAt": "2026-11-23T03:55:12.000Z",
-      "url": "https://huggingface.co/inclusionAI/Ling-3.2-air",
-      "summary": "A 124B-total, 5.5B-active hybrid-linear MoE multimodal model for professional document reasoning and workflow automation, distributed with custom code and FP8 weights."
+      "id": "nvidia/Nemotron-Labs-Image-30B-A3B",
+      "task": "text-to-image",
+      "likes": 300,
+      "downloads": 1692,
+      "library": "transformers",
+      "createdAt": "2026-09-24T21:13:25.000Z",
+      "url": "https://huggingface.co/nvidia/Nemotron-Labs-Image-30B-A3B",
+      "summary": "30B-A3B raster image-generation component of NVIDIA's Nemotron-Labs VisualCreation framework, generating images from text with a bundled visual tokenizer."
+    },
+    {
+      "id": "inworld/voice-isolator",
+      "task": "audio-to-audio",
+      "likes": 978,
+      "downloads": 20510,
+      "library": "inworld-voice-isolation",
+      "createdAt": "2026-11-14T02:14:35.000Z",
+      "url": "https://huggingface.co/inworld/voice-isolator",
+      "summary": "Apache-2.0 48 kHz voice isolation models for cleaning noisy speech recordings offline or as a realtime stream, separating voice from background."
+    },
+    {
+      "id": "apple/DepthPro2",
+      "task": "depth-estimation",
+      "likes": 1333,
+      "downloads": 0,
+      "library": "depth-pro-2",
+      "createdAt": "2026-11-03T16:55:03.000Z",
+      "url": "https://huggingface.co/apple/DepthPro2",
+      "summary": "Metric monocular depth estimation model family in four sizes (S to H+) for per-pixel depth from photos and video, with a focal-length estimator."
     }
   ],
   "usage": {
@@ -109,8 +109,8 @@
     "models": [
       {
         "slug": "deepseek/deepseek-v4.1-flash-20261017",
-        "tokens": 73715408371556,
-        "requests": 1023731007,
+        "tokens": 77241201418229,
+        "requests": 1043499184,
         "rank": 1,
         "name": "deepseek-v4.1-flash",
         "org": "deepseek",
@@ -118,8 +118,8 @@
       },
       {
         "slug": "tencent/hy4-flash-20261116",
-        "tokens": 32065593093800,
-        "requests": 636481711,
+        "tokens": 35606392923512,
+        "requests": 483559007,
         "rank": 2,
         "name": "hy4-flash",
         "org": "tencent",
@@ -127,8 +127,8 @@
       },
       {
         "slug": "deepseek/deepseek-v4.1-flash-20260910",
-        "tokens": 14459657640822,
-        "requests": 483549864,
+        "tokens": 14233876585485,
+        "requests": 484291573,
         "rank": 3,
         "name": "deepseek-v4.1-flash",
         "org": "deepseek",
@@ -136,8 +136,8 @@
       },
       {
         "slug": "z-ai/glm-5.3-flash-20260826",
-        "tokens": 13144795033932,
-        "requests": 529134591,
+        "tokens": 13552719144647,
+        "requests": 556740748,
         "rank": 4,
         "name": "glm-5.3-flash",
         "org": "z-ai",
@@ -145,8 +145,8 @@
       },
       {
         "slug": "openai/gpt-6-luna-20260922",
-        "tokens": 7882483733984,
-        "requests": 675755246,
+        "tokens": 7536525596948,
+        "requests": 675309996,
         "rank": 5,
         "name": "gpt-6-luna",
         "org": "openai",
@@ -154,8 +154,8 @@
       },
       {
         "slug": "anthropic/claude-opus-5.5-20260921",
-        "tokens": 6480376119776,
-        "requests": 61531766,
+        "tokens": 6460906062825,
+        "requests": 60377225,
         "rank": 6,
         "name": "claude-opus-5.5",
         "org": "anthropic",
@@ -163,8 +163,8 @@
       },
       {
         "slug": "minimax/minimax-m3.1-flash-20261019",
-        "tokens": 4730067711817,
-        "requests": 59272586,
+        "tokens": 4756982726141,
+        "requests": 60436300,
         "rank": 7,
         "name": "minimax-m3.1-flash",
         "org": "minimax",
@@ -172,8 +172,8 @@
       },
       {
         "slug": "moonshotai/kimi-k3.1-pro-20261023",
-        "tokens": 4372420727219,
-        "requests": 48765932,
+        "tokens": 4667626718305,
+        "requests": 54079205,
         "rank": 8,
         "name": "kimi-k3.1-pro",
         "org": "moonshotai",
@@ -181,8 +181,8 @@
       },
       {
         "slug": "nvidia/nemotron-3-ultra-550b-a55b-20260604",
-        "tokens": 4287482862086,
-        "requests": 51516709,
+        "tokens": 4307883097243,
+        "requests": 52227260,
         "rank": 9,
         "name": "nemotron-3-ultra-550b-a55b",
         "org": "nvidia",
@@ -190,57 +190,57 @@
       },
       {
         "slug": "z-ai/glm-5.3-20260816",
-        "tokens": 3850240044883,
-        "requests": 84554116,
+        "tokens": 4068771339810,
+        "requests": 86121405,
         "rank": 10,
         "name": "glm-5.3",
         "org": "z-ai",
         "url": "https://openrouter.ai/z-ai/glm-5.3"
       },
       {
-        "slug": "meta/muse-spark-1.3-contributor-20260902",
-        "tokens": 3316231799348,
-        "requests": 40088692,
+        "slug": "typesafe/jev-1.13-20260917",
+        "tokens": 3491217539633,
+        "requests": 881311736,
         "rank": 11,
+        "name": "jev-1.13",
+        "org": "typesafe",
+        "url": "https://openrouter.ai/typesafe/jev-1.13"
+      },
+      {
+        "slug": "meta/muse-spark-1.3-contributor-20260902",
+        "tokens": 3379259902441,
+        "requests": 40155776,
+        "rank": 12,
         "name": "muse-spark-1.3-contributor",
         "org": "meta",
         "url": "https://openrouter.ai/meta/muse-spark-1.3-contributor"
       },
       {
         "slug": "baidu/ernie-5.5-flash-preview-20261110",
-        "tokens": 3288319699502,
-        "requests": 26376773,
-        "rank": 12,
+        "tokens": 3220361523062,
+        "requests": 26876207,
+        "rank": 13,
         "name": "ernie-5.5-flash-preview",
         "org": "baidu",
         "url": "https://openrouter.ai/baidu/ernie-5.5-flash-preview"
       },
       {
-        "slug": "nvidia/nemotron-3.5-super-vl-20261015",
-        "tokens": 3203141854487,
-        "requests": 37508656,
-        "rank": 13,
-        "name": "nemotron-3.5-super-vl",
-        "org": "nvidia",
-        "url": "https://openrouter.ai/nvidia/nemotron-3.5-super-vl"
-      },
-      {
-        "slug": "typesafe/jev-1.13-20260917",
-        "tokens": 3176596764215,
-        "requests": 880960377,
-        "rank": 14,
-        "name": "jev-1.13",
-        "org": "typesafe",
-        "url": "https://openrouter.ai/typesafe/jev-1.13"
-      },
-      {
         "slug": "anthropic/claude-haiku-5.5-20261007",
-        "tokens": 3104331707352,
-        "requests": 254941029,
-        "rank": 15,
+        "tokens": 3129014486860,
+        "requests": 252714388,
+        "rank": 14,
         "name": "claude-haiku-5.5",
         "org": "anthropic",
         "url": "https://openrouter.ai/anthropic/claude-haiku-5.5"
+      },
+      {
+        "slug": "nvidia/nemotron-3.5-super-vl-20261015",
+        "tokens": 3028770244846,
+        "requests": 36191256,
+        "rank": 15,
+        "name": "nemotron-3.5-super-vl",
+        "org": "nvidia",
+        "url": "https://openrouter.ai/nvidia/nemotron-3.5-super-vl"
       }
     ]
   }

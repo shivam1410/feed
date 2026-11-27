@@ -5,10 +5,10 @@ source: "The Hacker News"
 url: "https://thehackernews.com/2026/11/weekly-recap-vmware-0-day-java4shell.html"
 authors: ["info@thehackernews.com (The Hacker News)"]
 date: "Mon, 23 Nov 2026 20:40:48 +0530"
-score: 45
+score: 20
 guid: "https://thehackernews.com/2026/11/weekly-recap-vmware-0-day-java4shell.html"
 image: ""
-generated: "2026-11-26T13:13:26+05:30"
+generated: "2026-11-27T19:03:37+05:30"
 ---
 
-A weekly security recap names a VMware zero-day, Java4Shell, NGINX2Root, and Ruby2Shell. The teaser says attackers often walk through doors that are already open. One breach can help attackers reach another target. The excerpt is cut short, so the details aren't here.
+A stolen key. A trusted message. A routine update. None of these looks like the start of a major security problem. That's partly why they work. Attackers don't always need to break down a door. Sometimes they just use one that's already open. This week's stories show how quickly a small opening can turn into a much bigger mess. One breach helps attackers reach another target. Tools people rely

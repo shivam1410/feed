@@ -5,10 +5,10 @@ source: "The Hacker News"
 url: "https://thehackernews.com/2026/11/openai-and-cisco-unveil-ai-assisted.html"
 authors: ["info@thehackernews.com (The Hacker News)"]
 date: "Tue, 24 Nov 2026 11:32:57 +0530"
-score: 55
+score: 75
 guid: "https://thehackernews.com/2026/11/openai-and-cisco-unveil-ai-assisted.html"
 image: ""
-generated: "2026-11-24T19:04:06+05:30"
+generated: "2026-11-27T19:03:37+05:30"
 ---
 
-OpenAI and Cisco have teamed up to launch Shirudo (meaning "shield" in Japanese), an open-source Linux runtime that allows artificial intelligence (AI) agents to defend systems without downtime. "It lets agents write dynamic eBPF controls to shield systems from exploits, giving defenders more time to test and roll out patches," OpenAI said in a post on X. The AI upstart called the initiative a
+OpenAI and Cisco have released Shirudo, an open-source Linux runtime. It lets AI agents write dynamic eBPF controls that shield a system from exploits, with no downtime needed. OpenAI says this gives defenders more time to test and roll out patches. The name means 'shield' in Japanese. The goal is to block exploits while real patches are tested and deployed.

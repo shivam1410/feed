@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-26T13:14:22+05:30",
+  "generatedAt": "2026-11-27T19:04:33+05:30",
   "summary": "2026 is HighLevel's “AI Employee” year. Conversation AI now drafts replies in the background (Auto-Suggestive mode) and understands 30+ languages; Voice AI matured to 27 languages and 340+ voices; AI Studio added role-based team permissions; and Ask AI — powered by Claude Sonnet — drives the backend by chat.",
   "topIdeas": [
     {
@@ -15,12 +15,6 @@
       "url": "https://ideas.gohighlevel.com/voice-ai"
     },
     {
-      "title": "AI hand off to a human message for Conversation AI at the end of maximum number of replies",
-      "score": 198,
-      "product": "Conversation AI",
-      "url": "https://ideas.gohighlevel.com/conversation-ai"
-    },
-    {
       "title": "AI Voice Cloning - Train or upload a custom AI voice",
       "score": 182,
       "product": "Voice AI",
@@ -34,7 +28,7 @@
     },
     {
       "title": "AI Lead Scoring",
-      "score": 140,
+      "score": 141,
       "product": "Conversation AI",
       "url": "https://ideas.gohighlevel.com/conversation-ai"
     },
@@ -61,6 +55,12 @@
       "score": 90,
       "product": "Conversation AI",
       "url": "https://ideas.gohighlevel.com/conversation-ai"
+    },
+    {
+      "title": "Just let the AI ChatBot replies what the original AI answer is!",
+      "score": 77,
+      "product": "AI Employee",
+      "url": "https://ideas.gohighlevel.com/ai-employee"
     }
   ],
   "products": [
@@ -69,14 +69,14 @@
       "url": "https://ideas.gohighlevel.com/conversation-ai",
       "what": "AI agents that handle automated chats across every messaging channel, drafting replies in the background while a human stays in control.",
       "ideas": [
-        "AI hand off to a human message for Conversation AI at the end of maximum number of replies",
         "AI Lead Scoring",
         "Round Robin Human Hand Off",
         "human-like message delivery - split responses",
         "Conversation AI Context",
-        "Allow phone number to be saved using \"Add Contact Info\""
+        "Allow phone number to be saved using \"Add Contact Info\"",
+        "Provide Calendar Time Zone in Booking Bot - Critical"
       ],
-      "summary": "Users want smoother AI-to-human handoff options, such as round-robin routing and handoff after a reply limit, plus more natural message delivery, lead scoring, and better context retention."
+      "summary": "Users want smarter AI conversations: lead scoring, round-robin handoff to humans, more human-like message delivery, better context retention, and correct calendar time zones in booking bots."
     },
     {
       "name": "AI Employee",
@@ -90,7 +90,7 @@
         "We use Grok. Can we have Grok added to the AI Agent LLM model list?",
         "Add Project Management skills to Managed Agents"
       ],
-      "summary": "Users want more control over when the AI agent stops, warm call transfers, broader LLM choices including Grok, existing subscription logins, and expanded agent skills like project management."
+      "summary": "Users want more AI Employee flexibility: warm transfers for voice AI, more LLM options like Grok, subscription-based authentication, clearer pause and workflow controls, and project management skills."
     },
     {
       "name": "AI Studio",
@@ -102,9 +102,9 @@
         "Custom Base Domain with Path-Based Routing for AI Studio Projects",
         "EU GDPR Compliance for AI Studio Websites",
         "AI Studio; live shipping rate integration with AI studio",
-        "AI Studio: restrict the AI agent to specified files, with an approval step before changes"
+        "Add Website Analytics to the Main Dashboard & Enable Shareable Client Reports"
       ],
-      "summary": "Users want AI Studio websites to integrate with GHL and shipping tools, support custom domains and GDPR compliance, and give controlled agent edits with approval steps."
+      "summary": "Users want tighter AI Studio integration: GHL and website building, custom domain routing, EU GDPR compliance, shipping rate integration, and analytics with shareable client reports."
     },
     {
       "name": "Ask AI",
@@ -114,11 +114,11 @@
         "Give Ask AI Access to Workflows, Funnels/Websites, Products, Courses, and more.",
         "Make GHL Meetings a True Zoom Replacement for Coaching Programs and Communities",
         "Let me send multiple messages while Ask AI is thinking (queue and steer the conversation)",
+        "Let the Ask AI side panel access my Projects — open project chats from the purple button, or move a chat into a project",
         "Let Ask AI create and edit email campaigns (not just list them)",
-        "Add a mute/unmute toggle during Ask AI voice conversations",
-        "Add a character counter to the Ask AI project goal field — show the count, turn red over 500, and don't block typing past the limit"
+        "Add a mute/unmute toggle during Ask AI voice conversations"
       ],
-      "summary": "Users want Ask AI to reach more of the platform, including workflows, funnels, products, and courses, to create and edit campaigns, handle multiple messages, and support voice controls."
+      "summary": "Users want Ask AI to do more: access workflows, funnels, products and courses, create and edit email campaigns, use projects, queue messages while it thinks, and mute voice conversations."
     },
     {
       "name": "Voice AI",
@@ -132,7 +132,7 @@
         "AI Voice Agent - Block Spam Callers",
         "Ability to add hand off to human from Live voice chat agent web call"
       ],
-      "summary": "Users want more realistic voice AI, custom voice cloning, embeddable push-to-talk widgets, call summaries and recordings, spam blocking, and human handoff from live web calls."
+      "summary": "Users want more realistic Voice AI with custom cloned voices, embeddable push-to-talk widgets, call summaries and recordings, spam caller blocking, and human handoff during web calls."
     }
   ],
   "changelog": [
@@ -140,11 +140,6 @@
       "title": "Conversation AI now sleeps when your team replies from outside HighLevel",
       "link": "https://ideas.gohighlevel.com/changelog/conversation-ai-now-sleeps-when-your-team-replies-from-outside-highlevel",
       "date": "Wed, 25 Nov 2026 12:17:29 GMT"
-    },
-    {
-      "title": "AI Studio: Choose Which AI Model Builds Each Message",
-      "link": "https://ideas.gohighlevel.com/changelog/ai-studio-choose-which-ai-model-builds-each-message",
-      "date": "Mon, 23 Nov 2026 10:41:26 GMT"
     }
   ]
 }

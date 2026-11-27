@@ -8,7 +8,7 @@ date: "2026-11-14T17:02:46Z"
 score: 5
 guid: "https://www.schneier.com/?p=72935"
 image: ""
-generated: "2026-11-26T13:13:26+05:30"
+generated: "2026-11-27T19:03:37+05:30"
 ---
 
 This is a current list of where and when I am scheduled to speak: I’m speaking at the Catalyst Summit in Brampton, Ontario, Canada, on Wednesday, November 18, 2026. I’m speaking at QT Qonference 2026 in Toronto, Ontario, Canada, on Thursday, November 19, 2026. The list is maintained on this page .

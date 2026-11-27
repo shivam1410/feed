@@ -5,10 +5,10 @@ source: "Simon Willison"
 url: "https://simonwillison.net/2026/Nov/20/levent-alpoge/"
 authors: []
 date: "2026-11-20T16:30:48+00:00"
-score: 60
+score: 85
 guid: "https://simonwillison.net/2026/Nov/20/levent-alpoge/"
 image: ""
-generated: "2026-11-24T19:04:06+05:30"
+generated: "2026-11-27T19:03:37+05:30"
 ---
 
-Mathematician Levent Alpöge says he and Claude have found a proof of the Riemann Hypothesis. He also says the method extends to the Generalized Riemann Hypothesis, and that they formalized the arguments. He credits Claude with pushing past him near the finish line. This is his own claim, and the excerpt does not show outside checking. If it holds up, it would settle one of mathematics' most famous open problems.
+Levent Alpöge says he and Claude found a proof of the Riemann Hypothesis. He says the method easily extends to the Generalized Riemann Hypothesis. They also formalized the arguments with no assumptions. He wrote that Claude far outpaced him near the finish line. This is the author's own claim, shared as a quote. It matters because a famous open problem is now claimed with heavy AI help.
